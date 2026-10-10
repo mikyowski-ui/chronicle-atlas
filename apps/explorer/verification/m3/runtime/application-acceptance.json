@@ -1,0 +1,1711 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "acceptanceScope": "User-approved fixed-fixture application capability and lifecycle profile; not kernel isolation or arbitrary generated code activation.",
+  "environment": {
+    "platform": "linux",
+    "architecture": "x64",
+    "kernel": "6.18.44",
+    "node": "v24.19.0"
+  },
+  "policy": {
+    "version": "m3-application-fixed-v1",
+    "profile": "application-capability-guard",
+    "generatedExecution": false,
+    "modelProcessing": false,
+    "liveServices": false,
+    "requestBytes": 65536,
+    "outputBytes": 4096,
+    "diagnosticBytes": 1024,
+    "rows": 2000,
+    "vmMilliseconds": 100,
+    "wallMilliseconds": 2000,
+    "terminationMilliseconds": 1000,
+    "queue": 1,
+    "workers": 1,
+    "maxOldGenerationSizeMb": 32,
+    "maxYoungGenerationSizeMb": 8,
+    "stackSizeMb": 2,
+    "kernelIsolation": false,
+    "aggregateProcessMemoryLimit": false
+  },
+  "results": [
+    {
+      "fixture": "network",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "3009be769fb8f956e8413ee9f3e0836e34968bc40457d0a10c549d2edcf00cc1",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 41.207779000000016,
+          "terminationMilliseconds": 2.2328310000000045,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 1,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "dom",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "7e6e9877fff0dbcc576df15fd6e6de65a95d6dce6ced8fc47c4cf9dba3484195",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 2,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 35.94160099999999,
+          "terminationMilliseconds": 1.8122669999999914,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 2,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "environment",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 3,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 35.24141900000001,
+          "terminationMilliseconds": 1.0438680000000318,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 3,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "filesystem",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "cbf61858f3260072d96d9b1d2e037fc35824944b9c94d0087b1a53385eccaead",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 4,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 30.29994800000003,
+          "terminationMilliseconds": 1.132064000000014,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 4,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "processes",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "abd4c41da35254768c3202293a378aa62dddbe5d68a9937ef8f4d73266936d86",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 5,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 34.26374599999997,
+          "terminationMilliseconds": 1.1405439999999771,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 5,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "constructor-escape",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "d5af5fe26722467410fe496c0851f1cc15a4089be47f0e8eb1c8b398080cbdab",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 6,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 39.69940299999996,
+          "terminationMilliseconds": 1.4430739999999673,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 6,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "prototype-pollution",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "7b457ac5cafbd891658b09c5161749dd6b6d304fccba21c99b1cad403d84f988",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 7,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 34.494286999999986,
+          "terminationMilliseconds": 1.1025730000000067,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 7,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "unauthorized-call",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "3cf82c283c286b453e584c2c11640c1c9e5390491589b348128391bef587c4ad",
+          "resultHash": "e0d00ea1ce62307cfff7d514246a9407809181fc2622946d82b7bd9d134c73ca",
+          "generation": 8,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 35.04308299999997,
+          "terminationMilliseconds": 1.1859760000000392,
+          "outputBytes": 26,
+          "diagnosticBytes": 0,
+          "threadId": 8,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "infinite-loop",
+      "status": "PASS",
+      "outcome": {
+        "code": "EXECUTION_TIMEOUT",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 9,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 137.26662000000005,
+          "terminationMilliseconds": 1.4003420000000233,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 9,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "memory-flood",
+      "status": "PASS",
+      "outcome": {
+        "code": "MEMORY_LIMIT",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "88377e62a96e6aa4524ed71a8ac9f38640e962b16effbb826b604aa5e4b35a61",
+          "resultHash": null,
+          "generation": 10,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 105.16706299999998,
+          "terminationMilliseconds": 0.10089799999991556,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 10,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "output-flood",
+      "status": "PASS",
+      "outcome": {
+        "code": "OUTPUT_LIMIT",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "d50484deb0fdfc6dc9797e7d067107c9662988d4884026d088243ffac8a65604",
+          "resultHash": null,
+          "generation": 11,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 33.47253599999999,
+          "terminationMilliseconds": 1.2942279999999755,
+          "outputBytes": 8192,
+          "diagnosticBytes": 0,
+          "threadId": 11,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "diagnostic-flood",
+      "status": "PASS",
+      "outcome": {
+        "code": "DIAGNOSTIC_LIMIT",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "0ff10f33b386f36b0e01c2a5d348fa20a5d2ae0d949652a55ca158f4eff423fa",
+          "resultHash": null,
+          "generation": 12,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 41.797446000000036,
+          "terminationMilliseconds": 2.032167999999956,
+          "outputBytes": 0,
+          "diagnosticBytes": 2560,
+          "threadId": 12,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "malformed-output",
+      "status": "PASS",
+      "outcome": {
+        "code": "DUPLICATE_KEY",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "32e2e1217dbe3e21747081abe2ec770beb8c5261accf0785aab847d96769e727",
+          "resultHash": null,
+          "generation": 13,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 32.18253500000003,
+          "terminationMilliseconds": 1.2599810000000389,
+          "outputBytes": 23,
+          "diagnosticBytes": 0,
+          "threadId": 13,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "markup-output",
+      "status": "PASS",
+      "outcome": {
+        "code": "INVALID_SCHEMA",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "d5e4324edd5fd886c8371b36787b735a0f4e6f568a410d71a08db249d17487de",
+          "resultHash": null,
+          "generation": 14,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 34.57825100000002,
+          "terminationMilliseconds": 1.1515520000000379,
+          "outputBytes": 40,
+          "diagnosticBytes": 0,
+          "threadId": 14,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "forged-output",
+      "status": "PASS",
+      "outcome": {
+        "code": "INVALID_SCHEMA",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "f853a54a6abaa98afa695de93211f811306974641d8b5049aa392f981f2355cc",
+          "resultHash": null,
+          "generation": 15,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 35.30497500000001,
+          "terminationMilliseconds": 1.2380000000000564,
+          "outputBytes": 35,
+          "diagnosticBytes": 0,
+          "threadId": 15,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "crash",
+      "status": "PASS",
+      "outcome": {
+        "code": "BOUNDARY_CRASH",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "cdb2e0d0f873ce5326e87cf7dec48de8da3043cfc950a7eba05a059150e873f5",
+          "resultHash": null,
+          "generation": 16,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 32.740159999999946,
+          "terminationMilliseconds": 1.1663760000000138,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 16,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "partial-output",
+      "status": "PASS",
+      "outcome": {
+        "code": "INVALID_JSON",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "4a550587be99b1e7e6fd81394c45c3ecf37978d462d34f88276b655e1f0ca41d",
+          "resultHash": null,
+          "generation": 17,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 34.41900399999997,
+          "terminationMilliseconds": 1.035953999999947,
+          "outputBytes": 1,
+          "diagnosticBytes": 0,
+          "threadId": 17,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "independently-validated-synthetic-transform",
+      "status": "PASS",
+      "outcome": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 18,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 32.56378700000005,
+          "terminationMilliseconds": 1.0303349999999227,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 18,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    },
+    {
+      "fixture": "permission-revocation-before-activation",
+      "status": "PASS",
+      "outcome": {
+        "code": "FIELD_PERMISSION_DENIED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": null,
+          "generation": 19,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 41.61483399999997,
+          "terminationMilliseconds": 1.9431079999999383,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 19,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "code": "SUPERSEDED",
+      "receipt": {
+        "profile": "application-capability-guard",
+        "policy": "m3-application-fixed-v1",
+        "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+        "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+        "resultHash": null,
+        "generation": 20,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 25.97269600000004,
+        "terminationMilliseconds": 6.082743000000164,
+        "outputBytes": 0,
+        "diagnosticBytes": 0,
+        "threadId": 20,
+        "exitCode": 0,
+        "cleanupVerified": true,
+        "generatedExecution": false,
+        "modelProcessing": false,
+        "kernelIsolation": false
+      }
+    },
+    {
+      "code": "SUPERSEDED"
+    },
+    {
+      "code": "OK",
+      "result": {
+        "schema": 1,
+        "count": 2,
+        "sum": 5
+      },
+      "receipt": {
+        "profile": "application-capability-guard",
+        "policy": "m3-application-fixed-v1",
+        "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+        "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+        "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+        "generation": 22,
+        "parentRevision": "synthetic-revision-1",
+        "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+        "wallMilliseconds": 38.484022000000095,
+        "terminationMilliseconds": 1.228774999999814,
+        "outputBytes": 30,
+        "diagnosticBytes": 0,
+        "threadId": 21,
+        "exitCode": 1,
+        "cleanupVerified": true,
+        "generatedExecution": false,
+        "modelProcessing": false,
+        "kernelIsolation": false
+      }
+    }
+  ],
+  "latestWins": true,
+  "cycles": [
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.429797000000008,
+          "terminationMilliseconds": 1.8593720000001213,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 22,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 31.957930000000033,
+          "terminationMilliseconds": 0.9440790000001016,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 23,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.614787999999862,
+          "terminationMilliseconds": 2.1329070000001593,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 24,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 35.11515600000007,
+          "terminationMilliseconds": 1.5124849999999697,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 25,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 7.773273000000017,
+          "terminationMilliseconds": 2.5108229999998457,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 26,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 30.766863000000058,
+          "terminationMilliseconds": 1.0140530000001036,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 27,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.429745000000139,
+          "terminationMilliseconds": 1.9544049999999515,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 28,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 38.78909199999998,
+          "terminationMilliseconds": 2.069528999999875,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 29,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 9.600495000000137,
+          "terminationMilliseconds": 6.052269000000024,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 30,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 35.525560999999925,
+          "terminationMilliseconds": 1.1196399999998903,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 31,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.463897000000088,
+          "terminationMilliseconds": 1.9757190000000264,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 32,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 34.55910599999993,
+          "terminationMilliseconds": 1.8976439999999002,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 33,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.76700199999982,
+          "terminationMilliseconds": 2.3271819999999934,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 34,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 33.104876000000104,
+          "terminationMilliseconds": 1.1612390000000232,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 35,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.03805199999988,
+          "terminationMilliseconds": 1.6305890000001,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 36,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 32.40436399999999,
+          "terminationMilliseconds": 0.9984190000000126,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 37,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.409220000000005,
+          "terminationMilliseconds": 2.1015520000000834,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 38,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 39.866183999999976,
+          "terminationMilliseconds": 1.2651160000000345,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 39,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 7.467593999999963,
+          "terminationMilliseconds": 2.914944999999989,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 40,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 37.763418,
+          "terminationMilliseconds": 2.977006000000074,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 41,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.982833999999912,
+          "terminationMilliseconds": 2.4357400000001235,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 42,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 37.679996000000074,
+          "terminationMilliseconds": 1.2250030000000152,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 43,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.813073999999915,
+          "terminationMilliseconds": 1.3296940000000177,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 44,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 33.26086499999997,
+          "terminationMilliseconds": 1.0092829999998685,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 45,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.737247000000025,
+          "terminationMilliseconds": 1.204399000000194,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 46,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 33.547603999999865,
+          "terminationMilliseconds": 1.082349000000022,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 47,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 12.489626000000044,
+          "terminationMilliseconds": 8.024197000000186,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 48,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 32.257474,
+          "terminationMilliseconds": 1.0547320000000582,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 49,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.776851999999963,
+          "terminationMilliseconds": 2.243534999999838,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 50,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 32.32526700000017,
+          "terminationMilliseconds": 0.9579019999998764,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 51,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 7.37715900000012,
+          "terminationMilliseconds": 2.8688939999999548,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 52,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 36.93436799999995,
+          "terminationMilliseconds": 0.9178400000000693,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 53,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 5.805114000000003,
+          "terminationMilliseconds": 1.3923239999999169,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 54,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 31.73337700000002,
+          "terminationMilliseconds": 0.972440000000006,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 55,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.228522999999996,
+          "terminationMilliseconds": 1.846608999999944,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 56,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 34.19075100000009,
+          "terminationMilliseconds": 1.2110569999999825,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 57,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 7.623483999999962,
+          "terminationMilliseconds": 2.2268350000001647,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 58,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 32.0600629999999,
+          "terminationMilliseconds": 1.1221140000000105,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 59,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    },
+    {
+      "cancel": {
+        "code": "SUPERSEDED",
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "resultHash": null,
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 6.103181999999833,
+          "terminationMilliseconds": 1.7584560000000238,
+          "outputBytes": 0,
+          "diagnosticBytes": 0,
+          "threadId": 60,
+          "exitCode": 0,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "next": {
+        "code": "OK",
+        "result": {
+          "schema": 1,
+          "count": 2,
+          "sum": 5
+        },
+        "receipt": {
+          "profile": "application-capability-guard",
+          "policy": "m3-application-fixed-v1",
+          "runtimeHash": "399662ef750c0c5251b742ec886589609cf8d1d8d5a3a950d80f31788d4b344f",
+          "inputHash": "ddf629bf3d176cc8e0cfee1ef493b380cfa0ab0fb39d10434a105b3d877b5839",
+          "resultHash": "f9a5ac19a9e084d690c808d00698e780183ea1d8fe50e7da700a0185685803a7",
+          "generation": 3,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "3acb949b89bcea17623aa386ee869eaf83b0f80dfdbad959e7f9aa419a6e0777",
+          "wallMilliseconds": 34.93235700000014,
+          "terminationMilliseconds": 1.622869000000037,
+          "outputBytes": 30,
+          "diagnosticBytes": 0,
+          "threadId": 61,
+          "exitCode": 1,
+          "cleanupVerified": true,
+          "generatedExecution": false,
+          "modelProcessing": false,
+          "kernelIsolation": false
+        }
+      },
+      "disposed": true
+    }
+  ],
+  "cleanup": true,
+  "maxima": {
+    "wallMilliseconds": 137.26662000000005,
+    "terminationMilliseconds": 8.024197000000186,
+    "outputBytes": 8192,
+    "diagnosticBytes": 2560
+  },
+  "generatedExecution": false,
+  "liveServices": false,
+  "modelProcessing": false,
+  "limitations": [
+    "node:vm is not a security mechanism for arbitrary hostile code; only reviewed fixed snippets are admitted.",
+    "Worker resourceLimits bound V8 heap/stack, not process RSS or arbitrary external allocations. Typed-array/ArrayBuffer/DataView globals are removed in the fixed VM profile.",
+    "No kernel network/filesystem denial or packet-capture certification is claimed. The stronger optional native profile remains unavailable when bootstrap controls fail.",
+    "The application parser bounds result bytes/depth/nodes; it does not claim an independent 64MiB native validator acceptance."
+  ],
+  "references": [
+    "https://nodejs.org/download/release/v24.19.0/docs/api/vm.html",
+    "https://nodejs.org/download/release/v24.19.0/docs/api/worker_threads.html"
+  ]
+}

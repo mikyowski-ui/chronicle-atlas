@@ -1,0 +1,46 @@
+{
+  "statistics": {
+    "historicalInputRows": 10352,
+    "historicalPlaces": 1718,
+    "unCitiesWithEstimatesThrough2025": 13191,
+    "unAnnualEstimatesInSource": 439711,
+    "unCheckpointsImported": 98495,
+    "futureOnlyRowsExcluded": 3637,
+    "alignedCityIdentities": 1146,
+    "cityCount": 13763,
+    "selectedPopulationEstimates": 108064,
+    "cityYearsWithAlternativeValues": 730,
+    "quarantinedRows": 25,
+    "earliestAstronomicalYear": -3699,
+    "latestYear": 2025
+  },
+  "inputs": [
+    {
+      "file": "alldata.csv",
+      "sha256": "cc3f105d811003e704d7b3de41b039da5b9444b0f95abbade08d144043f7b81a",
+      "bytes": 734622
+    },
+    {
+      "file": "modelskiAncient.csv",
+      "sha256": "57bbec013732eec303262fe19b94d003f828889db85d3ca8d21a93bc435792aa",
+      "bytes": 16613
+    },
+    {
+      "file": "modelskiModern.csv",
+      "sha256": "287d71afac9714fe2a4def7d1651b4c25e954629c8731b65522c299203fa3916",
+      "bytes": 14775
+    },
+    {
+      "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+      "sha256": "3a96030d87aec6c1c50f658d5321067d6345e1ab936c5d2854524f972caa75c0",
+      "bytes": 10671837
+    }
+  ],
+  "output": {
+    "file": "cities.json",
+    "sha256": "ebc9a6ef20b1edfa3c957995b17e57c4b061a6ad89727ff1a2e0ac0983b53be5",
+    "bytes": 15243102
+  },
+  "mirror": "https://github.com/fasiha/Historical-Urban-Population-Growth-Data/tree/808ff2b4a279013f58621a3696cb9c28058c6af1",
+  "officialModernSource": "https://population.un.org/wup/assets/Download/Cities/WUP2025-F21-DEGURBA-Cities_Pop.xlsx"
+}

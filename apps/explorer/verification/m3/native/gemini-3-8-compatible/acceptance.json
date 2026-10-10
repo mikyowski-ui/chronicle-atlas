@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "status": "FAIL",
+  "reason": "PROVIDER_FAILURE",
+  "startedAt": "2026-10-08T04:29:09.318Z",
+  "environment": {
+    "platform": "win32",
+    "architecture": "x64",
+    "kernel": "10.0.26200",
+    "node": "v22.17.0"
+  },
+  "model": "gemini-3.8-flash",
+  "optedIn": true,
+  "dataClass": "synthetic-fixture",
+  "historicalModelProcessing": false,
+  "credentialSetup": {
+    "key": "GEMINI_API_KEY",
+    "source": "source-root-dotenv",
+    "encoding": "utf-8",
+    "sourceEnvCreated": false
+  },
+  "budgets": {
+    "maximumRequests": 2,
+    "aggregateReservedTokenCeiling": 40448,
+    "timeoutMsPerRequest": 10000,
+    "repairs": 0,
+    "toolCalls": 0
+  },
+  "checks": [
+    {
+      "name": "live-inference-and-schema-conformance",
+      "status": "FAIL",
+      "code": "PROVIDER_FAILURE",
+      "httpStatus": 400,
+      "upstreamReason": "INVALID_ARGUMENT"
+    },
+    {
+      "name": "historical-processing-defaults-unchanged",
+      "status": "PASS"
+    }
+  ],
+  "requests": 1,
+  "reportedUsage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "thoughtTokens": 0,
+    "totalTokens": 0
+  },
+  "unrefundedFailedAttempts": 1,
+  "accountingTokensCharged": 24192,
+  "tokenAccounting": "Provider-reported usage is separate from conservative byte-based reservation charges. Missing usage for an attempted request is unknown, not proof of zero billing. Cancellation does not prove server-side generation stopped.",
+  "disclosure": "No credentials, prompts, source records, raw model output or provider error bodies are recorded. Historical permissions are never mutated.",
+  "finishedAt": "2026-10-08T04:29:16.027Z"
+}

@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment files
+.env
+.env.*
+!.env.example
+/gem.env
+
+# Build outputs & runtime
+/.sites-runtime/
+/apps/mechanism-explorer/dist/
+dist/
+
+# Logs & OS metadata
+*.log
+.DS_Store
+Thumbs.db

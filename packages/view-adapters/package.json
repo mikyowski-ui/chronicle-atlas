@@ -1,0 +1,22 @@
+{
+  "name": "@chronicle/view-adapters",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./mechanism": "./src/mechanism.ts",
+    "./evidence": "./src/evidence.ts",
+    "./visualization": "./src/visualization.ts",
+    "./visualization-client": "./src/visualization-client.ts",
+    "./hud": "./src/hud.ts",
+    "./hud-state": "./src/hud-contract.ts",
+    "./spatial": "./src/spatial-overlay.ts",
+    "./maplibre": "./src/maplibre.ts",
+    "./canvas": "./src/canvas.ts",
+    "./hud.css": "./src/hud.css",
+    "./styles.css": "./src/styles.css",
+    "./mechanism.css": "./src/mechanism.css"
+  },
+  "dependencies": { "@chronicle/contracts": "workspace:0.1.0", "@chronicle/runtime": "workspace:0.1.0" }
+}

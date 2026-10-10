@@ -1,0 +1,211 @@
+- banner:
+  - strong: Chronicle
+  - generic: EXPLORER · BETA
+- main:
+  - generic "Interactive temporal atlas":
+    - generic "Territory map. Drag to pan, plus and minus to zoom, up and down to pan, left and right to step observations, Space to play or pause."
+    - button "Zoom in": +
+    - button "Zoom out": −
+  - generic "ⓘAbout this map"
+  - generic: ⌕
+  - searchbox "Search states and cities"
+  - button "Explore"
+  - button "Studies"
+  - button "Layers"
+  - button "Open diagnostics": ···
+  - complementary "Selected historical entity":
+    - button "Clear selection": ×
+    - paragraph: Browsing 2000-01-01 CE
+    - paragraph: Map observation · 2000 CE
+    - paragraph: Selected historical entity
+    - heading "France" [level=2]
+    - paragraph: Political association
+    - generic "Dated quantitative information":
+      - term: Approximate mapped footprint
+      - definition: 552,305 km²
+      - paragraph: Source-vector area; approximate, not a sovereignty measurement.
+    - button "Explore its timeline"
+    - generic "Sources & interpretation"
+    - paragraph: Source-attributed overview · not independently corroborated
+    - paragraph: The source associates this area with a political entity. This does not establish universal or exclusive sovereignty.
+    - paragraph: Historical boundaries of world countries and cultural regions · André Ourednik and Historical Basemaps contributors; documented classification and display compilation by Chronicle
+    - paragraph: "Map precision: year."
+    - paragraph: Date-scoped exact semantic mapping of this source label as a political or administrative association. It is not a claim of independent sovereignty, effective control, governmental structure, boundary accuracy or continuous identity between observations.
+    - button "Inspect map evidence"
+    - paragraph: Map edition · global-history-world_2000-da7a4b7-global-basemap-semantics-v3
+    - heading "About this atlas entry" [level=3]
+    - paragraph: France is represented as a political or administrative association in 25 dated atlas observations (1,279 CE through 2,010 CE). This classification does not establish independent sovereignty, a uniform government, or effective control throughout the colored area.
+    - paragraph: These are separate map observations. The earliest and latest dates are not foundation and dissolution dates, and gaps do not prove disappearance. Matching names across maps are a browsing index, not proof of uninterrupted identity.
+    - button "Read state study & sources"
+  - text: − + + + + + + + + + + + + + + + + + + +
+  - region "Evidence and methodology":
+    - generic: BEHIND THE MAP
+    - button "Close evidence" [active]: ×
+    - heading "Evidence & methodology" [level=2]
+    - paragraph: France · 2000 CE
+    - heading "Historical boundaries of world countries and cultural regions" [level=3]
+    - link "Inspect source":
+      - /url: https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_2000.geojson
+    - paragraph: "Edition: overview:da7a4b7:world_2000.geojson"
+    - paragraph: "Valid time: 2000 CE to 2001 CE (end exclusive). Nominal year observation; no exact beginning or end is asserted."
+    - paragraph: "Recorded from: 2026-09-23T00:00:00.000Z"
+    - paragraph: "Recorded to: open in this candidate edition"
+    - paragraph: "Source precision: year. BCE civil year maps to1−year astronomical numbering; no intervening coverage."
+    - paragraph: Nominal 2000 CE source observation; annual search envelope, not exact onset or cessation.
+    - generic "Full temporal uncertainty"
+    - generic "1 assertion references"
+    - heading "Methodology" [level=4]
+    - paragraph: Date-scoped exact semantic mapping of this source label as a political or administrative association. It is not a claim of independent sovereignty, effective control, governmental structure, boundary accuracy or continuous identity between observations.
+    - paragraph: Separate direct-source vectors; immutable audit cells and ledger unchanged. Full normalized source longitude/latitude and holes in Canvas; optional altitude omitted from two-dimensional display and polar latitude clamped at the Web Mercator limit, with exact originals archived; cartographic tile simplification only at zooms0–4. No temporal interpolation, no inferred intervening validity.
+    - paragraph: Typed political source attribution; political association does not certify sovereignty or effective control.
+    - paragraph: PARTOF/SUBJECTO remain uninterpreted original source properties.
+    - heading "Precision & limitations" [level=4]
+    - paragraph: Source-attributed overview, not independent historical certification.
+    - paragraph: No inferred government institutions, control, population or settlement identity.
+    - paragraph: Snapshot year only; unsupported intervening dates remain gaps or explicitly dated reference maps.
+    - paragraph: Source boundary precision is heterogeneous; small components may be subpixel in low-zoom tiles.
+    - heading "Rights & attribution" [level=4]
+    - paragraph: GPL-3.0
+    - paragraph: André Ourednik and Historical Basemaps contributors; documented classification and display compilation by Chronicle
+    - heading "Approximate mapped footprint" [level=3]
+    - paragraph: Approximate source display footprint, not sovereign territory or independently reviewed historical area.
+    - paragraph: Offline longitude-unwrapped polygon union removes overlapping/duplicate parts; GeographicLib 2.2.0 WGS84 geodesic exterior area minus holes. Input is the complete untiled retained display product, including its existing Mercator polar limit. Ring winding that cannot be represented unambiguously is unavailable. Rounded to whole square kilometres; source precision is much coarser. Regional rows cover only the Isles/Channel clipping window. No runtime intersections or population inference.
+    - paragraph: "Geometry SHA-256: 4811acfba65ab66db77aacfe95d134586630626b4d33ba716eac2ae669e62be5"
+  - region "Historical timeline":
+    - button "Play timeline":
+      - generic: ▶
+    - generic: BROWSING
+    - strong: 2000 CE
+    - status: Paused
+    - generic: 1 year / second
+    - generic: Observation 2000 CE
+    - region "Historical timeline":
+      - button "Zoom timeline out": −
+      - button "Zoom timeline in": +
+      - button "All eras"
+      - button "Center timeline on current date": ⌖
+      - slider "Browse historical time"
+      - generic: 900 CE
+      - generic: 1000 CE
+      - generic: 1100 CE
+      - generic: 1200 CE
+      - generic: 1300 CE
+      - generic: 1400 CE
+      - generic: 1500 CE
+      - generic: 1600 CE
+      - generic: 1700 CE
+      - generic: 1800 CE
+      - generic: 1900 CE
+      - generic: 2000 CE
+      - generic "Source observations":
+        - button "Source observation · 900 CE"
+        - button "Source observation · 1000 CE"
+        - button "Source observation · 1100 CE"
+        - button "Source observation · 1200 CE"
+        - button "Source observation · 1279 CE"
+        - button "Source observation · 1300 CE"
+        - button "Source observation · 1400 CE"
+        - button "Source observation · 1492 CE"
+        - button "Source observation · 1500 CE"
+        - button "Source observation · 1530 CE"
+        - button "Source observation · 1600 CE"
+        - button "Source observation · 1650 CE"
+        - button "Source observation · 1700 CE"
+        - button "Source observation · 1715 CE"
+        - button "Source observation · 1783 CE"
+        - button "Source observation · 1800 CE"
+        - button "Source observation · 1815 CE"
+        - button "Source observation · 1878 CE"
+        - button "Source observation · 1900 CE"
+        - button "Source observation · 1914 CE"
+        - button "Source observation · 1930 CE"
+        - button "Source observation · 1938 CE"
+        - button "Source observation · 1945 CE"
+        - button "Source observation · 1960 CE"
+        - button "Source observation · 1994 CE"
+        - button "Source observation · 2010 CE"
+      - generic "Researched historical events":
+        - button "2 nearby historical events · 836 CE · Court moves to Samarra. Open event list."
+        - 'button "c. 850 CE · Chimú kingdom: period begins"'
+        - 'button "2 nearby historical events · c. 880 CE · Chola dynasty · imperial period: period begins. Open event list."'
+        - button "3 nearby historical events · 907 CE · Tang dynasty ends. Open event list."
+        - button "935 CE · End of Silla rule"
+        - 'button "5 nearby historical events · 960 CE · Song dynasty: period begins. Open event list."'
+        - button "1010 CE · Thanjavur temple completed"
+        - button "2 nearby historical events · 1025 CE · Chola attacks on Srivijayan centres. Open event list."
+        - 'button "2 nearby historical events · c. 1,040 CE · Great Seljuq realm: period begins. Open event list."'
+        - button "2 nearby historical events · 1054 CE · Đại Việt name adopted. Open event list."
+        - 'button "c. 1,081 CE · Seljuq Sultanate of Rum: period begins"'
+        - 'button "3 nearby historical events · c. 1,100 CE · Zimbabwe state at Great Zimbabwe: period begins. Open event list."'
+        - button "1127 CE · Song court moves south"
+        - button "2 nearby historical events · 1185 CE · Warrior government develops. Open event list."
+        - 'button "4 nearby historical events · c. 1,200 CE · Kingdom of Benin: period begins. Open event list."'
+        - button "5 nearby historical events · 1227 CE · Mongol conquest ends the dynasty. Open event list."
+        - button "3 nearby historical events · 1243 CE · Mongol overlordship. Open event list."
+        - button "5 nearby historical events · 1258 CE · Baghdad captured. Open event list."
+        - button "2 nearby historical events · 1279 CE · Mongol conquest completed. Open event list."
+        - button "3 nearby historical events · 1295 CE · Ghazan adopts Islam. Open event list."
+        - button "3 nearby historical events · 1333 CE · Kamakura regime overthrown. Open event list."
+        - 'button "2 nearby historical events · c. 1,350 CE · Ayutthaya kingdom: period begins. Open event list."'
+        - 'button "5 nearby historical events · 1,368 CE · Ming dynasty: period begins. Open event list."'
+        - button "6 nearby historical events · 1382 CE · Burji period begins. Open event list."
+        - button "3 nearby historical events · 1400 CE · Đại Việt name interrupted. Open event list."
+        - 'button "4 nearby historical events · 1,428 CE · Mexica Triple Alliance: period begins. Open event list."'
+        - button "4 nearby historical events · 15th century CE · Royal center shifts. Open event list."
+        - 'button "3 nearby historical events · c. 1,464 CE · Songhai Empire: period begins. Open event list."'
+        - button "1483 CE · Atlantic diplomatic contact"
+        - button "5 nearby historical events · c. 1500 CE · Regional center shifts. Open event list."
+        - button "4 nearby historical events · 1517 CE · Ottoman conquest of Egypt. Open event list."
+        - button "3 nearby historical events · 1533 CE · Main imperial center lost. Open event list."
+        - button "2 nearby historical events · 1555 CE · Mughal restoration. Open event list."
+        - button "2 nearby historical events · 1569 CE · Union of Lublin. Open event list."
+        - button "7 nearby historical events · 1591 CE · Moroccan invasion. Open event list."
+        - button "c. 1610 CE · Recovery of Old Oyo"
+        - button "3 nearby historical events · c. 1625 CE · Abomey’s royal sequence begins. Open event list."
+        - button "5 nearby historical events · 1644 CE · Main imperial court falls. Open event list."
+        - button "2 nearby historical events · 1660 CE · Restoration. Open event list."
+        - button "5 nearby historical events · c. 1695 CE · Reduced dynastic territories. Open event list."
+        - button "3 nearby historical events · 1722 CE · Isfahan falls. Open event list."
+        - button "2 nearby historical events · 1736 CE · Dynasty replaced. Open event list."
+        - button "2 nearby historical events · c. 1750 CE · Regional imperial power. Open event list."
+        - button "2 nearby historical events · 1767 CE · Ayutthaya destroyed. Open event list."
+        - button "5 nearby historical events · 1789 CE · Bastille. Open event list."
+        - button "7 nearby historical events · 1804 CE · Việt Nam name adopted. Open event list."
+        - 'button "6 nearby historical events · 1,818 CE · Chile: period begins. Open event list."'
+        - button "5 nearby historical events · 1832 CE · Last principality annexed. Open event list."
+        - button "2 nearby historical events · 1858 CE · Last emperor removed. Open event list."
+        - button "2 nearby historical events · 1874 CE · Kumasi invaded and looted. Open event list."
+        - button "12 nearby historical events · 1888 CE · Slavery abolished. Open event list."
+        - button "8 nearby historical events · 1902 CE · Chioko dies resisting Portuguese expansion. Open event list."
+        - button "1922 CE · Sultanic rule ends"
+        - button "2 nearby historical events · 1970 CE · British protection ends. Open event list."
+        - button "2 nearby historical events · 1986 CE · Duvalier rule ends. Open event list."
+        - button "2010 CE · Parliament chooses the prime minister"
+      - generic: 2000 CE
+      - text: Source observations
+      - text: Historical events
+      - generic: Hover or focus nodes · tap for sources · drag to explore · scroll to zoom
+    - generic "Date & playback settings"
+    - generic: Year (− = BCE)
+    - spinbutton "Requested year": "2000"
+    - generic: CE
+    - generic "Playback speed":
+      - button "Playback speed 1": "1"
+      - button "Playback speed 2": "2"
+      - button "Playback speed 3" [pressed]: "3"
+      - button "Playback speed 4": "4"
+      - button "Playback speed 5": "5"
+    - text: Playback
+    - combobox "Playback":
+      - option "Continuous time" [selected]
+      - option "Observation tour"
+    - generic: 2000-01-01 CE
+    - button "Previous day": −1 day
+    - textbox "Exact requested date":
+      - /placeholder: 1050-01-01 CE
+      - text: 2000-01-01 CE
+    - button "Go"
+    - button "Next day": +1 day
+    - paragraph: Navigation dates use the proleptic Gregorian calendar. Source precision is unchanged.
+    - status: Source observation ready
+    - generic: 49 world observations · 31 Isles · dated source maps · 1 review / 1 quarantine

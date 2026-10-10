@@ -1,0 +1,21 @@
+{
+  "budget_id": "population-detail-v1",
+  "frozen_before_acquisition": true,
+  "workers": 1,
+  "max_rss_bytes": 536870912,
+  "max_new_input_bytes": 67108864,
+  "max_dataset_archives": 2,
+  "max_output_bytes": 8388608,
+  "observations": [
+    1910,
+    1950,
+    2000,
+    2010
+  ],
+  "output_grid_degrees": 2,
+  "no_interpolation": true,
+  "no_inferred_routes": true,
+  "source": "ISIMIP3a population histsoc 30arcmin annual 1901\u20132021, v1.4/20260807",
+  "max_output_cells_per_observation": 16200,
+  "grid_revision_before_compilation": "Parent approved two-degree cell aggregation before processing, 2026-09-26"
+}

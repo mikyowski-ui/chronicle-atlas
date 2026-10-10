@@ -1,0 +1,1755 @@
+{
+  "schemaVersion": 1,
+  "title": "Networks of exchange: dated teaching corridors",
+  "authored": "2026-09-27",
+  "yearConvention": "Historical signed years; negative values are BCE; no year zero.",
+  "methodology": "Every line is newly authored schematic geography joining places or regions discussed in the cited sources. It is not surveyed, navigable, quantitative, a frontier, or proof of a direct journey. From/to years select a useful study period inside the evidence's broader chronology and do not assert exact start or end dates. Disease and crop connections represent particularly uncertain pathways. Show source links and feature limitations alongside the map. Lines are undirected unless directional is explicitly true; the two paper examples show broad documented westward diffusion, not exact workshop itineraries.",
+  "sources": [
+    {
+      "id": "exchange-unesco-tianshan",
+      "title": "Silk Roads: the Routes Network of Chang'an–Tianshan Corridor",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1442",
+      "kind": "institutional synthesis",
+      "notes": "Archaeological corridor statement; explicitly describes multiple branches, religious exchange and dependence on water management.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-unesco-zarafshan",
+      "title": "Silk Roads: Zarafshan–Karakum Corridor",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1675",
+      "kind": "institutional synthesis",
+      "notes": "Documents a long-lived Central Asian corridor and several distinct periods of prosperity; not a continuously uniform traffic series.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-met-sahara",
+      "title": "The Trans-Saharan Gold Trade (7th–14th Century)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century",
+      "kind": "museum scholarship",
+      "notes": "Regional history of changing gold and salt networks; this dataset does not adopt the article's compressed political-collapse narrative.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-berkeley-mali",
+      "title": "Journey to Mali: 1350–1351",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/journey-mali-1350-1351",
+      "kind": "university teaching synthesis",
+      "notes": "Page heading is 1350–1351, but its narrated Saharan crossing is February–April 1352. Follows Ibn Battuta through modern scholarship; traveler biases require critical reading.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-unesco-djenne",
+      "title": "Old Towns of Djenné",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/116/",
+      "kind": "institutional synthesis",
+      "notes": "Documents Djenné's relationship to trans-Saharan commerce and the Niger inland delta.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-unesco-djenne-river",
+      "title": "Djenné, City of Clay",
+      "publisher": "UNESCO Multimedia Archives",
+      "url": "https://www.unesco.org/archives/multimedia/document-89",
+      "kind": "institutional interpretation",
+      "notes": "Explicitly links Djenné's prosperity to river connections with Timbuktu; route geometry here is newly drawn.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-iranica-hormuz",
+      "title": "HORMUZ ii. Islamic Period",
+      "publisher": "Encyclopaedia Iranica; Willem M. Floor",
+      "url": "https://www.iranicaonline.org/articles/hormuz-ii/",
+      "kind": "scholarly reference",
+      "notes": "Documents old/new Hormuz, dependencies and visitors including Abd al-Razzaq in 1442; distinguishes trade from territorial rule.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-iranica-oman",
+      "title": "SEA OF OMAN",
+      "publisher": "Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/oman-sea-of/",
+      "kind": "scholarly reference",
+      "notes": "Describes Omani provisioning ports, changing relative importance and maritime connections with India.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-berkeley-india",
+      "title": "Escape from Delhi to the Maldive Islands and Sri Lanka: 1341–1344",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "url": "https://orias.berkeley.edu/node/172",
+      "kind": "university teaching synthesis",
+      "notes": "Uses Ibn Battuta's account to connect Cambay, Gandhar, Calicut and the Maldives; individual journeys are not schedules for all merchants.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-nova-calicut",
+      "title": "Calicute",
+      "publisher": "NOVA University Lisbon, Encyclopaedia of Portuguese Expansion; José Luís Ferreira",
+      "url": "https://eve.fcsh.unl.pt/en/places/calicute",
+      "kind": "scholarly reference",
+      "notes": "Studies Calicut's commercial rise and the Muslim merchant communities operating within a Hindu-ruled port.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-hall-melaka",
+      "title": "Introduction: Asian Maritime Networking Centered in Fifteenth Century Melaka",
+      "publisher": "Journal of the Economic and Social History of the Orient; Kenneth R. Hall",
+      "url": "https://brill.com/view/journals/jesh/65/3/article-p325_1.xml?language=en",
+      "kind": "research article",
+      "notes": "2022, volume 65, pp. 325–343; DOI 10.1163/15685209-12341569. Publisher text indexed, direct page presents a browser challenge; alternative DOI remains https://doi.org/10.1163/15685209-12341569.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-unesco-kilwa",
+      "title": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/144/",
+      "kind": "institutional synthesis",
+      "notes": "Archaeology of Swahili ports and Indian Ocean exchange; does not make the coast an overseas colony.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-berkeley-east-africa",
+      "title": "The Red Sea to East Africa and the Arabian Sea: 1328–1330",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/red-sea-east-africa-and-arabian-sea-1328-1330",
+      "kind": "university teaching synthesis",
+      "notes": "Discusses seasonality, goods, local African communities, Islam and Ibn Battuta's journey. Travel-account descriptions are partial and socially situated.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-galileo-venice",
+      "title": "The Trade Routes",
+      "publisher": "Museo Galileo, Fra Mauro exhibition",
+      "url": "https://mostre.museogalileo.it/framauro/en/historical-context-m/venice-in-the-era-of-fra-mauro/the-trade-routes.html",
+      "kind": "museum scholarship",
+      "notes": "Identifies Alexandria among Venice's principal maritime galley routes.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-met-venice",
+      "title": "Venice and the Islamic World: Commercial Exchange, Diplomacy, and Religious Difference",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/de/essays/commercial-exchange-diplomacy-and-religious-difference-between-venice-and-the-islamic-world",
+      "kind": "museum scholarship",
+      "notes": "Discusses merchant colonies and negotiation across religious difference.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-unesco-quanzhou",
+      "title": "Quanzhou: Emporium of the World in Song–Yuan China",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1561",
+      "kind": "institutional synthesis",
+      "notes": "Documents 10th–14th-century maritime exchange, port infrastructure, production sites and religious diversity.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-berkeley-china",
+      "title": "Through the Strait of Malacca to China: 1345–1346",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "url": "https://orias.berkeley.edu/resources-teachers/travels-ibn-battuta/journey/through-strait-malacca-china-1345-1346",
+      "kind": "university teaching synthesis",
+      "notes": "Travel narrative connecting the Sumatra straits and Chinese ports; China visit and portions of itinerary remain debated.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-met-buddhism",
+      "title": "Buddhism along the Silk Road: 5th–8th Century",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2012/buddhism",
+      "kind": "museum scholarship",
+      "notes": "Material culture shows movement and adaptation among Gandharan and Central Asian Buddhist communities.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-met-sahel",
+      "title": "Sahel: Art and Empires on the Shores of the Sahara — Inside the Exhibition",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara/inside-the-exhibition",
+      "kind": "museum scholarship",
+      "notes": "Explains indigenous urbanism, Soninke networks and varied religious practice alongside merchant and scholarly connections.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-iranica-paper",
+      "title": "PAPER i. Paper in the Iranian World Prior to Printing",
+      "publisher": "Encyclopaedia Iranica; Jonathan M. Bloom",
+      "url": "https://www.iranicaonline.org/articles/paper-iran-prior-printing/",
+      "kind": "scholarly reference",
+      "notes": "Rejects a simple Talas-prisoners origin story; distinguishes evidence for paper manufacture and surviving manuscripts.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-spengler-crops",
+      "title": "Early agriculture and crop transmission among Bronze Age mobile pastoralists of Central Eurasia",
+      "publisher": "Proceedings of the Royal Society B; Robert Spengler and colleagues",
+      "url": "https://profiles.wustl.edu/en/publications/early-agriculture-and-crop-transmission-among-bronze-age-mobile-p/",
+      "kind": "research article",
+      "notes": "2014, 281:20133382; DOI 10.1098/rspb.2013.3382. Author institution's record reports archaeobotanical evidence and its interpretation.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-crowther-crops",
+      "title": "Ancient crops provide first archaeological signature of the westward Austronesian expansion",
+      "publisher": "PNAS; Alison Crowther and colleagues",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1497181/",
+      "kind": "research article",
+      "notes": "2016, 113:6635–6640; DOI 10.1073/pnas.1522714113. Author repository provides study metadata and access; archaeobotany constrains, but does not trace, sea voyages.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-wheelis-caffa",
+      "title": "Biological Warfare at the 1346 Siege of Caffa",
+      "publisher": "Emerging Infectious Diseases; Mark Wheelis",
+      "url": "https://wwwnc.cdc.gov/eid/article/8/9/01-0536_article",
+      "kind": "research article",
+      "notes": "2002, 8:971–975. Reassesses a disputed medieval narrative; Caffa's role is not proof of a unique route or of the catapult story.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-alghero-plague",
+      "title": "Quinto Tiberio Angelerio and New Measures for Controlling Plague in 16th-Century Alghero, Sardinia",
+      "publisher": "Emerging Infectious Diseases",
+      "url": "https://wwwnc.cdc.gov/eid/article/19/9/12-0311_article",
+      "kind": "research article",
+      "notes": "2013; historical introduction discusses Mediterranean dissemination from several port centers. Used only for that limited context.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-spyrou-plague",
+      "title": "The source of the Black Death in fourteenth-century central Eurasia",
+      "publisher": "Nature; Maria A. Spyrou and colleagues",
+      "url": "https://www.nature.com/articles/s41586-022-04800-3",
+      "kind": "research article",
+      "notes": "2022, 606:718–724; DOI 10.1038/s41586-022-04800-3. Genomes and tombstones identify plague in 1338–1339; sampling does not establish its subsequent travel path.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-unesco-qalhat",
+      "title": "Ancient City of Qalhat",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1537",
+      "kind": "institutional synthesis",
+      "notes": "Archaeology independently supports Qalhat's place in the Hormuz and Indian Ocean networks during the 11th–15th centuries. Complements travel narratives without turning all Oman into directly administered Hormuz territory.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-met-red-sea-textiles",
+      "title": "Made in India, Found in Egypt: Red Sea Textile Trade in the Thirteenth and Fourteenth Centuries",
+      "publisher": "The Metropolitan Museum of Art; Ayesha U. Shaikh",
+      "url": "https://www.metmuseum.org/essays/red-sea-textile-trade",
+      "kind": "museum scholarship",
+      "notes": "2023. Uses textiles and Genizah documents to study Gujarat–Egypt exchange. The author also notes incomplete excavation provenance for market-acquired fragments; the article's much earlier production claims are not used here.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-met-textile-3011240",
+      "title": "Textile Fragment, 30.112.40",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/448534",
+      "kind": "primary-object-catalogue",
+      "notes": "Cotton textile attributed to Gujarat, 13th–14th century, reported from near Fustat. This material object supports exchange between regions, not a particular ship, merchant, port sequence or total trade volume.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-iranica-sogdian-trade",
+      "title": "Sogdian Trade",
+      "publisher": "Encyclopaedia Iranica; Étienne de la Vaissière",
+      "url": "https://www.iranicaonline.org/articles/sogdian-trade/",
+      "kind": "scholarly reference",
+      "notes": "Synthesizes commercial letters, merchant communities and archaeological evidence. Sogdian participation varied over time and cannot be read as a single empire or unchanging route.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-sogdian-letters",
+      "title": "The Sogdian Ancient Letters: 1, 2, 3, and 5",
+      "publisher": "University of Washington, Silk Road Seattle; Nicholas Sims-Williams and Daniel C. Waugh",
+      "url": "https://depts.washington.edu/silkroad/texts/sogdlet.html",
+      "kind": "primary-translation",
+      "notes": "Letters usually dated 313–314 CE show family distress and commercial disruption alongside trade. Modern translation is copyrighted (2004); linked for reading, with no translated text reproduced in this collection.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-frachetti-ecology",
+      "title": "Nomadic ecology shaped the highland geography of Asia's Silk Roads",
+      "publisher": "Nature; Michael D. Frachetti and colleagues; author copy at UCL Discovery",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1544288/",
+      "kind": "research article",
+      "notes": "2017, DOI 10.1038/nature21696. Compares modeled pastoral mobility with highland sites. This is a testable model of connectivity, not a recovered map of every annual journey; these editorial lines are not its GIS output.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-izdebski-pollen",
+      "title": "Palaeoecological data indicates land-use changes across Europe linked to spatial heterogeneity in mortality during the Black Death pandemic",
+      "publisher": "Nature Ecology & Evolution; Adam Izdebski and colleagues; Sapienza repository",
+      "url": "https://iris.uniroma1.it/handle/11573/1616437",
+      "kind": "research article",
+      "notes": "2022, DOI 10.1038/s41559-021-01652-4. Uses pollen and land-use evidence to argue for regional differences. Read with the criticism and reply below: a proxy is not a direct count of deaths.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-curtis-pollen-critique",
+      "title": "Reduction in grain pollen indicates population decline, but not necessarily Black Death mortality",
+      "publisher": "Nature Ecology & Evolution; Daniel Curtis; Erasmus University Rotterdam repository",
+      "url": "https://pure.eur.nl/en/publications/reduction-in-grain-pollen-indicates-population-decline-but-not-ne/",
+      "kind": "research critique",
+      "notes": "2022, DOI 10.1038/s41559-022-01862-4. Critiques identifying plague mortality from grain-pollen change. Institutional record and publication metadata verified; this link supplies access to the debate, not a replacement mortality dataset.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-izdebski-pollen-reply",
+      "title": "Reply to ‘Reduction in grain pollen indicates population decline, but not necessarily Black Death mortality’",
+      "publisher": "Nature Ecology & Evolution; Adam Izdebski and colleagues; PubMed record",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36064761/",
+      "kind": "research reply",
+      "notes": "2022, DOI 10.1038/s41559-022-01863-3. Authors' response to Curtis. Indexed citation with publisher link; no abstract is supplied. Offered alongside the original and critique so disagreement stays visible.",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "exchange-bos-plague-genome",
+      "title": "A draft genome of Yersinia pestis from victims of the Black Death",
+      "publisher": "Nature; Kirsten I. Bos and colleagues; University of South Carolina repository",
+      "url": "https://scholarcommons.sc.edu/anth_facpub/150/",
+      "kind": "research article",
+      "notes": "2011, DOI 10.1038/nature10549. Pathogen DNA from London burials dated 1348–1350 provides a distinct kind of evidence from chronicles. It does not prove a Mediterranean-to-London transmission itinerary.",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "features": [
+    {
+      "id": "exchange-silk-hexi",
+      "title": "Silk Roads: Chang'an and the Hexi corridor",
+      "category": "trade",
+      "fromYear": -200,
+      "toYear": 1600,
+      "summary": "Oasis towns, passes and relay stations connected the Chinese interior with routes beyond Dunhuang. Goods changed hands between many carriers; the corridor also moved religious practices and technical knowledge.",
+      "limitations": "This is one branch of a changing network. The connecting line is not an excavated road or a claim of uninterrupted traffic.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.94,
+            34.34
+          ],
+          [
+            103.83,
+            36.06
+          ],
+          [
+            100.45,
+            38.93
+          ],
+          [
+            94.66,
+            40.14
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-tianshan",
+        "exchange-sogdian-letters"
+      ],
+      "places": [
+        "Chang'an",
+        "Lanzhou",
+        "Zhangye",
+        "Dunhuang"
+      ],
+      "topic": "overland",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-silk-tianshan",
+      "title": "Silk Roads: oases around the Tian Shan",
+      "category": "trade",
+      "fromYear": 600,
+      "toYear": 1400,
+      "summary": "Routes from Dunhuang and Hami branched around the Tian Shan toward the Chuy and Talas valleys. Irrigated oases supported exchanges between pastoralists, farmers and long-distance traders.",
+      "limitations": "The diagram compresses many alternatives and mountain passes. No single state controlled the entire corridor throughout this period.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            94.66,
+            40.14
+          ],
+          [
+            93.51,
+            42.82
+          ],
+          [
+            89.18,
+            42.95
+          ],
+          [
+            83,
+            44
+          ],
+          [
+            80.2,
+            44
+          ],
+          [
+            75.3,
+            42.75
+          ],
+          [
+            71.37,
+            42.9
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-tianshan",
+        "exchange-frachetti-ecology",
+        "exchange-iranica-sogdian-trade"
+      ],
+      "places": [
+        "Dunhuang",
+        "Hami",
+        "Turfan",
+        "Ili valley",
+        "Chuy valley",
+        "Talas"
+      ],
+      "topic": "overland",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-silk-zarafshan",
+      "title": "Silk Roads: Zarafshan–Karakum corridor",
+      "category": "trade",
+      "fromYear": 500,
+      "toYear": 1600,
+      "summary": "The Zarafshan valley and Karakum crossings linked Central Asian cities through settlements, caravanserais and water infrastructure. Sogdian commerce and later Islamic and Mongol-era connections gave the corridor different roles over time.",
+      "limitations": "Study window covers several distinct phases. Town fortunes, security and the route taken changed; it is not a continuous measured trade flow.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.78,
+            39.44
+          ],
+          [
+            67.55,
+            39.5
+          ],
+          [
+            66.96,
+            39.65
+          ],
+          [
+            64.42,
+            39.77
+          ],
+          [
+            63.57,
+            39.09
+          ],
+          [
+            62.18,
+            37.66
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-zarafshan",
+        "exchange-iranica-sogdian-trade"
+      ],
+      "places": [
+        "Zarafshan valley",
+        "Panjikent",
+        "Samarkand",
+        "Bukhara",
+        "Amul",
+        "Merv"
+      ],
+      "topic": "overland",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-sahara-sijilmasa-walata",
+      "title": "Sahara: Sijilmasa, Taghaza and Walata",
+      "category": "trade",
+      "fromYear": 1200,
+      "toYear": 1500,
+      "summary": "Caravans linked Moroccan markets, Saharan salt production and the Sahel's commercial towns. Ibn Battuta describes this sequence in his 1352 crossing, including dependence on guides, water and seasonal travel.",
+      "limitations": "The named stops are supported; lines between them are schematic. Gold also moved through other corridors, and these networks traded enslaved people as well as commodities.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.28,
+            31.28
+          ],
+          [
+            -4.97,
+            23.58
+          ],
+          [
+            -7.03,
+            17.3
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-berkeley-mali",
+        "exchange-met-sahara"
+      ],
+      "places": [
+        "Sijilmasa",
+        "Taghaza",
+        "Walata"
+      ],
+      "topic": "overland",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-niger-djenne-timbuktu",
+      "title": "Niger waterways: Djenné and Timbuktu",
+      "category": "trade",
+      "fromYear": 1300,
+      "toYear": 1600,
+      "summary": "River transport and inland-delta markets connected Djenné with Timbuktu, where Saharan and West African exchanges met. The waterway helps explain why commerce cannot be read solely from political boundaries.",
+      "limitations": "This is a simplified commercial connection, not the historical channel centerline. River courses and seasonal navigability varied.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.56,
+            13.91
+          ],
+          [
+            -4.19,
+            14.49
+          ],
+          [
+            -3.8,
+            15
+          ],
+          [
+            -3.2,
+            15.55
+          ],
+          [
+            -2.98,
+            16
+          ],
+          [
+            -3.01,
+            16.7
+          ],
+          [
+            -3,
+            16.77
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-djenne",
+        "exchange-unesco-djenne-river"
+      ],
+      "places": [
+        "Djenné",
+        "Niger inland delta",
+        "Timbuktu"
+      ],
+      "topic": "river",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-hormuz-cambay",
+      "title": "Arabian Sea: Hormuz and Cambay",
+      "category": "trade",
+      "fromYear": 1300,
+      "toYear": 1507,
+      "summary": "New Hormuz became a major transshipment market connecting the Persian Gulf with India. The merchant world described there in 1442 included Gujarat and Cambay, alongside many other regions.",
+      "limitations": "Connection between markets, not a known ship's track or exclusive direct service. Island Hormuz is used only after its late-13th-century relocation.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            56.45,
+            27.09
+          ],
+          [
+            57.6,
+            25.8
+          ],
+          [
+            61,
+            22.6
+          ],
+          [
+            65,
+            20.8
+          ],
+          [
+            68.2,
+            20.8
+          ],
+          [
+            71,
+            20.6
+          ],
+          [
+            72.3,
+            21.4
+          ],
+          [
+            72.62,
+            22.31
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-iranica-hormuz"
+      ],
+      "places": [
+        "New Hormuz",
+        "Cambay"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-muscat-india",
+      "title": "Omani ports and western India",
+      "category": "trade",
+      "fromYear": 1400,
+      "toYear": 1500,
+      "summary": "Muscat and other Omani ports supplied water and provisions to Indian Ocean shipping and exchanged regional products with India. Their importance changed as traffic increasingly favored Hormuz and later revived along Oman.",
+      "limitations": "Muscat was not always the dominant port; Qalhat is independently documented as a major Hormuz-linked center. The line is a regional connection to Gujarat, not an attested scheduled Muscat–Cambay service.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            58.59,
+            23.61
+          ],
+          [
+            61,
+            22.8
+          ],
+          [
+            65,
+            21
+          ],
+          [
+            69,
+            20.6
+          ],
+          [
+            71,
+            20.6
+          ],
+          [
+            72.3,
+            21.4
+          ],
+          [
+            72.62,
+            22.31
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-iranica-oman",
+        "exchange-iranica-hormuz",
+        "exchange-unesco-qalhat"
+      ],
+      "places": [
+        "Muscat",
+        "Western Indian ports",
+        "Cambay"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-cambay-calicut",
+      "title": "Western Indian coast: Cambay and Calicut",
+      "category": "trade",
+      "fromYear": 1341,
+      "toYear": 1500,
+      "summary": "Ibn Battuta's account places foreign merchants at Cambay and describes a monsoon-assisted voyage from nearby Gandhar to Calicut. Calicut grew into a major spice market during the later 14th and 15th centuries.",
+      "limitations": "The diagram groups neighboring embarkation places and coastal alternatives. Seasonal winds, storms and port conditions shaped each voyage.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.62,
+            22.31
+          ],
+          [
+            72.4,
+            21.8
+          ],
+          [
+            72,
+            20.3
+          ],
+          [
+            72.4,
+            17.5
+          ],
+          [
+            73.7,
+            14.8
+          ],
+          [
+            75.77,
+            11.26
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-berkeley-india",
+        "exchange-nova-calicut"
+      ],
+      "places": [
+        "Cambay",
+        "Gandhar",
+        "Calicut"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-calicut-melaka",
+      "title": "Monsoon network: Malabar and Melaka",
+      "category": "trade",
+      "fromYear": 1400,
+      "toYear": 1511,
+      "summary": "Melaka linked western Indian Ocean merchants with Southeast Asian markets. Malabar ports including Calicut redistributed spices and other goods through overlapping merchant communities.",
+      "limitations": "The route illustrates a network connection, with possible intermediate calls near Sri Lanka and Sumatra. It is not an exact voyage; Melaka is not projected into earlier centuries.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.77,
+            11.26
+          ],
+          [
+            77.5,
+            6
+          ],
+          [
+            80.5,
+            5.2
+          ],
+          [
+            86,
+            6
+          ],
+          [
+            92.5,
+            6.5
+          ],
+          [
+            95.6,
+            5.8
+          ],
+          [
+            98.5,
+            4.1
+          ],
+          [
+            100.6,
+            2.4
+          ],
+          [
+            102.25,
+            2.19
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-hall-melaka",
+        "exchange-nova-calicut"
+      ],
+      "places": [
+        "Calicut",
+        "Sri Lankan waters",
+        "Sumatra straits",
+        "Melaka"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-aden-kilwa",
+      "title": "Monsoon network: Aden and the Swahili coast",
+      "category": "trade",
+      "fromYear": 1200,
+      "toYear": 1500,
+      "summary": "Ports from Aden to Kilwa exchanged African products with Arabian, Persian, Indian and Chinese goods. Seasonal winds structured sailing and return journeys; coastal African communities actively shaped these networks.",
+      "limitations": "The corridor joins selected ports, not every stop. Maritime exchange also included enslavement and coercion; connectivity should not imply equal participation.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.03,
+            12.79
+          ],
+          [
+            50.5,
+            12
+          ],
+          [
+            51.5,
+            10.5
+          ],
+          [
+            49.5,
+            5
+          ],
+          [
+            45.34,
+            2.04
+          ],
+          [
+            42,
+            -1
+          ],
+          [
+            39.67,
+            -4.05
+          ],
+          [
+            39.7,
+            -6.1
+          ],
+          [
+            39.52,
+            -8.96
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-kilwa",
+        "exchange-berkeley-east-africa"
+      ],
+      "places": [
+        "Aden",
+        "Mogadishu",
+        "Mombasa",
+        "Zanzibar",
+        "Kilwa Kisiwani"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-venice-alexandria",
+      "title": "Mediterranean exchange: Venice and Alexandria",
+      "category": "trade",
+      "fromYear": 1250,
+      "toYear": 1517,
+      "summary": "Venetian shipping connected Alexandria with European markets, carrying goods that had traveled through wider African and Asian networks. Merchants negotiated privileges and maintained communities across religious divisions.",
+      "limitations": "A schematic sea connection. War, bans, treaties and commercial rivalry repeatedly altered traffic; the line does not signify uninterrupted peaceful relations.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.34,
+            45.44
+          ],
+          [
+            14,
+            43.3
+          ],
+          [
+            16.5,
+            40.5
+          ],
+          [
+            19.5,
+            37
+          ],
+          [
+            24.5,
+            34.8
+          ],
+          [
+            27,
+            33.5
+          ],
+          [
+            29.92,
+            31.2
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-galileo-venice",
+        "exchange-met-venice"
+      ],
+      "places": [
+        "Venice",
+        "Alexandria"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-quanzhou-sumatra",
+      "title": "Yuan sea network: Quanzhou and the straits",
+      "category": "trade",
+      "fromYear": 1280,
+      "toYear": 1368,
+      "summary": "Quanzhou's maritime infrastructure and diverse religious communities reflect its place in Asian sea trade. Sumatran ports connected this Chinese-facing network with the Bay of Bengal.",
+      "limitations": "The corridor represents regional linkage; Ibn Battuta's China narrative is disputed in parts. This line uses northern Sumatra, not the later port of Melaka.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.59,
+            24.91
+          ],
+          [
+            116.5,
+            21.5
+          ],
+          [
+            112.2,
+            16
+          ],
+          [
+            109.4,
+            10.5
+          ],
+          [
+            106.5,
+            5
+          ],
+          [
+            104.8,
+            1.2
+          ],
+          [
+            101.3,
+            2.1
+          ],
+          [
+            98.7,
+            4.3
+          ],
+          [
+            97.2,
+            5.15
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-quanzhou",
+        "exchange-berkeley-china"
+      ],
+      "places": [
+        "Quanzhou",
+        "South China Sea",
+        "Samudra-Pasai region"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-coromandel-melaka",
+      "title": "Bay of Bengal: Coromandel and Melaka",
+      "category": "trade",
+      "fromYear": 1400,
+      "toYear": 1511,
+      "summary": "South Indian merchants joined the Bay of Bengal networks converging on Melaka. Textiles and other exchanged goods connected dispersed communities and coastal markets.",
+      "limitations": "Coromandel is a regional anchor, not a claim that every voyage left Nagapattinam. The line compresses alternative ports, stopovers and seasonal sailing.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.85,
+            10.77
+          ],
+          [
+            84,
+            8.5
+          ],
+          [
+            90,
+            7
+          ],
+          [
+            95.6,
+            5.8
+          ],
+          [
+            98.5,
+            4.1
+          ],
+          [
+            100.6,
+            2.4
+          ],
+          [
+            102.25,
+            2.19
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-hall-melaka"
+      ],
+      "places": [
+        "Coromandel coast",
+        "Sumatra straits",
+        "Melaka"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-buddhism-gandhara",
+      "title": "Buddhist communities: Gandhara toward Central Asia",
+      "category": "diffusion",
+      "fromYear": 400,
+      "toYear": 800,
+      "summary": "Buddhist communities and artistic practices moved between the Indian northwest, Afghanistan and Central Asia. Surviving images reveal adaptation and patronage across connected communities.",
+      "limitations": "A relationship diagram, not a conversion front or a population heatmap. Movement was uneven and coexisted with other religious traditions.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.84,
+            33.75
+          ],
+          [
+            71.57,
+            34
+          ],
+          [
+            69.17,
+            34.53
+          ],
+          [
+            67.82,
+            34.82
+          ],
+          [
+            66.9,
+            36.76
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-met-buddhism"
+      ],
+      "places": [
+        "Taxila",
+        "Gandhara",
+        "Kabul region",
+        "Bamiyan",
+        "Balkh region"
+      ],
+      "topic": "religion",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-buddhism-oases",
+      "title": "Buddhism through oasis communities",
+      "category": "diffusion",
+      "fromYear": 400,
+      "toYear": 900,
+      "summary": "Cave temples and Buddhist sites connect the oasis worlds of Kucha and Dunhuang with Chinese centers. Monks, patrons and translators made these exchanges locally meaningful.",
+      "limitations": "Selected centers illustrate exchange rather than universal Buddhist adherence. Lines do not show exclusive religious territories or one uninterrupted mission.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            82.97,
+            41.72
+          ],
+          [
+            89.18,
+            42.95
+          ],
+          [
+            94.66,
+            40.14
+          ],
+          [
+            108.94,
+            34.34
+          ],
+          [
+            112.45,
+            34.62
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-unesco-tianshan"
+      ],
+      "places": [
+        "Kucha",
+        "Turfan",
+        "Dunhuang",
+        "Chang'an",
+        "Luoyang"
+      ],
+      "topic": "religion",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-islam-swahili",
+      "title": "Swahili coast: commerce, scholarship and Islam",
+      "category": "diffusion",
+      "fromYear": 1200,
+      "toYear": 1500,
+      "summary": "Trade and personal connections helped sustain Muslim communities in coastal East Africa. Their towns were African societies with local languages and institutions, participating in a wider oceanic world.",
+      "limitations": "This is not a military-conquest arrow or a map of Muslim population shares. Religious affiliation within towns and their hinterlands was diverse.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.03,
+            12.79
+          ],
+          [
+            50.5,
+            12
+          ],
+          [
+            51.5,
+            10.5
+          ],
+          [
+            49.5,
+            5
+          ],
+          [
+            45.34,
+            2.04
+          ],
+          [
+            42,
+            -1
+          ],
+          [
+            39.67,
+            -4.05
+          ],
+          [
+            39.52,
+            -8.96
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-berkeley-east-africa",
+        "exchange-unesco-kilwa"
+      ],
+      "places": [
+        "Aden",
+        "Mogadishu",
+        "Mombasa",
+        "Kilwa Kisiwani"
+      ],
+      "topic": "religion",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-islam-sahel",
+      "title": "Sahel: merchant and scholarly connections",
+      "category": "diffusion",
+      "fromYear": 1300,
+      "toYear": 1600,
+      "summary": "Merchant networks and itinerant teachers connected Sahelian communities with Islamic learning. Rulers and residents combined new affiliations with existing practices in different ways.",
+      "limitations": "A network of contact, not a uniform Sunni/Shia boundary or a date of mass conversion. Indigenous beliefs and local forms of practice remained important.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.28,
+            31.28
+          ],
+          [
+            -4.97,
+            23.58
+          ],
+          [
+            -7.03,
+            17.3
+          ],
+          [
+            -2.98,
+            16.77
+          ],
+          [
+            -4.56,
+            13.91
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-met-sahel"
+      ],
+      "places": [
+        "Sijilmasa",
+        "Saharan corridors",
+        "Walata",
+        "Timbuktu",
+        "Djenné"
+      ],
+      "topic": "religion",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-islam-malabar",
+      "title": "Malabar: Muslim merchants under the Zamorin",
+      "category": "diffusion",
+      "fromYear": 1350,
+      "toYear": 1500,
+      "summary": "Muslim merchant communities linked Calicut with Arab and Persian trading worlds while the port remained under a Hindu ruler. Commercial and religious connections did not require a matching imperial frontier.",
+      "limitations": "This depicts diaspora relationships, not a conquest or a universal religious identity. Community composition and influence varied over time.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.03,
+            12.79
+          ],
+          [
+            52,
+            11.5
+          ],
+          [
+            61,
+            10.5
+          ],
+          [
+            69,
+            10.5
+          ],
+          [
+            75.77,
+            11.26
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-nova-calicut"
+      ],
+      "places": [
+        "Aden",
+        "Arabian Sea",
+        "Calicut"
+      ],
+      "topic": "religion",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-paper-central-asia-baghdad",
+      "title": "Papermaking: Central Asia, Iran and Baghdad",
+      "category": "diffusion",
+      "fromYear": 700,
+      "toYear": 800,
+      "summary": "Paper use and manufacture spread through Central Asia and Iran into Islamic lands; Baghdad was producing paper by the late eighth century. Existing craft knowledge mattered more than a single legendary transfer.",
+      "limitations": "The line is regional, not a traced workshop migration. The often-repeated story that captured papermakers at Talas introduced the craft is not treated as established fact.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.96,
+            39.65
+          ],
+          [
+            62.18,
+            37.66
+          ],
+          [
+            59.61,
+            36.29
+          ],
+          [
+            51.4,
+            35.7
+          ],
+          [
+            44.37,
+            33.32
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-iranica-paper"
+      ],
+      "places": [
+        "Samarkand",
+        "Merv",
+        "Iran",
+        "Baghdad"
+      ],
+      "topic": "technology",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": true
+    },
+    {
+      "id": "exchange-paper-westward",
+      "title": "Papermaking across the Islamic world",
+      "category": "diffusion",
+      "fromYear": 850,
+      "toYear": 1000,
+      "summary": "Paper was being made in Egypt by the end of the ninth century and used in Iberia by the end of the tenth. Its availability supported writing, administration and book cultures.",
+      "limitations": "Stops mark regions of evidence, not the proven itinerary of an inventor or an exact production-opening year.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.37,
+            33.32
+          ],
+          [
+            36.29,
+            33.51
+          ],
+          [
+            31.23,
+            30
+          ],
+          [
+            13.2,
+            32.8
+          ],
+          [
+            10.18,
+            36.8
+          ],
+          [
+            -1,
+            35.5
+          ],
+          [
+            -5.6,
+            35.7
+          ],
+          [
+            -4.78,
+            37.89
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-iranica-paper"
+      ],
+      "places": [
+        "Baghdad",
+        "Eastern Mediterranean",
+        "Fustat",
+        "North Africa",
+        "Córdoba"
+      ],
+      "topic": "technology",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": true
+    },
+    {
+      "id": "exchange-crops-inner-asia",
+      "title": "Cereal exchange through Inner Asian highlands",
+      "category": "diffusion",
+      "fromYear": -3000,
+      "toYear": -2000,
+      "summary": "Archaeobotanical remains at pastoralist sites in Inner Asia show southwest Asian and East Asian grains entering connected economies. Mobile herders helped move crops as well as animals and other goods.",
+      "limitations": "The line connects broad study regions and find areas; it is not a dated migration track. Archaeological samples are sparse and do not establish a single origin-to-destination journey.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            58.53,
+            37.89
+          ],
+          [
+            68.82,
+            39.51
+          ],
+          [
+            74,
+            42.5
+          ],
+          [
+            79.4,
+            45
+          ],
+          [
+            84,
+            44
+          ],
+          [
+            94.7,
+            40.1
+          ],
+          [
+            103.8,
+            36.1
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-spengler-crops"
+      ],
+      "places": [
+        "Southern Central Asia",
+        "Zarafshan region",
+        "Tian Shan",
+        "Dzhungar Mountains",
+        "Northwest China"
+      ],
+      "topic": "crops",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-asian-crops-madagascar",
+      "title": "Asian crops across the Indian Ocean",
+      "category": "diffusion",
+      "fromYear": 700,
+      "toYear": 1200,
+      "summary": "Rice and other Asian crops recovered from early sites in the Comoros and Madagascar provide evidence for biological exchange linked to Austronesian connections across the ocean.",
+      "limitations": "The proposed connection is supported by crop assemblages, not a reconstructed voyage. Starting points and stopovers remain uncertain; the line must not be read as an exact migration route.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114,
+            -3
+          ],
+          [
+            105,
+            -6.5
+          ],
+          [
+            95,
+            -8
+          ],
+          [
+            80,
+            -10
+          ],
+          [
+            65,
+            -11
+          ],
+          [
+            50,
+            -12
+          ],
+          [
+            43.3,
+            -11.7
+          ],
+          [
+            48.31,
+            -13.8
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-crowther-crops"
+      ],
+      "places": [
+        "Island Southeast Asia",
+        "Indian Ocean",
+        "Comoros",
+        "Northwest Madagascar"
+      ],
+      "topic": "crops",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-plague-black-sea",
+      "title": "Black Death: Black Sea and Mediterranean ports",
+      "category": "diffusion",
+      "fromYear": 1346,
+      "toYear": 1347,
+      "summary": "Historical accounts connect Black Sea outbreaks with maritime dissemination toward Constantinople and Mediterranean ports. Shipping was one pathway through which a regional catastrophe became a wider epidemic.",
+      "limitations": "Schematic possible connections, not proven transmission chains. Caffa's corpse-catapult account is disputed; no unique voyage or route is established here.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.38,
+            45.03
+          ],
+          [
+            33,
+            43.5
+          ],
+          [
+            29,
+            41
+          ],
+          [
+            26.8,
+            40
+          ],
+          [
+            25.8,
+            37
+          ],
+          [
+            23.3,
+            35.5
+          ],
+          [
+            19.5,
+            36
+          ],
+          [
+            15.56,
+            38.19
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-wheelis-caffa",
+        "exchange-alghero-plague"
+      ],
+      "places": [
+        "Caffa",
+        "Constantinople",
+        "Eastern Mediterranean",
+        "Messina"
+      ],
+      "topic": "disease",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-plague-mediterranean",
+      "title": "Black Death: Mediterranean dissemination",
+      "category": "diffusion",
+      "fromYear": 1347,
+      "toYear": 1353,
+      "summary": "Infected maritime connections helped seed multiple Mediterranean outbreak centers, from which epidemics spread further. The wider crisis affected Europe, North Africa and the Near East.",
+      "limitations": "Undirected comparative connections, not a chronology of infections. Genomes, chronicles and pollen answer different questions. Pollen-based mortality estimates remain debated; the study, criticism and reply are linked together. No uniform death rate is inferred.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.92,
+            31.2
+          ],
+          [
+            25,
+            33
+          ],
+          [
+            19.5,
+            35.5
+          ],
+          [
+            15.56,
+            38.19
+          ],
+          [
+            12,
+            39.2
+          ],
+          [
+            9.3,
+            41
+          ],
+          [
+            5.37,
+            43.3
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-alghero-plague",
+        "exchange-wheelis-caffa",
+        "exchange-spyrou-plague",
+        "exchange-izdebski-pollen",
+        "exchange-curtis-pollen-critique",
+        "exchange-izdebski-pollen-reply",
+        "exchange-bos-plague-genome"
+      ],
+      "places": [
+        "Alexandria",
+        "Mediterranean ports",
+        "Messina",
+        "Marseille"
+      ],
+      "topic": "disease",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "displayWindowNote": "An editorial study window within the documented period; the endpoints are not proven opening or closure dates.",
+      "directional": false
+    },
+    {
+      "id": "exchange-gujarat-egypt-textiles",
+      "title": "Cotton textiles: Gujarat and Egypt",
+      "category": "trade",
+      "fromYear": 1200,
+      "toYear": 1400,
+      "summary": "Cotton textiles attributed to Gujarat survive in Egyptian collections and archaeological contexts. Together with Genizah records, they connect craft production with Red Sea and Indian Ocean exchange. An object can reveal connections that a ruler's chronicle barely mentions.",
+      "limitations": "The Met notes incomplete excavation provenance for market-acquired fragments. The line sketches connecting regions and sea basins, not the recovered path of one textile or a certain sequence of ports.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.62,
+            22.31
+          ],
+          [
+            72,
+            20.5
+          ],
+          [
+            66,
+            17
+          ],
+          [
+            55,
+            12
+          ],
+          [
+            45.03,
+            12.79
+          ],
+          [
+            43,
+            13
+          ],
+          [
+            41,
+            16
+          ],
+          [
+            39,
+            20
+          ],
+          [
+            36,
+            24
+          ],
+          [
+            34.28,
+            26.1
+          ],
+          [
+            32.73,
+            26.16
+          ],
+          [
+            31.23,
+            30
+          ]
+        ]
+      },
+      "sourceIds": [
+        "exchange-met-red-sea-textiles",
+        "exchange-met-textile-3011240",
+        "exchange-berkeley-east-africa"
+      ],
+      "places": [
+        "Gujarat",
+        "Arabian Sea",
+        "Aden",
+        "Red Sea corridors",
+        "Fustat"
+      ],
+      "topic": "maritime",
+      "datePrecision": "approximate",
+      "certainty": "schematic",
+      "directional": false,
+      "displayWindowNote": "A 13th–14th-century object-based study window, not the opening or closure of Indian–Egyptian trade."
+    }
+  ],
+  "coverage": {
+    "featureCount": 25,
+    "sourceCount": 35,
+    "focus": "Eurasian and African exchanges, especially 1300–1500 CE",
+    "notCovered": [
+      "Complete global trade networks",
+      "Trade volume or frequency",
+      "Quantitative religious or linguistic population shares",
+      "Every archaeological corridor",
+      "Exact ship tracks or disease transmission chains"
+    ],
+    "importantDistinctions": [
+      "Religious connections are not territorial sovereignty.",
+      "A connected port does not make its population culturally uniform.",
+      "Contemporary observers may be biased or report hearsay.",
+      "Absence from this collection is not evidence of historical isolation."
+    ]
+  }
+}

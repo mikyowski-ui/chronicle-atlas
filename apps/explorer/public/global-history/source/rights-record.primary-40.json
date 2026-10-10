@@ -1,0 +1,35 @@
+{
+  "source_id": "ourednik-basemaps",
+  "pinned_revision": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "license": "GPL-3.0",
+  "attribution": "André Ourednik and Historical Basemaps contributors",
+  "original_pilot_record": "pilot-rights-record.json",
+  "scope_amendment": "User authorizes bounded staged expansion to the 40 indexed source observations from 200 BCE through 2010 CE. This does not rewrite the earlier pilot authorization.",
+  "license_record": {
+    "path": "LICENSE",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "bytes": 35147,
+    "git_blob_sha1": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+    "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/LICENSE",
+    "recovery": "retained pinned source metadata; original bytes"
+  },
+  "attribution_and_limitations_record": {
+    "path": "README.md",
+    "sha256": "cbd9b99a5969785c532b901293ad77391223ea3223e1eb042e78a6704f01f76e",
+    "bytes": 11788,
+    "git_blob_sha1": "4cd350ab9edb5de64d8b779fed877ac61aeafbbd",
+    "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/README.md",
+    "recovery": "retained pinned source metadata; original bytes"
+  },
+  "historical_status": "Source-attributed overview reconstruction; not independently corroborated or historically certified.",
+  "publication_boundary": "Candidate Explorer display only. Public ledger unchanged; publication requires exact-result approval.",
+  "modification_notice": "Original coordinates and properties retained byte-for-byte. Classification and display geometry are separate versioned derivatives.",
+  "temporal_interpretation": "Indexed snapshot year is a nominal observation with year precision. BCE converts to astronomical numbering (1 BCE = 0). Calendar-year envelopes do not imply event-day precision, continuous borders, or independently reviewed validity.",
+  "semantic_limits": [
+    "Cultural distributions are not political ownership.",
+    "Population/aggregate labels do not establish sovereignty.",
+    "No invented corroboration, source precision, or intervening borders.",
+    "Explicit source quarantine remains protected.",
+    "2010 is not present-day geography."
+  ]
+}

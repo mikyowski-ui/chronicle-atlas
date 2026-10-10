@@ -1,0 +1,20 @@
+{
+  "name": "@chronicle/runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./interaction": "./src/interaction.ts",
+    "./time-motion": "./src/time-motion.ts",
+    "./mechanism": "./src/mechanism.ts",
+    "./mechanism-engine": "./src/mechanism-engine.ts",
+    "./visualization": "./src/visualization.ts",
+    "./visualization-output": "./src/visualization-output.ts"
+  },
+  "dependencies": {
+    "@chronicle/contracts": "workspace:0.1.0",
+    "@xmldom/xmldom": "0.9.12",
+    "quickjs-emscripten": "0.32.0"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+/dist/
+.sites-runtime/
+/verification/*.jpg
+/verification/*.zip
+/verification/browser-console.json
+/verification/delivery.json
+/verification/vp04-delivery.json
+
+__pycache__/
+/windows-launcher/payload.zip
+/windows-launcher/*.exe
+/verification/**/*.zip

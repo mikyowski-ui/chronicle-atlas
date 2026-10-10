@@ -1,0 +1,1525 @@
+[
+  {
+    "id": "mota-early",
+    "title": "Early Dynastic Period",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-old-egypt",
+    "title": "Egypt in the Old Kingdom (ca. 2649–2130 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-middle-egypt",
+    "title": "Egypt in the Middle Kingdom (ca. 2030–1650 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-new-egypt",
+    "title": "Egypt in the New Kingdom (ca. 1550–1070 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "mota-ptolemy",
+    "title": "Ptolemaic Period",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/ptolemaic-period/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-republic",
+    "title": "The Roman Republic",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-roman-republic",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-rome",
+    "title": "The Roman Empire (27 BCE–393 CE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-byzantium",
+    "title": "Byzantium (ca. 330–1453)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/byzantium-ca-330-1453",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-achaemenid",
+    "title": "The Achaemenid Persian Empire (550–330 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-seleucid",
+    "title": "The Seleucid Empire (323–64 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-seleucid-empire-323-64-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-parthian",
+    "title": "The Parthian Empire (247 BCE–224 CE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-parthian-empire-247-b-c-224-a-d",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-sasanian",
+    "title": "The Sasanian Empire (224–651 CE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-sasanian-empire-224-651-a-d",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-umayyad",
+    "title": "The Art of the Umayyad Period (661–750)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-abbasid",
+    "title": "The Art of the Abbasid Period (750–1258)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-ottoman",
+    "title": "The Greater Ottoman Empire, 1600–1800",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-greater-ottoman-empire-1600-1800",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-safavid",
+    "title": "The Art of the Safavids before 1600",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-safavid-end",
+    "title": "Iran, 1600–1800 CE",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/09/wai.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-safavid-silk",
+    "title": "Silk Textiles from Safavid Iran, 1501–1722",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/silk-textiles-from-safavid-iran-1501-1722",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-mughal-early",
+    "title": "The Art of the Mughals before 1600",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-mughal-late",
+    "title": "The Art of the Mughals after 1600",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-after-1600",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "iis-mughal",
+    "title": "Mughals",
+    "publisher": "The Institute of Ismaili Studies",
+    "url": "https://www.iis.ac.uk/glossary/mughals/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-maurya",
+    "title": "Mauryan Empire (ca. 323–185 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/mauryan-empire-ca-323-185-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-han",
+    "title": "Han dynasty (206 BCE–220 CE)",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/han-dynasty/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-tang",
+    "title": "Tang dynasty (618–907)",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/tang-dynasty/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-song",
+    "title": "Song dynasty (960–1279)",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/song-dynasty/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-yuan",
+    "title": "Yuan dynasty (1279–1368)",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/yuan-dynasty/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-ming",
+    "title": "Ming dynasty (1368–1644)",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/ming-dynasty/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-qing",
+    "title": "Qing dynasty (1644–1911)",
+    "publisher": "Smithsonian National Museum of Asian Art",
+    "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/qing-dynasty/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-mali-trade",
+    "title": "The Trans-Saharan Gold Trade (7th–14th Century)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-sahel",
+    "title": "Sahel: Art and Empires on the Shores of the Sahara",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara/inside-the-exhibition",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bm-benin",
+    "title": "Benin Bronzes",
+    "publisher": "British Museum",
+    "url": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bm-benin-origins",
+    "title": "Visit resource: Benin",
+    "publisher": "British Museum",
+    "url": "https://www.britishmuseum.org/learn/schools/ages-7-11/africa/visit-resource-benin",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bm-benin-dynasty",
+    "title": "Figure: royal equestrian figure from Benin",
+    "publisher": "British Museum",
+    "url": "https://www.britishmuseum.org/collection/object/E_Af1944-04-13",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-zimbabwe",
+    "title": "Great Zimbabwe",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/great-zimbabwe",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "inah-aztec",
+    "title": "Analizarán el origen del Estado mexica",
+    "publisher": "Instituto Nacional de Antropología e Historia",
+    "url": "https://www.inah.gob.mx/boletines/analizaran-el-origen-del-estado-mexica-en-el-museo-nacional-de-antropologia",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "cdmx-alliance",
+    "title": "La Triple Alianza",
+    "publisher": "Secretaría de Turismo de la Ciudad de México",
+    "url": "https://mexicocity.cdmx.gob.mx/historical-timeline-of-mexico-city/triple-alliance/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-inca",
+    "title": "The Inka Empire: What Innovations Can Provide Food and Water for Millions?",
+    "publisher": "Smithsonian National Museum of the American Indian",
+    "url": "https://americanindian.si.edu/nk360/inka-water",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "si-cusco",
+    "title": "The Great Inka Road: Cusco",
+    "publisher": "Smithsonian National Museum of the American Indian",
+    "url": "https://americanindian.si.edu/inkaroad/inkauniverse/cusco/introduction.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-angkor",
+    "title": "Angkor",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/668/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-fatehpur",
+    "title": "Fatehpur Sikri",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/255/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-hangzhou",
+    "title": "West Lake Cultural Landscape of Hangzhou: nomination dossier",
+    "publisher": "UNESCO World Heritage Centre / China nomination",
+    "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "reba-2016",
+    "title": "Spatializing 6,000 years of global urbanization from 3700 BC to AD 2000",
+    "publisher": "Reba, Reitsma & Seto, Scientific Data",
+    "url": "https://doi.org/10.1038/sdata.2016.34",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "beijing-tourism-ming",
+    "title": "The Status of Beijing in Ming Dynasty",
+    "url": "https://english.visitbeijing.com.cn/article/47OMiM6dfPl",
+    "publisher": "Beijing Municipal Culture and Tourism Bureau",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "columbia-wu",
+    "title": "China 600–1000 CE: Tang and Wu Zhou",
+    "url": "https://afe.easia.columbia.edu/tps/600ce_cn.htm",
+    "publisher": "Columbia University, Asia for Educators",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "parma-han",
+    "title": "206 BCE–220 CE: Han Dynasty",
+    "url": "https://museocineseparma.org/en/scuole/le-dinastie-della-cina/106-206-bc-220-ad-han-dynasty",
+    "publisher": "Museo d’Arte Cinese ed Etnografico, Parma",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "inah-conquest",
+    "title": "1519–1521: alianzas, confrontación y conquistas",
+    "url": "https://mexicograndezaydiversidad.inah.gob.mx/publicacion/capitulo-07.html",
+    "publisher": "Instituto Nacional de Antropología e Historia",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "mota-second",
+    "title": "Second Intermediate Period",
+    "url": "https://egymonuments.gov.eg/historical-periods/second-intermediate-period/",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "mota-third",
+    "title": "Third Intermediate Period",
+    "url": "https://egymonuments.gov.eg/historical-periods/third-intermediate-period/",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "mota-old",
+    "title": "Old Kingdom",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/old-kingdom/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "iranica-nader",
+    "title": "Nāder Shah",
+    "publisher": "Encyclopaedia Iranica",
+    "url": "https://www.iranicaonline.org/articles/nader-shah/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-ottoman-early",
+    "title": "The Art of the Ottomans before 1600",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "inah-teotihuacan",
+    "title": "Zona arqueológica de Teotihuacan",
+    "publisher": "Instituto Nacional de Antropología e Historia",
+    "url": "https://lugares.inah.gob.mx/es/node/4528",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "inah-monte-alban",
+    "title": "Monte Albán: archaeological context",
+    "publisher": "Instituto Nacional de Antropología e Historia",
+    "url": "https://lugares.inah.gob.mx/en/node/5597",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "inah-monte-alban-tribute",
+    "title": "Zona arqueológica de Monte Albán",
+    "publisher": "Instituto Nacional de Antropología e Historia",
+    "url": "https://lugares.inah.gob.mx/en/node/4351",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bcn-chile-independence",
+    "title": "1811–1823: Congreso e Independencia",
+    "publisher": "Biblioteca del Congreso Nacional de Chile",
+    "url": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1811-1823",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bcn-chile-republic",
+    "title": "1833–1891: Consolidación de la República",
+    "publisher": "Biblioteca del Congreso Nacional de Chile",
+    "url": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1833-1891",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bcn-chile-dictatorship",
+    "title": "1973–1990: Dictadura militar",
+    "publisher": "Biblioteca del Congreso Nacional de Chile",
+    "url": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1973-1990",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "bcn-chile-democracy",
+    "title": "1990 onward: Retorno a la democracia",
+    "publisher": "Biblioteca del Congreso Nacional de Chile",
+    "url": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1990-2022",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "senate-washington-1800",
+    "title": "The Senate Moves to Washington",
+    "publisher": "United States Senate",
+    "url": "https://www.senate.gov/about/historic-buildings-spaces/meeting-places/senate-moves-to-washington.htm",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "turkiye-ankara-1923",
+    "title": "1923 chronology: Ankara becomes the capital",
+    "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+    "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "nca-canberra-seat",
+    "title": "Canberra: Seat of Government",
+    "publisher": "Australian National Capital Authority",
+    "url": "https://www.nca.gov.au/education/canberras-history/canberra-seat-government",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "brazil-capital-decree-1960",
+    "title": "Decreto nº 48.124, de 16 de abril de 1960",
+    "publisher": "Brazilian Chamber of Deputies",
+    "url": "https://www2.camara.leg.br/legin/fed/decret/1960-1969/decreto-48124-16-abril-1960-387485-publicacaooriginal-1-pe.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "delhi-tourism-independence",
+    "title": "History of Delhi",
+    "publisher": "Delhi Tourism, Government of the National Capital Territory of Delhi",
+    "url": "https://www.delhitourism.gov.in/aboutus/history_of_delhi.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "cppcc-capital-resolution-1949",
+    "title": "Resolution on the capital, calendar, anthem and flag of the People’s Republic of China, 27 September 1949",
+    "publisher": "Chinese People’s Political Consultative Conference; State Council archive",
+    "url": "https://www.hmo.gov.cn/2026/08/21/ARTIgGB90K33hesApsVlrXNO260821.shtml",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "nigeria-villa-capital-1991",
+    "title": "The Presidential Villa",
+    "publisher": "State House, Federal Republic of Nigeria",
+    "url": "https://statehouse.gov.ng/presidential-villa/the-villa/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "parks-canada-ottawa-capital",
+    "title": "Designation of Ottawa as the capital of Canada",
+    "publisher": "Parks Canada",
+    "url": "https://parks.canada.ca/culture/designation/lieu-site/capitale-capital",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "berlin-capital-treaties",
+    "title": "Hauptstadtverträge: Berlin als Hauptstadt Deutschlands",
+    "publisher": "Berlin Senate Chancellery",
+    "url": "https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/hauptstadtvertraege/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "bundestag-berlin-move-1999",
+    "title": "Vor 25 Jahren: Der Bundestag zieht von Bonn nach Berlin",
+    "publisher": "German Bundestag",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/1999-07-31-umzug-bonn-berlin-1012510",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "moscow-capital-1918",
+    "title": "A glimpse into history",
+    "publisher": "Government of Moscow",
+    "url": "https://www.mos.ru/en/city/about/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "presidential-library-moscow-capital",
+    "title": "Moscow becomes the capital of the Soviet state",
+    "publisher": "Boris Yeltsin Presidential Library",
+    "url": "https://www.prlib.ru/en/history/1955256",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked evidence."
+  },
+  {
+    "id": "un-wup-2025",
+    "title": "United Nations, World Urbanization Prospects 2025, File 21",
+    "url": "https://population.un.org/wup/assets/Download/Cities/WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+    "license": "CC BY 3.0 IGO",
+    "note": "Annual estimates for DEGURBA urban centres through 2025; population-weighted reference centroids. This is a different spatial definition from the historical compilation. Present-day capital field is deliberately not backdated.",
+    "minYear": 1975,
+    "maxYear": 2025,
+    "sampling": "five-year checkpoints and first/final available year",
+    "definition": "DEGURBA urban centre"
+  },
+  {
+    "id": "natural-earth-places-5.1.2",
+    "title": "Natural Earth 1:10m Populated Places, version 5.1.2",
+    "publisher": "Natural Earth",
+    "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+    "rights": "Public domain cartographic reference point.",
+    "verifiedAt": "2026-09-27"
+  },
+  {
+    "id": "met-mamluk",
+    "title": "The Art of the Mamluk Period (1250–1517)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-timurid",
+    "title": "The Art of the Timurid Period (ca. 1370–1507)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-timurid-period-ca-1370-1507",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "oup-poland-union",
+    "title": "The Oxford History of Poland-Lithuania, Volume I: The Making of the Polish-Lithuanian Union, 1385–1569",
+    "publisher": "Robert Frost · Oxford University Press",
+    "url": "https://academic.oup.com/book/32707",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-lublin",
+    "title": "The Act of the Union of Lublin document",
+    "publisher": "UNESCO Memory of the World",
+    "url": "https://www.unesco.org/en/memory-world/act-union-lublin-document",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "culture-lublin",
+    "title": "The Union of Lublin: The Longest Lasting Union in European History",
+    "publisher": "Adam Mickiewicz Institute · Culture.pl",
+    "url": "https://culture.pl/en/video/the-union-of-lublin-the-longest-lasting-union-in-european-history",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "iranica-horde",
+    "title": "Golden Horde",
+    "publisher": "Peter Jackson · Encyclopaedia Iranica",
+    "url": "https://www.iranicaonline.org/articles/golden-horde/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis; no source prose reproduced."
+  },
+  {
+    "id": "met-fatimid",
+    "title": "The Art of the Fatimid Period (909–1171)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-seljuq",
+    "title": "The Art of the Seljuqs of Iran (ca. 1040–1157)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-seljuqs-of-iran-ca-1040-1196",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-ilkhanid",
+    "title": "The Art of the Ilkhanid Period (1256–1353)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-ilkhanid-period-1256-1353",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-hittite",
+    "title": "The Hittites",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-hittites",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-assyria",
+    "title": "Assyria, 1365–609 BCE",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/assyria-1365-609-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-kush",
+    "title": "Gebel Barkal and the Sites of the Napatan Region",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1073/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-aksum",
+    "title": "Aksum",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/15/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "uw-gupta",
+    "title": "The Gupta Dynasty",
+    "publisher": "University of Washington · Silk Road Seattle",
+    "url": "https://depts.washington.edu/silkroad/exhibit/guptas/essay.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-goryeo",
+    "title": "Korea, 1000–1400 CE",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/toah/ht/07/eak.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-goryeo-celadon",
+    "title": "Goryeo Celadon",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/goryeo-celadon",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-silla",
+    "title": "Silla: Korea’s Golden Kingdom",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2013/koreas-golden-kingdom",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-silla-chronology",
+    "title": "Korea, 500–1000 CE",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/toah/ht/06/eak.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-chola",
+    "title": "Great Living Chola Temples",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/250/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-south-india",
+    "title": "South Asia: South, 1000–1400 CE",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/toah/ht/07/sss.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-hampi",
+    "title": "Group of Monuments at Hampi",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/241/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-ayutthaya",
+    "title": "Historic City of Ayutthaya",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/576/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-chimu",
+    "title": "Chan Chan Archaeological Zone",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/366/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "habsburg-hre",
+    "title": "The Holy Roman Empire",
+    "publisher": "Schönbrunn Group · Die Welt der Habsburger",
+    "url": "https://www.habsburger.net/en/glossary/holy-roman-empire",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "whe-hre",
+    "title": "Holy Roman Empire",
+    "publisher": "Simon Duits · World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Holy_Roman_Empire/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "iranica-delhi",
+    "title": "Delhi Sultanate: Political and cultural history",
+    "publisher": "Encyclopaedia Iranica",
+    "url": "https://www.iranicaonline.org/articles/delhi-sultanate/delhi-sultanate-i-political-and-cultural-history/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "unesco-carthage",
+    "title": "Archaeological Site of Carthage",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/37",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-heian",
+    "title": "Heian Period (794–1185)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/heian-period-794-1185",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-kamakura",
+    "title": "Kamakura and Nanbokucho Periods (1185–1392)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/kamakura-and-nanbokucho-periods-1185-1392",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "met-edo",
+    "title": "Art of the Edo Period (1615–1868)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "tokyo-edo",
+    "title": "About Edo",
+    "publisher": "Tokyo Metropolitan Government",
+    "url": "https://edolegacytravel.metro.tokyo.lg.jp/about/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; linked evidence, no source prose reproduced."
+  },
+  {
+    "id": "nagamine-jochids-2013",
+    "title": "Rethinking the History of Ulus-i Juci/Joci",
+    "publisher": "Takushi Kawaguchi and Hiroyuki Nagamine · Inner Asian Studies 28 (2013), pp. 27–51",
+    "url": "https://www.jstage.jst.go.jp/article/innerasianstudies/28/0/28_KJ00009311662/_article/-char/en/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis; no source prose reproduced."
+  },
+  {
+    "id": "tishin-horde-2019",
+    "title": "Once again on the Meaning of the Term ‘Horde’ and the Categories ‘Golden Horde’, ‘White Horde’, ‘Blue Horde’",
+    "publisher": "V. V. Tishin · Golden Horde Review 7(2), 2019",
+    "url": "https://goldhorde.ru/en/stati2019-2-7/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis; no source prose reproduced."
+  },
+  {
+    "id": "australian-chimu",
+    "title": "Chimu State",
+    "publisher": "Australian Museum",
+    "url": "https://australian.museum/learn/cultures/international-collection/chimu-state/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "met-seljuq-rum",
+    "title": "The Art of the Seljuq Period in Anatolia (1081–1307)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-art-of-the-seljuq-period-in-anatolia-1081-1307",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "iranica-seljuq-rum",
+    "title": "Saljuqs III: Saljuqs of Rum",
+    "publisher": "Encyclopaedia Iranica",
+    "url": "https://www.iranicaonline.org/articles/saljuqs-iii/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "cambridge-jochid-history",
+    "title": "The Golden Horde, c. 1260–1502",
+    "publisher": "Marie Favereau and Roman Yu. Pochekaev · The Cambridge History of the Mongol Empire (2023), pp. 243–318",
+    "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/golden-horde-c-12601502/194D20494453E0AC8373BE9ADFB8B8D6",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis from the accessible chapter abstract; linked scholarly reading, no source prose reproduced."
+  },
+  {
+    "id": "cambridge-inner-asia-horde",
+    "title": "The rise of Russia, the fall of the Golden Horde, and the resilient Chaghatayids",
+    "publisher": "Svat Soucek · A History of Inner Asia (2000), pp. 162–166",
+    "url": "https://www.cambridge.org/core/books/abs/history-of-inner-asia/rise-of-russia-the-fall-of-the-golden-horde-and-the-resilient-chaghatayids/C7BEE0D065984C4593D00F66E2724A93",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis from the accessible chapter summary; linked scholarly reading, no source prose reproduced."
+  },
+  {
+    "id": "asian-met-qin-origins",
+    "title": "Age of Empires: Qin state and imperial transformation",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2017/age-of-empires/exhibition-galleries",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-qin",
+    "title": "Qin Dynasty (221–206 B.C.)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/qin-dynasty-221-206-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-princeton-china",
+    "title": "China Timeline: Western and Eastern Jin; Northern Wei succession",
+    "publisher": "Princeton University Art Museum",
+    "url": "https://static.artmuseum.princeton.edu/asian-art/china/timeline",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-china-1-500",
+    "title": "China, 1–500 A.D.",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/toah/ht/05/eac.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-northern-southern",
+    "title": "Period of the Northern and Southern Dynasties",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/period-of-the-northern-and-southern-dynasties-386-589",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-wei-486",
+    "title": "Buddha Maitreya: dated Northern Wei bronze, 486",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/42733",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-xixia",
+    "title": "Xixia Imperial Tombs",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1736/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-kushan",
+    "title": "Kushan Empire",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/kushan-empire-ca-second-century-b-c-third-century-a-d",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-kanishka-coin",
+    "title": "Coin of Kanishka, c. 130",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/39385",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-iranica-kushanshahs",
+    "title": "Kushanshahs i. History, Étienne de la Vaissière",
+    "publisher": "Encyclopaedia Iranica",
+    "url": "https://www.iranicaonline.org/articles/kushanshahs-01/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-seshat-rashtrakuta",
+    "title": "Rashtrakuta Empire: sourced polity record",
+    "publisher": "Seshat Global History Databank",
+    "url": "https://www.seshat-db.com/core/polity/93",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-ellora",
+    "title": "Ellora Caves",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/243/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-oxford-srivijaya",
+    "title": "Srivijaya: The Oxford Handbook of Early Southeast Asia",
+    "publisher": "Oxford University Press",
+    "url": "https://academic.oup.com/edited-volume/42054/chapter-abstract/355848271",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-kulke-srivijaya",
+    "title": "Kadātuan Śrīvijaya: Empire or kraton? A Reassessment of the Epigraphical Evidence",
+    "publisher": "Hermann Kulke / Bulletin de l’École française d’Extrême-Orient, 80 (1993), 159–180",
+    "url": "https://www.persee.fr/doc/befeo_0336-1519_1993_num_80_1_2193",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-lost-kingdoms",
+    "title": "Lost Kingdoms: Hindu-Buddhist Sculpture of Early Southeast Asia",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Lost_Kingdoms_Hindu_Buddhist_Sculpture_of_Early_Southeast_Asia.pdf",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-sukhothai",
+    "title": "Historic Town of Sukhothai and Associated Historic Towns",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/574/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-finearts-sukhothai",
+    "title": "Guide to Sukhothai Historical Park",
+    "publisher": "Fine Arts Department, Thailand",
+    "url": "https://www.finearts.go.th/storage/contents/2020/07/file/FR7ToNxSVUev0w3977ptoUJXfCRpj4cffZxqfDGq.pdf",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-sukhothai-film",
+    "title": "The Royal City of Sukhothai",
+    "publisher": "UNESCO Multimedia Archives",
+    "url": "https://www.unesco.org/archives/multimedia/document-50",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-myson",
+    "title": "My Son Sanctuary",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/949/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-cambridge-champa-1471",
+    "title": "Việt Nam and the Genocide of Champa, 1470–1509",
+    "publisher": "The Cambridge World History of Genocide / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/viet-nam-and-the-genocide-of-champa-14701509/6E8490A4C5670883A94DAD24BF5C899A",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-cambridge-champa-1832",
+    "title": "Editorial Foreword: Cham narratives and the annexation of 1832",
+    "publisher": "Journal of Southeast Asian Studies / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/journal-of-southeast-asian-studies/article/editorial-foreword/F5209224C27E90E9304AE72EF4C7FC6B",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-thanglong",
+    "title": "Central Sector of the Imperial Citadel of Thang Long—Hanoi",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1328/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-vnm-dai-viet",
+    "title": "Những năm Ngọ trong sử Việt có gì đặc biệt?",
+    "publisher": "Vietnam National Museum of History",
+    "url": "https://baotanglichsuquocgia.vn/vi/Articles/3096/15550/nhung-nam-ngo-trong-su-viet-co-gi-djac-biet.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-archontology-viet",
+    "title": "Vietnam: Polity Style, with citations to the Đại Việt Complete Annals",
+    "publisher": "Archontology",
+    "url": "https://www.archontology.org/nations/vietnam/01_polity.php",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-bagan",
+    "title": "Bagan",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1588/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-iseas-bagan",
+    "title": "Silver Links! Bagan–Bengal and Shadowy Metal Corridors: 9th to 13th Centuries",
+    "publisher": "ISEAS–Yusof Ishak Institute / Cambridge University Press, Bagan and the World",
+    "url": "https://www.cambridge.org/core/books/abs/bagan-and-the-world/silver-links-baganbengal-and-shadowy-metal-corridors-9th-to-13th-centuries/39632EA0877C6AD31D7A86BB4309B678",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-cyark-bagan",
+    "title": "Bagan: archaeological and living heritage",
+    "publisher": "CyArk",
+    "url": "https://www.cyark.org/projects/bagan",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-kofun",
+    "title": "Kofun Period",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/kofun-period-ca-3rd-century-538",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-japan-500-1000",
+    "title": "Japan, 500–1000 A.D.",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/toah/ht/06/eaj.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-met-korea-1400-1600",
+    "title": "Korea, 1400–1600 A.D.",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/toah/ht/08/eak.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-unesco-namhansanseong",
+    "title": "Namhansanseong",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1439/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "asian-nmk-imperial-seal",
+    "title": "Imperial Royal Seal of the Great Han Empire",
+    "publisher": "National Museum of Korea",
+    "url": "https://www.museum.go.kr/ENG/contents/E0201040600.do?relicId=17669&schM=view&showHallId=759",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; linked museum object interpretation, no source prose reproduced."
+  },
+  {
+    "id": "asian-nmk-korean-empire",
+    "title": "Korean Empire: permanent exhibition",
+    "publisher": "National Museum of Korea",
+    "url": "https://www.museum.go.kr/ENG/contents/E0201040600.do?showHallId=759&showroomCode=DM0041",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle paraphrase; evidence is linked, with no source prose reproduced."
+  },
+  {
+    "id": "regional-ghana-met",
+    "title": "Western Sudan, 500–1000 A.D.",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/afu.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-ghana-gold",
+    "title": "The Trans-Saharan Gold Trade (7th–14th Century)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-ghana-whe",
+    "title": "Ghana Empire",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Ghana_Empire/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kanem-kcl",
+    "title": "Kanem-Bornu Empire",
+    "publisher": "Vincent Hiribarren; The Encyclopedia of Empire / King’s College London",
+    "url": "https://kclpure.kcl.ac.uk/portal/en/publications/kanem-bornu-empire/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kanem-whe",
+    "title": "Kingdom of Kanem",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Kingdom_of_Kanem/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kongo-saho",
+    "title": "Kingdom of Kongo 1390–1914",
+    "publisher": "South African History Online",
+    "url": "https://sahistory.org.za/article/kingdom-kongo-1390-1914",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kongo-unesco",
+    "title": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/1511",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kongo-beatriz",
+    "title": "Dona Beatriz: Kongo Prophet",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/ko/essays/dona-beatriz-kongo-prophet",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-asante-met",
+    "title": "Art of the Asante Kingdom",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/art-of-the-asante-kingdom",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-asante-va",
+    "title": "A history of Asante gold at the V&A",
+    "publisher": "Victoria and Albert Museum",
+    "url": "https://www.vam.ac.uk/articles/a-history-of-asante-gold-at-the-vanda",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-asante-saho",
+    "title": "The Kingdom of Ashanti is formally annexed by Great Britain",
+    "publisher": "South African History Online",
+    "url": "https://sahistory.org.za/dated-event/kingdom-ashanti-formally-annexed-great-britain",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-dahomey-unesco",
+    "title": "Royal Palaces of Abomey",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/323",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-dahomey-ouidah",
+    "title": "Ouidah",
+    "publisher": "Slavery and Remembrance / Colonial Williamsburg Foundation",
+    "url": "https://slaveryandremembrance.org/articles/article/index.cfm?id=A0120",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-dahomey-shd",
+    "title": "The conquest of Dahomey (1890–1894)",
+    "publisher": "Service historique de la Défense, France",
+    "url": "https://www.servicehistorique.sga.defense.gouv.fr/en/thematic-topics/conquest-dahomey-1890-1894",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-oyo-remembrance",
+    "title": "Oyo Empire",
+    "publisher": "Slavery and Remembrance / Colonial Williamsburg Foundation",
+    "url": "https://slaveryandremembrance.org/articles/article/?id=A0121",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-oyo-whe",
+    "title": "Oyo Empire",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Oyo_Empire/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-luba-met",
+    "title": "Kingdoms of the Savanna: The Luba and Lunda Empires",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/kingdoms-of-the-savanna-the-luba-and-lunda-empires",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-luba-vessel",
+    "title": "Royal vessel",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/art/collection/search/311089",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-luba-lunda-kent",
+    "title": "Luba-Lunda States",
+    "publisher": "Giacomo Macola; The Encyclopedia of Empire / University of Kent",
+    "url": "https://kar.kent.ac.uk/44499/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-central-africa-19",
+    "title": "Central Africa, 1800–1900 A.D.",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/10/afc.html",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kuba-met",
+    "title": "Kingdoms of the Savanna: The Kuba Kingdom",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/kingdoms-of-the-savanna-the-kuba-kingdom",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-kuba-mas",
+    "title": "On the origins and future",
+    "publisher": "Museum MAS, Antwerp",
+    "url": "https://mas.be/en/page/origins-and-future",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-mutapa-whe",
+    "title": "Mutapa",
+    "publisher": "World History Encyclopedia",
+    "url": "https://www.worldhistory.org/Mutapa/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-mutapa-cambridge",
+    "title": "The Mutapa Dynasty: A Comparison of Documentary and Traditional Evidence",
+    "publisher": "History in Africa / Cambridge University Press",
+    "url": "https://www.cambridge.org/core/journals/history-in-africa/article/abs/mutapa-dynasty-a-comparison-of-documentary-and-traditional-evidence/C065666BD00E8A6A89A7FDD27FBA8500",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-mutapa-decline",
+    "title": "The decline of the Mutapa state c.1623–c.1902",
+    "publisher": "Zimbabwe Field Guide; synthesis citing S. I. G. Mudenge and Innocent Pikirayi",
+    "url": "https://www.zimfieldguide.com/sites/mashonaland-central/decline-mutapa-state-c1623-%E2%80%93-c1902",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-sokoto-tdv",
+    "title": "SOKOTO",
+    "publisher": "Ahmet Kavas; TDV İslâm Ansiklopedisi",
+    "url": "https://islamansiklopedisi.org.tr/sokoto",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-sokoto-slavery",
+    "title": "Plantation Slavery in the Sokoto Caliphate: Conclusion",
+    "publisher": "Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/abs/plantation-slavery-in-the-sokoto-caliphate/conclusion/123411C91FB8EE3C51046B26B3A21A36",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-sokoto-ulama",
+    "title": "The Role Played by the Ulama of the Sokoto Caliphate, 1804–1837",
+    "publisher": "Ahmadu Bello University repository",
+    "url": "https://kubanni.abu.edu.ng/items/38fa840c-c595-4eb5-acd0-5c1fa9b2ef35/full",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-merina-unesco",
+    "title": "Royal Hill of Ambohimanga",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/950/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-merina-icomos",
+    "title": "ICOMOS evaluations: Royal Hill of Ambohimanga (No. 950), 2001",
+    "publisher": "ICOMOS / UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/1118",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-merina-annex",
+    "title": "Mr. Olney to Mr. Eustis, December 10, 1896 (FRUS 1897, document 146)",
+    "publisher": "Foreign Relations of the United States / U.S. Department of State",
+    "url": "https://history.state.gov/historicaldocuments/frus1897/d146",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-brazil-state",
+    "title": "A Guide to the United States’ History of Recognition, Diplomatic, and Consular Relations: Brazil",
+    "publisher": "U.S. Department of State, Office of the Historian",
+    "url": "https://history.state.gov/countries/brazil",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-brazil-senate",
+    "title": "The Senate of the Empire",
+    "publisher": "Senado Federal, Brazil",
+    "url": "https://www12.senado.leg.br/institucional/carta-de-servicos/en/history/The-Senate-of-the-Empire",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-brazil-imperio",
+    "title": "Senado participou dos momentos mais importantes do Brasil Império",
+    "publisher": "Agência Senado / Senado Federal, Brazil",
+    "url": "https://www12.senado.leg.br/noticias/infomaterias/2024/03/senado-participou-dos-momentos-mais-importantes-do-brasil-imperio",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-haiti-revolution",
+    "title": "The United States and the Haitian Revolution, 1791–1804",
+    "publisher": "U.S. Department of State, Office of the Historian",
+    "url": "https://history.state.gov/milestones/1784-1800/haitian-rev",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-haiti-loc",
+    "title": "Country Profile: Haiti, May 2006",
+    "publisher": "Library of Congress, Federal Research Division",
+    "url": "https://tile.loc.gov/storage-services/master/frd/copr/Haiti.pdf",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-haiti-un",
+    "title": "United Nations Integrated Office in Haiti: Report of the Secretary-General, S/2025/28",
+    "publisher": "United Nations Security Council",
+    "url": "https://digitallibrary.un.org/record/4072636/files/S_2025_28-EN.pdf",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-new-spain-ut",
+    "title": "The Exhibition on Your Screen: Selected Images from “A New Spain, 1521–1821”",
+    "publisher": "Albert A. Palacios; LLILAS Benson, University of Texas at Austin",
+    "url": "https://sites.utexas.edu/llilas-benson-magazine/2021/08/30/the-exhibition-on-your-screen-selected-images-from-a-new-spain-1521-1821/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-new-spain-unesco",
+    "title": "The Viceroys Correspondence Fond, XVII–XVIII Centuries",
+    "publisher": "UNESCO Memory of the World, Latin America and the Caribbean",
+    "url": "https://www.unesco.org/en/memory-world/lac/viceroys-correspondence-fond-xvii-xviii-centuries",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-peru-books",
+    "title": "Libros y autores en el Virreinato del Perú",
+    "publisher": "Centro Cultural Inca Garcilaso, Ministerio de Relaciones Exteriores del Perú",
+    "url": "https://www.ccincagarcilaso.gob.pe/actividades/libros-y-autores-en-el-virreinato-del-peru/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-peru-potosi",
+    "title": "City of Potosí",
+    "publisher": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/420",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-peru-ayacucho",
+    "title": "¿Cuál fue la importancia de la Batalla de Ayacucho y en qué consistió su capitulación?",
+    "publisher": "Proyecto Especial Bicentenario, Peru",
+    "url": "https://bicentenario.gob.pe/batalla-de-ayacucho-hito-en-la-consolidacion-de-la-independencia-americana/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-tui-tonga-pnas",
+    "title": "Stone tools from the ancient Tongan state reveal prehistoric interaction centers in the Central Pacific",
+    "publisher": "Geoffrey Clark and colleagues; Proceedings of the National Academy of Sciences",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4115531/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-tui-tonga-war",
+    "title": "The Field of War: LiDAR Identification of Earthwork Defences on Tongatapu Island, Kingdom of Tonga",
+    "publisher": "Phillip A. Parton and colleagues; Journal of Pacific Archaeology",
+    "url": "https://pacificarchaeology.org/index.php/journal/article/view/231",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-tonga-state",
+    "title": "A Guide to the United States’ History of Recognition, Diplomatic, and Consular Relations: Tonga",
+    "publisher": "U.S. Department of State, Office of the Historian",
+    "url": "https://history.state.gov/countries/tonga",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-tonga-nfsa",
+    "title": "Questioning Tradition: Civics and Citizenship, Government and Law",
+    "publisher": "National Film and Sound Archive of Australia",
+    "url": "https://dl.nfsa.gov.au/module/700/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  },
+  {
+    "id": "regional-tonga-parliament",
+    "title": "Committees",
+    "publisher": "Legislative Assembly of Tonga",
+    "url": "https://parliament.gov.to/en/committees",
+    "verifiedAt": "2026-09-27",
+    "rights": "Original Chronicle synthesis of historical facts; no source prose reproduced."
+  }
+]

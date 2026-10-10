@@ -1,0 +1,771 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-09-27",
+  "dateConvention": "Historical signed years: negative values mean BCE; there is no year zero. Event ranges describe what the account discusses, not a state's lifetime. Broad ranges and uncertain composition dates are identified in each entry.",
+  "geographyNote": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+  "readingNote": "A source near the selected date is not automatically an eyewitness. Keep event dates, composition dates, and later translation dates separate. Quotation means a short verified extract from the linked translation; paraphrase means editorial wording, never the historical author's exact words.",
+  "sources": [
+    {
+      "id": "account-ibn-cairo",
+      "title": "Ibn Battuta: Cairo and Egypt, Travels in Asia and Africa",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/source/1354ibnbattuta-cairoandegypt.asp",
+      "kind": "primary-translation",
+      "notes": "Extract from H. A. R. Gibb's 1929 English translation. Ibn Battuta's recollections were dictated and edited by Ibn Juzayy in Morocco, 1354–1355; this is not a surviving daily diary."
+    },
+    {
+      "id": "account-ibn-east-africa",
+      "title": "Ibn Battuta: East Africa in the Fourteenth Century",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/source/ibnbattuta-africa14C.asp",
+      "kind": "primary-translation",
+      "notes": "Gibb translation, 1929, pp. 110–112. Separates Mogadishu and Kilwa; dated visit commonly placed in 1331. The narrator's social and religious judgments require critical reading."
+    },
+    {
+      "id": "account-ibn-travels",
+      "title": "Ibn Battuta: Travels in Asia and Africa, 1325–1354",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/source/1354-ibnbattuta.asp",
+      "kind": "primary-translation",
+      "notes": "Gibb's 1929 selection includes explicit dates for the Damascus plague visit and the 1352–1353 journey to Mali. Editorial summaries here are not quotations."
+    },
+    {
+      "id": "account-clavijo",
+      "title": "Clavijo's Embassy to Tamerlane",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "url": "https://depts.washington.edu/silkroad/texts/clavijo/cltxt1.html",
+      "kind": "primary-translation",
+      "notes": "Guy Le Strange translation, 1928, with university editorial headings. Embassy travelled in 1403–1406; 1406–1412 below is a cautious post-return composition window, not a securely dated manuscript."
+    },
+    {
+      "id": "account-clavijo-scan",
+      "title": "Narrative of the Embassy to the Court of Timour at Samarcand, 1403–1406",
+      "publisher": "Hakluyt Society, 1859; digitized by Internet Archive",
+      "url": "https://archive.org/details/narrativeembass00markgoog",
+      "kind": "primary-translation-scan",
+      "notes": "Clements R. Markham's older translation provides a downloadable scanned edition for comparison with Le Strange. Translation choices and nineteenth-century commentary are separate from Clavijo's text."
+    },
+    {
+      "id": "account-polo-hangzhou",
+      "title": "Marco Polo: The Glories of Kinsay (Hangzhou)",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/source/polo-kinsay.asp",
+      "kind": "primary-translation",
+      "notes": "Henry Yule translation, 1903 edition. The narrative attributes some detail to a written account and mixes recollection with reported information. The visit window is approximate."
+    },
+    {
+      "id": "account-rubruck",
+      "title": "William of Rubruck's Account of the Mongols",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "url": "https://depts.washington.edu/silkroad/texts/rubruck.html",
+      "kind": "primary-translation",
+      "notes": "W. W. Rockhill translation, 1900, checked against Jackson and Morgan's 1990 edition by the university editors. The account is addressed to Louis IX and describes the journey of 1253–1255."
+    },
+    {
+      "id": "account-faxian",
+      "title": "The Journey of Faxian to India",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "url": "https://depts.washington.edu/silkroad/texts/faxian.html",
+      "kind": "primary-translation",
+      "notes": "James Legge translation, 1886, pp. 9–36, with editorial place identifications. The journey lasted 399–414; Khotan's 400–402 window is approximate, not an exact arrival year."
+    },
+    {
+      "id": "account-xuanzang",
+      "title": "Xuanzang's Record of the Western Regions, Book One",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "url": "https://depts.washington.edu/silkroad/texts/xuanzang.html",
+      "kind": "primary-translation",
+      "notes": "Samuel Beal translation, 1884. The record was composed in 646 after the journey of 629–645. The Samarkand visit is placed approximately in 630–631."
+    },
+    {
+      "id": "account-barbosa",
+      "title": "A Description of the Coasts of East Africa and Malabar",
+      "publisher": "Hakluyt Society, 1866; Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/38253/38253-h/38253-h.htm",
+      "kind": "primary-translation",
+      "notes": "Henry E. J. Stanley translation of a Spanish manuscript associated with Duarte Barbosa. The edition discusses attribution and manuscript differences. Broad 1500–1516 windows reflect an accumulated description, not a dated voyage log."
+    },
+    {
+      "id": "account-boccaccio",
+      "title": "Boccaccio: The Decameron, Introduction",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/source/boccacio2.asp",
+      "kind": "primary-translation",
+      "notes": "A literary account of Florence's 1348 plague, translated by J. M. Rigg, 1903. The narrative frames a story collection; it is not a register of diagnoses or deaths."
+    },
+    {
+      "id": "account-boccaccio-dating",
+      "title": "Giovanni Boccaccio: Life and Works",
+      "publisher": "Brown University, Decameron Web",
+      "url": "https://cds.library.brown.edu/projects/Decameron/boccaccio/life1_en.php",
+      "kind": "scholarly-context",
+      "notes": "Brown's chronology places composition in 1349–1351. This is a dating aid, separate from the primary text and its later revisions."
+    },
+    {
+      "id": "account-stefani",
+      "title": "Marchione di Coppo Stefani: The Florentine Chronicle",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/med/marchione.asp",
+      "kind": "primary-translation",
+      "notes": "Translated plague passages from the local chronicle. The host dates composition to the late 1370s and early 1380s; the 1348 account was written decades after the epidemic."
+    },
+    {
+      "id": "account-cortes",
+      "title": "Hernán Cortés: Second Letter to Charles V, 1520",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/mod/1520cortes.asp",
+      "kind": "primary-translation",
+      "notes": "Extract from the conquistador's royal report. Descriptions of Tenochtitlan's market and water infrastructure should be compared with Nahua accounts and archaeology."
+    },
+    {
+      "id": "account-florentine-codex",
+      "title": "Digital Florentine Codex: Book 12, Conquest of Mexico",
+      "publisher": "Getty Research Institute; manuscript in Biblioteca Medicea Laurenziana",
+      "url": "https://florentinecodex.getty.edu/en/book/12/folio/1r?nhTexts=&spTexts=",
+      "kind": "primary-manuscript-and-translation",
+      "notes": "Searchable Nahuatl and Spanish text with manuscript images and translations. Compiled through Nahua scholars, artists and informants working with Bernardino de Sahagún; the completed manuscript dates to 1577. The opening commentary notes a Tlatelolcan perspective."
+    },
+    {
+      "id": "account-florentine-codex-loc",
+      "title": "Florentine Codex, Book XII: The Conquest of Mexico",
+      "publisher": "Library of Congress, World Digital Library",
+      "url": "https://www.loc.gov/item/2021667857",
+      "kind": "primary-manuscript-catalogue",
+      "notes": "Institutional manuscript record and page images, with compilation context. A catalogue record is not itself an English translation; use the Getty edition to read passages."
+    },
+    {
+      "id": "account-cieza",
+      "title": "The Second Part of the Chronicle of Peru",
+      "publisher": "Hakluyt Society, 1883; Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/48785/48785-h/48785-h.htm",
+      "kind": "primary-translation",
+      "notes": "Clements R. Markham translation of Pedro de Cieza de León. This second part remained unpublished in his lifetime; do not confuse its nineteenth-century publication with the first part printed in 1553. Chapters 12–24 discuss records, roads, tribute and administration."
+    },
+    {
+      "id": "account-cyrus",
+      "title": "Cyrus Cylinder: Translation",
+      "publisher": "Livius.org, scholarly ancient-history resource",
+      "url": "https://www.livius.org/sources/content/cyrus-cylinder/cyrus-cylinder-translation/",
+      "kind": "primary-translation",
+      "notes": "Translation based on Mordechai Cogan, adapted to Hanspeter Schaudig's edition with Bert van der Spek. Fragment gaps and restorations remain visible. The inscription concerns the conquest of Babylon in October 539 BCE."
+    },
+    {
+      "id": "account-cyrus-object",
+      "title": "Cyrus Cylinder, museum number 1880,0617.1941",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+      "kind": "primary-object-catalogue",
+      "notes": "Museum object identification and bibliography. The separate Livius link provides a readable English translation with visible gaps and restorations."
+    },
+    {
+      "id": "account-thucydides",
+      "title": "Thucydides: The Plague of Athens, 430 BCE",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "url": "https://sourcebooks.web.fordham.edu/ancient/thuc-plague.asp",
+      "kind": "primary-translation",
+      "notes": "Peloponnesian War, Book 2, English translation by Richard Crawley. The author claims personal illness and observation; the precise modern pathogen is not established by this text."
+    },
+    {
+      "id": "account-augustus",
+      "title": "Res Gestae Divi Augusti, Section III",
+      "publisher": "LacusCurtius, hosted by the University of Chicago",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/3%2A.html",
+      "kind": "primary-translation",
+      "notes": "Latin, Greek and English text of Augustus's retrospective public record, following the 1924 Loeb edition. Section III covers distributions, expenditure and building. Text finalized at the end of Augustus's life in 14 CE."
+    },
+    {
+      "id": "account-tarikh-event",
+      "title": "Taʾrīkh al-Sūdān: Parade and Warning for an Attempted Assault",
+      "publisher": "University of Padua, Echos: Sound Ecosystems in Travelogues",
+      "url": "https://echos.beniculturali.unipd.it/events/2255",
+      "kind": "primary-translation-excerpt",
+      "notes": "Arabic passage and English translation of the Timbuktu event dated 10 October 1591; edited by A. Pintimalli. Database attribution: DOI 10.25430/echos.travels.139, CC BY-SA 4.0. No translated quotation is reproduced here."
+    },
+    {
+      "id": "account-tarikh-manuscript",
+      "title": "Section of the Tārīkh al-Sūdān, Or 6473, f. 266r",
+      "publisher": "British Library",
+      "url": "https://searcharchives.bl.uk/catalog/040-003390279",
+      "kind": "primary-manuscript-catalogue",
+      "notes": "Identifies al-Saʿdi's work as composed around 1655. This surviving excerpt is an early nineteenth-century copy, not the author's autograph; catalogue includes a digitized-content link."
+    },
+    {
+      "id": "account-leo-timbuktu",
+      "title": "Primary Source: Leo Africanus Describes Timbuktu",
+      "publisher": "Library of North Carolina, ANCHOR",
+      "url": "https://www.ncanchor.org/anchor/primary-source-leo-africanus",
+      "kind": "primary-translation",
+      "notes": "Abridged extract with link to John Pory's translation in Robert Brown's 1896 Hakluyt Society edition. Al-Hasan al-Wazzan's early-sixteenth-century travel memories were composed in Italy; the visit window below is approximate."
+    },
+    {
+      "id": "account-periplus",
+      "title": "The Voyage around the Erythraean Sea",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "url": "https://depts.washington.edu/silkroad/texts/periplus/periplus.html",
+      "kind": "primary-translation",
+      "notes": "Wilfred H. Schoff translation, 1912, with editorial checks against Lionel Casson's 1989 edition. Anonymous first-century merchant guide; 40–70 CE is an approximate composition/context window, not an exact sailing date."
+    },
+    {
+      "id": "account-ibn-composition",
+      "title": "Writing the Rihla: 1355",
+      "publisher": "University of California, Berkeley, ORIAS",
+      "url": "https://orias.berkeley.edu/node/177",
+      "kind": "scholarly-context",
+      "notes": "Explains the 1354–1355 dictation and editing process, genre conventions, borrowing from earlier travellers, and the mixture of observation and hearsay."
+    },
+    {
+      "id": "account-faxian-dating",
+      "title": "Chinese Buddhist Canonical Attributions: T2085, Gaoseng Faxian zhuan",
+      "publisher": "Dharma Drum Institute of Liberal Arts",
+      "url": "https://cbc.dila.edu.tw/cbc/text/36/",
+      "kind": "scholarly-context",
+      "notes": "Bibliographic evidence for the Record, including discussion of return dates and composition in 416. These datings are scholarly reconstructions."
+    },
+    {
+      "id": "account-leo-manuscript-date",
+      "title": "Cosmographia de l’Affrica: Rome manuscript V.E. 953, 1526",
+      "publisher": "Smithsonian Libraries and Archives",
+      "url": "https://www.si.edu/object/siris_sil_1047172",
+      "kind": "manuscript-edition-catalogue",
+      "notes": "Catalogue for Gabriele Amadori’s edition of the 1526 manuscript, useful for separating composition from Ramusio’s 1550 printing."
+    },
+    {
+      "id": "account-cieza-context",
+      "title": "The Second Part of the Chronicle of Peru: publication information",
+      "publisher": "Yale University, Human Relations Area Files",
+      "url": "https://ehrafarchaeology.yale.edu/traditions/se80/documents/013",
+      "kind": "scholarly-catalogue",
+      "notes": "Public metadata identifies this as traditional Inca history and dates the field material to 1541–1550. Full indexed text may require access; the separate Gutenberg edition is freely readable."
+    },
+    {
+      "id": "account-leo-criticism",
+      "title": "Leo Africanus: The Man with Many Names",
+      "publisher": "Pekka Masonen, scholarly essay; hosted by LeoAfricanus.com",
+      "url": "https://www.leoafricanus.com/pictures/bibliography/Masonen/Masonen.pdf",
+      "kind": "scholarly-context",
+      "notes": "Examines the evidence for the reported 1509–1510 and later journeys and challenges treating the Description as a literal itinerary. Personal observation and information collected from others must be distinguished."
+    }
+  ],
+  "accounts": [
+    {
+      "id": "account-ibn-cairo-1326",
+      "title": "Cairo: a city connected by the Nile",
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "place": "Cairo",
+      "coordinates": [
+        31.2357,
+        30.0444
+      ],
+      "eventFromYear": 1326,
+      "eventToYear": 1326,
+      "writtenFromYear": 1354,
+      "writtenToYear": 1355,
+      "summary": "The traveller describes river transport, markets, religious institutions and public celebration. His Cairo belongs to a chain of settlements and provisioning stops rather than an isolated capital dot.",
+      "excerpt": "the meeting-place of comer and goer",
+      "excerptKind": "quotation",
+      "sourceIds": [
+        "account-ibn-cairo",
+        "account-ibn-composition"
+      ],
+      "perspective": "A visiting Moroccan Muslim jurist, welcomed through religious and elite networks.",
+      "limitations": "Dictated decades later. Large totals for boats and workers are reported claims, not a census."
+    },
+    {
+      "id": "account-ibn-kilwa-1331",
+      "title": "Kilwa: an African Muslim port",
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "place": "Kilwa Kisiwani",
+      "coordinates": [
+        39.5205,
+        -8.9579
+      ],
+      "eventFromYear": 1331,
+      "eventToYear": 1331,
+      "writtenFromYear": 1354,
+      "writtenToYear": 1355,
+      "summary": "The account places Kilwa within a coastal sailing itinerary and describes its built environment and ruler's religious patronage. It is evidence for African urban society participating in an Islamic maritime world.",
+      "excerpt": "A coastal city, its court and its religious life enter the traveller's account together.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-ibn-east-africa"
+      ],
+      "perspective": "A Muslim visitor assessing hospitality, piety and courtly generosity.",
+      "limitations": "A brief elite encounter. It cannot establish population percentages, territorial borders or when local people converted."
+    },
+    {
+      "id": "account-ibn-mogadishu-1331",
+      "title": "Mogadishu: merchant hospitality and cloth",
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "place": "Mogadishu",
+      "coordinates": [
+        45.3438,
+        2.0469
+      ],
+      "eventFromYear": 1331,
+      "eventToYear": 1331,
+      "writtenFromYear": 1354,
+      "writtenToYear": 1355,
+      "summary": "Merchant hosts receive arrivals and mediate their trading. Cloth production and exchange connect the port to other Indian Ocean markets.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-ibn-east-africa"
+      ],
+      "perspective": "An outsider hosted by merchants and introduced to the ruler.",
+      "limitations": "Recollection organized for readers in Morocco; sweeping characterizations of peoples are the author's judgments."
+    },
+    {
+      "id": "account-ibn-damascus-plague-1348",
+      "title": "Damascus: collective responses to plague",
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "place": "Damascus",
+      "coordinates": [
+        36.3066,
+        33.5138
+      ],
+      "eventFromYear": 1348,
+      "eventToYear": 1348,
+      "writtenFromYear": 1354,
+      "writtenToYear": 1355,
+      "summary": "The narrator dates his return to July 1348 and describes fasting and a procession involving Muslims, Jews and Christians. It records religious and civic responses to epidemic fear.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-ibn-travels"
+      ],
+      "perspective": "A Muslim witness explaining a public devotional response.",
+      "limitations": "The account documents reported behavior, not a traced infection route or reliable daily death count."
+    },
+    {
+      "id": "account-ibn-walata-1352",
+      "title": "Walata: guides, water and caravan trust",
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "place": "Walata / Oualata",
+      "coordinates": [
+        -7.024,
+        17.302
+      ],
+      "eventFromYear": 1352,
+      "eventToYear": 1352,
+      "writtenFromYear": 1354,
+      "writtenToYear": 1355,
+      "summary": "Caravan letters arrange lodging and water support before travellers reach Walata. A ruler's deputy, merchants and local guides make trans-Saharan movement possible.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-ibn-travels"
+      ],
+      "perspective": "A traveller dependent on hospitality who disapproves of unfamiliar social customs.",
+      "limitations": "Ethnocentric judgments and interpretation through intermediaries require scrutiny. Walata is used instead of inventing a certain location for Mali's disputed capital."
+    },
+    {
+      "id": "account-clavijo-samarkand-1404",
+      "title": "Samarkand: court, commerce and coerced movement",
+      "author": "Ruy González de Clavijo",
+      "place": "Samarkand",
+      "coordinates": [
+        66.9597,
+        39.6542
+      ],
+      "eventFromYear": 1404,
+      "eventToYear": 1404,
+      "writtenFromYear": 1406,
+      "writtenToYear": 1412,
+      "summary": "Clavijo describes markets, court ceremonies and skilled workers brought from conquered lands. Urban splendour is connected to both trade and forced relocation.",
+      "excerpt": "The markets of Samarqand further are amply stored",
+      "excerptKind": "quotation",
+      "sourceIds": [
+        "account-clavijo",
+        "account-clavijo-scan"
+      ],
+      "perspective": "A Castilian ambassador receiving privileged access at Timur's court.",
+      "limitations": "A staged diplomatic encounter; population claims and reported origins need corroboration. Composition window is approximate."
+    },
+    {
+      "id": "account-clavijo-tabriz-1404",
+      "title": "Tabriz: caravanserais and urban water",
+      "author": "Ruy González de Clavijo",
+      "place": "Tabriz",
+      "coordinates": [
+        46.2919,
+        38.08
+      ],
+      "eventFromYear": 1404,
+      "eventToYear": 1404,
+      "writtenFromYear": 1406,
+      "writtenToYear": 1412,
+      "summary": "The embassy encounters conduits, market streets and caravanserais selling textiles and other goods. The account shows the physical services supporting long-distance commerce.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-clavijo"
+      ],
+      "perspective": "A diplomatic traveller using the Timurid relay and hospitality system.",
+      "limitations": "Personal observation is mixed with stories heard locally; access was not representative of an ordinary traveller."
+    },
+    {
+      "id": "account-polo-hangzhou-1276-1292",
+      "title": "Hangzhou: waterways, crafts and tax revenue",
+      "author": "Marco Polo with Rustichello of Pisa",
+      "place": "Hangzhou / Kinsay",
+      "coordinates": [
+        120.1551,
+        30.2741
+      ],
+      "eventFromYear": 1276,
+      "eventToYear": 1292,
+      "writtenFromYear": 1298,
+      "writtenToYear": 1299,
+      "summary": "Polo presents a former Southern Song capital as a connected urban economy of bridges, workshops, markets and taxation. The narrative itself invokes another written description as a source.",
+      "excerpt": "the whole city stands as it were in the water",
+      "excerptKind": "quotation",
+      "sourceIds": [
+        "account-polo-hangzhou"
+      ],
+      "perspective": "A Venetian travel narrative shaped with a literary collaborator for European audiences.",
+      "limitations": "Visit dates are broad; impressive numerical totals and claims of personal observation should be tested against Chinese records."
+    },
+    {
+      "id": "account-rubruck-karakorum-1254",
+      "title": "Karakorum: religious encounters at a Mongol court",
+      "author": "William of Rubruck",
+      "place": "Karakorum / Kharkhorin",
+      "coordinates": [
+        102.823,
+        47.197
+      ],
+      "eventFromYear": 1254,
+      "eventToYear": 1254,
+      "writtenFromYear": 1255,
+      "writtenToYear": 1255,
+      "summary": "The friar describes the Mongol capital, foreign craftspeople and encounters among Buddhist, Muslim and Christian communities. His account makes imperial mobility and religious negotiation visible.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-rubruck"
+      ],
+      "perspective": "A Franciscan missionary reporting to Louis IX, especially attentive to Christian prospects.",
+      "limitations": "Translation and religious polemic shape the description; the author's labels are not a modern census of beliefs."
+    },
+    {
+      "id": "account-faxian-khotan-400-402",
+      "title": "Khotan: monasteries as a travel network",
+      "author": "Faxian",
+      "place": "Khotan / Hotan oasis",
+      "coordinates": [
+        79.922,
+        37.114
+      ],
+      "eventFromYear": 400,
+      "eventToYear": 402,
+      "writtenFromYear": 414,
+      "writtenToYear": 416,
+      "summary": "Faxian describes accommodation for travelling monks, collective support and Buddhist processions at Khotan. Religious institutions connect distant communities and help sustain travel across the Tarim Basin.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-faxian",
+        "account-faxian-dating"
+      ],
+      "perspective": "A Chinese Buddhist pilgrim seeking disciplinary texts and assessing monastic practice.",
+      "limitations": "Visit and composition windows are approximate. Large monk totals and universal statements about belief are not population statistics."
+    },
+    {
+      "id": "account-xuanzang-samarkand-630",
+      "title": "Samarkand before the Islamic conquests",
+      "author": "Xuanzang, compiled with Bianji",
+      "place": "Samarkand",
+      "coordinates": [
+        66.9597,
+        39.6542
+      ],
+      "eventFromYear": 630,
+      "eventToYear": 631,
+      "writtenFromYear": 646,
+      "writtenToYear": 646,
+      "summary": "The record describes a populous commercial centre, productive land, crafts and a ruler's military standing. Comparing this with Clavijo reveals continuity of exchange across different political and religious settings.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-xuanzang"
+      ],
+      "perspective": "A Buddhist pilgrim whose geographical report was produced at the Tang emperor's request.",
+      "limitations": "Distances, regional names and descriptions of authority require interpretation; praise of Tang rule belongs to the work's political setting."
+    },
+    {
+      "id": "account-barbosa-calicut-1500-1516",
+      "title": "Calicut: commodities, merchants and export duties",
+      "author": "Duarte Barbosa (associated manuscript tradition)",
+      "place": "Calicut / Kozhikode",
+      "coordinates": [
+        75.7804,
+        11.2588
+      ],
+      "eventFromYear": 1500,
+      "eventToYear": 1516,
+      "writtenFromYear": 1516,
+      "writtenToYear": 1516,
+      "summary": "The description links pepper, ginger and other goods to inland production, merchants, shipping and royal duties. It lists destinations across the western Indian Ocean.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-barbosa"
+      ],
+      "perspective": "Portuguese commercial and imperial observation, informed partly by local knowledge.",
+      "limitations": "An accumulated account, not one year's survey. Prices, units and religious categories are historically specific; manuscript attribution is discussed in the edition."
+    },
+    {
+      "id": "account-barbosa-malacca-1500-1516",
+      "title": "Malacca: exchange and Portuguese conquest",
+      "author": "Duarte Barbosa (associated manuscript tradition)",
+      "place": "Malacca / Melaka",
+      "coordinates": [
+        102.2501,
+        2.1896
+      ],
+      "eventFromYear": 1500,
+      "eventToYear": 1516,
+      "writtenFromYear": 1516,
+      "writtenToYear": 1516,
+      "summary": "The text describes a trading centre and the Portuguese seizure of it in 1511. It helps connect commercial networks with violence and changing control of a strategic port.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-barbosa"
+      ],
+      "perspective": "A Portuguese account presenting the conquest to an imperial readership.",
+      "limitations": "Claims about justified conquest and treatment of merchants are partisan. The window includes conditions before and after 1511."
+    },
+    {
+      "id": "account-boccaccio-florence-1348",
+      "title": "Florence: plague in a literary account",
+      "author": "Giovanni Boccaccio",
+      "place": "Florence",
+      "coordinates": [
+        11.2558,
+        43.7696
+      ],
+      "eventFromYear": 1348,
+      "eventToYear": 1348,
+      "writtenFromYear": 1349,
+      "writtenToYear": 1351,
+      "summary": "The Decameron's opening describes failed precautions, disrupted care and burial, and changing social conduct. It offers a near-contemporary account of how an epidemic was understood and remembered.",
+      "excerpt": "the lack of due attendance of the sick",
+      "excerptKind": "quotation",
+      "sourceIds": [
+        "account-boccaccio",
+        "account-boccaccio-dating"
+      ],
+      "perspective": "A literary author creating the setting for a collection of stories.",
+      "limitations": "Rhetorical contrasts and moral themes shape the passage. Composition dates are approximate, and later revision is not excluded."
+    },
+    {
+      "id": "account-stefani-florence-1348",
+      "title": "Florence: labor, burial and epidemic memory",
+      "author": "Marchionne di Coppo Stefani / Baldassarre Bonaiuti",
+      "place": "Florence",
+      "coordinates": [
+        11.2558,
+        43.7696
+      ],
+      "eventFromYear": 1348,
+      "eventToYear": 1348,
+      "writtenFromYear": 1375,
+      "writtenToYear": 1385,
+      "summary": "A local chronicler recalls care shortages, burial work, costs and civic regulation. Reading him alongside Boccaccio distinguishes shared themes from different authorial interests.",
+      "excerpt": "Physicians could not be found",
+      "excerptKind": "quotation",
+      "sourceIds": [
+        "account-stefani"
+      ],
+      "perspective": "A Florentine civic chronicler writing roughly a generation after the outbreak.",
+      "limitations": "The broad composition window represents late-1370s/early-1380s writing. Dramatic mortality totals are claims to investigate, not verified demographic data."
+    },
+    {
+      "id": "account-cortes-tenochtitlan-1519-1520",
+      "title": "Tenochtitlan through a conquistador's report",
+      "author": "Hernán Cortés",
+      "place": "Tenochtitlan / Mexico City",
+      "coordinates": [
+        -99.1332,
+        19.4326
+      ],
+      "eventFromYear": 1519,
+      "eventToYear": 1520,
+      "writtenFromYear": 1520,
+      "writtenToYear": 1520,
+      "summary": "Cortés describes causeways, water supply, markets and the ruler's court while explaining his actions to Charles V. The city's infrastructure and exchange are central to his portrayal.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-cortes"
+      ],
+      "perspective": "An invading commander seeking royal recognition and authority.",
+      "limitations": "Admiration coexists with a justification of conquest; claims of order and wealth serve the letter's political purpose."
+    },
+    {
+      "id": "account-nahua-conquest-1519-1521",
+      "title": "The conquest remembered by Nahua collaborators",
+      "author": "Nahua scholars, artists and informants working with Bernardino de Sahagún",
+      "place": "Tlatelolco / Mexico City",
+      "coordinates": [
+        -99.137,
+        19.451
+      ],
+      "eventFromYear": 1519,
+      "eventToYear": 1521,
+      "writtenFromYear": 1550,
+      "writtenToYear": 1577,
+      "summary": "Book 12 preserves Nahuatl and Spanish accounts and images of the conquest. It offers Indigenous memories and local perspectives to compare with Cortés's royal report.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-florentine-codex",
+        "account-florentine-codex-loc"
+      ],
+      "perspective": "A collaborative colonial manuscript; Nahua contributors and a Franciscan editor did not occupy equal positions of power.",
+      "limitations": "Recorded decades later and shaped by translation and selection. Nahuatl and Spanish columns are not identical; Tlatelolcan perspectives cannot represent all Indigenous communities."
+    },
+    {
+      "id": "account-cieza-cuzco-imperial-memory",
+      "title": "Cuzco: remembering Inca government",
+      "author": "Pedro de Cieza de León and his Andean informants",
+      "place": "Cuzco / Cusco",
+      "coordinates": [
+        -71.9675,
+        -13.5319
+      ],
+      "eventFromYear": 1400,
+      "eventToYear": 1532,
+      "writtenFromYear": 1548,
+      "writtenToYear": 1554,
+      "summary": "Cieza discusses quipus, roads, storehouses, tribute and provincial government using observations and testimony collected after the conquest. Political rule appears through labor and information systems.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-cieza",
+        "account-cieza-context"
+      ],
+      "perspective": "A Spanish chronicler reliant on Andean memories and elite informants.",
+      "limitations": "The event window is a broad late-Inca context, not a dated visit or secure accession chronology. Retrospective and colonial mediation must remain visible."
+    },
+    {
+      "id": "account-cyrus-babylon-539bce",
+      "title": "Babylon: a conqueror explains legitimate rule",
+      "author": "Royal inscription issued in the name of Cyrus II",
+      "place": "Babylon",
+      "coordinates": [
+        44.4211,
+        32.5422
+      ],
+      "eventFromYear": -539,
+      "eventToYear": -539,
+      "writtenFromYear": -539,
+      "writtenToYear": -530,
+      "summary": "The cylinder represents Cyrus as the ruler chosen by Marduk and describes restoration after Babylon's conquest. It shows how new power used established Babylonian language of legitimacy.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-cyrus",
+        "account-cyrus-object"
+      ],
+      "perspective": "An official royal inscription composed in a Babylonian political and religious idiom.",
+      "limitations": "A programmatic claim, not independent testimony of every action. It is not a universal modern human-rights charter; gaps in the clay require restoration."
+    },
+    {
+      "id": "account-thucydides-athens-430bce",
+      "title": "Athens: war, crowding and epidemic experience",
+      "author": "Thucydides",
+      "place": "Athens",
+      "coordinates": [
+        23.7275,
+        37.9838
+      ],
+      "eventFromYear": -430,
+      "eventToYear": -430,
+      "writtenFromYear": -430,
+      "writtenToYear": -400,
+      "summary": "The historian records symptoms, the pressure on care and burial, and disruptions to conduct during war. He distinguishes personal experience from reports about the epidemic's origins.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-thucydides"
+      ],
+      "perspective": "An Athenian historian who says he contracted and survived the illness.",
+      "limitations": "Composition extended beyond the event; the range is approximate. Symptoms alone do not establish a modern diagnosis or prove a detailed diffusion path."
+    },
+    {
+      "id": "account-augustus-rome-public-works",
+      "title": "Rome: benefaction as an imperial argument",
+      "author": "Augustus",
+      "place": "Rome",
+      "coordinates": [
+        12.4964,
+        41.9028
+      ],
+      "eventFromYear": -27,
+      "eventToYear": 14,
+      "writtenFromYear": 14,
+      "writtenToYear": 14,
+      "summary": "Augustus lists distributions, spending and construction as evidence of service to the Roman people. The account connects urban infrastructure with the ruler's claim to legitimacy.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-augustus"
+      ],
+      "perspective": "A ruler's selective retrospective record, circulated publicly after his death.",
+      "limitations": "Self-presentation omits much coercion and conflict. The displayed period is the principate; some acts listed in the full work are earlier."
+    },
+    {
+      "id": "account-timbuktu-tarikh-1591",
+      "title": "Timbuktu: a local chronicle of contested authority",
+      "author": "ʿAbd al-Raḥmān al-Saʿdi",
+      "place": "Timbuktu",
+      "coordinates": [
+        -3.0026,
+        16.7666
+      ],
+      "eventFromYear": 1591,
+      "eventToYear": 1591,
+      "writtenFromYear": 1650,
+      "writtenToYear": 1656,
+      "summary": "The chronicle recounts an attempted attack on a commander and a public warning after the attacker's death. Authority is made visible through armed force and communication in the streets.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-tarikh-event",
+        "account-tarikh-manuscript"
+      ],
+      "perspective": "A locally rooted West African Muslim chronicler writing after the event.",
+      "limitations": "This is retrospective history, not an eyewitness account from 1591. Composition is approximately 1655; the British Library copy linked separately is much later."
+    },
+    {
+      "id": "account-leo-timbuktu-1510-1514",
+      "title": "Timbuktu: books, merchants and urban risk",
+      "author": "Al-Hasan al-Wazzan, known in Europe as Leo Africanus",
+      "place": "Timbuktu",
+      "coordinates": [
+        -3.0026,
+        16.7666
+      ],
+      "eventFromYear": 1509,
+      "eventToYear": 1514,
+      "writtenFromYear": 1526,
+      "writtenToYear": 1526,
+      "summary": "The description joins commerce, learned activity and royal patronage with a remembered urban fire. Books and scholarship appear within an economy of movement and exchange.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-leo-timbuktu",
+        "account-leo-manuscript-date",
+        "account-leo-criticism"
+      ],
+      "perspective": "A North African traveller later writing in Italy after capture and conversion.",
+      "limitations": "The 1509–1514 window is approximate. Scholars dispute parts of the itinerary and the balance of direct observation and hearsay; the account is not a literacy survey."
+    },
+    {
+      "id": "account-periplus-barygaza-first-century",
+      "title": "Barygaza: a merchant guide to an Indian Ocean port",
+      "author": "Anonymous Greek-language merchant or maritime observer",
+      "place": "Barygaza / Bharuch",
+      "coordinates": [
+        72.9959,
+        21.7051
+      ],
+      "eventFromYear": 40,
+      "eventToYear": 70,
+      "writtenFromYear": 40,
+      "writtenToYear": 70,
+      "summary": "The guide lists imports and exports, navigation, inland connections and goods destined for rulers. It links western Indian ports with production zones and sea routes sustained by seasonal winds.",
+      "excerptKind": "paraphrase",
+      "sourceIds": [
+        "account-periplus"
+      ],
+      "perspective": "Commercial information organized for a Greek-reading trading community.",
+      "limitations": "The first-century date window is approximate. A route guide is selective, and its attribution of discovery can hide earlier navigational knowledge."
+    }
+  ]
+}

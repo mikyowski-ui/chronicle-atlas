@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chronicle narrow viewport review</title>
+<style>
+body{margin:0;background:#dce5e7;color:#193c45;font:14px system-ui;display:flex;gap:24px;justify-content:center;align-items:flex-start;padding:20px}
+aside{max-width:270px}h1{font-size:21px}p{line-height:1.5}iframe{width:390px;height:844px;border:1px solid #66828a;background:white;box-shadow:0 8px 32px #1233;flex:none}
+button{padding:10px;margin:4px;border:1px solid #7c999f;border-radius:8px;background:white;color:inherit;cursor:pointer}
+</style>
+<aside><h1>Research viewport review</h1><p>This is the actual application in a <strong id="size">390 × 844</strong> CSS-pixel viewport. It tests responsive layout, not a physical mobile device.</p><button id="minimum">375 × 812</button><button id="compact">390 × 844</button><button id="wide">430 × 932</button><p>Open Research, inspect a dot and its source, switch to the map, and check the timeline. This review harness is not a production entry point.</p></aside>
+<iframe id="review-app" title="Chronicle narrow viewport" src="/?review=narrow#time=10957&amp;camera=-100.2%2C22.2%2C4.2"></iframe>
+<script type="module">
+const frame=document.getElementById('review-app');
+for(const [id,width,height] of [['minimum',375,812],['compact',390,844],['wide',430,932]])document.getElementById(id).addEventListener('click',()=>{frame.style.width=width+'px';frame.style.height=height+'px';document.getElementById('size').textContent=width+' × '+height;});
+</script>
+</html>

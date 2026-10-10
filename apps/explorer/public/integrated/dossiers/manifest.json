@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "edition": "chronicle-dossiers-20260923-v1",
+  "recorded_at": "2026-09-23T00:00:00Z",
+  "max_records": 3,
+  "records": [
+    {
+      "id": "scotland-1600",
+      "title": "Kingdom of Scotland",
+      "entity_id": "isles:political:6ab95cec6f8b741caa8d",
+      "date_label": "1600 CE",
+      "t_start": -135140,
+      "t_end": -134774,
+      "observation_time": -135140,
+      "url": "scotland-1600.json",
+      "sha256": "0d88048527f6496a89485c4b947a73ccb7cf14c8255c00b6cc1aeeb25f7758af",
+      "byte_length": 5535
+    },
+    {
+      "id": "france-1700",
+      "title": "Kingdom of France",
+      "entity_id": "isles:political:7a1ca4ef7515f7276bae",
+      "date_label": "1700 CE",
+      "t_start": -98615,
+      "t_end": -98250,
+      "observation_time": -98615,
+      "url": "france-1700.json",
+      "sha256": "aa63d080924c4cea689f8bc64d625dc0259d703cbe847d8cf7276f53c80490d6",
+      "byte_length": 5627
+    },
+    {
+      "id": "united-kingdom-1900",
+      "title": "United Kingdom of Great Britain and Ireland",
+      "entity_id": "isles:political:d577c358bc0b8a4cb477",
+      "date_label": "1900 CE",
+      "t_start": -25567,
+      "t_end": -25202,
+      "observation_time": -25567,
+      "url": "united-kingdom-1900.json",
+      "sha256": "5aa0d7c655ad7cbba73a3cbdaeeaf30e01359a0790ca924cd1c65766a735c417",
+      "byte_length": 7043
+    }
+  ]
+}

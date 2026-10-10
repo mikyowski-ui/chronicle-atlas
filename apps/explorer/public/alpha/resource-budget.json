@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-23T00:00:00Z",
+  "scope": {
+    "historical_snapshots": 31,
+    "historical_features": 123,
+    "synthetic_epochs": 2,
+    "independent_geography": "Natural Earth 50m land 4.1.0 exact archive edition",
+    "demographic_observations": 1
+  },
+  "sequential_workers": 1,
+  "limits": {
+    "old_heap_mib": 256,
+    "process_rss_bytes": 1073741824,
+    "elapsed_ms": 1800000,
+    "source_download_bytes": 8388608,
+    "tiles_per_archive": 2048,
+    "tile_bytes": 1048576,
+    "archive_bytes": 1048576,
+    "all_archives_bytes": 103656062,
+    "metadata_bytes": 2097152,
+    "fallback_bytes": 4194304,
+    "worker_deadline_ms": 60000
+  },
+  "encoding": {
+    "minzoom": 0,
+    "maxzoom": 7,
+    "extent": 4096,
+    "buffer": 64,
+    "tolerance": 1.5,
+    "temporal_interpolation": false
+  },
+  "publication": "Local/staged display derivative only; public ledger unchanged.",
+  "revision": 1,
+  "baseline_usage": {
+    "newCompressedArtifactBytes": 30561666,
+    "aggregateCapBytes": 134217728
+  },
+  "amendment": "Before tile compilation: retained worker limits restored to 256MiB/60s; per-archive1MiB; shared128MiB cumulative cap charged baseline30561666B. Authorized separate1847demographic observation added, political scope31unchanged. Physical download exactversion4.1.0supersedesstale4.0landingpagelabel. Land conversion beforethisamendment629844bytes, noarchivecompiled."
+}

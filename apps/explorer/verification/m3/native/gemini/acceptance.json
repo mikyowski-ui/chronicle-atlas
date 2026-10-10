@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "status": "BLOCKED",
+  "reason": "MISSING_CREDENTIAL",
+  "startedAt": "2026-10-08T02:39:02.076Z",
+  "environment": {
+    "platform": "win32",
+    "architecture": "x64",
+    "kernel": "10.0.26200",
+    "node": "v22.17.0"
+  },
+  "model": "gemini-2.5-flash",
+  "optedIn": true,
+  "dataClass": "synthetic-fixture",
+  "historicalModelProcessing": false,
+  "budgets": {
+    "maximumRequests": 2,
+    "aggregateReservedTokenCeiling": 40448,
+    "timeoutMsPerRequest": 10000,
+    "repairs": 0,
+    "toolCalls": 0
+  },
+  "checks": [
+    {
+      "name": "credential-configuration-and-consent",
+      "status": "BLOCKED",
+      "code": "PROVIDER_UNAVAILABLE"
+    },
+    {
+      "name": "historical-processing-defaults-unchanged",
+      "status": "PASS"
+    }
+  ],
+  "requests": 0,
+  "reportedUsage": {
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "thoughtTokens": 0,
+    "totalTokens": 0
+  },
+  "unrefundedFailedAttempts": 0,
+  "accountingTokensCharged": 0,
+  "tokenAccounting": "Provider-reported usage is separate from conservative byte-based reservation charges. Missing usage for an attempted request is unknown, not proof of zero billing. Cancellation does not prove server-side generation stopped.",
+  "disclosure": "No credentials, prompts, source records, raw model output or provider error bodies are recorded. Historical permissions are never mutated.",
+  "finishedAt": "2026-10-08T02:39:02.081Z"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "Observed UI interactions in final development preview; not physical-device certification",
+  "checks": {
+    "modernSemanticRecords": 44,
+    "premodernSemanticRecords": 10,
+    "premodernPlaces": 9,
+    "catalogueLeavesAtlasCursorUnchanged": true,
+    "kilwaEvent": 1331,
+    "kilwaComposition": [
+      1354,
+      1355
+    ],
+    "narrowKeyboardSpaceClosesSummaryWithoutPlaying": true,
+    "pinnedReplay": "Reopened against matching local source records.",
+    "replayedObservation": "hist-mexicocity-faaf2abd:un-wup-2025:2000",
+    "finalTimelineCursorInspected": 2001,
+    "timelineDateLabelAndLineAligned": true
+  },
+  "screenshots": [
+    "desktop.jpg",
+    "evidence-catalogue.jpg",
+    "viewport-375.jpg",
+    "viewport-375-evidence.jpg"
+  ]
+}

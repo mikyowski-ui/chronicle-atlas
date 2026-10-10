@@ -1,0 +1,38 @@
+{
+  "layout": {
+    "activeTag": "circle",
+    "panel": {
+      "bottom": 590,
+      "height": 474,
+      "right": 365,
+      "width": 355,
+      "x": 10,
+      "y": 116
+    },
+    "selectedEvidence": "Trace an observationGuadalajara · 2000 CE3,592,819 personsDate precisionyear · mid-year estimateEvidenceestimate · source-attributedGeographic definitionPopulation residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.Comparabilityexplicit · definition-onlySourceUnited Nations, Department of Economic and Social Affairs, Population Division (2025). World Urbanization Prospects: The 2025 Revision, Online Edition. File 21.EditionPOP/DB/WUP/Rev.2025/F21Record locatorWUP2025-F21-DEGURBA-Cities_Pop.xlsx · Data · row 11185 · column AK · cell AK11185Local record/cities/547/population/14Source value3,592.819 thousands of personsConversionround(value * 1000)RightsCC BY 3.0 IGOUncertaintyNo measurement uncertainty interval supplied; none has been invented.Open registered sourceShow 2000 CE on timeline",
+    "selectedObservation": "hist-guadalajara-86f202e4:un-wup-2025:2000",
+    "timeline": {
+      "bottom": 812,
+      "height": 207.1875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 604.8125
+    },
+    "viewport": {
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  "semantic": {
+    "focusTag": "SUMMARY",
+    "openRecord": "Kilwa Kisiwani1331 CEAccount descriptionThe account places Kilwa within a coastal sailing itinerary and describes its built environment and ruler's religious patronage. It is evidence for African urban society participating in an Islamic maritime world.Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim.Evidence classAttested account description — historical reliability is not certifiedEvent / observation1331 CE. Period discussed by the account; an interval is not evidence of continuous activity.Composition1354 CE–1355 CE. Account composition window; separate from the events described and later translation dates.ConfidenceNot supplied. No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability.Location supportCoordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control. Positional uncertainty radius not supplied.Reviewsource-attributedAuthorIbn Battuta, edited by Ibn JuzayyPerspectiveA Muslim visitor assessing hospitality, piety and courtly generosity.SourceChronicle retained primary-account register (2026-09-27 local preview)Locatorpublic/history/primary-accounts.json /accounts/1Bibliography IDsaccount-ibn-east-africaSource SHA-2565f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541Record SHA-2563bc94ebdcc63638dabe6d634346764f1c4f5600baaa349d0dbe236ba98277487A brief elite encounter. It cannot establish population percentages, territorial borders or when local people converted.The retained record supplies no quantified spatial uncertainty or statistical confidence interval.",
+    "panelWidth": 355,
+    "records": 10,
+    "scrollWidth": 375,
+    "status": "Pinned local records validated. Open a record to inspect its support.",
+    "viewportWidth": 375
+  },
+  "physicalMobile": "NOT_RUN"
+}

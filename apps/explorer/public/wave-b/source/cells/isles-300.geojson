@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:cultural:8d72e8bbe862636dc6d2",
+        "render_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de:cell:201950",
+        "territory_state_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "t_start": -609955,
+        "t_end": -609590,
+        "cell_id": 201950,
+        "assertion_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "kind": "cultural",
+        "relation": "cultural_approximation",
+        "status": "uncertain",
+        "coverage": 0.614124040082,
+        "source_edition": "overview:da7a4b7:world_300.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5,
+              50
+            ],
+            [
+              -5,
+              50
+            ],
+            [
+              -5,
+              50.5
+            ],
+            [
+              -5.5,
+              50.5
+            ],
+            [
+              -5.5,
+              50
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:cultural:8d72e8bbe862636dc6d2",
+        "render_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de:cell:202672",
+        "territory_state_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "t_start": -609955,
+        "t_end": -609590,
+        "cell_id": 202672,
+        "assertion_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "kind": "cultural",
+        "relation": "cultural_approximation",
+        "status": "uncertain",
+        "coverage": 0.991153072071,
+        "source_edition": "overview:da7a4b7:world_300.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.5,
+              50.5
+            ],
+            [
+              -4,
+              50.5
+            ],
+            [
+              -4,
+              51
+            ],
+            [
+              -4.5,
+              51
+            ],
+            [
+              -4.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:cultural:8d72e8bbe862636dc6d2",
+        "render_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de:cell:202673",
+        "territory_state_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "t_start": -609955,
+        "t_end": -609590,
+        "cell_id": 202673,
+        "assertion_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "kind": "cultural",
+        "relation": "cultural_approximation",
+        "status": "uncertain",
+        "coverage": 0.98527141187,
+        "source_edition": "overview:da7a4b7:world_300.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4,
+              50.5
+            ],
+            [
+              -3.5,
+              50.5
+            ],
+            [
+              -3.5,
+              51
+            ],
+            [
+              -4,
+              51
+            ],
+            [
+              -4,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:cultural:8d72e8bbe862636dc6d2",
+        "render_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de:cell:202674",
+        "territory_state_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "t_start": -609955,
+        "t_end": -609590,
+        "cell_id": 202674,
+        "assertion_id": "claim:fa4d452870d07214c964c740854632e584640efeec1b4ae593434efd2c8493de",
+        "kind": "cultural",
+        "relation": "cultural_approximation",
+        "status": "uncertain",
+        "coverage": 0.507433521799,
+        "source_edition": "overview:da7a4b7:world_300.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.5,
+              50.5
+            ],
+            [
+              -3,
+              50.5
+            ],
+            [
+              -3,
+              51
+            ],
+            [
+              -3.5,
+              51
+            ],
+            [
+              -3.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

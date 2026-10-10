@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": [
+    "research-semantic/workspace-contract.ts",
+    "research-semantic/planner.ts",
+    "src/research/workspace-controller.ts",
+    "src/research/workspace-engine.ts"
+  ],
+  "explicitAnyOrLooseIndexSignatures": false,
+  "checkedBy": "source inspection and tsc --noEmit"
+}

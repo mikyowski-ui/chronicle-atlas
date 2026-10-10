@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "pinned_revision": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "source_id": "ourednik-basemaps",
+  "budget_sha256": "f138be49d7f5e79400223e7b4fc6b67407da6849702d9183d9738636392c7289",
+  "primary_inventory_sha256": "1580e414916059479c8f7401b5e00cf5d1f8b971141da1132cc5c7342ead18e7",
+  "source_rights": "optional-rights-amendment.json",
+  "snapshots": [
+    {
+      "filename": "world_bc3000.geojson",
+      "source_year": -3000,
+      "astronomical_year": -2999,
+      "source_date": "-2999-01-01",
+      "source_date_label": "3000 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc3000.geojson",
+      "path": "input/world_bc3000.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc3000.geojson",
+      "expected_bytes": 789242,
+      "git_blob_sha1": "f526d020f9994379312c6bafb827996d00c9d88c",
+      "indexed_label_count": 25,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "2cf107e2f0d4f9b5427b293f19b11fffe7c1134f52320df4f94b4889b978f033",
+      "bytes": 789242,
+      "feature_count": 138,
+      "distinct_nonblank_labels": 25,
+      "blank_label_features": 113,
+      "source_precision_counts": {
+        "1": 138
+      },
+      "source_property_fields": {
+        "ABBREVN": 138,
+        "BORDERPRECISION": 138,
+        "NAME": 138,
+        "PARTOF": 138,
+        "SUBJECTO": 138,
+        "type": 138,
+        "weblnks": 138
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 138
+      },
+      "polygon_parts": 227,
+      "rings": 234,
+      "coordinate_vertices": 20824,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 12631.12
+    },
+    {
+      "filename": "world_bc2000.geojson",
+      "source_year": -2000,
+      "astronomical_year": -1999,
+      "source_date": "-1999-01-01",
+      "source_date_label": "2000 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc2000.geojson",
+      "path": "input/world_bc2000.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson",
+      "expected_bytes": 858855,
+      "git_blob_sha1": "2371095bd723c90ec19301cf82eac9ff2c07453a",
+      "indexed_label_count": 45,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "9d08a2390ca3d82f46eccfe97f44949922b69e4bb733f0fc2120e579de52a5d3",
+      "bytes": 858855,
+      "feature_count": 145,
+      "distinct_nonblank_labels": 45,
+      "blank_label_features": 100,
+      "source_precision_counts": {
+        "1": 145
+      },
+      "source_property_fields": {
+        "ABBREVN": 145,
+        "BORDERPRECISION": 145,
+        "NAME": 145,
+        "PARTOF": 145,
+        "SUBJECTO": 145,
+        "type": 145,
+        "weblnks": 145
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 145
+      },
+      "polygon_parts": 301,
+      "rings": 311,
+      "coordinate_vertices": 23110,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 6871.62
+    },
+    {
+      "filename": "world_bc1500.geojson",
+      "source_year": -1500,
+      "astronomical_year": -1499,
+      "source_date": "-1499-01-01",
+      "source_date_label": "1500 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc1500.geojson",
+      "path": "input/world_bc1500.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1500.geojson",
+      "expected_bytes": 874767,
+      "git_blob_sha1": "89bd098b3c5fd48c70031e97c05a8ea82824d476",
+      "indexed_label_count": 68,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "b17e8fab42e47b09fa8d52941d9fd55e03b0e3ba22dd0a71ad20f76e517ce485",
+      "bytes": 874767,
+      "feature_count": 163,
+      "distinct_nonblank_labels": 68,
+      "blank_label_features": 94,
+      "source_precision_counts": {
+        "1": 163
+      },
+      "source_property_fields": {
+        "ABBREVN": 163,
+        "BORDERPRECISION": 163,
+        "NAME": 163,
+        "PARTOF": 163,
+        "SUBJECTO": 163,
+        "TYPE": 163
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 163
+      },
+      "polygon_parts": 318,
+      "rings": 325,
+      "coordinate_vertices": 23485,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 5403.381
+    },
+    {
+      "filename": "world_bc1000.geojson",
+      "source_year": -1000,
+      "astronomical_year": -999,
+      "source_date": "-0999-01-01",
+      "source_date_label": "1000 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc1000.geojson",
+      "path": "input/world_bc1000.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1000.geojson",
+      "expected_bytes": 875454,
+      "git_blob_sha1": "92bd5242fce7bb973cfcb2e75003ba19b650f673",
+      "indexed_label_count": 69,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "ace64cae988ab72ab5536b76e052a9564eed81390404bccbc5e6a48ac646d7fc",
+      "bytes": 875454,
+      "feature_count": 163,
+      "distinct_nonblank_labels": 69,
+      "blank_label_features": 93,
+      "source_precision_counts": {
+        "1": 163
+      },
+      "source_property_fields": {
+        "ABBREVN": 163,
+        "BORDERPRECISION": 163,
+        "NAME": 163,
+        "PARTOF": 163,
+        "SUBJECTO": 163,
+        "TYPE": 163
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 163
+      },
+      "polygon_parts": 318,
+      "rings": 325,
+      "coordinate_vertices": 23476,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 4700.984
+    },
+    {
+      "filename": "world_bc700.geojson",
+      "source_year": -700,
+      "astronomical_year": -699,
+      "source_date": "-0699-01-01",
+      "source_date_label": "700 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc700.geojson",
+      "path": "input/world_bc700.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+      "expected_bytes": 881812,
+      "git_blob_sha1": "d6303f72176ec21cc7762c536225bf5da3cb2612",
+      "indexed_label_count": 73,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c",
+      "bytes": 881812,
+      "feature_count": 174,
+      "distinct_nonblank_labels": 73,
+      "blank_label_features": 94,
+      "source_precision_counts": {
+        "1": 174
+      },
+      "source_property_fields": {
+        "ABBREVN": 174,
+        "BORDERPRECISION": 174,
+        "NAME": 174,
+        "PARTOF": 174,
+        "SUBJECTO": 174,
+        "TYPE": 174
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 174
+      },
+      "polygon_parts": 327,
+      "rings": 334,
+      "coordinate_vertices": 23572,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 4945.607
+    },
+    {
+      "filename": "world_bc500.geojson",
+      "source_year": -500,
+      "astronomical_year": -499,
+      "source_date": "-0499-01-01",
+      "source_date_label": "500 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc500.geojson",
+      "path": "input/world_bc500.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc500.geojson",
+      "expected_bytes": 915851,
+      "git_blob_sha1": "2b60d392c22f25cc006ba6b73770dbaf9f915e97",
+      "indexed_label_count": 74,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "f72bc06ca45a9f680f20ef6007aaccd13a929cd1b632bd0fb41f161cb51ba3f6",
+      "bytes": 915851,
+      "feature_count": 189,
+      "distinct_nonblank_labels": 74,
+      "blank_label_features": 112,
+      "source_precision_counts": {
+        "1": 189
+      },
+      "source_property_fields": {
+        "ABBREVN": 189,
+        "BORDERPRECISION": 189,
+        "NAME": 189,
+        "PARTOF": 189,
+        "SUBJECTO": 189
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 189
+      },
+      "polygon_parts": 333,
+      "rings": 350,
+      "coordinate_vertices": 24573,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 5069.95
+    },
+    {
+      "filename": "world_bc400.geojson",
+      "source_year": -400,
+      "astronomical_year": -399,
+      "source_date": "-0399-01-01",
+      "source_date_label": "400 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc400.geojson",
+      "path": "input/world_bc400.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson",
+      "expected_bytes": 899211,
+      "git_blob_sha1": "7605f63fab39dd0f8c1f8e2c8a93886ff34a9fd9",
+      "indexed_label_count": 76,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b",
+      "bytes": 899211,
+      "feature_count": 190,
+      "distinct_nonblank_labels": 76,
+      "blank_label_features": 109,
+      "source_precision_counts": {
+        "1": 190
+      },
+      "source_property_fields": {
+        "ABBREVN": 190,
+        "BORDERPRECISION": 190,
+        "CONTROL": 190,
+        "NAME": 190,
+        "PARTOF": 190,
+        "SUBJECTO": 190
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 190
+      },
+      "polygon_parts": 346,
+      "rings": 357,
+      "coordinate_vertices": 24207,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 4588.521
+    },
+    {
+      "filename": "world_bc323.geojson",
+      "source_year": -323,
+      "astronomical_year": -322,
+      "source_date": "-0322-01-01",
+      "source_date_label": "323 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc323.geojson",
+      "path": "input/world_bc323.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc323.geojson",
+      "expected_bytes": 888982,
+      "git_blob_sha1": "2f0474308fb3ce3a0f6cef89653c941876bdb43d",
+      "indexed_label_count": 68,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "3e90c33ce668d9559b52b501a8a8d5607e4cc86c4131dac30ae9aa4d6e9a7616",
+      "bytes": 888982,
+      "feature_count": 149,
+      "distinct_nonblank_labels": 68,
+      "blank_label_features": 74,
+      "source_precision_counts": {
+        "1": 149
+      },
+      "source_property_fields": {
+        "ABBREVN": 149,
+        "BORDERPRECISION": 149,
+        "CONTROL": 149,
+        "NAME": 149,
+        "PARTOF": 149,
+        "SUBJECTO": 149
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 149
+      },
+      "polygon_parts": 351,
+      "rings": 362,
+      "coordinate_vertices": 23894,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 4577.289
+    },
+    {
+      "filename": "world_bc300.geojson",
+      "source_year": -300,
+      "astronomical_year": -299,
+      "source_date": "-0299-01-01",
+      "source_date_label": "300 BCE",
+      "precision": "year",
+      "source_path": "geojson/world_bc300.geojson",
+      "path": "input/world_bc300.geojson",
+      "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+      "expected_bytes": 909380,
+      "git_blob_sha1": "bc84cfebc6b78ff0589d481f3253d27986716620",
+      "indexed_label_count": 73,
+      "status": "RECOVERED",
+      "batch": "optional9",
+      "sha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633",
+      "bytes": 909380,
+      "feature_count": 155,
+      "distinct_nonblank_labels": 73,
+      "blank_label_features": 76,
+      "source_precision_counts": {
+        "1": 155
+      },
+      "source_property_fields": {
+        "ABBREVN": 155,
+        "BORDERPRECISION": 155,
+        "CONTROL": 155,
+        "NAME": 155,
+        "PARTOF": 155,
+        "SUBJECTO": 155
+      },
+      "recovery": "direct pinned upstream URL",
+      "geometry_types": {
+        "MultiPolygon": 155
+      },
+      "polygon_parts": 358,
+      "rings": 369,
+      "coordinate_vertices": 24378,
+      "raw_bounds": [
+        -180,
+        -90,
+        180,
+        83.57906683560076
+      ],
+      "intake_elapsed_ms": 5470.554
+    }
+  ],
+  "recovered_count": 9,
+  "blocked_count": 0,
+  "source_feature_count": 1466,
+  "measured_additional_source_bytes": 7893554,
+  "measured_cumulative_source_bytes": 64795198,
+  "elapsed_ms": 54265.337,
+  "max_rss_bytes": 32612352
+}

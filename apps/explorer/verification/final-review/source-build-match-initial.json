@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "scope": "Initial audit implementation, not product build",
+  "reason": "Independent verifier sorted pathlib components instead of the builds full-path strings. Corrected verifier matches all source bytes. Current tests/build also rerun."
+}

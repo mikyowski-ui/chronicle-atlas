@@ -1,0 +1,16 @@
+{
+  "name": "@chronicle/mechanism-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4174",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174"
+  },
+  "dependencies": {
+    "@chronicle/contracts": "workspace:0.1.0",
+    "@chronicle/runtime": "workspace:0.1.0",
+    "@chronicle/view-adapters": "workspace:0.1.0"
+  }
+}

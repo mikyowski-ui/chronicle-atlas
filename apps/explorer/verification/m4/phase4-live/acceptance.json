@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "status": "FAIL",
+  "startedAt": "2026-10-09T18:10:43.927Z",
+  "platform": "win32",
+  "node": "v22.17.0",
+  "live": true,
+  "modelOptIn": true,
+  "query": "Q84",
+  "historicalModelProcessing": false,
+  "importedFileModelProcessing": false,
+  "disclosure": "Only explicitly authorized public Wikidata metadata can enter the Node-only provider. No keys, source text, prompts or raw provider errors are recorded.",
+  "checks": [],
+  "reason": "LIVE_ACCEPTANCE_FAILED",
+  "sourceRequests": 1,
+  "provider": {
+    "requests": 0,
+    "reportedTokens": 0,
+    "remainingSessionTokens": 24192,
+    "lastHTTPStatus": null,
+    "active": false,
+    "disposed": false
+  },
+  "finishedAt": "2026-10-09T18:10:53.948Z"
+}

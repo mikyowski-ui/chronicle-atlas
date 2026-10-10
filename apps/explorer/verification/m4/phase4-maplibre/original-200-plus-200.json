@@ -1,0 +1,6165 @@
+{
+  "build": {
+    "schema_version": 1,
+    "build_id": "chronicle-f6e64a8afe4ee02b55e8e595d35b5e8daf859d2f5b83a7f8330173f717858804",
+    "source_commit": "4f9e32d74438b45ab5c16ba1a56fe69d8bd23542",
+    "source_worktree_dirty": true,
+    "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+    "source_fingerprint": "96e25e628550d1779af8a4e097a069a4e3abee8bcc37b8da652cac70f84ecb48",
+    "source_file_count": 2425,
+    "source_scope": [
+      "apps/explorer/src/**",
+      "apps/explorer/research-semantic/** (excluding dependency/runtime caches)",
+      "apps/explorer/runtime-isolation/**",
+      "apps/explorer/verification-tools/** (excluding dependency/runtime caches)",
+      "packages/contracts/src/**",
+      "packages/runtime/src/**",
+      "packages/planner/src/**",
+      "packages/view-adapters/src/**",
+      "packages/contracts/package.json",
+      "packages/runtime/package.json",
+      "packages/planner/package.json",
+      "packages/view-adapters/package.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.json",
+      "apps/explorer/public/**",
+      "apps/explorer/index.html",
+      "apps/explorer/production-review.html",
+      "apps/explorer/vite.config.ts",
+      "apps/explorer/package.json",
+      "apps/explorer/pnpm-lock.yaml"
+    ],
+    "bundle_fingerprint": "7648cc23bdb86929664f5bc152b093ddd9646c33eaecf8cdf37fab2b940fd367",
+    "bundle_files": [
+      {
+        "path": "assets/index-BKqeDIVX.css",
+        "byte_length": 181880,
+        "sha256": "5a4076274464be077965732e7fed8777c0fdddd093aa8e0a300d49f52b12522c"
+      },
+      {
+        "path": "assets/index-CN-FGBrK.js",
+        "byte_length": 4251267,
+        "sha256": "150578d099ae18cb169c0cce9c33631bc43e1535934f5179e911b6349dce0452"
+      },
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "byte_length": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "byte_length": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      },
+      {
+        "path": "assets/watt-1769-mechanism-Bn8Si0Sq.json",
+        "byte_length": 13234,
+        "sha256": "9838cf8fb53a034732a764d1433b3cf8c8e149b9e31323eeaea3e2b2825336db"
+      },
+      {
+        "path": "assets/watt-1769-specification-CmgIn0_F.json",
+        "byte_length": 4838,
+        "sha256": "6bbadef594a0b9d64bdb541717535a62f54365b891d8e64eb24e5a4cb197d86d"
+      },
+      {
+        "path": "index.html",
+        "byte_length": 525,
+        "sha256": "8e6d79af198d28c3d1a2c72065c33dcd0c70a19dfb28d2b4ff94ca3e872a9a0b"
+      },
+      {
+        "path": "production-review.html",
+        "byte_length": 1667,
+        "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d"
+      }
+    ],
+    "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+  },
+  "status": "PASS",
+  "workload": {
+    "observations": 44,
+    "entities": 4,
+    "interactions": 400,
+    "cursorChanges": 200,
+    "cursorYears": [
+      2000,
+      2001
+    ],
+    "replaceCloseCycles": 20,
+    "mountDisposeCycles": 20,
+    "lifecycleMeaning": "20 result close/reopen cycles plus 20 hidden complete view/controller mount/dispose cycles on the unchanged host map."
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "devicePixelRatio": 1,
+    "renderer": {
+      "mapInstances": 1,
+      "mapInstanceCount": 1,
+      "sourceCount": 4,
+      "sourceLimit": 7,
+      "researchSourceLimit": 1,
+      "researchOverlay": {
+        "source": true,
+        "features": 44,
+        "visible": 0
+      },
+      "historicalSourceLimit": 5,
+      "contextRasterSourceLimit": 1,
+      "detailContext": {
+        "rasterCache": 0,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 0,
+        "rasterErrors": 0,
+        "terrainZoom": null,
+        "waterPaths": 2596,
+        "visibleCityLabels": 4,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "reducedMotion": true,
+        "activeCityTweens": 0,
+        "trackedCityRadii": 30,
+        "candidateProjectionBuilds": 9,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        },
+        "nativeTerrainSource": true,
+        "terrainVisible": true,
+        "terrainError": null
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "styleReload": {
+        "listeners": 1,
+        "events": 1,
+        "restorations": 1,
+        "failures": 0,
+        "pending": false
+      },
+      "reducedMotion": true,
+      "mountedSourceIds": [
+        "chronicle-detail-terrain",
+        "chronicle-epoch-1",
+        "chronicle-land",
+        "chronicle-research-hud"
+      ],
+      "mountedLayerIds": [
+        "ocean",
+        "physical-land",
+        "detail-relief",
+        "physical-coastline",
+        "chronicle-epoch-1-fill-context",
+        "chronicle-epoch-1-border-context",
+        "chronicle-epoch-1-fill-cultural",
+        "chronicle-epoch-1-border-cultural",
+        "chronicle-epoch-1-fill-political",
+        "chronicle-epoch-1-border-political",
+        "chronicle-epoch-1-hover",
+        "chronicle-epoch-1-hover-outline",
+        "chronicle-epoch-1-selection",
+        "chronicle-research-hud-polygons",
+        "chronicle-research-hud-points"
+      ],
+      "styleLoaded": true,
+      "tilesLoaded": true,
+      "activeStyleState": {
+        "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+        "generation": 1,
+        "mainArchiveHash": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+        "supplementArchiveHash": null,
+        "selected": []
+      },
+      "readinessToken": null,
+      "webgl": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "classification": "native-renderer-reported",
+        "evidence": "Renderer string read from the actual MapLibre canvas.",
+        "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+      },
+      "epochSourceGroups": 1,
+      "committedGeneration": 1,
+      "pendingGeneration": null,
+      "cameraRevision": 8,
+      "rangeRequests": 14,
+      "rangeBytes": 229376,
+      "outstandingRanges": 0,
+      "cachedChunks": 14,
+      "warmCache": {
+        "budget": {
+          "compressedBytes": 1048576,
+          "idleArchives": 4,
+          "chunksPerArchive": 8,
+          "directoryEntriesPerArchive": 16,
+          "concurrentPrefetch": 2,
+          "headerRequestBytes": 16384,
+          "maxArchiveBytes": 1000000
+        },
+        "requests": 14,
+        "bytes": 229376,
+        "aborted": 0,
+        "outstanding": 0,
+        "peakOutstanding": 4,
+        "cacheHits": 1,
+        "cacheMisses": 29,
+        "sharedReads": 15,
+        "chunkEvictions": 0,
+        "archiveEvictions": 0,
+        "warmRetains": 0,
+        "coldRetains": 2,
+        "prefetchStarted": 2,
+        "prefetchCompleted": 2,
+        "prefetchAborted": 0,
+        "prefetchFailed": 0,
+        "activePrefetch": 0,
+        "peakPrefetch": 2,
+        "cachedBytes": 229376,
+        "peakCachedBytes": 229376,
+        "archives": 4,
+        "activeArchives": 2,
+        "idleArchives": 2,
+        "liveReferences": 2,
+        "cachedChunks": 14,
+        "entries": [
+          {
+            "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+            "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+            "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+            "refs": 1,
+            "prefetch": 0,
+            "cachedChunks": 6,
+            "cachedBytes": 98304
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+            "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+            "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+            "refs": 1,
+            "prefetch": 0,
+            "cachedChunks": 6,
+            "cachedBytes": 98304
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_600/geometry.419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7.pmtiles",
+            "edition": "global-history-world_600-da7a4b7-global-basemap-chronology-semantics-v5",
+            "sha256": "419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+            "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          }
+        ]
+      },
+      "hoverQueries": 0,
+      "reusedScenes": 0,
+      "createdLabelNodes": 29,
+      "presentationUpdates": 0,
+      "renderCallbacks": 449,
+      "lastRenderCallback": {
+        "at": 7000.300000000745,
+        "generation": 1,
+        "time": -463858
+      },
+      "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+      "view": {
+        "longitude": -110.66092514898507,
+        "latitude": 21.214264340819575,
+        "zoom": 4.2,
+        "moving": false
+      },
+      "labelNodeCount": 2,
+      "labelNodeLimit": 64,
+      "tileCacheLimitPerSource": 64,
+      "hostWork": [
+        {
+          "stage": "card",
+          "calls": 7,
+          "totalMs": 6.399999998509884,
+          "retained": 7,
+          "p95Ms": 6.099999999627471,
+          "maximumMs": 6.099999999627471
+        },
+        {
+          "stage": "research-cursor",
+          "calls": 4,
+          "totalMs": 0.2000000011175871,
+          "retained": 4,
+          "p95Ms": 0.10000000149011612,
+          "maximumMs": 0.10000000149011612
+        },
+        {
+          "stage": "detail-time",
+          "calls": 4,
+          "totalMs": 6.799999998882413,
+          "retained": 4,
+          "p95Ms": 6.799999998882413,
+          "maximumMs": 6.799999998882413
+        },
+        {
+          "stage": "teaching",
+          "calls": 6,
+          "totalMs": 0.40000000037252903,
+          "retained": 6,
+          "p95Ms": 0.40000000037252903,
+          "maximumMs": 0.40000000037252903
+        },
+        {
+          "stage": "ruler-update",
+          "calls": 4,
+          "totalMs": 0.10000000149011612,
+          "retained": 4,
+          "p95Ms": 0.10000000149011612,
+          "maximumMs": 0.10000000149011612
+        },
+        {
+          "stage": "presentation",
+          "calls": 4,
+          "totalMs": 0,
+          "retained": 4,
+          "p95Ms": 0,
+          "maximumMs": 0
+        },
+        {
+          "stage": "cursor",
+          "calls": 4,
+          "totalMs": 14.600000001490116,
+          "retained": 4,
+          "p95Ms": 7.600000001490116,
+          "maximumMs": 7.600000001490116
+        },
+        {
+          "stage": "commit",
+          "calls": 1,
+          "totalMs": 3.5,
+          "retained": 1,
+          "p95Ms": 3.5,
+          "maximumMs": 3.5
+        }
+      ]
+    },
+    "reducedMotion": {
+      "mediaQueryMatches": true,
+      "computedStyles": [
+        {
+          "tag": "SECTION",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        }
+      ],
+      "runningAnimations": 0
+    }
+  },
+  "timing": {
+    "status": "PASS",
+    "interactionCount": 200,
+    "cursorChanges": 200,
+    "endpoints": "Before normal selection plus host cursor action to two animation-frame opportunities after awaited host seek and coordinated DOM update",
+    "p95Ms": 40,
+    "minMs": 10,
+    "maxMs": 70.30000000074506,
+    "targetP95Ms": 100,
+    "targetMet": true,
+    "samplesMs": [
+      10,
+      35.59999999962747,
+      30.700000001117587,
+      37.90000000037253,
+      27.90000000037253,
+      30.40000000037253,
+      33,
+      27.5,
+      30.09999999962747,
+      32.80000000074506,
+      28.699999999254942,
+      29.40000000037253,
+      30.300000000745058,
+      30.199999999254942,
+      30.40000000037253,
+      30.40000000037253,
+      30.09999999962747,
+      30.300000000745058,
+      36.59999999962747,
+      30.199999999254942,
+      30.200000001117587,
+      33.40000000037253,
+      29.799999998882413,
+      27.600000001490116,
+      31.59999999962747,
+      28.90000000037253,
+      30.299999998882413,
+      33.69999999925494,
+      27.09999999962747,
+      29.90000000037253,
+      33.20000000111759,
+      27.40000000037253,
+      30.199999999254942,
+      31.200000001117587,
+      29.399999998509884,
+      30.200000001117587,
+      34.59999999962747,
+      26.40000000037253,
+      29.90000000037253,
+      34.30000000074506,
+      26.299999998882413,
+      30.200000001117587,
+      30.299999998882413,
+      30.200000001117587,
+      30.299999998882413,
+      30.600000001490116,
+      30,
+      30.299999998882413,
+      36.30000000074506,
+      30.300000000745058,
+      30.09999999962747,
+      31.800000000745058,
+      28.899999998509884,
+      30.300000000745058,
+      30.300000000745058,
+      30.199999999254942,
+      30.200000001117587,
+      35.09999999962747,
+      31.5,
+      30.300000000745058,
+      36.59999999962747,
+      30.09999999962747,
+      30.300000000745058,
+      30.5,
+      36.19999999925494,
+      30.300000000745058,
+      30.59999999962747,
+      30.90000000037253,
+      35.29999999888241,
+      30.5,
+      30.299999998882413,
+      35.59999999962747,
+      30.699999999254942,
+      32.70000000111759,
+      34,
+      31.90000000037253,
+      28.5,
+      30.299999998882413,
+      30.300000000745058,
+      30.199999999254942,
+      34.30000000074506,
+      33,
+      29.5,
+      33,
+      27.399999998509884,
+      30.09999999962747,
+      32.90000000037253,
+      33.69999999925494,
+      30.300000000745058,
+      32.09999999962747,
+      28.399999998509884,
+      30.300000000745058,
+      31.09999999962747,
+      29.5,
+      30.300000000745058,
+      31.799999998882413,
+      28.699999999254942,
+      30.300000000745058,
+      32.69999999925494,
+      33.90000000037253,
+      30.199999999254942,
+      32.29999999888241,
+      31.90000000037253,
+      26.5,
+      32.90000000037253,
+      27.90000000037253,
+      30.09999999962747,
+      32.19999999925494,
+      28.399999998509884,
+      30.300000000745058,
+      30.90000000037253,
+      29.59999999962747,
+      30.40000000037253,
+      34,
+      32.59999999962747,
+      30.700000001117587,
+      30.199999999254942,
+      42.09999999962747,
+      30.200000001117587,
+      36.29999999888241,
+      36.899999998509884,
+      37,
+      35.19999999925494,
+      38.80000000074506,
+      28,
+      31.299999998882413,
+      35,
+      41.5,
+      70.30000000074506,
+      52.29999999888241,
+      37.80000000074506,
+      36.19999999925494,
+      34.600000001490116,
+      42.69999999925494,
+      38.90000000037253,
+      35.09999999962747,
+      39.80000000074506,
+      32.29999999888241,
+      35.80000000074506,
+      40,
+      39.09999999962747,
+      37.100000001490116,
+      35.69999999925494,
+      51.600000001490116,
+      44.09999999962747,
+      42.40000000037253,
+      43.29999999888241,
+      41.29999999888241,
+      36.30000000074506,
+      37.09999999962747,
+      35.40000000037253,
+      36.30000000074506,
+      32.69999999925494,
+      34,
+      30.200000001117587,
+      36.29999999888241,
+      30.199999999254942,
+      30.40000000037253,
+      32.69999999925494,
+      34.09999999962747,
+      30,
+      32,
+      29,
+      29.699999999254942,
+      32.80000000074506,
+      27.90000000037253,
+      30.09999999962747,
+      31.800000000745058,
+      34.899999998509884,
+      30.299999998882413,
+      33.5,
+      33,
+      30.299999998882413,
+      37.59999999962747,
+      29,
+      30.300000000745058,
+      31.300000000745058,
+      29.299999998882413,
+      30.300000000745058,
+      32.59999999962747,
+      28,
+      30.40000000037253,
+      30.199999999254942,
+      30.40000000037253,
+      30.199999999254942,
+      32.70000000111759,
+      27.90000000037253,
+      30.40000000037253,
+      30.899999998509884,
+      29.399999998509884,
+      30.40000000037253,
+      31.800000000745058,
+      28.799999998882413,
+      30.300000000745058,
+      32.19999999925494,
+      34.399999998509884,
+      30.09999999962747,
+      31.699999999254942,
+      35,
+      30.09999999962747
+    ],
+    "selectionCpuSamplesMs": [
+      0.599999999627471,
+      0.5,
+      0.599999999627471,
+      0.6999999992549419,
+      0.5,
+      0.8000000007450581,
+      0.7000000011175871,
+      0.8000000007450581,
+      0.5,
+      0.5,
+      0.599999999627471,
+      0.6000000014901161,
+      0.6000000014901161,
+      0.6999999992549419,
+      0.6000000014901161,
+      0.7000000011175871,
+      0.8000000007450581,
+      0.7000000011175871,
+      0.599999999627471,
+      0.8000000007450581,
+      0.7000000011175871,
+      0.6999999992549419,
+      0.5,
+      0.6000000014901161,
+      0.5,
+      0.599999999627471,
+      0.599999999627471,
+      0.599999999627471,
+      0.6999999992549419,
+      0.5,
+      0.8000000007450581,
+      0.599999999627471,
+      0.5,
+      0.40000000037252903,
+      0.7999999988824129,
+      0.6000000014901161,
+      0.7999999988824129,
+      0.599999999627471,
+      0.6999999992549419,
+      0.6999999992549419,
+      0.599999999627471,
+      0.599999999627471,
+      0.599999999627471,
+      0.6000000014901161,
+      0.599999999627471,
+      0.7000000011175871,
+      0.6999999992549419,
+      0.5,
+      0.6000000014901161,
+      0.6999999992549419,
+      0.40000000037252903,
+      0.599999999627471,
+      0.6999999992549419,
+      0.6000000014901161,
+      0.7000000011175871,
+      0.7999999988824129,
+      0.6000000014901161,
+      0.7999999988824129,
+      0.599999999627471,
+      0.599999999627471,
+      0.6999999992549419,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.6999999992549419,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.6999999992549419,
+      0.5,
+      0.6999999992549419,
+      0.599999999627471,
+      0.599999999627471,
+      0.8000000007450581,
+      0.599999999627471,
+      0.7000000011175871,
+      0.599999999627471,
+      0.7999999988824129,
+      0.5,
+      0.7999999988824129,
+      0.8000000007450581,
+      0.599999999627471,
+      0.6000000014901161,
+      0.7000000011175871,
+      0.6000000014901161,
+      0.7000000011175871,
+      0.599999999627471,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.7000000011175871,
+      0.5,
+      0.6000000014901161,
+      1,
+      0.7000000011175871,
+      0.5,
+      0.6999999992549419,
+      0.6999999992549419,
+      0.6999999992549419,
+      0.8999999985098839,
+      0.900000000372529,
+      0.599999999627471,
+      0.599999999627471,
+      0.8000000007450581,
+      0.5,
+      0.7000000011175871,
+      0.599999999627471,
+      0.5,
+      0.8000000007450581,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.5,
+      0.6999999992549419,
+      0.599999999627471,
+      0.599999999627471,
+      0.8000000007450581,
+      0.8000000007450581,
+      0.599999999627471,
+      0.8000000007450581,
+      0.8000000007450581,
+      0.6999999992549419,
+      0.6999999992549419,
+      1,
+      0.7999999988824129,
+      0.8000000007450581,
+      0.599999999627471,
+      0.599999999627471,
+      0.7000000011175871,
+      0.5,
+      1.800000000745058,
+      3.5,
+      1.400000000372529,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.7999999988824129,
+      0.8000000007450581,
+      0.599999999627471,
+      0.599999999627471,
+      0.6999999992549419,
+      0.8000000007450581,
+      0.6999999992549419,
+      0.8000000007450581,
+      0.900000000372529,
+      0.900000000372529,
+      0.8000000007450581,
+      0.7999999988824129,
+      0.7999999988824129,
+      1.299999998882413,
+      0.8999999985098839,
+      1,
+      1.099999999627471,
+      0.8000000007450581,
+      1,
+      0.6999999992549419,
+      0.8000000007450581,
+      0.7000000011175871,
+      0.599999999627471,
+      0.7999999988824129,
+      0.599999999627471,
+      0.7999999988824129,
+      0.599999999627471,
+      0.8999999985098839,
+      0.900000000372529,
+      0.599999999627471,
+      0.5,
+      0.5,
+      0.599999999627471,
+      0.7999999988824129,
+      0.599999999627471,
+      0.6999999992549419,
+      0.7999999988824129,
+      0.7000000011175871,
+      0.599999999627471,
+      0.5,
+      0.7000000011175871,
+      0.7000000011175871,
+      0.7000000011175871,
+      0.599999999627471,
+      0.599999999627471,
+      0.5,
+      1.5,
+      0.6999999992549419,
+      0.40000000037252903,
+      0.5,
+      0.7000000011175871,
+      0.5,
+      0.7000000011175871,
+      0.6999999992549419,
+      0.599999999627471,
+      0.5,
+      0.6999999992549419,
+      0.7000000011175871,
+      0.5,
+      0.6999999992549419,
+      0.5,
+      0.900000000372529,
+      0.6999999992549419,
+      0.7999999988824129,
+      0.7999999988824129,
+      0.7000000011175871,
+      0.5
+    ],
+    "selectionCpuP95Ms": 0.900000000372529,
+    "resourceTimingCount": 198,
+    "rendererBefore": {
+      "mapInstances": 1,
+      "mapInstanceCount": 1,
+      "sourceCount": 4,
+      "sourceLimit": 7,
+      "researchSourceLimit": 1,
+      "researchOverlay": {
+        "source": true,
+        "features": 44,
+        "visible": 1
+      },
+      "historicalSourceLimit": 5,
+      "contextRasterSourceLimit": 1,
+      "detailContext": {
+        "rasterCache": 0,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 0,
+        "rasterErrors": 0,
+        "terrainZoom": null,
+        "waterPaths": 2596,
+        "visibleCityLabels": 80,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "reducedMotion": true,
+        "activeCityTweens": 0,
+        "trackedCityRadii": 110,
+        "candidateProjectionBuilds": 11,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        },
+        "nativeTerrainSource": true,
+        "terrainVisible": true,
+        "terrainError": null
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "styleReload": {
+        "listeners": 1,
+        "events": 1,
+        "restorations": 1,
+        "failures": 0,
+        "pending": false
+      },
+      "reducedMotion": true,
+      "mountedSourceIds": [
+        "chronicle-detail-terrain",
+        "chronicle-epoch-2",
+        "chronicle-land",
+        "chronicle-research-hud"
+      ],
+      "mountedLayerIds": [
+        "ocean",
+        "physical-land",
+        "detail-relief",
+        "physical-coastline",
+        "chronicle-epoch-2-fill-context",
+        "chronicle-epoch-2-border-context",
+        "chronicle-epoch-2-fill-cultural",
+        "chronicle-epoch-2-border-cultural",
+        "chronicle-epoch-2-fill-political",
+        "chronicle-epoch-2-border-political",
+        "chronicle-epoch-2-hover",
+        "chronicle-epoch-2-hover-outline",
+        "chronicle-epoch-2-selection",
+        "chronicle-research-hud-polygons",
+        "chronicle-research-hud-points"
+      ],
+      "styleLoaded": true,
+      "tilesLoaded": true,
+      "activeStyleState": {
+        "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+        "generation": 3,
+        "mainArchiveHash": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+        "supplementArchiveHash": null,
+        "selected": []
+      },
+      "readinessToken": null,
+      "webgl": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "classification": "native-renderer-reported",
+        "evidence": "Renderer string read from the actual MapLibre canvas.",
+        "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+      },
+      "epochSourceGroups": 1,
+      "committedGeneration": 3,
+      "pendingGeneration": null,
+      "cameraRevision": 8,
+      "rangeRequests": 19,
+      "rangeBytes": 311296,
+      "outstandingRanges": 0,
+      "cachedChunks": 18,
+      "warmCache": {
+        "budget": {
+          "compressedBytes": 1048576,
+          "idleArchives": 4,
+          "chunksPerArchive": 8,
+          "directoryEntriesPerArchive": 16,
+          "concurrentPrefetch": 2,
+          "headerRequestBytes": 16384,
+          "maxArchiveBytes": 1000000
+        },
+        "requests": 19,
+        "bytes": 311296,
+        "aborted": 0,
+        "outstanding": 0,
+        "peakOutstanding": 4,
+        "cacheHits": 2,
+        "cacheMisses": 37,
+        "sharedReads": 18,
+        "chunkEvictions": 1,
+        "archiveEvictions": 1,
+        "warmRetains": 0,
+        "coldRetains": 3,
+        "prefetchStarted": 4,
+        "prefetchCompleted": 4,
+        "prefetchAborted": 0,
+        "prefetchFailed": 0,
+        "activePrefetch": 0,
+        "peakPrefetch": 2,
+        "cachedBytes": 294912,
+        "peakCachedBytes": 311296,
+        "archives": 6,
+        "activeArchives": 2,
+        "idleArchives": 4,
+        "liveReferences": 2,
+        "cachedChunks": 18,
+        "entries": [
+          {
+            "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+            "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+            "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+            "refs": 1,
+            "prefetch": 0,
+            "cachedChunks": 6,
+            "cachedBytes": 98304
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+            "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+            "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 6,
+            "cachedBytes": 98304
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+            "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+            "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+            "refs": 1,
+            "prefetch": 0,
+            "cachedChunks": 3,
+            "cachedBytes": 49152
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+            "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+            "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          }
+        ]
+      },
+      "hoverQueries": 0,
+      "reusedScenes": 1,
+      "createdLabelNodes": 29,
+      "presentationUpdates": 0,
+      "renderCallbacks": 869,
+      "lastRenderCallback": {
+        "at": 9787.700000001118,
+        "generation": 3,
+        "time": 10957
+      },
+      "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+      "view": {
+        "longitude": -110.66092514898507,
+        "latitude": 21.214264340819575,
+        "zoom": 4.2,
+        "moving": false
+      },
+      "labelNodeCount": 0,
+      "labelNodeLimit": 64,
+      "tileCacheLimitPerSource": 64,
+      "hostWork": [
+        {
+          "stage": "card",
+          "calls": 13,
+          "totalMs": 6.399999998509884,
+          "retained": 13,
+          "p95Ms": 6.099999999627471,
+          "maximumMs": 6.099999999627471
+        },
+        {
+          "stage": "research-cursor",
+          "calls": 8,
+          "totalMs": 2.800000000745058,
+          "retained": 8,
+          "p95Ms": 1.799999998882413,
+          "maximumMs": 1.799999998882413
+        },
+        {
+          "stage": "detail-time",
+          "calls": 8,
+          "totalMs": 91.39999999850988,
+          "retained": 8,
+          "p95Ms": 45.29999999888241,
+          "maximumMs": 45.29999999888241
+        },
+        {
+          "stage": "teaching",
+          "calls": 12,
+          "totalMs": 3.900000000372529,
+          "retained": 12,
+          "p95Ms": 2,
+          "maximumMs": 2
+        },
+        {
+          "stage": "ruler-update",
+          "calls": 8,
+          "totalMs": 0.10000000149011612,
+          "retained": 8,
+          "p95Ms": 0.10000000149011612,
+          "maximumMs": 0.10000000149011612
+        },
+        {
+          "stage": "presentation",
+          "calls": 8,
+          "totalMs": 0.7999999988824129,
+          "retained": 8,
+          "p95Ms": 0.599999999627471,
+          "maximumMs": 0.599999999627471
+        },
+        {
+          "stage": "cursor",
+          "calls": 8,
+          "totalMs": 107.19999999925494,
+          "retained": 8,
+          "p95Ms": 48.40000000037253,
+          "maximumMs": 48.40000000037253
+        },
+        {
+          "stage": "commit",
+          "calls": 3,
+          "totalMs": 8.199999999254942,
+          "retained": 3,
+          "p95Ms": 3.5,
+          "maximumMs": 3.5
+        }
+      ]
+    },
+    "rendererAfter": {
+      "mapInstances": 1,
+      "mapInstanceCount": 1,
+      "sourceCount": 4,
+      "sourceLimit": 7,
+      "researchSourceLimit": 1,
+      "researchOverlay": {
+        "source": true,
+        "features": 44,
+        "visible": 5
+      },
+      "historicalSourceLimit": 5,
+      "contextRasterSourceLimit": 1,
+      "detailContext": {
+        "rasterCache": 0,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 0,
+        "rasterErrors": 0,
+        "terrainZoom": null,
+        "waterPaths": 2596,
+        "visibleCityLabels": 80,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "reducedMotion": true,
+        "activeCityTweens": 0,
+        "trackedCityRadii": 110,
+        "candidateProjectionBuilds": 11,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        },
+        "nativeTerrainSource": true,
+        "terrainVisible": true,
+        "terrainError": null
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "styleReload": {
+        "listeners": 1,
+        "events": 1,
+        "restorations": 1,
+        "failures": 0,
+        "pending": false
+      },
+      "reducedMotion": true,
+      "mountedSourceIds": [
+        "chronicle-detail-terrain",
+        "chronicle-epoch-2",
+        "chronicle-land",
+        "chronicle-research-hud"
+      ],
+      "mountedLayerIds": [
+        "ocean",
+        "physical-land",
+        "detail-relief",
+        "physical-coastline",
+        "chronicle-epoch-2-fill-context",
+        "chronicle-epoch-2-border-context",
+        "chronicle-epoch-2-fill-cultural",
+        "chronicle-epoch-2-border-cultural",
+        "chronicle-epoch-2-fill-political",
+        "chronicle-epoch-2-border-political",
+        "chronicle-epoch-2-hover",
+        "chronicle-epoch-2-hover-outline",
+        "chronicle-epoch-2-selection",
+        "chronicle-research-hud-polygons",
+        "chronicle-research-hud-points"
+      ],
+      "styleLoaded": true,
+      "tilesLoaded": true,
+      "activeStyleState": {
+        "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+        "generation": 202,
+        "mainArchiveHash": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+        "supplementArchiveHash": null,
+        "selected": []
+      },
+      "readinessToken": null,
+      "webgl": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "classification": "native-renderer-reported",
+        "evidence": "Renderer string read from the actual MapLibre canvas.",
+        "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+      },
+      "epochSourceGroups": 1,
+      "committedGeneration": 202,
+      "pendingGeneration": null,
+      "cameraRevision": 8,
+      "rangeRequests": 19,
+      "rangeBytes": 311296,
+      "outstandingRanges": 0,
+      "cachedChunks": 18,
+      "warmCache": {
+        "budget": {
+          "compressedBytes": 1048576,
+          "idleArchives": 4,
+          "chunksPerArchive": 8,
+          "directoryEntriesPerArchive": 16,
+          "concurrentPrefetch": 2,
+          "headerRequestBytes": 16384,
+          "maxArchiveBytes": 1000000
+        },
+        "requests": 19,
+        "bytes": 311296,
+        "aborted": 0,
+        "outstanding": 0,
+        "peakOutstanding": 4,
+        "cacheHits": 2,
+        "cacheMisses": 37,
+        "sharedReads": 18,
+        "chunkEvictions": 1,
+        "archiveEvictions": 1,
+        "warmRetains": 0,
+        "coldRetains": 3,
+        "prefetchStarted": 4,
+        "prefetchCompleted": 4,
+        "prefetchAborted": 0,
+        "prefetchFailed": 0,
+        "activePrefetch": 0,
+        "peakPrefetch": 2,
+        "cachedBytes": 294912,
+        "peakCachedBytes": 311296,
+        "archives": 6,
+        "activeArchives": 2,
+        "idleArchives": 4,
+        "liveReferences": 2,
+        "cachedChunks": 18,
+        "entries": [
+          {
+            "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+            "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+            "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+            "refs": 1,
+            "prefetch": 0,
+            "cachedChunks": 6,
+            "cachedBytes": 98304
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+            "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+            "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 6,
+            "cachedBytes": 98304
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+            "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+            "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+            "refs": 1,
+            "prefetch": 0,
+            "cachedChunks": 3,
+            "cachedBytes": 49152
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+            "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          },
+          {
+            "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+            "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+            "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+            "refs": 0,
+            "prefetch": 0,
+            "cachedChunks": 1,
+            "cachedBytes": 16384
+          }
+        ]
+      },
+      "hoverQueries": 0,
+      "reusedScenes": 200,
+      "createdLabelNodes": 29,
+      "presentationUpdates": 0,
+      "renderCallbacks": 1441,
+      "lastRenderCallback": {
+        "at": 16276.200000001118,
+        "generation": 202,
+        "time": 10957
+      },
+      "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+      "view": {
+        "longitude": -110.66092514898507,
+        "latitude": 21.214264340819575,
+        "zoom": 4.2,
+        "moving": false
+      },
+      "labelNodeCount": 0,
+      "labelNodeLimit": 64,
+      "tileCacheLimitPerSource": 64,
+      "hostWork": [
+        {
+          "stage": "card",
+          "calls": 611,
+          "totalMs": 9.799999993294477,
+          "retained": 200,
+          "p95Ms": 0,
+          "maximumMs": 0.8000000007450581
+        },
+        {
+          "stage": "research-cursor",
+          "calls": 407,
+          "totalMs": 89.90000000409782,
+          "retained": 200,
+          "p95Ms": 0.599999999627471,
+          "maximumMs": 1.8999999985098839
+        },
+        {
+          "stage": "detail-time",
+          "calls": 407,
+          "totalMs": 1139.2999999821186,
+          "retained": 200,
+          "p95Ms": 6.299999998882413,
+          "maximumMs": 8.5
+        },
+        {
+          "stage": "teaching",
+          "calls": 610,
+          "totalMs": 256.7000000104308,
+          "retained": 200,
+          "p95Ms": 1.400000000372529,
+          "maximumMs": 5.5
+        },
+        {
+          "stage": "ruler-update",
+          "calls": 407,
+          "totalMs": 3.6999999936670065,
+          "retained": 200,
+          "p95Ms": 0.09999999962747097,
+          "maximumMs": 0.10000000149011612
+        },
+        {
+          "stage": "presentation",
+          "calls": 407,
+          "totalMs": 13.799999991431832,
+          "retained": 200,
+          "p95Ms": 0.10000000149011612,
+          "maximumMs": 0.19999999925494194
+        },
+        {
+          "stage": "cursor",
+          "calls": 407,
+          "totalMs": 1547.5999999791384,
+          "retained": 200,
+          "p95Ms": 8.5,
+          "maximumMs": 13.299999998882413
+        },
+        {
+          "stage": "commit",
+          "calls": 202,
+          "totalMs": 408.8000000026077,
+          "retained": 200,
+          "p95Ms": 2.699999999254942,
+          "maximumMs": 3.400000000372529
+        }
+      ]
+    },
+    "failures": []
+  },
+  "phases": {
+    "selectionOnly": {
+      "status": "PASS",
+      "interactionCount": 200,
+      "cursorChanges": 0,
+      "endpoints": "Before normal selection to two animation-frame opportunities after chart, map callout and evidence DOM update; host cursor fixed",
+      "p95Ms": 13.600000001490116,
+      "minMs": 7.699999999254942,
+      "maxMs": 27.800000000745058,
+      "targetP95Ms": 50,
+      "targetMet": true,
+      "samplesMs": [
+        13.799999998882413,
+        11.5,
+        12,
+        12.200000001117587,
+        12.099999999627471,
+        12,
+        18.40000000037253,
+        11.600000001490116,
+        12.099999999627471,
+        12,
+        12.099999999627471,
+        12.200000001117587,
+        12.099999999627471,
+        12,
+        12.199999999254942,
+        12.099999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.200000001117587,
+        12,
+        12.199999999254942,
+        12.099999999627471,
+        12.100000001490116,
+        12.199999999254942,
+        12,
+        12.099999999627471,
+        11.899999998509884,
+        12.099999999627471,
+        12,
+        13,
+        11.099999999627471,
+        12.5,
+        11.599999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.200000001117587,
+        16.299999998882413,
+        17.90000000037253,
+        27.800000000745058,
+        20.59999999962747,
+        15.099999999627471,
+        11.599999999627471,
+        13.200000001117587,
+        10.799999998882413,
+        12.099999999627471,
+        12,
+        12.099999999627471,
+        12.300000000745058,
+        11.900000000372529,
+        12,
+        12.099999999627471,
+        12.099999999627471,
+        12.100000001490116,
+        12.099999999627471,
+        12.900000000372529,
+        11.399999998509884,
+        12.100000001490116,
+        12.199999999254942,
+        12,
+        12.199999999254942,
+        12,
+        12.099999999627471,
+        12.199999999254942,
+        12,
+        12.300000000745058,
+        11.900000000372529,
+        12.099999999627471,
+        12,
+        12.199999999254942,
+        12.100000001490116,
+        12.299999998882413,
+        12,
+        12.099999999627471,
+        12.100000001490116,
+        12.199999999254942,
+        12,
+        12.300000000745058,
+        12,
+        12,
+        12.099999999627471,
+        12,
+        12.200000001117587,
+        12.099999999627471,
+        12,
+        12.199999999254942,
+        12.100000001490116,
+        12.099999999627471,
+        12.199999999254942,
+        12.099999999627471,
+        12,
+        13.600000001490116,
+        10.799999998882413,
+        12.099999999627471,
+        12,
+        12.200000001117587,
+        12,
+        12.099999999627471,
+        12,
+        12.199999999254942,
+        12,
+        12.099999999627471,
+        12.099999999627471,
+        12.200000001117587,
+        12.099999999627471,
+        12.099999999627471,
+        12.200000001117587,
+        12,
+        12.099999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.100000001490116,
+        12,
+        12.199999999254942,
+        12.099999999627471,
+        12.100000001490116,
+        12.099999999627471,
+        14.599999999627471,
+        9.699999999254942,
+        12,
+        12.099999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.100000001490116,
+        12.099999999627471,
+        12.099999999627471,
+        12.199999999254942,
+        11.899999998509884,
+        12.099999999627471,
+        12.199999999254942,
+        12,
+        12,
+        12.100000001490116,
+        12.099999999627471,
+        12,
+        12.300000000745058,
+        12,
+        12.199999999254942,
+        12,
+        12.200000001117587,
+        11.900000000372529,
+        12.099999999627471,
+        12,
+        12.199999999254942,
+        17.200000001117587,
+        7.699999999254942,
+        11.5,
+        12,
+        12.400000000372529,
+        11.900000000372529,
+        12,
+        12.099999999627471,
+        12,
+        12,
+        12.199999999254942,
+        12.099999999627471,
+        12.100000001490116,
+        12.099999999627471,
+        12.099999999627471,
+        12.199999999254942,
+        11.899999998509884,
+        12,
+        12.199999999254942,
+        12,
+        12.099999999627471,
+        12.300000000745058,
+        12,
+        12,
+        12.099999999627471,
+        12.100000001490116,
+        12.199999999254942,
+        19.300000000745058,
+        10.899999998509884,
+        12.200000001117587,
+        12.099999999627471,
+        12.099999999627471,
+        11.899999998509884,
+        12,
+        12,
+        12,
+        12.099999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.099999999627471,
+        12.200000001117587,
+        12.099999999627471,
+        12.199999999254942,
+        12,
+        12.099999999627471,
+        12.100000001490116,
+        12.099999999627471,
+        12.099999999627471,
+        12.100000001490116,
+        12,
+        12,
+        12.199999999254942,
+        12.099999999627471,
+        12.200000001117587,
+        12,
+        13.299999998882413
+      ],
+      "selectionCpuSamplesMs": [
+        0.8999999985098839,
+        0.7000000011175871,
+        1,
+        0.7000000011175871,
+        0.599999999627471,
+        0.900000000372529,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.900000000372529,
+        0.599999999627471,
+        0.7000000011175871,
+        1.5,
+        1.099999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        0.599999999627471,
+        0.599999999627471,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.7999999988824129,
+        0.6999999992549419,
+        1.400000000372529,
+        0.7000000011175871,
+        0.7999999988824129,
+        0.599999999627471,
+        0.7000000011175871,
+        0.7999999988824129,
+        0.599999999627471,
+        0.8000000007450581,
+        0.8000000007450581,
+        0.599999999627471,
+        0.599999999627471,
+        0.7999999988824129,
+        0.8000000007450581,
+        1.5,
+        0.7000000011175871,
+        0.7999999988824129,
+        2.200000001117587,
+        1,
+        1.900000000372529,
+        0.900000000372529,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.5,
+        0.599999999627471,
+        0.6999999992549419,
+        0.599999999627471,
+        0.7999999988824129,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.599999999627471,
+        0.7000000011175871,
+        1.299999998882413,
+        0.599999999627471,
+        0.599999999627471,
+        0.8000000007450581,
+        0.599999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        1.1000000014901161,
+        0.5,
+        0.599999999627471,
+        1.099999999627471,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.599999999627471,
+        0.599999999627471,
+        0.6000000014901161,
+        0.7999999988824129,
+        0.7000000011175871,
+        0.599999999627471,
+        0.6000000014901161,
+        0.599999999627471,
+        0.8000000007450581,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.5,
+        0.599999999627471,
+        0.599999999627471,
+        0.7000000011175871,
+        0.599999999627471,
+        0.599999999627471,
+        0.599999999627471,
+        0.6000000014901161,
+        0.599999999627471,
+        0.599999999627471,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.5,
+        0.599999999627471,
+        0.599999999627471,
+        0.7000000011175871,
+        0.6000000014901161,
+        0.6999999992549419,
+        0.599999999627471,
+        0.7000000011175871,
+        0.5,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.599999999627471,
+        0.6000000014901161,
+        0.7999999988824129,
+        0.8000000007450581,
+        0.599999999627471,
+        0.599999999627471,
+        0.7999999988824129,
+        0.6999999992549419,
+        0.599999999627471,
+        0.8000000007450581,
+        0.5,
+        0.5,
+        0.599999999627471,
+        0.6000000014901161,
+        0.7999999988824129,
+        0.599999999627471,
+        0.6999999992549419,
+        0.5,
+        0.7999999988824129,
+        0.599999999627471,
+        0.599999999627471,
+        0.6000000014901161,
+        0.5,
+        0.599999999627471,
+        0.6999999992549419,
+        0.7999999988824129,
+        0.599999999627471,
+        0.599999999627471,
+        0.7000000011175871,
+        0.6000000014901161,
+        0.5,
+        0.599999999627471,
+        0.6999999992549419,
+        0.599999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.5,
+        0.5,
+        0.7999999988824129,
+        0.6999999992549419,
+        0.599999999627471,
+        0.8000000007450581,
+        0.599999999627471,
+        0.7000000011175871,
+        0.5,
+        0.7000000011175871,
+        0.8000000007450581,
+        0.599999999627471,
+        0.6999999992549419,
+        0.8000000007450581,
+        0.7999999988824129,
+        0.599999999627471,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.599999999627471,
+        0.6999999992549419,
+        0.7999999988824129,
+        0.599999999627471,
+        0.599999999627471,
+        0.599999999627471,
+        0.7000000011175871,
+        0.5,
+        0.599999999627471,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.5,
+        0.8000000007450581,
+        0.7999999988824129,
+        0.5,
+        0.5,
+        0.599999999627471,
+        0.5,
+        0.599999999627471,
+        0.599999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        0.8000000007450581,
+        0.5,
+        0.599999999627471,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.599999999627471,
+        0.7000000011175871,
+        0.5,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.7999999988824129,
+        0.599999999627471,
+        0.599999999627471,
+        0.7000000011175871,
+        0.6000000014901161,
+        0.6999999992549419,
+        0.599999999627471
+      ],
+      "selectionCpuP95Ms": 1,
+      "resourceTimingCount": 3,
+      "rendererBefore": {
+        "mapInstances": 1,
+        "mapInstanceCount": 1,
+        "sourceCount": 4,
+        "sourceLimit": 7,
+        "researchSourceLimit": 1,
+        "researchOverlay": {
+          "source": true,
+          "features": 44,
+          "visible": 0
+        },
+        "historicalSourceLimit": 5,
+        "contextRasterSourceLimit": 1,
+        "detailContext": {
+          "rasterCache": 0,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 0,
+          "rasterErrors": 0,
+          "terrainZoom": null,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": true,
+          "activeCityTweens": 0,
+          "trackedCityRadii": 110,
+          "candidateProjectionBuilds": 11,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          },
+          "nativeTerrainSource": true,
+          "terrainVisible": true,
+          "terrainError": null
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "styleReload": {
+          "listeners": 1,
+          "events": 1,
+          "restorations": 1,
+          "failures": 0,
+          "pending": false
+        },
+        "reducedMotion": true,
+        "mountedSourceIds": [
+          "chronicle-detail-terrain",
+          "chronicle-epoch-2",
+          "chronicle-land",
+          "chronicle-research-hud"
+        ],
+        "mountedLayerIds": [
+          "ocean",
+          "physical-land",
+          "detail-relief",
+          "physical-coastline",
+          "chronicle-epoch-2-fill-context",
+          "chronicle-epoch-2-border-context",
+          "chronicle-epoch-2-fill-cultural",
+          "chronicle-epoch-2-border-cultural",
+          "chronicle-epoch-2-fill-political",
+          "chronicle-epoch-2-border-political",
+          "chronicle-epoch-2-hover",
+          "chronicle-epoch-2-hover-outline",
+          "chronicle-epoch-2-selection",
+          "chronicle-research-hud-polygons",
+          "chronicle-research-hud-points"
+        ],
+        "styleLoaded": true,
+        "tilesLoaded": true,
+        "activeStyleState": {
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "generation": 3,
+          "mainArchiveHash": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "supplementArchiveHash": null,
+          "selected": []
+        },
+        "readinessToken": null,
+        "webgl": {
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "vendor": "Google Inc. (NVIDIA)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "classification": "native-renderer-reported",
+          "evidence": "Renderer string read from the actual MapLibre canvas.",
+          "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+        },
+        "epochSourceGroups": 1,
+        "committedGeneration": 3,
+        "pendingGeneration": null,
+        "cameraRevision": 8,
+        "rangeRequests": 19,
+        "rangeBytes": 278528,
+        "outstandingRanges": 2,
+        "cachedChunks": 17,
+        "warmCache": {
+          "budget": {
+            "compressedBytes": 1048576,
+            "idleArchives": 4,
+            "chunksPerArchive": 8,
+            "directoryEntriesPerArchive": 16,
+            "concurrentPrefetch": 2,
+            "headerRequestBytes": 16384,
+            "maxArchiveBytes": 1000000
+          },
+          "requests": 19,
+          "bytes": 278528,
+          "aborted": 0,
+          "outstanding": 2,
+          "peakOutstanding": 4,
+          "cacheHits": 2,
+          "cacheMisses": 37,
+          "sharedReads": 18,
+          "chunkEvictions": 0,
+          "archiveEvictions": 0,
+          "warmRetains": 0,
+          "coldRetains": 3,
+          "prefetchStarted": 4,
+          "prefetchCompleted": 2,
+          "prefetchAborted": 0,
+          "prefetchFailed": 0,
+          "activePrefetch": 2,
+          "peakPrefetch": 2,
+          "cachedBytes": 278528,
+          "peakCachedBytes": 278528,
+          "archives": 7,
+          "activeArchives": 2,
+          "idleArchives": 3,
+          "liveReferences": 2,
+          "cachedChunks": 17,
+          "entries": [
+            {
+              "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+              "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+              "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_600/geometry.419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7.pmtiles",
+              "edition": "global-history-world_600-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+              "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+              "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 3,
+              "cachedBytes": 49152
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+              "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+              "refs": 0,
+              "prefetch": 1,
+              "cachedChunks": 0,
+              "cachedBytes": 0
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+              "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+              "refs": 0,
+              "prefetch": 1,
+              "cachedChunks": 0,
+              "cachedBytes": 0
+            }
+          ]
+        },
+        "hoverQueries": 0,
+        "reusedScenes": 1,
+        "createdLabelNodes": 29,
+        "presentationUpdates": 0,
+        "renderCallbacks": 471,
+        "lastRenderCallback": {
+          "at": 7315.9000000003725,
+          "generation": 3,
+          "time": 10957
+        },
+        "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+        "view": {
+          "longitude": -110.66092514898507,
+          "latitude": 21.214264340819575,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "labelNodeCount": 0,
+        "labelNodeLimit": 64,
+        "tileCacheLimitPerSource": 64,
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 13,
+            "totalMs": 6.399999998509884,
+            "retained": 13,
+            "p95Ms": 6.099999999627471,
+            "maximumMs": 6.099999999627471
+          },
+          {
+            "stage": "research-cursor",
+            "calls": 8,
+            "totalMs": 2.800000000745058,
+            "retained": 8,
+            "p95Ms": 1.799999998882413,
+            "maximumMs": 1.799999998882413
+          },
+          {
+            "stage": "detail-time",
+            "calls": 8,
+            "totalMs": 91.39999999850988,
+            "retained": 8,
+            "p95Ms": 45.29999999888241,
+            "maximumMs": 45.29999999888241
+          },
+          {
+            "stage": "teaching",
+            "calls": 12,
+            "totalMs": 3.900000000372529,
+            "retained": 12,
+            "p95Ms": 2,
+            "maximumMs": 2
+          },
+          {
+            "stage": "ruler-update",
+            "calls": 8,
+            "totalMs": 0.10000000149011612,
+            "retained": 8,
+            "p95Ms": 0.10000000149011612,
+            "maximumMs": 0.10000000149011612
+          },
+          {
+            "stage": "presentation",
+            "calls": 8,
+            "totalMs": 0.7999999988824129,
+            "retained": 8,
+            "p95Ms": 0.599999999627471,
+            "maximumMs": 0.599999999627471
+          },
+          {
+            "stage": "cursor",
+            "calls": 8,
+            "totalMs": 107.19999999925494,
+            "retained": 8,
+            "p95Ms": 48.40000000037253,
+            "maximumMs": 48.40000000037253
+          },
+          {
+            "stage": "commit",
+            "calls": 3,
+            "totalMs": 8.199999999254942,
+            "retained": 3,
+            "p95Ms": 3.5,
+            "maximumMs": 3.5
+          }
+        ]
+      },
+      "rendererAfter": {
+        "mapInstances": 1,
+        "mapInstanceCount": 1,
+        "sourceCount": 4,
+        "sourceLimit": 7,
+        "researchSourceLimit": 1,
+        "researchOverlay": {
+          "source": true,
+          "features": 44,
+          "visible": 1
+        },
+        "historicalSourceLimit": 5,
+        "contextRasterSourceLimit": 1,
+        "detailContext": {
+          "rasterCache": 0,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 0,
+          "rasterErrors": 0,
+          "terrainZoom": null,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": true,
+          "activeCityTweens": 0,
+          "trackedCityRadii": 110,
+          "candidateProjectionBuilds": 11,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          },
+          "nativeTerrainSource": true,
+          "terrainVisible": true,
+          "terrainError": null
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "styleReload": {
+          "listeners": 1,
+          "events": 1,
+          "restorations": 1,
+          "failures": 0,
+          "pending": false
+        },
+        "reducedMotion": true,
+        "mountedSourceIds": [
+          "chronicle-detail-terrain",
+          "chronicle-epoch-2",
+          "chronicle-land",
+          "chronicle-research-hud"
+        ],
+        "mountedLayerIds": [
+          "ocean",
+          "physical-land",
+          "detail-relief",
+          "physical-coastline",
+          "chronicle-epoch-2-fill-context",
+          "chronicle-epoch-2-border-context",
+          "chronicle-epoch-2-fill-cultural",
+          "chronicle-epoch-2-border-cultural",
+          "chronicle-epoch-2-fill-political",
+          "chronicle-epoch-2-border-political",
+          "chronicle-epoch-2-hover",
+          "chronicle-epoch-2-hover-outline",
+          "chronicle-epoch-2-selection",
+          "chronicle-research-hud-polygons",
+          "chronicle-research-hud-points"
+        ],
+        "styleLoaded": true,
+        "tilesLoaded": true,
+        "activeStyleState": {
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "generation": 3,
+          "mainArchiveHash": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "supplementArchiveHash": null,
+          "selected": []
+        },
+        "readinessToken": null,
+        "webgl": {
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "vendor": "Google Inc. (NVIDIA)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "classification": "native-renderer-reported",
+          "evidence": "Renderer string read from the actual MapLibre canvas.",
+          "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+        },
+        "epochSourceGroups": 1,
+        "committedGeneration": 3,
+        "pendingGeneration": null,
+        "cameraRevision": 8,
+        "rangeRequests": 19,
+        "rangeBytes": 311296,
+        "outstandingRanges": 0,
+        "cachedChunks": 18,
+        "warmCache": {
+          "budget": {
+            "compressedBytes": 1048576,
+            "idleArchives": 4,
+            "chunksPerArchive": 8,
+            "directoryEntriesPerArchive": 16,
+            "concurrentPrefetch": 2,
+            "headerRequestBytes": 16384,
+            "maxArchiveBytes": 1000000
+          },
+          "requests": 19,
+          "bytes": 311296,
+          "aborted": 0,
+          "outstanding": 0,
+          "peakOutstanding": 4,
+          "cacheHits": 2,
+          "cacheMisses": 37,
+          "sharedReads": 18,
+          "chunkEvictions": 1,
+          "archiveEvictions": 1,
+          "warmRetains": 0,
+          "coldRetains": 3,
+          "prefetchStarted": 4,
+          "prefetchCompleted": 4,
+          "prefetchAborted": 0,
+          "prefetchFailed": 0,
+          "activePrefetch": 0,
+          "peakPrefetch": 2,
+          "cachedBytes": 294912,
+          "peakCachedBytes": 311296,
+          "archives": 6,
+          "activeArchives": 2,
+          "idleArchives": 4,
+          "liveReferences": 2,
+          "cachedChunks": 18,
+          "entries": [
+            {
+              "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+              "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+              "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+              "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+              "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 3,
+              "cachedBytes": 49152
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+              "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+              "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            }
+          ]
+        },
+        "hoverQueries": 0,
+        "reusedScenes": 1,
+        "createdLabelNodes": 29,
+        "presentationUpdates": 0,
+        "renderCallbacks": 869,
+        "lastRenderCallback": {
+          "at": 9787.700000001118,
+          "generation": 3,
+          "time": 10957
+        },
+        "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+        "view": {
+          "longitude": -110.66092514898507,
+          "latitude": 21.214264340819575,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "labelNodeCount": 0,
+        "labelNodeLimit": 64,
+        "tileCacheLimitPerSource": 64,
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 13,
+            "totalMs": 6.399999998509884,
+            "retained": 13,
+            "p95Ms": 6.099999999627471,
+            "maximumMs": 6.099999999627471
+          },
+          {
+            "stage": "research-cursor",
+            "calls": 8,
+            "totalMs": 2.800000000745058,
+            "retained": 8,
+            "p95Ms": 1.799999998882413,
+            "maximumMs": 1.799999998882413
+          },
+          {
+            "stage": "detail-time",
+            "calls": 8,
+            "totalMs": 91.39999999850988,
+            "retained": 8,
+            "p95Ms": 45.29999999888241,
+            "maximumMs": 45.29999999888241
+          },
+          {
+            "stage": "teaching",
+            "calls": 12,
+            "totalMs": 3.900000000372529,
+            "retained": 12,
+            "p95Ms": 2,
+            "maximumMs": 2
+          },
+          {
+            "stage": "ruler-update",
+            "calls": 8,
+            "totalMs": 0.10000000149011612,
+            "retained": 8,
+            "p95Ms": 0.10000000149011612,
+            "maximumMs": 0.10000000149011612
+          },
+          {
+            "stage": "presentation",
+            "calls": 8,
+            "totalMs": 0.7999999988824129,
+            "retained": 8,
+            "p95Ms": 0.599999999627471,
+            "maximumMs": 0.599999999627471
+          },
+          {
+            "stage": "cursor",
+            "calls": 8,
+            "totalMs": 107.19999999925494,
+            "retained": 8,
+            "p95Ms": 48.40000000037253,
+            "maximumMs": 48.40000000037253
+          },
+          {
+            "stage": "commit",
+            "calls": 3,
+            "totalMs": 8.199999999254942,
+            "retained": 3,
+            "p95Ms": 3.5,
+            "maximumMs": 3.5
+          }
+        ]
+      },
+      "failures": []
+    },
+    "selectionAndCursor": {
+      "status": "PASS",
+      "interactionCount": 200,
+      "cursorChanges": 200,
+      "endpoints": "Before normal selection plus host cursor action to two animation-frame opportunities after awaited host seek and coordinated DOM update",
+      "p95Ms": 40,
+      "minMs": 10,
+      "maxMs": 70.30000000074506,
+      "targetP95Ms": 100,
+      "targetMet": true,
+      "samplesMs": [
+        10,
+        35.59999999962747,
+        30.700000001117587,
+        37.90000000037253,
+        27.90000000037253,
+        30.40000000037253,
+        33,
+        27.5,
+        30.09999999962747,
+        32.80000000074506,
+        28.699999999254942,
+        29.40000000037253,
+        30.300000000745058,
+        30.199999999254942,
+        30.40000000037253,
+        30.40000000037253,
+        30.09999999962747,
+        30.300000000745058,
+        36.59999999962747,
+        30.199999999254942,
+        30.200000001117587,
+        33.40000000037253,
+        29.799999998882413,
+        27.600000001490116,
+        31.59999999962747,
+        28.90000000037253,
+        30.299999998882413,
+        33.69999999925494,
+        27.09999999962747,
+        29.90000000037253,
+        33.20000000111759,
+        27.40000000037253,
+        30.199999999254942,
+        31.200000001117587,
+        29.399999998509884,
+        30.200000001117587,
+        34.59999999962747,
+        26.40000000037253,
+        29.90000000037253,
+        34.30000000074506,
+        26.299999998882413,
+        30.200000001117587,
+        30.299999998882413,
+        30.200000001117587,
+        30.299999998882413,
+        30.600000001490116,
+        30,
+        30.299999998882413,
+        36.30000000074506,
+        30.300000000745058,
+        30.09999999962747,
+        31.800000000745058,
+        28.899999998509884,
+        30.300000000745058,
+        30.300000000745058,
+        30.199999999254942,
+        30.200000001117587,
+        35.09999999962747,
+        31.5,
+        30.300000000745058,
+        36.59999999962747,
+        30.09999999962747,
+        30.300000000745058,
+        30.5,
+        36.19999999925494,
+        30.300000000745058,
+        30.59999999962747,
+        30.90000000037253,
+        35.29999999888241,
+        30.5,
+        30.299999998882413,
+        35.59999999962747,
+        30.699999999254942,
+        32.70000000111759,
+        34,
+        31.90000000037253,
+        28.5,
+        30.299999998882413,
+        30.300000000745058,
+        30.199999999254942,
+        34.30000000074506,
+        33,
+        29.5,
+        33,
+        27.399999998509884,
+        30.09999999962747,
+        32.90000000037253,
+        33.69999999925494,
+        30.300000000745058,
+        32.09999999962747,
+        28.399999998509884,
+        30.300000000745058,
+        31.09999999962747,
+        29.5,
+        30.300000000745058,
+        31.799999998882413,
+        28.699999999254942,
+        30.300000000745058,
+        32.69999999925494,
+        33.90000000037253,
+        30.199999999254942,
+        32.29999999888241,
+        31.90000000037253,
+        26.5,
+        32.90000000037253,
+        27.90000000037253,
+        30.09999999962747,
+        32.19999999925494,
+        28.399999998509884,
+        30.300000000745058,
+        30.90000000037253,
+        29.59999999962747,
+        30.40000000037253,
+        34,
+        32.59999999962747,
+        30.700000001117587,
+        30.199999999254942,
+        42.09999999962747,
+        30.200000001117587,
+        36.29999999888241,
+        36.899999998509884,
+        37,
+        35.19999999925494,
+        38.80000000074506,
+        28,
+        31.299999998882413,
+        35,
+        41.5,
+        70.30000000074506,
+        52.29999999888241,
+        37.80000000074506,
+        36.19999999925494,
+        34.600000001490116,
+        42.69999999925494,
+        38.90000000037253,
+        35.09999999962747,
+        39.80000000074506,
+        32.29999999888241,
+        35.80000000074506,
+        40,
+        39.09999999962747,
+        37.100000001490116,
+        35.69999999925494,
+        51.600000001490116,
+        44.09999999962747,
+        42.40000000037253,
+        43.29999999888241,
+        41.29999999888241,
+        36.30000000074506,
+        37.09999999962747,
+        35.40000000037253,
+        36.30000000074506,
+        32.69999999925494,
+        34,
+        30.200000001117587,
+        36.29999999888241,
+        30.199999999254942,
+        30.40000000037253,
+        32.69999999925494,
+        34.09999999962747,
+        30,
+        32,
+        29,
+        29.699999999254942,
+        32.80000000074506,
+        27.90000000037253,
+        30.09999999962747,
+        31.800000000745058,
+        34.899999998509884,
+        30.299999998882413,
+        33.5,
+        33,
+        30.299999998882413,
+        37.59999999962747,
+        29,
+        30.300000000745058,
+        31.300000000745058,
+        29.299999998882413,
+        30.300000000745058,
+        32.59999999962747,
+        28,
+        30.40000000037253,
+        30.199999999254942,
+        30.40000000037253,
+        30.199999999254942,
+        32.70000000111759,
+        27.90000000037253,
+        30.40000000037253,
+        30.899999998509884,
+        29.399999998509884,
+        30.40000000037253,
+        31.800000000745058,
+        28.799999998882413,
+        30.300000000745058,
+        32.19999999925494,
+        34.399999998509884,
+        30.09999999962747,
+        31.699999999254942,
+        35,
+        30.09999999962747
+      ],
+      "selectionCpuSamplesMs": [
+        0.599999999627471,
+        0.5,
+        0.599999999627471,
+        0.6999999992549419,
+        0.5,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.8000000007450581,
+        0.5,
+        0.5,
+        0.599999999627471,
+        0.6000000014901161,
+        0.6000000014901161,
+        0.6999999992549419,
+        0.6000000014901161,
+        0.7000000011175871,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.599999999627471,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.5,
+        0.6000000014901161,
+        0.5,
+        0.599999999627471,
+        0.599999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        0.5,
+        0.8000000007450581,
+        0.599999999627471,
+        0.5,
+        0.40000000037252903,
+        0.7999999988824129,
+        0.6000000014901161,
+        0.7999999988824129,
+        0.599999999627471,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.599999999627471,
+        0.599999999627471,
+        0.599999999627471,
+        0.6000000014901161,
+        0.599999999627471,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.5,
+        0.6000000014901161,
+        0.6999999992549419,
+        0.40000000037252903,
+        0.599999999627471,
+        0.6999999992549419,
+        0.6000000014901161,
+        0.7000000011175871,
+        0.7999999988824129,
+        0.6000000014901161,
+        0.7999999988824129,
+        0.599999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.5,
+        0.6999999992549419,
+        0.599999999627471,
+        0.599999999627471,
+        0.8000000007450581,
+        0.599999999627471,
+        0.7000000011175871,
+        0.599999999627471,
+        0.7999999988824129,
+        0.5,
+        0.7999999988824129,
+        0.8000000007450581,
+        0.599999999627471,
+        0.6000000014901161,
+        0.7000000011175871,
+        0.6000000014901161,
+        0.7000000011175871,
+        0.599999999627471,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.5,
+        0.6000000014901161,
+        1,
+        0.7000000011175871,
+        0.5,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.6999999992549419,
+        0.8999999985098839,
+        0.900000000372529,
+        0.599999999627471,
+        0.599999999627471,
+        0.8000000007450581,
+        0.5,
+        0.7000000011175871,
+        0.599999999627471,
+        0.5,
+        0.8000000007450581,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.5,
+        0.6999999992549419,
+        0.599999999627471,
+        0.599999999627471,
+        0.8000000007450581,
+        0.8000000007450581,
+        0.599999999627471,
+        0.8000000007450581,
+        0.8000000007450581,
+        0.6999999992549419,
+        0.6999999992549419,
+        1,
+        0.7999999988824129,
+        0.8000000007450581,
+        0.599999999627471,
+        0.599999999627471,
+        0.7000000011175871,
+        0.5,
+        1.800000000745058,
+        3.5,
+        1.400000000372529,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.7999999988824129,
+        0.8000000007450581,
+        0.599999999627471,
+        0.599999999627471,
+        0.6999999992549419,
+        0.8000000007450581,
+        0.6999999992549419,
+        0.8000000007450581,
+        0.900000000372529,
+        0.900000000372529,
+        0.8000000007450581,
+        0.7999999988824129,
+        0.7999999988824129,
+        1.299999998882413,
+        0.8999999985098839,
+        1,
+        1.099999999627471,
+        0.8000000007450581,
+        1,
+        0.6999999992549419,
+        0.8000000007450581,
+        0.7000000011175871,
+        0.599999999627471,
+        0.7999999988824129,
+        0.599999999627471,
+        0.7999999988824129,
+        0.599999999627471,
+        0.8999999985098839,
+        0.900000000372529,
+        0.599999999627471,
+        0.5,
+        0.5,
+        0.599999999627471,
+        0.7999999988824129,
+        0.599999999627471,
+        0.6999999992549419,
+        0.7999999988824129,
+        0.7000000011175871,
+        0.599999999627471,
+        0.5,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.7000000011175871,
+        0.599999999627471,
+        0.599999999627471,
+        0.5,
+        1.5,
+        0.6999999992549419,
+        0.40000000037252903,
+        0.5,
+        0.7000000011175871,
+        0.5,
+        0.7000000011175871,
+        0.6999999992549419,
+        0.599999999627471,
+        0.5,
+        0.6999999992549419,
+        0.7000000011175871,
+        0.5,
+        0.6999999992549419,
+        0.5,
+        0.900000000372529,
+        0.6999999992549419,
+        0.7999999988824129,
+        0.7999999988824129,
+        0.7000000011175871,
+        0.5
+      ],
+      "selectionCpuP95Ms": 0.900000000372529,
+      "resourceTimingCount": 198,
+      "rendererBefore": {
+        "mapInstances": 1,
+        "mapInstanceCount": 1,
+        "sourceCount": 4,
+        "sourceLimit": 7,
+        "researchSourceLimit": 1,
+        "researchOverlay": {
+          "source": true,
+          "features": 44,
+          "visible": 1
+        },
+        "historicalSourceLimit": 5,
+        "contextRasterSourceLimit": 1,
+        "detailContext": {
+          "rasterCache": 0,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 0,
+          "rasterErrors": 0,
+          "terrainZoom": null,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": true,
+          "activeCityTweens": 0,
+          "trackedCityRadii": 110,
+          "candidateProjectionBuilds": 11,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          },
+          "nativeTerrainSource": true,
+          "terrainVisible": true,
+          "terrainError": null
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "styleReload": {
+          "listeners": 1,
+          "events": 1,
+          "restorations": 1,
+          "failures": 0,
+          "pending": false
+        },
+        "reducedMotion": true,
+        "mountedSourceIds": [
+          "chronicle-detail-terrain",
+          "chronicle-epoch-2",
+          "chronicle-land",
+          "chronicle-research-hud"
+        ],
+        "mountedLayerIds": [
+          "ocean",
+          "physical-land",
+          "detail-relief",
+          "physical-coastline",
+          "chronicle-epoch-2-fill-context",
+          "chronicle-epoch-2-border-context",
+          "chronicle-epoch-2-fill-cultural",
+          "chronicle-epoch-2-border-cultural",
+          "chronicle-epoch-2-fill-political",
+          "chronicle-epoch-2-border-political",
+          "chronicle-epoch-2-hover",
+          "chronicle-epoch-2-hover-outline",
+          "chronicle-epoch-2-selection",
+          "chronicle-research-hud-polygons",
+          "chronicle-research-hud-points"
+        ],
+        "styleLoaded": true,
+        "tilesLoaded": true,
+        "activeStyleState": {
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "generation": 3,
+          "mainArchiveHash": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "supplementArchiveHash": null,
+          "selected": []
+        },
+        "readinessToken": null,
+        "webgl": {
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "vendor": "Google Inc. (NVIDIA)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "classification": "native-renderer-reported",
+          "evidence": "Renderer string read from the actual MapLibre canvas.",
+          "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+        },
+        "epochSourceGroups": 1,
+        "committedGeneration": 3,
+        "pendingGeneration": null,
+        "cameraRevision": 8,
+        "rangeRequests": 19,
+        "rangeBytes": 311296,
+        "outstandingRanges": 0,
+        "cachedChunks": 18,
+        "warmCache": {
+          "budget": {
+            "compressedBytes": 1048576,
+            "idleArchives": 4,
+            "chunksPerArchive": 8,
+            "directoryEntriesPerArchive": 16,
+            "concurrentPrefetch": 2,
+            "headerRequestBytes": 16384,
+            "maxArchiveBytes": 1000000
+          },
+          "requests": 19,
+          "bytes": 311296,
+          "aborted": 0,
+          "outstanding": 0,
+          "peakOutstanding": 4,
+          "cacheHits": 2,
+          "cacheMisses": 37,
+          "sharedReads": 18,
+          "chunkEvictions": 1,
+          "archiveEvictions": 1,
+          "warmRetains": 0,
+          "coldRetains": 3,
+          "prefetchStarted": 4,
+          "prefetchCompleted": 4,
+          "prefetchAborted": 0,
+          "prefetchFailed": 0,
+          "activePrefetch": 0,
+          "peakPrefetch": 2,
+          "cachedBytes": 294912,
+          "peakCachedBytes": 311296,
+          "archives": 6,
+          "activeArchives": 2,
+          "idleArchives": 4,
+          "liveReferences": 2,
+          "cachedChunks": 18,
+          "entries": [
+            {
+              "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+              "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+              "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+              "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+              "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 3,
+              "cachedBytes": 49152
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+              "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+              "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            }
+          ]
+        },
+        "hoverQueries": 0,
+        "reusedScenes": 1,
+        "createdLabelNodes": 29,
+        "presentationUpdates": 0,
+        "renderCallbacks": 869,
+        "lastRenderCallback": {
+          "at": 9787.700000001118,
+          "generation": 3,
+          "time": 10957
+        },
+        "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+        "view": {
+          "longitude": -110.66092514898507,
+          "latitude": 21.214264340819575,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "labelNodeCount": 0,
+        "labelNodeLimit": 64,
+        "tileCacheLimitPerSource": 64,
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 13,
+            "totalMs": 6.399999998509884,
+            "retained": 13,
+            "p95Ms": 6.099999999627471,
+            "maximumMs": 6.099999999627471
+          },
+          {
+            "stage": "research-cursor",
+            "calls": 8,
+            "totalMs": 2.800000000745058,
+            "retained": 8,
+            "p95Ms": 1.799999998882413,
+            "maximumMs": 1.799999998882413
+          },
+          {
+            "stage": "detail-time",
+            "calls": 8,
+            "totalMs": 91.39999999850988,
+            "retained": 8,
+            "p95Ms": 45.29999999888241,
+            "maximumMs": 45.29999999888241
+          },
+          {
+            "stage": "teaching",
+            "calls": 12,
+            "totalMs": 3.900000000372529,
+            "retained": 12,
+            "p95Ms": 2,
+            "maximumMs": 2
+          },
+          {
+            "stage": "ruler-update",
+            "calls": 8,
+            "totalMs": 0.10000000149011612,
+            "retained": 8,
+            "p95Ms": 0.10000000149011612,
+            "maximumMs": 0.10000000149011612
+          },
+          {
+            "stage": "presentation",
+            "calls": 8,
+            "totalMs": 0.7999999988824129,
+            "retained": 8,
+            "p95Ms": 0.599999999627471,
+            "maximumMs": 0.599999999627471
+          },
+          {
+            "stage": "cursor",
+            "calls": 8,
+            "totalMs": 107.19999999925494,
+            "retained": 8,
+            "p95Ms": 48.40000000037253,
+            "maximumMs": 48.40000000037253
+          },
+          {
+            "stage": "commit",
+            "calls": 3,
+            "totalMs": 8.199999999254942,
+            "retained": 3,
+            "p95Ms": 3.5,
+            "maximumMs": 3.5
+          }
+        ]
+      },
+      "rendererAfter": {
+        "mapInstances": 1,
+        "mapInstanceCount": 1,
+        "sourceCount": 4,
+        "sourceLimit": 7,
+        "researchSourceLimit": 1,
+        "researchOverlay": {
+          "source": true,
+          "features": 44,
+          "visible": 5
+        },
+        "historicalSourceLimit": 5,
+        "contextRasterSourceLimit": 1,
+        "detailContext": {
+          "rasterCache": 0,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 0,
+          "rasterErrors": 0,
+          "terrainZoom": null,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": true,
+          "activeCityTweens": 0,
+          "trackedCityRadii": 110,
+          "candidateProjectionBuilds": 11,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          },
+          "nativeTerrainSource": true,
+          "terrainVisible": true,
+          "terrainError": null
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "styleReload": {
+          "listeners": 1,
+          "events": 1,
+          "restorations": 1,
+          "failures": 0,
+          "pending": false
+        },
+        "reducedMotion": true,
+        "mountedSourceIds": [
+          "chronicle-detail-terrain",
+          "chronicle-epoch-2",
+          "chronicle-land",
+          "chronicle-research-hud"
+        ],
+        "mountedLayerIds": [
+          "ocean",
+          "physical-land",
+          "detail-relief",
+          "physical-coastline",
+          "chronicle-epoch-2-fill-context",
+          "chronicle-epoch-2-border-context",
+          "chronicle-epoch-2-fill-cultural",
+          "chronicle-epoch-2-border-cultural",
+          "chronicle-epoch-2-fill-political",
+          "chronicle-epoch-2-border-political",
+          "chronicle-epoch-2-hover",
+          "chronicle-epoch-2-hover-outline",
+          "chronicle-epoch-2-selection",
+          "chronicle-research-hud-polygons",
+          "chronicle-research-hud-points"
+        ],
+        "styleLoaded": true,
+        "tilesLoaded": true,
+        "activeStyleState": {
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "generation": 202,
+          "mainArchiveHash": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "supplementArchiveHash": null,
+          "selected": []
+        },
+        "readinessToken": null,
+        "webgl": {
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "vendor": "Google Inc. (NVIDIA)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "classification": "native-renderer-reported",
+          "evidence": "Renderer string read from the actual MapLibre canvas.",
+          "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+        },
+        "epochSourceGroups": 1,
+        "committedGeneration": 202,
+        "pendingGeneration": null,
+        "cameraRevision": 8,
+        "rangeRequests": 19,
+        "rangeBytes": 311296,
+        "outstandingRanges": 0,
+        "cachedChunks": 18,
+        "warmCache": {
+          "budget": {
+            "compressedBytes": 1048576,
+            "idleArchives": 4,
+            "chunksPerArchive": 8,
+            "directoryEntriesPerArchive": 16,
+            "concurrentPrefetch": 2,
+            "headerRequestBytes": 16384,
+            "maxArchiveBytes": 1000000
+          },
+          "requests": 19,
+          "bytes": 311296,
+          "aborted": 0,
+          "outstanding": 0,
+          "peakOutstanding": 4,
+          "cacheHits": 2,
+          "cacheMisses": 37,
+          "sharedReads": 18,
+          "chunkEvictions": 1,
+          "archiveEvictions": 1,
+          "warmRetains": 0,
+          "coldRetains": 3,
+          "prefetchStarted": 4,
+          "prefetchCompleted": 4,
+          "prefetchAborted": 0,
+          "prefetchFailed": 0,
+          "activePrefetch": 0,
+          "peakPrefetch": 2,
+          "cachedBytes": 294912,
+          "peakCachedBytes": 311296,
+          "archives": 6,
+          "activeArchives": 2,
+          "idleArchives": 4,
+          "liveReferences": 2,
+          "cachedChunks": 18,
+          "entries": [
+            {
+              "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+              "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+              "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+              "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+              "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 3,
+              "cachedBytes": 49152
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+              "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+              "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            }
+          ]
+        },
+        "hoverQueries": 0,
+        "reusedScenes": 200,
+        "createdLabelNodes": 29,
+        "presentationUpdates": 0,
+        "renderCallbacks": 1441,
+        "lastRenderCallback": {
+          "at": 16276.200000001118,
+          "generation": 202,
+          "time": 10957
+        },
+        "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+        "view": {
+          "longitude": -110.66092514898507,
+          "latitude": 21.214264340819575,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "labelNodeCount": 0,
+        "labelNodeLimit": 64,
+        "tileCacheLimitPerSource": 64,
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 611,
+            "totalMs": 9.799999993294477,
+            "retained": 200,
+            "p95Ms": 0,
+            "maximumMs": 0.8000000007450581
+          },
+          {
+            "stage": "research-cursor",
+            "calls": 407,
+            "totalMs": 89.90000000409782,
+            "retained": 200,
+            "p95Ms": 0.599999999627471,
+            "maximumMs": 1.8999999985098839
+          },
+          {
+            "stage": "detail-time",
+            "calls": 407,
+            "totalMs": 1139.2999999821186,
+            "retained": 200,
+            "p95Ms": 6.299999998882413,
+            "maximumMs": 8.5
+          },
+          {
+            "stage": "teaching",
+            "calls": 610,
+            "totalMs": 256.7000000104308,
+            "retained": 200,
+            "p95Ms": 1.400000000372529,
+            "maximumMs": 5.5
+          },
+          {
+            "stage": "ruler-update",
+            "calls": 407,
+            "totalMs": 3.6999999936670065,
+            "retained": 200,
+            "p95Ms": 0.09999999962747097,
+            "maximumMs": 0.10000000149011612
+          },
+          {
+            "stage": "presentation",
+            "calls": 407,
+            "totalMs": 13.799999991431832,
+            "retained": 200,
+            "p95Ms": 0.10000000149011612,
+            "maximumMs": 0.19999999925494194
+          },
+          {
+            "stage": "cursor",
+            "calls": 407,
+            "totalMs": 1547.5999999791384,
+            "retained": 200,
+            "p95Ms": 8.5,
+            "maximumMs": 13.299999998882413
+          },
+          {
+            "stage": "commit",
+            "calls": 202,
+            "totalMs": 408.8000000026077,
+            "retained": 200,
+            "p95Ms": 2.699999999254942,
+            "maximumMs": 3.400000000372529
+          }
+        ]
+      },
+      "failures": []
+    }
+  },
+  "performanceInterpretation": "The dual-track sprint requires selection <=50 ms and combined selection plus host-year <=100 ms. Endpoints and 200 samples per phase are unchanged from M1; either miss remains an aggregate FAIL.",
+  "preparedExecutions": [
+    {
+      "example": "mexico-four",
+      "path": "first prepared execution including local dataset load",
+      "elapsedMs": 118.59999999962747,
+      "success": true
+    },
+    {
+      "example": "mexico-four",
+      "path": "loaded prepared execution",
+      "elapsedMs": 25.600000001490116,
+      "success": true
+    },
+    {
+      "example": "mexico-four",
+      "path": "loaded prepared execution",
+      "elapsedMs": 32.59999999962747,
+      "success": true
+    },
+    {
+      "example": "mexico-four",
+      "path": "loaded prepared execution",
+      "elapsedMs": 25.09999999962747,
+      "success": true
+    },
+    {
+      "example": "mexico-four",
+      "path": "loaded prepared execution",
+      "elapsedMs": 25.600000001490116,
+      "success": true
+    }
+  ],
+  "warmNetworkResources": [
+    {
+      "name": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+      "initiatorType": "fetch",
+      "classification": "atlas-map-context"
+    },
+    {
+      "name": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+      "initiatorType": "fetch",
+      "classification": "atlas-map-context"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    },
+    {
+      "name": "http://127.0.0.1:60529/compass.svg",
+      "initiatorType": "other",
+      "classification": "other"
+    }
+  ],
+  "cycles": [
+    {
+      "cycle": 1,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 2,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 3,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 4,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 5,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 6,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 7,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 8,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 9,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 10,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 11,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 12,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 13,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 14,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 15,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 16,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 17,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 18,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 19,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 20,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 61,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    }
+  ],
+  "mountDisposeCycles": [
+    {
+      "cycle": 1,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 2,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 3,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 4,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 5,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 6,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 7,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 8,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 9,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 10,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 11,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 12,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 13,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 14,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 15,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 16,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 17,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 18,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 19,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 20,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 38,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0,
+          "mechanisms": {
+            "registered": false,
+            "loads": 0
+          }
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    }
+  ],
+  "resources": {
+    "before": {
+      "domListeners": 61,
+      "observers": 1,
+      "subscriptions": 1
+    },
+    "after": {
+      "domListeners": 61,
+      "observers": 1,
+      "subscriptions": 1
+    },
+    "overlayNodes": 1,
+    "markerNodes": 3
+  },
+  "hostSurface": {
+    "sameCanvasObject": true,
+    "beforeCanvasCount": 2,
+    "afterCanvasCount": 2
+  },
+  "controllerBefore": {
+    "listeners": 1,
+    "commits": 10,
+    "revision": 11,
+    "pending": false,
+    "disposed": false,
+    "datasets": 2,
+    "results": 0,
+    "mechanisms": {
+      "registered": false,
+      "loads": 0
+    }
+  },
+  "controllerAfter": {
+    "listeners": 1,
+    "commits": 31,
+    "revision": 52,
+    "pending": false,
+    "disposed": false,
+    "datasets": 2,
+    "results": 0,
+    "mechanisms": {
+      "registered": false,
+      "loads": 0
+    }
+  },
+  "after": {
+    "mapInstances": 1,
+    "mapInstanceCount": 1,
+    "sourceCount": 4,
+    "sourceLimit": 7,
+    "researchSourceLimit": 1,
+    "researchOverlay": {
+      "source": true,
+      "features": 44,
+      "visible": 1
+    },
+    "historicalSourceLimit": 5,
+    "contextRasterSourceLimit": 1,
+    "detailContext": {
+      "rasterCache": 0,
+      "rasterPending": 0,
+      "rasterTilesDrawn": 0,
+      "rasterErrors": 0,
+      "terrainZoom": null,
+      "waterPaths": 2596,
+      "visibleCityLabels": 4,
+      "selectedPointVisible": false,
+      "populationYear": null,
+      "reducedMotion": true,
+      "activeCityTweens": 0,
+      "trackedCityRadii": 30,
+      "candidateProjectionBuilds": 12,
+      "limits": {
+        "rasterTiles": 48,
+        "rasterRequests": 4,
+        "cityLabels": 80,
+        "populationCells": 20000,
+        "jsonBytes": 16777216
+      },
+      "nativeTerrainSource": true,
+      "terrainVisible": true,
+      "terrainError": null
+    },
+    "teaching": {
+      "activeFeatures": 0,
+      "drawnFeatures": 0,
+      "rejectedFeatures": 0,
+      "vertices": 0,
+      "selectedId": null,
+      "selectedLabelVisible": false,
+      "categories": {
+        "trade": 0,
+        "diffusion": 0,
+        "power": 0,
+        "ecology": 0,
+        "belief": 0,
+        "language": 0
+      },
+      "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+    },
+    "interpretiveBorders": true,
+    "styleReload": {
+      "listeners": 1,
+      "events": 1,
+      "restorations": 1,
+      "failures": 0,
+      "pending": false
+    },
+    "reducedMotion": true,
+    "mountedSourceIds": [
+      "chronicle-detail-terrain",
+      "chronicle-epoch-3",
+      "chronicle-land",
+      "chronicle-research-hud"
+    ],
+    "mountedLayerIds": [
+      "ocean",
+      "physical-land",
+      "detail-relief",
+      "physical-coastline",
+      "chronicle-epoch-3-fill-context",
+      "chronicle-epoch-3-border-context",
+      "chronicle-epoch-3-fill-cultural",
+      "chronicle-epoch-3-border-cultural",
+      "chronicle-epoch-3-fill-political",
+      "chronicle-epoch-3-border-political",
+      "chronicle-epoch-3-hover",
+      "chronicle-epoch-3-hover-outline",
+      "chronicle-epoch-3-selection",
+      "chronicle-research-hud-polygons",
+      "chronicle-research-hud-points"
+    ],
+    "styleLoaded": true,
+    "tilesLoaded": true,
+    "activeStyleState": {
+      "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+      "generation": 203,
+      "mainArchiveHash": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+      "supplementArchiveHash": null,
+      "selected": []
+    },
+    "readinessToken": null,
+    "webgl": {
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "classification": "native-renderer-reported",
+      "evidence": "Renderer string read from the actual MapLibre canvas.",
+      "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+    },
+    "epochSourceGroups": 1,
+    "committedGeneration": 203,
+    "pendingGeneration": null,
+    "cameraRevision": 8,
+    "rangeRequests": 19,
+    "rangeBytes": 311296,
+    "outstandingRanges": 0,
+    "cachedChunks": 18,
+    "warmCache": {
+      "budget": {
+        "compressedBytes": 1048576,
+        "idleArchives": 4,
+        "chunksPerArchive": 8,
+        "directoryEntriesPerArchive": 16,
+        "concurrentPrefetch": 2,
+        "headerRequestBytes": 16384,
+        "maxArchiveBytes": 1000000
+      },
+      "requests": 19,
+      "bytes": 311296,
+      "aborted": 0,
+      "outstanding": 0,
+      "peakOutstanding": 4,
+      "cacheHits": 7,
+      "cacheMisses": 37,
+      "sharedReads": 18,
+      "chunkEvictions": 1,
+      "archiveEvictions": 1,
+      "warmRetains": 1,
+      "coldRetains": 3,
+      "prefetchStarted": 4,
+      "prefetchCompleted": 4,
+      "prefetchAborted": 0,
+      "prefetchFailed": 0,
+      "activePrefetch": 0,
+      "peakPrefetch": 2,
+      "cachedBytes": 294912,
+      "peakCachedBytes": 311296,
+      "archives": 6,
+      "activeArchives": 2,
+      "idleArchives": 4,
+      "liveReferences": 2,
+      "cachedChunks": 18,
+      "entries": [
+        {
+          "url": "http://127.0.0.1:60529/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+          "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+          "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+          "refs": 1,
+          "prefetch": 0,
+          "cachedChunks": 6,
+          "cachedBytes": 98304
+        },
+        {
+          "url": "http://127.0.0.1:60529/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+          "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+          "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+          "refs": 1,
+          "prefetch": 0,
+          "cachedChunks": 6,
+          "cachedBytes": 98304
+        },
+        {
+          "url": "http://127.0.0.1:60529/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+          "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        },
+        {
+          "url": "http://127.0.0.1:60529/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 3,
+          "cachedBytes": 49152
+        },
+        {
+          "url": "http://127.0.0.1:60529/global-history/observations/world_1994/geometry.434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827.pmtiles",
+          "edition": "global-history-world_1994-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "434adc5e8c36b1ffcdcd72fc62075bc7ced87986cf8b85408e2e11a7591d7827",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        },
+        {
+          "url": "http://127.0.0.1:60529/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+          "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        }
+      ]
+    },
+    "hoverQueries": 0,
+    "reusedScenes": 200,
+    "createdLabelNodes": 34,
+    "presentationUpdates": 0,
+    "renderCallbacks": 1491,
+    "lastRenderCallback": {
+      "at": 17323.099999999627,
+      "generation": 203,
+      "time": -463858
+    },
+    "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+    "view": {
+      "longitude": -110.66092514898507,
+      "latitude": 21.214264340819575,
+      "zoom": 4.2,
+      "moving": false
+    },
+    "labelNodeCount": 2,
+    "labelNodeLimit": 64,
+    "tileCacheLimitPerSource": 64,
+    "hostWork": [
+      {
+        "stage": "card",
+        "calls": 614,
+        "totalMs": 9.799999993294477,
+        "retained": 200,
+        "p95Ms": 0,
+        "maximumMs": 0.09999999962747097
+      },
+      {
+        "stage": "research-cursor",
+        "calls": 409,
+        "totalMs": 90.70000000484288,
+        "retained": 200,
+        "p95Ms": 0.599999999627471,
+        "maximumMs": 1.8999999985098839
+      },
+      {
+        "stage": "detail-time",
+        "calls": 409,
+        "totalMs": 1157.899999981746,
+        "retained": 200,
+        "p95Ms": 6.300000000745058,
+        "maximumMs": 18.59999999962747
+      },
+      {
+        "stage": "teaching",
+        "calls": 613,
+        "totalMs": 258.2000000104308,
+        "retained": 200,
+        "p95Ms": 1.5,
+        "maximumMs": 5.5
+      },
+      {
+        "stage": "ruler-update",
+        "calls": 409,
+        "totalMs": 3.6999999936670065,
+        "retained": 200,
+        "p95Ms": 0.09999999962747097,
+        "maximumMs": 0.10000000149011612
+      },
+      {
+        "stage": "presentation",
+        "calls": 409,
+        "totalMs": 14.09999999217689,
+        "retained": 200,
+        "p95Ms": 0.10000000149011612,
+        "maximumMs": 0.30000000074505806
+      },
+      {
+        "stage": "cursor",
+        "calls": 409,
+        "totalMs": 1570.1999999787658,
+        "retained": 200,
+        "p95Ms": 8.600000001490116,
+        "maximumMs": 22.40000000037253
+      },
+      {
+        "stage": "commit",
+        "calls": 203,
+        "totalMs": 411.0000000037253,
+        "retained": 200,
+        "p95Ms": 2.699999999254942,
+        "maximumMs": 3.400000000372529
+      }
+    ]
+  },
+  "failures": [],
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "france-1700",
+  "entity_id": "isles:political:7a1ca4ef7515f7276bae",
+  "title": "Kingdom of France",
+  "lead": {
+    "label": "Overview",
+    "text": "France in 1700 was governed under Louis XIV’s personal monarchy. The court and central government were based at Versailles, while royal officers carried the crown’s authority into the provinces.",
+    "source_ids": [
+      "louis",
+      "court"
+    ],
+    "scope": "1700"
+  },
+  "organization": [
+    {
+      "label": "Entity type",
+      "text": "Kingdom under Louis XIV, King of France and Navarre.",
+      "source_ids": [
+        "louis"
+      ],
+      "scope": "1700"
+    },
+    {
+      "label": "Government",
+      "text": "Personal royal government without a first minister; the king reserved the final decision.",
+      "source_ids": [
+        "court",
+        "councils"
+      ],
+      "scope": "Mature reign of Louis XIV; applies in 1700"
+    },
+    {
+      "label": "Institutions",
+      "text": "Specialized royal councils addressed state affairs, finances, religion and domestic administration. Ministers advised the king.",
+      "source_ids": [
+        "councils"
+      ],
+      "scope": "Mature reign; no day-specific council session claimed"
+    },
+    {
+      "label": "Seat / capital",
+      "text": "Versailles: royal court and center of government; the court had moved there in 1682.",
+      "source_ids": [
+        "louis",
+        "court"
+      ],
+      "scope": "1682–1715 context"
+    },
+    {
+      "label": "Administrative relationships",
+      "text": "Intendants served as royal officers in the provinces, connecting central authority with provincial administration.",
+      "source_ids": [
+        "court"
+      ],
+      "scope": "Louis XIV’s personal reign"
+    }
+  ],
+  "changes": [
+    {
+      "label": "1661",
+      "text": "After Mazarin’s death, Louis announced that he would govern without a first minister.",
+      "source_ids": [
+        "court"
+      ],
+      "scope": "1661; documented antecedent"
+    },
+    {
+      "label": "1682",
+      "text": "The royal court moved to Versailles, consolidating a central setting for government and court life.",
+      "source_ids": [
+        "louis"
+      ],
+      "scope": "1682; documented antecedent"
+    }
+  ],
+  "population": {
+    "label": "Population",
+    "text": "No population observation is admitted for France at this date. The displayed cross-channel portion is not the whole kingdom.",
+    "source_ids": [],
+    "scope": "1700; missing"
+  },
+  "overview": [
+    {
+      "label": "Authority at court",
+      "text": "Louis XIV’s absolutist claim placed the sovereign at the center of government. His councils and ministers handled distinct areas of business, but the monarch retained the final decision. This short account describes the organization of the reign, rather than every local practice in 1700.",
+      "source_ids": [
+        "louis",
+        "councils"
+      ],
+      "scope": "1700 with reign-wide institutional context"
+    },
+    {
+      "label": "Center and provinces",
+      "text": "The court at Versailles was a political institution as well as a residence. Provincial intendants provided a link with central royal government. The map’s retained regional slice should not be mistaken for a full administrative map of the kingdom.",
+      "source_ids": [
+        "court"
+      ],
+      "scope": "1700; regional map limitation"
+    }
+  ],
+  "sources": [
+    {
+      "id": "louis",
+      "title": "Louis XIV",
+      "publisher": "Château de Versailles",
+      "url": "https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv",
+      "verified_at": "2026-09-23",
+      "scope": "Reign overview, not an annual reconstruction; source page heading conflates lifespan with reign and is not reused.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "court",
+      "title": "Versailles and the Royal Court",
+      "publisher": "Château de Versailles",
+      "url": "https://en.chateauversailles.fr/discover/resources/versailles-and-royal-court",
+      "verified_at": "2026-09-23",
+      "scope": "Institutional overview of Louis XIV’s personal government and provincial officers.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "councils",
+      "title": "A day in the life of Louis XIV",
+      "publisher": "Château de Versailles",
+      "url": "https://en.chateauversailles.fr/discover/history/key-dates/day-life-louis-xiv",
+      "verified_at": "2026-09-23",
+      "scope": "General account of Louis XIV’s mature court routines, not a diary of 1700.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    }
+  ],
+  "article_source_id": "louis",
+  "schema_version": 1,
+  "edition": "chronicle-dossiers-20260923-v1",
+  "recorded_at": "2026-09-23T00:00:00Z",
+  "t_start": -98615,
+  "t_end": -98250,
+  "observation_time": -98615,
+  "date_label": "1700 CE",
+  "date_precision": "year",
+  "historical_scope": "Organization selected for the nominal observation year; articles may discuss broader periods. This dossier does not extend geometry validity.",
+  "representation": "Source-attributed map association; dossier organization researched separately.",
+  "map_binding": {
+    "edition": "isles-alpha-da7a4b7-display-v1",
+    "epoch_id": "isles-1700",
+    "assertion_ids": [
+      "claim:9614b3a055a6efd3af3ab0764001f15fb55e6b18dc1036af368625692d31a9f3"
+    ]
+  }
+}

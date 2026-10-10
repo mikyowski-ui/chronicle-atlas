@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "meaning": "PASS means inventory comparison completed, not approval of every source change",
+  "repositoryRoot": "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source",
+  "baselinePath": "apps/explorer/verification/dual-track/start-source-inventory.json",
+  "baselineInventorySha256": "b5aea8f72fd773dc93c192ae408c23772659f48093cddc01a0295a85dee46daf",
+  "baselineSource": "immutable M1 delivery Source.zip",
+  "baselineArchiveSha256": "0af64bb1223623e77255ce7492278ea90fba98b3c9a70b48a0b8283bbdabaa48",
+  "exclusions": {
+    "directoryNamesAtAnyDepth": [
+      ".git",
+      ".sites-runtime",
+      "__pycache__",
+      "dist",
+      "node_modules"
+    ],
+    "subtree": "apps/explorer/verification/dual-track"
+  },
+  "baselineFileCount": 2497,
+  "baselineExcludedCount": 0,
+  "currentFileCount": 2559,
+  "unchangedCount": 2477,
+  "deletedCount": 0,
+  "modifiedCount": 20,
+  "newCount": 62,
+  "currentInventorySha256": "bc08e81329c360a77e494bd0cd1aadd3bb9f9ced3ad8f3a976ed0e6c01bc675c",
+  "inventoryHashConvention": "Sorted path, NUL, kind, NUL, SHA-256, newline; UTF-8",
+  "deleted": [],
+  "modified": [
+    {
+      "path": "README.md",
+      "beforeSha256": "250bf3d1f8c0e93093716b40a3bae4b8f64f0edce76e88aaec5c5f8aab175951",
+      "after": {
+        "kind": "file",
+        "bytes": 4013,
+        "sha256": "ad0e19c6e7ec4db6f0e85ebe3e725373b5146ab71c2f93d922b995eceffcbd26"
+      }
+    },
+    {
+      "path": "SESSION.md",
+      "beforeSha256": "54eab1591d3d3dd9d6ab3a3922f6bb17e17f785a714b5dd30768f403a36fc5b9",
+      "after": {
+        "kind": "file",
+        "bytes": 2136,
+        "sha256": "8b967d4dae49d84e82ee204a4c097f973b2bf77365758f0be71c5a4c39b503a8"
+      }
+    },
+    {
+      "path": "apps/explorer/README.md",
+      "beforeSha256": "560a34a1538dc1be5f081d95bbf7a1a72675047e544473299386e7bf25dc6848",
+      "after": {
+        "kind": "file",
+        "bytes": 5349,
+        "sha256": "d16fe7541b7af95194f486df87179f948d8884ece1d71bbe246209243b944213"
+      }
+    },
+    {
+      "path": "apps/explorer/THIRD_PARTY_NOTICES.txt",
+      "beforeSha256": "bbff7669cf2b2482ca4cb412c239d40f9a214c21d666876ac21c57fca992c9a2",
+      "after": {
+        "kind": "file",
+        "bytes": 89090,
+        "sha256": "b07bdbf571302f18096072389fb510a9c1f0fa6126e04d5f909d7f866aaf4c54"
+      }
+    },
+    {
+      "path": "apps/explorer/research-review.html",
+      "beforeSha256": "76a7230229ada5f040f5f932e797e64684859097553f9caa3c1c5b467a27b762",
+      "after": {
+        "kind": "file",
+        "bytes": 1601,
+        "sha256": "e28771e9c7f47431c375d7a1bf97010191a1ec94cdc2969b456c0774d71d147e"
+      }
+    },
+    {
+      "path": "apps/explorer/src/canvas-map.ts",
+      "beforeSha256": "be740e8fd825eafff9f96fb15ca9d8817aff0500c14e1c916489596c91425e0d",
+      "after": {
+        "kind": "file",
+        "bytes": 33804,
+        "sha256": "842360059a0a26f29b855d62c670f668844ebca911cfcf05c60895e2aa1cae9c"
+      }
+    },
+    {
+      "path": "apps/explorer/src/detail-canvas.ts",
+      "beforeSha256": "8b518a4f7380196e5f58b8e8b8f566e3b55dc799c7509e0ed9c2eb7c769f6ef2",
+      "after": {
+        "kind": "file",
+        "bytes": 20392,
+        "sha256": "14d8328f94cc2aa5652c338e7de8e0bfaf70c9a4823d9afb95b8e1ee6fa8258f"
+      }
+    },
+    {
+      "path": "apps/explorer/src/detail-manager.ts",
+      "beforeSha256": "cbc52d2db63e9f8d47d1ed47148054f0b4b7898c24c6f514ea512ae67394fcfe",
+      "after": {
+        "kind": "file",
+        "bytes": 16155,
+        "sha256": "c79addfbaf74c308d8dfdd65d69e81071afef17c316b99eba93da25bff688126"
+      }
+    },
+    {
+      "path": "apps/explorer/src/gl-map.ts",
+      "beforeSha256": "b2034f4a31614ea5ead97b764b3c7e4ff13ff03aa32151384e292329fb8df2a4",
+      "after": {
+        "kind": "file",
+        "bytes": 48884,
+        "sha256": "64326a078b5a67371f4fe32a22d18aa3e057b46657254ab0a04641b3a5028f5f"
+      }
+    },
+    {
+      "path": "apps/explorer/src/glass-shell.css",
+      "beforeSha256": "e532a1c6439efecfaa76ff82f4196004df8807458af5c388e1102b788a873eab",
+      "after": {
+        "kind": "file",
+        "bytes": 15855,
+        "sha256": "9c3a79e4799a21ec87cdbb08aa2de8f7bf345f82dcc06e2aae49b2620b1fde54"
+      }
+    },
+    {
+      "path": "apps/explorer/src/history-ruler.css",
+      "beforeSha256": "409ed95934a27b6286e42a8bbae6faa016fac58d19a4bcf49910cf5a50c010e8",
+      "after": {
+        "kind": "file",
+        "bytes": 10867,
+        "sha256": "293e69664b01f63c788c259a354a41b8e66a5331a5ff4facec4b18fadd546540"
+      }
+    },
+    {
+      "path": "apps/explorer/src/history-ruler.ts",
+      "beforeSha256": "ce10ff2751c5f4ac23e1a246f28a11af4c8abdf1cff7aa94774baf21b145fc3c",
+      "after": {
+        "kind": "file",
+        "bytes": 33546,
+        "sha256": "1e430bd6693be9f091cf2d60755fa0e823dbcab1873e7773b808851f04059d81"
+      }
+    },
+    {
+      "path": "apps/explorer/src/main.ts",
+      "beforeSha256": "62d693466a090efb5a3e2e4f990bc3be822d98d12eb755f25be966ebc6e8e695",
+      "after": {
+        "kind": "file",
+        "bytes": 89637,
+        "sha256": "b841a471a66fa92766a0d0d977ba4cbb1b065bbd32d9fbe003dd8705e6ac7baf"
+      }
+    },
+    {
+      "path": "apps/explorer/src/research/research.css",
+      "beforeSha256": "bfc8ab928ae82a496cd49e74e9d77e83b549e4e32eb2f1db4a888f044dcebeff",
+      "after": {
+        "kind": "file",
+        "bytes": 11309,
+        "sha256": "ca50b34d71ae5f2c73272804b53b197e7bafc01001ed02eda66016dd048b6c3c"
+      }
+    },
+    {
+      "path": "apps/explorer/src/research/view.ts",
+      "beforeSha256": "c05c1e3a5d50aa00b8c946cd6fa0cb24b415d0b4abc4163ce2cfa3f525365795",
+      "after": {
+        "kind": "file",
+        "bytes": 48637,
+        "sha256": "6068fb142ef4157f5a51aca091aa22cc9c453352a7187dd564b87a840aff6122"
+      }
+    },
+    {
+      "path": "apps/explorer/src/style.css",
+      "beforeSha256": "29a10bcf7c84d25091b4bb3dfe6f07fbd22b6e82eb76fdee09de72cae85e7004",
+      "after": {
+        "kind": "file",
+        "bytes": 31482,
+        "sha256": "3d3818d48eab39adb53352deb016ea5f63b270bfefac1ddefce82ca0773391f9"
+      }
+    },
+    {
+      "path": "apps/explorer/tests/canvas-geometry.test.ts",
+      "beforeSha256": "b471d58fc69899bfff06ebdbbf8d2df13a3fbdc1529aa4c59ff65cf1901cdcef",
+      "after": {
+        "kind": "file",
+        "bytes": 4493,
+        "sha256": "a28927242a00a6427b8db8ddec91276905800d9ef380dae06f660b4774c49446"
+      }
+    },
+    {
+      "path": "apps/explorer/tests/detail-canvas.test.ts",
+      "beforeSha256": "c4ae2841b6ebccc78228c4dd5d21df8662f4c4b86e9872535431da0e46db228e",
+      "after": {
+        "kind": "file",
+        "bytes": 14098,
+        "sha256": "69fe040a758fb406249e09f9b287b380ba26c23bef7efc2fcb0d9f3f2c317741"
+      }
+    },
+    {
+      "path": "apps/explorer/tests/detail-manager.test.ts",
+      "beforeSha256": "441d8232ceddb1569075e462e180b617af598f0bcf0fe6e0aa1432e75ec9e364",
+      "after": {
+        "kind": "file",
+        "bytes": 14911,
+        "sha256": "c4fd63074976b1a085b4d7d074eb274a53da7434d632abd2e1aec3804011812b"
+      }
+    },
+    {
+      "path": "apps/explorer/vite.config.ts",
+      "beforeSha256": "437399bfde8659dccbc8d678ae5a43d8df8efe537ec4f6aeb877bc2f79ec02c8",
+      "after": {
+        "kind": "file",
+        "bytes": 4524,
+        "sha256": "d2ad37fba8256fcf1604556a1eaa7ebfe5f6b55fe66910c10b35bbdf7ccbb7cf"
+      }
+    }
+  ],
+  "new": [
+    {
+      "path": "apps/explorer/research-semantic/catalogue.ts",
+      "kind": "file",
+      "bytes": 16118,
+      "sha256": "e1ded406ed517a8fee974b43f8578813faab8ee5bd366e906655bfc808d4b3ae"
+    },
+    {
+      "path": "apps/explorer/research-semantic/contracts.ts",
+      "kind": "file",
+      "bytes": 11061,
+      "sha256": "bb5da4f7764b5b83e257968bfae8315e490e4992aa3178e8d00756b5607b76f3"
+    },
+    {
+      "path": "apps/explorer/research-semantic/package.json",
+      "kind": "file",
+      "bytes": 282,
+      "sha256": "02fa783cc2558923a880b2aec450cfdc78cdc07cd3e42dbb44772d9a1115ed8d"
+    },
+    {
+      "path": "apps/explorer/research-semantic/pnpm-lock.yaml",
+      "kind": "file",
+      "bytes": 367,
+      "sha256": "426cc332ddca62198366877912a8c81a9dfaa94fa33618f226afbe6dcdc18550"
+    },
+    {
+      "path": "apps/explorer/research-semantic/pnpm-workspace.yaml",
+      "kind": "file",
+      "bytes": 446,
+      "sha256": "f3bd9d278ca4ed7c216cb8fe14cf7f6b7332bb138b03d5c7991bc096df9f4665"
+    },
+    {
+      "path": "apps/explorer/research-semantic/premodern-pilot.json",
+      "kind": "file",
+      "bytes": 27528,
+      "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+    },
+    {
+      "path": "apps/explorer/research-semantic/revisions.ts",
+      "kind": "file",
+      "bytes": 4210,
+      "sha256": "812218b836cc49e3e90cf7671e4faee396f78d89c3c3037adcbfc14be5c2e1c1"
+    },
+    {
+      "path": "apps/explorer/scripts/build-premodern-pilot.py",
+      "kind": "file",
+      "bytes": 10590,
+      "sha256": "97128b1d40379171664e11a13f57330cee65cdc4840ee563eefc33fd72337a98"
+    },
+    {
+      "path": "apps/explorer/scripts/verify-dual-track.py",
+      "kind": "file",
+      "bytes": 8973,
+      "sha256": "2a568fbe64297da1e99ecab60da07bbade8372ea95155f85189732f777108744"
+    },
+    {
+      "path": "apps/explorer/scripts/verify-final-review.py",
+      "kind": "file",
+      "bytes": 3853,
+      "sha256": "81a662a8fd7916b45665c04df97608afb48b1f294922a3709c41c2822f8d2d8c"
+    },
+    {
+      "path": "apps/explorer/scripts/verify-local-followups.py",
+      "kind": "file",
+      "bytes": 1724,
+      "sha256": "af0d3dfce4384a7f0c03f16964c8f690cbae87f8993169cd303d477b32477f17"
+    },
+    {
+      "path": "apps/explorer/src/host-work-profile.ts",
+      "kind": "file",
+      "bytes": 1175,
+      "sha256": "403bab5b33d376489fdd14e145eda9caa961d1875194ef0b8e74c982b18047fe"
+    },
+    {
+      "path": "apps/explorer/src/local-verification.ts",
+      "kind": "file",
+      "bytes": 11731,
+      "sha256": "879aedc749331ae8be951d87615d871e1c8d9a7a7420e3855e38fbb1e91b69d9"
+    },
+    {
+      "path": "apps/explorer/src/reduced-motion.ts",
+      "kind": "file",
+      "bytes": 1896,
+      "sha256": "d7bf23ee653eb5dea83f84fddf521f9ba32ac38f58736c7e16a6d2553cfc2e63"
+    },
+    {
+      "path": "apps/explorer/src/research/semantic-view.css",
+      "kind": "file",
+      "bytes": 3484,
+      "sha256": "30d5c6ba60bfda0977ce28767b9091e288cf880aa133bb81056011f9d22685ac"
+    },
+    {
+      "path": "apps/explorer/src/research/semantic-view.ts",
+      "kind": "file",
+      "bytes": 16442,
+      "sha256": "87dbb2317476a9c697cbf57c5f992f1ebe5f8df3e382023a9e98f0c3bb87510a"
+    },
+    {
+      "path": "apps/explorer/src/style-reload-lifecycle.ts",
+      "kind": "file",
+      "bytes": 2885,
+      "sha256": "7c98bc223fda076f08553935d9bd7aece0e2500196f443f830b01cdb70e2c701"
+    },
+    {
+      "path": "apps/explorer/tests/canvas-reconciliation.test.ts",
+      "kind": "file",
+      "bytes": 3972,
+      "sha256": "e54d3884bca7e37472ae38fbd6f5534cb7e250829bf9669e7198aa8e8125e6d9"
+    },
+    {
+      "path": "apps/explorer/tests/environment-lifecycle.test.ts",
+      "kind": "file",
+      "bytes": 8168,
+      "sha256": "7f15bd1ef9de188e4e54cfd3418560f3e5dd86bb94721c6ae7c6f61efc5d27e0"
+    },
+    {
+      "path": "apps/explorer/tests/local-verification.test.ts",
+      "kind": "file",
+      "bytes": 1013,
+      "sha256": "24adc81837907459122e8230be2d30b4e678552628cf747911c45a4e5958d4a1"
+    },
+    {
+      "path": "apps/explorer/tests/semantic-contracts.test.ts",
+      "kind": "file",
+      "bytes": 18843,
+      "sha256": "513110975bf27ff20d3b56a1f64b7e409e7e48f833d7342ccd424e62e7f5bc0b"
+    },
+    {
+      "path": "apps/explorer/tests/semantic-revisions.test.ts",
+      "kind": "file",
+      "bytes": 5395,
+      "sha256": "111ca558a439a2d7061c1f282195ce53621cdecdb1d8dd840e19b3656d930fe6"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/build-final.log",
+      "kind": "file",
+      "bytes": 1391,
+      "sha256": "b59c6089e056b68b4f42a72c86e68f95b15cac4b9d23db8caf61740b25869075"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/build.log",
+      "kind": "file",
+      "bytes": 1330,
+      "sha256": "26e2ca0007a6b5d6a3c3d74b9ae475d2ef358fdec1b8436fff03260d343304fa"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/desktop.jpg",
+      "kind": "file",
+      "bytes": 154415,
+      "sha256": "c3ce77adfca89455ddfb7466b4d8b6dba9ec02dc302673d9403631006d58cc01"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/latency.json",
+      "kind": "file",
+      "bytes": 89482,
+      "sha256": "5b96f8ca5c68735b45d84fbd30d82b060672106715e12b89e5259654b0341b77"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/narrow-375.jpg",
+      "kind": "file",
+      "bytes": 93666,
+      "sha256": "0bd1ad448eee38c28591d567cd676777943590c701b6e9edfc3293a6d4da5594"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/premodern-lineage.log",
+      "kind": "file",
+      "bytes": 222,
+      "sha256": "4f253be2c8a69fae86fb777a91a76525ffd9b00d19e78b8094d48f1180de101e"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/premodern.jpg",
+      "kind": "file",
+      "bytes": 175467,
+      "sha256": "2f44414f31fb4e9b68e43fbb5798274dad459b44941add98463f408f14181297"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/production-server.json",
+      "kind": "file",
+      "bytes": 1818,
+      "sha256": "84eab9e2a7732bce618bf5428c1d30ccf84954758f35eb63a8069ecff41bcad1"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/protected.json",
+      "kind": "file",
+      "bytes": 59,
+      "sha256": "ae33771e52c7c675df5f9cf53a2d5330a23aa249546e7974d560c3ca286954d9"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/research-lineage.log",
+      "kind": "file",
+      "bytes": 165,
+      "sha256": "63b2cf9c864bd39019879740a9eb534dc2d33b3e84f8a8a81f4b8ad3b96378d8"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/scrub.json",
+      "kind": "file",
+      "bytes": 47231,
+      "sha256": "bcde4831bf61c4ac4ff68a4ffcca535e85e86ee8a5978f6d4d837a68ef11dc93"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/source-build-match-initial.json",
+      "kind": "file",
+      "bytes": 264,
+      "sha256": "2b751228b6be68a3082c8b77f6767d241dc98dc378383df49982658c53adfbbf"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/source-build-match.json",
+      "kind": "file",
+      "bytes": 232,
+      "sha256": "c8dfc3afdbe4830ffa6aa2b9f8c800fe2e0006134a63d81141a2c51f78262ab1"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/style-reload.json",
+      "kind": "file",
+      "bytes": 722,
+      "sha256": "be6e1e1d71cc8affda3224c024109794bc2df0f68f1fc7ab0a761b41db1b1ecf"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/tests-final.log",
+      "kind": "file",
+      "bytes": 37382,
+      "sha256": "5e12eff944823c8dd85b9e90d2dd25debc1f0f453d8ea3b22497b4f9aca0b952"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/tests.log",
+      "kind": "file",
+      "bytes": 37385,
+      "sha256": "978c4f726f65b0838f30e1a454370f5f10235bed2b9a9b0e50db6f25210ada3e"
+    },
+    {
+      "path": "apps/explorer/verification/final-review/visual-checks.json",
+      "kind": "file",
+      "bytes": 3116,
+      "sha256": "3a4200e70063afb609a04d4e32363497267113fcce68db976523eb1376d3d86b"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/baseline-tests.log",
+      "kind": "file",
+      "bytes": 36784,
+      "sha256": "9ef3c99b85b5404c2ab50afe0c8943c6a9c245e71c4f745bb390a1a8b7856673"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/build.log",
+      "kind": "file",
+      "bytes": 1160,
+      "sha256": "e53b46a26db7bf2c51d55cbf193a637f1e6a34c6f75361f939c17ada7d860ab5"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/modern-lineage.log",
+      "kind": "file",
+      "bytes": 165,
+      "sha256": "63b2cf9c864bd39019879740a9eb534dc2d33b3e84f8a8a81f4b8ad3b96378d8"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/premodern-lineage.log",
+      "kind": "file",
+      "bytes": 222,
+      "sha256": "4f253be2c8a69fae86fb777a91a76525ffd9b00d19e78b8094d48f1180de101e"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/production-server.json",
+      "kind": "file",
+      "bytes": 1043,
+      "sha256": "8b1e0df1a2d75b54b33d613bb3efc39faaa53c12ece58dcbd83fa0267ac3a31f"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/protected.json",
+      "kind": "file",
+      "bytes": 58,
+      "sha256": "aba8c9b6d2f5face318aff81149840ab5c33c667b909627d06f15765bdd95637"
+    },
+    {
+      "path": "apps/explorer/verification/local-followups/tests.log",
+      "kind": "file",
+      "bytes": 37369,
+      "sha256": "9d11c86dbb8ea82fd4afd5e58f5844698bbd2564924c197ec5232d1a8c69684a"
+    },
+    {
+      "path": "apps/explorer/verification/research-semantic/premodern-check.log",
+      "kind": "file",
+      "bytes": 222,
+      "sha256": "4f253be2c8a69fae86fb777a91a76525ffd9b00d19e78b8094d48f1180de101e"
+    },
+    {
+      "path": "apps/explorer/verification/research-semantic/premodern-source-audit.json",
+      "kind": "file",
+      "bytes": 13350,
+      "sha256": "11e593e0576b09f7bf7f030b60d284cae799353cc8a2e7610f2bfcbcf2429010"
+    },
+    {
+      "path": "apps/explorer/verification/research-semantic/semantic-acceptance.json",
+      "kind": "file",
+      "bytes": 4974,
+      "sha256": "ac01f7c45ae11d72d5d89ab2d2bedbb1be602ffe6887d90320f958ce9591986c"
+    },
+    {
+      "path": "apps/explorer/verification/research-semantic/semantic-tests.log",
+      "kind": "file",
+      "bytes": 2536,
+      "sha256": "8b67f54bef568f69dffe1606a8bc3593c21baa4747afcc36da035a0a113a8453"
+    },
+    {
+      "path": "apps/explorer/verification/research-semantic/semantic-typecheck.log",
+      "kind": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "apps/explorer/verification/research-workspace/environment-tests.log",
+      "kind": "file",
+      "bytes": 1597,
+      "sha256": "109352c740a6ab86d4b7726df8583ed104b84c02c3e59120620a1aef1c8ad127"
+    },
+    {
+      "path": "docs/research-workspace/DUAL-TRACK-ACCEPTANCE.md",
+      "kind": "file",
+      "bytes": 9666,
+      "sha256": "acb4e083a72fdea7fda94a44387b5999356630aeaae08bdf04f7f9b5fd65bce8"
+    },
+    {
+      "path": "docs/research-workspace/DUAL_TRACK_EXECUTION_PROMPT.md",
+      "kind": "file",
+      "bytes": 4657,
+      "sha256": "9f18f3c840673acb2dc668afb976776e66c802f97dc9f9ae786922d67fbe4d31"
+    },
+    {
+      "path": "docs/research-workspace/ENVIRONMENT-GATES.md",
+      "kind": "file",
+      "bytes": 5665,
+      "sha256": "98cb9e842049d7b523e50a2a6946c0013bff9547d00116b88c18446ebe1441f1"
+    },
+    {
+      "path": "docs/research-workspace/FINAL-REVIEW-ACCEPTANCE.md",
+      "kind": "file",
+      "bytes": 8438,
+      "sha256": "35dea4f08202de4799c31d9ffd891bbc30dee06a5ffceada225e93fb8135f447"
+    },
+    {
+      "path": "docs/research-workspace/LOCAL-FOLLOWUPS-ACCEPTANCE.md",
+      "kind": "file",
+      "bytes": 5219,
+      "sha256": "fb31dcbaf2af99cae4ebeb94ff2d06c25fc858e4c290a99809415f6d6a3cc350"
+    },
+    {
+      "path": "docs/research-workspace/PREMODERN-PILOT.md",
+      "kind": "file",
+      "bytes": 8350,
+      "sha256": "ef15d59e3abe42e071822f2103b2e264b44e389f7910d4702d76a7a72ef00edf"
+    },
+    {
+      "path": "docs/research-workspace/SEMANTIC-CONTRACTS.md",
+      "kind": "file",
+      "bytes": 7501,
+      "sha256": "326e508b31b2335abaf2d9c06d71daac9786939b4114f243ffc6b138577d09ca"
+    },
+    {
+      "path": "docs/research-workspace/SESSION-DUAL-TRACK.md",
+      "kind": "file",
+      "bytes": 2230,
+      "sha256": "03da256fd0d7e2d46cb3dac20c37f6ff2e55c06f6c3cfcd0e842813043f6db7d"
+    },
+    {
+      "path": "docs/research-workspace/SESSION-M1.md",
+      "kind": "file",
+      "bytes": 2761,
+      "sha256": "54eab1591d3d3dd9d6ab3a3922f6bb17e17f785a714b5dd30768f403a36fc5b9"
+    },
+    {
+      "path": "docs/research-workspace/SESSION-before-final-review.md",
+      "kind": "file",
+      "bytes": 1761,
+      "sha256": "cccebe2160f7bcf55997a4ab2ac5dec2dd5d89e2321b2302b71799e576fa67d0"
+    }
+  ],
+  "readErrors": []
+}

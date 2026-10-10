@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "review_id": "chronicle-political-chronology-2026-09-27-teaching-v2",
+  "reviewed_observations": 49,
+  "source_conflicts": [
+    {
+      "observation": "world_1200",
+      "year": 1200,
+      "findings": [
+        {
+          "entityId": "world:political:dda4569d8797b05571ad",
+          "name": "Sultanate of Delhi",
+          "ruleId": "delhi-sultanate",
+          "reason": "source-outside-reviewed-period",
+          "note": "The source attribution in 1200 predates the sultanate established in 1206; the Lodi sultanate ended with Babur’s conquest in 1526.",
+          "sources": [
+            {
+              "url": "https://www.iranicaonline.org/articles/delhi-sultanate/delhi-sultanate-i-political-and-cultural-history/",
+              "title": "Delhi Sultanate: Political and cultural history"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation": "world_1400",
+      "year": 1400,
+      "findings": [
+        {
+          "entityId": "world:political:a63a8882320bfb6fb773",
+          "name": "Seljuk Caliphate",
+          "ruleId": "seljuq-rum",
+          "reason": "source-outside-reviewed-period",
+          "note": "This source label lies in Anatolia and denotes the Seljuq Sultanate of Rum, not a caliphate. Its last dynastic phase ended in 1307/1308; the source’s 1400 appearance is anachronistic. No successor border is invented.",
+          "sources": [
+            {
+              "url": "https://www.metmuseum.org/essays/the-art-of-the-seljuq-period-in-anatolia-1081-1307",
+              "title": "The Art of the Seljuq Period in Anatolia (1081–1307)"
+            },
+            {
+              "url": "https://www.iranicaonline.org/articles/saljuqs-iii/",
+              "title": "Saljuqs III: Saljuqs of Rum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation": "world_1600",
+      "year": 1600,
+      "findings": [
+        {
+          "entityId": "world:political:d2323445ed19dc913e14",
+          "name": "Inca Empire",
+          "ruleId": "inca",
+          "reason": "source-outside-reviewed-period",
+          "note": "The imperial overview ends after the 1532 conquest watershed. This intentionally does not reuse empire-wide borders for the distinct Vilcabamba resistance state (1536–1572).",
+          "sources": [
+            {
+              "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/sanc.html",
+              "title": "Central and Southern Andes, 1400–1600 A.D."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation": "world_1900",
+      "year": 1900,
+      "findings": [
+        {
+          "entityId": "world:political:f45d35a023fe46ea1185",
+          "name": "Benin",
+          "ruleId": "benin-kingdom",
+          "reason": "source-outside-reviewed-period",
+          "note": "Applies only to source observations through 1900 for the Benin kingdom in present-day Nigeria; never to modern Republic of Benin.",
+          "sources": [
+            {
+              "url": "https://www.britishmuseum.org/collection/object/E_Af1898-0115-39",
+              "title": "British Museum collection record: British occupation of Benin City in 1897"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation": "world_1914",
+      "year": 1914,
+      "findings": [
+        {
+          "entityId": "world:political:f55298901182086e80c5",
+          "name": "Manchu Empire",
+          "ruleId": "qing",
+          "reason": "source-outside-reviewed-period",
+          "note": "Revolution in 1911 and abdication in early 1912. Conservative end-of-year bound; no claim that imperial control remained intact throughout 1912.",
+          "sources": [
+            {
+              "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/qing-dynasty/",
+              "title": "Qing dynasty (1644–1911)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meaning": "Negative chronology checks over all world source observations; passing a guard does not independently verify a state or boundary. Source metadata and geometry remain unchanged. Compiled with the exhaustive study coverage index."
+}

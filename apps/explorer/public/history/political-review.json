@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "review_id": "chronicle-political-chronology-2026-09-27-teaching-v2",
+  "date_convention": "Signed civil years; no year zero. Year-only endpoints suppress beginning with the following civil year; exact documented dates remain exact. These are negative display guards, not a complete validity database.",
+  "meaning": "Remove known chronological contradictions from both source observations and reference-held maps. A passing guard does not verify boundaries, ownership or an entity’s complete lifespan. Suppressed territory stays unassigned; no invented successor map.",
+  "rules": [
+    {
+      "id": "achaemenid",
+      "labels": [
+        "Achaemenid Empire"
+      ],
+      "end_exclusive": "-0329-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/the-achaemenid-persian-empire-550-330-b-c",
+          "title": "The Achaemenid Persian Empire (550–330 B.C.)"
+        }
+      ],
+      "note": "Annual limit follows the end of Achaemenid rule in 330 BCE; source borders are not transferred to Alexander.",
+      "start_inclusive": "-0550-01-01"
+    },
+    {
+      "id": "seleucid",
+      "labels": [
+        "Seleucid Kingdom"
+      ],
+      "end_exclusive": "-0063-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/essays/the-seleucid-empire-323-64-b-c",
+          "title": "The Seleucid Empire (323–64 B.C.)"
+        }
+      ],
+      "note": "Seleucid rule ended in 64 BCE; the final year remains year-precision.",
+      "start_inclusive": "-0323-01-01"
+    },
+    {
+      "id": "parthian",
+      "labels": [
+        "Parthia",
+        "Parthian Empire"
+      ],
+      "end_exclusive": "0225-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/the-parthian-empire-247-b-c-224-a-d",
+          "title": "The Parthian Empire (247 B.C.–224 A.D.)"
+        }
+      ],
+      "note": "No Parthian imperial association is retained after its terminal year, 224 CE.",
+      "start_inclusive": "-0247-01-01"
+    },
+    {
+      "id": "sasanian",
+      "labels": [
+        "Sasanian Empire"
+      ],
+      "end_exclusive": "0652-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/de/essays/the-sasanian-empire-224-651-a-d",
+          "title": "The Sasanian Empire (224–651 A.D.)"
+        }
+      ],
+      "note": "Last Sasanian ruler Yazdgard III died in 651. This is a conservative latest bound, not a claim of unchanged control through that year.",
+      "start_inclusive": "0224-01-01"
+    },
+    {
+      "id": "roman-republic",
+      "labels": [
+        "Roman Republic"
+      ],
+      "end_exclusive": "-0026-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+          "title": "The Roman Empire (27 B.C.–393 A.D.)"
+        }
+      ],
+      "note": "Republican map associations are not retained beyond the conventional transition to the principate in 27 BCE."
+    },
+    {
+      "id": "western-rome",
+      "labels": [
+        "Western Roman Empire"
+      ],
+      "end_exclusive": "0477-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+          "title": "The Roman Empire (27 B.C.–393 A.D.)"
+        }
+      ],
+      "note": "Uses the conventional 476 CE termination of western imperial government. Does not end eastern Roman continuity."
+    },
+    {
+      "id": "eastern-rome",
+      "labels": [
+        "Eastern Roman Empire",
+        "Byzantine Empire"
+      ],
+      "end_exclusive": "1453-05-29",
+      "sources": [
+        {
+          "url": "https://www.bl.uk/stories/blogs/posts/the-last-day-of-constantinople",
+          "title": "The last day of Constantinople"
+        }
+      ],
+      "note": "The fall of Constantinople on 29 May 1453 ends this imperial association; successor states require their own geometries."
+    },
+    {
+      "id": "han",
+      "labels": [
+        "Han Empire",
+        "Han"
+      ],
+      "end_exclusive": "0221-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/ko/essays/han-dynasty-206-b-c-220-a-d",
+          "title": "Han Dynasty (206 B.C.–220 A.D.)"
+        }
+      ],
+      "note": "Western Han and Eastern Han are separated by the Xin interregnum. The museum provides years, so no exact transition day is inferred.",
+      "start_inclusive": "-0206-01-01",
+      "intervals": [
+        [
+          "-0206-01-01",
+          "0010-01-01"
+        ],
+        [
+          "0025-01-01",
+          "0221-01-01"
+        ]
+      ]
+    },
+    {
+      "id": "tang",
+      "labels": [
+        "Tang Empire"
+      ],
+      "end_exclusive": "0908-01-01",
+      "sources": [
+        {
+          "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/tang-dynasty/",
+          "title": "Tang dynasty (618–907)"
+        }
+      ],
+      "note": "The imperial Tang association is not carried beyond 907.",
+      "start_inclusive": "0618-01-01"
+    },
+    {
+      "id": "sui",
+      "labels": [
+        "Sui Empire"
+      ],
+      "end_exclusive": "0619-01-01",
+      "sources": [
+        {
+          "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/tang-dynasty/",
+          "title": "Tang dynasty; predecessor Sui (581–618)"
+        }
+      ],
+      "note": "The preceding Sui dynasty ended in 618; a 700 source label is chronologically incompatible.",
+      "start_inclusive": "0581-01-01"
+    },
+    {
+      "id": "ming",
+      "labels": [
+        "Ming Chinese Empire",
+        "Ming Empire"
+      ],
+      "end_exclusive": "1645-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2009/arts-of-the-ming-dynasty",
+          "title": "Arts of the Ming Dynasty"
+        }
+      ],
+      "note": "Ends the imperial Ming overview after 1644. Southern Ming resistance is a separate political situation and is not represented by holding these borders.",
+      "start_inclusive": "1368-01-01"
+    },
+    {
+      "id": "maurya",
+      "labels": [
+        "Mauryan Empire"
+      ],
+      "end_exclusive": "-0184-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/mauryan-empire-ca-323-185-b-c",
+          "title": "Mauryan Empire (ca. 323–185 B.C.)"
+        }
+      ],
+      "note": "No Mauryan imperial association is retained after 185 BCE; a 100 BCE label is incompatible. Foundation is approximate, so this guard does not impose an exact founding date."
+    },
+    {
+      "id": "inca",
+      "labels": [
+        "Inca Empire"
+      ],
+      "end_exclusive": "1533-01-01",
+      "sources": [
+        {
+          "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/sanc.html",
+          "title": "Central and Southern Andes, 1400–1600 A.D."
+        }
+      ],
+      "note": "The imperial overview ends after the 1532 conquest watershed. This intentionally does not reuse empire-wide borders for the distinct Vilcabamba resistance state (1536–1572).",
+      "boundary_kind": "imperial-overview-cutoff"
+    },
+    {
+      "id": "ottoman",
+      "labels": [
+        "Ottoman Empire",
+        "Ottoman Sultanate"
+      ],
+      "end_exclusive": "1922-11-01",
+      "sources": [
+        {
+          "url": "https://www.tbmm.gov.tr/Sayfa/KurtulusSavasiMuzesi",
+          "title": "Türkiye Büyük Millet Meclisi — Museum of the War of Independence"
+        }
+      ],
+      "note": "Sultanate abolished on 1 November 1922; no old Ottoman borders are reassigned to the Republic of Turkey."
+    },
+    {
+      "id": "soviet",
+      "labels": [
+        "USSR"
+      ],
+      "end_exclusive": "1992-01-01",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1989-92v31/preface",
+          "title": "Foreign Relations of the United States, 1989–1992, Volume XXXI, Preface"
+        }
+      ],
+      "note": "Conservative year-end cutoff for dissolution in December 1991, not an assertion of intact control throughout the final month."
+    },
+    {
+      "id": "germany-divided",
+      "labels": [
+        "East Germany",
+        "West Germany"
+      ],
+      "end_exclusive": "1990-10-03",
+      "sources": [
+        {
+          "url": "https://www.bundestag.de/en/parliament/history/parliamentarism/peoples_chamber",
+          "title": "The freely elected People’s Chamber"
+        }
+      ],
+      "note": "The GDR acceded to the Federal Republic on 3 October 1990. West Germany is a period-specific display label, not a claim that the Federal Republic ceased to exist."
+    },
+    {
+      "id": "teotihuacan",
+      "labels": [
+        "Teotihuacan",
+        "Teotihuacán"
+      ],
+      "end_exclusive": "0651-01-01",
+      "sources": [
+        {
+          "url": "https://lugares.inah.gob.mx/es/node/4528",
+          "title": "Teotihuacán — Lugares INAH"
+        }
+      ],
+      "note": "INAH dates the city and state to 50–650 CE. Source territory remains an unverified overview.",
+      "start_inclusive": "0050-01-01"
+    },
+    {
+      "id": "monte-alban",
+      "labels": [
+        "Monte Albán"
+      ],
+      "end_exclusive": "0801-01-01",
+      "sources": [
+        {
+          "url": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban",
+          "title": "Zona Arqueológica de Monte Albán"
+        }
+      ],
+      "note": "INAH identifies Monte Albán as a Zapotec capital from the start of the Common Era to 800 CE. Later occupation and sacred use do not imply continuous state government.",
+      "start_inclusive": "0001-01-01"
+    },
+    {
+      "id": "benin-kingdom",
+      "labels": [
+        "Benin"
+      ],
+      "end_exclusive": "1898-01-01",
+      "sources": [
+        {
+          "url": "https://www.britishmuseum.org/collection/object/E_Af1898-0115-39",
+          "title": "British Museum collection record: British occupation of Benin City in 1897"
+        }
+      ],
+      "note": "Applies only to source observations through 1900 for the Benin kingdom in present-day Nigeria; never to modern Republic of Benin.",
+      "source_year_max": 1900
+    },
+    {
+      "id": "qing",
+      "labels": [
+        "Manchu Empire",
+        "Qing Empire"
+      ],
+      "end_exclusive": "1913-01-01",
+      "sources": [
+        {
+          "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/qing-dynasty/",
+          "title": "Qing dynasty (1644–1911)"
+        }
+      ],
+      "note": "Revolution in 1911 and abdication in early 1912. Conservative end-of-year bound; no claim that imperial control remained intact throughout 1912."
+    },
+    {
+      "id": "mongol-foundation",
+      "labels": [
+        "Mongol Empire"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/decisions/6365",
+          "title": "UNESCO Decision 39 COM 8B.15"
+        }
+      ],
+      "note": "Mongol Empire established in 1206; source attribution in 1200 is premature. This rule intentionally imposes no unsupported dissolution cutoff.",
+      "start_inclusive": "1206-01-01"
+    },
+    {
+      "id": "gupta-foundation",
+      "labels": [
+        "Gupta Empire"
+      ],
+      "sources": [
+        {
+          "url": "https://www.seshat-db.com/core/polity/388",
+          "title": "Seshat: Gupta polity"
+        }
+      ],
+      "note": "The research database dates the imperial polity from 320 CE. The 300 CE imperial attribution is excluded; preceding local Gupta rulers are a different scope. No terminal cutoff is inferred from art-period dates.",
+      "start_inclusive": "0320-01-01"
+    },
+    {
+      "id": "ptolemaic",
+      "labels": [
+        "Ptolemaic Kingdom"
+      ],
+      "end_exclusive": "-0029-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/perspectives/egyptian-ptolemaic-art-installation?rss=1",
+          "title": "Nile and Newcomers: A Fresh Installation of Egyptian Ptolemaic Art"
+        }
+      ],
+      "note": "Cleopatra VII’s death and Roman annexation in 30 BCE end the Ptolemaic period."
+    },
+    {
+      "id": "aztec",
+      "labels": [
+        "Aztec Empire"
+      ],
+      "end_exclusive": "1521-08-13",
+      "sources": [
+        {
+          "url": "https://www.inah.gob.mx/foto-del-dia/1521-tlatelolco-el-ultimo-bastion-mexica",
+          "title": "1521: Tlatelolco, el último bastión mexica"
+        }
+      ],
+      "note": "Capture of Cuauhtémoc and fall of the Mexica capital on 13 August 1521 end this imperial overview; Indigenous population and communities continue."
+    },
+    {
+      "id": "sudan-pre-partition",
+      "labels": [
+        "Sudan"
+      ],
+      "end_exclusive": "2011-07-09",
+      "sources": [
+        {
+          "url": "https://www.un.org/en/node/122910",
+          "title": "United Nations: South Sudan"
+        }
+      ],
+      "note": "South Sudan seceded on 9 July 2011. Old united-Sudan geometry is suppressed after partition; this does not assert Sudan ceased to exist. Updated north/south borders require separate sourced polygons.",
+      "source_year_max": 2010,
+      "boundary_kind": "obsolete-border-snapshot"
+    },
+    {
+      "id": "mamluk",
+      "labels": [
+        "Mamluke Sultanate",
+        "Mamluk Sultanate"
+      ],
+      "end_exclusive": "1518-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517",
+          "title": "The Art of the Mamluk Period (1250–1517)"
+        }
+      ],
+      "note": "The Mamluk sultanate ended with Ottoman conquest in 1517. Surviving Mamluk elites do not prolong its independent territorial map.",
+      "start_inclusive": "1250-01-01"
+    },
+    {
+      "id": "timurid",
+      "labels": [
+        "Timurid Empire"
+      ],
+      "end_exclusive": "1508-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-timurid-period-ca-1370-1507",
+          "title": "The Art of the Timurid Period (ca. 1370–1507)"
+        }
+      ],
+      "note": "The Central Asian and Iranian Timurid period ends in 1507. Timur’s death in 1405 is not an end date for the dynasty; Mughal descent does not prolong these territorial polygons.",
+      "start_inclusive": "1370-01-01"
+    },
+    {
+      "id": "fatimid",
+      "labels": [
+        "Fatimid Caliphate"
+      ],
+      "end_exclusive": "1172-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-fatimid-period-909-1171",
+          "title": "The Art of the Fatimid Period (909–1171)"
+        }
+      ],
+      "note": "Fatimid caliphal rule ended in 1171. Cairo and its inhabitants continued under successor governments.",
+      "start_inclusive": "0909-01-01"
+    },
+    {
+      "id": "ilkhanate-united",
+      "labels": [
+        "Ilkhanate"
+      ],
+      "end_exclusive": "1336-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-ilkhanid-period-1256-1353",
+          "title": "The Art of the Ilkhanid Period (1256–1353)"
+        }
+      ],
+      "note": "The united Ilkhanid dynasty fragmented after Abu Saʿid’s death in 1335. Later claimants and artistic continuity do not justify carrying forward one unified imperial polygon.",
+      "start_inclusive": "1256-01-01"
+    },
+    {
+      "id": "delhi-sultanate",
+      "labels": [
+        "Sultanate of Delhi"
+      ],
+      "end_exclusive": "1527-01-01",
+      "sources": [
+        {
+          "url": "https://www.iranicaonline.org/articles/delhi-sultanate/delhi-sultanate-i-political-and-cultural-history/",
+          "title": "Delhi Sultanate: Political and cultural history"
+        }
+      ],
+      "note": "The source attribution in 1200 predates the sultanate established in 1206; the Lodi sultanate ended with Babur’s conquest in 1526.",
+      "start_inclusive": "1206-01-01"
+    },
+    {
+      "id": "holy-roman",
+      "labels": [
+        "Holy Roman Empire"
+      ],
+      "end_exclusive": "1807-01-01",
+      "sources": [
+        {
+          "url": "https://www.worldhistory.org/Holy_Roman_Empire/",
+          "title": "Holy Roman Empire"
+        },
+        {
+          "url": "https://www.habsburger.net/en/glossary/holy-roman-empire",
+          "title": "The Holy Roman Empire"
+        }
+      ],
+      "note": "This display scope follows the conventional 962–1806 chronology; earlier Carolingian imperial traditions are distinct. Dissolution does not transfer all imperial territory to Austria.",
+      "start_inclusive": "0962-01-01"
+    },
+    {
+      "id": "goryeo",
+      "labels": [
+        "Goryeo"
+      ],
+      "end_exclusive": "1393-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/toah/ht/07/eak.html",
+          "title": "Korea, 1000–1400 CE"
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/goryeo-celadon",
+          "title": "Goryeo Celadon"
+        }
+      ],
+      "note": "Goryeo’s dynasty was replaced by Joseon in 1392; Korean population and institutions were not erased.",
+      "start_inclusive": "0918-01-01"
+    },
+    {
+      "id": "silla",
+      "labels": [
+        "Silla"
+      ],
+      "end_exclusive": "0936-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2013/koreas-golden-kingdom",
+          "title": "Silla: Korea’s Golden Kingdom"
+        },
+        {
+          "url": "https://www.metmuseum.org/toah/ht/06/eak.html",
+          "title": "Korea, 500–1000 CE"
+        }
+      ],
+      "note": "Silla rule ended in 935. No precise foundation guard is inferred from the traditional 57 BCE origin date."
+    },
+    {
+      "id": "carthage-punic",
+      "labels": [
+        "Carthage",
+        "Carthaginian Empire"
+      ],
+      "end_exclusive": "-0145-01-01",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/37",
+          "title": "Archaeological Site of Carthage"
+        }
+      ],
+      "note": "Rome destroyed Punic Carthage in 146 BCE. The later Roman city is not a continuation of the independent Punic state."
+    },
+    {
+      "id": "tokugawa",
+      "labels": [
+        "Tokugawa shogunate"
+      ],
+      "end_exclusive": "1869-01-01",
+      "sources": [
+        {
+          "url": "https://edolegacytravel.metro.tokyo.lg.jp/about/",
+          "title": "About Edo"
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868",
+          "title": "Art of the Edo Period (1615–1868)"
+        }
+      ],
+      "note": "The Tokugawa shogunate ended in the 1868 political transition. The generic label Japan is deliberately not governed by this dynasty-specific rule.",
+      "start_inclusive": "1603-01-01"
+    },
+    {
+      "id": "kamakura",
+      "labels": [
+        "Shogun Japan (Kamakura)"
+      ],
+      "end_exclusive": "1334-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/kamakura-and-nanbokucho-periods-1185-1392",
+          "title": "Kamakura and Nanbokucho Periods (1185–1392)"
+        }
+      ],
+      "note": "The Kamakura regime was overthrown in 1333. Continuing imperial government at Kyoto and later shogunates do not prolong this regime.",
+      "start_inclusive": "1185-01-01"
+    },
+    {
+      "id": "ayutthaya",
+      "labels": [
+        "Ayutthaya"
+      ],
+      "end_exclusive": "1768-01-01",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/576/",
+          "title": "Historic City of Ayutthaya"
+        }
+      ],
+      "note": "The capital was destroyed in 1767. Later Siamese kingdoms at other capitals do not inherit this exact city-centered territorial assertion."
+    },
+    {
+      "id": "polish-lithuanian-commonwealth",
+      "labels": [
+        "Polish–Lithuanian Commonwealth"
+      ],
+      "end_exclusive": "1796-01-01",
+      "sources": [
+        {
+          "url": "https://www.unesco.org/en/memory-world/act-union-lublin-document",
+          "title": "The Act of the Union of Lublin document"
+        },
+        {
+          "url": "https://culture.pl/en/video/the-union-of-lublin-the-longest-lasting-union-in-european-history",
+          "title": "The Union of Lublin: The Longest Lasting Union in European History"
+        }
+      ],
+      "note": "The Commonwealth was established by the Union of Lublin in 1569 and ended with the 1795 partition; the earlier dynastic union is a separate political phase.",
+      "start_inclusive": "1569-01-01"
+    },
+    {
+      "id": "seljuq-rum",
+      "labels": [
+        "Seljuk Caliphate"
+      ],
+      "end_exclusive": "1309-01-01",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-seljuq-period-in-anatolia-1081-1307",
+          "title": "The Art of the Seljuq Period in Anatolia (1081–1307)"
+        },
+        {
+          "url": "https://www.iranicaonline.org/articles/saljuqs-iii/",
+          "title": "Saljuqs III: Saljuqs of Rum"
+        }
+      ],
+      "note": "This source label lies in Anatolia and denotes the Seljuq Sultanate of Rum, not a caliphate. Its last dynastic phase ended in 1307/1308; the source’s 1400 appearance is anachronistic. No successor border is invented.",
+      "start_inclusive": "1081-01-01"
+    },
+    {
+      "id": "northern-wei-end",
+      "labels": [
+        "Toba Wei"
+      ],
+      "start_inclusive": "0386-01-01",
+      "end_exclusive": "0536-01-01",
+      "sources": [
+        {
+          "url": "https://static.artmuseum.princeton.edu/asian-art/china/timeline",
+          "title": "China Timeline: Western and Eastern Jin; Northern Wei succession"
+        }
+      ],
+      "note": "The atlas label names the unified Tuoba/Northern Wei dynasty. Its division in 534–535 ends that state; a conservative annual guard starts after 535. Eastern and Western Wei remain separate identities."
+    },
+    {
+      "id": "xixia-end",
+      "labels": [
+        "Xixia"
+      ],
+      "end_exclusive": "1228-01-01",
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1736/",
+          "title": "Xixia Imperial Tombs"
+        }
+      ],
+      "note": "Mongol conquest ends the Xixia imperial dynasty in 1227. No 1038 start guard is imposed on the generic label without reviewing whether the 1000 source means a Tangut predecessor."
+    },
+    {
+      "id": "champa-end",
+      "labels": [
+        "Champa"
+      ],
+      "end_exclusive": "1833-01-01",
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/journals/journal-of-southeast-asian-studies/article/editorial-foreword/F5209224C27E90E9304AE72EF4C7FC6B",
+          "title": "Editorial Foreword: Cham narratives and the 1832 annexation"
+        }
+      ],
+      "note": "Annexation of the last autonomous principality in 1832 supplies the terminal political limit. This does not end Cham communities, languages or religious life."
+    }
+  ],
+  "source_date_audit": {
+    "compiled_observations": 49,
+    "earliest_year": -3000,
+    "latest_year": 2010,
+    "additional_indexed_dates_in_range": [],
+    "additional_prehistoric_indexed_years": [
+      -123000,
+      -10000,
+      -8000,
+      -5000,
+      -4000
+    ],
+    "finding": "The retained upstream index contains no additional historical snapshots within the current 3000 BCE–2010 CE range. Filling those gaps requires another source or explicit research, not interpolated factual borders."
+  },
+  "admission_reviews": [
+    {
+      "label": "Chile",
+      "years": [
+        1878,
+        1880,
+        1900
+      ],
+      "source_url": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1811-1823",
+      "reason": "The generic modern-name cutoff accidentally excluded this independent state before 1914. Chile declared independence in 1818. Retained original source geometry can be displayed as source-attributed political association."
+    },
+    {
+      "label": "Teotihuacan",
+      "years": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600
+      ],
+      "source_url": "https://lugares.inah.gob.mx/es/node/4528",
+      "reason": "INAH identifies a city and state in 50–650 CE. Only existing snapshots within that interval are admitted; borders remain source-attributed."
+    },
+    {
+      "label": "Monte Albán",
+      "years": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700
+      ],
+      "source_url": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban",
+      "reason": "INAH identifies a Zapotec capital from the start of the Common Era to 800 CE. Admit retained political association within that interval, not earlier or later city occupation."
+    }
+  ]
+}

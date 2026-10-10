@@ -1,0 +1,670 @@
+{
+  "schema_version": 1,
+  "budget": "./metrics-budget.json",
+  "observations": 80,
+  "entries": 4664,
+  "unavailable": 0,
+  "output_bytes": 303546,
+  "output_sha256": "784ed26eecfeb7565be58d865dd66c47251f71a43db1581799fc36a29c09c570",
+  "input_bytes": 45853914,
+  "elapsed_ms": 5173,
+  "peak_rss_bytes": 309420032,
+  "inputs": [
+    {
+      "path": "public/global-history/catalog.json",
+      "sha256": "4703220b144b960ac7afb97ed7582b30add8be7fba6cc4186a3f8c14f8e88f08",
+      "byte_length": 43695
+    },
+    {
+      "path": "public/alpha/historical-manifest.json",
+      "sha256": "4bb0f59707e1154e03f2dcb2b2bec79be07279f94f71815a3d08ed3d94a0a75e",
+      "byte_length": 30933
+    },
+    {
+      "path": "public/global-history/observations/world_bc3000/manifest.json",
+      "sha256": "4477af392691ed059cadeecea76a198c8a60758cac19acca10a9951fdc62ee02",
+      "byte_length": 9472
+    },
+    {
+      "path": "public/global-history/observations/world_bc3000/geometry.geojson.json",
+      "sha256": "f41a522f549297e2a63802390b7c170019f2f6f4938076f50c6e76d826e43f30",
+      "byte_length": 163539
+    },
+    {
+      "path": "public/global-history/observations/world_bc2000/manifest.json",
+      "sha256": "35b158f3fb1b46e29d76e58dc3ff84ea87a2668c0b6d157327a0607f6e9a2438",
+      "byte_length": 10011
+    },
+    {
+      "path": "public/global-history/observations/world_bc2000/geometry.geojson.json",
+      "sha256": "e297b9fe80cb825833eb9722706172a018a2c47d62b0494152faea9c07af6345",
+      "byte_length": 630809
+    },
+    {
+      "path": "public/global-history/observations/world_bc1500/manifest.json",
+      "sha256": "763f46bbddd4d39682409cab81bf84f89f60eedcf01f3692ecfcc9d207b2ba68",
+      "byte_length": 10143
+    },
+    {
+      "path": "public/global-history/observations/world_bc1500/geometry.geojson.json",
+      "sha256": "a86fac4d8d318507dfedec964c5aa061192b949876a7c13f338ee99d87c88204",
+      "byte_length": 680167
+    },
+    {
+      "path": "public/global-history/observations/world_bc1000/manifest.json",
+      "sha256": "ca2c7114a3f3f77aeb33452234643e14f1b9ef1ae983691a3e7481b10888ad06",
+      "byte_length": 10143
+    },
+    {
+      "path": "public/global-history/observations/world_bc1000/geometry.geojson.json",
+      "sha256": "13176fc88f8a9ddfdd9c209d97d9d2af28556f10b4bd5390221f7267aecc2998",
+      "byte_length": 681701
+    },
+    {
+      "path": "public/global-history/observations/world_bc700/manifest.json",
+      "sha256": "22524f8c97a4226402367ed078c00c1f4ccca23fb1f826b7eb496d34ed9a89db",
+      "byte_length": 10205
+    },
+    {
+      "path": "public/global-history/observations/world_bc700/geometry.geojson.json",
+      "sha256": "08d78015d946849fbaea45f1bab90b7257840c000a51e029639b01a8d67af61e",
+      "byte_length": 695957
+    },
+    {
+      "path": "public/global-history/observations/world_bc500/manifest.json",
+      "sha256": "ad60255727b86c5ec402cd1697edef337e9483c8d233354f3f830de0db380355",
+      "byte_length": 10073
+    },
+    {
+      "path": "public/global-history/observations/world_bc500/geometry.geojson.json",
+      "sha256": "79b8fc8b2ba659be4939924c514f72511e67233246b93286b07436e42cf38883",
+      "byte_length": 622925
+    },
+    {
+      "path": "public/global-history/observations/world_bc400/manifest.json",
+      "sha256": "5e5320a583a1703d104a4e0dc79c6c9b57632d384f66c6af8e4cc60cfa03c45c",
+      "byte_length": 10140
+    },
+    {
+      "path": "public/global-history/observations/world_bc400/geometry.geojson.json",
+      "sha256": "1e514d8cea3b296a1d84f7ed3b7d5c098b50a256838ca72b9e2190b5283f2e0a",
+      "byte_length": 679462
+    },
+    {
+      "path": "public/global-history/observations/world_bc323/manifest.json",
+      "sha256": "7dc6c3c82e3a8411df98f1736c90af72bcb43978e1e9a7736030384fb0128322",
+      "byte_length": 10072
+    },
+    {
+      "path": "public/global-history/observations/world_bc323/geometry.geojson.json",
+      "sha256": "b77eec1d8086745adacb061e192c499a64ac7e14e03606935ba722b383aca42f",
+      "byte_length": 536983
+    },
+    {
+      "path": "public/global-history/observations/world_bc300/manifest.json",
+      "sha256": "98cd38ac465296242637275b0f13c8f40498284492f17fdfd7646934ed98ae8e",
+      "byte_length": 10072
+    },
+    {
+      "path": "public/global-history/observations/world_bc300/geometry.geojson.json",
+      "sha256": "dd72b4c7985adccc9230ea750ce549c9090b2423fa78d6140d460b230fcda4ea",
+      "byte_length": 525935
+    },
+    {
+      "path": "public/global-history/observations/world_bc200/manifest.json",
+      "sha256": "055f3bba1b06cc463474ac1001cfc1accfb69188ec0d86c720a47102dabfbc58",
+      "byte_length": 9262
+    },
+    {
+      "path": "public/global-history/observations/world_bc200/geometry.geojson.json",
+      "sha256": "c2be79767a88b3376b54c9f83a42517951847d801c2e562fdcf77a0d23c3dc9e",
+      "byte_length": 605617
+    },
+    {
+      "path": "public/global-history/observations/world_bc100/manifest.json",
+      "sha256": "0417c278f5e39dfd635b4b1104a53b2fc9246342a0abc96afa864144e93de4c8",
+      "byte_length": 9196
+    },
+    {
+      "path": "public/global-history/observations/world_bc100/geometry.geojson.json",
+      "sha256": "17002f3588a575f66863e0d4308180824fc46f5911ca65792f255a25ad69825b",
+      "byte_length": 507928
+    },
+    {
+      "path": "public/global-history/observations/world_bc1/manifest.json",
+      "sha256": "db212717253c07d4a5328cb11a106fb0e8fd8706db9037b2a31d2c2dcd125a0e",
+      "byte_length": 9190
+    },
+    {
+      "path": "public/global-history/observations/world_bc1/geometry.geojson.json",
+      "sha256": "eb47a89583dcd4b67ddb72865c2be3b1c17539b9cd96219fcfb9f00716ab44db",
+      "byte_length": 553275
+    },
+    {
+      "path": "public/global-history/observations/world_100/manifest.json",
+      "sha256": "17f72a933c889e8b4e972f717d71e2ead076c1c13e4771e3ecdfa89e66125a39",
+      "byte_length": 9202
+    },
+    {
+      "path": "public/global-history/observations/world_100/geometry.geojson.json",
+      "sha256": "7b9007d57b9f6387113995127bc7e801cfb4ee58631063a4a9f4471aa0f8f06a",
+      "byte_length": 543304
+    },
+    {
+      "path": "public/global-history/observations/world_200/manifest.json",
+      "sha256": "6453b431780eb84faa62558aba8183342ad1e3c1bb3010a2b6dc87f31bd9163f",
+      "byte_length": 9202
+    },
+    {
+      "path": "public/global-history/observations/world_200/geometry.geojson.json",
+      "sha256": "12b88c8705bce4b7dc536fd42b0bdb3021f8b6806045ac79f068a21026e54267",
+      "byte_length": 488382
+    },
+    {
+      "path": "public/global-history/observations/world_300/manifest.json",
+      "sha256": "3c4f052ce250f17c93bbcfefa5dd368061bcb9ce27ae4497fd1fabe14f21748f",
+      "byte_length": 9202
+    },
+    {
+      "path": "public/global-history/observations/world_300/geometry.geojson.json",
+      "sha256": "28707850b0b0cf630bcf1fad136b39e7ad1fb82eec0919490be9868f244c3c4b",
+      "byte_length": 495426
+    },
+    {
+      "path": "public/global-history/observations/world_400/manifest.json",
+      "sha256": "4e03a07f53e94cb437a3e2320165b35179d81f3852b6a3163ac737d0687af799",
+      "byte_length": 9202
+    },
+    {
+      "path": "public/global-history/observations/world_400/geometry.geojson.json",
+      "sha256": "e7ad831943d8747a6a36c757cffb81221a87375321a58dfca45648bff18645da",
+      "byte_length": 490580
+    },
+    {
+      "path": "public/global-history/observations/world_500/manifest.json",
+      "sha256": "2d2a5233c71133f10c556d6feea9b860e5412c7942a4cf0df6314d865fb1422b",
+      "byte_length": 9202
+    },
+    {
+      "path": "public/global-history/observations/world_500/geometry.geojson.json",
+      "sha256": "9dfe92eb35c16568ab1c4d4d2be768569071bd5311d0eac7fb4af1b5ec4ad570",
+      "byte_length": 505377
+    },
+    {
+      "path": "public/global-history/observations/world_600/manifest.json",
+      "sha256": "d75fc42af62f66f5bf398f8ff80f487c25fb49eb62641b2163e56ee5155403fa",
+      "byte_length": 9268
+    },
+    {
+      "path": "public/global-history/observations/world_600/geometry.geojson.json",
+      "sha256": "91069704ccd1581605035dd776e7f13ef1482790f5c27cb2405a273de9e88b52",
+      "byte_length": 571856
+    },
+    {
+      "path": "public/global-history/observations/world_700/manifest.json",
+      "sha256": "9a8bad55dd7306bbaea3c2ed62a7818cbbd9389bce819e7cf2898381290425fd",
+      "byte_length": 9268
+    },
+    {
+      "path": "public/global-history/observations/world_700/geometry.geojson.json",
+      "sha256": "e3dac05713fe6d6021d1c34b1adf70c9a75f6677b1177f14cbae7a2bce6281a1",
+      "byte_length": 569237
+    },
+    {
+      "path": "public/global-history/observations/world_800/manifest.json",
+      "sha256": "de23d6600a24c2e69ce262396206f955c1a4ae2df974406c45f18bcff83ddc3f",
+      "byte_length": 9190
+    },
+    {
+      "path": "public/global-history/observations/world_800/geometry.geojson.json",
+      "sha256": "d30986c06502dcd47eecd5eb7bd77776ff9c3e362a3d5f4d9f28c8034af7d035",
+      "byte_length": 482126
+    },
+    {
+      "path": "public/global-history/observations/world_900/manifest.json",
+      "sha256": "92bea74f74ea98bdc3fed8cf76203e28f690ec841785510f7847e55a5fc8054a",
+      "byte_length": 9257
+    },
+    {
+      "path": "public/global-history/observations/world_900/geometry.geojson.json",
+      "sha256": "1ad79619c9d4c0fb41fbe496b9134f6bfebb96330653b0738d24cd01e8fe6c55",
+      "byte_length": 598419
+    },
+    {
+      "path": "public/global-history/observations/world_1000/manifest.json",
+      "sha256": "76cb9bff67acde9c9e26d877a0974c834c4f1df873b89ac6872f084a2b0bdfed",
+      "byte_length": 9461
+    },
+    {
+      "path": "public/global-history/observations/world_1000/geometry.geojson.json",
+      "sha256": "b0463d24a2921265fe51e50c88a306b90fd338fc47ce93744bcc009d90e2152d",
+      "byte_length": 677858
+    },
+    {
+      "path": "public/global-history/observations/world_1100/manifest.json",
+      "sha256": "7da353b34bfa2a01d2d0867c981d73331f9f27664886ef99d06ea96ebacb89d1",
+      "byte_length": 9393
+    },
+    {
+      "path": "public/global-history/observations/world_1100/geometry.geojson.json",
+      "sha256": "3b22f7c3d9457782e0fe33bdccec3dba751001e90c117360a8d9f7a1a51c469d",
+      "byte_length": 664620
+    },
+    {
+      "path": "public/global-history/observations/world_1200/manifest.json",
+      "sha256": "e4486bf260ccd2337b968bf8beda9e355ae87b44efb359ad65f35d4dbf3b53c3",
+      "byte_length": 9394
+    },
+    {
+      "path": "public/global-history/observations/world_1200/geometry.geojson.json",
+      "sha256": "841f9fdec41e72cb78825d16844ac4255d8791cc9530ec96bf4a49d5906653b8",
+      "byte_length": 711654
+    },
+    {
+      "path": "public/global-history/observations/world_1279/manifest.json",
+      "sha256": "de4c09a3530518bba31d2da09ac053c6f2dafc9dee381bf790fa4b845bc25508",
+      "byte_length": 9260
+    },
+    {
+      "path": "public/global-history/observations/world_1279/geometry.geojson.json",
+      "sha256": "5b3e0a48ca316f092824ab0b0a641e3992d400b8d02d19fab6687760f26f5416",
+      "byte_length": 686691
+    },
+    {
+      "path": "public/global-history/observations/world_1300/manifest.json",
+      "sha256": "ea9660ceceabb9f2499c0c693b55968c29713bbe0a52b88007176b36e564be84",
+      "byte_length": 9260
+    },
+    {
+      "path": "public/global-history/observations/world_1300/geometry.geojson.json",
+      "sha256": "1066fde93941a9e88ed26a66346d771125acd4e3f2a323d04b597341d9c0cae7",
+      "byte_length": 681054
+    },
+    {
+      "path": "public/global-history/observations/world_1400/manifest.json",
+      "sha256": "38adb0db540ea816d48ca6b67c1cb4fcfd924cb8d950363a0213a60e954d98e3",
+      "byte_length": 9260
+    },
+    {
+      "path": "public/global-history/observations/world_1400/geometry.geojson.json",
+      "sha256": "9e54a89021bc262e0b72a1eac35c377220ab99f3662810bcde32f38dac162e8a",
+      "byte_length": 698686
+    },
+    {
+      "path": "public/global-history/observations/world_1492/manifest.json",
+      "sha256": "84afa67d1f41a5752a5d4e86ef69ae660e7027bb277009a59f2f03816bf47396",
+      "byte_length": 9196
+    },
+    {
+      "path": "public/global-history/observations/world_1492/geometry.geojson.json",
+      "sha256": "3a76ff8cbea018ab79127f44313ad7ef2f56b8a951277228f97dc238b242263a",
+      "byte_length": 678836
+    },
+    {
+      "path": "public/global-history/observations/world_1500/manifest.json",
+      "sha256": "7992b6c49abc99e6d4da5c6200fa343dfc710937e8066ab4e679e212551dce60",
+      "byte_length": 9396
+    },
+    {
+      "path": "public/global-history/observations/world_1500/geometry.geojson.json",
+      "sha256": "ce8a01770a06dfe891cfa5737e8308a1d3a35809a05a2fe4756049ad76842f95",
+      "byte_length": 859534
+    },
+    {
+      "path": "public/global-history/observations/world_1530/manifest.json",
+      "sha256": "0f5ef264d09428d0d15bfaf105c0b0c4082ed0f6d16db9ae955587c8e615b779",
+      "byte_length": 9261
+    },
+    {
+      "path": "public/global-history/observations/world_1530/geometry.geojson.json",
+      "sha256": "65c9f2fd99650991e863cda24324cfb6dca17af39e9ee864c03c39b67bf30e98",
+      "byte_length": 715559
+    },
+    {
+      "path": "public/global-history/observations/world_1600/manifest.json",
+      "sha256": "b8048dcb6db10d35bf0fd05ce4beec5e1d186084daafd5a086022a0c2f893aec",
+      "byte_length": 9329
+    },
+    {
+      "path": "public/global-history/observations/world_1600/geometry.geojson.json",
+      "sha256": "ddd6c94f31a30197c200929fa8e6ad881cf4b6ef272cefa6f6981ab2d8035b59",
+      "byte_length": 819815
+    },
+    {
+      "path": "public/global-history/observations/world_1650/manifest.json",
+      "sha256": "4eadc25d1fc500a4a82d6c206b0597d0c16c80793d70b2a976df27280868ff8c",
+      "byte_length": 9395
+    },
+    {
+      "path": "public/global-history/observations/world_1650/geometry.geojson.json",
+      "sha256": "2baa26d1d92b43c1bc7f912e23fe492c06ba8ce83d1c02260190a84cea192f17",
+      "byte_length": 938388
+    },
+    {
+      "path": "public/global-history/observations/world_1700/manifest.json",
+      "sha256": "bc01877a5b47d4849869ecb4b93f4441c5dabb933e0009301ca468d76d0a7c4f",
+      "byte_length": 9392
+    },
+    {
+      "path": "public/global-history/observations/world_1700/geometry.geojson.json",
+      "sha256": "f0b0d32805673e3a46be01b4adc87a1ea7d09a19d6443590b795b42d9b099b2b",
+      "byte_length": 896232
+    },
+    {
+      "path": "public/global-history/observations/world_1715/manifest.json",
+      "sha256": "0a1623d2f1943a0a2c45ff25f58f2bddb4bd46b778930caf28f74aedf6cdd74b",
+      "byte_length": 9529
+    },
+    {
+      "path": "public/global-history/observations/world_1715/geometry.geojson.json",
+      "sha256": "f9dc497bb8dd16db335eed3d27119e98efbe2b53cb5052c2d55dda43ac56367c",
+      "byte_length": 1035361
+    },
+    {
+      "path": "public/global-history/observations/world_1783/manifest.json",
+      "sha256": "81faa74d29e1222bea5cc7d366f3e2548b29452704ed6be673acbbc3fbf775b3",
+      "byte_length": 9661
+    },
+    {
+      "path": "public/global-history/observations/world_1783/geometry.geojson.json",
+      "sha256": "4fc7d87c66c18c6fc5a052840ce4a01a295ce39e0094db7cd702fd79151bfff4",
+      "byte_length": 1161784
+    },
+    {
+      "path": "public/global-history/observations/world_1800/manifest.json",
+      "sha256": "10f111f24e00e9c8911c37aa0a0c8e7e673ad67f5b3127651988f20317491eff",
+      "byte_length": 9593
+    },
+    {
+      "path": "public/global-history/observations/world_1800/geometry.geojson.json",
+      "sha256": "1511c274b2c19597c48656b8539237e3ef19b44df43168f0f78b75d305388852",
+      "byte_length": 1096542
+    },
+    {
+      "path": "public/global-history/observations/world_1815/manifest.json",
+      "sha256": "749a8f1075d579ff1e13aa946e26c41f6b1738f00c5c7ead187aa4466be234df",
+      "byte_length": 9728
+    },
+    {
+      "path": "public/global-history/observations/world_1815/geometry.geojson.json",
+      "sha256": "7b57383df15f1e56b8871e06b1192e734d5d9d587e83af2a9e78c6cd4e3a0d14",
+      "byte_length": 2118796
+    },
+    {
+      "path": "public/global-history/observations/world_1878/manifest.json",
+      "sha256": "c6d04ce228ce88a9913da34e57e1a804eff091b212778706f58f157efaac6242",
+      "byte_length": 9941
+    },
+    {
+      "path": "public/global-history/observations/world_1878/geometry.geojson.json",
+      "sha256": "0cf711ea29fdc08a2e116b77a58fe65bfde193ea3e50643e0d38ad0746d3faeb",
+      "byte_length": 1359846
+    },
+    {
+      "path": "public/global-history/observations/world_1880/manifest.json",
+      "sha256": "dfd251148dad93419202a09954aad544533823ad3ab13bc335a22cbf28f44550",
+      "byte_length": 9941
+    },
+    {
+      "path": "public/global-history/observations/world_1880/geometry.geojson.json",
+      "sha256": "72476fd88dce31ae4269eda50f416e87d893f75fdaca617259603ccab31829cc",
+      "byte_length": 1380192
+    },
+    {
+      "path": "public/global-history/observations/world_1900/manifest.json",
+      "sha256": "4fc1f9536e7479090bbeb0f28440882f4faecf639ccc24f4b5412b9353897f90",
+      "byte_length": 9941
+    },
+    {
+      "path": "public/global-history/observations/world_1900/geometry.geojson.json",
+      "sha256": "75f823aabe3d14c030a2e4635e6f4d22da18646e9e3bd942cf7526c23e361918",
+      "byte_length": 1379549
+    },
+    {
+      "path": "public/global-history/observations/world_1914/manifest.json",
+      "sha256": "f37c54b1d984130836f0bf4f1a17eb8a64b1bfc3d5bc8645269be7fda2bb7069",
+      "byte_length": 9995
+    },
+    {
+      "path": "public/global-history/observations/world_1914/geometry.geojson.json",
+      "sha256": "96e3732ab181322848cf356cdae678b84ba89ce8da3b6801907ce7a22afa4e7d",
+      "byte_length": 1480557
+    },
+    {
+      "path": "public/global-history/observations/world_1920/manifest.json",
+      "sha256": "6608d0e77eddbffc60ad901ffc380e0b320dcec6ffb56f05d90f570823fba79e",
+      "byte_length": 9929
+    },
+    {
+      "path": "public/global-history/observations/world_1920/geometry.geojson.json",
+      "sha256": "e640285dfb78465ab82be5cdab6a747b07007cbc6db1e669917fedcaada2e16f",
+      "byte_length": 1401224
+    },
+    {
+      "path": "public/global-history/observations/world_1930/manifest.json",
+      "sha256": "2fbb9225c20c19eaad9956c63ab0a1e191074e64a6b1404c2ba075a5f4d8f80e",
+      "byte_length": 10062
+    },
+    {
+      "path": "public/global-history/observations/world_1930/geometry.geojson.json",
+      "sha256": "2fe223a2d3a5917dbe326782335426d4852fe6dcfe52a682db8c21ad23ab4458",
+      "byte_length": 1518167
+    },
+    {
+      "path": "public/global-history/observations/world_1938/manifest.json",
+      "sha256": "5be078f0b96e4a42c9a28bf8cd48c28e04ff562c8d13867c43275c51bed0d8dc",
+      "byte_length": 10129
+    },
+    {
+      "path": "public/global-history/observations/world_1938/geometry.geojson.json",
+      "sha256": "babb8ead9521123485706294b4839624df14d60611ccaaeb3e820bca5a28f9e2",
+      "byte_length": 1641398
+    },
+    {
+      "path": "public/global-history/observations/world_1945/manifest.json",
+      "sha256": "503a44b3f1335f936054e8002e240c1033b80ad9d6a02e8bbd9fb53b38f7d908",
+      "byte_length": 10261
+    },
+    {
+      "path": "public/global-history/observations/world_1945/geometry.geojson.json",
+      "sha256": "8918c98dd78de0148896c2f758cb863a9dd9ef3941919884db1974ed8fcbc079",
+      "byte_length": 1540678
+    },
+    {
+      "path": "public/global-history/observations/world_1960/manifest.json",
+      "sha256": "7e4624f6702e9ca064eeb43dacbd07da6be2ad87377f29777266a382bca5685c",
+      "byte_length": 10194
+    },
+    {
+      "path": "public/global-history/observations/world_1960/geometry.geojson.json",
+      "sha256": "3113fbbb703e0e4aa85edeeaf0097afae4190d484e2c4ed5c47625c6bc0e4bca",
+      "byte_length": 1496847
+    },
+    {
+      "path": "public/global-history/observations/world_1994/manifest.json",
+      "sha256": "78023a54a5eae9b0659dbfe33fdac42369769756252c8d93a93862713a758a2c",
+      "byte_length": 10258
+    },
+    {
+      "path": "public/global-history/observations/world_1994/geometry.geojson.json",
+      "sha256": "425c6c02e6d9c5c585a40809510919a10fe4dd9c1df15932f71a2387c86f0a95",
+      "byte_length": 1841772
+    },
+    {
+      "path": "public/global-history/observations/world_2000/manifest.json",
+      "sha256": "4383c950d0799782f772787472e94baf495024b2a9f7ad340d11b7f23e0bd4c2",
+      "byte_length": 10260
+    },
+    {
+      "path": "public/global-history/observations/world_2000/geometry.geojson.json",
+      "sha256": "4811acfba65ab66db77aacfe95d134586630626b4d33ba716eac2ae669e62be5",
+      "byte_length": 1840874
+    },
+    {
+      "path": "public/global-history/observations/world_2010/manifest.json",
+      "sha256": "09179fe99706d68d0bb2d18901a388768b7438333c92caa482591ef02dbe1e5f",
+      "byte_length": 10260
+    },
+    {
+      "path": "public/global-history/observations/world_2010/geometry.geojson.json",
+      "sha256": "bb4ac2f55c43d8136e23df19667597b36c6375b93063a78ebff821c192770403",
+      "byte_length": 1840874
+    },
+    {
+      "path": "public/alpha/isles-bce200.geojson.json",
+      "sha256": "aea253cf549c74e7482ca5df591d4095480cbefc711a0aba551c5e99ba854192",
+      "byte_length": 13572
+    },
+    {
+      "path": "public/alpha/isles-bce100.geojson.json",
+      "sha256": "791e1938afe5cd8a3686bb3e391b389d7af5f8f275233aa6aad4cf2875f35136",
+      "byte_length": 13572
+    },
+    {
+      "path": "public/alpha/isles-bce1.geojson.json",
+      "sha256": "893142fa35ce9d942f658de9bd09cd51eb6d41daa70d253513626d56e3400979",
+      "byte_length": 5129
+    },
+    {
+      "path": "public/alpha/isles-100.geojson.json",
+      "sha256": "f0a2d580d4b11edd2d200e16d0af9a7973bf838cf803ef805db7518bacc363ed",
+      "byte_length": 9113
+    },
+    {
+      "path": "public/alpha/isles-200.geojson.json",
+      "sha256": "aeae3b338a3fbaad83a6d69c600c41ee0633932ac91c8819e8abc583fc987f84",
+      "byte_length": 9074
+    },
+    {
+      "path": "public/alpha/isles-300.geojson.json",
+      "sha256": "1c2118182fe13a22ef34a337dc146e8b91811eee2f90ceb71e6f16220eac21dd",
+      "byte_length": 1828
+    },
+    {
+      "path": "public/alpha/isles-400.geojson.json",
+      "sha256": "62af6761aff31661820a5c2f492c0cc7ea28addd9aef4bfd2021dbad964af3d1",
+      "byte_length": 7863
+    },
+    {
+      "path": "public/alpha/isles-500.geojson.json",
+      "sha256": "aa070da39a765b6c38cc256927ed9a142647c256ca5418771e76fff673c7240d",
+      "byte_length": 4889
+    },
+    {
+      "path": "public/alpha/isles-600.geojson.json",
+      "sha256": "c369b7813a3b8d4f059bc17eae4be160211d1b0b5ee7f31c839254f9ed4d3dbd",
+      "byte_length": 9392
+    },
+    {
+      "path": "public/alpha/isles-700.geojson.json",
+      "sha256": "1c5c7575e19bd26fec86ff0ac712b83827c3827690a6dd2a9b18d0eff63d8d07",
+      "byte_length": 9377
+    },
+    {
+      "path": "public/alpha/isles-800.geojson.json",
+      "sha256": "9ea9193e3de06eae878c6125bb8de267f350621458d8973258b473c9e6f4ed58",
+      "byte_length": 23799
+    },
+    {
+      "path": "public/alpha/isles-900.geojson.json",
+      "sha256": "bbe398337942e8b1a02201a19c0662fc11be59d3cff21b6f6ed3b233539bb8bb",
+      "byte_length": 15060
+    },
+    {
+      "path": "public/alpha/isles-1000.geojson.json",
+      "sha256": "65fcbcad00eac1ff0dc8b1fc4e409b2c85dc54acd74e58d256de8970ca4bd2ac",
+      "byte_length": 21259
+    },
+    {
+      "path": "public/alpha/isles-1100.geojson.json",
+      "sha256": "2f5294c3dab972645ecd17c56c4195dddcdae83a913f204a01a3e3c02b983559",
+      "byte_length": 21259
+    },
+    {
+      "path": "public/alpha/isles-1200.geojson.json",
+      "sha256": "792cc2c1ea6eb2f37fb2d9963154ff8f78cdc95787655581d0c0a3acb8c29bd6",
+      "byte_length": 22294
+    },
+    {
+      "path": "public/alpha/isles-1279.geojson.json",
+      "sha256": "433c036ced62620349a53c63352efa66f57ed2613986abb9172411c1c5ade1e2",
+      "byte_length": 23472
+    },
+    {
+      "path": "public/alpha/isles-1300.geojson.json",
+      "sha256": "168ac7603e345e6fb83ed63b137637813970c290e85bab72e3100f1f651e5d97",
+      "byte_length": 23472
+    },
+    {
+      "path": "public/alpha/isles-1400.geojson.json",
+      "sha256": "98f30f3af3dfd940eb3274ed3d0e3784fe7347aa3253eb364e3e117663fe9be7",
+      "byte_length": 36603
+    },
+    {
+      "path": "public/alpha/isles-1492.geojson.json",
+      "sha256": "4f399eec981e45fd480e4345281d72e346680c3ee4d6ef9484e6a27a2012ba5d",
+      "byte_length": 20122
+    },
+    {
+      "path": "public/alpha/isles-1500.geojson.json",
+      "sha256": "f2b07c2654a3117c0b29ac84197463d6bb7d73f5288e86a09e16b0e7b00878b4",
+      "byte_length": 20122
+    },
+    {
+      "path": "public/alpha/isles-1530.geojson.json",
+      "sha256": "ee2b348a01aa5673f8cc88efda4f720c70a083b79a728f1e4d6cfe04832f48a2",
+      "byte_length": 20438
+    },
+    {
+      "path": "public/alpha/isles-1600.geojson.json",
+      "sha256": "d7800b5778bca04acd3842ac4e9fb6184467734631942465b26fe34e8193980b",
+      "byte_length": 19476
+    },
+    {
+      "path": "public/alpha/isles-1650.geojson.json",
+      "sha256": "a78de08af238b706b529481248140c056826d60092db325f1a9dc7873117e239",
+      "byte_length": 21059
+    },
+    {
+      "path": "public/alpha/isles-1700.geojson.json",
+      "sha256": "154d2e5755a471bf174049df83334d7c073dedda32a8ee16f9659939eed96c16",
+      "byte_length": 18005
+    },
+    {
+      "path": "public/alpha/isles-1715.geojson.json",
+      "sha256": "374c9085896d45294395a7aa5dc7412d1632aae16632558e4d71553e2a018134",
+      "byte_length": 17973
+    },
+    {
+      "path": "public/alpha/isles-1783.geojson.json",
+      "sha256": "f1bb0fcfbe7b3bbc3e605f227417c409858def5445434f9c28adcfed59220141",
+      "byte_length": 17973
+    },
+    {
+      "path": "public/alpha/isles-1800.geojson.json",
+      "sha256": "93e81e925e56d78e66030630a284cec55faa35d9134ababb987922886093c7a4",
+      "byte_length": 16939
+    },
+    {
+      "path": "public/alpha/isles-1815.geojson.json",
+      "sha256": "14c8eff392bbfa38e223bb89509dae2741e3ca4a4e5ef44b1d2c6ef1ef8caeb7",
+      "byte_length": 16940
+    },
+    {
+      "path": "public/alpha/isles-1878.geojson.json",
+      "sha256": "6b4a70615538652a35b124b78268237a3e7cd60689f6499aa0dd8ba8ae947300",
+      "byte_length": 18216
+    },
+    {
+      "path": "public/alpha/isles-1880.geojson.json",
+      "sha256": "656dbb30c4866fcd6cf3871629453519af0f0577b55ef336f18862b63321cec3",
+      "byte_length": 17976
+    },
+    {
+      "path": "public/alpha/isles-1900.geojson.json",
+      "sha256": "4d3f02c1de307f599571db42ebf52bdfe91f770427dd60cb4f05c2dd8d7e68e8",
+      "byte_length": 17976
+    }
+  ],
+  "public_ledger_mutations": false
+}

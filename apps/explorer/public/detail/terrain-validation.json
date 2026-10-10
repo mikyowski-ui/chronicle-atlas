@@ -1,0 +1,15 @@
+{
+  "tile_hash_and_JPEG_decode": "PASS",
+  "all_tiles": 1365,
+  "hydrography_hash_schema_coordinates": "PASS",
+  "features": 2596,
+  "vertices": 354918,
+  "antimeridian_jump_features": [],
+  "validation_profile": "Compiler product validation only; browser integration not run by terrain agent.",
+  "deterministic_rebuild": "PASS",
+  "rebuild_products": {
+    "terrain.json": "a98f433c27538e45ffd5e4172cb576092fa9e85efc9010d6f27fde17f38bb712",
+    "terrain-tile-index.json": "2f9ecf4e316840c67874cd17b886c72d2a7ee1c4e3a6e98fc27dbf3a7e863c12",
+    "terrain-hydrography.geojson.gz": "f1d2efd83b843ff021464c351abbcd2742eabecdc5891e3ba5bc78d97bd36289"
+  }
+}

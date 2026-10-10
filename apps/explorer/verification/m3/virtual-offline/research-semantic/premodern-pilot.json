@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "id": "premodern-exchange-accounts",
+  "edition": "chronicle-teaching-local-2026-09-27/primary-accounts-v1",
+  "sourcePins": [
+    {
+      "id": "chronicle-primary-accounts",
+      "edition": "chronicle-teaching-local-2026-09-27/primary-accounts-v1",
+      "sha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+      "title": "Chronicle retained primary-account register (2026-09-27 local preview)",
+      "locator": "public/history/primary-accounts.json",
+      "rights": "authorized-local-preview",
+      "modelProcessing": false,
+      "republication": false
+    }
+  ],
+  "indicators": [
+    {
+      "id": "trade-node-description",
+      "label": "Recorded description of exchange or travel support",
+      "kind": "qualitative",
+      "unit": "qualitative-statement",
+      "allowedEvidence": [
+        "attested"
+      ]
+    }
+  ],
+  "bounds": {
+    "bbox": [
+      -7.024,
+      -8.9579,
+      102.2501,
+      39.6542
+    ],
+    "epoch": [
+      40,
+      1516
+    ]
+  },
+  "entities": [
+    {
+      "id": "account-place-barygaza",
+      "label": "Barygaza / Bharuch",
+      "coordinates": [
+        72.9959,
+        21.7051
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-khotan",
+      "label": "Khotan / Hotan oasis",
+      "coordinates": [
+        79.922,
+        37.114
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-samarkand",
+      "label": "Samarkand",
+      "coordinates": [
+        66.9597,
+        39.6542
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-kilwa",
+      "label": "Kilwa Kisiwani",
+      "coordinates": [
+        39.5205,
+        -8.9579
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-mogadishu",
+      "label": "Mogadishu",
+      "coordinates": [
+        45.3438,
+        2.0469
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-walata",
+      "label": "Walata / Oualata",
+      "coordinates": [
+        -7.024,
+        17.302
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-tabriz",
+      "label": "Tabriz",
+      "coordinates": [
+        46.2919,
+        38.08
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-calicut",
+      "label": "Calicut / Kozhikode",
+      "coordinates": [
+        75.7804,
+        11.2588
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    },
+    {
+      "id": "account-place-melaka",
+      "label": "Malacca / Melaka",
+      "coordinates": [
+        102.2501,
+        2.1896
+      ],
+      "spatialSupport": {
+        "definition": "Coordinates are approximate modern reference points for named places, not excavated author positions, historical city boundaries, or proof of political control.",
+        "comparability": "uncertain",
+        "uncertaintyKm": null
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "account-periplus-barygaza-first-century",
+      "entityId": "account-place-barygaza",
+      "indicatorId": "trade-node-description",
+      "value": "The guide lists imports and exports, navigation, inland connections and goods destined for rulers. It links western Indian ports with production zones and sea routes sustained by seasonal winds.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 40,
+        "endYear": 70,
+        "precision": "range",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 40,
+        "endYear": 70,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Anonymous Greek-language merchant or maritime observer",
+      "perspective": "Commercial information organized for a Greek-reading trading community.",
+      "limitations": [
+        "The first-century date window is approximate. A route guide is selective, and its attribution of discovery can hide earlier navigational knowledge.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/23",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "ed235aa37e2ddb451a3afc6443df160c088f1cdcde74a4602f820472e83f8004",
+        "bibliographySourceIds": [
+          "account-periplus"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-faxian-khotan-400-402",
+      "entityId": "account-place-khotan",
+      "indicatorId": "trade-node-description",
+      "value": "Faxian describes accommodation for travelling monks, collective support and Buddhist processions at Khotan. Religious institutions connect distant communities and help sustain travel across the Tarim Basin.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 400,
+        "endYear": 402,
+        "precision": "range",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 414,
+        "endYear": 416,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Faxian",
+      "perspective": "A Chinese Buddhist pilgrim seeking disciplinary texts and assessing monastic practice.",
+      "limitations": [
+        "Visit and composition windows are approximate. Large monk totals and universal statements about belief are not population statistics.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/9",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "ea4dfa9e78604ea9da218438b05faa5c45fb2e707b37c92bbb985f147eb97c18",
+        "bibliographySourceIds": [
+          "account-faxian",
+          "account-faxian-dating"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-xuanzang-samarkand-630",
+      "entityId": "account-place-samarkand",
+      "indicatorId": "trade-node-description",
+      "value": "The record describes a populous commercial centre, productive land, crafts and a ruler's military standing. Comparing this with Clavijo reveals continuity of exchange across different political and religious settings.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 630,
+        "endYear": 631,
+        "precision": "range",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 646,
+        "endYear": 646,
+        "precision": "year",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Xuanzang, compiled with Bianji",
+      "perspective": "A Buddhist pilgrim whose geographical report was produced at the Tang emperor's request.",
+      "limitations": [
+        "Distances, regional names and descriptions of authority require interpretation; praise of Tang rule belongs to the work's political setting.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/10",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "bff6ec5b34137eaf29101fefa6909ff5a4095cb0df220938291b3012b5ccebd1",
+        "bibliographySourceIds": [
+          "account-xuanzang"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-ibn-kilwa-1331",
+      "entityId": "account-place-kilwa",
+      "indicatorId": "trade-node-description",
+      "value": "The account places Kilwa within a coastal sailing itinerary and describes its built environment and ruler's religious patronage. It is evidence for African urban society participating in an Islamic maritime world.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1331,
+        "endYear": 1331,
+        "precision": "year",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1354,
+        "endYear": 1355,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "perspective": "A Muslim visitor assessing hospitality, piety and courtly generosity.",
+      "limitations": [
+        "A brief elite encounter. It cannot establish population percentages, territorial borders or when local people converted.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/1",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "3bc94ebdcc63638dabe6d634346764f1c4f5600baaa349d0dbe236ba98277487",
+        "bibliographySourceIds": [
+          "account-ibn-east-africa"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-ibn-mogadishu-1331",
+      "entityId": "account-place-mogadishu",
+      "indicatorId": "trade-node-description",
+      "value": "Merchant hosts receive arrivals and mediate their trading. Cloth production and exchange connect the port to other Indian Ocean markets.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1331,
+        "endYear": 1331,
+        "precision": "year",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1354,
+        "endYear": 1355,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "perspective": "An outsider hosted by merchants and introduced to the ruler.",
+      "limitations": [
+        "Recollection organized for readers in Morocco; sweeping characterizations of peoples are the author's judgments.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/2",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "61e972db8a4ee8f9665286ab6051bc4f5dadb395219b6f560ef47b3f91483207",
+        "bibliographySourceIds": [
+          "account-ibn-east-africa"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-ibn-walata-1352",
+      "entityId": "account-place-walata",
+      "indicatorId": "trade-node-description",
+      "value": "Caravan letters arrange lodging and water support before travellers reach Walata. A ruler's deputy, merchants and local guides make trans-Saharan movement possible.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1352,
+        "endYear": 1352,
+        "precision": "year",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1354,
+        "endYear": 1355,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Ibn Battuta, edited by Ibn Juzayy",
+      "perspective": "A traveller dependent on hospitality who disapproves of unfamiliar social customs.",
+      "limitations": [
+        "Ethnocentric judgments and interpretation through intermediaries require scrutiny. Walata is used instead of inventing a certain location for Mali's disputed capital.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/4",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "e58399bed880f9481850b29ea169d177788beea1f562a075b05d4bbcb1406a23",
+        "bibliographySourceIds": [
+          "account-ibn-travels"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-clavijo-samarkand-1404",
+      "entityId": "account-place-samarkand",
+      "indicatorId": "trade-node-description",
+      "value": "Clavijo describes markets, court ceremonies and skilled workers brought from conquered lands. Urban splendour is connected to both trade and forced relocation.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1404,
+        "endYear": 1404,
+        "precision": "year",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1406,
+        "endYear": 1412,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Ruy González de Clavijo",
+      "perspective": "A Castilian ambassador receiving privileged access at Timur's court.",
+      "limitations": [
+        "A staged diplomatic encounter; population claims and reported origins need corroboration. Composition window is approximate.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/5",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "06e7f28ba447b541fd72d0511e5588ab022ee8b884228b23e99ee83fac1eb715",
+        "bibliographySourceIds": [
+          "account-clavijo",
+          "account-clavijo-scan"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-clavijo-tabriz-1404",
+      "entityId": "account-place-tabriz",
+      "indicatorId": "trade-node-description",
+      "value": "The embassy encounters conduits, market streets and caravanserais selling textiles and other goods. The account shows the physical services supporting long-distance commerce.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1404,
+        "endYear": 1404,
+        "precision": "year",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1406,
+        "endYear": 1412,
+        "precision": "range",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Ruy González de Clavijo",
+      "perspective": "A diplomatic traveller using the Timurid relay and hospitality system.",
+      "limitations": [
+        "Personal observation is mixed with stories heard locally; access was not representative of an ordinary traveller.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/6",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "d23667002d5f9f66266e116bd343e02d2d4a99a2253b0d8223115bea07d5f4e1",
+        "bibliographySourceIds": [
+          "account-clavijo"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-barbosa-calicut-1500-1516",
+      "entityId": "account-place-calicut",
+      "indicatorId": "trade-node-description",
+      "value": "The description links pepper, ginger and other goods to inland production, merchants, shipping and royal duties. It lists destinations across the western Indian Ocean.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1500,
+        "endYear": 1516,
+        "precision": "range",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1516,
+        "endYear": 1516,
+        "precision": "year",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Duarte Barbosa (associated manuscript tradition)",
+      "perspective": "Portuguese commercial and imperial observation, informed partly by local knowledge.",
+      "limitations": [
+        "An accumulated account, not one year's survey. Prices, units and religious categories are historically specific; manuscript attribution is discussed in the edition.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/11",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "2f54624c4d5634ecd757b148e230794841594ca4dccd483dfeddd6f71c5fdccc",
+        "bibliographySourceIds": [
+          "account-barbosa"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    },
+    {
+      "id": "account-barbosa-malacca-1500-1516",
+      "entityId": "account-place-melaka",
+      "indicatorId": "trade-node-description",
+      "value": "The text describes a trading centre and the Portuguese seizure of it in 1511. It helps connect commercial networks with violence and changing control of a strategic port.",
+      "epistemicStatus": "attested",
+      "time": {
+        "startYear": 1500,
+        "endYear": 1516,
+        "precision": "range",
+        "meaning": "Period discussed by the account; an interval is not evidence of continuous activity."
+      },
+      "compositionTime": {
+        "startYear": 1516,
+        "endYear": 1516,
+        "precision": "year",
+        "meaning": "Account composition window; separate from the events described and later translation dates."
+      },
+      "author": "Duarte Barbosa (associated manuscript tradition)",
+      "perspective": "A Portuguese account presenting the conquest to an imperial readership.",
+      "limitations": [
+        "Claims about justified conquest and treatment of merchants are partisan. The window includes conditions before and after 1511.",
+        "The retained record supplies no quantified spatial uncertainty or statistical confidence interval."
+      ],
+      "confidence": {
+        "kind": "not-supplied",
+        "note": "No numeric confidence or probability is supplied. Approximate dates and reference coordinates are not measures of narrative reliability."
+      },
+      "provenance": {
+        "sourceId": "chronicle-primary-accounts",
+        "locator": "/accounts/12",
+        "sourceSha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+        "recordSha256": "18676eac6ff26a248e1b47503bfee9dbd51bb24e11ac9f78c07fb77e03f6a3cd",
+        "bibliographySourceIds": [
+          "account-barbosa"
+        ]
+      },
+      "derivation": null,
+      "reviewStatus": "source-attributed",
+      "supportNote": "Attested means a recorded account description is present in the retained source register. The value is its editorial summary, not a direct quotation, population measurement, quantified trade flow or newly verified eyewitness claim."
+    }
+  ],
+  "coverageNote": "Ten discontinuous source-attributed account descriptions at nine approximate modern place references, 40–1516 CE. Samarkand has separate records for 630–631 and 1404, with no interpolated connection. This is a bounded evidence-inspection fixture, not a global trade network, a measure of trade intensity, or a claim that places without records were inactive. No geometric routes, inferred edges, invented spatial radii, new primary quotations or numerical historical measurements are supplied. Existing translation and source-access rights are not generalized into republication or provider-processing permission."
+}

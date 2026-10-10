@@ -1,0 +1,22 @@
+{
+  "buildId": "chronicle-8d0829ebd21b4bd21dda135ae9b0da09eb32d2df93f696f1fdd01de7484c4311",
+  "status": "BLOCKED",
+  "navigationAttempt": {
+    "url": "http://localhost:4196/?verify=1",
+    "result": "net::ERR_CONNECTION_REFUSED",
+    "scope": "Built app server started in execution runtime; separate browser could not reach it. Attempt preceded final review-harness/rollback refinements; final build browser checks remain unrun."
+  },
+  "screenshots": [],
+  "currentPerformanceSamples": [],
+  "desktop": "BLOCKED",
+  "viewport375": "BLOCKED",
+  "saveReopenUI": "BLOCKED",
+  "keyboardAndLongText": "BLOCKED",
+  "productionBenchmark": "BLOCKED",
+  "physicalWindowsGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "actualMapLibreReload": "NOT RUN",
+  "browserReducedMotionEmulation": "NOT RUN",
+  "osReducedMotionTrue": "NOT RUN",
+  "bypassAttempted": false
+}

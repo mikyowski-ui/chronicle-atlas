@@ -1,0 +1,299 @@
+{
+  "schema": 1,
+  "status": "BLOCKED",
+  "generatedExecution": false,
+  "modelProcessing": false,
+  "environment": {
+    "platform": "win32",
+    "architecture": "x64",
+    "kernel": "10.0.26200",
+    "node": "v22.17.0"
+  },
+  "policy": {
+    "version": "m3-linux-fixed-v1",
+    "generatedExecution": false,
+    "modelProcessing": false,
+    "requestBytes": 65536,
+    "rows": 2000,
+    "entities": 2000,
+    "cpuSeconds": 2,
+    "cpuSecondsPerProcess": 1,
+    "wallMilliseconds": 2500,
+    "executionMilliseconds": 1500,
+    "addressSpaceBytes": 16777216,
+    "outputBytes": 4096,
+    "diagnosticBytes": 1024,
+    "scratchBytes": 0,
+    "guestProcesses": 1,
+    "guestThreads": 1,
+    "terminationMilliseconds": 1000,
+    "validatorMilliseconds": 1000,
+    "queue": 1
+  },
+  "runtimeSupport": {
+    "supportedHost": false,
+    "required": "linux-x64",
+    "reason": "UNSUPPORTED_PLATFORM",
+    "guestLaunched": false
+  },
+  "build": null,
+  "canaryObservations": {
+    "tcpConnections": 0,
+    "udpPackets": 0,
+    "fileHashUnchanged": true,
+    "note": "Endpoint counters and canary hashes are outside observations. BLOCKED bootstrap means no guest probe ran; zero counters are not confinement proof. No packet capture was available."
+  },
+  "results": [
+    {
+      "fixture": "network",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "filesystem",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "descriptors",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "processes",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "memory",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "environment",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "infinite-loop",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "output-flood",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "diagnostic-flood",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "malformed-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "markup-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "forged-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "crash",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "partial-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    },
+    {
+      "fixture": "transform-and-independent-native-validator",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE"
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE"
+    }
+  ],
+  "cleanup": true,
+  "threatModelMatrix": [
+    {
+      "id": "M3-01",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-02",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-03",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-04",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-05",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-06",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-07",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-08",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-09",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-10",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-11",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-12",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-13",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-14",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    },
+    {
+      "id": "M3-15",
+      "status": "BLOCKED",
+      "reason": "Native enforcing boundary unavailable; application and contract tests are not OS proof."
+    }
+  ],
+  "limits": [
+    "This harness never enables arbitrary generated execution or production activation.",
+    "Supported-host fixture PASS alone is not full M3 security certification: packet capture, all-platform review, and full threat-model matrix remain required.",
+    "Bootstrap failure blocks all downstream kernel enforcement and native validator acceptance.",
+    "Prelaunch rejection with no owned process is cleanup evidence only, not successful execution or memory enforcement."
+  ]
+}

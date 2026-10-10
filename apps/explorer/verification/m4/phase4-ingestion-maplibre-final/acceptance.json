@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "status": "FAIL",
+  "startedAt": "2026-10-09T19:04:06.048Z",
+  "command": [
+    "node",
+    "scripts/m3-headless-acceptance.mjs",
+    "--renderer",
+    "maplibre",
+    "--gates",
+    "ingestion"
+  ],
+  "runner": {
+    "node": "v22.17.0",
+    "platform": "win32",
+    "arch": "x64",
+    "kernel": "10.0.26200",
+    "cpus": 16,
+    "cpuModel": "AMD Ryzen 7 5800X 8-Core Processor             ",
+    "memoryBytes": 17099636736,
+    "scriptSHA256": "a3e56429fd667ab049ef57bd61c86e106cf36303cafa6c8b13707f3746473320",
+    "chromiumExecutable": "C:\\Users\\Juan\\AppData\\Local\\ms-playwright\\chromium-1243\\chrome-win64\\chrome.exe",
+    "chromiumSHA256": "9b07943f834485b43c9d54caea2951c78715f9f07070a80ab6658465ebd3e711"
+  },
+  "build": {
+    "schema_version": 1,
+    "build_id": "chronicle-db194ad434cfd15154111ecdf858918fc06624b25ebe2f429713288f1c5e96ad",
+    "source_commit": "4f9e32d74438b45ab5c16ba1a56fe69d8bd23542",
+    "source_worktree_dirty": true,
+    "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+    "source_fingerprint": "24a95609881e0bad57927dd356b893eaa1262cdc54fdd453e34c43c8b7948a73",
+    "source_file_count": 2425,
+    "source_scope": [
+      "apps/explorer/src/**",
+      "apps/explorer/research-semantic/** (excluding dependency/runtime caches)",
+      "apps/explorer/runtime-isolation/**",
+      "apps/explorer/verification-tools/** (excluding dependency/runtime caches)",
+      "packages/contracts/src/**",
+      "packages/runtime/src/**",
+      "packages/planner/src/**",
+      "packages/view-adapters/src/**",
+      "packages/contracts/package.json",
+      "packages/runtime/package.json",
+      "packages/planner/package.json",
+      "packages/view-adapters/package.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.json",
+      "apps/explorer/public/**",
+      "apps/explorer/index.html",
+      "apps/explorer/production-review.html",
+      "apps/explorer/vite.config.ts",
+      "apps/explorer/package.json",
+      "apps/explorer/pnpm-lock.yaml"
+    ],
+    "bundle_fingerprint": "44e1ebe1120965c54d28168dc9b6540d48e2418644b9bf23700d883b7b84e0b1",
+    "bundle_files": [
+      {
+        "path": "assets/index-Bk-2EmA7.js",
+        "byte_length": 4251161,
+        "sha256": "6afca2ed62be26d13f30a430580b8cad553277888eb9d8e66534358136762347"
+      },
+      {
+        "path": "assets/index-BKqeDIVX.css",
+        "byte_length": 181880,
+        "sha256": "5a4076274464be077965732e7fed8777c0fdddd093aa8e0a300d49f52b12522c"
+      },
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "byte_length": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "byte_length": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      },
+      {
+        "path": "assets/watt-1769-mechanism-Bn8Si0Sq.json",
+        "byte_length": 13234,
+        "sha256": "9838cf8fb53a034732a764d1433b3cf8c8e149b9e31323eeaea3e2b2825336db"
+      },
+      {
+        "path": "assets/watt-1769-specification-CmgIn0_F.json",
+        "byte_length": 4838,
+        "sha256": "6bbadef594a0b9d64bdb541717535a62f54365b891d8e64eb24e5a4cb197d86d"
+      },
+      {
+        "path": "index.html",
+        "byte_length": 525,
+        "sha256": "141c71cba2facbe627bbedbb1c0bdaa9dd8e8c34b4a6cd1ea855a9630865c179"
+      },
+      {
+        "path": "production-review.html",
+        "byte_length": 1667,
+        "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d"
+      }
+    ],
+    "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+  },
+  "requestedRenderer": "maplibre",
+  "browser": {
+    "version": "153.0.8010.12",
+    "engine": "Chromium",
+    "headless": true
+  },
+  "isolation": {
+    "servedFrom": "ephemeral 127.0.0.1 port",
+    "externalRequests": "abort all non-local page requests; service workers blocked",
+    "externalAttempts": []
+  },
+  "gates": {
+    "evidenceIngestion": {
+      "status": "FAIL",
+      "message": "page.waitForFunction: Timeout 30000ms exceeded."
+    }
+  },
+  "screenshots": [
+    {
+      "file": "ingestion-375-table.png",
+      "sha256": "23f648c4c3e973b042ec8264abba1f71e74a8fb246c14df71f4c30504c43fb41",
+      "width": 375,
+      "height": 812
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "ingestion-saved.json",
+      "sha256": "53346f958a50b434029d37c3e6eb3b7a4e9250794023f86ffe2916ceb6cb139a"
+    },
+    {
+      "file": "ingestion-reopened.json",
+      "sha256": "53346f958a50b434029d37c3e6eb3b7a4e9250794023f86ffe2916ceb6cb139a"
+    },
+    {
+      "file": "headless-trace.zip",
+      "sha256": "3021585ab2ec335f876994967481f88c03ad16df99b5e4b3eb182fd78b76311a"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "interpretation": "Actual headless Chromium DOM and the requested Atlas renderer. No physical mobile, hardware GPU, scanout, or OS preference certification.",
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED",
+  "finishedAt": "2026-10-09T19:04:42.961Z"
+}

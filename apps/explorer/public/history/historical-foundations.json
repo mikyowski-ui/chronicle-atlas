@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "title": "Power, environments, belief and language: sourced teaching cases",
+  "yearConvention": "Signed historical years: negative is BCE; no year zero. fromYear/toYear are inclusive teaching/evidence windows, not automatically the complete lifetime of an institution, language or environment.",
+  "geometryPolicy": "All coordinates are editorial geographic anchors. Relationship lines are schematic links, not borders or measured routes. Ecology polygons are hand-drawn teaching zones, not annual paleoclimate, modern classified biomes or historical population distributions. Belief/language points indicate situated evidence, never demographic prevalence.",
+  "coverageNote": "Selective 25-case foundation set with emphasis on medieval Eurasia and Africa. Blank areas or years mean no authored case here, not the absence of societies, beliefs, languages or ecological constraints.",
+  "sources": [
+    {
+      "id": "foundation-horodlo",
+      "title": "Union of Horodło (2 October 1413)",
+      "publisher": "Polish History Museum",
+      "url": "https://polishhistory.pl/union-of-horodlo-2-october-1413/",
+      "kind": "institutional-history",
+      "notes": "Explains shared political arrangements, the Lithuanian grand ducal election and privileges restricted to Catholic nobles; does not describe a unitary nation-state.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-timurid",
+      "title": "The Art of the Timurid Period (ca. 1370–1507)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-timurid-period-ca-1370-1507",
+      "kind": "institutional-history",
+      "notes": "Linda Komaroff / Suzan Yalman, 2002. Dynastic fragmentation and Persian court culture; no GIS boundary reconstruction.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-timurid-courts",
+      "title": "Timurids",
+      "publisher": "Museum With No Frontiers",
+      "url": "https://islamicart.museumwnf.org/dynasty.php?id=23",
+      "kind": "institutional-history",
+      "notes": "Supports Shah Rukh at Herat and Ulugh Beg at Samarkand from 1409. Other chronology on this short page contains typographical errors; those dates are not reused.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-sudan-polities",
+      "title": "The Empires of the Western Sudan",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-empires-of-the-western-sudan",
+      "kind": "institutional-history",
+      "notes": "2000 essay explicitly cautions against fixed boundaries or a single permanent capital for Ghana, Mali and Songhai.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-mali-scholarship",
+      "title": "The Mali Empire",
+      "publisher": "Incipit, Spanish National Research Council (CSIC); Oxford Research Encyclopedia of African History",
+      "url": "https://www.incipit.csic.es/es/produccion_cientifica/publicacion/seccion-de-libro/the-mali-empire",
+      "kind": "scholarly-history",
+      "notes": "Sirio Canós-Donnay, 2019. Verified institutional abstract and bibliography; identifies unresolved capital location and combined oral, written and archaeological evidence.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-mali-tribute",
+      "title": "The Empire of Mali (1230–1600)",
+      "publisher": "South African History Online",
+      "url": "https://sahistory.org.za/article/empire-mali-1230-1600",
+      "kind": "historical-education",
+      "notes": "Explains tribute from subordinate kingdoms. Broad educational account, read alongside Canós-Donnay and the Met; no specific 1415 tributary map is inferred.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-mamluk",
+      "title": "The Art of the Mamluk Period (1250–1517)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mamluk-period-1250-1517",
+      "kind": "institutional-history",
+      "notes": "Suzan Yalman, 2001. Cairo, military households, public foundations and provincial patronage.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-arabia",
+      "title": "Arabian Peninsula, 1400–1600 A.D.",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/toah/ht/08/wap.html",
+      "kind": "institutional-history",
+      "notes": "Chronology distinguishes fragmented rule, holy cities tied to Cairo and the later recognition of Ottoman suzerainty.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-jochids",
+      "title": "Golden Horde",
+      "publisher": "Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/golden-horde/",
+      "kind": "scholarly-history",
+      "notes": "Peter Jackson. Describes Orda’s eastern branch, Russian tributary lands, the approximate 1378 union and fifteenth-century fragmentation.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-athos",
+      "title": "Mount Athos",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/454",
+      "kind": "heritage-record",
+      "notes": "Dates first constitution to 972 and describes self-administration and Orthodox monastic continuity; a heritage account, not a population survey.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-steppe-oasis",
+      "title": "Silk Roads: the Routes Network of Chang’an–Tianshan Corridor",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1442",
+      "kind": "heritage-record",
+      "notes": "Describes interactions among pastoral, oasis and farming communities, water infrastructure and the second-century-BCE to sixteenth-century network.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-sahara",
+      "title": "Central Sahara: A Wet Past",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/central-sahara-a-wet-past-1486/",
+      "kind": "physical-geography",
+      "notes": "Modern satellite interpretation and paleoclimate summary for the central Sahara. Supports environmental context, not the hand-drawn teaching polygon or annual medieval climate.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-monsoon",
+      "title": "What Is a Monsoon?",
+      "publisher": "NOAA NESDIS",
+      "url": "https://www.nesdis.noaa.gov/about/k-12-education/severe-weather/what-monsoon",
+      "kind": "physical-geography",
+      "notes": "Explains seasonal wind reversal and South Asian summer rains. Does not reconstruct climate, rain totals or cultivation for any historical year.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-oases",
+      "title": "Silk Roads: Zarafshan–Karakum Corridor",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1675",
+      "kind": "heritage-record",
+      "notes": "Explains the importance of river crossings, irrigated valleys, oases and desert way stations for commerce and political power.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-ayyubid",
+      "title": "The Art of the Ayyubid Period (ca. 1171–1260)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ayyubid-period-ca-1171-1260",
+      "kind": "institutional-history",
+      "notes": "Linda Komaroff / Suzan Yalman, 2001. Identifies Sunni educational patronage and dated madrasas after the Fatimid period.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-hasan",
+      "title": "Mosque and Madrasa of Sultan Hasan",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/monuments/mosque-and-madrasa-of-sultan-hasan/",
+      "kind": "heritage-record",
+      "notes": "Construction dated 1356–1362; four madrasas taught the four Sunni schools of jurisprudence.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-safavid",
+      "title": "The Art of the Safavids before 1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+      "kind": "institutional-history",
+      "notes": "Dates the establishment of Shi‘i Islam as state religion under Isma‘il in 1501; this is state policy, not instant population conversion.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-chartres",
+      "title": "Chartres Cathedral",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/81/",
+      "kind": "heritage-record",
+      "notes": "Evidence for Marian pilgrimage and the twelfth- and thirteenth-century cathedral and school; no religious population estimates.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-mogao",
+      "title": "Mogao Caves",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/440",
+      "kind": "heritage-record",
+      "notes": "Buddhist sanctuaries, artistic exchange and multilingual manuscript evidence, with the principal chronology extending from the fourth to fourteenth centuries.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-kilwa",
+      "title": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/144/",
+      "kind": "heritage-record",
+      "notes": "Archaeology of Swahili commerce and Islam; the Great Mosque began in the eleventh century and was enlarged in the thirteenth.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-timbuktu",
+      "title": "Timbuktu",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/119/",
+      "kind": "heritage-record",
+      "notes": "Used for mosques and fifteenth/sixteenth-century scholarship only. Conflicting foundation dates and unsupported historical student/population totals on this page are not imported.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-dogon-history",
+      "title": "Western and Central Sudan, 1400–1600 A.D.",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/toah/ht/08/afu.html",
+      "kind": "institutional-history",
+      "notes": "Broad fifteenth/sixteenth-century account of Dogon settlement, village councils and religious art. Migration chronology is approximate and partly oral.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-bandiagara",
+      "title": "Cliff of Bandiagara (Land of the Dogons)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/516",
+      "kind": "heritage-record",
+      "notes": "Describes a cultural landscape and living sacred traditions. Present practices cannot be projected unchanged into every earlier century.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-sogdian",
+      "title": "Shipwrecked: Tang Treasures and Monsoon Winds — introduction",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia.si.edu/wp-content/uploads/2023/06/shipwrecked-01-intro.pdf",
+      "kind": "museum-publication",
+      "notes": "Published introduction, pp. 24–25, on Sogdian trade, language and religious exchange. The link opens a PDF rather than the retired exhibition homepage.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-timbuktu-texts",
+      "title": "Ancient Manuscripts from the Desert Libraries of Timbuktu — Overview",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/exhibits/mali/mali-overview.html",
+      "kind": "collection-guide",
+      "notes": "Separates a written tradition attested by the fourteenth century from the actual exhibited copies, dated sixteenth to eighteenth century.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-timbuktu-arabic",
+      "title": "Library of Congress Opens Exhibition on Ancient Manuscripts of Timbuktu on June 24",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/item/prn-03-109/",
+      "kind": "collection-guide",
+      "notes": "Identifies local authors’ principally Arabic manuscripts and the sixteenth- to eighteenth-century corpus. URL/content verified in the search index; direct page fetch returned 403 during review.",
+      "verifiedOn": "2026-09-27"
+    },
+    {
+      "id": "foundation-gilgit",
+      "title": "Gilgit Manuscript",
+      "publisher": "UNESCO Memory of the World",
+      "url": "https://www.unesco.org/en/memory-world/gilgit-manuscript?hub=1081",
+      "kind": "manuscript-record",
+      "notes": "Palaeographic dating to the fifth/sixth centuries; Buddhist hybrid Sanskrit and Gupta/Post-Gupta Brahmi scripts. Discovery location does not establish manuscript production location.",
+      "verifiedOn": "2026-09-27"
+    }
+  ],
+  "features": [
+    {
+      "id": "foundation-horodlo-union",
+      "title": "Poland and Lithuania: negotiated union",
+      "category": "power",
+      "fromYear": 1413,
+      "toYear": 1430,
+      "summary": "The Horodło settlement linked the Polish Crown and the Grand Duchy through rules for choosing rulers, joint deliberation and noble privileges. Lithuania retained a separate grand duke; participation and privileges were unequal, including a distinction between Catholic and other nobles.",
+      "limitations": "A link between political centres, not a border, annexation or tributary relation. The window covers the settlement under Jogaila and Vytautas; later unions need their own entries.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.94,
+            50.06
+          ],
+          [
+            25.28,
+            54.69
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-horodlo"
+      ],
+      "certainty": "schematic",
+      "relationship": "autonomous",
+      "polityNames": [
+        "Poland",
+        "Lithuania",
+        "Poland-Lithuania"
+      ]
+    },
+    {
+      "id": "foundation-timurid-court-link",
+      "title": "Herat and Samarkand: dynastic government",
+      "category": "power",
+      "fromYear": 1409,
+      "toYear": 1447,
+      "summary": "Shah Rukh governed from Herat while his son Ulugh Beg held Samarkand. Timurid power worked through members of a ruling family and their courts; the connections between those centres matter as much as an outer imperial outline.",
+      "limitations": "Line denotes a dynastic relationship, not a road or a measured degree of control. It does not restore all of Timur’s conquests as territory held in 1415.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            62.2,
+            34.35
+          ],
+          [
+            66.97,
+            39.65
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-timurid",
+        "foundation-timurid-courts"
+      ],
+      "certainty": "schematic",
+      "relationship": "core",
+      "polityNames": [
+        "Timurid Empire",
+        "Timurids"
+      ]
+    },
+    {
+      "id": "foundation-mali-layered-rule",
+      "title": "Mali: tribute, trade and uncertain capitals",
+      "category": "power",
+      "fromYear": 1250,
+      "toYear": 1450,
+      "summary": "Mali combined royal authority with subordinate kingdoms, tribute and control of exchange. Sources do not establish a single fixed frontier, and even the location and nature of its capital or capitals remain debated.",
+      "limitations": "Regional context marker in the upper Niger area, not a located capital. The teaching window is broad; no list of tributaries or exact 1415 tribute catchment is claimed.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5,
+          12.5
+        ]
+      },
+      "sourceIds": [
+        "foundation-sudan-polities",
+        "foundation-mali-scholarship",
+        "foundation-mali-tribute"
+      ],
+      "certainty": "schematic",
+      "relationship": "tributary",
+      "polityNames": [
+        "Mali",
+        "Mali Empire"
+      ]
+    },
+    {
+      "id": "foundation-mamluk-cairo-core",
+      "title": "Cairo: a centre of Mamluk government",
+      "category": "power",
+      "fromYear": 1250,
+      "toYear": 1517,
+      "summary": "Cairo housed the Mamluk sultanate’s central court. Military households, recruitment and elite patronage shaped its government; succession did not follow a simple hereditary national monarchy.",
+      "limitations": "A documented government centre does not make every area inside a source polygon equally administered. The point does not delineate an imperial core boundary.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.26,
+          30.03
+        ]
+      },
+      "sourceIds": [
+        "foundation-mamluk"
+      ],
+      "certainty": "approximate",
+      "relationship": "core",
+      "polityNames": [
+        "Mamluke Sultanate",
+        "Mamluk Sultanate",
+        "Mamluks"
+      ]
+    },
+    {
+      "id": "foundation-mamluk-holy-cities",
+      "title": "Cairo and Mecca: overlapping authority",
+      "category": "power",
+      "fromYear": 1400,
+      "toYear": 1517,
+      "summary": "The holy cities were tied to Mamluk Cairo within a politically fragmented Arabian Peninsula. Religious patronage and pilgrimage connected these centres while local rulers remained part of the political landscape; Ottoman suzerainty followed in 1517.",
+      "limitations": "Schematic connection, not continuous directly administered land or a reconstructed pilgrimage route. The strength of authority changed over time.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.26,
+            30.03
+          ],
+          [
+            39.83,
+            21.42
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-arabia"
+      ],
+      "certainty": "schematic",
+      "relationship": "influence",
+      "polityNames": [
+        "Mamluke Sultanate",
+        "Mamluk Sultanate",
+        "Mecca"
+      ]
+    },
+    {
+      "id": "foundation-jochids-eastern-chronology",
+      "title": "Eastern Jochids: question the “White Horde” outline",
+      "category": "power",
+      "fromYear": 1400,
+      "toYear": 1450,
+      "summary": "The eastern Jochid branch associated with Orda is often called the White Horde. Jackson dates its union with Tokhtamysh’s Golden Horde to about 1378, followed by fifteenth-century fragmentation. A stable independent “White Horde” boundary in 1415 therefore needs separate justification.",
+      "limitations": "Point marks the general eastern steppe context, not a capital or a claim that one successor controlled this location in every displayed year. This is a chronology question, not a replacement border.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67,
+          47
+        ]
+      },
+      "sourceIds": [
+        "foundation-jochids"
+      ],
+      "certainty": "schematic",
+      "polityNames": [
+        "White Horde",
+        "Golden Horde"
+      ]
+    },
+    {
+      "id": "foundation-horde-rus-tribute",
+      "title": "Golden Horde and Rus: tributary relationship",
+      "category": "power",
+      "fromYear": 1260,
+      "toYear": 1359,
+      "summary": "The Golden Horde held tributary relationships with Russian lands while its rulers and court were based in the lower Volga region. Tribute and local rule should not be confused with uniform provincial administration.",
+      "limitations": "The line links the lower Volga and Vladimir as illustrative nodes. It is not a payment itinerary, a complete list of tributaries or proof of uninterrupted submission.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            45.3,
+            47.2
+          ],
+          [
+            40.41,
+            56.13
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-jochids"
+      ],
+      "certainty": "schematic",
+      "relationship": "tributary",
+      "polityNames": [
+        "Golden Horde",
+        "Vladimir"
+      ]
+    },
+    {
+      "id": "foundation-athos-autonomy",
+      "title": "Athos: self-administered monastic institutions",
+      "category": "power",
+      "fromYear": 972,
+      "toYear": 1500,
+      "summary": "Athos’s monastic communities possessed a self-administered status in Byzantine times; the first constitution is dated 972. Such institutions show how authority could be nested within larger political systems.",
+      "limitations": "The point identifies a monastic community, not an independent territorial state. The displayed medieval window does not imply that autonomy ended in 1500.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.15,
+          40.26
+        ]
+      },
+      "sourceIds": [
+        "foundation-athos"
+      ],
+      "certainty": "approximate",
+      "relationship": "autonomous",
+      "polityNames": [
+        "Byzantine Empire",
+        "Ottoman Empire"
+      ]
+    },
+    {
+      "id": "foundation-steppe-context",
+      "title": "Eurasian steppe: pastoral and settled exchange",
+      "category": "ecology",
+      "fromYear": 1000,
+      "toYear": 1700,
+      "summary": "Pastoral mobility, seasonal resources and trade with farming and oasis communities help explain steppe political networks. UNESCO’s Silk Roads record emphasizes their interdependence rather than a simple divide between nomads and cities.",
+      "limitations": "Hand-drawn continental teaching zone, not a biome measurement or an ethnic boundary. Its 1000–1700 window is a teaching scope, not the origin or end of pastoralism.",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28,
+              48
+            ],
+            [
+              39,
+              51
+            ],
+            [
+              55,
+              52
+            ],
+            [
+              70,
+              55
+            ],
+            [
+              92,
+              51
+            ],
+            [
+              116,
+              50
+            ],
+            [
+              118,
+              45
+            ],
+            [
+              99,
+              43
+            ],
+            [
+              79,
+              46
+            ],
+            [
+              58,
+              45
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              34,
+              46
+            ],
+            [
+              28,
+              48
+            ]
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-steppe-oasis"
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "foundation-sahara-context",
+      "title": "Sahara: water, distance and oasis constraints",
+      "category": "ecology",
+      "fromYear": 500,
+      "toYear": 1800,
+      "summary": "Aridity and the spacing of water sources shaped journeys across the Sahara. Its earlier wetter past also warns against treating ecology as timeless: climate and the suitability of routes changed over long periods.",
+      "limitations": "Hand-drawn broad desert context; not the desert edge, rainfall or vegetation of a selected year. This medieval/early modern display window deliberately avoids projecting the same shape into the African Humid Period.",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15,
+              22
+            ],
+            [
+              -8,
+              29
+            ],
+            [
+              5,
+              31
+            ],
+            [
+              20,
+              30
+            ],
+            [
+              31,
+              26
+            ],
+            [
+              32,
+              20
+            ],
+            [
+              21,
+              17
+            ],
+            [
+              10,
+              17
+            ],
+            [
+              -3,
+              18
+            ],
+            [
+              -15,
+              22
+            ]
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-sahara"
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "foundation-monsoon-context",
+      "title": "South Asia: seasonal monsoon environment",
+      "category": "ecology",
+      "fromYear": 500,
+      "toYear": 1800,
+      "summary": "The seasonal reversal of winds brings summer moisture to much of South Asia and creates recurring constraints for agriculture and seaborne travel. Seasonal ecology can connect coasts that political borders separate.",
+      "limitations": "Illustrative South Asian study zone, not a historical rainfall or rice-growing map. Modern physical explanation is used as context; intensity, local exceptions and annual medieval weather are not reconstructed.",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68,
+              23
+            ],
+            [
+              73,
+              29
+            ],
+            [
+              80,
+              30
+            ],
+            [
+              89,
+              27
+            ],
+            [
+              93,
+              22
+            ],
+            [
+              88,
+              19
+            ],
+            [
+              82,
+              15
+            ],
+            [
+              79,
+              6
+            ],
+            [
+              75,
+              8
+            ],
+            [
+              72,
+              16
+            ],
+            [
+              68,
+              23
+            ]
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-monsoon"
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "foundation-oasis-corridor-context",
+      "title": "Zarafshan–Karakum: oases and river crossings",
+      "category": "ecology",
+      "fromYear": -200,
+      "toYear": 1600,
+      "summary": "Dry steppe, desert, irrigated valleys and river crossings shaped a chain of settlements through Central Asia. Water management and places where travellers could resupply helped make these corridors strategically valuable.",
+      "limitations": "Selected anchors near Samarkand, Bukhara and Merv indicate environmental contrasts. The joining line is schematic, not the surveyed extent of irrigation or a single invariant road.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.97,
+            39.65
+          ],
+          [
+            64.42,
+            39.77
+          ],
+          [
+            62.18,
+            37.66
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-oases"
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "foundation-ayyubid-sunni-cairo",
+      "title": "Cairo: Ayyubid Sunni educational patronage",
+      "category": "belief",
+      "fromYear": 1243,
+      "toYear": 1250,
+      "summary": "The madrasa of al-Salih Najm al-Din Ayyub, dated 1243, is evidence of Ayyubid support for Sunni education following the Fatimid period. A dated institution is a firmer observation than a uniform colour over all Egypt.",
+      "limitations": "Point records institutional patronage, not the faith of every resident. Ending this Ayyubid teaching window does not mark the disappearance of the school or of Sunni Islam.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.26,
+          30.05
+        ]
+      },
+      "sourceIds": [
+        "foundation-ayyubid"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-cairo-sunni-hasan",
+      "title": "Cairo: four Sunni schools of law",
+      "category": "belief",
+      "fromYear": 1362,
+      "toYear": 1517,
+      "summary": "Sultan Hasan’s mosque and madrasa complex, built in 1356–1362, contained institutions for teaching the four Sunni schools of jurisprudence. It provides a local, dated example of religious learning under the Mamluks.",
+      "limitations": "The late construction date starts this evidence window conservatively. The point measures neither population share nor religious uniformity; the 1517 endpoint closes the Mamluk study period, not the building’s life.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.256,
+          30.032
+        ]
+      },
+      "sourceIds": [
+        "foundation-hasan"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-safavid-shia-policy",
+      "title": "Tabriz: Shi‘i Islam becomes Safavid state policy",
+      "category": "belief",
+      "fromYear": 1501,
+      "toYear": 1555,
+      "summary": "Isma‘il established Shi‘i Islam as the religion of the Safavid state on his accession in 1501. The court decision begins a process of religious transformation; it does not show that every subject converted at once.",
+      "limitations": "A policy marker at the early court centre. It is not a Shia population map; the bounded Tabriz study window does not imply that the policy ended in 1555.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.3,
+          38.08
+        ]
+      },
+      "sourceIds": [
+        "foundation-safavid"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-athos-orthodox",
+      "title": "Athos: Orthodox monastic continuity",
+      "category": "belief",
+      "fromYear": 1054,
+      "toYear": 1600,
+      "summary": "The monasteries of Athos were an influential centre of Orthodox Christianity across changes of political rule. Their history continues beyond the fall of Constantinople, illustrating institutions that outlast dynasties.",
+      "limitations": "An institutional evidence point, not a boundary between Orthodox and Catholic populations. The 1600 endpoint is the end of this teaching window, not the end of the tradition.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.15,
+          40.26
+        ]
+      },
+      "sourceIds": [
+        "foundation-athos"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-chartres-latin-christianity",
+      "title": "Chartres: Latin Christian pilgrimage and learning",
+      "category": "belief",
+      "fromYear": 1200,
+      "toYear": 1500,
+      "summary": "Chartres’s cathedral, school and Marian pilgrimage drew people into a religious network extending beyond a single ruler’s lands. Surviving architecture and glass document this medieval centre of Western Christianity.",
+      "limitations": "Point identifies a pilgrimage and learning centre, not a religious census. The medieval study window is approximate and does not imply disappearance in 1500.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.49,
+          48.45
+        ]
+      },
+      "sourceIds": [
+        "foundation-chartres"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-mogao-buddhist",
+      "title": "Mogao: Buddhist art and cultural exchange",
+      "category": "belief",
+      "fromYear": 400,
+      "toYear": 1400,
+      "summary": "The caves near Dunhuang preserve Buddhist sanctuaries and evidence of exchange among China, Central Asia and India across roughly a millennium. Their manuscripts also show that religious and linguistic plurality coexisted along the routes.",
+      "limitations": "A rounded fifth–fourteenth-century study window for a much longer sacred site history. The UNESCO page gives a 1386 terminal Yuan date, an apparent typographical discrepancy; this layer does not adopt that as a dynastic boundary. The point marks a Buddhist institution and artistic corpus, not the religious composition of Dunhuang or a homogeneous surrounding region.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.81,
+          40.04
+        ]
+      },
+      "sourceIds": [
+        "foundation-mogao"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-kilwa-islam",
+      "title": "Kilwa: a mosque within Swahili commerce",
+      "category": "belief",
+      "fromYear": 1200,
+      "toYear": 1500,
+      "summary": "Kilwa’s Great Mosque, founded earlier and enlarged in the thirteenth century, situates Islamic religious life inside a Swahili trading city. Archaeology connects the town to Indian Ocean exchange, rather than requiring a story of territorial conquest.",
+      "limitations": "A bounded medieval urban case study, not a date of first conversion or a map of inland religious affiliation. The mosque’s exact annual congregation is unknown.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.52,
+          -8.96
+        ]
+      },
+      "sourceIds": [
+        "foundation-kilwa"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-timbuktu-scholarship",
+      "title": "Timbuktu: mosques, books and Islamic scholarship",
+      "category": "belief",
+      "fromYear": 1400,
+      "toYear": 1600,
+      "summary": "Timbuktu’s mosques and madrasas made the city a major centre of Islamic scholarship in the fifteenth and sixteenth centuries. Books, teachers and students created connections that political border maps alone cannot represent.",
+      "limitations": "Institutional evidence, not an estimate of Muslim population share. No historical student count or population total is inferred from the heritage description.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0,
+          16.77
+        ]
+      },
+      "sourceIds": [
+        "foundation-timbuktu"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-dogon-sacred-landscape",
+      "title": "Bandiagara: village authority and sacred landscape",
+      "category": "belief",
+      "fromYear": 1400,
+      "toYear": 1700,
+      "summary": "Dogon communities in the Bandiagara region developed small settlements adapted to difficult terrain, with village councils and art concerned with the fertility of land and people. Sacred landscapes complicate any picture of West Africa as religiously uniform.",
+      "limitations": "Broad chronology combines oral history, art history and heritage interpretation. It is not a claim that every present-day rite existed unchanged in 1415, or that all inhabitants shared one identity.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4,
+          14.33
+        ]
+      },
+      "sourceIds": [
+        "foundation-dogon-history",
+        "foundation-bandiagara"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-sogdian-language-network",
+      "title": "Sogdian: a language of transregional exchange",
+      "category": "language",
+      "fromYear": 400,
+      "toYear": 800,
+      "summary": "Sogdian merchants, translators and communities connected Central Asia with China. Texts and material evidence show language accompanying trade and religious exchange, without matching the borders of one state.",
+      "limitations": "The schematic Samarkand–Dunhuang connection represents a network, not a single trip or an exclusive language zone. The fifth–eighth-century emphasis does not claim that the language vanished in 800.",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.97,
+            39.65
+          ],
+          [
+            75.99,
+            39.47
+          ],
+          [
+            82.96,
+            41.72
+          ],
+          [
+            94.66,
+            40.14
+          ]
+        ]
+      },
+      "sourceIds": [
+        "foundation-sogdian"
+      ],
+      "certainty": "schematic"
+    },
+    {
+      "id": "foundation-herat-persian-literature",
+      "title": "Herat: Persian literary and court culture",
+      "category": "language",
+      "fromYear": 1409,
+      "toYear": 1507,
+      "summary": "Timurid patronage helped make Herat a centre for Persian literary manuscripts, painting and scholarship. A dynasty’s political identity and its court’s cultural language cannot be read as a census of the surrounding population.",
+      "limitations": "A court-culture evidence point, not an assertion that every inhabitant spoke Persian. The window covers a Timurid chapter of a much longer literary history.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2,
+          34.35
+        ]
+      },
+      "sourceIds": [
+        "foundation-timurid"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-timbuktu-arabic-manuscripts",
+      "title": "Timbuktu: Arabic manuscript scholarship",
+      "category": "language",
+      "fromYear": 1500,
+      "toYear": 1800,
+      "summary": "Manuscripts by local scholars, primarily in Arabic, record subjects from religion and law to astronomy and medicine. The Library of Congress exhibition provides examples from the sixteenth through eighteenth centuries.",
+      "limitations": "Dates describe the exhibited corpus, not the first local use of Arabic. Many languages were spoken locally; the language of manuscripts is not a population-language map.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0,
+          16.77
+        ]
+      },
+      "sourceIds": [
+        "foundation-timbuktu-texts",
+        "foundation-timbuktu-arabic"
+      ],
+      "certainty": "approximate"
+    },
+    {
+      "id": "foundation-gilgit-sanskrit-manuscripts",
+      "title": "Gilgit: Buddhist hybrid Sanskrit manuscripts",
+      "category": "language",
+      "fromYear": 400,
+      "toYear": 600,
+      "summary": "Manuscripts found in the Gilgit region preserve Buddhist hybrid Sanskrit in Gupta and Post-Gupta Brahmi scripts. Their palaeographic dating to the fifth and sixth centuries makes them a specific language-and-text observation.",
+      "limitations": "Marker gives the discovery region, not a proven place of composition or a Sanskrit-speaking demographic zone. Palaeographic centuries do not supply an exact composition year.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.31,
+          35.92
+        ]
+      },
+      "sourceIds": [
+        "foundation-gilgit"
+      ],
+      "certainty": "approximate"
+    }
+  ]
+}

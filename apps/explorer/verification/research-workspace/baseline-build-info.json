@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "build_id": "chronicle-a291668ccb5651a69ec319fea61f5f79889ea37d1c0a53b01a86d5d11b7203f3",
+  "source_commit": null,
+  "source_worktree_dirty": null,
+  "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+  "source_fingerprint": "204a8bd29b0b58db8b66db54354bdff08950e95b77d4ba18d8f6ae239362355b",
+  "source_file_count": 2328,
+  "source_scope": [
+    "apps/explorer/src/**",
+    "packages/contracts/src/**",
+    "apps/explorer/public/**",
+    "apps/explorer/index.html",
+    "apps/explorer/vite.config.ts",
+    "apps/explorer/package.json",
+    "apps/explorer/pnpm-lock.yaml"
+  ],
+  "bundle_fingerprint": "6afa96dfcb96ba48f27a3ab17678dbdd43ad2f08ea973614a7c4111e8bf1eafa",
+  "bundle_files": [
+    {
+      "path": "assets/index-C5Ms0-RX.js",
+      "byte_length": 3969189,
+      "sha256": "41e4b9af7ec371164c2af25f1274db531757d57f0908aaec831f7f0826c6b1cd"
+    },
+    {
+      "path": "assets/index-slQPeMjK.css",
+      "byte_length": 159727,
+      "sha256": "0bd56bc54464d0ca61004cb0adb47d0978c6b887a1ff4ad90fc2452dc43c4dc0"
+    },
+    {
+      "path": "index.html",
+      "byte_length": 525,
+      "sha256": "64c47fee510f884f81bb83629759000101ad5d9583500e70bbae8cd0dd219ce1"
+    }
+  ],
+  "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+}

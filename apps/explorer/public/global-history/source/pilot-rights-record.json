@@ -1,0 +1,31 @@
+{
+  "source_id": "ourednik-basemaps",
+  "title": "Historical boundaries of world countries and cultural regions",
+  "author_credit": "André Ourednik and contributors",
+  "pinned_revision": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "edition_url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "license": "GPL-3.0",
+  "license_record": {
+    "path": "LICENSE",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  "attribution_and_limitations_record": {
+    "path": "README.md",
+    "sha256": "cbd9b99a5969785c532b901293ad77391223ea3223e1eb042e78a6704f01f76e"
+  },
+  "retention": "Retain exact pinned GeoJSON and metadata bytes plus GPL-3.0 text. Preserve source identification and notices in derivative data packages.",
+  "modification_notice": "Chronicle applies classification, deterministic cell intersection and independent cultural/source-political-association views; these are Chronicle transformations of the pinned source. Original geometry bytes remain separate.",
+  "authorization": "User authorized bounded collection, normalization, classification, staged ingestion, compilation and local preview on this turn; historical/public publication remains unapproved.",
+  "scholarly_status": "Source-attributed overview reconstruction. Source author requests independent verification for academic use. Classification of label semantics is not historical certification.",
+  "prohibited_inferences": [
+    "No index country label alone establishes sovereignty.",
+    "No PARTOF cultural region becomes a political relationship.",
+    "No SUBJECTO self-label or colonial-power label silently becomes source-independent control.",
+    "No carry-forward between snapshot files.",
+    "No source input before200BCE.",
+    "No guessed corroborating evidence or source-feature historical precision."
+  ],
+  "spatial_precision": "Continental/global scale; preserve BORDERPRECISION ordinal1approximate,2moderate,3source-described legal boundary as source metadata, not Chronicle certification. Source acknowledges possible20km shifts.",
+  "temporal_precision": "Snapshot filename/index gives nominal historical year; convert BCE to internal astronomical numbering. Coarse and uncertain snapshot meaning must survive ingestion; calendar-year envelope is not exact dated events.",
+  "lineage_limitations": "README credits diverse compiled sources and anonymous ThinkQuest Team C006628 material. Individual feature source citations are generally absent; no independent source-original documentary authentication is claimed."
+}

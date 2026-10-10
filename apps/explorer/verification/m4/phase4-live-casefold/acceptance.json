@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "startedAt": "2026-10-09T18:40:20.022Z",
+  "platform": "win32",
+  "node": "v22.17.0",
+  "live": true,
+  "modelOptIn": true,
+  "query": "Q84",
+  "historicalModelProcessing": false,
+  "importedFileModelProcessing": false,
+  "disclosure": "Only explicitly authorized public Wikidata metadata can enter the Node-only provider. No keys, source text, prompts or raw provider errors are recorded.",
+  "checks": [
+    {
+      "name": "real-wikidata-retrieval-and-host-validation",
+      "status": "PASS",
+      "records": 3,
+      "geometryRecords": 2,
+      "temporalRecords": 0,
+      "recordIds": [
+        "wikidata:Q84:2003f6a5c84c5ad4c91cb934",
+        "wikidata:Q84:3d60038d90804cc68b00b014",
+        "wikidata:Q84:78d1493b442807dcbdeddd8e"
+      ],
+      "sourceHashes": [
+        "2a34ddad401d8aaeb7b125f3a0b0e2962e2c1aadf58b205293661f45381c9e22"
+      ],
+      "resultHash": "20d57bb27c792df8c3b703d05f484c457e2e8f51cf973c05297d9ae6937f901a"
+    },
+    {
+      "name": "wikidata-only-gemini-grounded-layout",
+      "status": "PASS",
+      "specificationHash": "b7fa8bb7ad2636d6152508d3e64bced3047115b5f1037625464c7f717e812e16"
+    },
+    {
+      "name": "warm-pinned-reference-replay-without-network-or-model",
+      "status": "PASS",
+      "sha256": "35ae2bdcd2581db8d323b8c1d646dd7008276b1357c5b357f3126f9f7db53ce2"
+    }
+  ],
+  "sourceHTTPStatus": 200,
+  "retryAfterSeconds": null,
+  "sourceRequests": 1,
+  "provider": {
+    "requests": 1,
+    "reportedTokens": 1218,
+    "remainingSessionTokens": 21343,
+    "lastHTTPStatus": 200,
+    "active": false,
+    "disposed": false
+  },
+  "finishedAt": "2026-10-09T18:40:32.327Z"
+}

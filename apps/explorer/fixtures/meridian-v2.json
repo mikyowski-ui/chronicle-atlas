@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "fixture_kind": "synthetic",
+  "edition": "meridian-v2",
+  "initial_time": -354285,
+  "epochs": [
+    {
+      "epoch_id": "meridian-950",
+      "t_start": -372547,
+      "t_end": -336023,
+      "territories": [
+        {"entity_id":"synthetic:aster","render_id":"aster:950-1050:main","territory_state_id":"aster:state:01","coordinates":[[[-22,39],[-19,35],[-14,34],[-9,36],[-8,40],[-10,43],[-8,47],[-12,51],[-17,50],[-20,46],[-19,43],[-22,39]]]},
+        {"entity_id":"synthetic:boreal","render_id":"boreal:950-1050:main","territory_state_id":"boreal:state:01","coordinates":[[[-4,47],[-3,43],[1,42],[3,44],[7,43],[11,46],[10,49],[13,52],[8,55],[4,54],[0,55],[-3,51],[-4,47]]]},
+        {"entity_id":"synthetic:cedar","render_id":"cedar:950-1050:main","territory_state_id":"cedar:state:01","coordinates":[[[1,35],[3,31],[8,30],[12,33],[11,37],[8,40],[5,38],[1,35]]]},
+        {"entity_id":"synthetic:cedar","render_id":"cedar:950-1050:east","territory_state_id":"cedar:state:01","coordinates":[[[14,34],[17,32],[20,35],[18,38],[15,37],[14,34]]]},
+        {"entity_id":"synthetic:cedar","render_id":"cedar:950-1050:north","territory_state_id":"cedar:state:01","coordinates":[[[15,40],[17,39],[20,41],[18,43],[16,42],[15,40]]]}
+      ],
+      "population": [
+        {"render_id":"density:950:01","density":16,"coordinates":[[[-19,38],[-15,38],[-15,42],[-19,42],[-19,38]]]},
+        {"render_id":"density:950:02","density":160,"coordinates":[[[-15,42],[-11,42],[-11,46],[-15,46],[-15,42]]]},
+        {"render_id":"density:950:03","density":28,"coordinates":[[[-1,45],[3,45],[3,49],[-1,49],[-1,45]]]},
+        {"render_id":"density:950:04","density":260,"coordinates":[[[4,49],[8,49],[8,53],[4,53],[4,49]]]},
+        {"render_id":"density:950:05","density":120,"coordinates":[[[5,33],[9,33],[9,37],[5,37],[5,33]]]},
+        {"render_id":"density:950:06","density":12,"coordinates":[[[15,34],[19,34],[19,38],[15,38],[15,34]]]}
+      ],
+      "migration": [
+        {"render_id":"migration:950:aster-cedar","magnitude":1200,"coordinates":[[-15,41],[-11,35],[-3,32],[8,35]]}
+      ]
+    },
+    {
+      "epoch_id": "meridian-1050",
+      "t_start": -336023,
+      "t_end": -299499,
+      "territories": [
+        {"entity_id":"synthetic:aster","render_id":"aster:1050-1150:main","territory_state_id":"aster:state:02","coordinates":[[[-22,39],[-19,35],[-14,34],[-8,35],[-4,39],[-6,43],[-5,47],[-10,52],[-16,52],[-20,46],[-19,43],[-22,39]]]},
+        {"entity_id":"synthetic:boreal","render_id":"boreal:1050-1150:main","territory_state_id":"boreal:state:02","coordinates":[[[-1,47],[0,44],[4,43],[8,44],[13,47],[13,50],[16,53],[11,56],[5,55],[1,56],[-2,52],[-1,47]]]},
+        {"entity_id":"synthetic:cedar","render_id":"cedar:1050-1150:main","territory_state_id":"cedar:state:02","coordinates":[[[0,35],[2,31],[8,29],[13,32],[13,36],[10,40],[6,40],[3,38],[0,35]]]},
+        {"entity_id":"synthetic:cedar","render_id":"cedar:1050-1150:east","territory_state_id":"cedar:state:02","coordinates":[[[15,33],[18,31],[21,34],[20,38],[16,38],[15,33]]]},
+        {"entity_id":"synthetic:cedar","render_id":"cedar:1050-1150:north","territory_state_id":"cedar:state:02","coordinates":[[[16,40],[18,39],[21,41],[20,44],[17,43],[16,40]]]}
+      ],
+      "population": [
+        {"render_id":"density:1050:01","density":27,"coordinates":[[[-19,38],[-15,38],[-15,42],[-19,42],[-19,38]]]},
+        {"render_id":"density:1050:02","density":240,"coordinates":[[[-15,42],[-11,42],[-11,46],[-15,46],[-15,42]]]},
+        {"render_id":"density:1050:03","density":44,"coordinates":[[[-1,45],[3,45],[3,49],[-1,49],[-1,45]]]},
+        {"render_id":"density:1050:04","density":360,"coordinates":[[[4,49],[8,49],[8,53],[4,53],[4,49]]]},
+        {"render_id":"density:1050:05","density":280,"coordinates":[[[5,33],[9,33],[9,37],[5,37],[5,33]]]},
+        {"render_id":"density:1050:06","density":23,"coordinates":[[[15,34],[19,34],[19,38],[15,38],[15,34]]]}
+      ],
+      "migration": [
+        {"render_id":"migration:1050:boreal-cedar","magnitude":2400,"coordinates":[[7,49],[10,44],[13,39],[9,35]]}
+      ]
+    }
+  ]
+}

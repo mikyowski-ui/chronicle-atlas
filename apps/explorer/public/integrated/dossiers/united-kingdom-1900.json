@@ -1,0 +1,172 @@
+{
+  "id": "united-kingdom-1900",
+  "entity_id": "isles:political:d577c358bc0b8a4cb477",
+  "title": "United Kingdom of Great Britain and Ireland",
+  "lead": {
+    "label": "Overview",
+    "text": "In 1900, Victoria was sovereign and the Marquess of Salisbury was prime minister. Great Britain and Ireland shared a United Kingdom Parliament; the franchise remained restricted.",
+    "source_ids": [
+      "victoria",
+      "salisbury",
+      "union",
+      "reform"
+    ],
+    "scope": "1900"
+  },
+  "organization": [
+    {
+      "label": "Entity type",
+      "text": "United kingdom governed as a constitutional monarchy.",
+      "source_ids": [
+        "victoria",
+        "union"
+      ],
+      "scope": "1900"
+    },
+    {
+      "label": "Government",
+      "text": "Victoria was sovereign; Salisbury headed the government during his 1895–1902 premiership.",
+      "source_ids": [
+        "victoria",
+        "salisbury"
+      ],
+      "scope": "1900"
+    },
+    {
+      "label": "Institutions",
+      "text": "The House of Commons and House of Lords formed the two parliamentary chambers. The monarch’s political influence operated within the developing constitutional system.",
+      "source_ids": [
+        "union",
+        "victoria"
+      ],
+      "scope": "1900"
+    },
+    {
+      "label": "Seat / capital",
+      "text": "Parliament at Westminster, London.",
+      "source_ids": [
+        "union"
+      ],
+      "scope": "Parliamentary union effective from 1801"
+    },
+    {
+      "label": "Administrative relationships",
+      "text": "Ireland participated in the United Kingdom Parliament following the 1801 union. This domestic union is distinct from the empire’s varied overseas relationships.",
+      "source_ids": [
+        "union"
+      ],
+      "scope": "1900; imperial dependencies are not catalogued here"
+    }
+  ],
+  "changes": [
+    {
+      "label": "1884–1885",
+      "text": "Franchise reform and redistribution changed parliamentary representation; women remained excluded from parliamentary voting.",
+      "source_ids": [
+        "reform"
+      ],
+      "scope": "1884–1885 measures in force before 1900"
+    },
+    {
+      "label": "1899",
+      "text": "War began in South Africa and became a major issue for Salisbury’s government.",
+      "source_ids": [
+        "salisbury"
+      ],
+      "scope": "1899; context at the start of 1900"
+    }
+  ],
+  "population": {
+    "label": "Population reference",
+    "text": "32,249,200 people: ONS mid-1900 estimate for England and Wales only. This is neither the full UK total nor a population at the clicked point.",
+    "source_ids": [
+      "ons"
+    ],
+    "scope": "Mid-1900; no exact day asserted; England and Wales"
+  },
+  "overview": [
+    {
+      "label": "Crown, government and Parliament",
+      "text": "Victoria’s reign saw direct political authority move away from the sovereign, while the monarchy retained influence. In 1900 Salisbury was prime minister. The two parliamentary chambers remained central institutions, but political participation was far from universal.",
+      "source_ids": [
+        "victoria",
+        "salisbury",
+        "reform"
+      ],
+      "scope": "1900"
+    },
+    {
+      "label": "The union and its limits",
+      "text": "The union took effect in 1801, ending the separate Irish Parliament and bringing Irish representation to Westminster. This explains the historical title Great Britain and Ireland. It must not be replaced by the present-day United Kingdom’s name or boundaries.",
+      "source_ids": [
+        "union"
+      ],
+      "scope": "1900; historical naming context"
+    }
+  ],
+  "sources": [
+    {
+      "id": "victoria",
+      "title": "Victoria (r. 1837–1901)",
+      "publisher": "The Royal Household",
+      "url": "https://www.royal.uk/encyclopedia/victoria-r-1837-1901",
+      "verified_at": "2026-09-23",
+      "scope": "Reign overview; constitutional position in late Victorian Britain.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "salisbury",
+      "title": "Robert Gascoyne-Cecil, 3rd Marquess of Salisbury",
+      "publisher": "UK Government",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/robert-gascoyne-cecil",
+      "verified_at": "2026-09-23",
+      "scope": "Biography explicitly dates the premiership 1895–1902; 1899 war context used.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "union",
+      "title": "An Act for the Union of Great Britain and Ireland",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/collections/ireland/act-of-union-1800/",
+      "verified_at": "2026-09-23",
+      "scope": "1801 institutional union; not a claim that its original seat allocations remained unchanged in 1900.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "reform",
+      "title": "Third Reform Act 1884",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/houseofcommons/reformacts/overview/one-man-one-vote/",
+      "verified_at": "2026-09-23",
+      "scope": "Franchise and constituency changes preceding 1900.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "ons",
+      "title": "Estimates of the population for England and Wales, Table 7",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fenglandandwalespopulationestimates1838to2025%2Fewpopulationestimates18382025.xlsx",
+      "verified_at": "2026-09-23",
+      "scope": "Retained pinned VP07 input; Table 7!A128:B128, Mid-1900, England and Wales only.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    }
+  ],
+  "article_source_id": "victoria",
+  "schema_version": 1,
+  "edition": "chronicle-dossiers-20260923-v1",
+  "recorded_at": "2026-09-23T00:00:00Z",
+  "t_start": -25567,
+  "t_end": -25202,
+  "observation_time": -25567,
+  "date_label": "1900 CE",
+  "date_precision": "year",
+  "historical_scope": "Organization selected for the nominal observation year; articles may discuss broader periods. This dossier does not extend geometry validity.",
+  "representation": "Source-attributed map association; dossier organization researched separately.",
+  "map_binding": {
+    "edition": "isles-alpha-da7a4b7-display-v1",
+    "epoch_id": "isles-1900",
+    "assertion_ids": [
+      "claim:d7a4449e3449c6199c2d1bfaf9ef81573325d98f869e1d4596a7d01dbbcaf5cc"
+    ]
+  }
+}

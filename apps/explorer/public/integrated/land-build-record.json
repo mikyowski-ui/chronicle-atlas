@@ -1,0 +1,12 @@
+{
+  "source_records": 1420,
+  "source_components": 1421,
+  "grouped_features": 143,
+  "vertices": 60669,
+  "latitude_clamped_vertices": 269,
+  "omitted_components": 0,
+  "bytes": 2267727,
+  "sha256": "ca5b2bd8d962a53483f7d48988bd25d0ef24e9a69bf39edbfa58a3bf4a50da8a",
+  "elapsed_ms": 103.34216400042351,
+  "method": "All source rings retained. Group every10consecutive components into MultiPolygon; clamp only latitude beyond WebMercator limit; no simplification."
+}

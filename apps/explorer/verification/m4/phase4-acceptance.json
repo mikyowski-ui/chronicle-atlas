@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "phase": 4,
+  "environment": { "platform": "win32", "node": "v22.17.0", "browser": "153.0.8010.12" },
+  "commandsFromSourceRoot": ["corepack pnpm run build", "corepack pnpm run typecheck", "corepack pnpm run test"],
+  "build": "chronicle-f6e64a8afe4ee02b55e8e595d35b5e8daf859d2f5b83a7f8330173f717858804",
+  "sourceFingerprint": "96e25e628550d1779af8a4e097a069a4e3abee8bcc37b8da652cac70f84ecb48",
+  "sourceFileCount": 2425,
+  "tests": { "explorer": 497, "packages": 33, "total": 530, "failed": 0, "cancelled": 0, "skipped": 0 },
+  "protectedInputs": { "checked": 2282, "changed": 0 },
+  "browserReceipts": [
+    "phase4-ingestion-maplibre-verified/acceptance.json",
+    "phase4-ingestion-canvas/acceptance.json",
+    "phase4-ingestion-live/acceptance.json",
+    "phase4-maplibre/acceptance.json",
+    "phase4-canvas/acceptance.json",
+    "phase4-hud/acceptance.json",
+    "phase4-watt/acceptance.json",
+    "phase4-mechanism/acceptance.json"
+  ],
+  "providerReceipt": "phase4-live-casefold/acceptance.json",
+  "liveProvider": { "httpStatus": 200, "model": "gemini-3.8-flash", "requests": 1, "reportedTokens": 1218, "dataClass": "explicitly-authorized-wikidata-metadata" },
+  "historicalModelProcessing": false,
+  "importedFileModelProcessing": false,
+  "nodeCredentialTransportBundled": false,
+  "performanceP95Ms": { "maplibreSelection": 13.6, "maplibreCombined": 40.0, "canvasSelection": 12.3, "canvasCombined": 29.2 },
+  "workload": { "observations": 44, "entities": 4, "selectionSamples": 200, "combinedSamples": 200, "selectionTargetMs": 50, "combinedTargetMs": 100 },
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "publicationApproval": false,
+  "arbitraryGeneratedCodeEnabled": false
+}

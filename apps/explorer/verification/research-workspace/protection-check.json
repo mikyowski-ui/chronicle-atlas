@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "protected_files_checked": 2282,
+  "changed_or_missing": [],
+  "scope": [
+    "apps/explorer/public/**",
+    "packages/contracts/**",
+    "lib/**",
+    "package.json",
+    "pnpm-lock.yaml"
+  ],
+  "source_archive_sha256": "605d302de8687a9dfa6f21f38502492fd6b94894efa500bcd93a691bb1da3186",
+  "originals_archive_sha256": "c344a7d350037b0f601d3e6400e8520d7335a1a6af56dbb5441dba52f329fa8e",
+  "note": "No protected source/ledger/mesh/publication input was changed; compiled dist is a local build product."
+}

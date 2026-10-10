@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "kind": "chronicle-sandbox-render",
+  "runtime": "quickjs-emscripten-0.32.0",
+  "policy": "bounded-evidence-svg-1",
+  "bundleHash": "20d57bb27c792df8c3b703d05f484c457e2e8f51cf973c05297d9ae6937f901a",
+  "inputHash": "62e32d488dfa9e3f1c8375ca3eeceb8fddf4c804485db1aa7d13452e99cff8b5",
+  "programHash": "fb53cafc12de5bf8ea040d36d84c4ee58a265da9721910f12c7972e8986fac82",
+  "recordIds": [
+    "wikidata:Q84:2003f6a5c84c5ad4c91cb934",
+    "wikidata:Q84:3d60038d90804cc68b00b014",
+    "wikidata:Q84:78d1493b442807dcbdeddd8e"
+  ],
+  "program": "const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\"/g, '&quot;').replace(/'/g, '&apos;'); const n = evidence.length; const pad = 10; const w = n > 0 ? Math.floor((640 - pad * (n + 1)) / n) : 0; const h = 220; let cards = ''; for (let i = 0; i < n; i++) { const r = evidence[i]; const x = pad + i * (w + pad); const y = pad; const labelText = r.label != null ? esc(r.label) : 'Not supplied'; const varText = r.variable != null ? esc(r.variable) : 'Not supplied'; const valText = r.value != null ? esc(String(r.value)) : 'Not supplied'; const unitText = r.unit != null ? esc(String(r.unit)) : 'Unit not supplied'; cards += '<g data-record-id=\"' + esc(r.id) + '\" transform=\"translate(' + x + ',' + y + ')\"><rect x=\"0\" y=\"0\" width=\"' + w + '\" height=\"' + h + '\" fill=\"#ffffff\" stroke=\"#cccccc\"/><text x=\"10\" y=\"30\" fill=\"#000000\">' + labelText + '</text><text x=\"10\" y=\"60\" fill=\"#555555\">' + varText + '</text><text x=\"10\" y=\"90\" fill=\"#333333\">' + valText + '</text><text x=\"10\" y=\"120\" fill=\"#777777\">' + unitText + '</text></g>'; } return '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 240\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"240\" fill=\"#f0f0f0\"/>' + cards + '</svg>';",
+  "width": 640,
+  "height": 240,
+  "limits": {
+    "executionMs": 50,
+    "heapBytes": 8388608,
+    "outputBytes": 65536
+  }
+}

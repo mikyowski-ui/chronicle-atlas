@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "buildId": "chronicle-78185328c2969b9946da16c06d07f1115015e6330a188f51d99cf2b9c79b6ce0",
+  "compiledSHA256": "0bde59dbe80b9f4f3f29108fa598615c869cd2607f05df6772f39024dc6cdab8",
+  "compiler": "esbuild 0.28.2",
+  "dependencies": {
+    "happyDOM": "20.14.5",
+    "postcss": "8.5.28"
+  },
+  "sources": [
+    {
+      "path": "public/history/exchange-networks.json",
+      "sha256": "519c2d87f18e2ac158d4625e7b92f2a4233e150cceb34d2411a608e56c69e722"
+    },
+    {
+      "path": "public/history/historical-foundations.json",
+      "sha256": "70ba0a320dba84fca5ee7107dd1bd72dbbcf96b242342768cee33425c52ccb52"
+    },
+    {
+      "path": "public/history/primary-accounts.json",
+      "sha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541"
+    },
+    {
+      "path": "research-semantic/catalogue.ts",
+      "sha256": "e1ded406ed517a8fee974b43f8578813faab8ee5bd366e906655bfc808d4b3ae"
+    },
+    {
+      "path": "research-semantic/contracts.ts",
+      "sha256": "bb5da4f7764b5b83e257968bfae8315e490e4992aa3178e8d00756b5607b76f3"
+    },
+    {
+      "path": "research-semantic/planner.ts",
+      "sha256": "213f50a9ae7c87ead804c272269ef65024c28bd4565fe9dd5b128bd8e1197064"
+    },
+    {
+      "path": "research-semantic/provider-transport.ts",
+      "sha256": "1aae18f9ddbe1a210d5a665fdfb027a309d8b5de1e325e88456282449f20096a"
+    },
+    {
+      "path": "research-semantic/revisions.ts",
+      "sha256": "812218b836cc49e3e90cf7671e4faee396f78d89c3c3037adcbfc14be5c2e1c1"
+    },
+    {
+      "path": "research-semantic/workspace-contract.ts",
+      "sha256": "ce75e5725fd3710f6d66dc4593557a6e2db6b8c441b1cceda2278cbb42f89b86"
+    },
+    {
+      "path": "src/research/contracts.ts",
+      "sha256": "c577099915b46f6e7239a6b39083145644ae42838e41a1c8ca8c0f3a7e9e6732"
+    },
+    {
+      "path": "src/research/engine.ts",
+      "sha256": "0ac2126575e8530e1d34a878f7b728cc7f8aff8fdbed4202dd544be692789774"
+    },
+    {
+      "path": "src/research/examples.ts",
+      "sha256": "55f0ce67f99d9f7601f8bd67a7c0fb88ded521748459859ac34a8ecfad2d188b"
+    },
+    {
+      "path": "src/research/registry.ts",
+      "sha256": "e2bd054a353696986059f717c39cd5ef5b21cf891d8a5e063bb711f818f17544"
+    },
+    {
+      "path": "src/research/research.css",
+      "sha256": "635e054eb8c239d45b4791dbb069c95dd535d12522c995c4c3aed8f4296ad977"
+    },
+    {
+      "path": "src/research/semantic-view.css",
+      "sha256": "30d5c6ba60bfda0977ce28767b9091e288cf880aa133bb81056011f9d22685ac"
+    },
+    {
+      "path": "src/research/view.ts",
+      "sha256": "3875843cf734a29517cd1e2f1605d874d0bdfa64ebcac39040b542b0717cfa19"
+    },
+    {
+      "path": "src/research/workspace-controller.ts",
+      "sha256": "998fa9cabe125d7aedc9f901caeebb8444c19e8e74754616cea11ef43409abf2"
+    },
+    {
+      "path": "src/research/workspace-engine.ts",
+      "sha256": "7b5a8c20eca2bea4c3ce07d59ca04c84f6835a511c9b404d2d424cbd90f48d19"
+    },
+    {
+      "path": "src/teaching-data.ts",
+      "sha256": "806255f5f7f48d836616d93282c2cc66ea8354ad7b3590821b61ce8bd87dfc5c"
+    },
+    {
+      "path": "scripts/m3-virtual-dom-acceptance.mjs",
+      "sha256": "99c4f12b5b8abb0e17e9102732c9e182a327711c6ff7b5f4f72c419f8ce26104"
+    },
+    {
+      "path": "scripts/m3-virtual-layout-policy.mjs",
+      "sha256": "112ee0b5a9b588b71a9219a5472fec7550eb10a9a8b17cc119cfd822d09c393d"
+    }
+  ],
+  "copiedInputs": [
+    {
+      "path": "scripts/m3-virtual-dom-acceptance.mjs",
+      "sha256": "99c4f12b5b8abb0e17e9102732c9e182a327711c6ff7b5f4f72c419f8ce26104"
+    },
+    {
+      "path": "scripts/m3-virtual-layout-policy.mjs",
+      "sha256": "112ee0b5a9b588b71a9219a5472fec7550eb10a9a8b17cc119cfd822d09c393d"
+    },
+    {
+      "path": "src/glass-shell.css",
+      "sha256": "9c3a79e4799a21ec87cdbb08aa2de8f7bf345f82dcc06e2aae49b2620b1fde54"
+    },
+    {
+      "path": "src/research/research.css",
+      "sha256": "635e054eb8c239d45b4791dbb069c95dd535d12522c995c4c3aed8f4296ad977"
+    },
+    {
+      "path": "src/research/semantic-view.css",
+      "sha256": "30d5c6ba60bfda0977ce28767b9091e288cf880aa133bb81056011f9d22685ac"
+    },
+    {
+      "path": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "path": "research-semantic/premodern-pilot.json",
+      "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+    },
+    {
+      "path": "dist/build-info.json",
+      "sha256": "dd3542212bb3d712a2d75ee43fa4491ff57e8ed7bb20d5ec0116002c5fb7c3a0"
+    }
+  ],
+  "runtimes": [
+    {
+      "path": "runtime/compiled-workspace.mjs",
+      "bytes": 1048257,
+      "sha256": "0bde59dbe80b9f4f3f29108fa598615c869cd2607f05df6772f39024dc6cdab8"
+    },
+    {
+      "path": "runtime/happy-dom-runtime.mjs",
+      "bytes": 2104463,
+      "sha256": "ae07cf7b6d5e081ae928123d930bf2d45d5336697d6358a24cf8c7c2e7505e2c"
+    },
+    {
+      "path": "runtime/postcss-runtime.cjs",
+      "bytes": 211622,
+      "sha256": "ba81eb79fbdab00bfc95efd83dc9a450bdd4bbe129e4f1d321fb07f56aaab63d"
+    }
+  ],
+  "licenses": "licenses/dependencies.json",
+  "interpretation": "Actual research view compiled from source; user-approved virtual DOM adapter, not browser rendering or actual Atlas renderer performance."
+}

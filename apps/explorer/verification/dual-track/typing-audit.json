@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "meaning": "Diff-based lexical scan for explicit any and open string index signatures; TypeScript compilation separately passes. Legacy types are not rewritten.",
+  "matches": []
+}

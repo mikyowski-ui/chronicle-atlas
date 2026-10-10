@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "scope": "V2 cartographic detail and independent population surface; candidate only",
+  "frozen_at": "2026-09-26T23:40:29.479830+00:00",
+  "baseline": "199070f638e56691712967d5fde8c64495c249ca",
+  "limits": {
+    "new_source_bytes": 167772160,
+    "new_output_bytes": 41943040,
+    "heavy_compile_workers": 1,
+    "worker_rss_bytes": 536870912,
+    "aggregate_working_rss_bytes": 2147483648,
+    "terrain_input_bytes": 67108864,
+    "terrain_output_bytes": 20971520,
+    "places_retained_input_bytes": 67108864,
+    "places_new_input_bytes": 4194304,
+    "places_output_bytes": 8388608,
+    "population_input_bytes": 67108864,
+    "population_output_bytes": 8388608,
+    "terrain_tiles": 1365,
+    "tile_bytes": 131072,
+    "browser_raster_cache_tiles": 48,
+    "browser_raster_concurrent_requests": 4,
+    "population_browser_cells": 20000,
+    "visible_city_labels": 80,
+    "existing_manifest_cache": 4,
+    "existing_scene_cache": 2
+  },
+  "publication": "STAGED_NOT_PUBLISHED",
+  "historical_ledger_changes": false,
+  "runtime_external_basemap_required": false,
+  "interpretation": "Physical context is modern; historical place source envelopes are not continuous occupation; population observations retain dataset date and modeled/census distinction. No population-inferred migration arrows."
+}

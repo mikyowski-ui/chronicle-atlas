@@ -1,0 +1,1299 @@
+{
+  "version": 1,
+  "yearNumbering": "historical",
+  "scope": "Selected dated ancient, medieval and modern capitals; incomplete, independently sourced from border snapshots. Modern coverage ends at 2025.",
+  "temporalPolicy": "Inclusive annual windows represent status during a year. Exact event dates are documented in notes; markers do not assert that the change occurred on 1 January. Transition years can overlap. A to value of 2025 is a coverage ceiling, not an end-of-capital event. Older chronologies conservatively omit some uncertain transition years.",
+  "sources": [
+    {
+      "id": "beijing-tourism-ming",
+      "title": "The Status of Beijing in Ming Dynasty",
+      "url": "https://english.visitbeijing.com.cn/article/47OMiM6dfPl",
+      "publisher": "Beijing Municipal Culture and Tourism Bureau",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "bm-benin",
+      "title": "Benin Bronzes",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "cdmx-alliance",
+      "title": "La Triple Alianza",
+      "publisher": "Secretaría de Turismo de la Ciudad de México",
+      "url": "https://mexicocity.cdmx.gob.mx/historical-timeline-of-mexico-city/triple-alliance/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-abbasid",
+      "title": "The Art of the Abbasid Period (750–1258)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-byzantium",
+      "title": "Byzantium (ca. 330–1453)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/byzantium-ca-330-1453",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-maurya",
+      "title": "Mauryan Empire (ca. 323–185 BCE)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/mauryan-empire-ca-323-185-b-c",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-mughal-late",
+      "title": "The Art of the Mughals after 1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-after-1600",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-ottoman",
+      "title": "The Greater Ottoman Empire, 1600–1800",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-greater-ottoman-empire-1600-1800",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-ottoman-early",
+      "title": "The Art of the Ottomans before 1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-republic",
+      "title": "The Roman Republic",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-roman-republic",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-rome",
+      "title": "The Roman Empire (27 BCE–393 CE)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-safavid",
+      "title": "The Art of the Safavids before 1600",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-safavid-silk",
+      "title": "Silk Textiles from Safavid Iran, 1501–1722",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/silk-textiles-from-safavid-iran-1501-1722",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-seleucid",
+      "title": "The Seleucid Empire (323–64 BCE)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-seleucid-empire-323-64-b-c",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "met-umayyad",
+      "title": "The Art of the Umayyad Period (661–750)",
+      "publisher": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "mota-early",
+      "title": "Early Dynastic Period",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "mota-ptolemy",
+      "title": "Ptolemaic Period",
+      "publisher": "Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/historical-periods/ptolemaic-period/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "parma-han",
+      "title": "206 BCE–220 CE: Han Dynasty",
+      "url": "https://museocineseparma.org/en/scuole/le-dinastie-della-cina/106-206-bc-220-ad-han-dynasty",
+      "publisher": "Museo d’Arte Cinese ed Etnografico, Parma",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "reba-2016",
+      "title": "Spatializing 6,000 years of global urbanization from 3700 BC to AD 2000",
+      "publisher": "Reba, Reitsma & Seto, Scientific Data",
+      "url": "https://doi.org/10.1038/sdata.2016.34",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "si-cusco",
+      "title": "The Great Inka Road: Cusco",
+      "publisher": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/inkaroad/inkauniverse/cusco/introduction.html",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "si-han",
+      "title": "Han dynasty (206 BCE–220 CE)",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/han-dynasty/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "si-qing",
+      "title": "Qing dynasty (1644–1911)",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/qing-dynasty/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "si-song",
+      "title": "Song dynasty (960–1279)",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/song-dynasty/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "si-tang",
+      "title": "Tang dynasty (618–907)",
+      "publisher": "Smithsonian National Museum of Asian Art",
+      "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/tang-dynasty/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "unesco-fatehpur",
+      "title": "Fatehpur Sikri",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/255/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "unesco-hangzhou",
+      "title": "West Lake Cultural Landscape of Hangzhou: nomination dossier",
+      "publisher": "UNESCO World Heritage Centre / China nomination",
+      "url": "https://whc.unesco.org/uploads/nominations/1334.pdf",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence, no source prose reproduced."
+    },
+    {
+      "id": "senate-washington-1800",
+      "title": "The Senate Moves to Washington",
+      "publisher": "United States Senate",
+      "url": "https://www.senate.gov/about/historic-buildings-spaces/meeting-places/senate-moves-to-washington.htm",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "turkiye-ankara-1923",
+      "title": "1923 chronology: Ankara becomes the capital",
+      "publisher": "Republic of Türkiye Ministry of Culture and Tourism",
+      "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "nca-canberra-seat",
+      "title": "Canberra: Seat of Government",
+      "publisher": "Australian National Capital Authority",
+      "url": "https://www.nca.gov.au/education/canberras-history/canberra-seat-government",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "brazil-capital-decree-1960",
+      "title": "Decreto nº 48.124, de 16 de abril de 1960",
+      "publisher": "Brazilian Chamber of Deputies",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1960-1969/decreto-48124-16-abril-1960-387485-publicacaooriginal-1-pe.html",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "delhi-tourism-independence",
+      "title": "History of Delhi",
+      "publisher": "Delhi Tourism, Government of the National Capital Territory of Delhi",
+      "url": "https://www.delhitourism.gov.in/aboutus/history_of_delhi.html",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "cppcc-capital-resolution-1949",
+      "title": "Resolution on the capital, calendar, anthem and flag of the People’s Republic of China, 27 September 1949",
+      "publisher": "Chinese People’s Political Consultative Conference; State Council archive",
+      "url": "https://www.hmo.gov.cn/2026/08/21/ARTIgGB90K33hesApsVlrXNO260821.shtml",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "nigeria-villa-capital-1991",
+      "title": "The Presidential Villa",
+      "publisher": "State House, Federal Republic of Nigeria",
+      "url": "https://statehouse.gov.ng/presidential-villa/the-villa/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "parks-canada-ottawa-capital",
+      "title": "Designation of Ottawa as the capital of Canada",
+      "publisher": "Parks Canada",
+      "url": "https://parks.canada.ca/culture/designation/lieu-site/capitale-capital",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "berlin-capital-treaties",
+      "title": "Hauptstadtverträge: Berlin als Hauptstadt Deutschlands",
+      "publisher": "Berlin Senate Chancellery",
+      "url": "https://www.berlin.de/rbmskzl/politik/senatskanzlei/bundesangelegenheiten/hauptstadtvertraege/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "bundestag-berlin-move-1999",
+      "title": "Vor 25 Jahren: Der Bundestag zieht von Bonn nach Berlin",
+      "publisher": "German Bundestag",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/1999-07-31-umzug-bonn-berlin-1012510",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "moscow-capital-1918",
+      "title": "A glimpse into history",
+      "publisher": "Government of Moscow",
+      "url": "https://www.mos.ru/en/city/about/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "presidential-library-moscow-capital",
+      "title": "Moscow becomes the capital of the Soviet state",
+      "publisher": "Boris Yeltsin Presidential Library",
+      "url": "https://www.prlib.ru/en/history/1955256",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle paraphrase; linked evidence."
+    },
+    {
+      "id": "un-wup-2025",
+      "title": "United Nations, World Urbanization Prospects 2025, File 21",
+      "url": "https://population.un.org/wup/assets/Download/Cities/WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+      "license": "CC BY 3.0 IGO",
+      "note": "Annual estimates for DEGURBA urban centres through 2025; population-weighted reference centroids. This is a different spatial definition from the historical compilation. Present-day capital field is deliberately not backdated.",
+      "minYear": 1975,
+      "maxYear": 2025,
+      "sampling": "five-year checkpoints and first/final available year",
+      "definition": "DEGURBA urban centre"
+    },
+    {
+      "id": "natural-earth-places-5.1.2",
+      "title": "Natural Earth 1:10m Populated Places, version 5.1.2",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+      "rights": "Public domain cartographic reference point.",
+      "verifiedAt": "2026-09-27"
+    }
+  ],
+  "capitals": [
+    {
+      "id": "capital-memphis",
+      "name": "Memphis",
+      "coordinates": [
+        31.250833,
+        29.844722
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "mota-early"
+      ],
+      "periods": [
+        {
+          "from": -3100,
+          "to": -2687,
+          "polityId": "egypt-early",
+          "label": "Royal capital",
+          "sourceId": "mota-early",
+          "note": "Approximate Early Dynastic chronology; Memphis was one major royal center alongside Abydos."
+        }
+      ]
+    },
+    {
+      "id": "capital-alexandria",
+      "name": "Alexandria",
+      "coordinates": [
+        29.918739,
+        31.200092
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "mota-ptolemy"
+      ],
+      "periods": [
+        {
+          "from": -300,
+          "to": -31,
+          "polityId": "ptolemaic",
+          "label": "Ptolemaic capital",
+          "sourceId": "mota-ptolemy",
+          "note": "Conservative documented core of Ptolemaic rule; this range does not date the city’s foundation or exact transfer from Memphis."
+        }
+      ]
+    },
+    {
+      "id": "capital-rome",
+      "name": "Rome",
+      "coordinates": [
+        12.4839,
+        41.89474
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-republic",
+        "met-rome"
+      ],
+      "periods": [
+        {
+          "from": -509,
+          "to": -28,
+          "polityId": "roman-republic",
+          "label": "Republican political center",
+          "sourceId": "met-republic",
+          "note": "Annual display range; capital change is not dated to an exact day. Boundary years may contain a transition."
+        },
+        {
+          "from": -27,
+          "to": 329,
+          "polityId": "roman-empire",
+          "label": "Imperial capital",
+          "sourceId": "met-rome",
+          "note": "Imperial residences multiplied in late antiquity; this label does not imply the emperor always resided at Rome."
+        }
+      ]
+    },
+    {
+      "id": "capital-constantinople",
+      "name": "Constantinople",
+      "coordinates": [
+        28.976944,
+        41.005275
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-byzantium",
+        "met-ottoman",
+        "met-ottoman-early"
+      ],
+      "periods": [
+        {
+          "from": 330,
+          "to": 1203,
+          "polityId": "byzantine",
+          "label": "Roman imperial capital",
+          "sourceId": "met-byzantium",
+          "note": "Annual display range; capital change is not dated to an exact day. Boundary years may contain a transition."
+        },
+        {
+          "from": 1261,
+          "to": 1452,
+          "polityId": "byzantine",
+          "label": "Restored imperial capital",
+          "sourceId": "met-byzantium",
+          "note": "Annual display range; capital change is not dated to an exact day. Boundary years may contain a transition."
+        },
+        {
+          "from": 1453,
+          "to": 1922,
+          "polityId": "ottoman",
+          "label": "Ottoman imperial capital",
+          "sourceId": "met-ottoman-early",
+          "note": "The city was also known as Istanbul. The 1922 endpoint refers to the Ottoman monarchy, not the life of the city."
+        }
+      ]
+    },
+    {
+      "id": "capital-damascus",
+      "name": "Damascus",
+      "coordinates": [
+        36.29128,
+        33.5102
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-umayyad"
+      ],
+      "periods": [
+        {
+          "from": 661,
+          "to": 749,
+          "polityId": "umayyad",
+          "label": "Umayyad capital",
+          "sourceId": "met-umayyad",
+          "note": "Annual display range; capital change is not dated to an exact day. Boundary years may contain a transition."
+        }
+      ]
+    },
+    {
+      "id": "capital-baghdad",
+      "name": "Baghdad",
+      "coordinates": [
+        44.40088,
+        33.34058
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-abbasid"
+      ],
+      "periods": [
+        {
+          "from": 762,
+          "to": 835,
+          "polityId": "abbasid",
+          "label": "Abbasid capital",
+          "sourceId": "met-abbasid",
+          "note": "Annual display range; capital change is not dated to an exact day. Boundary years may contain a transition."
+        },
+        {
+          "from": 892,
+          "to": 1257,
+          "polityId": "abbasid",
+          "label": "Abbasid capital",
+          "sourceId": "met-abbasid",
+          "note": "Religious authority and effective territorial control diverged in later centuries. Conquest year 1258 is omitted at annual resolution."
+        }
+      ]
+    },
+    {
+      "id": "capital-samarra",
+      "name": "Samarra",
+      "coordinates": [
+        43.874167,
+        34.198333
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-abbasid"
+      ],
+      "periods": [
+        {
+          "from": 836,
+          "to": 891,
+          "polityId": "abbasid",
+          "label": "Abbasid court capital",
+          "sourceId": "met-abbasid",
+          "note": "The return to Baghdad is conventionally dated 892; the displayed annual window ends before that transition."
+        }
+      ]
+    },
+    {
+      "id": "capital-antioch",
+      "name": "Antioch",
+      "coordinates": [
+        36.15722,
+        36.20655
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-seleucid"
+      ],
+      "periods": [
+        {
+          "from": -300,
+          "to": -65,
+          "polityId": "seleucid",
+          "label": "One of the Seleucid capitals",
+          "sourceId": "met-seleucid",
+          "note": "Founded around 300 BCE as a royal center. Wars and occupations interrupted court control; this is a dynastic capital association, not continuous city control."
+        }
+      ]
+    },
+    {
+      "id": "capital-seleucia",
+      "name": "Seleucia on the Tigris",
+      "coordinates": [
+        44.522222,
+        33.094444
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-seleucid"
+      ],
+      "periods": [
+        {
+          "from": -300,
+          "to": -142,
+          "polityId": "seleucid",
+          "label": "One of the Seleucid capitals",
+          "sourceId": "met-seleucid",
+          "note": "Approximate foundation around 300 BCE; Parthian capture in 141 BCE ends this conservative annual window."
+        }
+      ],
+      "cityId": "hist-seleucia-17690b6f"
+    },
+    {
+      "id": "capital-pataliputra",
+      "name": "Pataliputra",
+      "coordinates": [
+        85.144,
+        25.611
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-maurya"
+      ],
+      "periods": [
+        {
+          "from": -321,
+          "to": -186,
+          "polityId": "maurya",
+          "label": "Mauryan capital",
+          "sourceId": "met-maurya",
+          "note": "Approximate dynastic bounds. The reference coordinate is near modern Patna, not an exact ancient palace location."
+        }
+      ]
+    },
+    {
+      "id": "capital-kaifeng",
+      "name": "Kaifeng",
+      "coordinates": [
+        114.30742,
+        34.7986
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "si-song"
+      ],
+      "periods": [
+        {
+          "from": 960,
+          "to": 1126,
+          "polityId": "song",
+          "label": "Northern Song capital",
+          "sourceId": "si-song",
+          "note": "1126–1127 is the conquest and court-flight boundary; sources differ in how they label the transition year."
+        }
+      ]
+    },
+    {
+      "id": "capital-hangzhou",
+      "name": "Lin’an / Hangzhou",
+      "coordinates": [
+        120.166667,
+        30.25
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "unesco-hangzhou"
+      ],
+      "periods": [
+        {
+          "from": 1138,
+          "to": 1275,
+          "polityId": "song",
+          "label": "Southern Song court capital",
+          "sourceId": "unesco-hangzhou",
+          "note": "1138 marks formal establishment of the court center. The 1276 capture year is omitted; Song resistance continued to 1279."
+        }
+      ],
+      "cityId": "hist-hangzhou-09637644"
+    },
+    {
+      "id": "capital-nanjing",
+      "name": "Nanjing",
+      "coordinates": [
+        118.766667,
+        32.05
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "beijing-tourism-ming"
+      ],
+      "periods": [
+        {
+          "from": 1368,
+          "to": 1420,
+          "polityId": "ming",
+          "label": "Primary Ming capital",
+          "sourceId": "beijing-tourism-ming",
+          "note": "Nanjing retained secondary-capital institutions after the main court moved to Beijing in 1421."
+        }
+      ]
+    },
+    {
+      "id": "capital-beijing",
+      "name": "Beijing",
+      "coordinates": [
+        116.39723,
+        39.9075
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "beijing-tourism-ming",
+        "si-qing",
+        "cppcc-capital-resolution-1949"
+      ],
+      "periods": [
+        {
+          "from": 1421,
+          "to": 1643,
+          "polityId": "ming",
+          "label": "Primary Ming court capital",
+          "sourceId": "beijing-tourism-ming",
+          "note": "Nanjing retained capital institutions and formal status changed during some reigns. This labels the principal court location."
+        },
+        {
+          "from": 1644,
+          "to": 1911,
+          "polityId": "qing",
+          "label": "Qing capital",
+          "sourceId": "si-qing",
+          "note": "The 1912 abdication year is omitted. The court temporarily fled during invasions and rebellion."
+        },
+        {
+          "from": 1949,
+          "to": 2025,
+          "polityId": "china-prc",
+          "label": "People’s Republic of China capital",
+          "sourceId": "cppcc-capital-resolution-1949",
+          "note": "The CPPCC resolution of 27 September 1949 designated Beiping the capital and renamed it Beijing; the PRC was proclaimed on 1 October. Annual precision includes that transition year. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "cityId": "hist-beijing-c398fb58"
+    },
+    {
+      "id": "capital-tabriz",
+      "name": "Tabriz",
+      "coordinates": [
+        46.2919,
+        38.08
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-safavid"
+      ],
+      "periods": [
+        {
+          "from": 1501,
+          "to": 1554,
+          "polityId": "safavid",
+          "label": "Safavid capital",
+          "sourceId": "met-safavid",
+          "note": "Royal seat; wartime occupations and movement of the court are not resolved annually."
+        }
+      ]
+    },
+    {
+      "id": "capital-qazvin",
+      "name": "Qazvin",
+      "coordinates": [
+        50.0041,
+        36.26877
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-safavid"
+      ],
+      "periods": [
+        {
+          "from": 1555,
+          "to": 1596,
+          "polityId": "safavid",
+          "label": "Safavid capital",
+          "sourceId": "met-safavid",
+          "note": "The transfer to Isfahan unfolded in 1597–1598; the uncertain transition year is omitted."
+        }
+      ]
+    },
+    {
+      "id": "capital-isfahan",
+      "name": "Isfahan",
+      "coordinates": [
+        51.679192,
+        32.651389
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-safavid-silk"
+      ],
+      "periods": [
+        {
+          "from": 1598,
+          "to": 1721,
+          "polityId": "safavid",
+          "label": "Safavid capital",
+          "sourceId": "met-safavid-silk",
+          "note": "Annual window ends before the 1722 conquest."
+        }
+      ]
+    },
+    {
+      "id": "capital-fatehpur",
+      "name": "Fatehpur Sikri",
+      "coordinates": [
+        77.66003,
+        27.0937
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "unesco-fatehpur"
+      ],
+      "periods": [
+        {
+          "from": 1571,
+          "to": 1584,
+          "polityId": "mughal",
+          "label": "Mughal court capital",
+          "sourceId": "unesco-fatehpur",
+          "note": "Akbar transferred his principal residence to Lahore in 1585; the city remained in use afterward."
+        }
+      ]
+    },
+    {
+      "id": "capital-delhi",
+      "name": "Shahjahanabad / Delhi",
+      "coordinates": [
+        77.22897,
+        28.65381
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "met-mughal-late"
+      ],
+      "periods": [
+        {
+          "from": 1648,
+          "to": 1857,
+          "polityId": "mughal",
+          "label": "Mughal imperial seat",
+          "sourceId": "met-mughal-late",
+          "note": "Later emperors exercised mostly nominal authority. No claim that the entire former empire remained controlled from Delhi."
+        }
+      ],
+      "cityId": "hist-delhi-c57b1832"
+    },
+    {
+      "id": "capital-cusco",
+      "name": "Cusco",
+      "coordinates": [
+        -71.972222,
+        -13.525
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "si-cusco"
+      ],
+      "periods": [
+        {
+          "from": 1438,
+          "to": 1532,
+          "polityId": "inca",
+          "label": "Inka imperial capital",
+          "sourceId": "si-cusco",
+          "note": "Range covers imperial expansion before the Spanish seizure of the main center. Earlier Cusco and later resistance have separate histories."
+        }
+      ]
+    },
+    {
+      "id": "capital-tenochtitlan",
+      "name": "Mexico-Tenochtitlan",
+      "coordinates": [
+        -99.12766,
+        19.42847
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "cdmx-alliance"
+      ],
+      "periods": [
+        {
+          "from": 1428,
+          "to": 1520,
+          "polityId": "aztec",
+          "label": "Dominant Triple Alliance center",
+          "sourceId": "cdmx-alliance",
+          "note": "Texcoco and Tlacopan were alliance partners with their own rulers.1521 is omitted because of the conquest during that year."
+        }
+      ],
+      "cityId": "hist-mexicocity-faaf2abd"
+    },
+    {
+      "id": "capital-benin",
+      "name": "Benin City",
+      "coordinates": [
+        5.626483,
+        6.339081
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point; not a surveyed historical palace or exact historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "bm-benin"
+      ],
+      "periods": [
+        {
+          "from": 1200,
+          "to": 1896,
+          "polityId": "benin-kingdom",
+          "label": "Royal capital",
+          "sourceId": "bm-benin",
+          "note": "Approximate dynastic start.1897 conquest year omitted; this city is in present-day Nigeria."
+        }
+      ]
+    },
+    {
+      "id": "capital-changan",
+      "name": "Chang’an",
+      "cityId": "hist-xian-b5131b30",
+      "coordinates": [
+        108.940404,
+        34.341485
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. modern reference point for the settlement; not a surveyed ancient palace or historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "si-han",
+        "si-tang"
+      ],
+      "periods": [
+        {
+          "from": -200,
+          "to": 8,
+          "polityId": "han",
+          "label": "Western Han capital",
+          "sourceId": "si-han",
+          "note": "Conservative core after the founding struggles, ending before the Xin interregnum. The 200 BCE cutoff is coverage, not the capital’s founding date."
+        },
+        {
+          "from": 618,
+          "to": 689,
+          "polityId": "tang",
+          "label": "Tang capital",
+          "sourceId": "si-tang",
+          "note": "One of the dynasty’s two principal capitals; not a claim that the court stayed here throughout. Stops before the Wu Zhou interregnum."
+        },
+        {
+          "from": 705,
+          "to": 750,
+          "polityId": "tang",
+          "label": "Tang capital",
+          "sourceId": "si-tang",
+          "note": "Conservative restored-Tang coverage before the mid-eighth-century wars; 750 is a coverage cutoff, not a capital transfer."
+        }
+      ]
+    },
+    {
+      "id": "capital-luoyang",
+      "name": "Luoyang",
+      "cityId": "hist-luoyang-a255740a",
+      "coordinates": [
+        112.442222,
+        34.669722
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. modern reference point for the settlement; not a surveyed ancient palace or historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "parma-han"
+      ],
+      "periods": [
+        {
+          "from": 25,
+          "to": 180,
+          "polityId": "han",
+          "label": "Eastern Han capital",
+          "sourceId": "parma-han",
+          "note": "Conservative core before the late-Han disintegration and forced court movements. The 180 cutoff is coverage, not a capital transfer."
+        }
+      ]
+    },
+    {
+      "id": "capital-washington",
+      "name": "Washington, D.C.",
+      "coordinates": [
+        -77.0234,
+        38.914144
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "senate-washington-1800"
+      ],
+      "periods": [
+        {
+          "from": 1800,
+          "to": 2025,
+          "polityId": "united-states",
+          "label": "United States federal capital",
+          "sourceId": "senate-washington-1800",
+          "note": "Congress transferred to Washington in 1800; the Senate first met there on 17 November. The marker denotes the event year, not a 1 January transfer. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-washingtondc-cce78b54"
+    },
+    {
+      "id": "capital-ankara",
+      "name": "Ankara",
+      "coordinates": [
+        32.85427,
+        39.91987
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "turkiye-ankara-1923"
+      ],
+      "periods": [
+        {
+          "from": 1923,
+          "to": 2025,
+          "polityId": "turkey",
+          "label": "Turkish capital",
+          "sourceId": "turkiye-ankara-1923",
+          "note": "The law establishing Ankara as capital passed on 13 October 1923. Annual precision includes that transition year. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-ankara-b2b63a05"
+    },
+    {
+      "id": "capital-canberra",
+      "name": "Canberra",
+      "coordinates": [
+        149.1290262,
+        -35.2830285
+      ],
+      "coordinateSourceId": "natural-earth-places-5.1.2",
+      "coordinateNote": "Natural Earth modern cartographic reference point; capital chronology is independently sourced.",
+      "sourceIds": [
+        "natural-earth-places-5.1.2",
+        "nca-canberra-seat"
+      ],
+      "periods": [
+        {
+          "from": 1927,
+          "to": 2025,
+          "polityId": "australia",
+          "label": "Australian federal seat of government",
+          "sourceId": "nca-canberra-seat",
+          "note": "Canberra was named in 1913; this period begins with Parliament’s move from Melbourne in 1927, not the initial designation of the capital. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+    },
+    {
+      "id": "capital-brasilia",
+      "name": "Brasília",
+      "coordinates": [
+        -47.92972,
+        -15.77972
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "brazil-capital-decree-1960"
+      ],
+      "periods": [
+        {
+          "from": 1960,
+          "to": 2025,
+          "polityId": "brazil",
+          "label": "Brazilian federal capital",
+          "sourceId": "brazil-capital-decree-1960",
+          "note": "The inauguration and transfer of the capital took place on 21 April 1960. Annual precision includes that transition year. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-brasilia-78140ba7"
+    },
+    {
+      "id": "capital-new-delhi",
+      "name": "New Delhi",
+      "coordinates": [
+        77.22897,
+        28.65381
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "delhi-tourism-independence"
+      ],
+      "periods": [
+        {
+          "from": 1947,
+          "to": 2025,
+          "polityId": "india",
+          "label": "Capital of independent India",
+          "sourceId": "delhi-tourism-independence",
+          "note": "New Delhi continued as capital when India became independent in 1947; becoming a republic in 1950 was not a capital relocation. This selected period does not cover the earlier British Indian capital. The point is a Delhi urban reference, not the government precinct. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-delhi-c57b1832"
+    },
+    {
+      "id": "capital-abuja",
+      "name": "Abuja",
+      "coordinates": [
+        7.43958937908184,
+        9.06849475211202
+      ],
+      "coordinateSourceId": "un-wup-2025",
+      "coordinateNote": "UN population-weighted urban-centre reference centroid; not an exact government seat.",
+      "sourceIds": [
+        "un-wup-2025",
+        "nigeria-villa-capital-1991"
+      ],
+      "periods": [
+        {
+          "from": 1991,
+          "to": 2025,
+          "polityId": "nigeria",
+          "label": "Nigerian federal capital",
+          "sourceId": "nigeria-villa-capital-1991",
+          "note": "Abuja was designated in 1976; the federal government’s move from Lagos is represented from President Babangida’s relocation on 12 December 1991, at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "un-7704"
+    },
+    {
+      "id": "capital-ottawa",
+      "name": "Ottawa",
+      "coordinates": [
+        -75.69812,
+        45.41117
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "parks-canada-ottawa-capital"
+      ],
+      "periods": [
+        {
+          "from": 1867,
+          "to": 2025,
+          "polityId": "canada",
+          "label": "Canadian federal capital",
+          "sourceId": "parks-canada-ottawa-capital",
+          "note": "Ottawa was selected for the Province of Canada in 1857; this period starts with Confederation in 1867, when it remained capital of the new Dominion. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-ottawa-992170aa"
+    },
+    {
+      "id": "capital-berlin",
+      "name": "Berlin",
+      "coordinates": [
+        13.41053,
+        52.52437
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "berlin-capital-treaties",
+        "bundestag-berlin-move-1999"
+      ],
+      "periods": [
+        {
+          "from": 1990,
+          "to": 2025,
+          "polityId": "germany",
+          "label": "Federal capital of reunified Germany",
+          "sourceId": "berlin-capital-treaties",
+          "note": "The 1990 Unification Treaty established Berlin as capital. Parliament and the principal government seat moved in 1999; some federal ministries remain in Bonn. Capital status and government relocation are distinct. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-berlin-caec244c"
+    },
+    {
+      "id": "capital-moscow",
+      "name": "Moscow",
+      "coordinates": [
+        37.61556,
+        55.75222
+      ],
+      "coordinateSourceId": "reba-2016",
+      "coordinateNote": "Reba et al. gazetteer reference point shared with the city dataset; not an exact government building or surveyed historic urban footprint.",
+      "sourceIds": [
+        "reba-2016",
+        "moscow-capital-1918",
+        "presidential-library-moscow-capital"
+      ],
+      "periods": [
+        {
+          "from": 1918,
+          "to": 1991,
+          "polityId": "russian-sfsr",
+          "label": "Russian SFSR capital",
+          "sourceId": "moscow-capital-1918",
+          "note": "The Soviet Russian government transferred the capital on 12 March 1918. Moscow remained the RSFSR capital within the Soviet Union; the 1991 state-name transition is represented at annual precision."
+        },
+        {
+          "from": 1922,
+          "to": 1991,
+          "polityId": "soviet-union",
+          "label": "Soviet Union capital",
+          "sourceId": "presidential-library-moscow-capital",
+          "note": "Moscow was capital of the USSR from its formation in 1922 until dissolution in 1991. The same city was also the RSFSR capital. Transition-year overlaps are intentional; this dataset does not assert daily precision."
+        },
+        {
+          "from": 1991,
+          "to": 2025,
+          "polityId": "russian-federation",
+          "label": "Russian Federation capital",
+          "sourceId": "presidential-library-moscow-capital",
+          "note": "Moscow remained the capital through the late-1991 transition from the RSFSR and dissolution of the USSR. The 1991 overlap records status at different points within that year, not simultaneous unchanged states for the whole year. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status."
+        }
+      ],
+      "note": "Capital status is represented at annual precision. The final year 2025 is this dataset’s coverage ceiling, not the end of capital status.",
+      "cityId": "hist-moscow-dcc429e5"
+    }
+  ],
+  "polities": [
+    {
+      "id": "united-states",
+      "title": "United States",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "turkey",
+      "title": "Türkiye",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "australia",
+      "title": "Australia",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "brazil",
+      "title": "Brazil",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "india",
+      "title": "Independent India",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "china-prc",
+      "title": "People’s Republic of China",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "nigeria",
+      "title": "Nigeria",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "canada",
+      "title": "Canada",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "germany",
+      "title": "Reunified Federal Republic of Germany",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "russian-sfsr",
+      "title": "Russian Soviet Federative Socialist Republic",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "soviet-union",
+      "title": "Soviet Union",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    },
+    {
+      "id": "russian-federation",
+      "title": "Russian Federation",
+      "scope": "Capital identity reference; no state history or border geometry asserted."
+    }
+  ]
+}

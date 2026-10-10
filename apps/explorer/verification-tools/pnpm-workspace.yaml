@@ -1,0 +1,13 @@
+# Separate verification dependency boundary; preserve the application lockfile and its supply-chain rules.
+packages:
+  - .
+minimumReleaseAge: 10080
+minimumReleaseAgeIgnoreMissingTime: false
+trustLockfile: false
+strictDepBuilds: true
+storeDir: .sites-runtime/pnpm-store
+cacheDir: .sites-runtime/pnpm-store/policy-cache
+enableGlobalVirtualStore: false
+packageImportMethod: clone-or-copy
+verifyDepsBeforeRun: false
+optimisticRepeatInstall: false

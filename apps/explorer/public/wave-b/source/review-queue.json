@@ -1,0 +1,3843 @@
+[
+  {
+    "key": "world_300.geojson:152",
+    "file": "world_300.geojson",
+    "sourceYear": 300,
+    "astronomicalYear": 300,
+    "sourceSha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297",
+    "featureIndex": 152,
+    "originalProperties": {
+      "cat": 17,
+      "NAME": "Rome (Constantinus)",
+      "ABBREVN": "Rome (Constantinus)",
+      "SUBJECTO": "Rome (Constantinus)",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Rome (Constantinus)"
+    },
+    "sourceLabel": "Rome (Constantinus)",
+    "displayName": "Rome (Constantinus)",
+    "kind": "review",
+    "rationale": "Named ruler and nominal year require identity/date review; no substitute imperial or province claim. Source does not delineate Britannia provincial subdivisions; clipping an imperial polygon does not invent provinces.",
+    "originalGeometrySha256": "bcafd1aedbe0300ba5c45c2ffbaad06309e3e10c187bce2ac539cb8327dec0f3",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "bcafd1aedbe0300ba5c45c2ffbaad06309e3e10c187bce2ac539cb8327dec0f3",
+    "clippedGeometrySha256": "6af3122e8637b3fa2c1c5271ce074fd3343948974b5caf2a3e76f5fa8c534529",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -2.0088283398963904,
+      52.76608809085254
+    ],
+    "clippedAreaSquareDegrees": 28.665421947173215,
+    "featurePath": "features/world_300-152.geojson",
+    "featureSha256": "4f23ffbe3db63225126c08d074a25dc4e631977a8416d18c57d0356abbb7adba",
+    "featureBytes": 6140
+  },
+  {
+    "key": "world_500.geojson:138",
+    "file": "world_500.geojson",
+    "sourceYear": 500,
+    "astronomicalYear": 500,
+    "sourceSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+    "featureIndex": 138,
+    "originalProperties": {
+      "NAME": "Western Roman Empire",
+      "ABBREVN": "W. Roman Emp",
+      "SUBJECTO": "Western Roman Empire",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Western Roman Empire"
+    },
+    "sourceLabel": "Western Roman Empire",
+    "displayName": "Western Roman Empire",
+    "kind": "review",
+    "rationale": "Nominal500CE imperial attribution requires review after the end of western imperial rule; no substitute owner. Source does not delineate Britannia provincial subdivisions; clipping an imperial polygon does not invent provinces.",
+    "originalGeometrySha256": "7c39c28b4c3b19ce0741ef0dec5a33f45ead213af8aa968d9de26929f2fb26e2",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "97d431cac15993604e93816a48321fdcbaf1ba44b5656744eefd4d3109813f59",
+    "clippedGeometrySha256": "859ba4474ade5576646c848804171f2f173c3d51a99f904b2de47785bba0ca38",
+    "scopeClipped": false,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -3.0863374247306603,
+      52.559386812407396
+    ],
+    "clippedAreaSquareDegrees": 8.013616293084114,
+    "featurePath": "features/world_500-138.geojson",
+    "featureSha256": "265a44cc81d2616583640499c28ff539d580b83dde4b7a1b04d2e391f27afc3e",
+    "featureBytes": 2650
+  },
+  {
+    "key": "world_500.geojson:152",
+    "file": "world_500.geojson",
+    "sourceYear": 500,
+    "astronomicalYear": 500,
+    "sourceSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+    "featureIndex": 152,
+    "originalProperties": {
+      "NAME": "Armorica",
+      "ABBREVN": "Armorica",
+      "SUBJECTO": "Armorica",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Armorica"
+    },
+    "sourceLabel": "Armorica",
+    "displayName": "Armorica",
+    "kind": "review",
+    "rationale": "Geographic or identity label alone does not establish a political or cultural unit.",
+    "originalGeometrySha256": "663b1191a4a3af573c1365a2b35d2ca288302b73a48f9a41b52139e4e2813854",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "306ce6de84ba3b205988456153c6b20511b2ce7da5914318e9091a29a33c67ef",
+    "clippedGeometrySha256": "bb51251da504addfc6e93114ae8987bb7383e40de446ce2095e2f1b04fdb57f2",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -3.2695977526747244,
+      48.46949347134294
+    ],
+    "clippedAreaSquareDegrees": 1.8961140075240945,
+    "featurePath": "features/world_500-152.geojson",
+    "featureSha256": "a10118bb2006b2adaa0935a5048df8532fa83cc3d904abe25a0030a35d45be24",
+    "featureBytes": 1488
+  },
+  {
+    "key": "world_800.geojson:119",
+    "file": "world_800.geojson",
+    "sourceYear": 800,
+    "astronomicalYear": 800,
+    "sourceSha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c",
+    "featureIndex": 119,
+    "originalProperties": {
+      "NAME": "Irlanda",
+      "ABBREVN": "Irlanda",
+      "wikipedia": null,
+      "SUBJECTO": "Irlanda",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Irlanda"
+    },
+    "sourceLabel": "Irlanda",
+    "displayName": "Irlanda",
+    "kind": "review",
+    "rationale": "Geographic or identity label alone does not establish a political or cultural unit.",
+    "originalGeometrySha256": "756e2d7e503d616084ad8c76d6b5c327b7f8c1fde45d7aaebacb77f0dfc5529b",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "756e2d7e503d616084ad8c76d6b5c327b7f8c1fde45d7aaebacb77f0dfc5529b",
+    "clippedGeometrySha256": "fa55a7360987a211d0388e0aecc2407fe52479fa904dadac77966984cc639763",
+    "scopeClipped": false,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -8.145782885031215,
+      53.4066596853322
+    ],
+    "clippedAreaSquareDegrees": 11.326592259679817,
+    "featurePath": "features/world_800-119.geojson",
+    "featureSha256": "2c783fbec3d581e5ae7d8814177317df1708458c8e2f5c8381181b1129c4e776",
+    "featureBytes": 4089
+  },
+  {
+    "key": "world_900.geojson:85",
+    "file": "world_900.geojson",
+    "sourceYear": 900,
+    "astronomicalYear": 900,
+    "sourceSha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+    "featureIndex": 85,
+    "originalProperties": {
+      "NAME": "Kent",
+      "ABBREVN": "Kent",
+      "wikipedia": null,
+      "SUBJECTO": "Kent",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kent"
+    },
+    "sourceLabel": "Kent",
+    "displayName": "Kent",
+    "kind": "review",
+    "rationale": "Independent kingdom interpretation at900CE is not supported; repeated800geometry requires review.",
+    "originalGeometrySha256": "954e3177c600b230cd6409c511a9124efb4766f5ee1501c4c191466ad42bc903",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "fc09e01fdb9cab92a948f5ab1db74f4b966f6fecd185877a10c601f3c88b7074",
+    "clippedGeometrySha256": "c93e8ba2d09e39d23a3c59c28c06be76d8849991a1cee0f39d2bffae28677054",
+    "scopeClipped": false,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      0.6333530537192384,
+      51.03691930963842
+    ],
+    "clippedAreaSquareDegrees": 0.4890781479840327,
+    "featurePath": "features/world_900-85.geojson",
+    "featureSha256": "936cca93a1c43223625815e1e838be2fa22f2f17d1e7edb08778ce72a2f87c19",
+    "featureBytes": 601
+  },
+  {
+    "key": "world_900.geojson:86",
+    "file": "world_900.geojson",
+    "sourceYear": 900,
+    "astronomicalYear": 900,
+    "sourceSha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+    "featureIndex": 86,
+    "originalProperties": {
+      "NAME": "Essex",
+      "ABBREVN": "Essex",
+      "wikipedia": null,
+      "SUBJECTO": "Essex",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Essex"
+    },
+    "sourceLabel": "Essex",
+    "displayName": "Essex",
+    "kind": "review",
+    "rationale": "Independent kingdom interpretation at900CE is not supported; repeated800geometry requires review.",
+    "originalGeometrySha256": "69679ce43418677dffc710dc01ed730f383fe3aa151eca6411ded99e8216b20e",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "15d77d912859f44651f0ba4b055af2b5bf9701a747bad3a41a80c900cb47679e",
+    "clippedGeometrySha256": "dd80c4006e778c24321a0c32cf4eead73f5598bde258c2a5e2d1c93b8cdcf4e9",
+    "scopeClipped": false,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      0.006950894495122983,
+      51.68655356045427
+    ],
+    "clippedAreaSquareDegrees": 0.8980563467735475,
+    "featurePath": "features/world_900-86.geojson",
+    "featureSha256": "0787b8d0f36c446a12a634b4bb5582651fba1039d3d36a0f093acdeb41c6a915",
+    "featureBytes": 494
+  },
+  {
+    "key": "world_900.geojson:87",
+    "file": "world_900.geojson",
+    "sourceYear": 900,
+    "astronomicalYear": 900,
+    "sourceSha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+    "featureIndex": 87,
+    "originalProperties": {
+      "NAME": "Mercia",
+      "ABBREVN": "Mercia",
+      "wikipedia": null,
+      "SUBJECTO": "Mercia",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Mercia"
+    },
+    "sourceLabel": "Mercia",
+    "displayName": "Mercia",
+    "kind": "review",
+    "rationale": "Status and extent at900CE require review; repeated800geometry is not treated as continuity.",
+    "originalGeometrySha256": "9b23014291ff8ce065755c073e2554088003d19faa76dd201ad3a71d1d3a8d11",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "ff7dc7e4854297767dc8e670549ed1b667a4abf9589426c14f234bcc92c82c5f",
+    "clippedGeometrySha256": "4356adf0d0a047ddca77433025ca2e93b99515f5f5ce0ad61e615123e9640de7",
+    "scopeClipped": false,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -0.6066658643383466,
+      52.119513460100094
+    ],
+    "clippedAreaSquareDegrees": 10.47844802596182,
+    "featurePath": "features/world_900-87.geojson",
+    "featureSha256": "50f1ecdc2972ca4e556eeab6a1ca52cf6ee67570028d0e7351c2fda5b9dd5ccf",
+    "featureBytes": 2688
+  },
+  {
+    "key": "world_900.geojson:106",
+    "file": "world_900.geojson",
+    "sourceYear": 900,
+    "astronomicalYear": 900,
+    "sourceSha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+    "featureIndex": 106,
+    "originalProperties": {
+      "NAME": "Irlanda",
+      "ABBREVN": "Irlanda",
+      "wikipedia": null,
+      "SUBJECTO": "Irlanda",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Irlanda"
+    },
+    "sourceLabel": "Irlanda",
+    "displayName": "Irlanda",
+    "kind": "review",
+    "rationale": "Geographic or identity label alone does not establish a political or cultural unit.",
+    "originalGeometrySha256": "756e2d7e503d616084ad8c76d6b5c327b7f8c1fde45d7aaebacb77f0dfc5529b",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "756e2d7e503d616084ad8c76d6b5c327b7f8c1fde45d7aaebacb77f0dfc5529b",
+    "clippedGeometrySha256": "fa55a7360987a211d0388e0aecc2407fe52479fa904dadac77966984cc639763",
+    "scopeClipped": false,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -8.145782885031215,
+      53.4066596853322
+    ],
+    "clippedAreaSquareDegrees": 11.326592259679817,
+    "featurePath": "features/world_900-106.geojson",
+    "featureSha256": "2c783fbec3d581e5ae7d8814177317df1708458c8e2f5c8381181b1129c4e776",
+    "featureBytes": 4089
+  },
+  {
+    "key": "world_1500.geojson:265",
+    "file": "world_1500.geojson",
+    "sourceYear": 1500,
+    "astronomicalYear": 1500,
+    "sourceSha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+    "featureIndex": 265,
+    "originalProperties": {
+      "NAME": "Kalmar Union",
+      "ABBREVN": "Kalmar Union",
+      "SUBJECTO": "Kalmar Union",
+      "BORDERPRECISION": 1,
+      "PARTOF": "Kalmar Union"
+    },
+    "sourceLabel": "Kalmar Union",
+    "displayName": "Kalmar Union",
+    "kind": "review",
+    "rationale": "Northern-island attribution at1500 requires review; no reassignment inferred.",
+    "originalGeometrySha256": "bedca675e975fb47284a66d198de7384725b8d21b2e9307425c2f14ec7372875",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "bedca675e975fb47284a66d198de7384725b8d21b2e9307425c2f14ec7372875",
+    "clippedGeometrySha256": "0c60d5d5df3af673775a1b94639e45395bade983db5879f9d7d125340d0cfc1d",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      -3.163450247530566,
+      59.012077500000004
+    ],
+    "clippedAreaSquareDegrees": 0.4014546820100028,
+    "featurePath": "features/world_1500-265.geojson",
+    "featureSha256": "d7f4628332d1167fb7b80f30f09feb0651539706fd315bfcfe340ec5ab9ecf52",
+    "featureBytes": 6869
+  },
+  {
+    "key": "world_1650.geojson:72",
+    "file": "world_1650.geojson",
+    "sourceYear": 1650,
+    "astronomicalYear": 1650,
+    "sourceSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+    "featureIndex": 72,
+    "originalProperties": {
+      "NAME": "Luxembourg",
+      "ABBREVN": "Luxembourg",
+      "SUBJECTO": "Luxembourg",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Luxembourg"
+    },
+    "sourceLabel": "Luxembourg",
+    "displayName": "Luxembourg",
+    "kind": "review",
+    "rationale": "Source label and cross-channel footprint do not establish a matching local polity.",
+    "originalGeometrySha256": "f2525a2c5f1338f48c246ae48f8b4ee7155cc0dd965c3d7b8f012d533484150e",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "8f48d3c293af39838be12be7ce263e11262e210826657be5053f14add8fcb60b",
+    "clippedGeometrySha256": "b97243014d9f7e48f3955808e36efb29b8cfd5af7ad36042230bc2c9886a5271",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      2.4054212169612,
+      50.58205141734497
+    ],
+    "clippedAreaSquareDegrees": 1.15849372933478,
+    "featurePath": "features/world_1650-72.geojson",
+    "featureSha256": "76f185fc2a23845876e833e7af132777c36ecc0fe38288291413eb2d6d6493e9",
+    "featureBytes": 772
+  },
+  {
+    "key": "world_1700.geojson:75",
+    "file": "world_1700.geojson",
+    "sourceYear": 1700,
+    "astronomicalYear": 1700,
+    "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+    "featureIndex": 75,
+    "originalProperties": {
+      "NAME": "Luxembourg",
+      "ABBREVN": "Luxembourg",
+      "SUBJECTO": "Luxembourg",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Luxembourg"
+    },
+    "sourceLabel": "Luxembourg",
+    "displayName": "Luxembourg",
+    "kind": "review",
+    "rationale": "Source label and cross-channel footprint do not establish a matching local polity.",
+    "originalGeometrySha256": "f2525a2c5f1338f48c246ae48f8b4ee7155cc0dd965c3d7b8f012d533484150e",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "8f48d3c293af39838be12be7ce263e11262e210826657be5053f14add8fcb60b",
+    "clippedGeometrySha256": "b97243014d9f7e48f3955808e36efb29b8cfd5af7ad36042230bc2c9886a5271",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      2.4054212169612,
+      50.58205141734497
+    ],
+    "clippedAreaSquareDegrees": 1.15849372933478,
+    "featurePath": "features/world_1700-75.geojson",
+    "featureSha256": "76f185fc2a23845876e833e7af132777c36ecc0fe38288291413eb2d6d6493e9",
+    "featureBytes": 772
+  },
+  {
+    "key": "world_1800.geojson:7",
+    "file": "world_1800.geojson",
+    "sourceYear": 1800,
+    "astronomicalYear": 1800,
+    "sourceSha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+    "featureIndex": 7,
+    "originalProperties": {
+      "NAME": "Austrian Netherlands",
+      "ABBREVN": "Belgium",
+      "SUBJECTO": "Habsburg Austria",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Austrian Netherlands"
+    },
+    "sourceLabel": "Austrian Netherlands",
+    "displayName": "Austrian Netherlands",
+    "kind": "review",
+    "rationale": "Nominal1800 attribution requires temporal review; no substitute French ownership.",
+    "originalGeometrySha256": "b6a4fc7daa0c45bc63b35dfdb7f0c72bc4d61100c2a836ddbc552917ba3871f6",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "20e1c946b690cfed7e69c3ecf5f0614a0d45a30d61cb18ca7ac3b6c9f7e94600",
+    "clippedGeometrySha256": "600452216df69cec145884f6cb6f8c236a68a6b69a8c0ec5e80fb1e402092876",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      2.784465329452148,
+      50.99066885562305
+    ],
+    "clippedAreaSquareDegrees": 0.19440091417770322,
+    "featurePath": "features/world_1800-7.geojson",
+    "featureSha256": "f7fcd103303a1946c856ebce7a1024f645ae7c373283468d8b000bcf290fcb56",
+    "featureBytes": 532
+  },
+  {
+    "key": "world_1815.geojson:367",
+    "file": "world_1815.geojson",
+    "sourceYear": 1815,
+    "astronomicalYear": 1815,
+    "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+    "featureIndex": 367,
+    "originalProperties": {
+      "NAME": "Austrian Empire",
+      "ABBREVN": "Austria-Hung",
+      "SUBJECTO": "Austrian Empire",
+      "BORDERPRECISION": 3,
+      "PARTOF": "Austrian Empire"
+    },
+    "sourceLabel": "Austrian Empire",
+    "displayName": "Austrian Empire",
+    "kind": "review",
+    "rationale": "Cross-channel footprint and nominal1815 attribution require review; no substitute Netherlands ownership.",
+    "originalGeometrySha256": "34abf803e6ef94223b498e368c2f6ebba89775b8e22d03dd7b2b11d8ea1a7756",
+    "topologyValidBefore": true,
+    "topologyReasonBefore": "Valid Geometry",
+    "repair": "none",
+    "repairedGeometrySha256": "34abf803e6ef94223b498e368c2f6ebba89775b8e22d03dd7b2b11d8ea1a7756",
+    "clippedGeometrySha256": "504767c31136925fc066cb9f29e866d1291b76b8fa95aa8eb70830604ec0fea5",
+    "scopeClipped": true,
+    "scope": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "representativePoint": [
+      2.784465329452148,
+      50.99066885562305
+    ],
+    "clippedAreaSquareDegrees": 0.19440091417770322,
+    "featurePath": "features/world_1815-367.geojson",
+    "featureSha256": "0fab4ad7b8d61d24b533a9a3844a221e31aa76644f04197e44d747327132b700",
+    "featureBytes": 526
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 113,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 114,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 115,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 116,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 117,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 118,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 119,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 120,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 121,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 122,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 123,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 124,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 125,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 126,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 127,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 128,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 129,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 130,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 131,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 132,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 133,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc200.geojson",
+    "featureIndex": 162,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 162,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 163,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 164,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 165,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 166,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 167,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 168,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 169,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 170,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 171,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc100.geojson",
+    "featureIndex": 229,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 2,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 84,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 151,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 267,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 268,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 269,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 270,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 271,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 272,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 273,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 274,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 275,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 276,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 277,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 278,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 279,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 280,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 281,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 282,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 283,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 284,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 285,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 286,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_bc1.geojson",
+    "featureIndex": 287,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 2,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 82,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 146,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 265,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 266,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 267,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 268,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 269,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 270,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 271,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 272,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 273,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 274,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 275,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 276,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 277,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 278,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 279,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 280,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 281,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 282,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 283,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 284,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_100.geojson",
+    "featureIndex": 285,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 2,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 87,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 151,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 313,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 314,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 315,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 316,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 317,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 318,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 319,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 320,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 321,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 322,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 323,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 324,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 325,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 326,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 327,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 328,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 329,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 330,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 331,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 332,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_200.geojson",
+    "featureIndex": 333,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 2,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 88,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 151,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 311,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 312,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 313,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 314,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 315,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 316,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 317,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 318,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 319,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 320,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 321,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 322,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 323,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 324,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 325,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 326,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 327,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 328,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 329,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 330,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_300.geojson",
+    "featureIndex": 331,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 2,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 85,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 145,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 318,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 319,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 320,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 321,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 322,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 323,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 324,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 325,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 326,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 327,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 328,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 329,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 330,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 331,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 332,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 333,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 334,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 335,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 336,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 337,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_400.geojson",
+    "featureIndex": 338,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 14,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 47,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 48,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 92,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 93,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 94,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 95,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 96,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 97,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 98,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 99,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 100,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 101,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 102,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 103,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 104,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 105,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 106,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 107,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 108,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 109,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 110,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 111,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_500.geojson",
+    "featureIndex": 112,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 22,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 32,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 62,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 68,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 132,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 133,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 134,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 135,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 136,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 137,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 138,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 139,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 140,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 141,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 142,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 143,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 144,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 145,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 146,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 147,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 148,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 149,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 150,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 151,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_600.geojson",
+    "featureIndex": 152,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 25,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 38,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 66,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 73,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 183,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 184,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 185,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 186,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 187,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 188,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 189,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 190,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 191,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_700.geojson",
+    "featureIndex": 192,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 160,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 161,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 162,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 163,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 164,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 165,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 166,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 167,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 168,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 169,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 170,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 171,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_800.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 140,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 141,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 142,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 143,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 144,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 145,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 146,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 147,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 148,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 149,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 150,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 151,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 152,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 153,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 154,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 155,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 156,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 157,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 158,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 159,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_900.geojson",
+    "featureIndex": 160,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 64,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 184,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 185,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 186,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 187,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 188,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 189,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 190,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 191,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 192,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 193,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 194,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 195,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 196,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 197,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 198,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 199,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 200,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 201,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 202,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 203,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1000.geojson",
+    "featureIndex": 204,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 68,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 139,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 140,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 141,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 142,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 143,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 144,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 145,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 146,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 147,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 148,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 149,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 150,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 151,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 152,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 153,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 154,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 155,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 156,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 157,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 158,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1100.geojson",
+    "featureIndex": 159,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 68,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 165,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 166,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 167,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 168,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 169,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 170,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 171,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 183,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 184,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1200.geojson",
+    "featureIndex": 185,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 189,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 190,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 191,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 192,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 193,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 194,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 195,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 196,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 197,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 198,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 199,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 200,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 201,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 202,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 203,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 204,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 205,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 206,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 207,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 208,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1279.geojson",
+    "featureIndex": 209,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 192,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 193,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 194,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 195,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 196,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 197,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 198,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 199,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 200,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 201,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 202,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 203,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 204,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 205,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 206,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 207,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 208,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 209,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 210,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 211,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1300.geojson",
+    "featureIndex": 212,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 183,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 184,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 185,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 186,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 187,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 188,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 189,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 190,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 191,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1400.geojson",
+    "featureIndex": 192,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1882,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1883,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1884,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1885,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1886,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1887,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1888,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1889,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1890,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1891,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1892,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1893,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1894,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1895,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1896,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1897,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1898,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1899,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1900,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1901,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1902,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1492.geojson",
+    "featureIndex": 1903,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 234,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 235,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 236,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 237,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 238,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 239,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 240,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 241,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 242,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 243,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 244,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1500.geojson",
+    "featureIndex": 245,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 406,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 407,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 408,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 409,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 410,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 411,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 412,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 413,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 414,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 415,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 416,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 417,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 418,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 419,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 420,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 421,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 422,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 423,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 424,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 425,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1530.geojson",
+    "featureIndex": 426,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 790,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 791,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 792,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 793,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 794,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 795,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 796,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 797,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 798,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 799,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 800,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 801,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 802,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 803,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 804,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 805,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 806,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 807,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 808,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 809,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1600.geojson",
+    "featureIndex": 810,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 707,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 708,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 709,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 710,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 711,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 712,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 713,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 714,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 715,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 716,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 717,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 718,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 719,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 720,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 721,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 722,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 723,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 724,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1650.geojson",
+    "featureIndex": 725,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 725,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 726,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 727,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 728,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 729,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 730,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 731,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 732,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 733,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 734,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 735,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 736,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 737,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 738,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 739,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 740,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 741,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 742,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 743,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 744,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1700.geojson",
+    "featureIndex": 745,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 706,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 707,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 708,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 709,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 710,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 711,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 712,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 713,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 714,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 715,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 716,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 717,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 718,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 719,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 720,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 721,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 722,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 723,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 724,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 725,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1715.geojson",
+    "featureIndex": 726,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 574,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 575,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 576,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 577,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 578,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 579,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 580,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 581,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 582,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 583,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 584,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 585,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 586,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 587,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 588,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 589,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 590,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 591,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 592,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 593,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1783.geojson",
+    "featureIndex": 594,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 564,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 565,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 566,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 567,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 568,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 569,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 570,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 571,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 572,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 573,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 574,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 575,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 576,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 577,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 578,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 579,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 580,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 581,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 582,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 583,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1800.geojson",
+    "featureIndex": 584,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 328,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 329,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 330,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 331,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 332,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 333,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 334,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 335,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 336,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 337,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 338,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 339,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 340,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 341,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 342,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 343,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 344,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 345,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 346,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 347,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1815.geojson",
+    "featureIndex": 348,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 163,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 164,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 165,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 166,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 167,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 168,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 169,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 170,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 171,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1878.geojson",
+    "featureIndex": 183,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 167,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 168,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 169,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 170,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 171,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 183,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 184,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 185,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 186,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1880.geojson",
+    "featureIndex": 187,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 164,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 165,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 166,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 167,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 168,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 169,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 170,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 171,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 172,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 173,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 174,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 175,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 176,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 177,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 178,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 179,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 180,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 181,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 182,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 183,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  },
+  {
+    "file": "world_1900.geojson",
+    "featureIndex": 184,
+    "reason": "Unnamed source geometry; no entity or culture invented."
+  }
+]

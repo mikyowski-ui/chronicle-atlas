@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": "Exact retained immutable baseline entries; no exemptions or inferred replacements",
+  "repositoryRoot": "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source",
+  "baselinePath": "apps/explorer/verification/research-workspace/protected-inputs.json",
+  "baselineSha256": "244d3612c4f8a9c399b555acaaafef63fac41fa6ffd3900fc3c1cd2da91fd008",
+  "expectedCount": 2282,
+  "checkedCount": 2282,
+  "expectedCountMatches": true,
+  "unchangedCount": 2282,
+  "missing": [],
+  "modified": [],
+  "readErrors": []
+}

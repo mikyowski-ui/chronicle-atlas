@@ -1,0 +1,268 @@
+TAP version 13
+# Subtest: M3 application VM denies reviewed network capability probe
+ok 1 - M3 application VM denies reviewed network capability probe
+  ---
+  duration_ms: 42.6854
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed dom capability probe
+ok 2 - M3 application VM denies reviewed dom capability probe
+  ---
+  duration_ms: 34.3999
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed environment capability probe
+ok 3 - M3 application VM denies reviewed environment capability probe
+  ---
+  duration_ms: 36.3909
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed filesystem capability probe
+ok 4 - M3 application VM denies reviewed filesystem capability probe
+  ---
+  duration_ms: 34.3441
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed processes capability probe
+ok 5 - M3 application VM denies reviewed processes capability probe
+  ---
+  duration_ms: 32.6523
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed constructor-escape capability probe
+ok 6 - M3 application VM denies reviewed constructor-escape capability probe
+  ---
+  duration_ms: 33.1854
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed prototype-pollution capability probe
+ok 7 - M3 application VM denies reviewed prototype-pollution capability probe
+  ---
+  duration_ms: 32.9095
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed unauthorized-call capability probe
+ok 8 - M3 application VM denies reviewed unauthorized-call capability probe
+  ---
+  duration_ms: 33.5309
+  type: 'test'
+  ...
+# Subtest: M3 application infinite-loop terminates or rejects with EXECUTION_TIMEOUT
+ok 9 - M3 application infinite-loop terminates or rejects with EXECUTION_TIMEOUT
+  ---
+  duration_ms: 136.0576
+  type: 'test'
+  ...
+# Subtest: M3 application memory-flood terminates or rejects with heap or execution guard
+ok 10 - M3 application memory-flood terminates or rejects with heap or execution guard
+  ---
+  duration_ms: 62.1928
+  type: 'test'
+  ...
+# Subtest: M3 application output-flood terminates or rejects with OUTPUT_LIMIT
+ok 11 - M3 application output-flood terminates or rejects with OUTPUT_LIMIT
+  ---
+  duration_ms: 34.0875
+  type: 'test'
+  ...
+# Subtest: M3 application diagnostic-flood terminates or rejects with DIAGNOSTIC_LIMIT
+ok 12 - M3 application diagnostic-flood terminates or rejects with DIAGNOSTIC_LIMIT
+  ---
+  duration_ms: 32.6409
+  type: 'test'
+  ...
+# Subtest: M3 application malformed-output terminates or rejects with DUPLICATE_KEY
+ok 13 - M3 application malformed-output terminates or rejects with DUPLICATE_KEY
+  ---
+  duration_ms: 32.6591
+  type: 'test'
+  ...
+# Subtest: M3 application markup-output terminates or rejects with INVALID_SCHEMA
+ok 14 - M3 application markup-output terminates or rejects with INVALID_SCHEMA
+  ---
+  duration_ms: 32.6716
+  type: 'test'
+  ...
+# Subtest: M3 application forged-output terminates or rejects with INVALID_SCHEMA
+ok 15 - M3 application forged-output terminates or rejects with INVALID_SCHEMA
+  ---
+  duration_ms: 32.729
+  type: 'test'
+  ...
+# Subtest: M3 application crash terminates or rejects with BOUNDARY_CRASH
+ok 16 - M3 application crash terminates or rejects with BOUNDARY_CRASH
+  ---
+  duration_ms: 32.1679
+  type: 'test'
+  ...
+# Subtest: M3 application partial-output terminates or rejects with INVALID_JSON
+ok 17 - M3 application partial-output terminates or rejects with INVALID_JSON
+  ---
+  duration_ms: 31.7276
+  type: 'test'
+  ...
+# Subtest: M3 application validates synthetic transform and retains reference-only receipt
+ok 18 - M3 application validates synthetic transform and retains reference-only receipt
+  ---
+  duration_ms: 33.6541
+  type: 'test'
+  ...
+# Subtest: M3 application cannot accept code, unknown fixture or caller budgets
+ok 19 - M3 application cannot accept code, unknown fixture or caller budgets
+  ---
+  duration_ms: 0.2608
+  type: 'test'
+  ...
+# Subtest: M3 application rechecks rights and source binding after worker teardown
+ok 20 - M3 application rechecks rights and source binding after worker teardown
+  ---
+  duration_ms: 65.1926
+  type: 'test'
+  ...
+# Subtest: M3 application stale parent cannot activate a completed result
+ok 21 - M3 application stale parent cannot activate a completed result
+  ---
+  duration_ms: 33.2288
+  type: 'test'
+  ...
+# Subtest: M3 application A-B-A latest input wins with one pending job
+ok 22 - M3 application A-B-A latest input wins with one pending job
+  ---
+  duration_ms: 53.9625
+  type: 'test'
+  ...
+# Subtest: M3 application executes/cancels/disposes 20 times without residual worker capability
+ok 23 - M3 application executes/cancels/disposes 20 times without residual worker capability
+  ---
+  duration_ms: 1083.4709
+  type: 'test'
+  ...
+# Subtest: native browser range delivery never uses a cache object as the fetch receiver
+ok 24 - native browser range delivery never uses a cache object as the fetch receiver
+  ---
+  duration_ms: 21.0844
+  type: 'test'
+  ...
+# Subtest: native continuation preserves every protected historical input and the main dependency policy
+ok 25 - native continuation preserves every protected historical input and the main dependency policy
+  ---
+  duration_ms: 1321.3406
+  type: 'test'
+  ...
+# Subtest: native build matches actual source bytes and excludes the Node-only Gemini credential transport from browser assets
+ok 26 - native build matches actual source bytes and excludes the Node-only Gemini credential transport from browser assets
+  ---
+  duration_ms: 1407.9579
+  type: 'test'
+  ...
+# Subtest: native portability edits retain the exact original M2 test assertions without changing archived checksum policy
+ok 27 - native portability edits retain the exact original M2 test assertions without changing archived checksum policy
+  ---
+  duration_ms: 19.3117
+  type: 'test'
+  ...
+# Subtest: M3 retains disabled generated execution, models and immutable stricter policy
+ok 28 - M3 retains disabled generated execution, models and immutable stricter policy
+  ---
+  duration_ms: 1.1175
+  type: 'test'
+  ...
+# Subtest: M3 parser rejects duplicate and escaped duplicate keys before construction
+ok 29 - M3 parser rejects duplicate and escaped duplicate keys before construction
+  ---
+  duration_ms: 0.6652
+  type: 'test'
+  ...
+# Subtest: M3 parser rejects prototype pollution at every depth
+ok 30 - M3 parser rejects prototype pollution at every depth
+  ---
+  duration_ms: 0.2263
+  type: 'test'
+  ...
+# Subtest: M3 parser bounds bytes, depth, node count and finite values
+ok 31 - M3 parser bounds bytes, depth, node count and finite values
+  ---
+  duration_ms: 9.0671
+  type: 'test'
+  ...
+# Subtest: M3 parser rejects malformed encoding, JSON and control characters
+ok 32 - M3 parser rejects malformed encoding, JSON and control characters
+  ---
+  duration_ms: 0.3839
+  type: 'test'
+  ...
+# Subtest: M3 rejects unauthorized calls, code, DOM and budget overrides
+ok 33 - M3 rejects unauthorized calls, code, DOM and budget overrides
+  ---
+  duration_ms: 0.6698
+  type: 'test'
+  ...
+# Subtest: M3 requires current explicit per-field local transform grant
+ok 34 - M3 requires current explicit per-field local transform grant
+  ---
+  duration_ms: 0.692
+  type: 'test'
+  ...
+# Subtest: M3 rejects forged source rows even with an approved hash
+ok 35 - M3 rejects forged source rows even with an approved hash
+  ---
+  duration_ms: 0.6942
+  type: 'test'
+  ...
+# Subtest: M3 rejects stale parents and changed permissions at revalidation
+ok 36 - M3 rejects stale parents and changed permissions at revalidation
+  ---
+  duration_ms: 0.5271
+  type: 'test'
+  ...
+# Subtest: M3 validates independently recomputed count, values and strict output schema
+ok 37 - M3 validates independently recomputed count, values and strict output schema
+  ---
+  duration_ms: 1.0973
+  type: 'test'
+  ...
+# Subtest: M3 rejects unit changes, duplicated records, injected source text and overlong identifiers
+ok 38 - M3 rejects unit changes, duplicated records, injected source text and overlong identifiers
+  ---
+  duration_ms: 0.4399
+  type: 'test'
+  ...
+# Subtest: M3 native bootstrap either establishes every control or returns explicit unavailable
+ok 39 - M3 native bootstrap either establishes every control or returns explicit unavailable
+  ---
+  duration_ms: 0.9127
+  type: 'test'
+  ...
+# Subtest: M3 missing runtime fails closed without substituting another engine
+ok 40 - M3 missing runtime fails closed without substituting another engine
+  ---
+  duration_ms: 0.1467
+  type: 'test'
+  ...
+# Subtest: M3 latest-wins retains at most one pending job
+ok 41 - M3 latest-wins retains at most one pending job
+  ---
+  duration_ms: 0.2152
+  type: 'test'
+  ...
+# Subtest: M3 cancellation and disposal prevent launch or activation
+ok 42 - M3 cancellation and disposal prevent launch or activation
+  ---
+  duration_ms: 0.3717
+  type: 'test'
+  ...
+# Subtest: M3 20 fail-closed/reclaim cycles leave no engine resources
+ok 43 - M3 20 fail-closed/reclaim cycles leave no engine resources
+  ---
+  duration_ms: 0.9589
+  type: 'test'
+  ...
+1..43
+# tests 43
+# suites 0
+# pass 43
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3092.9304

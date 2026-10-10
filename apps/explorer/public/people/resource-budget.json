@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "frozen_before_collection": true,
+  "source_scope": [
+    "ONS England and Wales estimates 1838\u20132025: extract 1900 only",
+    "Hansard HL 15 February 1847 vol 89 cc1323\u20134: one Ireland-to-Liverpool arrival interval"
+  ],
+  "max_downloaded_bytes": 2621440,
+  "max_requests": 5,
+  "max_request_seconds": 30,
+  "max_workers": 1,
+  "max_process_rss_bytes": 268435456,
+  "max_lookup_bytes": 262144,
+  "max_lookup_entries": 160,
+  "no_silent_limit_increase": true,
+  "interpolation": false,
+  "public_ledger_mutation": false
+}

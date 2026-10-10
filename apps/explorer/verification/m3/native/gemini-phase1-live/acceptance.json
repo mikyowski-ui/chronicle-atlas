@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "reason": "SYNTHETIC_LIVE_CHECKS_COMPLETED",
+  "startedAt": "2026-10-08T23:49:14.541Z",
+  "environment": {
+    "platform": "win32",
+    "architecture": "x64",
+    "kernel": "10.0.26200",
+    "node": "v22.17.0"
+  },
+  "model": "gemini-3.8-flash",
+  "optedIn": true,
+  "dataClass": "synthetic-fixture",
+  "historicalModelProcessing": false,
+  "credentialSetup": {
+    "key": "GEMINI_API_KEY",
+    "source": "source-root-dotenv",
+    "encoding": "utf-8",
+    "sourceEnvCreated": false
+  },
+  "acceptanceProfile": "synthetic-live-30s-v1",
+  "budgets": {
+    "maximumRequests": 2,
+    "aggregateReservedTokenCeiling": 40448,
+    "timeoutMsPerRequest": 30000,
+    "repairs": 0,
+    "toolCalls": 0
+  },
+  "checks": [
+    {
+      "name": "live-inference-and-schema-conformance",
+      "status": "PASS",
+      "httpStatus": 200,
+      "outputHash": "4f075153b1b98d4b2fb78981723d5d8970083adf06f857cf5efe3e68b748f486"
+    },
+    {
+      "name": "session-budget-exhaustion-no-extra-request",
+      "status": "PASS",
+      "code": "PROVIDER_UNAVAILABLE"
+    },
+    {
+      "name": "pre-cancelled-request-no-network",
+      "status": "PASS",
+      "code": "CANCELLED"
+    },
+    {
+      "name": "live-unavailable-model-error-redaction",
+      "status": "PASS",
+      "code": "PROVIDER_UNAVAILABLE",
+      "httpStatus": 404
+    },
+    {
+      "name": "historical-processing-defaults-unchanged",
+      "status": "PASS"
+    }
+  ],
+  "requests": 2,
+  "reportedUsage": {
+    "inputTokens": 526,
+    "outputTokens": 915,
+    "thoughtTokens": 0,
+    "totalTokens": 1441
+  },
+  "unrefundedFailedAttempts": 1,
+  "accountingTokensCharged": 24188,
+  "tokenAccounting": "Provider-reported usage is separate from conservative byte-based reservation charges. Missing usage for an attempted request is unknown, not proof of zero billing. Cancellation does not prove server-side generation stopped.",
+  "disclosure": "No credentials, prompts, source records, raw model output or provider error bodies are recorded. Historical permissions are never mutated.",
+  "finishedAt": "2026-10-08T23:49:20.986Z"
+}

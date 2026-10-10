@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "budgetId": "chronicle-v2-detail-places-v1",
+  "frozenBeforeExecution": true,
+  "scope": "Retained numbered Pleiades 4.1 GIS settlement points and Natural Earth 10m populated places 5.1.2 modern orientation context",
+  "workerCount": 1,
+  "maxRssBytes": 536870912,
+  "retainedInputBytes": 67108864,
+  "externalArchiveBytes": 4194304,
+  "maxPleiadesPlaces": 10000,
+  "maxModernPlaces": 10000,
+  "browserOutputBytes": 8388608,
+  "temporalScopeAstronomicalYears": [-2999, 2010],
+  "networkMode": "One bounded archive request, official Natural Earth source; no gazetteer scraping",
+  "ledgerMutation": false,
+  "historicalPublicationApproved": false
+}

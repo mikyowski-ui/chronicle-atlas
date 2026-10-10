@@ -1,0 +1,1 @@
+{"schema_version":2,"edition":"isles-alpha-da7a4b7-display-v1","epoch_id":"isles-migration-1847","territories":[],"population":[],"migration":[{"type":"Feature","properties":{"render_id":"migration:ireland-liverpool:1847","t_start":-44913,"t_end":-44883,"magnitude":27012},"geometry":{"type":"LineString","coordinates":[[-8,53.4],[-2.99,53.41]]}}]}

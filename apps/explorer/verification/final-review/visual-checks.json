@@ -1,0 +1,57 @@
+{
+  "narrow": {
+    "evidence": {
+      "bottom": 973.25,
+      "height": 877,
+      "right": 339,
+      "width": 313,
+      "x": 26,
+      "y": 96.25
+    },
+    "panel": {
+      "bottom": 590,
+      "height": 474,
+      "right": 365,
+      "width": 355,
+      "x": 10,
+      "y": 116
+    },
+    "sourceText": "Trace an observationGuadalajara · 2000 CE3,592,819 personsDate precisionyear · mid-year estimateEvidenceestimate · source-attributedGeographic definitionPopulation residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.Comparabilityexplicit · definition-onlySourceUnited Nations, Department of Economic and Social Affairs, Population Division (2025). World Urbanization Prospects: The 2025 Revision, Online Edition. File 21.EditionPOP/DB/WUP/Rev.2025/F21Record locatorWUP2025-F21-DEGURBA-Cities_Pop.xlsx · Data · row 11185 · column AK · cell AK11185Local record/cities/547/population/14Source value3,592.819 thousands of personsConversionround(value * 1000)RightsCC BY 3.0 IGOUncertaintyNo measurement uncertainty interval supplied; none has been invented.Open registered sourceShow 2000 CE on timeline",
+    "timeline": {
+      "bottom": 812,
+      "height": 207.1875,
+      "right": 375,
+      "width": 375,
+      "x": 0,
+      "y": 604.8125
+    },
+    "viewport": {
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  },
+  "narrowSemantic": {
+    "playing": "false",
+    "scrollWidth": 375,
+    "status": "Pinned local study validated. Follow-ups remain local; planner not enabled.",
+    "width": 375
+  },
+  "featureOff": {
+    "canvas": 1,
+    "researchButtons": 0,
+    "studiesVisible": true,
+    "timeline": "2000 CE"
+  },
+  "country": {
+    "text": "×\n\nBrowsing 2000-01-01 CE\n\nMap observation · 2000 CE\n\nSELECTED HISTORICAL ENTITY\n\nMexico\n\nPolitical association\n\nApproximate mapped footprint\n1,908,230 km²\n\nSource-vector area; approximate, not a sovereignty measurement.\n\nExplore its timeline\nSources & interpretation\nAbout this atlas entry\n\nMexico is represented as a political or administrative association in 12 dated atlas observations (1,878 CE through 2,010 CE). This classification does not establish independent sovereignty, a uniform government, or effective control throughout the colored area.\n\nThese are separate map observations. The earliest and latest dates are not foundation and dissolution dates, and gaps do not prove disappearance. Matching names across maps are a browsing index, not proof of uninterrupted identity.\n\nRead state study & sources",
+    "visible": true
+  },
+  "replay": "Reopened against matching local source records.",
+  "semantic": {
+    "modernObservations": 44,
+    "premodernObservations": 10,
+    "premodernPlaces": 9
+  },
+  "meaning": "Actual CSS iframe at375x812; physicalmobile NOT_RUN. Evidence content intentionallyscrolls verticallywithinpanel."
+}

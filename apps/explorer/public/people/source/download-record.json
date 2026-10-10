@@ -1,0 +1,41 @@
+{
+  "inputs": [
+    {
+      "filename": "ons-ew-1838-2025.xlsx",
+      "url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fenglandandwalespopulationestimates1838to2025%2Fewpopulationestimates18382025.xlsx",
+      "byte_length": 442349,
+      "sha256": "715635a653d6471de5e4fd6059cf552855c580ed7af856a3ee4cc1e8e1cbaf7f",
+      "retrieved_at": "2026-09-23",
+      "status": "retained"
+    },
+    {
+      "filename": "hansard-1847-02-15.html",
+      "url": "https://api.parliament.uk/historic-hansard/lords/1847/feb/15/immigration-of-irish-paupers",
+      "byte_length": 14104,
+      "sha256": "58fcec10b603ed7af4a321a1dadcbef232416f43fe5fdead32c0e68aff141bc5",
+      "retrieved_at": "2026-09-23",
+      "status": "retained"
+    },
+    {
+      "filename": "open-parliament-licence.html",
+      "url": "https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "filename": "ons-catalog.html",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales",
+      "byte_length": 68610,
+      "sha256": "2b6512374ba4020fbd8666aec362e072b62b77629b8c0ea9fe9772342b329c4d",
+      "retrieved_at": "2026-09-23",
+      "status": "retained"
+    },
+    {
+      "filename": "open-government-licence.html",
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "downloaded_bytes": 525063
+}

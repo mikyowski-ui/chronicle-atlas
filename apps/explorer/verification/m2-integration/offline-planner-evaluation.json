@@ -1,0 +1,153 @@
+{
+  "mode": "offline-fixtures",
+  "liveGenerationEvaluated": false,
+  "cases": [
+    {
+      "id": "held-out-paraphrase",
+      "category": "held-out-paraphrase",
+      "status": "proposed",
+      "scores": {
+        "planValidity": true,
+        "answerabilityHandling": true,
+        "numericalCorrectness": true,
+        "evidenceClaimSupport": true,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "unfamiliar-supported-combination",
+      "category": "unfamiliar-supported-combination",
+      "status": "proposed",
+      "scores": {
+        "planValidity": true,
+        "answerabilityHandling": true,
+        "numericalCorrectness": true,
+        "evidenceClaimSupport": true,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "selection-date-revision",
+      "category": "selection-date-revision",
+      "status": "proposed",
+      "scores": {
+        "planValidity": true,
+        "answerabilityHandling": true,
+        "numericalCorrectness": true,
+        "evidenceClaimSupport": true,
+        "followupFidelity": true
+      }
+    },
+    {
+      "id": "sparse-qualitative-evidence",
+      "category": "sparse-qualitative-evidence",
+      "status": "proposed",
+      "scores": {
+        "planValidity": true,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": true,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "unsupported-quantities",
+      "category": "unsupported-quantities",
+      "status": "unsupported",
+      "scores": {
+        "planValidity": null,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": null,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "conflicting-definitions",
+      "category": "conflicting-definitions",
+      "status": "unsupported",
+      "scores": {
+        "planValidity": null,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": null,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "prompt-injection",
+      "category": "prompt-injection",
+      "status": "unsupported",
+      "scores": {
+        "planValidity": null,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": null,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "malformed-output",
+      "category": "malformed-output",
+      "status": "error",
+      "scores": {
+        "planValidity": null,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": null,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "provider-failure",
+      "category": "provider-failure",
+      "status": "error",
+      "scores": {
+        "planValidity": null,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": null,
+        "followupFidelity": null
+      }
+    },
+    {
+      "id": "stale-completion",
+      "category": "stale-completion",
+      "status": "error",
+      "scores": {
+        "planValidity": null,
+        "answerabilityHandling": true,
+        "numericalCorrectness": null,
+        "evidenceClaimSupport": null,
+        "followupFidelity": true
+      }
+    }
+  ],
+  "metrics": {
+    "planValidity": {
+      "passed": 4,
+      "failed": 0,
+      "notApplicable": 6
+    },
+    "answerabilityHandling": {
+      "passed": 10,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "numericalCorrectness": {
+      "passed": 3,
+      "failed": 0,
+      "notApplicable": 7
+    },
+    "evidenceClaimSupport": {
+      "passed": 4,
+      "failed": 0,
+      "notApplicable": 6
+    },
+    "followupFidelity": {
+      "passed": 2,
+      "failed": 0,
+      "notApplicable": 8
+    }
+  }
+}

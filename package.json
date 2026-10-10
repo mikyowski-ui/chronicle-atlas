@@ -1,0 +1,26 @@
+{
+  "name": "@chronicle/workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "build": "corepack pnpm --dir apps/explorer run build && corepack pnpm --dir apps/mechanism-explorer run build",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "corepack pnpm --dir apps/explorer exec node --import tsx --test --test-concurrency=1 tests/*.test.ts && node --import tsx --test packages/*/tests/*.test.ts",
+    "test:mechanism": "node apps/explorer/scripts/mechanism-headless-acceptance.mjs"
+  },
+  "dependencies": {
+    "@chronicle/contracts": "workspace:0.1.0",
+    "@chronicle/planner": "workspace:0.1.0",
+    "@chronicle/runtime": "workspace:0.1.0",
+    "@chronicle/view-adapters": "workspace:0.1.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "7946.0.16",
+    "@types/node": "22.19.19",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  }
+}

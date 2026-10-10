@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "budget_id": "global-history-49-v2",
+  "frozen_at": "2026-09-23",
+  "baseline_commit": "d5cc0ff0307a0cb6de164937fde0e93847b4404f",
+  "scope": {
+    "primary_observations": 40,
+    "optional_earlier_observations": 9,
+    "optional_enabled": true,
+    "public_ledger_mutations": false,
+    "total_observations": 49
+  },
+  "workers": 1,
+  "limits": {
+    "heap_mib": 256,
+    "process_rss_bytes": 536870912,
+    "job_deadline_ms": 60000,
+    "source_file_bytes": 16777216,
+    "source_collection_bytes": 268435456,
+    "archive_bytes": 1000000,
+    "metadata_bytes": 2097152,
+    "fallback_bytes": 4194304,
+    "manifest_bytes": 65536,
+    "epochs_per_manifest": 32,
+    "parts_per_scene": 1000,
+    "tile_bytes": 1048576,
+    "tiles_per_archive": 2048,
+    "root_catalog_bytes": 98304,
+    "catalog_observations": 64,
+    "manifest_cache_entries": 4,
+    "scene_cache_entries": 2,
+    "warm_cache_bytes": 1048576,
+    "warm_idle_archives": 4,
+    "warm_chunks_per_archive": 8,
+    "warm_directories_per_archive": 16,
+    "neighbor_prefetch_concurrency": 2,
+    "new_compressed_bytes": 67108864,
+    "cumulative_compressed_bytes": 134217728,
+    "staged_corpus_bytes": 536870912
+  },
+  "revisions": [
+    {
+      "old": "One observation and16MiB new compressed allowance",
+      "new": "40 primary observations, compact catalog<=64 descriptors, new compressed<=64MiB within existing128MiB aggregate",
+      "reason": "User expanded scope; retained1900 per-date tile+metadata+fallback is1,723,025B. Forty equal-sized products would be68,921,000B before originals/shared assets; this is sizing evidence, not a measured prediction. Per-product/runtime guards retained; sequential jobs measured individually."
+    },
+    {
+      "old": "Optional9 disabled pending primary40 usability",
+      "new": "Optional9 earlier observations enabled after40 world controls displayed correct scenes and2010regional fallback worked",
+      "reason": "Primary40 browser gate recorded in verification/global-history/primary-40/browser-gate.json;167 cumulative tests passed. All byte/worker/runtime caps remain unchanged. Prior pilot temporal authorization is preserved separately."
+    }
+  ],
+  "encoding": {
+    "minzoom": 0,
+    "maxzoom": 4,
+    "extent": 4096,
+    "buffer": 64,
+    "tolerance": 1.5,
+    "temporal_interpolation": false
+  },
+  "publication": "Staged source-attributed display only; independent historical review is separate."
+}

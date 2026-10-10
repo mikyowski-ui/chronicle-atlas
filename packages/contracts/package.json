@@ -1,0 +1,21 @@
+{
+  "name": "@chronicle/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./canonical": "./src/canonical.ts",
+    "./chronology": "./src/chronology.ts",
+    "./research": "./src/research.ts",
+    "./workspace": "./src/workspace.ts",
+    "./mechanism": "./src/mechanism.ts",
+    "./schema": "./src/schema.ts",
+    "./evidence": "./src/evidence.ts",
+    "./visualization": "./src/visualization.ts"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.0.1",
+    "zod": "4.6.5"
+  }
+}

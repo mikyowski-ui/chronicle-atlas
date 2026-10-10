@@ -1,0 +1,11 @@
+{
+  "purpose": "Windows x64 executable for the exact Teaching Atlas app; portable static-host launcher, no application rewrite",
+  "download_max_bytes": 104857600,
+  "toolchain_unpacked_max_bytes": 1073741824,
+  "payload_unpacked_max_bytes": 419430400,
+  "exe_max_bytes": 134217728,
+  "build_memory_max_bytes": 2147483648,
+  "workers": 1,
+  "runtime_host": "127.0.0.1 only",
+  "publication": "STAGED_NOT_PUBLISHED"
+}

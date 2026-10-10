@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "fixture_kind": "historical-candidate",
+  "edition": "isles-wave-b-da7a4b7-20260920",
+  "epoch_id": "isles-900",
+  "t_start": -390809,
+  "t_end": -390444,
+  "name": "British Isles 900 CE — STAGED CANDIDATE",
+  "description": "Nominal source snapshot. Immutable-cell interpretation; no public historical publication.",
+  "format": "pbf",
+  "type": "overlay",
+  "bounds": "-12,48,3,61.5",
+  "minzoom": 0,
+  "maxzoom": 0,
+  "layers": [
+    "territories"
+  ],
+  "tile": [
+    0,
+    0,
+    0
+  ],
+  "scene_metadata": {
+    "entities": {
+      "isles:political:04576130ad864c8de982": {
+        "name": "Wessex",
+        "color": "#a67db4",
+        "number": "01",
+        "kind": "political"
+      },
+      "isles:political:a11f68af03459445f801": {
+        "name": "West Francia",
+        "color": "#8cbfc8",
+        "number": "02",
+        "kind": "political"
+      },
+      "isles:cultural:404b36f6beb610fc4b16": {
+        "name": "Welsh / Wales (cultural approximation)",
+        "color": "#b9a5ca",
+        "number": "03",
+        "kind": "cultural"
+      },
+      "isles:political:b5cc4103533ade2a14ed": {
+        "name": "Northumbria",
+        "color": "#b1ba6c",
+        "number": "04",
+        "kind": "political"
+      },
+      "isles:cultural:2c588b54dd69405e61eb": {
+        "name": "Celtic communities (source: Celtic kingdoms)",
+        "color": "#b9a5ca",
+        "number": "05",
+        "kind": "cultural"
+      },
+      "isles:cultural:9063cb85c81298bf7057": {
+        "name": "Picts",
+        "color": "#b9a5ca",
+        "number": "06",
+        "kind": "cultural"
+      },
+      "isles:cultural:8db3c6052580f3afaf85": {
+        "name": "Scots",
+        "color": "#b9a5ca",
+        "number": "07",
+        "kind": "cultural"
+      },
+      "isles:political:5578c8bab58faf006eda": {
+        "name": "Britany",
+        "color": "#cc6d71",
+        "number": "08",
+        "kind": "political"
+      }
+    },
+    "labels": [
+      {
+        "label_id": "label:isles-900:isles:political:04576130ad864c8de982",
+        "entity_id": "isles:political:04576130ad864c8de982",
+        "text": "Wessex",
+        "position": [
+          -0.8454190738392378,
+          50.95433111383764
+        ],
+        "priority": 2
+      },
+      {
+        "label_id": "label:isles-900:isles:political:a11f68af03459445f801",
+        "entity_id": "isles:political:a11f68af03459445f801",
+        "text": "West Francia",
+        "position": [
+          1.5880200847568215,
+          49.66689833279314
+        ],
+        "priority": 2
+      },
+      {
+        "label_id": "label:isles-900:isles:cultural:404b36f6beb610fc4b16",
+        "entity_id": "isles:cultural:404b36f6beb610fc4b16",
+        "text": "Welsh / Wales (cultural approximation)",
+        "position": [
+          -3.5121799200489425,
+          52.2867923605031
+        ],
+        "priority": 1
+      },
+      {
+        "label_id": "label:isles-900:isles:political:b5cc4103533ade2a14ed",
+        "entity_id": "isles:political:b5cc4103533ade2a14ed",
+        "text": "Northumbria",
+        "position": [
+          -1.4845597775012225,
+          54.57126196499529
+        ],
+        "priority": 2
+      },
+      {
+        "label_id": "label:isles-900:isles:cultural:2c588b54dd69405e61eb",
+        "entity_id": "isles:cultural:2c588b54dd69405e61eb",
+        "text": "Celtic communities (source: Celtic kingdoms)",
+        "position": [
+          -3.5028968380771115,
+          55.02940519924822
+        ],
+        "priority": 1
+      },
+      {
+        "label_id": "label:isles-900:isles:cultural:9063cb85c81298bf7057",
+        "entity_id": "isles:cultural:9063cb85c81298bf7057",
+        "text": "Picts",
+        "position": [
+          -3.4737523214926416,
+          57.305995546538256
+        ],
+        "priority": 1
+      },
+      {
+        "label_id": "label:isles-900:isles:cultural:8db3c6052580f3afaf85",
+        "entity_id": "isles:cultural:8db3c6052580f3afaf85",
+        "text": "Scots",
+        "position": [
+          -5.188152833127171,
+          56.835549913603685
+        ],
+        "priority": 1
+      },
+      {
+        "label_id": "label:isles-900:isles:political:5578c8bab58faf006eda",
+        "entity_id": "isles:political:5578c8bab58faf006eda",
+        "text": "Britany",
+        "position": [
+          -3.336967264368015,
+          48.461525
+        ],
+        "priority": 2
+      }
+    ],
+    "evidence": {
+      "claim:d2c8a78f1e9a9d219cc135c858b67613e94621828bc1d45b1861515e05fd96e0": {
+        "assertion_ids": [
+          "claim:d2c8a78f1e9a9d219cc135c858b67613e94621828bc1d45b1861515e05fd96e0"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Explicit regional interpretation of source-labelled political association; no independent sovereignty or effective-control inference.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "639c17c71cb653e683cdc04872b489c596f39492e51d6d0fc9cb3dfb994b0e07",
+        "coverage_set_id": "coverage:09cfec57622acb3348ac70a1c42856461372ab5247bb22dd8006beccb7c2fb9b",
+        "source_feature_index": 15
+      },
+      "claim:093116c7c83675d4d83acc8e8166fa3953427272694c2f1bec7e59957dea3f92": {
+        "assertion_ids": [
+          "claim:093116c7c83675d4d83acc8e8166fa3953427272694c2f1bec7e59957dea3f92"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Explicit regional interpretation of source-labelled political association; no independent sovereignty or effective-control inference.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "c54bc01834b6bd6d5f8011dcb2c909ae0ce11f8ede7faef0ca64b7a95da0c706",
+        "coverage_set_id": "coverage:dc96c62147f326ad6d40c9e09961f6bb60303d01f5feb539bec799b8a9a282ac",
+        "source_feature_index": 31
+      },
+      "claim:6ecfa17cab8ac584ca6a938496979a7b84720c27a56314467c7e1bd8f2a510cc": {
+        "assertion_ids": [
+          "claim:6ecfa17cab8ac584ca6a938496979a7b84720c27a56314467c7e1bd8f2a510cc"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Broad source-labelled cultural approximation; not a unified polity, sovereignty, ownership or a comprehensive account of Britons.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "fffe85f05b14678f7c69571e90a230888dbcde7d65ccf8ef9b6ca919fb8d2860",
+        "coverage_set_id": "coverage:c29fb67f4022e1d91dc83fb3c07bf0a82b0781a6c41ae55c2c3c68c182c4fb4f",
+        "source_feature_index": 32
+      },
+      "claim:fea944cae3ead06b758e5551ae184d5a7b612da171375a89a8173df9d39d9f72": {
+        "assertion_ids": [
+          "claim:fea944cae3ead06b758e5551ae184d5a7b612da171375a89a8173df9d39d9f72"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Explicit regional interpretation of source-labelled political association; no independent sovereignty or effective-control inference.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "f6dd25cbe6e3c47b16f75e2d9e989291166c80873795ba259b41a18224687d3d",
+        "coverage_set_id": "coverage:69e65118d52df88731dfb0fa740d776dace6f7ef44b6c4416a8cb9d98cb697a1",
+        "source_feature_index": 84
+      },
+      "claim:360afeb4a5628050d3f9c9bde59cae7ad1e810c07d707b7ec0107b3b8b3ea78b": {
+        "assertion_ids": [
+          "claim:360afeb4a5628050d3f9c9bde59cae7ad1e810c07d707b7ec0107b3b8b3ea78b"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Broad source-labelled cultural approximation; not a unified polity, sovereignty, ownership or a comprehensive account of Britons. The plural source label is not one owner or a partition into invented kingdoms.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "2ff51554cabaa334061e74f9d920a94dbb15503e4841a47c0ad93829a377cb16",
+        "coverage_set_id": "coverage:2cc4dbb138349c30baf6e4c1e1b784904a267e17a9a9394ac2bdf37fc907b352",
+        "source_feature_index": 103
+      },
+      "claim:f87afe3dfad95188ae67734d9469e6753e065b4bea857b81a4ff66bd917a750a": {
+        "assertion_ids": [
+          "claim:f87afe3dfad95188ae67734d9469e6753e065b4bea857b81a4ff66bd917a750a"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Broad source-labelled cultural approximation; not a unified polity, sovereignty, ownership or a comprehensive account of Britons.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "78d53a5a8ed0035be22efe47ef0c475d999c2c0e89947e6ecc2ec946f96ef2d8",
+        "coverage_set_id": "coverage:fe6bd7be72638c07d57c6682834d72c51d9f42d0b20df12a826f230830da32a0",
+        "source_feature_index": 104
+      },
+      "claim:a6dc653dc50cd993be5fb72e365c18a7fad4a5d2c5fd86a1297e2c0c54bf59d8": {
+        "assertion_ids": [
+          "claim:a6dc653dc50cd993be5fb72e365c18a7fad4a5d2c5fd86a1297e2c0c54bf59d8"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Broad source-labelled cultural approximation; not a unified polity, sovereignty, ownership or a comprehensive account of Britons.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "1e9fd6555fb1611a37f647bb061137594a96f39d0ee79e200ffb1b26deeb8712",
+        "coverage_set_id": "coverage:7488e23b307039b8a0dfbfbd2ee34ad1f5d10aaffcafb7a2e8ae567066a89a48",
+        "source_feature_index": 105
+      },
+      "claim:b109f0e176e01d82b0da2b97957b0ddb4276ec918a9a7d373936f79f7c0e1492": {
+        "assertion_ids": [
+          "claim:b109f0e176e01d82b0da2b97957b0ddb4276ec918a9a7d373936f79f7c0e1492"
+        ],
+        "source_title": "Historical boundaries of world countries and cultural regions",
+        "source_edition": "overview:da7a4b7:world_900.geojson",
+        "source_url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+        "license": "GPL-3.0",
+        "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+        "valid_from": -390809,
+        "valid_to": -390444,
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": null,
+        "methodology": [
+          "Explicit regional interpretation of source-labelled political association; no independent sovereignty or effective-control inference.",
+          "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+          "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+          "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+          "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+          "Date precision: year; Possible observation window; no exact onset or cessation inferred."
+        ],
+        "limitations": [
+          "No separately named Britannia province geometry in the selected31snapshots.",
+          "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+          "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+          "200BCE and100BCE cultural coverage does not imply political ownership.",
+          "Cell threshold can omit small islands; 0 source components have no eligible cell in this assertion.",
+          "No independent corroboration or historical certification.",
+          "Population and migration data are unavailable."
+        ],
+        "valid_extent": {
+          "precision": "year",
+          "start": {
+            "earliest": -390809,
+            "latest": -390445
+          },
+          "end": {
+            "earliest": -390808,
+            "latest": -390444
+          },
+          "originalCalendar": "source-unspecified",
+          "sourceText": "Nominal 900 CE source snapshot; no event-date inference or carry-forward",
+          "conversionNote": "Possible observation window; no exact onset or cessation inferred."
+        },
+        "input_sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+        "prepared_feature_sha256": "11bc742f692a7891802e911f3689316dc24076d208b61a28b61a2c09dc9feed9",
+        "coverage_set_id": "coverage:b0a03690428628ff2dcf56b7aa6b421358f68472d5c20e60ce2ec7a052d16bc7",
+        "source_feature_index": 130
+      }
+    }
+  },
+  "recorded_at": "2026-09-20T02:00:00.000Z",
+  "source": {
+    "title": "Historical boundaries of world countries and cultural regions",
+    "edition": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "license": "GPL-3.0",
+    "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle"
+  },
+  "mesh_sha256": "474f589bbe6135a162d24b2a1fd894bec45cca0f5d3c3ae9dc677045f56dff6f",
+  "source_mapping_sha256": "84f6766923cf7e1579a48f2d91c0dbf148106e18ae13ef082450c22e3e73739f",
+  "geometry_encoding": {
+    "projection": "Web Mercator",
+    "extent": 65536,
+    "tolerance": 0,
+    "interpolation": false
+  },
+  "vector_layers": [
+    {
+      "id": "territories",
+      "minzoom": 0,
+      "maxzoom": 0,
+      "fields": {
+        "entity_id": "String",
+        "render_id": "String",
+        "territory_state_id": "String",
+        "t_start": "Number",
+        "t_end": "Number",
+        "cell_id": "Number"
+      }
+    }
+  ]
+}

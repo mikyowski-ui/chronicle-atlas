@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_id": "ons-ew-mid1900",
+  "observation_id": "ons-ew-mid1900-persons",
+  "population": 32249200,
+  "units": "persons",
+  "observation_date": "1900-midyear",
+  "observation_year": 1900,
+  "date_precision": "mid-year; no exact day asserted",
+  "geographic_scope": "England and Wales",
+  "coverage_relation": "Regional subset of the United Kingdom of Great Britain and Ireland; not its full population",
+  "estimate_kind": "ONS published mid-year population estimate",
+  "population_dataset_version": "ons-ew-1838-2025-20260729",
+  "source_title": "ONS population estimates for England and Wales, Table 7",
+  "source_url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fenglandandwalespopulationestimates1838to2025%2Fewpopulationestimates18382025.xlsx",
+  "source_cell": "Table 7!A128:B128",
+  "source_edition": "England and Wales population estimates 1838 to 2025; published 2026-07-29",
+  "input_sha256": "715635a653d6471de5e4fd6059cf552855c580ed7af856a3ee4cc1e8e1cbaf7f",
+  "license": "Open Government Licence v3.0",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "attribution": "Source: Office for National Statistics. Contains public sector information licensed under the Open Government Licence v3.0.",
+  "recorded_from": "2026-09-23T00:00:00.000Z",
+  "recorded_to": null,
+  "method_version": "direct-regional-observation-v1",
+  "methodology": "Directly extract the published Persons cell for Mid-1900. Retain it as an England and Wales regional reference. Do not allocate it among polygons or scale it to the selected UK boundary.",
+  "limitations": [
+    "Estimate, not an exact census count; displayed rounding does not imply individual-person precision.",
+    "The source excludes Islands in the British Seas and portions of the Armed Forces and Merchant Service abroad for 1838–1910.",
+    "No admitted population total for the full UK historical territory and no historical density geometry.",
+    "This single observation does not establish population for any other date."
+  ]
+}

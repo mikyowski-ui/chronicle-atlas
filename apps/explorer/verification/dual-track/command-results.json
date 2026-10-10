@@ -1,0 +1,17 @@
+[
+  {
+    "command": "corepack pnpm test",
+    "exitCode": 0,
+    "log": "tests-final.log"
+  },
+  {
+    "command": "corepack pnpm run build",
+    "exitCode": 0,
+    "log": "build-final.log"
+  },
+  {
+    "command": "python3 scripts/verify-dual-track.py",
+    "exitCode": 0,
+    "log": "protected-final.log"
+  }
+]

@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "fixture_kind": "historical-candidate",
+  "edition": "isles-wave-b-da7a4b7-20260920",
+  "title": "British Isles & Channel coast",
+  "bounds": [
+    -12,
+    48,
+    3,
+    61.5
+  ],
+  "recorded_at": "2026-09-20T02:00:00.000Z",
+  "source": {
+    "title": "Historical boundaries of world countries and cultural regions",
+    "edition": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "license": "GPL-3.0",
+    "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle"
+  },
+  "methodology": [
+    "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+    "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+    "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+    "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+    "No population or migration observations are supplied for this candidate."
+  ],
+  "initial_time": -427334,
+  "epochs": [
+    {
+      "epoch_id": "isles-bce200",
+      "t_start": -792211,
+      "t_end": -791846,
+      "url": "./isles-bce200.pmtiles",
+      "sha256": "6d671d0099be4cd1a3eb5b37019b56630cc4850f227b51411f0d474e42d47268",
+      "byte_length": 26531,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-bce100",
+      "t_start": -755687,
+      "t_end": -755322,
+      "url": "./isles-bce100.pmtiles",
+      "sha256": "23dffd389de343baf045e07acb39928f11e3467fc3ca4a2e64a0c5230c62be94",
+      "byte_length": 26531,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-bce1",
+      "t_start": -719528,
+      "t_end": -719162,
+      "url": "./isles-bce1.pmtiles",
+      "sha256": "0522a437fc76ba3865a2bbdc6aa921effbb366c1c5a9dbaf6753a4c356222f44",
+      "byte_length": 10741,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-100",
+      "t_start": -683003,
+      "t_end": -682638,
+      "url": "./isles-100.pmtiles",
+      "sha256": "3edac335921902b4b29402f44256a0a05cf42698c0eb1232a850206dd0f8e970",
+      "byte_length": 20970,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-200",
+      "t_start": -646479,
+      "t_end": -646114,
+      "url": "./isles-200.pmtiles",
+      "sha256": "75c3bc1ecbf94ed51a0339f43703fe55762da338bd038103647cc04da80e7683",
+      "byte_length": 20969,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-300",
+      "t_start": -609955,
+      "t_end": -609590,
+      "url": "./isles-300.pmtiles",
+      "sha256": "4aca9ad4f524a71b75c9f3605d1d612d55d26f2eacac8070b25f031dec1d7d9d",
+      "byte_length": 3408,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-400",
+      "t_start": -573431,
+      "t_end": -573065,
+      "url": "./isles-400.pmtiles",
+      "sha256": "384957a224af0ef63f996070122906e89ae92b43e0bccdceb64f1ebff6ed20ce",
+      "byte_length": 16345,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-500",
+      "t_start": -536906,
+      "t_end": -536541,
+      "url": "./isles-500.pmtiles",
+      "sha256": "836f030cbf17a43c0000dfc02ce0026d90133cacea58f40ff96f602c0307243e",
+      "byte_length": 14802,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-600",
+      "t_start": -500382,
+      "t_end": -500017,
+      "url": "./isles-600.pmtiles",
+      "sha256": "1b5b79483037beee3b74a4f3ce40e6f4b94568efbfacb0494a0668b533b9ce79",
+      "byte_length": 17153,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-700",
+      "t_start": -463858,
+      "t_end": -463493,
+      "url": "./isles-700.pmtiles",
+      "sha256": "2a8c6e63026087d97a3685ecda4a3a711a935e2bd30d7cfa88d2df6924cf68f4",
+      "byte_length": 17152,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-800",
+      "t_start": -427334,
+      "t_end": -426968,
+      "url": "./isles-800.pmtiles",
+      "sha256": "d1e8c6d19ab576a5a2ba0c0fdc94d40635c0bc2ea0edbfcb99193d9d826a4745",
+      "byte_length": 30576,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-900",
+      "t_start": -390809,
+      "t_end": -390444,
+      "url": "./isles-900.pmtiles",
+      "sha256": "95fa0d6d68ae2d804a50d3e4195b6cc76e757d153bbff52bae139733f04c9ca7",
+      "byte_length": 22152,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1000",
+      "t_start": -354285,
+      "t_end": -353920,
+      "url": "./isles-1000.pmtiles",
+      "sha256": "a42f26379852c8d83dc6320f5bc3b56a1be992699f6753ecddc606426d124045",
+      "byte_length": 33795,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1100",
+      "t_start": -317761,
+      "t_end": -317396,
+      "url": "./isles-1100.pmtiles",
+      "sha256": "b1a5aa7a7f24448915ae1ac1c3c39b1fb9eea1c9f39e6ac601c8f199b1bcc9a0",
+      "byte_length": 33790,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1200",
+      "t_start": -281237,
+      "t_end": -280871,
+      "url": "./isles-1200.pmtiles",
+      "sha256": "7f7678bbc8e0c9b5adbeafc1123ae38f6b6d2219cdb5601c19fc7f40ebb1d007",
+      "byte_length": 33972,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1279",
+      "t_start": -252382,
+      "t_end": -252017,
+      "url": "./isles-1279.pmtiles",
+      "sha256": "ae705345c6f368159be1d2f6efdd637bea3d146db465423b37a182468c4696c2",
+      "byte_length": 35143,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1300",
+      "t_start": -244712,
+      "t_end": -244347,
+      "url": "./isles-1300.pmtiles",
+      "sha256": "3dc0771c89facee2b14388414f27f62913a0419ee3398a5b93612c5794238b5a",
+      "byte_length": 35142,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1400",
+      "t_start": -208188,
+      "t_end": -207823,
+      "url": "./isles-1400.pmtiles",
+      "sha256": "0ab244a7341a08cf3962771399b53d8fc8e496084bee54372c68643dabd6370e",
+      "byte_length": 35299,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1492",
+      "t_start": -174586,
+      "t_end": -174220,
+      "url": "./isles-1492.pmtiles",
+      "sha256": "67cbf251139b4f0f3401580cfc5c7e3b2ae5368aa6511e3d6a196be9f367f34b",
+      "byte_length": 35199,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1500",
+      "t_start": -171664,
+      "t_end": -171299,
+      "url": "./isles-1500.pmtiles",
+      "sha256": "eada8bb7d7ecbb48e6949ad1ab1240a0f76822f8241349ba4330c2df2ac3be84",
+      "byte_length": 35205,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1530",
+      "t_start": -160707,
+      "t_end": -160342,
+      "url": "./isles-1530.pmtiles",
+      "sha256": "d8b6dfc2071f5fb05e990de8c6794e4ed9bd627e5c6c59501a516f089ac400de",
+      "byte_length": 35565,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1600",
+      "t_start": -135140,
+      "t_end": -134774,
+      "url": "./isles-1600.pmtiles",
+      "sha256": "e4cd04f909aa8e0374d718c456fb99bf3f962df62299f7acd29c7c175ca3a274",
+      "byte_length": 34879,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1650",
+      "t_start": -116877,
+      "t_end": -116512,
+      "url": "./isles-1650.pmtiles",
+      "sha256": "2f89937f24701d2d02e4e55f630a8c5c8ad42fad0e9979ad417a1d8c014ef1b8",
+      "byte_length": 34109,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1700",
+      "t_start": -98615,
+      "t_end": -98250,
+      "url": "./isles-1700.pmtiles",
+      "sha256": "2facb76c305e2a028d3d3844715d96409d06e3e8dee8728d59e7616dc9d75d70",
+      "byte_length": 33815,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1715",
+      "t_start": -93137,
+      "t_end": -92772,
+      "url": "./isles-1715.pmtiles",
+      "sha256": "7239c868c6cd9c8d7ad19dd2dd8f6f208cf7af1cb52637e56a25292b50b16397",
+      "byte_length": 34897,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1783",
+      "t_start": -68300,
+      "t_end": -67935,
+      "url": "./isles-1783.pmtiles",
+      "sha256": "3d64cc8eff7f7eed06c77c551a5778fe62befb0c87af98fbd465b185cd8e5574",
+      "byte_length": 34769,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1800",
+      "t_start": -62091,
+      "t_end": -61726,
+      "url": "./isles-1800.pmtiles",
+      "sha256": "dd5c407dafaf5b325059b258b065ab2f53a1e49fa1688356fc0b7f9ec79a21a5",
+      "byte_length": 34600,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1815",
+      "t_start": -56613,
+      "t_end": -56248,
+      "url": "./isles-1815.pmtiles",
+      "sha256": "9a34d151d629f4c39f037a68d0bde18998e80228efef71dfc8ec5f8024507d3d",
+      "byte_length": 34152,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1878",
+      "t_start": -33602,
+      "t_end": -33237,
+      "url": "./isles-1878.pmtiles",
+      "sha256": "25e1cca9299c01dfa6c0eb54597f26fc5b9dcbfdc4505b20f942b17aa4279288",
+      "byte_length": 34323,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1880",
+      "t_start": -32872,
+      "t_end": -32506,
+      "url": "./isles-1880.pmtiles",
+      "sha256": "47e3e76810e07f2c2be3f44f4377b3e08098d1c596c917ecb5bb4da5366ded8b",
+      "byte_length": 34319,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "isles-1900",
+      "t_start": -25567,
+      "t_end": -25202,
+      "url": "./isles-1900.pmtiles",
+      "sha256": "7da80f519a2d7f181b7c067a259d86c606f6448f5fdf3004e50689a15d640304",
+      "byte_length": 34323,
+      "layers": [
+        "territories"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

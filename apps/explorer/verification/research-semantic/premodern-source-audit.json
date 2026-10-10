@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "fixtureId": "premodern-exchange-accounts",
+  "fixtureSha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0",
+  "source": {
+    "path": "public/history/primary-accounts.json",
+    "sha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541",
+    "edition": "chronicle-teaching-local-2026-09-27/primary-accounts-v1"
+  },
+  "recordHashConvention": "UTF-8 JSON, sorted object keys, no whitespace, Unicode retained; array order retained",
+  "observationCount": 10,
+  "entityCount": 9,
+  "rows": [
+    {
+      "observationId": "account-periplus-barygaza-first-century",
+      "entityId": "account-place-barygaza",
+      "recordPointer": "/accounts/23",
+      "recordSha256": "ed235aa37e2ddb451a3afc6443df160c088f1cdcde74a4602f820472e83f8004",
+      "statementPointer": "/accounts/23/summary",
+      "eventPointers": [
+        "/accounts/23/eventFromYear",
+        "/accounts/23/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/23/writtenFromYear",
+        "/accounts/23/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/23/coordinates",
+      "bibliographyPointers": [
+        "/sources/24"
+      ]
+    },
+    {
+      "observationId": "account-faxian-khotan-400-402",
+      "entityId": "account-place-khotan",
+      "recordPointer": "/accounts/9",
+      "recordSha256": "ea4dfa9e78604ea9da218438b05faa5c45fb2e707b37c92bbb985f147eb97c18",
+      "statementPointer": "/accounts/9/summary",
+      "eventPointers": [
+        "/accounts/9/eventFromYear",
+        "/accounts/9/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/9/writtenFromYear",
+        "/accounts/9/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/9/coordinates",
+      "bibliographyPointers": [
+        "/sources/7",
+        "/sources/26"
+      ]
+    },
+    {
+      "observationId": "account-xuanzang-samarkand-630",
+      "entityId": "account-place-samarkand",
+      "recordPointer": "/accounts/10",
+      "recordSha256": "bff6ec5b34137eaf29101fefa6909ff5a4095cb0df220938291b3012b5ccebd1",
+      "statementPointer": "/accounts/10/summary",
+      "eventPointers": [
+        "/accounts/10/eventFromYear",
+        "/accounts/10/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/10/writtenFromYear",
+        "/accounts/10/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/10/coordinates",
+      "bibliographyPointers": [
+        "/sources/8"
+      ]
+    },
+    {
+      "observationId": "account-ibn-kilwa-1331",
+      "entityId": "account-place-kilwa",
+      "recordPointer": "/accounts/1",
+      "recordSha256": "3bc94ebdcc63638dabe6d634346764f1c4f5600baaa349d0dbe236ba98277487",
+      "statementPointer": "/accounts/1/summary",
+      "eventPointers": [
+        "/accounts/1/eventFromYear",
+        "/accounts/1/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/1/writtenFromYear",
+        "/accounts/1/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/1/coordinates",
+      "bibliographyPointers": [
+        "/sources/1"
+      ]
+    },
+    {
+      "observationId": "account-ibn-mogadishu-1331",
+      "entityId": "account-place-mogadishu",
+      "recordPointer": "/accounts/2",
+      "recordSha256": "61e972db8a4ee8f9665286ab6051bc4f5dadb395219b6f560ef47b3f91483207",
+      "statementPointer": "/accounts/2/summary",
+      "eventPointers": [
+        "/accounts/2/eventFromYear",
+        "/accounts/2/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/2/writtenFromYear",
+        "/accounts/2/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/2/coordinates",
+      "bibliographyPointers": [
+        "/sources/1"
+      ]
+    },
+    {
+      "observationId": "account-ibn-walata-1352",
+      "entityId": "account-place-walata",
+      "recordPointer": "/accounts/4",
+      "recordSha256": "e58399bed880f9481850b29ea169d177788beea1f562a075b05d4bbcb1406a23",
+      "statementPointer": "/accounts/4/summary",
+      "eventPointers": [
+        "/accounts/4/eventFromYear",
+        "/accounts/4/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/4/writtenFromYear",
+        "/accounts/4/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/4/coordinates",
+      "bibliographyPointers": [
+        "/sources/2"
+      ]
+    },
+    {
+      "observationId": "account-clavijo-samarkand-1404",
+      "entityId": "account-place-samarkand",
+      "recordPointer": "/accounts/5",
+      "recordSha256": "06e7f28ba447b541fd72d0511e5588ab022ee8b884228b23e99ee83fac1eb715",
+      "statementPointer": "/accounts/5/summary",
+      "eventPointers": [
+        "/accounts/5/eventFromYear",
+        "/accounts/5/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/5/writtenFromYear",
+        "/accounts/5/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/5/coordinates",
+      "bibliographyPointers": [
+        "/sources/3",
+        "/sources/4"
+      ]
+    },
+    {
+      "observationId": "account-clavijo-tabriz-1404",
+      "entityId": "account-place-tabriz",
+      "recordPointer": "/accounts/6",
+      "recordSha256": "d23667002d5f9f66266e116bd343e02d2d4a99a2253b0d8223115bea07d5f4e1",
+      "statementPointer": "/accounts/6/summary",
+      "eventPointers": [
+        "/accounts/6/eventFromYear",
+        "/accounts/6/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/6/writtenFromYear",
+        "/accounts/6/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/6/coordinates",
+      "bibliographyPointers": [
+        "/sources/3"
+      ]
+    },
+    {
+      "observationId": "account-barbosa-calicut-1500-1516",
+      "entityId": "account-place-calicut",
+      "recordPointer": "/accounts/11",
+      "recordSha256": "2f54624c4d5634ecd757b148e230794841594ca4dccd483dfeddd6f71c5fdccc",
+      "statementPointer": "/accounts/11/summary",
+      "eventPointers": [
+        "/accounts/11/eventFromYear",
+        "/accounts/11/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/11/writtenFromYear",
+        "/accounts/11/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/11/coordinates",
+      "bibliographyPointers": [
+        "/sources/9"
+      ]
+    },
+    {
+      "observationId": "account-barbosa-malacca-1500-1516",
+      "entityId": "account-place-melaka",
+      "recordPointer": "/accounts/12",
+      "recordSha256": "18676eac6ff26a248e1b47503bfee9dbd51bb24e11ac9f78c07fb77e03f6a3cd",
+      "statementPointer": "/accounts/12/summary",
+      "eventPointers": [
+        "/accounts/12/eventFromYear",
+        "/accounts/12/eventToYear"
+      ],
+      "compositionPointers": [
+        "/accounts/12/writtenFromYear",
+        "/accounts/12/writtenToYear"
+      ],
+      "coordinatePointer": "/accounts/12/coordinates",
+      "bibliographyPointers": [
+        "/sources/9"
+      ]
+    }
+  ],
+  "bibliography": [
+    {
+      "id": "account-periplus",
+      "pointer": "/sources/24",
+      "recordSha256": "f5b1a1ff4e50a8d9ac332edc7c68764f4911517c02bf0f93be76aa8a52c78be0",
+      "title": "The Voyage around the Erythraean Sea",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "kind": "primary-translation",
+      "notes": "Wilfred H. Schoff translation, 1912, with editorial checks against Lionel Casson's 1989 edition. Anonymous first-century merchant guide; 40–70 CE is an approximate composition/context window, not an exact sailing date.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-faxian",
+      "pointer": "/sources/7",
+      "recordSha256": "98a0d0efed68f491336095f6eacc0843d63f5fd17fc361429c59292193ca3811",
+      "title": "The Journey of Faxian to India",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "kind": "primary-translation",
+      "notes": "James Legge translation, 1886, pp. 9–36, with editorial place identifications. The journey lasted 399–414; Khotan's 400–402 window is approximate, not an exact arrival year.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-faxian-dating",
+      "pointer": "/sources/26",
+      "recordSha256": "6dcb76a68740f3ec95b1287a464249aa5efd6c9fc1c838ac075051b4a487ca1b",
+      "title": "Chinese Buddhist Canonical Attributions: T2085, Gaoseng Faxian zhuan",
+      "publisher": "Dharma Drum Institute of Liberal Arts",
+      "kind": "scholarly-context",
+      "notes": "Bibliographic evidence for the Record, including discussion of return dates and composition in 416. These datings are scholarly reconstructions.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-xuanzang",
+      "pointer": "/sources/8",
+      "recordSha256": "73847b119fa5ba0b52568bf78300dc0135564c257f4256f72101594c31539bd5",
+      "title": "Xuanzang's Record of the Western Regions, Book One",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "kind": "primary-translation",
+      "notes": "Samuel Beal translation, 1884. The record was composed in 646 after the journey of 629–645. The Samarkand visit is placed approximately in 630–631.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-ibn-east-africa",
+      "pointer": "/sources/1",
+      "recordSha256": "fb7993b6930625bf033490ab68c36370e946f4943e37bf1e9b1aebb7d9ff2b4e",
+      "title": "Ibn Battuta: East Africa in the Fourteenth Century",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "kind": "primary-translation",
+      "notes": "Gibb translation, 1929, pp. 110–112. Separates Mogadishu and Kilwa; dated visit commonly placed in 1331. The narrator's social and religious judgments require critical reading.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-ibn-travels",
+      "pointer": "/sources/2",
+      "recordSha256": "e82920e8adfaa2a2d7d34cf7312d98230dc81527544b040648f981f64fb52f33",
+      "title": "Ibn Battuta: Travels in Asia and Africa, 1325–1354",
+      "publisher": "Fordham University, Internet History Sourcebooks Project",
+      "kind": "primary-translation",
+      "notes": "Gibb's 1929 selection includes explicit dates for the Damascus plague visit and the 1352–1353 journey to Mali. Editorial summaries here are not quotations.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-clavijo",
+      "pointer": "/sources/3",
+      "recordSha256": "e460913c6495d6529ceaf6485e7d16e773c0b38f63d869c18136a606deb76c3f",
+      "title": "Clavijo's Embassy to Tamerlane",
+      "publisher": "University of Washington, Silk Road Seattle",
+      "kind": "primary-translation",
+      "notes": "Guy Le Strange translation, 1928, with university editorial headings. Embassy travelled in 1403–1406; 1406–1412 below is a cautious post-return composition window, not a securely dated manuscript.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-clavijo-scan",
+      "pointer": "/sources/4",
+      "recordSha256": "2a40842b841d82d29bf6a870ce85991aabc23962f828c77f94b814b87285b28d",
+      "title": "Narrative of the Embassy to the Court of Timour at Samarcand, 1403–1406",
+      "publisher": "Hakluyt Society, 1859; digitized by Internet Archive",
+      "kind": "primary-translation-scan",
+      "notes": "Clements R. Markham's older translation provides a downloadable scanned edition for comparison with Le Strange. Translation choices and nineteenth-century commentary are separate from Clavijo's text.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    },
+    {
+      "id": "account-barbosa",
+      "pointer": "/sources/9",
+      "recordSha256": "bdcd5cb232ac00e98ab2e31d17e00677802a4efa32cb2b6528a3ac764d771b27",
+      "title": "A Description of the Coasts of East Africa and Malabar",
+      "publisher": "Hakluyt Society, 1866; Project Gutenberg",
+      "kind": "primary-translation",
+      "notes": "Henry E. J. Stanley translation of a Spanish manuscript associated with Duarte Barbosa. The edition discusses attribution and manuscript differences. Broad 1500–1516 windows reflect an accumulated description, not a dated voyage log.",
+      "urlPolicy": "Resolve the retained URL only through the host source registry; fixture contains no model-controlled links."
+    }
+  ],
+  "derivation": "Exact retained summary, coordinates and year fields copied; stable local reference-place IDs assigned; limitations and permission constraints added. No source records changed.",
+  "validationScope": "Pins the retained register and verifies exact local lineage. Does not re-fetch translations, certify their claims or grant a new historical publication."
+}

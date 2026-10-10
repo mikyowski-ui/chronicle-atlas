@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "observation_id": "hansard-ireland-liverpool-1847",
+  "source_title": "Hansard: Immigration of Irish Paupers",
+  "source_edition": "HL Deb 15 February 1847 vol 89 cc1323\u20134",
+  "source_url": "https://api.parliament.uk/historic-hansard/lords/1847/feb/15/immigration-of-irish-paupers",
+  "source_sha256": "58fcec10b603ed7af4a321a1dadcbef232416f43fe5fdead32c0e68aff141bc5",
+  "source_date": "1847-02-15",
+  "observation_start": "1847-01-13",
+  "observation_end_inclusive": "1847-02-11",
+  "t_start": -44913,
+  "t_end": -44883,
+  "title": "Ireland \u2192 Liverpool",
+  "magnitude": 27012,
+  "magnitude_label": "27,012 arrivals reported in Parliament, 13 Jan\u201311 Feb 1847",
+  "magnitude_kind": "reported arrivals described by the speaker as Irish paupers; not all migrants or unique people independently verified",
+  "license": "Open Parliament Licence v3.0",
+  "license_url": "https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/",
+  "attribution": "Contains Parliamentary information licensed under the Open Parliament Licence v3.0.",
+  "recorded_from": "2026-09-23T00:00:00.000Z",
+  "recorded_to": null,
+  "methodology": "Paraphrase the single dated parliamentary report. Render one straight schematic link from an authored representative point in Ireland to Liverpool. The source gives an origin region and destination port, not departure ports, tracks or voyages.",
+  "limitations": [
+    "Contemporary parliamentary report, not independent verification of its categories or count.",
+    "The line represents a directional connection; it is not a measured route or an origin catchment boundary.",
+    "No annual flow rate, migration motive for every person, or continuity beyond the reported interval is inferred.",
+    "No political borders are supplied for 1847; the demographic observation is independent of political coverage."
+  ],
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -8,
+        53.4
+      ],
+      [
+        -2.99,
+        53.41
+      ]
+    ]
+  },
+  "geometry_precision": "Schematic authored endpoints, approximately regional origin and destination city; not source survey geometry."
+}

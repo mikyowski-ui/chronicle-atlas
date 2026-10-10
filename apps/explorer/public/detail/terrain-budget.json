@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "budget_id": "detail-terrain-v1",
+  "frozen_before_acquisition": true,
+  "recorded_at": "2026-09-26T00:00:00Z",
+  "scope": "Offline modern physical reference only; relief, rivers and natural lakes. No political, temporal or population assertions.",
+  "limits": {
+    "new_input_bytes": 67108864,
+    "output_bytes": 20971520,
+    "download_bytes_per_file": 50331648,
+    "sequential_workers": 1,
+    "process_rss_bytes": 536870912,
+    "worker_deadline_seconds": 120,
+    "raster_tile_size": 256,
+    "raster_maxzoom": 5,
+    "raster_tile_count": 1365,
+    "vector_features": 20000,
+    "vector_bytes": 12582912,
+    "raster_tile_bytes": 131072,
+    "hydrography_decoded_bytes": 16777216,
+    "hydrography_gzip_bytes": 5242880
+  },
+  "rules": [
+    "Exact input ZIPs, README/version members, download pages and terms retained before compilation.",
+    "No external runtime basemap dependency.",
+    "Simplification forbidden on retained hydrographic coordinates; source-generalized vectors preserved.",
+    "Mercator latitude limit is display-only.",
+    "Artificial lakes/reservoirs excluded from the natural-water display; source originals retained."
+  ],
+  "runtime_format_approval": "2026-09-26: root approved deterministic gzip all natural waters, decoded16MiB/gzip4MiB, unchanged20MiB output cap; before compilation.",
+  "amendments": [
+    {
+      "recorded_at": "2026-09-26",
+      "reason": "Preflight actual lossless natural-water gzip4,430,036B exceeds initial4MiB allowance by235,732B. Root authorized5MiB compressedhydro allowance; alltotalinput/output/decoded/RSS/deadline limits unchanged.",
+      "before_gzip_bytes": 4194304,
+      "after_gzip_bytes": 5242880,
+      "measured_gzip_bytes": 4430036,
+      "measured_decoded_bytes": 14667936,
+      "timing": "Before heavy raster compilation; preflight stopped without producing terrain."
+    }
+  ]
+}

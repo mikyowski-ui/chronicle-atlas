@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-07",
+  "environment": "Chrome 154 cloud browser, Canvas 2D, desktop 1363x936 CSS pixels, DPR 1; embedded actual app 390x844 CSS pixels",
+  "checks": [
+    {
+      "name": "chart to map and evidence",
+      "status": "PASS",
+      "detail": "Guadalajara 2000 selects hist-guadalajara-86f202e4:un-wup-2025:2000; 3592819 persons, Data!AK11185, /cities/547/population/14; cursor remains 2025."
+    },
+    {
+      "name": "map to chart and evidence",
+      "status": "PASS",
+      "detail": "Monterrey 2025 and 2000 tested; shared stable observation identity."
+    },
+    {
+      "name": "variation and retained hidden selection",
+      "status": "PASS",
+      "detail": "Guadalajara 1990\u20132025 loads 8 rows; prior Monterrey selection explicitly remains outside scope."
+    },
+    {
+      "name": "unsupported question and typing Space",
+      "status": "PASS",
+      "detail": "How did rivers shape these cities? produces planner-disabled guidance and retains prior result; Atlas remains paused."
+    },
+    {
+      "name": "replay import and hash failure",
+      "status": "PASS",
+      "detail": "Actual saved normalized manifest reopens; changed dataHash is EDITION_MISMATCH and retains previous result/evidence."
+    },
+    {
+      "name": "keyboard chart",
+      "status": "PASS",
+      "detail": "Enter selects Guadalajara 2000 with visible focus ring."
+    },
+    {
+      "name": "native Space controls",
+      "status": "PASS",
+      "detail": "After shortcut fix, Space opens Research, expands table, selects Guadalajara 2000 table row and Monterrey 2000 map button; Play timeline remains paused."
+    },
+    {
+      "name": "narrow chart table evidence map and timeline",
+      "status": "PASS",
+      "detail": "Inspected saved screenshots at actual 390x844 CSS iframe. Table scrolls horizontally; research body scrolls vertically; Map mode reveals markers and dock."
+    },
+    {
+      "name": "feature-disabled Atlas",
+      "status": "PASS",
+      "detail": "?research=off has no Research control. Navigated 700 to 2000 CE; selected France; opened country sources, Studies and map evidence. Canvas remains usable."
+    },
+    {
+      "name": "reduced-motion preference enabled",
+      "status": "NOT RUN",
+      "detail": "Browser preference was false; no supported emulation capability. No running research animations observed. Reduced-motion CSS inspected, preference-true runtime not measured."
+    },
+    {
+      "name": "MapLibre WebGL style reload",
+      "status": "NOT RUN",
+      "detail": "Current browser selected Canvas fallback. No physical GPU/WebGL style-reload pass is claimed."
+    },
+    {
+      "name": "native Windows and physical mobile",
+      "status": "NOT RUN",
+      "detail": "No physical devices available; narrow iframe is layout evidence only."
+    }
+  ],
+  "screenshots": [
+    "desktop.jpg",
+    "narrow-chart.jpg",
+    "narrow-table.jpg",
+    "narrow-evidence.jpg",
+    "narrow-map.jpg",
+    "disabled-regression.jpg"
+  ]
+}

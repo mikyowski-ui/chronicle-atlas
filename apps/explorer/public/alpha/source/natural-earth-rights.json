@@ -1,0 +1,13 @@
+{
+  "title": "Natural Earth 1:50m physical land",
+  "edition": "4.1.0 (exact archive VERSION.txt)",
+  "source_url": "https://naturalearth.s3.amazonaws.com/50m_physical/ne_50m_land.zip",
+  "description_url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "attribution": "Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.",
+  "verified_at": "2026-09-23",
+  "version_discrepancy": "The official landing page advertises 4.0.0; the exact downloaded archive declares 4.1.0. This intake pins the archive edition and SHA-256 before processing. The frozen resource limits are unchanged.",
+  "interpretation": "Independent modern physical land context, not historical coastline reconstruction or political ownership. Neutral land is not evidence of admitted territorial control. Only components intersecting the bounded contextual window are retained.",
+  "bounds": [-30,30,30,72]
+}

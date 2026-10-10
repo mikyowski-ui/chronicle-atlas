@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "674950089ddf91cb0930809c91a6b463bf32001ea3b3e7c63572ba86b683d12d",
+      "exactBytes": true
+    },
+    {
+      "path": "build-info.json",
+      "status": 200,
+      "sha256": "dd3542212bb3d712a2d75ee43fa4491ff57e8ed7bb20d5ec0116002c5fb7c3a0",
+      "exactBytes": true
+    },
+    {
+      "path": "production-review.html",
+      "status": 200,
+      "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-BiKCZD3Q.js",
+      "status": 200,
+      "sha256": "66e4384bc49500877b6bd51078a8fc0cbd99109d8031ed8a7463440a22a40d60",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-DBE3frqu.css",
+      "status": 200,
+      "sha256": "72c8db10a594ccfd2ebf02e2861537ccaa65182376ddea63cd94c4a9887df8b4",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/pilot-data-Jm_w9AQo.json",
+      "status": 200,
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/premodern-pilot-B7FC1mJx.json",
+      "status": 200,
+      "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0",
+      "exactBytes": true
+    }
+  ],
+  "range206": true,
+  "command": "PORT=4197 node serve.mjs",
+  "productionBrowser": "See headless/acceptance.json; HTTP byte checks do not certify browser acceptance"
+}

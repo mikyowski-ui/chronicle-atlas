@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "historicalPublicationApproved": false,
+  "sources": [
+    {
+      "id": "pleiades-4.1",
+      "title": "Pleiades Datasets 4.1",
+      "edition": "4.1",
+      "editionDate": "2025-05-28",
+      "commit": "b6a6790f71c45e4a4ef60fce296c506f28f458bf",
+      "license": "CC-BY-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "url": "https://pleiades.stoa.org/downloads",
+      "attribution": "Pleiades contributors; Ancient World Mapping Center and Institute for the Study of the Ancient World. Pleiades Datasets 4.1 (28 May 2025). Each point links to its place and selected location; original provenance remains in the retained exact GIS CSVs.",
+      "changes": "Filter settlement types, certain identity and precise direct points; select one location; convert no-year-zero source years; compact browser fields. No source geometry edits or ownership assertions.",
+      "licenseRecord": "./source/pleiades-4.1-LICENSE.txt"
+    },
+    {
+      "id": "natural-earth-places-5.1.2",
+      "title": "Natural Earth 1:10m Populated Places",
+      "edition": "5.1.2",
+      "license": "public-domain",
+      "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+      "attribution": "Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.",
+      "inputUrl": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_populated_places.zip",
+      "inputSha256": "cd149186f03d2603e0410da399b980a4357d0ac32d3a2305a49ed3dffcc41d7b",
+      "changes": "Direct point geometry and names retained, browser attributes selected. Modern orientation context only; no historical city names, existence dates or population inferred.",
+      "licenseRecord": "./source/natural-earth-terms.html"
+    }
+  ]
+}

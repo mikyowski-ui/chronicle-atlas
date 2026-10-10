@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "budgetId": "chronicle-v2-detail-places-v1",
+  "budgetSha256": "c8ddc86c5b79ff5aeb26570514a7a395e3aa3035201cdd4284ae1dc620e75a10",
+  "output": {
+    "path": "places.json",
+    "bytes": 6283068,
+    "sha256": "7394273dc929c09b5d2279022c787b2cba5a81fa905561f3fcb99f69bde43ec0"
+  },
+  "pleiades": {
+    "sourcePlaceRows": 41480,
+    "sourcePointRows": 25038,
+    "admittedPlaces": 6157,
+    "placeExclusions": {
+      "no_eligible_direct_point": 6060,
+      "not_settlement_type": 28264,
+      "uncertain_or_unlocated_identity": 999
+    },
+    "pointExclusions": {
+      "invalid_point": 1,
+      "missing_or_unacceptable_accuracy_or_dates": 5184,
+      "outside_selected_places": 12609,
+      "outside_temporal_scope": 34,
+      "uncertain_or_imprecise_point": 124
+    },
+    "eligiblePointRows": 7086,
+    "unselectedAlternativePointRows": 929,
+    "reviewQueueCount": 7059,
+    "selectionRule": "Settlement-tagged place; certain identity; one precise, certain direct point with reported accuracy <=2000 m. Select minimum accuracy radius then source URI, retaining only that location chronology. No importance/population rank inferred.",
+    "sourceFiles": [
+      {
+        "name": "places.csv",
+        "bytes": 16048687,
+        "sha256": "5dd09b1a92c53e50cb9962bab44df12c5f0b7b683d4f228367d843637cfe5a59",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/data/gis/places.csv"
+      },
+      {
+        "name": "places_place_types.csv",
+        "bytes": 922188,
+        "sha256": "846acc52098771ead0ee673bf92e8304906389fc681c1750107f28d584e09d24",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/data/gis/places_place_types.csv"
+      },
+      {
+        "name": "location_points.csv",
+        "bytes": 9408267,
+        "sha256": "20edc5ef9748354fe917a17ba949a17c7af8cc593e07522926924eada64d080d",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/data/gis/location_points.csv"
+      },
+      {
+        "name": "place_types.csv",
+        "bytes": 30430,
+        "sha256": "bfa08923af4ef739d5c54de7ce7434f87d332837b841fd6661a3e99272fc077b",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/data/gis/place_types.csv"
+      },
+      {
+        "name": "time_periods.csv",
+        "bytes": 38271,
+        "sha256": "3b6e2bb631b94ca342d120cabf10d106cb9262e6570023f31bdcabdbc572e4c5",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/data/gis/time_periods.csv"
+      },
+      {
+        "name": "LICENSE",
+        "bytes": 19467,
+        "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/LICENSE"
+      },
+      {
+        "name": "README.md",
+        "bytes": 14395,
+        "sha256": "5dde1ee9473e22c6768e53b144c104cbcb8a57c3450139eeb06fd51e0c1a851d",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/README.md"
+      },
+      {
+        "name": "gis-README.md",
+        "bytes": 18514,
+        "sha256": "8a2de1089d80e0ac2f6d502bf30555881cc758de20ddcaafaec7a2917fc3b023",
+        "url": "https://raw.githubusercontent.com/isawnyu/pleiades.datasets/b6a6790f71c45e4a4ef60fce296c506f28f458bf/data/gis/README.md"
+      }
+    ]
+  },
+  "modern": {
+    "sourceRows": 7342,
+    "admittedPlaces": 7341,
+    "excluded": 1,
+    "exclusionRecords": [
+      {
+        "id": "ne:1159146123",
+        "title": "Amundsen–Scott South Pole Station",
+        "coordinates": [
+          176.9944521,
+          -89.9999998
+        ],
+        "reason": "outside_web_mercator_display_limit"
+      }
+    ]
+  },
+  "ancientRelevanceCountsByAstronomicalYear": {
+    "-2999": 108,
+    "-1999": 174,
+    "-999": 169,
+    "-199": 2624,
+    "0": 4652,
+    "100": 4659,
+    "500": 3434,
+    "1000": 95,
+    "1500": 38,
+    "1600": 38,
+    "1900": 228,
+    "2010": 356
+  },
+  "measuredElapsedSeconds": 1.644,
+  "measuredPeakRssBytes": 167342080,
+  "rawInputsRetained": [
+    {
+      "path": "public/detail/source/pleiades-4.1-gis.zip",
+      "url": "https://github.com/isawnyu/pleiades.datasets/releases/tag/v4.1",
+      "bytes": 5199936,
+      "sha256": "7fd4a15764e36f5016065660fb8c975afedb46124e00a306c798d606cb8deb8c"
+    },
+    {
+      "path": "public/detail/source/ne_10m_populated_places.zip",
+      "url": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_populated_places.zip",
+      "bytes": 2811199,
+      "sha256": "cd149186f03d2603e0410da399b980a4357d0ac32d3a2305a49ed3dffcc41d7b"
+    }
+  ],
+  "checks": [
+    "Pinned source hashes and byte counts verified before normalization",
+    "All Pleiades place rows and point rows have one accounting outcome",
+    "One source point per admitted Pleiades place; no coordinate simplification",
+    "Modern records have null historical validity and distinct temporalMode",
+    "No ancient population or territorial ownership generated",
+    "Frozen worker, RSS, source, archive, output and feature limits satisfied"
+  ],
+  "browserInteractions": "NOT RUN by data compiler",
+  "historicalPublicationApproved": false
+}

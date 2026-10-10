@@ -1,0 +1,39 @@
+/** Sequential, resumable coordinator: one bounded child per source, one compact catalog. */
+import { readFile, writeFile, mkdir, readdir, stat } from 'node:fs/promises';
+import { join } from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { app, root, read, json, sha } from './build-global-history-observation.mjs';
+const started=performance.now(),budgetBytes=await readFile(join(root,'resource-budget.json')),budget=JSON.parse(budgetBytes),limits=budget.limits;
+const inputs=await read(join(root,'source/input-manifest.json'));
+const observations=inputs.observations??inputs.snapshots;
+if(!Array.isArray(observations)||observations.length>limits.catalog_observations)throw Error('Input catalog exceeds frozen bound');
+if(observations.reduce((n,r)=>n+(r.byte_length??r.bytes??0),0)>limits.source_collection_bytes)throw Error('Raw collection budget exceeded');
+const only=process.argv.includes('--only')?new Set(process.argv[process.argv.indexOf('--only')+1].split(',')):null;
+const priorities=['world_bc200','world_1700','world_1900'];
+const order=[...observations].sort((a,b)=>{const ai=priorities.indexOf(a.observation_id),bi=priorities.indexOf(b.observation_id);return (ai<0?99:ai)-(bi<0?99:bi)||(a.astronomical_year-b.astronomical_year);}).filter(r=>!only||only.has(r.observation_id));
+const reports=new Map(),failures=new Map();
+for(const input of observations){try{const receipt=await read(join(root,'observations',input.observation_id,'receipt.json'));if(receipt.source_sha256===input.sha256&&receipt.mapping_sha256===sha(await readFile(join(root,'mappings',input.source_filename.replace('.geojson','-mappings.json')))))reports.set(input.observation_id,receipt);}catch{}}
+const baseline=(await read(join(app,'public/alpha/build-record.json'))).cumulative_archives_bytes;
+const priorIntegrated=(await read(join(app,'public/integrated/build-record.json'))).archives_bytes;
+const build=join(app,'.sites-runtime/global-history');await mkdir(build,{recursive:true});
+async function treeBytes(dir){let bytes=0;for(const item of await readdir(dir,{withFileTypes:true})){const path=join(dir,item.name);bytes+=item.isDirectory()?await treeBytes(path):(await stat(path)).size;}return bytes;}
+async function publish(){
+ const records=[...reports.values()].sort((a,b)=>a.t_start-b.t_start),compressed=records.reduce((n,r)=>n+r.resource_measurements.archive_bytes,0);
+ if(compressed>limits.new_compressed_bytes||baseline+priorIntegrated+compressed>limits.cumulative_compressed_bytes)throw Error('Frozen aggregate compressed budget exceeded');
+ const pending=observations.filter(r=>!reports.has(r.observation_id)&&!failures.has(r.observation_id)).map(r=>({observation_id:r.observation_id,source_filename:r.source_filename,status:'PENDING',reason:'Not yet compiled; never counted as a visible observation.'}));
+ const descriptors=records.map(r=>({observation_id:r.observation_id,year:r.year,source_filename:r.source_filename,source_sha256:r.source_sha256,t_start:r.t_start,t_end:r.t_end,manifest:r.manifest,manifest_sha256:r.manifest_sha256,manifest_bytes:r.manifest_bytes,edition:r.edition,source_precision:r.source_precision,mapping_version:r.mapping_version,compiler_configuration_sha256:r.compiler_configuration_sha256,coverage:r.coverage,status:'compiled'}));
+ const catalog={schema_version:2,catalog_id:budget.scope.optional_enabled?'global-history-49-da7a4b7-v2':'global-history-40-da7a4b7-v1',publication:'staged-candidate-only',title:budget.scope.optional_enabled?'Source-attributed world observations ·3000 BCE–2010 CE':'Source-attributed world observations ·200 BCE–2010 CE',scope_authorization:{budget_id:budget.budget_id,primary_observations:40,optional_earlier_observations:budget.scope.optional_enabled?9:0,earlier_scope_enabled_after_primary_product_gate:budget.scope.optional_enabled,original_pilot_authorizations_preserved:true,publication:'staged-candidate-only; public ledger unchanged'},recorded_at:'2026-09-23T00:00:00.000Z',source_revision:inputs.source_revision??inputs.pinned_revision??observations[0].source_revision,physical_context:{descriptor:'../integrated/global-base.json',meaning:'Modern neutral physical land, independent of political or historical shoreline assertions.'},observations:descriptors,failures:[...failures.values(),...pending],resource_budget:'./resource-budget.json',coverage_record:'./coverage.json',source_inventory:'./source/input-manifest.json',meaning:'Political associations, cultural presence and source context are distinct. No independent historical certification or public-ledger promotion. Exact annual source windows and explicitly dated previous reference context remain separate.'};
+ const bytes=Buffer.from(JSON.stringify(catalog)+'\n');if(bytes.length>limits.root_catalog_bytes)throw Error('Root catalog byte cap exceeded');if(records.length)await writeFile(join(root,'catalog.json'),bytes);
+ const totals=records.reduce((total,r)=>{for(const [key,value]of Object.entries(r.coverage))if(typeof value==='number')total[key]=(total[key]??0)+value;return total;},{});
+ const corpusBytes=await treeBytes(root);if(corpusBytes>limits.staged_corpus_bytes)throw Error('Staged corpus budget exceeded');
+ const receipt={schema_version:1,budget_id:budget.budget_id,budget_sha256:sha(budgetBytes),intended_observations:observations.length,recovered_inputs:observations.filter(x=>x.status==='RECOVERED').length,compiled_observations:records.length,displayed_observations:'NOT RUN: browser evidence is a separate receipt',independently_reviewed_observations:0,totals,observations:records.map(({assets,...r})=>r),failures:[...failures.values(),...pending],resources:{sequential_workers:1,elapsed_ms:performance.now()-started,max_job_ms:Math.max(0,...records.map(r=>r.resource_measurements.elapsed_ms)),max_process_rss_bytes:Math.max(0,...records.map(r=>r.resource_measurements.peak_process_rss_bytes)),new_compressed_bytes:compressed,baseline_compressed_bytes:baseline+priorIntegrated,cumulative_compressed_bytes:baseline+priorIntegrated+compressed,staged_corpus_bytes:corpusBytes,root_catalog_bytes:bytes.length,maximum_metadata_bytes:Math.max(0,...records.map(r=>r.resource_measurements.metadata_bytes)),maximum_fallback_bytes:Math.max(0,...records.map(r=>r.resource_measurements.fallback_bytes)),maximum_archive_bytes:Math.max(0,...records.map(r=>r.resource_measurements.archive_bytes))},meaning:'Source-feature counts reconcile decisions, not geographic or historical completeness. Region windows overlap and are bounding-box diagnostics; independent review and browser/native execution are separate.'};
+ await json(join(root,'coverage.json'),receipt);return receipt;
+}
+for(const input of order){
+ const path=join(build,input.observation_id+'.input.json');await json(path,input);
+ const child=spawnSync(process.execPath,['--max-old-space-size='+limits.heap_mib,'--import','tsx',join(app,'scripts/build-global-history-observation.mjs'),path],{cwd:app,encoding:'utf8',timeout:limits.job_deadline_ms+1000,env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}});
+ if(child.error||child.status!==0){reports.delete(input.observation_id);const failure={observation_id:input.observation_id,source_filename:input.source_filename,status:'BLOCKED',reason:child.error?.message??child.stderr.trim().slice(-3000)};failures.set(input.observation_id,failure);console.error(JSON.stringify(failure));}
+ else {const receipt=await read(join(root,'observations',input.observation_id,'receipt.json'));reports.set(input.observation_id,receipt);failures.delete(input.observation_id);console.log(child.stdout.trim());}
+ await publish();
+}
+const result=await publish();console.log(JSON.stringify({compiled:result.compiled_observations,intended:result.intended_observations,failures:result.failures.length,resources:result.resources}));if(result.failures.some(r=>r.status==='BLOCKED'))process.exitCode=2;

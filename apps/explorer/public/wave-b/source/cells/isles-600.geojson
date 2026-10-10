@@ -1,0 +1,3906 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:c3fd2d40e7b87603c920",
+        "render_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673:cell:199072",
+        "territory_state_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199072,
+        "assertion_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.863639229472,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.5,
+              48
+            ],
+            [
+              -4,
+              48
+            ],
+            [
+              -4,
+              48.5
+            ],
+            [
+              -4.5,
+              48.5
+            ],
+            [
+              -4.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:c3fd2d40e7b87603c920",
+        "render_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673:cell:199073",
+        "territory_state_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199073,
+        "assertion_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4,
+              48
+            ],
+            [
+              -3.5,
+              48
+            ],
+            [
+              -3.5,
+              48.5
+            ],
+            [
+              -4,
+              48.5
+            ],
+            [
+              -4,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:c3fd2d40e7b87603c920",
+        "render_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673:cell:199074",
+        "territory_state_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199074,
+        "assertion_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.5,
+              48
+            ],
+            [
+              -3,
+              48
+            ],
+            [
+              -3,
+              48.5
+            ],
+            [
+              -3.5,
+              48.5
+            ],
+            [
+              -3.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:c3fd2d40e7b87603c920",
+        "render_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673:cell:199075",
+        "territory_state_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199075,
+        "assertion_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.537155282636,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3,
+              48
+            ],
+            [
+              -2.5,
+              48
+            ],
+            [
+              -2.5,
+              48.5
+            ],
+            [
+              -3,
+              48.5
+            ],
+            [
+              -3,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:c3fd2d40e7b87603c920",
+        "render_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673:cell:199794",
+        "territory_state_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199794,
+        "assertion_id": "claim:c3a0000a013a5fa7071f5d56cbe4e5de93b8f4728cc5eed9f188654643620673",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.693568352363,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.5,
+              48.5
+            ],
+            [
+              -3,
+              48.5
+            ],
+            [
+              -3,
+              49
+            ],
+            [
+              -3.5,
+              49
+            ],
+            [
+              -3.5,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:202675",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202675,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.702477403028,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3,
+              50.5
+            ],
+            [
+              -2.5,
+              50.5
+            ],
+            [
+              -2.5,
+              51
+            ],
+            [
+              -3,
+              51
+            ],
+            [
+              -3,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:202676",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202676,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.752086473018,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5,
+              50.5
+            ],
+            [
+              -2,
+              50.5
+            ],
+            [
+              -2,
+              51
+            ],
+            [
+              -2.5,
+              51
+            ],
+            [
+              -2.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:202677",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202677,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.533342693651,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2,
+              50.5
+            ],
+            [
+              -1.5,
+              50.5
+            ],
+            [
+              -1.5,
+              51
+            ],
+            [
+              -2,
+              51
+            ],
+            [
+              -2,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203395",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203395,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.932285778341,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3,
+              51
+            ],
+            [
+              -2.5,
+              51
+            ],
+            [
+              -2.5,
+              51.5
+            ],
+            [
+              -3,
+              51.5
+            ],
+            [
+              -3,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203396",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203396,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5,
+              51
+            ],
+            [
+              -2,
+              51
+            ],
+            [
+              -2,
+              51.5
+            ],
+            [
+              -2.5,
+              51.5
+            ],
+            [
+              -2.5,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203397",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203397,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2,
+              51
+            ],
+            [
+              -1.5,
+              51
+            ],
+            [
+              -1.5,
+              51.5
+            ],
+            [
+              -2,
+              51.5
+            ],
+            [
+              -2,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203398",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203398,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              51
+            ],
+            [
+              -1,
+              51
+            ],
+            [
+              -1,
+              51.5
+            ],
+            [
+              -1.5,
+              51.5
+            ],
+            [
+              -1.5,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203399",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203399,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              51
+            ],
+            [
+              -0.5,
+              51
+            ],
+            [
+              -0.5,
+              51.5
+            ],
+            [
+              -1,
+              51.5
+            ],
+            [
+              -1,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203400",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203400,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              51
+            ],
+            [
+              0,
+              51
+            ],
+            [
+              0,
+              51.5
+            ],
+            [
+              -0.5,
+              51.5
+            ],
+            [
+              -0.5,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203401",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203401,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.955447164203,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              51
+            ],
+            [
+              0.5,
+              51
+            ],
+            [
+              0.5,
+              51.5
+            ],
+            [
+              0,
+              51.5
+            ],
+            [
+              0,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:203402",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 203402,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.7743229078,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              51
+            ],
+            [
+              1,
+              51
+            ],
+            [
+              1,
+              51.5
+            ],
+            [
+              0.5,
+              51.5
+            ],
+            [
+              0.5,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204116",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204116,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.994981388331,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5,
+              51.5
+            ],
+            [
+              -2,
+              51.5
+            ],
+            [
+              -2,
+              52
+            ],
+            [
+              -2.5,
+              52
+            ],
+            [
+              -2.5,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204117",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204117,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2,
+              51.5
+            ],
+            [
+              -1.5,
+              51.5
+            ],
+            [
+              -1.5,
+              52
+            ],
+            [
+              -2,
+              52
+            ],
+            [
+              -2,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204118",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204118,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              51.5
+            ],
+            [
+              -1,
+              51.5
+            ],
+            [
+              -1,
+              52
+            ],
+            [
+              -1.5,
+              52
+            ],
+            [
+              -1.5,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204119",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204119,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              51.5
+            ],
+            [
+              -0.5,
+              51.5
+            ],
+            [
+              -0.5,
+              52
+            ],
+            [
+              -1,
+              52
+            ],
+            [
+              -1,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204120",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204120,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              51.5
+            ],
+            [
+              0,
+              51.5
+            ],
+            [
+              0,
+              52
+            ],
+            [
+              -0.5,
+              52
+            ],
+            [
+              -0.5,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204121",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204121,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.998322824512,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              51.5
+            ],
+            [
+              0.5,
+              51.5
+            ],
+            [
+              0.5,
+              52
+            ],
+            [
+              0,
+              52
+            ],
+            [
+              0,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204122",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204122,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.751508591041,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              51.5
+            ],
+            [
+              1,
+              51.5
+            ],
+            [
+              1,
+              52
+            ],
+            [
+              0.5,
+              52
+            ],
+            [
+              0.5,
+              51.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204837",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204837,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.998698795213,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2,
+              52
+            ],
+            [
+              -1.5,
+              52
+            ],
+            [
+              -1.5,
+              52.5
+            ],
+            [
+              -2,
+              52.5
+            ],
+            [
+              -2,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204838",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204838,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              52
+            ],
+            [
+              -1,
+              52
+            ],
+            [
+              -1,
+              52.5
+            ],
+            [
+              -1.5,
+              52.5
+            ],
+            [
+              -1.5,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204839",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204839,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              52
+            ],
+            [
+              -0.5,
+              52
+            ],
+            [
+              -0.5,
+              52.5
+            ],
+            [
+              -1,
+              52.5
+            ],
+            [
+              -1,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204840",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204840,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              52
+            ],
+            [
+              0,
+              52
+            ],
+            [
+              0,
+              52.5
+            ],
+            [
+              -0.5,
+              52.5
+            ],
+            [
+              -0.5,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204841",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204841,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              52
+            ],
+            [
+              0.5,
+              52
+            ],
+            [
+              0.5,
+              52.5
+            ],
+            [
+              0,
+              52.5
+            ],
+            [
+              0,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204842",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204842,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              52
+            ],
+            [
+              1,
+              52
+            ],
+            [
+              1,
+              52.5
+            ],
+            [
+              0.5,
+              52.5
+            ],
+            [
+              0.5,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:204843",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 204843,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.998096163752,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1,
+              52
+            ],
+            [
+              1.5,
+              52
+            ],
+            [
+              1.5,
+              52.5
+            ],
+            [
+              1,
+              52.5
+            ],
+            [
+              1,
+              52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:205558",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 205558,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.999998278758,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              52.5
+            ],
+            [
+              -1,
+              52.5
+            ],
+            [
+              -1,
+              53
+            ],
+            [
+              -1.5,
+              53
+            ],
+            [
+              -1.5,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:205559",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 205559,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              52.5
+            ],
+            [
+              -0.5,
+              52.5
+            ],
+            [
+              -0.5,
+              53
+            ],
+            [
+              -1,
+              53
+            ],
+            [
+              -1,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:205560",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 205560,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              52.5
+            ],
+            [
+              0,
+              52.5
+            ],
+            [
+              0,
+              53
+            ],
+            [
+              -0.5,
+              53
+            ],
+            [
+              -0.5,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:205561",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 205561,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.608669908673,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              52.5
+            ],
+            [
+              0.5,
+              52.5
+            ],
+            [
+              0.5,
+              53
+            ],
+            [
+              0,
+              53
+            ],
+            [
+              0,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:205562",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 205562,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.770601529099,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              52.5
+            ],
+            [
+              1,
+              52.5
+            ],
+            [
+              1,
+              53
+            ],
+            [
+              0.5,
+              53
+            ],
+            [
+              0.5,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:205563",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 205563,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.657903200529,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1,
+              52.5
+            ],
+            [
+              1.5,
+              52.5
+            ],
+            [
+              1.5,
+              53
+            ],
+            [
+              1,
+              53
+            ],
+            [
+              1,
+              52.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:206278",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 206278,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.523156175605,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              53
+            ],
+            [
+              -1,
+              53
+            ],
+            [
+              -1,
+              53.5
+            ],
+            [
+              -1.5,
+              53.5
+            ],
+            [
+              -1.5,
+              53
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:206279",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 206279,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              53
+            ],
+            [
+              -0.5,
+              53
+            ],
+            [
+              -0.5,
+              53.5
+            ],
+            [
+              -1,
+              53.5
+            ],
+            [
+              -1,
+              53
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:5820fdf76e9541085f72",
+        "render_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b:cell:206280",
+        "territory_state_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 206280,
+        "assertion_id": "claim:5ba825fb675a7ba5449a3bceea47729a3d12ef28fff7b6ae8d274e085bbb8e7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.976898063812,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              53
+            ],
+            [
+              0,
+              53
+            ],
+            [
+              0,
+              53.5
+            ],
+            [
+              -0.5,
+              53.5
+            ],
+            [
+              -0.5,
+              53
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:74ed9fa538f1df30b01b",
+        "render_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd:cell:201950",
+        "territory_state_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201950,
+        "assertion_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.614124040159,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.5,
+              50
+            ],
+            [
+              -5,
+              50
+            ],
+            [
+              -5,
+              50.5
+            ],
+            [
+              -5.5,
+              50.5
+            ],
+            [
+              -5.5,
+              50
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:74ed9fa538f1df30b01b",
+        "render_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd:cell:202672",
+        "territory_state_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202672,
+        "assertion_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.991153072185,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.5,
+              50.5
+            ],
+            [
+              -4,
+              50.5
+            ],
+            [
+              -4,
+              51
+            ],
+            [
+              -4.5,
+              51
+            ],
+            [
+              -4.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:74ed9fa538f1df30b01b",
+        "render_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd:cell:202673",
+        "territory_state_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202673,
+        "assertion_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.985271411781,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4,
+              50.5
+            ],
+            [
+              -3.5,
+              50.5
+            ],
+            [
+              -3.5,
+              51
+            ],
+            [
+              -4,
+              51
+            ],
+            [
+              -4,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:74ed9fa538f1df30b01b",
+        "render_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd:cell:202674",
+        "territory_state_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202674,
+        "assertion_id": "claim:33dbfdc37247d960a504a8b4e6d47e7fd2399847eb21b50c9e937387ef122dcd",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.637718012262,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.5,
+              50.5
+            ],
+            [
+              -3,
+              50.5
+            ],
+            [
+              -3,
+              51
+            ],
+            [
+              -3.5,
+              51
+            ],
+            [
+              -3.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199076",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199076,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5,
+              48
+            ],
+            [
+              -2,
+              48
+            ],
+            [
+              -2,
+              48.5
+            ],
+            [
+              -2.5,
+              48.5
+            ],
+            [
+              -2.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199077",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199077,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2,
+              48
+            ],
+            [
+              -1.5,
+              48
+            ],
+            [
+              -1.5,
+              48.5
+            ],
+            [
+              -2,
+              48.5
+            ],
+            [
+              -2,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199078",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199078,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              48
+            ],
+            [
+              -1,
+              48
+            ],
+            [
+              -1,
+              48.5
+            ],
+            [
+              -1.5,
+              48.5
+            ],
+            [
+              -1.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199079",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199079,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              48
+            ],
+            [
+              -0.5,
+              48
+            ],
+            [
+              -0.5,
+              48.5
+            ],
+            [
+              -1,
+              48.5
+            ],
+            [
+              -1,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199080",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199080,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              48
+            ],
+            [
+              0,
+              48
+            ],
+            [
+              0,
+              48.5
+            ],
+            [
+              -0.5,
+              48.5
+            ],
+            [
+              -0.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199081",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199081,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              48
+            ],
+            [
+              0.5,
+              48
+            ],
+            [
+              0.5,
+              48.5
+            ],
+            [
+              0,
+              48.5
+            ],
+            [
+              0,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199082",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199082,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.94261907475,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              48
+            ],
+            [
+              1,
+              48
+            ],
+            [
+              1,
+              48.5
+            ],
+            [
+              0.5,
+              48.5
+            ],
+            [
+              0.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199798",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199798,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.99602689306,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              48.5
+            ],
+            [
+              -1,
+              48.5
+            ],
+            [
+              -1,
+              49
+            ],
+            [
+              -1.5,
+              49
+            ],
+            [
+              -1.5,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199799",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199799,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              48.5
+            ],
+            [
+              -0.5,
+              48.5
+            ],
+            [
+              -0.5,
+              49
+            ],
+            [
+              -1,
+              49
+            ],
+            [
+              -1,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199800",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199800,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              48.5
+            ],
+            [
+              0,
+              48.5
+            ],
+            [
+              0,
+              49
+            ],
+            [
+              -0.5,
+              49
+            ],
+            [
+              -0.5,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199801",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199801,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              48.5
+            ],
+            [
+              0.5,
+              48.5
+            ],
+            [
+              0.5,
+              49
+            ],
+            [
+              0,
+              49
+            ],
+            [
+              0,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199802",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199802,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              48.5
+            ],
+            [
+              1,
+              48.5
+            ],
+            [
+              1,
+              49
+            ],
+            [
+              0.5,
+              49
+            ],
+            [
+              0.5,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199803",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199803,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.999983762396,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1,
+              48.5
+            ],
+            [
+              1.5,
+              48.5
+            ],
+            [
+              1.5,
+              49
+            ],
+            [
+              1,
+              49
+            ],
+            [
+              1,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:199804",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199804,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.635113455249,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.5,
+              48.5
+            ],
+            [
+              2,
+              48.5
+            ],
+            [
+              2,
+              49
+            ],
+            [
+              1.5,
+              49
+            ],
+            [
+              1.5,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200518",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200518,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.874945257247,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5,
+              49
+            ],
+            [
+              -1,
+              49
+            ],
+            [
+              -1,
+              49.5
+            ],
+            [
+              -1.5,
+              49.5
+            ],
+            [
+              -1.5,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200519",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200519,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.751773461456,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1,
+              49
+            ],
+            [
+              -0.5,
+              49
+            ],
+            [
+              -0.5,
+              49.5
+            ],
+            [
+              -1,
+              49.5
+            ],
+            [
+              -1,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200520",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200520,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.631605166,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5,
+              49
+            ],
+            [
+              0,
+              49
+            ],
+            [
+              0,
+              49.5
+            ],
+            [
+              -0.5,
+              49.5
+            ],
+            [
+              -0.5,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200521",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200521,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.869829858316,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0,
+              49
+            ],
+            [
+              0.5,
+              49
+            ],
+            [
+              0.5,
+              49.5
+            ],
+            [
+              0,
+              49.5
+            ],
+            [
+              0,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200522",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200522,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              49
+            ],
+            [
+              1,
+              49
+            ],
+            [
+              1,
+              49.5
+            ],
+            [
+              0.5,
+              49.5
+            ],
+            [
+              0.5,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200523",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200523,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1,
+              49
+            ],
+            [
+              1.5,
+              49
+            ],
+            [
+              1.5,
+              49.5
+            ],
+            [
+              1,
+              49.5
+            ],
+            [
+              1,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200524",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200524,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.5,
+              49
+            ],
+            [
+              2,
+              49
+            ],
+            [
+              2,
+              49.5
+            ],
+            [
+              1.5,
+              49.5
+            ],
+            [
+              1.5,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:200525",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200525,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.863912675724,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2,
+              49
+            ],
+            [
+              2.5,
+              49
+            ],
+            [
+              2.5,
+              49.5
+            ],
+            [
+              2,
+              49.5
+            ],
+            [
+              2,
+              49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201242",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201242,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.758233200665,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.5,
+              49.5
+            ],
+            [
+              1,
+              49.5
+            ],
+            [
+              1,
+              50
+            ],
+            [
+              0.5,
+              50
+            ],
+            [
+              0.5,
+              49.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201243",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201243,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.968666455906,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1,
+              49.5
+            ],
+            [
+              1.5,
+              49.5
+            ],
+            [
+              1.5,
+              50
+            ],
+            [
+              1,
+              50
+            ],
+            [
+              1,
+              49.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201244",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201244,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.5,
+              49.5
+            ],
+            [
+              2,
+              49.5
+            ],
+            [
+              2,
+              50
+            ],
+            [
+              1.5,
+              50
+            ],
+            [
+              1.5,
+              49.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201245",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201245,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2,
+              49.5
+            ],
+            [
+              2.5,
+              49.5
+            ],
+            [
+              2.5,
+              50
+            ],
+            [
+              2,
+              50
+            ],
+            [
+              2,
+              49.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201246",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201246,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.982177877472,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.5,
+              49.5
+            ],
+            [
+              3,
+              49.5
+            ],
+            [
+              3,
+              50
+            ],
+            [
+              2.5,
+              50
+            ],
+            [
+              2.5,
+              49.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201964",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201964,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.948951911015,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.5,
+              50
+            ],
+            [
+              2,
+              50
+            ],
+            [
+              2,
+              50.5
+            ],
+            [
+              1.5,
+              50.5
+            ],
+            [
+              1.5,
+              50
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201965",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201965,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2,
+              50
+            ],
+            [
+              2.5,
+              50
+            ],
+            [
+              2.5,
+              50.5
+            ],
+            [
+              2,
+              50.5
+            ],
+            [
+              2,
+              50
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:201966",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 201966,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.5,
+              50
+            ],
+            [
+              3,
+              50
+            ],
+            [
+              3,
+              50.5
+            ],
+            [
+              2.5,
+              50.5
+            ],
+            [
+              2.5,
+              50
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:202684",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202684,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.731725707647,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.5,
+              50.5
+            ],
+            [
+              2,
+              50.5
+            ],
+            [
+              2,
+              51
+            ],
+            [
+              1.5,
+              51
+            ],
+            [
+              1.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:202685",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202685,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.999912355874,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2,
+              50.5
+            ],
+            [
+              2.5,
+              50.5
+            ],
+            [
+              2.5,
+              51
+            ],
+            [
+              2,
+              51
+            ],
+            [
+              2,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:bb6534472ad9ea0cd555",
+        "render_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b:cell:202686",
+        "territory_state_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 202686,
+        "assertion_id": "claim:6ec1155d34e5c1d3f27f96408454af4e30784156cd4c8ffccaba8a033cfa0d7b",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.5,
+              50.5
+            ],
+            [
+              3,
+              50.5
+            ],
+            [
+              3,
+              51
+            ],
+            [
+              2.5,
+              51
+            ],
+            [
+              2.5,
+              50.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:199083",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199083,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.646567023072,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1,
+              48
+            ],
+            [
+              1.5,
+              48
+            ],
+            [
+              1.5,
+              48.5
+            ],
+            [
+              1,
+              48.5
+            ],
+            [
+              1,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:199084",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199084,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.5,
+              48
+            ],
+            [
+              2,
+              48
+            ],
+            [
+              2,
+              48.5
+            ],
+            [
+              1.5,
+              48.5
+            ],
+            [
+              1.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:199085",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199085,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2,
+              48
+            ],
+            [
+              2.5,
+              48
+            ],
+            [
+              2.5,
+              48.5
+            ],
+            [
+              2,
+              48.5
+            ],
+            [
+              2,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:199086",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199086,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.5,
+              48
+            ],
+            [
+              3,
+              48
+            ],
+            [
+              3,
+              48.5
+            ],
+            [
+              2.5,
+              48.5
+            ],
+            [
+              2.5,
+              48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:199805",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199805,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.946839376566,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2,
+              48.5
+            ],
+            [
+              2.5,
+              48.5
+            ],
+            [
+              2.5,
+              49
+            ],
+            [
+              2,
+              49
+            ],
+            [
+              2,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:199806",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 199806,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 1,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.5,
+              48.5
+            ],
+            [
+              3,
+              48.5
+            ],
+            [
+              3,
+              49
+            ],
+            [
+              2.5,
+              49
+            ],
+            [
+              2.5,
+              48.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "entity_id": "isles:political:e1483bd3af1dc7bd7355",
+        "render_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6:cell:200526",
+        "territory_state_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "t_start": -500382,
+        "t_end": -500017,
+        "cell_id": 200526,
+        "assertion_id": "claim:1ae7abc09fb2396a4ac4aa662edf023c89ed01512a842a0e5eee63aa811d71a6",
+        "kind": "political",
+        "relation": "source_attributed_association",
+        "status": "uncertain",
+        "coverage": 0.78344927263,
+        "source_edition": "overview:da7a4b7:world_600.geojson",
+        "recorded_from": "2026-09-20T02:00:00.000Z",
+        "recorded_to": "",
+        "pick_priority": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.5,
+              49
+            ],
+            [
+              3,
+              49
+            ],
+            [
+              3,
+              49.5
+            ],
+            [
+              2.5,
+              49.5
+            ],
+            [
+              2.5,
+              49
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "recovery_date": "2026-09-27",
+  "reason": "The prior Historical Cities Source packet omitted history-continuity regression fixtures. Restored here without changing admission decisions or tests.",
+  "previous_mappings": {
+    "method": "Rerun retained classify-global-sources.py against exact raw input and registry into a separate recovery directory, then accept only byte-identical outputs matching both independent retained pin lists.",
+    "classifier_sha256": "66b4748580e264a171c32bac00d9308b6a18b7023d2e8a3198d14d25e34cf598",
+    "pin_records": [
+      "public/history/political-admission-receipt.json",
+      "verification/global-history/primary-40/semantic-mappings/archive-hashes.json"
+    ],
+    "files": [
+      {
+        "path": "verification/history-continuity/previous-mappings/world_100-mappings.json",
+        "sha256": "cda3e6366dc6df7803ce7657de2495e59da688fbe4863ece7ddb3112686805d7"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_1878-mappings.json",
+        "sha256": "79bf65e9df753c81bdbf3ba676e7cc442eac55a4e036e9eb8c60bce05a73c113"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_1880-mappings.json",
+        "sha256": "5404647540f451ca986a0b4c11b284830292747bb6931aa36d27f2fcaa6d37ec"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_1900-mappings.json",
+        "sha256": "17e15159f4166d31717dbc61c8ed0c1ab126e52afb07b911d4fc190ac7256767"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_200-mappings.json",
+        "sha256": "d500e3ac06518dd46de287873d1c614e0d0f1e8342211f8366f821b00e60d2a9"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_300-mappings.json",
+        "sha256": "25ce947973f9393af79290f24da19074d589b3bd2434ec02361b2b25884b01de"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_400-mappings.json",
+        "sha256": "2cdceb1db8ff3079bf5c510b3bdd6bde69830429800ca17b49911cbee0ef6fe6"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_500-mappings.json",
+        "sha256": "09a366a64ad1604ebb794a3750c8e0c9a2608360649772cc5584ce8b0f868fb4"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_600-mappings.json",
+        "sha256": "7d3d5d261350d2cab8d150cf555b6b475150e23a635201f62351a33df51fe6a4"
+      },
+      {
+        "path": "verification/history-continuity/previous-mappings/world_700-mappings.json",
+        "sha256": "843db44c494eaa20b6fd2204e47ac41a7d41de366b8f18770e49b616a449b1b7"
+      }
+    ],
+    "exact_hash_matches": 10
+  },
+  "previous_geometry": {
+    "original_receipt_recovered": false,
+    "method": "Independently normalize exact retained raw GeoJSON selected by SHA-pinned pre-admission mappings, using the unchanged retained normalizer and exact Shapely/GEOS versions; apply the compiler\u2019s protected Hawaii component test and stable render IDs. Current compiled metadata is not used to derive these hashes.",
+    "normalizer_sha256": "4d645af284022f56a7d93fcbce4d13bafb81f0e7048fcd4f5e259f5d91f3af1d",
+    "engine": {
+      "shapely": "2.1.2",
+      "geos": "3.13.1"
+    },
+    "observations": 10,
+    "previous_parts_checked_against_current": 2138,
+    "current_geometry_comparison": "PASS",
+    "limitation": "This recovery record is regenerated evidence from pinned pre-admission inputs, not the unavailable previous receipt bytes. Its baseline was derived independently of current compiled metadata."
+  },
+  "targeted_regression": {
+    "command": "node --import tsx --test tests/global-semantics.test.ts tests/political-continuity.test.ts",
+    "passed": 20,
+    "failed": 0,
+    "skipped": 0
+  }
+}

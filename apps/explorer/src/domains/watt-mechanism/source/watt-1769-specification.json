@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "watt-1769-specification-reprint",
+  "domain": "technological-mechanism",
+  "title": "James Watt, patent specification for lessening the consumption of steam and fuel in fire engines (1769), as quoted in Babcock & Wilcox Co., Steam, Its Generation and Use",
+  "edition": "Project Gutenberg eBook #22657 plain-text release",
+  "retrieval": {
+    "url": "https://www.gutenberg.org/cache/epub/22657/pg22657.txt",
+    "retrievedOn": "2026-10-08",
+    "upstreamBytes": 1031980,
+    "upstreamSha256": "65be4b09abf9e474a440d57ebea434d2438c87ce79eb26eb7e031ce26d1d1f66"
+  },
+  "normalization": "UTF-8 byte ranges from the upstream file; line breaks, indentation and whitespace runs collapsed to single spaces. Characters are otherwise unchanged.",
+  "passages": [
+    {
+      "id": "specification-quotation",
+      "role": "patent-specification-text",
+      "byteRange": [
+        17847,
+        20281
+      ],
+      "text": "\"My method of lessening the consumption of steam, and consequently fuel, in fire engines, consists of the following principles: \"First, That vessel in which the powers of steam are to be employed to work the engine, which is called the cylinder in common fire engines, and which I call the steam vessel, must, during the whole time the engine is at work, be kept as hot as the steam that enters it; first, by enclosing it in a case of wood, or any other materials that transmit heat slowly; secondly, by surrounding it with steam or other heated bodies; and, thirdly, by suffering neither water nor any other substance colder than the steam to enter or touch it during that time. \"Secondly, In engines that are to be worked wholly or partially by condensation of steam, the steam is to be condensed in vessels distinct from the steam vessels or cylinders, although occasionally communicating with them; these vessels I call condensers; and, whilst the engines are working, these condensers ought at least to be kept as cold as the air in the neighborhood of the engines, by application of water or other cold bodies. \"Thirdly, Whatever air or other elastic vapor is not condensed by the cold of the condenser, and may impede the working of the engine, is to be drawn out of the steam vessels or condensers by means of pumps, wrought by the engines themselves, or otherwise. \"Fourthly, I intend in many cases to employ the expansive force of steam to press on the pistons, or whatever may be used instead of them, in the same manner in which the pressure of the atmosphere is now employed in common fire engines. In cases where cold water cannot be had in plenty, the engines may be wrought by this force of steam only, by discharging the steam into the air after it has done its office.... \"Sixthly, I intend in some cases to apply a degree of cold not capable of reducing the steam to water, but of contracting it considerably, so that the engines shall be worked by the alternate expansion and contraction of the steam. \"Lastly, Instead of using water to render the pistons and other parts of the engine air and steam tight, I employ oils, wax, resinous bodies, fat of animals, quick-silver and other metals in their fluid state.\"",
+      "sha256": "340b475e134940bac4844d0c5787ed5c0de04619c4b2a0a4d749b5b60f7937d2"
+    },
+    {
+      "id": "reprint-patent-year",
+      "role": "reprint-editorial-statement",
+      "byteRange": [
+        17505,
+        17619
+      ],
+      "text": "After several trials with an experimental apparatus based on these ideas, Watt patented his improvements in 1769.",
+      "sha256": "4bc1dd5a361991510dd06728efa61368f879840502b63f7398f9e1334eca3797"
+    },
+    {
+      "id": "reprint-fifth-omitted",
+      "role": "reprint-editorial-statement",
+      "byteRange": [
+        20285,
+        20354
+      ],
+      "text": "The fifth claim was for a rotary engine, and need not be quoted here.",
+      "sha256": "e44f0986c23fd6445c19cb46504f9f7322cb24989c386647089666df46398df6"
+    }
+  ],
+  "primaryRecord": {
+    "label": "Printed specification of GB patent 1769 No. 913 (facsimile PDF)",
+    "url": "https://www.dpma.de/docs/dpma/veroeffentlichungen/gb000176900913a_watt1769.pdf",
+    "bytes": 616275,
+    "sha256": "3f4361936af75baae47b6243ec4d4ed4930cc59ec06fa4b21035c26455902963",
+    "status": "pinned-not-retained-not-collated"
+  },
+  "rights": "public-domain-text",
+  "modelProcessing": false,
+  "republication": false,
+  "limitations": [
+    "Secondary reprint with American spelling; it has not been collated against the printed 1769 specification.",
+    "The reprint marks an elision after the fourth principle and omits the fifth (rotary) principle; omitted wording is not represented.",
+    "A patent specification states the inventor’s claimed method. It is not evidence of construction, operating performance or fuel savings."
+  ]
+}

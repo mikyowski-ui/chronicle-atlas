@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "edition": "isles-alpha-da7a4b7-display-v1",
+  "entries": [
+    {
+      "key": [
+        "isles-alpha-da7a4b7-display-v1",
+        "isles:political:d577c358bc0b8a4cb477",
+        "claim:d7a4449e3449c6199c2d1bfaf9ef81573325d98f869e1d4596a7d01dbbcaf5cc",
+        "fae4d3e62d22d871bde9b21977b9722b6cf24abb72f1e41daca7b804bb3ee50c",
+        "ons-ew-1838-2025-20260729",
+        "1900-midyear",
+        "direct-regional-observation-v1"
+      ],
+      "t_start": -25567,
+      "t_end": -25202,
+      "historical": {
+        "population": null,
+        "areaKm2": 288128.72007783153,
+        "coveredAreaKm2": 0,
+        "coverageFraction": 0,
+        "status": "unavailable",
+        "reason": "No admitted population total for the complete UK territory; the source covers England and Wales only."
+      },
+      "fixed": {
+        "population": 32249200,
+        "areaKm2": null,
+        "coveredAreaKm2": null,
+        "coverageFraction": null,
+        "status": "regional-reference",
+        "reason": null
+      },
+      "referenceLabel": "England and Wales",
+      "observationDateLabel": "Mid-1900 · ONS estimate",
+      "methodology": "Directly extract the published Persons cell for Mid-1900. Retain it as an England and Wales regional reference. Do not allocate it among polygons or scale it to the selected UK boundary.",
+      "notes": [
+        "Regional subset of the United Kingdom of Great Britain and Ireland; not its full population",
+        "Estimate, not an exact census count; displayed rounding does not imply individual-person precision.",
+        "The source excludes Islands in the British Seas and portions of the Armed Forces and Merchant Service abroad for 1838–1910.",
+        "No admitted population total for the full UK historical territory and no historical density geometry.",
+        "This single observation does not establish population for any other date."
+      ],
+      "source": {
+        "source_title": "ONS population estimates for England and Wales, Table 7",
+        "source_edition": "England and Wales population estimates 1838 to 2025; published 2026-07-29",
+        "source_url": "https://www.ons.gov.uk/file?uri=%2Fpeoplepopulationandcommunity%2Fpopulationandmigration%2Fpopulationestimates%2Fdatasets%2Festimatesofthepopulationforenglandandwales%2Fenglandandwalespopulationestimates1838to2025%2Fewpopulationestimates18382025.xlsx",
+        "input_sha256": "715635a653d6471de5e4fd6059cf552855c580ed7af856a3ee4cc1e8e1cbaf7f",
+        "license": "Open Government Licence v3.0",
+        "attribution": "Source: Office for National Statistics. Contains public sector information licensed under the Open Government Licence v3.0."
+      }
+    }
+  ]
+}

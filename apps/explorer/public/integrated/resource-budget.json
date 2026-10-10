@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-23T00:00:00.000Z",
+  "scope": {
+    "world_political_snapshots": 1,
+    "source_year": 1900,
+    "physical_source": "Natural Earth 50m land 4.1.0, complete archive",
+    "root_ledger_mutations": false
+  },
+  "sequential_workers": 1,
+  "limits": {
+    "old_heap_mib": 256,
+    "process_rss_bytes": 1073741824,
+    "worker_deadline_ms": 60000,
+    "archive_bytes": 1000000,
+    "metadata_bytes": 2097152,
+    "fallback_bytes": 4194304,
+    "manifest_bytes": 65536,
+    "parts_per_scene": 1000,
+    "vertices_per_physical_scene": 250000,
+    "epochs_per_manifest": 32,
+    "tiles_per_archive": 2048,
+    "tile_bytes": 1048576,
+    "new_compressed_bytes": 16777216,
+    "cumulative_compressed_bytes": 134217728
+  },
+  "encoding": {
+    "minzoom": 0,
+    "maxzoom": 4,
+    "extent": 4096,
+    "buffer": 64,
+    "tolerance": 1.5,
+    "temporal_interpolation": false
+  },
+  "publication": "Staged display candidate only. No public ledger changes or publication."
+}

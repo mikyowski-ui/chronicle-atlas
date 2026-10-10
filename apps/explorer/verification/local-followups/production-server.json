@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "build-info.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-BMeWrOxv.js",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-veHcMhI1.css",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/pilot-data-Jm_w9AQo.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/premodern-pilot-B7FC1mJx.json",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/registry-CLoBPRzJ.js",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/semantic-view-B2CEZGnF.css",
+      "status": 200,
+      "exactBytes": true
+    },
+    {
+      "path": "assets/semantic-view-C2U9_p4P.js",
+      "status": 200,
+      "exactBytes": true
+    }
+  ],
+  "range206": true,
+  "browser": "NOT RUN by this HTTP verification script"
+}

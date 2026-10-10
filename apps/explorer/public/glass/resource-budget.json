@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "Dated editorial context and evidence-linked imagery for existing admitted observations; no historical geometry or ledger mutation",
+  "frozen_at": "2026-09-27T00:00:00Z",
+  "max_profiles": 6,
+  "max_events": 16,
+  "max_images": 4,
+  "max_source_text_bytes": 153600,
+  "max_image_bytes_aggregate": 8388608,
+  "download_workers": 1,
+  "population_estimates": "No invented or extrapolated values",
+  "succession": "Only separately sourced relationships; later supported navigation observations are not event dates",
+  "historical_semantics": "Context enrichment does not independently certify source-attributed borders or promote the public ledger"
+}

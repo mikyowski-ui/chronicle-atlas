@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+  "binaryHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "command": [
+    "cc",
+    "-static",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fstack-protector-strong",
+    "-D_FORTIFY_SOURCE=2",
+    "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/runtime-isolation/worker.c",
+    "-o",
+    "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/verification/m3/runtime/chronicle-isolation-worker"
+  ],
+  "generatedExecution": false,
+  "modelProcessing": false
+}

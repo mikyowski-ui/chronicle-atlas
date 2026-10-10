@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "fixture_kind": "synthetic",
+  "edition": "meridian-v2",
+  "initial_time": -354285,
+  "epochs": [
+    {
+      "epoch_id": "meridian-950",
+      "t_start": -372547,
+      "t_end": -336023,
+      "url": "./epoch-950.pmtiles",
+      "sha256": "bca192007cb964d9f58808e29cf390510b749ecc25f86047d21147d87d065339",
+      "byte_length": 1886,
+      "layers": [
+        "territories",
+        "population",
+        "migration"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "epoch_id": "meridian-1050",
+      "t_start": -336023,
+      "t_end": -299499,
+      "url": "./epoch-1050.pmtiles",
+      "sha256": "41db52ef966284c6e4ed08fde1b096d13fade440b355db698e0b4d92a155f804",
+      "byte_length": 1895,
+      "layers": [
+        "territories",
+        "population",
+        "migration"
+      ],
+      "tile": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

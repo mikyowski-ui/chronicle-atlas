@@ -1,0 +1,936 @@
+{
+  "schema": 1,
+  "status": "BLOCKED",
+  "generatedExecution": false,
+  "modelProcessing": false,
+  "environment": {
+    "platform": "linux",
+    "architecture": "x64",
+    "kernel": "6.18.44",
+    "node": "v24.19.0"
+  },
+  "policy": {
+    "version": "m3-linux-fixed-v1",
+    "generatedExecution": false,
+    "modelProcessing": false,
+    "requestBytes": 65536,
+    "rows": 2000,
+    "entities": 2000,
+    "cpuSeconds": 2,
+    "cpuSecondsPerProcess": 1,
+    "wallMilliseconds": 2500,
+    "executionMilliseconds": 1500,
+    "addressSpaceBytes": 16777216,
+    "outputBytes": 4096,
+    "diagnosticBytes": 1024,
+    "scratchBytes": 0,
+    "guestProcesses": 1,
+    "guestThreads": 1,
+    "terminationMilliseconds": 1000,
+    "validatorMilliseconds": 1000,
+    "queue": 1
+  },
+  "build": {
+    "schema": 1,
+    "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+    "binaryHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "compiler": "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+    "command": [
+      "cc",
+      "-static",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-fstack-protector-strong",
+      "-D_FORTIFY_SOURCE=2",
+      "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/runtime-isolation/worker.c",
+      "-o",
+      "/workspace/scratch/28fda5f69d87/chronicle-workspace/Chronicle-Explorer/source/apps/explorer/verification/m3/runtime/chronicle-isolation-worker"
+    ],
+    "generatedExecution": false,
+    "modelProcessing": false
+  },
+  "canaryObservations": {
+    "tcpConnections": 0,
+    "udpPackets": 0,
+    "fileHashUnchanged": true,
+    "note": "Endpoint counters and canary hashes are outside observations. BLOCKED bootstrap means no guest probe ran; zero counters are not confinement proof. No packet capture was available."
+  },
+  "results": [
+    {
+      "fixture": "network",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "3009be769fb8f956e8413ee9f3e0836e34968bc40457d0a10c549d2edcf00cc1",
+          "generation": 1,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 11.207243999999974,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "filesystem",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "cbf61858f3260072d96d9b1d2e037fc35824944b9c94d0087b1a53385eccaead",
+          "generation": 2,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.4991430000000037,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "descriptors",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "12b2fdc0a0ffd6ce4b7d74d080cd8dcb1c60b6e8f365fb46ac511c46cc31f1c1",
+          "generation": 3,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.6434879999999907,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "processes",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "abd4c41da35254768c3202293a378aa62dddbe5d68a9937ef8f4d73266936d86",
+          "generation": 4,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.6682830000000024,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "memory",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "c064fbca9d9de8dd9bb0624984403b28d0da807a69365d4f7fb09123ecb0c405",
+          "generation": 5,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.728970000000004,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "environment",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+          "generation": 6,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.4760890000000018,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "infinite-loop",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "c94d920f390378039923bd42612eb08b3dbb31afb0298fb530a6f14062ce4739",
+          "generation": 7,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.186559000000017,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "output-flood",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "d50484deb0fdfc6dc9797e7d067107c9662988d4884026d088243ffac8a65604",
+          "generation": 8,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.0013379999999756,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "diagnostic-flood",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "0ff10f33b386f36b0e01c2a5d348fa20a5d2ae0d949652a55ca158f4eff423fa",
+          "generation": 9,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.647402999999997,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "malformed-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "32e2e1217dbe3e21747081abe2ec770beb8c5261accf0785aab847d96769e727",
+          "generation": 10,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.3939270000000192,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "markup-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "d5e4324edd5fd886c8371b36787b735a0f4e6f568a410d71a08db249d17487de",
+          "generation": 11,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.659142000000031,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "forged-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "f853a54a6abaa98afa695de93211f811306974641d8b5049aa392f981f2355cc",
+          "generation": 12,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 3.77434199999999,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "crash",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "cdb2e0d0f873ce5326e87cf7dec48de8da3043cfc950a7eba05a059150e873f5",
+          "generation": 13,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 5.643374999999992,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "partial-output",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "4a550587be99b1e7e6fd81394c45c3ecf37978d462d34f88276b655e1f0ca41d",
+          "generation": 14,
+          "parentRevision": null,
+          "policyHash": null,
+          "wallMilliseconds": 2.997086999999965,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    },
+    {
+      "fixture": "transform-and-independent-native-validator",
+      "status": "BLOCKED",
+      "outcome": {
+        "code": "ISOLATION_UNAVAILABLE",
+        "receipt": {
+          "policy": "m3-linux-fixed-v1",
+          "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+          "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+          "inputHash": "f97e2f788532b9090a5754343101c70884a27f067334aaae8affb8aa62e8115b",
+          "generation": 15,
+          "parentRevision": "synthetic-revision-1",
+          "policyHash": "83dccfe121ee6503a87805e27e3b4e6e360e0747d6a469ea2eee9152b56b6991",
+          "wallMilliseconds": 2.9151880000000006,
+          "outputBytes": 0,
+          "diagnosticBytes": 35,
+          "exitCode": 78,
+          "signal": null,
+          "bootstrapStage": "empty-root",
+          "bootstrapErrno": 1,
+          "cleanupVerified": true,
+          "nativeValidation": false,
+          "generatedExecution": false,
+          "modelProcessing": false
+        }
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 16,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.197993999999994,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 17,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.040378000000032,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 18,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.117719999999963,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 19,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.628939000000003,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 20,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.470023000000026,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 21,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.281085000000019,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 22,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.560800000000029,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 23,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 4.265626999999995,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 24,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.502584000000013,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 25,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.140321999999969,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 26,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.0928180000000225,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 27,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 5.579308000000026,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 28,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 2.9628339999999866,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 29,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 2.8272249999999985,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 30,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.2895709999999667,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 31,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.3225229999999897,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 32,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.1228810000000067,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 33,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 2.8197920000000067,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 34,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.9422389999999723,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    },
+    {
+      "code": "ISOLATION_UNAVAILABLE",
+      "receipt": {
+        "policy": "m3-linux-fixed-v1",
+        "runtimeHash": "6af32cfb61a823263a07d82bb635f01ffd7a02c8272919d2490d8858f15b8279",
+        "sourceHash": "c25fcf3fcdd732b0b7c285161bdf5c1cafe5451ef46769e0134187e58e3272f6",
+        "inputHash": "ba5285161ba6eed0085fb13784ce5c92f70ebc268b94fd66aa1d68a32884204d",
+        "generation": 35,
+        "parentRevision": null,
+        "policyHash": null,
+        "wallMilliseconds": 3.144412999999986,
+        "outputBytes": 0,
+        "diagnosticBytes": 35,
+        "exitCode": 78,
+        "signal": null,
+        "bootstrapStage": "empty-root",
+        "bootstrapErrno": 1,
+        "cleanupVerified": true,
+        "nativeValidation": false,
+        "generatedExecution": false,
+        "modelProcessing": false
+      }
+    }
+  ],
+  "cleanup": true,
+  "limits": [
+    "This harness never enables arbitrary generated execution or production activation.",
+    "Supported-host fixture PASS alone is not full M3 security certification: packet capture, all-platform review, and full threat-model matrix remain required.",
+    "Bootstrap failure blocks all downstream kernel enforcement and native validator acceptance."
+  ]
+}

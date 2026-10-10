@@ -1,0 +1,130 @@
+[
+  {
+    "id": "early-egypt",
+    "title": "Early Dynastic Period",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "old-egypt",
+    "title": "Egypt in the Old Kingdom (ca. 2649–2130 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "middle-egypt",
+    "title": "Egypt in the Middle Kingdom (ca. 2030–1650 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "second-intermediate",
+    "title": "Second Intermediate Period",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/second-intermediate-period/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "new-egypt",
+    "title": "Egypt in the New Kingdom (ca. 1550–1070 BCE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "third-intermediate",
+    "title": "Third Intermediate Period",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/third-intermediate-period/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "ptolemaic",
+    "title": "Ptolemaic Period",
+    "publisher": "Egyptian Ministry of Tourism and Antiquities",
+    "url": "https://egymonuments.gov.eg/historical-periods/ptolemaic-period/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "roman-egypt",
+    "title": "Roman Egypt",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/roman-egypt",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "republic",
+    "title": "The Roman Republic",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-roman-republic",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "empire",
+    "title": "The Roman Empire (27 BCE–393 CE)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "tang",
+    "title": "Tang Dynasty (618–907)",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/essays/tang-dynasty-618-906",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "union-dates",
+    "title": "Act of Union 1707: Key dates",
+    "publisher": "UK Parliament",
+    "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/key-dates/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "union-articles",
+    "title": "The Articles, constitution and trade",
+    "publisher": "UK Parliament",
+    "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/the-articles-constitution-and-trade/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "civil-war",
+    "title": "November 1640–1660",
+    "publisher": "UK Parliament",
+    "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/key-dates/1640-1660/",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "bastille",
+    "title": "Bastille Day, 14 July",
+    "publisher": "Élysée, Presidency of the French Republic",
+    "url": "https://www.elysee.fr/en/french-presidency/bastille-day-14-july",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+  },
+  {
+    "id": "roman-educator",
+    "title": "Roman Art: A Resource for Educators",
+    "publisher": "The Metropolitan Museum of Art",
+    "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/roman.pdf",
+    "verifiedAt": "2026-09-27",
+    "rights": "Linked educational publication. Original Chronicle paraphrase only."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "@chronicle/offline-verification-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "description": "Pinned native Chromium acceptance automation; not part of the application runtime.",
+  "scripts": {
+    "install:chromium": "playwright install --with-deps chromium",
+    "test:e2e": "node ../scripts/m3-headless-acceptance.mjs",
+    "test:e2e:maplibre": "node ../scripts/m3-headless-acceptance.mjs --renderer maplibre --out ../verification/m3/native/maplibre",
+    "test:e2e:watt": "node ../scripts/m3-headless-acceptance.mjs --gates watt",
+    "test:e2e:hud": "node ../scripts/m3-headless-acceptance.mjs --gates hud --renderer maplibre",
+    "test:gemini": "node --import tsx --test ../tests/gemini-provider.test.ts",
+    "test:gemini:live": "node --import tsx ../scripts/gemini-live-acceptance.ts --live"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

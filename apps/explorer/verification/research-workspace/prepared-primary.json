@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "mexico-four",
+  "title": "Four Mexican urban centres",
+  "intent": {
+    "question": "What population estimates are available for Mexico City, Guadalajara, Monterrey and Puebla from 1975 to 2025?",
+    "interpretation": "Inspect available UN urban-centre population estimates. Shared definitions do not establish constant city footprints.",
+    "timeWindow": {
+      "start": 1975,
+      "end": 2025
+    },
+    "context": "explicit-entities",
+    "parentId": null
+  },
+  "query": {
+    "version": 1,
+    "datasetId": "un-wup-2025-mexico-four",
+    "edition": "chronicle-teaching-local-2026-09-27/un-wup-2025-f21-v1",
+    "dataHash": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e",
+    "entityIds": [
+      "hist-mexicocity-faaf2abd",
+      "hist-guadalajara-86f202e4",
+      "hist-monterrey-f375b062",
+      "hist-puebla-d4160425"
+    ],
+    "timeWindow": {
+      "start": 1975,
+      "end": 2025
+    },
+    "fields": [
+      "id",
+      "entityId",
+      "year",
+      "value",
+      "unit",
+      "locator"
+    ],
+    "sort": "entity-year",
+    "operation": "observations",
+    "joins": [],
+    "maxRows": 100
+  },
+  "views": [
+    {
+      "id": "scope",
+      "type": "summary",
+      "binding": "observations"
+    },
+    {
+      "id": "places",
+      "type": "map",
+      "binding": "observations"
+    },
+    {
+      "id": "estimates",
+      "type": "scatter",
+      "binding": "observations"
+    },
+    {
+      "id": "records",
+      "type": "table",
+      "binding": "observations"
+    },
+    {
+      "id": "sources",
+      "type": "evidence",
+      "binding": "observations"
+    }
+  ],
+  "interaction": "entity-observation",
+  "layout": "adaptive"
+}

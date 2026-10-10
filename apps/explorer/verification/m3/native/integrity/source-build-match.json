@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sourceFileCount": 2431,
+  "sourceFingerprint": "16cf2345ca1eb2a9b6838ef5d6955eba9fa0e4a5287c2613aa52590cb39175f8",
+  "buildId": "chronicle-da4cb9b91affa7a0bedccbd83d903705fb9c1e30f42f96cb7bcf46d5a1b597ea",
+  "browserAssets": 5,
+  "nodeCredentialTransportBundled": false
+}

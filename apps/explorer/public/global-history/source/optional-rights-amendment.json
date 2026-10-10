@@ -1,0 +1,27 @@
+{
+  "source_id": "ourednik-basemaps",
+  "pinned_revision": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "license": "GPL-3.0",
+  "attribution": "André Ourednik and Historical Basemaps contributors",
+  "preserved_primary_rights": "rights-record.primary-40.json",
+  "preserved_pilot_rights": "pilot-rights-record.json",
+  "scope_amendment": "After the primary forty-observation main-screen gate, the user-authorized optional nine indexed observations are collected and staged. The candidate nominal observation range now extends to 3000 BCE through 2010 CE. Earlier pilot and primary scope records remain unchanged.",
+  "optional_source_years": [
+    -3000,
+    -2000,
+    -1500,
+    -1000,
+    -700,
+    -500,
+    -400,
+    -323,
+    -300
+  ],
+  "primary_browser_gate_sha256": "64b5f5f2f2d7b977fd1a67b6ad906dcb293bce60aad62c5a6ad921b68231c645",
+  "budget_sha256": "f138be49d7f5e79400223e7b4fc6b67407da6849702d9183d9738636392c7289",
+  "historical_status": "Source-attributed overview, not independent historical review; prehistoric cultural reconstruction is not political ownership.",
+  "publication_boundary": "Staged Explorer candidate only; public ledger and explicit quarantine boundaries unchanged.",
+  "source_precision": "Nominal source-year observations; no exact event dates or interpolated borders inferred.",
+  "license_record": "LICENSE",
+  "attribution_and_limitations_record": "README.md"
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "4626393794715a8e64c80cc12a25111a693be9bfb01284f8cca25c5fc5f87218",
+      "exactBytes": true
+    },
+    {
+      "path": "build-info.json",
+      "status": 200,
+      "sha256": "3a299552c2d72bded578b14e352ab45ce04f8ef5c22f0dec38dc0cfaf4b98f5e",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-Zg8RxQnp.js",
+      "status": 200,
+      "sha256": "a95904657e5394760a361bc023194fd9d09328de7cd8f70502b825a058f0d80c",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-veHcMhI1.css",
+      "status": 200,
+      "sha256": "4aa469b85c5a6e22d135b9b701356a78f3eeac18474ad222921e05fc0b146d7a",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/pilot-data-Jm_w9AQo.json",
+      "status": 200,
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/premodern-pilot-B7FC1mJx.json",
+      "status": 200,
+      "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/registry-CLoBPRzJ.js",
+      "status": 200,
+      "sha256": "ab410be2920a1e2afb3239b6c599761f0d98eb0c04591e5a7791cb3863f92838",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/semantic-view-B2CEZGnF.css",
+      "status": 200,
+      "sha256": "b80eda84434ceda1c089cfbdd28f67ad94997fb652dc3671aaa5c8181061d822",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/semantic-view-Dk6hGk-e.js",
+      "status": 200,
+      "sha256": "cfeb37540ce14e259f95b0e012e335a5d65b2d38c57c008b5ddbb276147189aa",
+      "exactBytes": true
+    }
+  ],
+  "range206": true,
+  "command": "PORT=4194 node serve.mjs",
+  "productionBrowser": "NOT RUN"
+}

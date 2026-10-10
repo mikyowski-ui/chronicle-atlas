@@ -1,0 +1,38 @@
+{
+  "name": "@chronicle/explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@mapbox/vector-tile": "2.0.5",
+    "@noble/hashes": "2.0.1",
+    "maplibre-gl": "5.12.0",
+    "pbf": "4.0.2",
+    "pmtiles": "4.5.0"
+  },
+  "devDependencies": {
+    "@maplibre/vt-pbf": "4.3.2",
+    "@types/geojson": "7946.0.16",
+    "@types/geojson-vt": "3.2.5",
+    "@types/node": "22.19.19",
+    "geographiclib-geodesic": "2.2.0",
+    "geojson-vt": "4.0.3",
+    "jsts": "2.12.1",
+    "polygon-clipping": "0.15.7",
+    "proj4": "2.22.0",
+    "topojson-client": "3.1.0",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "edition": "chronicle-glass-context-20260927-v1",
+  "status": "IMPLEMENTED; bounded editorial source and asset closure verified",
+  "profiles": 6,
+  "events": 15,
+  "images": 3,
+  "image_bytes": 171494,
+  "source_and_editorial_text_bytes": 63984,
+  "max_download_workers": 1,
+  "oldest_observation": "3000 BCE",
+  "source_geometry_change": false,
+  "public_ledger_change": false,
+  "independent_border_review": false,
+  "omissions": [
+    "No population invented for ancient entities",
+    "No image admitted for Ptolemaic or Roman profiles in this bounded earliest-first pass",
+    "No direct successor-map target for Egyptian period changes or fragmentation",
+    "Only six profiles are enriched; other entities keep truthful basic cards",
+    "Events are a small curated set, not comprehensive coverage of every continent or civilization"
+  ],
+  "files": [
+    {
+      "path": "claims.json",
+      "bytes": 13380,
+      "sha256": "c16ceea28f635511f33b059c1250165df388720c0208ecce58504a2f9283cc03"
+    },
+    {
+      "path": "context-data.json",
+      "bytes": 34674,
+      "sha256": "557c948ff1957892bd2073d3a5dae233396a44ab19260f632d36361243f674ac"
+    },
+    {
+      "path": "image-inventory.json",
+      "bytes": 2848,
+      "sha256": "ece72721fa037c89fda4d8adcdb67541c0c5666b904c6bd22051cd0278ed49bc"
+    },
+    {
+      "path": "images/ahmose-i.jpg",
+      "bytes": 46999,
+      "sha256": "b81e12258a66754da76c8483d74ba0ff62e95a704fec72b85b9944b0df555335"
+    },
+    {
+      "path": "images/early-dynastic-falcon.jpg",
+      "bytes": 95068,
+      "sha256": "a4ee43e9930ef854ad85a5bdc3c046ddea496b15607cc373514f2e161007332f"
+    },
+    {
+      "path": "images/mentuhotep-ii.jpg",
+      "bytes": 29427,
+      "sha256": "1d03e13e3a6e48694683d1b0040aed0db9fda0def26c1fa18ac268b3f70c2b57"
+    },
+    {
+      "path": "resource-budget.json",
+      "bytes": 685,
+      "sha256": "1c3c7b8b645f89c0af694dd136c10bc8d6a9fb87838ac0fd028f41c25d071793"
+    },
+    {
+      "path": "source-inventory.json",
+      "bytes": 5902,
+      "sha256": "c67de7f2fcedf64118a79405154e4aeed0fa394b94251dfdcfc405848c5b5c15"
+    },
+    {
+      "path": "source-records/met-544008.json",
+      "bytes": 2682,
+      "sha256": "8fbd15dab18582c41f5fae10cc22edaea29d74da3f7f7d6196d381bc11f2d30c"
+    },
+    {
+      "path": "source-records/met-547480.json",
+      "bytes": 1726,
+      "sha256": "d0ef4c184c7548c50610eb984aeeec4eb0054376a6a5dc3d8a0a2e0c0a9f511a"
+    },
+    {
+      "path": "source-records/met-547950.json",
+      "bytes": 2087,
+      "sha256": "30b0a3c497de9ae3b0d9ac914ffabfbb470c145fa1fca74790c0dc65821cb5cf"
+    }
+  ]
+}

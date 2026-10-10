@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "startedAt": "2026-10-09T21:28:04.977Z",
+  "platform": "win32",
+  "node": "v22.17.0",
+  "browser": "153.0.8010.12",
+  "build": {
+    "schemaVersion": 1,
+    "buildId": "mechanism-d8dd96270e0312253592d0296198da383783a7b456e36af998bcdce1ce02a357",
+    "modules": [
+      "apps/mechanism-explorer/index.html",
+      "apps/mechanism-explorer/src/main.ts",
+      "apps/mechanism-explorer/src/style.css",
+      "node_modules/.pnpm/@noble+hashes@2.0.1/node_modules/@noble/hashes/_md.js",
+      "node_modules/.pnpm/@noble+hashes@2.0.1/node_modules/@noble/hashes/_u64.js",
+      "node_modules/.pnpm/@noble+hashes@2.0.1/node_modules/@noble/hashes/sha2.js",
+      "node_modules/.pnpm/@noble+hashes@2.0.1/node_modules/@noble/hashes/utils.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/index.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/checks.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/coerce.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/compat.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/deep-partial.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/errors.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/external.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/from-json-schema.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/in-out.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/iso.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/parse.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/schemas.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/api.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/checks.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/compile.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/core.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/doc.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/errors.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/index.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-generator.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-processors.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/memoizer.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/parse.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/registries.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/schemas.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/to-json-schema.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/versions.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/visit.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ar.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/az.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/be.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/bg.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/bn.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ca.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ckb.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/cs.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/da.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/de.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/el.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/en.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/eo.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/es.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fa.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fi.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fr-CA.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fr.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/gu.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/he.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hi.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hr.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hu.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hy.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/id.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/index.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/is.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/it.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ja.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ka.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/kh.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/km.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/kn.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ko.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/lt.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/mk.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ms.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ne.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/nl.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/nn.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/no.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ota.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pl.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ps.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pt-BR.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pt.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ro.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ru.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sk.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sl.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sv.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ta.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tg.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/th.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tk.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tr.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ua.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/uk.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ur.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/uz.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/vi.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/yo.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-CN.js",
+      "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-TW.js",
+      "packages/contracts/src/canonical.ts",
+      "packages/contracts/src/mechanism.ts",
+      "packages/runtime/src/interaction.ts",
+      "packages/runtime/src/mechanism-engine.ts",
+      "packages/runtime/src/mechanism.ts",
+      "packages/view-adapters/src/hud-contract.ts",
+      "packages/view-adapters/src/hud.css",
+      "packages/view-adapters/src/hud.ts",
+      "packages/view-adapters/src/index.ts",
+      "packages/view-adapters/src/mechanism.css",
+      "packages/view-adapters/src/mechanism.ts",
+      "packages/view-adapters/src/styles.css"
+    ],
+    "assets": [
+      {
+        "path": "assets/index-Bm_bxKET.css",
+        "bytes": 21623,
+        "sha256": "a110e72c76686c1fd74464b19d5c2cccc6528ee91008ac756087158463be89f8"
+      },
+      {
+        "path": "assets/index-Qzq7qkgo.js",
+        "bytes": 130376,
+        "sha256": "00d5b440ab36920145da5f3390605ca3586f4bfe3f4c4c6325af77d3e99052ff"
+      },
+      {
+        "path": "assets/watt-1769-mechanism-Bn8Si0Sq.json",
+        "bytes": 13234,
+        "sha256": "9838cf8fb53a034732a764d1433b3cf8c8e149b9e31323eeaea3e2b2825336db"
+      },
+      {
+        "path": "assets/watt-1769-specification-CmgIn0_F.json",
+        "bytes": 4838,
+        "sha256": "6bbadef594a0b9d64bdb541717535a62f54365b891d8e64eb24e5a4cb197d86d"
+      },
+      {
+        "path": "index.html",
+        "bytes": 376,
+        "sha256": "c307c1870634670b7b01d8d2b5a36241cea3d14ca4ad06f29cc4096909e5a6aa"
+      }
+    ],
+    "mapDependencies": false,
+    "nodeProviderBundled": false
+  },
+  "checks": [
+    {
+      "name": "standalone-save-reopen",
+      "status": "PASS",
+      "sha256": "3bccff7573c00582712c744aab1e10b8a7f966501f18fdfe0933a65d7759973b",
+      "selection": {
+        "entityId": "condenser",
+        "observationId": "c-second-cold"
+      }
+    },
+    {
+      "name": "atlas-to-standalone-replay",
+      "status": "PASS",
+      "sha256": "05357ac3c6b9b46fb4ea9e261d6c3c40b6945b4a332ee4075ea40c3533f1b85c"
+    },
+    {
+      "name": "non-map-rendering-and-responsive-layout",
+      "status": "PASS",
+      "components": 8,
+      "functions": 8,
+      "canvasCount": 0,
+      "layout": {
+        "width": 375,
+        "bar": {
+          "x": 10,
+          "y": 112,
+          "right": 365,
+          "bottom": 172.390625,
+          "width": 355
+        },
+        "card": {
+          "x": 10,
+          "y": 186,
+          "right": 365,
+          "bottom": 656,
+          "width": 355
+        },
+        "dock": {
+          "x": 0,
+          "y": 670,
+          "right": 375,
+          "bottom": 812,
+          "width": 375
+        }
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "standalone-desktop.png",
+      "sha256": "d68cd84d366e5bdb1ae84009b863039a65d9ac8a578f1549871b028acbf7fdd9"
+    },
+    {
+      "file": "standalone-invalid-replay-retained.png",
+      "sha256": "704c2103211e0c115de6afc08258207d5a0f76cd735fc0740f505ab1cab5c46f"
+    },
+    {
+      "file": "standalone-375.png",
+      "sha256": "ae9a3a7b26a4d3b5c101cb4c05a479f87f5fcc1fbe4a147ccfece92dc64d9799"
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "finishedAt": "2026-10-09T21:28:07.642Z"
+}

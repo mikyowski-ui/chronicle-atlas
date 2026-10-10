@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "kind": "chronicle-sandbox-render",
+  "runtime": "quickjs-emscripten-0.32.0",
+  "policy": "bounded-evidence-svg-1",
+  "bundleHash": "20d57bb27c792df8c3b703d05f484c457e2e8f51cf973c05297d9ae6937f901a",
+  "inputHash": "62e32d488dfa9e3f1c8375ca3eeceb8fddf4c804485db1aa7d13452e99cff8b5",
+  "programHash": "a066a0ec8f4d6b6c529c533dd800ed0710a2f232c5fcd87e6a4d8ebb2dd12e65",
+  "recordIds": [
+    "wikidata:Q84:2003f6a5c84c5ad4c91cb934",
+    "wikidata:Q84:3d60038d90804cc68b00b014",
+    "wikidata:Q84:78d1493b442807dcbdeddd8e"
+  ],
+  "program": "function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/'/g,'&apos;');}var cardWidth=190,gap=15,startX=20,topY=20,cardHeight=200;var groups=evidence.map(function(d,i){var x=startX+i*(cardWidth+gap);var y=topY;var id=esc(d.id);var label=esc(d.label);var variable=esc(d.variable);var val=esc(String(d.value));var unit=d.unit?esc(d.unit):'Unit not supplied';return '<g data-record-id=\"'+id+'\"><rect x=\"'+x+'\" y=\"'+y+'\" width=\"'+cardWidth+'\" height=\"'+cardHeight+'\" rx=\"8\" ry=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/><rect x=\"'+x+'\" y=\"'+y+'\" width=\"'+cardWidth+'\" height=\"32\" rx=\"8\" ry=\"8\" fill=\"#0284c7\" stroke=\"#0284c7\" stroke-width=\"1\"/><text x=\"'+(x+10)+'\" y=\"'+(y+21)+'\" font-size=\"14\" font-weight=\"bold\" fill=\"#ffffff\">'+label+'</text><text x=\"'+(x+10)+'\" y=\"'+(y+55)+'\" font-size=\"12\" font-weight=\"bold\" fill=\"#475569\">'+variable+'</text><text x=\"'+(x+10)+'\" y=\"'+(y+85)+'\" font-size=\"11\" fill=\"#0f172a\">'+val+'</text><text x=\"'+(x+10)+'\" y=\"'+(y+160)+'\" font-size=\"11\" fill=\"#64748b\">'+unit+'</text></g>';}).join('');return '<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 240\">'+groups+'</svg>';",
+  "width": 640,
+  "height": 240,
+  "limits": {
+    "executionMs": 50,
+    "heapBytes": 8388608,
+    "outputBytes": 65536
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "edition": "chronicle-glass-context-20260927-v1",
+  "recordedAt": "2026-09-27T00:00:00Z",
+  "profiles": [
+    {
+      "id": "egypt-3000",
+      "names": [
+        "Egypt"
+      ],
+      "kind": "political",
+      "fromYear": -2999,
+      "toYear": -2999,
+      "observationYears": [
+        -2999
+      ],
+      "title": "Early Dynastic Egypt",
+      "periodLabel": "3000 BCE context",
+      "summary": "A unified Egyptian monarchy stood along the Nile. Royal authority connected Upper and Lower Egypt; this early state should not be read as the modern country.",
+      "institutions": [
+        "Kingship linked Upper and Lower Egypt.",
+        "Memphis, between the two regions, became an important royal center; Abydos remained a royal burial place."
+      ],
+      "changes": [
+        "The Early Dynastic period followed unification around 3100 BCE; its chronology is approximate."
+      ],
+      "sources": [
+        {
+          "id": "early-egypt",
+          "title": "Early Dynastic Period",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        },
+        {
+          "id": "old-egypt",
+          "title": "Egypt in the Old Kingdom (ca. 2649–2130 BCE)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        }
+      ],
+      "claimIds": [
+        "egypt-3000:organization",
+        "egypt-3000:transition"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Egyptian",
+      "succession": {
+        "label": "Later phase · Old Kingdom",
+        "summary": "The Old Kingdom followed the Early Dynastic period around 2649 BCE. This is a change of historical period within Egyptian kingship, not a new modern country. No map observation is available at that transition.",
+        "dateLabel": "c. 2649 BCE",
+        "year": -2648,
+        "sourceIds": [
+          "old-egypt"
+        ],
+        "targets": []
+      },
+      "image": {
+        "src": "glass/images/early-dynastic-falcon.jpg",
+        "alt": "Figurine of a crouching falcon",
+        "caption": "Crouching falcon, faience, c. 3100–2650 BCE. A surviving object from this broad period, not a portrait or map reconstruction.",
+        "credit": "The Metropolitan Museum of Art · Rogers Fund, 1959",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/547480",
+        "rights": "CC0 / Public Domain"
+      }
+    },
+    {
+      "id": "egypt-2000",
+      "names": [
+        "Egypt"
+      ],
+      "kind": "political",
+      "fromYear": -1999,
+      "toYear": -1999,
+      "observationYears": [
+        -1999
+      ],
+      "title": "Middle Kingdom Egypt",
+      "periodLabel": "2000 BCE context",
+      "summary": "Egypt was reunited under the Theban royal house after an era of regional rule. Kingship again connected the Nile valley, with royal and regional centers participating in government and religious life.",
+      "institutions": [
+        "Mentuhotep II’s reunification began the Middle Kingdom around 2030 BCE.",
+        "The king combined political and religious authority; regional elites and temples were part of the kingdom’s organization."
+      ],
+      "changes": [
+        "The reunification of Upper and Lower Egypt preceded this observation; later Dynasty 12 reforms should not be projected back into 2000 BCE."
+      ],
+      "sources": [
+        {
+          "id": "middle-egypt",
+          "title": "Egypt in the Middle Kingdom (ca. 2030–1650 BCE)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        },
+        {
+          "id": "second-intermediate",
+          "title": "Second Intermediate Period",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/historical-periods/second-intermediate-period/",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        }
+      ],
+      "claimIds": [
+        "egypt-2000:organization",
+        "egypt-2000:transition"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Egyptian",
+      "succession": {
+        "label": "Later fragmentation",
+        "summary": "Around 1650 BCE, power was divided among Hyksos rulers in the north, Theban kings and other authorities. There is no single successor country and no admitted map at that transition.",
+        "dateLabel": "c. 1650 BCE",
+        "year": -1649,
+        "sourceIds": [
+          "second-intermediate"
+        ],
+        "targets": []
+      },
+      "image": {
+        "src": "glass/images/mentuhotep-ii.jpg",
+        "alt": "Statue of Nebhepetre Mentuhotep II in the Jubilee Garment",
+        "caption": "Mentuhotep II, sandstone with paint, c. 2051–2000 BCE. The museum notes uncertainty over whether this head originally belonged to this body.",
+        "credit": "The Metropolitan Museum of Art · Rogers Fund, 1926",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/544008",
+        "rights": "CC0 / Public Domain"
+      }
+    },
+    {
+      "id": "egypt-1500",
+      "names": [
+        "Egypt"
+      ],
+      "kind": "political",
+      "fromYear": -1499,
+      "toYear": -1499,
+      "observationYears": [
+        -1499
+      ],
+      "title": "New Kingdom Egypt",
+      "periodLabel": "1500 BCE context",
+      "summary": "The Eighteenth Dynasty ruled a reunited Egyptian kingdom. The royal court and the cult of Amun at Thebes supported an expanding state with military interests beyond the Nile valley.",
+      "institutions": [
+        "Pharaonic kingship combined government, military leadership and patronage of the gods.",
+        "Thebes was a major religious center; royal patronage expanded the temple of Amun at Karnak."
+      ],
+      "changes": [
+        "Ahmose I’s defeat of the Hyksos and reunification of Egypt inaugurated the New Kingdom around 1550 BCE."
+      ],
+      "sources": [
+        {
+          "id": "new-egypt",
+          "title": "Egypt in the New Kingdom (ca. 1550–1070 BCE)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        },
+        {
+          "id": "third-intermediate",
+          "title": "Third Intermediate Period",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/historical-periods/third-intermediate-period/",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        }
+      ],
+      "claimIds": [
+        "egypt-1500:organization",
+        "egypt-1500:transition"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Egyptian",
+      "succession": {
+        "label": "Later divided authority",
+        "summary": "After the New Kingdom, kings in the northern Delta and the high priests of Amun in Upper Egypt held distinct centers of power. This decentralization is not a one-to-one country replacement.",
+        "dateLabel": "c. 1069 BCE",
+        "year": -1068,
+        "sourceIds": [
+          "third-intermediate"
+        ],
+        "targets": []
+      },
+      "image": {
+        "src": "glass/images/ahmose-i.jpg",
+        "alt": "Head of Ahmose I",
+        "caption": "Head of Ahmose I, limestone, c. 1550–1525 BCE. A work from the preceding reign, shown as evidence of the dynasty’s origins.",
+        "credit": "The Metropolitan Museum of Art · Gift of Nanette R. Kelekian, in memory of Beatrice and Charles Dikran Kelekian, 2006",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/547950",
+        "rights": "CC0 / Public Domain"
+      }
+    },
+    {
+      "id": "ptolemaic-egypt",
+      "names": [
+        "Ptolemaic Kingdom"
+      ],
+      "kind": "political",
+      "fromYear": -199,
+      "toYear": -99,
+      "observationYears": [
+        -199,
+        -99
+      ],
+      "title": "Ptolemaic Kingdom",
+      "periodLabel": "200–100 BCE observations",
+      "summary": "A dynasty of Macedonian origin ruled Egypt from Alexandria. The court sustained Egyptian kingship and religious institutions while Greek communities and cultural institutions became prominent.",
+      "institutions": [
+        "The Ptolemies ruled as a royal dynasty; Alexandria served as their capital.",
+        "Egyptian and Greek religious traditions and communities coexisted within the kingdom."
+      ],
+      "changes": [
+        "This kingdom emerged after Alexander’s conquest and the division of his empire; it was distinct from both earlier pharaonic dynasties and later Roman provincial government."
+      ],
+      "sources": [
+        {
+          "id": "ptolemaic",
+          "title": "Ptolemaic Period",
+          "publisher": "Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/historical-periods/ptolemaic-period/",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        },
+        {
+          "id": "roman-egypt",
+          "title": "Roman Egypt",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/roman-egypt",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        }
+      ],
+      "claimIds": [
+        "ptolemaic-egypt:organization",
+        "ptolemaic-egypt:transition"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Hellenistic",
+      "succession": {
+        "label": "Roman rule in Egypt",
+        "summary": "Octavian annexed Egypt in 30 BCE, ending Ptolemaic monarchy. Egypt became a Roman province governed by an appointed prefect. The button opens a later supported observation, not a map dated to the annexation.",
+        "dateLabel": "30 BCE",
+        "year": -29,
+        "sourceIds": [
+          "roman-egypt"
+        ],
+        "targets": [
+          {
+            "name": "Roman Empire",
+            "year": 0,
+            "entityId": "isles:political:3acefcfa65fa8884ee4a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "roman-republic",
+      "names": [
+        "Rome",
+        "Roman Republic"
+      ],
+      "kind": "political",
+      "fromYear": -199,
+      "toYear": -99,
+      "observationYears": [
+        -199,
+        -99
+      ],
+      "title": "Roman Republic",
+      "periodLabel": "200–100 BCE observations",
+      "summary": "Rome governed a growing Mediterranean domain through republican institutions. Its ruling elite included patrician and wealthy plebeian families; territorial expansion brought resources and mounting political pressures.",
+      "institutions": [
+        "Magistracies, the Senate and citizen assemblies formed the republican system.",
+        "Territories outside Italy were administered as provinces as conquest and diplomacy extended Roman authority."
+      ],
+      "changes": [
+        "The political accommodation of patrician and wealthy plebeian families preceded these observations; later civil wars would transform the republic."
+      ],
+      "sources": [
+        {
+          "id": "republic",
+          "title": "The Roman Republic",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/the-roman-republic",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        },
+        {
+          "id": "roman-educator",
+          "title": "Roman Art: A Resource for Educators",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/roman.pdf",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked educational publication. Original Chronicle paraphrase only."
+        },
+        {
+          "id": "empire",
+          "title": "The Roman Empire (27 BCE–393 CE)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        }
+      ],
+      "claimIds": [
+        "roman-republic:organization",
+        "roman-republic:transition"
+      ],
+      "continents": [
+        "Europe",
+        "Africa",
+        "Asia"
+      ],
+      "civilization": "Roman",
+      "succession": {
+        "label": "Roman Empire · Principate",
+        "summary": "After civil wars, Octavian received the title Augustus in 27 BCE. Imperial rule emerged while republican institutions continued in altered roles. The navigation target is the supported 1 BCE observation.",
+        "dateLabel": "27 BCE",
+        "year": -26,
+        "sourceIds": [
+          "republic",
+          "empire"
+        ],
+        "targets": [
+          {
+            "name": "Roman Empire",
+            "year": 0,
+            "entityId": "isles:political:3acefcfa65fa8884ee4a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "roman-empire",
+      "names": [
+        "Roman Empire"
+      ],
+      "kind": "political",
+      "fromYear": 0,
+      "toYear": 200,
+      "observationYears": [
+        0,
+        100,
+        200
+      ],
+      "title": "Roman Empire",
+      "periodLabel": "1 BCE · 100 CE · 200 CE observations",
+      "summary": "Imperial government linked Rome and its provinces across the Mediterranean. Emperors held dominant power alongside a continuing Senate, officials, provincial administrations and local urban elites.",
+      "institutions": [
+        "The emperor’s authority rested on civil, religious and military roles.",
+        "Government operated through provinces and cities; arrangements changed across reigns rather than remaining a single fixed constitution."
+      ],
+      "changes": [
+        "The Principate began under Augustus in 27 BCE. This short context describes institutions across the listed observations and does not identify one ruler for every date."
+      ],
+      "sources": [
+        {
+          "id": "empire",
+          "title": "The Roman Empire (27 BCE–393 CE)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+          "verifiedAt": "2026-09-27",
+          "rights": "Linked source. Original Chronicle paraphrase; no article text or source-site imagery reproduced."
+        }
+      ],
+      "claimIds": [
+        "roman-empire:organization",
+        "roman-empire:transition"
+      ],
+      "continents": [
+        "Europe",
+        "Africa",
+        "Asia"
+      ],
+      "civilization": "Roman",
+      "succession": {
+        "label": "Later eastern and western courts",
+        "summary": "After Theodosius I died in 395 CE, his sons ruled the eastern and western halves. Both maintained Roman imperial identities; this is a division of imperial rule, not a simple change to one successor country.",
+        "dateLabel": "395 CE",
+        "year": 395,
+        "sourceIds": [
+          "empire"
+        ],
+        "targets": [
+          {
+            "name": "Eastern Roman Empire",
+            "year": 400,
+            "entityId": "world:political:ca2d3c241da9cdb7950a"
+          },
+          {
+            "name": "Western Roman Empire",
+            "year": 400,
+            "entityId": "isles:political:e2de8e9b52a13b5cad41"
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "old-kingdom",
+      "year": -2648,
+      "month": 1,
+      "day": 1,
+      "title": "c. 2649 BCE · Old Kingdom",
+      "description": "Conventional beginning of Egypt’s Old Kingdom; approximate period boundary, not a newly observed border.",
+      "kind": "event",
+      "precision": "circa-year",
+      "dateLabel": "c. 2649 BCE",
+      "entityNames": [
+        "Egypt"
+      ],
+      "entityIds": [
+        "world:political:063eccc87230ee32bd9e",
+        "world:political:09f55814d0953a77bf42",
+        "world:political:1732a1e9c7f5a080c08b",
+        "world:political:2c20feb60e8239bc035c",
+        "world:political:33080a056cdd2bf2b521",
+        "world:political:490882df90afc1f7c0bc",
+        "world:political:4a4b6eede2c7a0a0bf3e",
+        "world:political:7c65f63adc8fecfd7191",
+        "world:political:8c062ffd8bd8e7cbf457",
+        "world:political:942c6bf4f8fd1f0d3687",
+        "world:political:9f6af13748ce2c02d507",
+        "world:political:a0f0363289f9234140a5",
+        "world:political:a4956b7275b9cebbca1f",
+        "world:political:a7d408597c1d8b9ffc3e",
+        "world:political:accd60cdf668b33b9d4d",
+        "world:political:d9e30fe4727083a75390",
+        "world:political:e1bac245d2be7f55aa6b",
+        "world:political:e4f28ba3ccabf1d7583b",
+        "world:political:e5c3133a0979ead6e6d5"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Egyptian",
+      "sourceURL": "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c",
+      "sourceIds": [
+        "old-egypt"
+      ]
+    },
+    {
+      "id": "middle-kingdom",
+      "year": -2029,
+      "month": 1,
+      "day": 1,
+      "title": "c. 2030 BCE · Egypt reunited",
+      "description": "Mentuhotep II’s reunification marks the Middle Kingdom in this museum chronology.",
+      "kind": "event",
+      "precision": "circa-year",
+      "dateLabel": "c. 2030 BCE",
+      "entityNames": [
+        "Egypt"
+      ],
+      "entityIds": [
+        "world:political:063eccc87230ee32bd9e",
+        "world:political:09f55814d0953a77bf42",
+        "world:political:1732a1e9c7f5a080c08b",
+        "world:political:2c20feb60e8239bc035c",
+        "world:political:33080a056cdd2bf2b521",
+        "world:political:490882df90afc1f7c0bc",
+        "world:political:4a4b6eede2c7a0a0bf3e",
+        "world:political:7c65f63adc8fecfd7191",
+        "world:political:8c062ffd8bd8e7cbf457",
+        "world:political:942c6bf4f8fd1f0d3687",
+        "world:political:9f6af13748ce2c02d507",
+        "world:political:a0f0363289f9234140a5",
+        "world:political:a4956b7275b9cebbca1f",
+        "world:political:a7d408597c1d8b9ffc3e",
+        "world:political:accd60cdf668b33b9d4d",
+        "world:political:d9e30fe4727083a75390",
+        "world:political:e1bac245d2be7f55aa6b",
+        "world:political:e4f28ba3ccabf1d7583b",
+        "world:political:e5c3133a0979ead6e6d5"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Egyptian",
+      "sourceURL": "https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c",
+      "sourceIds": [
+        "middle-egypt"
+      ]
+    },
+    {
+      "id": "new-kingdom",
+      "year": -1549,
+      "month": 1,
+      "day": 1,
+      "title": "c. 1550 BCE · New Kingdom",
+      "description": "Ahmose I’s reunification opens a new phase of Egyptian monarchy.",
+      "kind": "event",
+      "precision": "circa-year",
+      "dateLabel": "c. 1550 BCE",
+      "entityNames": [
+        "Egypt"
+      ],
+      "entityIds": [
+        "world:political:063eccc87230ee32bd9e",
+        "world:political:09f55814d0953a77bf42",
+        "world:political:1732a1e9c7f5a080c08b",
+        "world:political:2c20feb60e8239bc035c",
+        "world:political:33080a056cdd2bf2b521",
+        "world:political:490882df90afc1f7c0bc",
+        "world:political:4a4b6eede2c7a0a0bf3e",
+        "world:political:7c65f63adc8fecfd7191",
+        "world:political:8c062ffd8bd8e7cbf457",
+        "world:political:942c6bf4f8fd1f0d3687",
+        "world:political:9f6af13748ce2c02d507",
+        "world:political:a0f0363289f9234140a5",
+        "world:political:a4956b7275b9cebbca1f",
+        "world:political:a7d408597c1d8b9ffc3e",
+        "world:political:accd60cdf668b33b9d4d",
+        "world:political:d9e30fe4727083a75390",
+        "world:political:e1bac245d2be7f55aa6b",
+        "world:political:e4f28ba3ccabf1d7583b",
+        "world:political:e5c3133a0979ead6e6d5"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Egyptian",
+      "sourceURL": "https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c",
+      "sourceIds": [
+        "new-egypt"
+      ]
+    },
+    {
+      "id": "alexander-egypt",
+      "year": -331,
+      "month": 1,
+      "day": 1,
+      "title": "332 BCE · Alexander in Egypt",
+      "description": "Egypt entered Alexander’s empire; the Ptolemaic kingdom developed after his death.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "332 BCE",
+      "entityNames": [
+        "Egypt",
+        "Ptolemaic Kingdom"
+      ],
+      "entityIds": [
+        "world:political:063eccc87230ee32bd9e",
+        "world:political:09f55814d0953a77bf42",
+        "world:political:1732a1e9c7f5a080c08b",
+        "world:political:18db01a096860bdc5df8",
+        "world:political:2c20feb60e8239bc035c",
+        "world:political:33080a056cdd2bf2b521",
+        "world:political:490882df90afc1f7c0bc",
+        "world:political:4a4b6eede2c7a0a0bf3e",
+        "world:political:7c65f63adc8fecfd7191",
+        "world:political:8c062ffd8bd8e7cbf457",
+        "world:political:942c6bf4f8fd1f0d3687",
+        "world:political:9f6af13748ce2c02d507",
+        "world:political:a0f0363289f9234140a5",
+        "world:political:a4956b7275b9cebbca1f",
+        "world:political:a7d408597c1d8b9ffc3e",
+        "world:political:a9d2714ebde0ddb86259",
+        "world:political:accd60cdf668b33b9d4d",
+        "world:political:d9e30fe4727083a75390",
+        "world:political:e1bac245d2be7f55aa6b",
+        "world:political:e3288f74f5d38efff339",
+        "world:political:e4f28ba3ccabf1d7583b",
+        "world:political:e5c3133a0979ead6e6d5"
+      ],
+      "continents": [
+        "Africa",
+        "Asia"
+      ],
+      "civilization": "Hellenistic",
+      "sourceURL": "https://egymonuments.gov.eg/historical-periods/ptolemaic-period/",
+      "sourceIds": [
+        "ptolemaic"
+      ]
+    },
+    {
+      "id": "roman-egypt",
+      "year": -29,
+      "month": 1,
+      "day": 1,
+      "title": "30 BCE · Roman Egypt",
+      "description": "Octavian annexed Egypt, ending the Ptolemaic monarchy.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "30 BCE",
+      "entityNames": [
+        "Ptolemaic Kingdom",
+        "Roman Empire"
+      ],
+      "entityIds": [
+        "isles:political:3acefcfa65fa8884ee4a",
+        "world:political:18db01a096860bdc5df8",
+        "world:political:a9d2714ebde0ddb86259",
+        "world:political:e3288f74f5d38efff339"
+      ],
+      "continents": [
+        "Africa"
+      ],
+      "civilization": "Hellenistic",
+      "sourceURL": "https://www.metmuseum.org/essays/roman-egypt",
+      "sourceIds": [
+        "roman-egypt"
+      ]
+    },
+    {
+      "id": "principate",
+      "year": -26,
+      "month": 1,
+      "day": 1,
+      "title": "27 BCE · Augustus",
+      "description": "Octavian received the title Augustus; the Principate emerged.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "27 BCE",
+      "entityNames": [
+        "Rome",
+        "Roman Republic",
+        "Roman Empire"
+      ],
+      "entityIds": [
+        "isles:political:3acefcfa65fa8884ee4a",
+        "world:political:0ce3822716a47923c491",
+        "world:political:17ac07e2657fa52179dd",
+        "world:political:2918fc3f0ef04a00a05c",
+        "world:political:34cab7c67fb90c9d7069",
+        "world:political:783c26bfc3939e7e5011",
+        "world:political:9e7536fdfc809e18c198"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "Roman",
+      "sourceURL": "https://www.metmuseum.org/essays/the-roman-republic",
+      "sourceIds": [
+        "republic"
+      ]
+    },
+    {
+      "id": "tetrarchy",
+      "year": 293,
+      "month": 1,
+      "day": 1,
+      "title": "293 CE · Tetrarchy",
+      "description": "Diocletian shared rule with imperial colleagues; the source describes two Augusti and two Caesars.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "293 CE",
+      "entityNames": [
+        "Roman Empire",
+        "Rome (Constantinus)",
+        "Rome (Diocletianus)",
+        "Rome (Galerius)",
+        "Rome (Maximian)"
+      ],
+      "entityIds": [
+        "isles:political:3acefcfa65fa8884ee4a",
+        "world:political:3b6a4f18a977b5d6d095",
+        "world:political:7546e1642625a2e99c7e",
+        "world:political:e8c6a12779ff0065f879",
+        "world:political:ff1e6877eff9629a6f0b"
+      ],
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa"
+      ],
+      "civilization": "Roman",
+      "sourceURL": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "sourceIds": [
+        "empire"
+      ]
+    },
+    {
+      "id": "rome-divided",
+      "year": 395,
+      "month": 1,
+      "day": 1,
+      "title": "395 CE · Two Roman courts",
+      "description": "After Theodosius I’s death, Honorius and Arcadius ruled the western and eastern halves.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "395 CE",
+      "entityNames": [
+        "Roman Empire",
+        "Eastern Roman Empire",
+        "Western Roman Empire"
+      ],
+      "entityIds": [
+        "isles:political:3acefcfa65fa8884ee4a",
+        "isles:political:e2de8e9b52a13b5cad41",
+        "world:political:4c6195c61c0baf67e514",
+        "world:political:7adbfc69facaa5357cfc",
+        "world:political:a300868f4c847f237a46",
+        "world:political:ca2d3c241da9cdb7950a"
+      ],
+      "continents": [
+        "Europe",
+        "Asia",
+        "Africa"
+      ],
+      "civilization": "Roman",
+      "sourceURL": "https://www.metmuseum.org/essays/the-roman-empire-27-b-c-393-a-d",
+      "sourceIds": [
+        "empire"
+      ]
+    },
+    {
+      "id": "tang-begins",
+      "year": 618,
+      "month": 1,
+      "day": 1,
+      "title": "618 CE · Tang dynasty",
+      "description": "The Tang succeeded the Sui dynasty. This event does not certify political polygons at 618.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "618 CE",
+      "entityNames": [
+        "Tang Empire",
+        "Tang",
+        "Sui Empire"
+      ],
+      "entityIds": [
+        "world:political:327efd6d7f677cf6651c",
+        "world:political:522ecd883f2aa52ec257",
+        "world:political:ada433843fb97e727c0c"
+      ],
+      "continents": [
+        "Asia"
+      ],
+      "civilization": "Chinese",
+      "sourceURL": "https://www.metmuseum.org/essays/tang-dynasty-618-906",
+      "sourceIds": [
+        "tang"
+      ]
+    },
+    {
+      "id": "crowns-united",
+      "year": 1603,
+      "month": 1,
+      "day": 1,
+      "title": "1603 CE · Union of the Crowns",
+      "description": "England and Scotland shared a monarch while remaining separate kingdoms.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "1603 CE",
+      "entityNames": [
+        "Scotland",
+        "England",
+        "England and Ireland",
+        "United Kingdom"
+      ],
+      "entityIds": [
+        "isles:political:2471aaee5ccf86ce3279",
+        "isles:political:6ab95cec6f8b741caa8d",
+        "isles:political:781e398cfa9d9aae2c23",
+        "isles:political:bd3f427ceca45994db71",
+        "world:political:3774d51751ab379104fe",
+        "world:political:43210d1b04313f4a4ebd",
+        "world:political:53b5666afffb32ab7486",
+        "world:political:6cf29862410547834df9",
+        "world:political:a44da5aeece4e97e32ac",
+        "world:political:aa06e11223a3f1337d9d",
+        "world:political:db117c82cccc0b1d4bd9"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "British Isles",
+      "sourceURL": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/key-dates/",
+      "sourceIds": [
+        "union-dates"
+      ]
+    },
+    {
+      "id": "commonwealth",
+      "year": 1649,
+      "month": 1,
+      "day": 1,
+      "title": "1649 CE · English Commonwealth",
+      "description": "Monarchy and the House of Lords were abolished; England became a Commonwealth.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "1649 CE",
+      "entityNames": [
+        "England",
+        "England and Ireland",
+        "Commonwealth of England"
+      ],
+      "entityIds": [
+        "isles:political:2471aaee5ccf86ce3279",
+        "isles:political:bd3f427ceca45994db71"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "British Isles",
+      "sourceURL": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/key-dates/1640-1660/",
+      "sourceIds": [
+        "civil-war"
+      ]
+    },
+    {
+      "id": "restoration",
+      "year": 1660,
+      "month": 1,
+      "day": 1,
+      "title": "1660 CE · Restoration",
+      "description": "Charles II returned as king by resolution of the Convention.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "1660 CE",
+      "entityNames": [
+        "Scotland",
+        "England",
+        "England and Ireland",
+        "Commonwealth of England"
+      ],
+      "entityIds": [
+        "isles:political:2471aaee5ccf86ce3279",
+        "isles:political:6ab95cec6f8b741caa8d",
+        "isles:political:bd3f427ceca45994db71"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "British Isles",
+      "sourceURL": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/key-dates/1640-1660/",
+      "sourceIds": [
+        "civil-war"
+      ]
+    },
+    {
+      "id": "great-britain",
+      "year": 1707,
+      "month": 5,
+      "day": 1,
+      "title": "1707 CE · Great Britain",
+      "description": "The kingdoms of England and Scotland united with one parliament on 1 May.",
+      "kind": "event",
+      "precision": "day",
+      "dateLabel": "1707 CE",
+      "entityNames": [
+        "Scotland",
+        "England",
+        "England and Ireland",
+        "Great Britain",
+        "United Kingdom"
+      ],
+      "entityIds": [
+        "isles:political:2471aaee5ccf86ce3279",
+        "isles:political:6ab95cec6f8b741caa8d",
+        "isles:political:781e398cfa9d9aae2c23",
+        "isles:political:bd3f427ceca45994db71",
+        "world:political:3774d51751ab379104fe",
+        "world:political:43210d1b04313f4a4ebd",
+        "world:political:53b5666afffb32ab7486",
+        "world:political:6cf29862410547834df9",
+        "world:political:a44da5aeece4e97e32ac",
+        "world:political:aa06e11223a3f1337d9d",
+        "world:political:db117c82cccc0b1d4bd9"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "British Isles",
+      "sourceURL": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/the-articles-constitution-and-trade/",
+      "sourceIds": [
+        "union-articles"
+      ]
+    },
+    {
+      "id": "bastille",
+      "year": 1789,
+      "month": 7,
+      "day": 14,
+      "title": "1789 CE · Bastille",
+      "description": "The Bastille was stormed on 14 July during the French Revolution.",
+      "kind": "event",
+      "precision": "day",
+      "dateLabel": "1789 CE",
+      "entityNames": [
+        "France",
+        "Kingdom of France",
+        "French Republic"
+      ],
+      "entityIds": [
+        "isles:political:5297ef5e3e52edf7c42d",
+        "isles:political:7a1ca4ef7515f7276bae",
+        "world:political:483eb75c4d78e6618176",
+        "world:political:672325d14ff76186f81d",
+        "world:political:710a295c723d60b25287",
+        "world:political:902da830e719b36a84cd",
+        "world:political:c7483b5c5bbc0d0e52a9",
+        "world:political:cba57aa3027ad13cad90",
+        "world:political:d2edd23bef665d67a15b",
+        "world:political:da3ac38a3ca7cacbb70b",
+        "world:political:f97bf9d00e6a6cc7d9f9"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "French",
+      "sourceURL": "https://www.elysee.fr/en/french-presidency/bastille-day-14-july",
+      "sourceIds": [
+        "bastille"
+      ]
+    },
+    {
+      "id": "british-irish-union",
+      "year": 1801,
+      "month": 1,
+      "day": 1,
+      "title": "1801 CE · British–Irish union",
+      "description": "The union created the United Kingdom of Great Britain and Ireland.",
+      "kind": "event",
+      "precision": "year",
+      "dateLabel": "1801 CE",
+      "entityNames": [
+        "United Kingdom",
+        "Great Britain",
+        "Ireland"
+      ],
+      "entityIds": [
+        "isles:political:781e398cfa9d9aae2c23",
+        "world:political:080fbc0f2c49d8a3bff9",
+        "world:political:3774d51751ab379104fe",
+        "world:political:43210d1b04313f4a4ebd",
+        "world:political:53b5666afffb32ab7486",
+        "world:political:5ff227efdee75b3f2142",
+        "world:political:6cf29862410547834df9",
+        "world:political:87fd11cee084ce4e3810",
+        "world:political:a44da5aeece4e97e32ac",
+        "world:political:a7e39fdfb012d2bc96e1",
+        "world:political:a8f6516cfefa8f35a6cc",
+        "world:political:aa06e11223a3f1337d9d",
+        "world:political:d0991a31b5f90531e7ed",
+        "world:political:db117c82cccc0b1d4bd9"
+      ],
+      "continents": [
+        "Europe"
+      ],
+      "civilization": "British Isles",
+      "sourceURL": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/the-articles-constitution-and-trade/",
+      "sourceIds": [
+        "union-articles"
+      ]
+    }
+  ]
+}

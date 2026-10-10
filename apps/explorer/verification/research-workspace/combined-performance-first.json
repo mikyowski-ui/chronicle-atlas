@@ -1,0 +1,1610 @@
+{
+  "status": "FAIL",
+  "workload": {
+    "observations": 44,
+    "entities": 4,
+    "interactions": 200,
+    "cursorChanges": 200,
+    "cursorYears": [
+      2000,
+      2001
+    ],
+    "replaceCloseCycles": 20,
+    "mountDisposeCycles": 20,
+    "lifecycleMeaning": "20 result close/reopen cycles plus 20 hidden complete view/controller mount/dispose cycles on the unchanged host map."
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "viewport": [
+      1363,
+      936
+    ],
+    "devicePixelRatio": 1,
+    "renderer": {
+      "detail": {
+        "rasterCache": 35,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 25,
+        "rasterErrors": 0,
+        "terrainZoom": 5,
+        "waterPaths": 2596,
+        "visibleCityLabels": 80,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        }
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "renderer": "Canvas 2D",
+      "mapInstances": 0,
+      "drawCount": 31,
+      "recentDraws": 31,
+      "drawP95Ms": 35,
+      "activeParts": 485,
+      "baseFeatures": 143,
+      "baseProjectionBuilds": 7,
+      "cachedBasePaths": 143,
+      "territoryProjectionBuilds": 7,
+      "cachedTerritoryPaths": 485,
+      "selectedParts": 0,
+      "hoveredParts": 0,
+      "width": 1363,
+      "height": 721,
+      "pixelRatio": 1,
+      "lastDrawAt": 5704.799999999814,
+      "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+      "view": {
+        "longitude": -110.66092514898509,
+        "latitude": 21.214264340819568,
+        "zoom": 4.2,
+        "moving": false
+      }
+    }
+  },
+  "timing": {
+    "endpoints": "Before normal controller selection and host cursor action to two requestAnimationFrame opportunities after coordinated DOM update and awaited host seek",
+    "p95Ms": 216.10000000009313,
+    "minMs": 35.5,
+    "maxMs": 334.39999999990687,
+    "targetP95Ms": 100,
+    "targetMet": false,
+    "samplesMs": [
+      35.5,
+      218.5,
+      208.10000000009313,
+      228.8000000002794,
+      183.6999999997206,
+      186.60000000009313,
+      164.09999999962747,
+      205.5,
+      205.20000000018626,
+      158.39999999990687,
+      175.79999999981374,
+      188.60000000009313,
+      196.10000000009313,
+      189.10000000009313,
+      172.29999999981374,
+      189.60000000009313,
+      158.1999999997206,
+      169.20000000018626,
+      192.8000000002794,
+      164.29999999981374,
+      167.10000000009313,
+      181.5,
+      171.60000000009313,
+      170.8000000002794,
+      166.09999999962747,
+      142.89999999990687,
+      174.10000000009313,
+      157.70000000018626,
+      183.40000000037253,
+      148.70000000018626,
+      183.60000000009313,
+      193.39999999990687,
+      173.60000000009313,
+      165.70000000018626,
+      184.6999999997206,
+      189.39999999990687,
+      216.10000000009313,
+      189.89999999990687,
+      192.79999999981374,
+      176.70000000018626,
+      154.3000000002794,
+      181.60000000009313,
+      198,
+      202.90000000037253,
+      270.79999999981374,
+      157.79999999981374,
+      166.89999999990687,
+      168.89999999990687,
+      171.6999999997206,
+      167.10000000009313,
+      162.39999999990687,
+      170.89999999990687,
+      183.89999999990687,
+      185.60000000009313,
+      170.3000000002794,
+      181.1999999997206,
+      173.10000000009313,
+      179.5,
+      203.1999999997206,
+      205.60000000009313,
+      229,
+      187.89999999990687,
+      140.89999999990687,
+      166.10000000009313,
+      186,
+      174.5,
+      165.89999999990687,
+      172.89999999990687,
+      197.70000000018626,
+      197.5,
+      157.1999999997206,
+      161.39999999990687,
+      199.89999999990687,
+      173.70000000018626,
+      167.10000000009313,
+      175.89999999990687,
+      197.59999999962747,
+      171.40000000037253,
+      199,
+      212.70000000018626,
+      189,
+      195.89999999990687,
+      196.10000000009313,
+      177.1999999997206,
+      200.8000000002794,
+      211.79999999981374,
+      213.89999999990687,
+      251.8000000002794,
+      232.5,
+      167.79999999981374,
+      200.20000000018626,
+      182.29999999981374,
+      166.60000000009313,
+      185.8000000002794,
+      190,
+      188.39999999990687,
+      288.8000000002794,
+      203.39999999990687,
+      158.89999999990687,
+      170.5,
+      164.29999999981374,
+      174,
+      144.5,
+      186.10000000009313,
+      202.89999999990687,
+      165,
+      198.20000000018626,
+      178.90000000037253,
+      200.5,
+      174.40000000037253,
+      156.60000000009313,
+      157.60000000009313,
+      192.79999999981374,
+      170,
+      171.3000000002794,
+      158.90000000037253,
+      184.39999999990687,
+      191.5,
+      208.1999999997206,
+      234.29999999981374,
+      211.10000000009313,
+      171.39999999990687,
+      166.79999999981374,
+      198.10000000009313,
+      202.70000000018626,
+      208.39999999990687,
+      197.89999999990687,
+      211.29999999981374,
+      171.20000000018626,
+      197,
+      176,
+      166.39999999990687,
+      178.20000000018626,
+      156,
+      167.10000000009313,
+      166.39999999990687,
+      192.89999999990687,
+      162.89999999990687,
+      177.5,
+      186.39999999990687,
+      220.1999999997206,
+      190.70000000018626,
+      187.39999999990687,
+      334.39999999990687,
+      166.20000000018626,
+      163.39999999990687,
+      167.29999999981374,
+      166.5,
+      182,
+      167.39999999990687,
+      186.5,
+      169.70000000018626,
+      159.70000000018626,
+      166.39999999990687,
+      189.20000000018626,
+      144.5,
+      166.5,
+      179.10000000009313,
+      160,
+      144.39999999990687,
+      168.60000000009313,
+      147,
+      176.39999999990687,
+      139.60000000009313,
+      158.1999999997206,
+      168.70000000018626,
+      176.5,
+      163.1999999997206,
+      191.20000000018626,
+      165.09999999962747,
+      187.8000000002794,
+      161.5,
+      160,
+      163.20000000018626,
+      163.5,
+      158.10000000009313,
+      166.5,
+      182.5,
+      166.39999999990687,
+      162.89999999990687,
+      154.39999999990687,
+      149.3000000002794,
+      136.8000000002794,
+      162.6999999997206,
+      190.70000000018626,
+      161.79999999981374,
+      164.79999999981374,
+      156.20000000018626,
+      175.1999999997206,
+      166.8000000002794,
+      168.8000000002794,
+      178,
+      189.70000000018626,
+      150.79999999981374,
+      156.10000000009313,
+      144.89999999990687,
+      151.70000000018626,
+      159.89999999990687,
+      149.79999999981374,
+      192.20000000018626
+    ]
+  },
+  "preparedExecutions": [
+    {
+      "example": "mexico-four",
+      "path": "first prepared execution including local dataset load",
+      "elapsedMs": 2004.3000000002794,
+      "success": true
+    },
+    {
+      "example": "mexico-four",
+      "path": "loaded prepared execution",
+      "elapsedMs": 58.10000000009313,
+      "success": true
+    },
+    {
+      "example": "guadalajara-focus",
+      "path": "loaded prepared execution",
+      "elapsedMs": 59.10000000009313,
+      "success": true
+    },
+    {
+      "example": "mexico-four",
+      "path": "loaded prepared execution",
+      "elapsedMs": 26.700000000186265,
+      "success": true
+    }
+  ],
+  "warmNetworkResources": [],
+  "cycles": [
+    {
+      "cycle": 1,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 2,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 3,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 4,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 5,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 6,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 7,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 8,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 9,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 10,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 11,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 12,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 13,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 14,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 15,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 16,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 17,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 18,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 19,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 20,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    }
+  ],
+  "mountDisposeCycles": [
+    {
+      "cycle": 1,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 2,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 3,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 4,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 5,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 6,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 7,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 8,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 9,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 10,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 11,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 12,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 13,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 14,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 15,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 16,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 17,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 18,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 19,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 20,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    }
+  ],
+  "resources": {
+    "before": {
+      "domListeners": 22,
+      "observers": 1,
+      "subscriptions": 1
+    },
+    "after": {
+      "domListeners": 22,
+      "observers": 1,
+      "subscriptions": 1
+    },
+    "overlayNodes": 1,
+    "markerNodes": 12
+  },
+  "hostSurface": {
+    "sameCanvasObject": true,
+    "beforeCanvasCount": 1,
+    "afterCanvasCount": 1
+  },
+  "controllerBefore": {
+    "listeners": 1,
+    "commits": 5,
+    "revision": 7,
+    "pending": false,
+    "disposed": false,
+    "datasets": 1,
+    "results": 3
+  },
+  "controllerAfter": {
+    "listeners": 1,
+    "commits": 26,
+    "revision": 48,
+    "pending": false,
+    "disposed": false,
+    "datasets": 1,
+    "results": 3
+  },
+  "after": {
+    "detail": {
+      "rasterCache": 35,
+      "rasterPending": 0,
+      "rasterTilesDrawn": 25,
+      "rasterErrors": 0,
+      "terrainZoom": 5,
+      "waterPaths": 2596,
+      "visibleCityLabels": 80,
+      "selectedPointVisible": false,
+      "populationYear": null,
+      "limits": {
+        "rasterTiles": 48,
+        "rasterRequests": 4,
+        "cityLabels": 80,
+        "populationCells": 20000,
+        "jsonBytes": 16777216
+      }
+    },
+    "teaching": {
+      "activeFeatures": 0,
+      "drawnFeatures": 0,
+      "rejectedFeatures": 0,
+      "vertices": 0,
+      "selectedId": null,
+      "selectedLabelVisible": false,
+      "categories": {
+        "trade": 0,
+        "diffusion": 0,
+        "power": 0,
+        "ecology": 0,
+        "belief": 0,
+        "language": 0
+      },
+      "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+    },
+    "interpretiveBorders": true,
+    "renderer": "Canvas 2D",
+    "mapInstances": 0,
+    "drawCount": 1048,
+    "recentDraws": 60,
+    "drawP95Ms": 21,
+    "activeParts": 485,
+    "baseFeatures": 143,
+    "baseProjectionBuilds": 7,
+    "cachedBasePaths": 143,
+    "territoryProjectionBuilds": 209,
+    "cachedTerritoryPaths": 485,
+    "selectedParts": 0,
+    "hoveredParts": 0,
+    "width": 1363,
+    "height": 721,
+    "pixelRatio": 1,
+    "lastDrawAt": 277127.6999999997,
+    "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+    "view": {
+      "longitude": -110.66092514898509,
+      "latitude": 21.214264340819568,
+      "zoom": 4.2,
+      "moving": false
+    }
+  },
+  "failures": [],
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED"
+}

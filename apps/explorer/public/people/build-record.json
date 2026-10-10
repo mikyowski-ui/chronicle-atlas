@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "method": "compile-only intersection; runtime lookup by exact seven-field key",
+  "inputs": [
+    {
+      "path": "public/people/population-observation.json",
+      "sha256": "ca6c3b651cf86e90d48778b1dc9d2f39e9439af64e1f7459bc171a45f73a3861",
+      "byte_length": 2197
+    },
+    {
+      "path": "public/people/source/ons-ew-1838-2025.xlsx",
+      "sha256": "715635a653d6471de5e4fd6059cf552855c580ed7af856a3ee4cc1e8e1cbaf7f",
+      "byte_length": 442349
+    },
+    {
+      "path": "fixtures/meridian-v2.json",
+      "sha256": "a278cd69ff8aed5cc8bf41edff81b88eb4f353dd4dd1447b62ebdab85253f168",
+      "byte_length": 4113
+    },
+    {
+      "path": "src/population.ts",
+      "sha256": "c1eb2b57b79d4195e57c7a541e970337a4088710e6102cfd4c52639f5c97632c",
+      "byte_length": 10301
+    },
+    {
+      "path": "public/alpha/fixture-manifest.json",
+      "sha256": "079093b0efb430a04c23c97397ada371533b5eb02087e7bcdb7618fa59b74fe5",
+      "byte_length": 2159
+    },
+    {
+      "path": "public/alpha/meridian-950.geojson.json",
+      "sha256": "1dadfb35bb2314f993ba74602eaa33f50c207b86c7c942983406b821c6d0ceab",
+      "byte_length": 3092
+    },
+    {
+      "path": "public/alpha/meridian-950.metadata.json",
+      "sha256": "d4af758ec9d798592ddf2046f0099661efa3a7de4b7113590013a12dad742832",
+      "byte_length": 6502
+    },
+    {
+      "path": "public/alpha/meridian-1050.geojson.json",
+      "sha256": "0a26d2a4f15e844f473755064df8e8de99232efd75048589889c7f0f1f33f668",
+      "byte_length": 3103
+    },
+    {
+      "path": "public/alpha/meridian-1050.metadata.json",
+      "sha256": "c4878bef001a2238b43114648e971901d3bfbb2b825bf47b69470109bb2e94bb",
+      "byte_length": 6516
+    },
+    {
+      "path": "public/alpha/historical-manifest.json",
+      "sha256": "739d8b06fa4dfe1c1862db15f4c700b639b7a978352cf52b3ca858c1ebf4734f",
+      "byte_length": 30925
+    },
+    {
+      "path": "public/alpha/isles-1900.metadata.json",
+      "sha256": "95603480eb4752059aaaf3f48fe85da898b110600d09a4d7f2f5d47547da06c7",
+      "byte_length": 15150
+    },
+    {
+      "path": "public/alpha/isles-1900.geojson.json",
+      "sha256": "4d3f02c1de307f599571db42ebf52bdfe91f770427dd60cb4f05c2dd8d7e68e8",
+      "byte_length": 17976
+    }
+  ],
+  "datasets": [
+    {
+      "edition": "meridian-alpha-display-v1",
+      "url": "./meridian-lookup.json",
+      "sha256": "739e02c220ffedda5760a843679e9cbe5fc53b8c3a6de742f6f6360df3d80a81",
+      "byte_length": 12403,
+      "entries": 6
+    },
+    {
+      "edition": "isles-alpha-da7a4b7-display-v1",
+      "url": "./isles-lookup.json",
+      "sha256": "0e784c8cd988704707d5a6d121fbe8e498cf66e1f62825bd8ed393492559b06a",
+      "byte_length": 2720,
+      "entries": 1
+    }
+  ],
+  "total_entries": 7,
+  "total_lookup_bytes": 15123,
+  "elapsed_ms": 39,
+  "peak_rss_bytes": 55009280,
+  "public_ledger_mutation": false
+}

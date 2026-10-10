@@ -1,0 +1,676 @@
+{
+  "status": "PASS",
+  "gate": "375px CSS declaration policy and approved mock geometry",
+  "evidenceType": "parsed-source-policy-with-assumed-host-geometry",
+  "renderedLayoutVerified": false,
+  "parser": {
+    "name": "postcss",
+    "version": "8.5.28"
+  },
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "assumptions": {
+    "host": {
+      "x": 0,
+      "y": 56,
+      "width": 375,
+      "height": 756,
+      "timelineDockHeight": 212
+    },
+    "panelMode": "normal research workspace, without research-map-mode",
+    "content": "No font metrics, intrinsic content sizes, browser layout, or paint are simulated.",
+    "cascade": "Exact-selector source-order declarations; all three files are parsed, not a general selector-matching engine.",
+    "timeline": "212px occupied height is an explicit fixture assumption, checked against the CSS default custom property."
+  },
+  "sources": [
+    {
+      "file": "src/glass-shell.css",
+      "sha256": "9c3a79e4799a21ec87cdbb08aa2de8f7bf345f82dcc06e2aae49b2620b1fde54",
+      "bytes": 15855
+    },
+    {
+      "file": "src/research/research.css",
+      "sha256": "635e054eb8c239d45b4791dbb069c95dd535d12522c995c4c3aed8f4296ad977",
+      "bytes": 11939
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "sha256": "30d5c6ba60bfda0977ce28767b9091e288cf880aa133bb81056011f9d22685ac",
+      "bytes": 3484
+    }
+  ],
+  "checkedDeclarations": [
+    {
+      "file": "src/glass-shell.css",
+      "line": 53,
+      "selector": ".chronicle-glass .workspace",
+      "media": [],
+      "property": "--timeline-dock-height",
+      "value": "212px",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 53,
+      "selector": ".chronicle-glass .workspace",
+      "media": [],
+      "property": "display",
+      "value": "grid",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 53,
+      "selector": ".chronicle-glass .workspace",
+      "media": [],
+      "property": "grid-template-rows",
+      "value": "minmax(0,1fr) auto",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 53,
+      "selector": ".chronicle-glass .workspace",
+      "media": [],
+      "property": "grid-template-columns",
+      "value": "minmax(0,1fr)",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 54,
+      "selector": ".chronicle-glass .workspace>#map",
+      "media": [],
+      "property": "grid-row",
+      "value": "1",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 54,
+      "selector": ".chronicle-glass .workspace>#map",
+      "media": [],
+      "property": "min-width",
+      "value": "0",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 54,
+      "selector": ".chronicle-glass .workspace>#map",
+      "media": [],
+      "property": "min-height",
+      "value": "0",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 55,
+      "selector": ".chronicle-glass .workspace>.transport",
+      "media": [],
+      "property": "grid-row",
+      "value": "2",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 55,
+      "selector": ".chronicle-glass .workspace>.transport",
+      "media": [],
+      "property": "position",
+      "value": "relative",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 55,
+      "selector": ".chronicle-glass .workspace>.transport",
+      "media": [],
+      "property": "width",
+      "value": "100%",
+      "important": false
+    },
+    {
+      "file": "src/glass-shell.css",
+      "line": 55,
+      "selector": ".chronicle-glass .workspace>.transport",
+      "media": [],
+      "property": "box-sizing",
+      "value": "border-box",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 1,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [],
+      "property": "position",
+      "value": "absolute",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "top",
+      "value": "116px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "left",
+      "value": "10px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "width",
+      "value": "calc(100% - 20px)",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "max-height",
+      "value": "calc(100% - var(--timeline-dock-height) - 130px)",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "padding",
+      "value": "15px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 1,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [],
+      "property": "border",
+      "value": "1px solid var(--edge)",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 1,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [],
+      "property": "box-sizing",
+      "value": "border-box",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 1,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [],
+      "property": "overflow",
+      "value": "auto",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 1,
+      "selector": ".chronicle-glass .research-workspace",
+      "media": [],
+      "property": "overscroll-behavior",
+      "value": "contain",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 20,
+      "selector": ".research-table-scroll",
+      "media": [],
+      "property": "overflow",
+      "value": "auto",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 20,
+      "selector": ".research-table-scroll",
+      "media": [],
+      "property": "max-height",
+      "value": "320px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 20,
+      "selector": ".research-table-scroll table",
+      "media": [],
+      "property": "width",
+      "value": "100%",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 20,
+      "selector": ".research-table-scroll table",
+      "media": [],
+      "property": "min-width",
+      "value": "410px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".research-evidence dl>div",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "grid-template-columns",
+      "value": "92px 1fr",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".research-evidence dl>div",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "gap",
+      "value": "8px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 21,
+      "selector": ".research-evidence dd",
+      "media": [],
+      "property": "overflow-wrap",
+      "value": "anywhere",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue dl>div",
+      "media": [
+        "(max-width:440px)"
+      ],
+      "property": "grid-template-columns",
+      "value": "88px minmax(0,1fr)",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue dl>div",
+      "media": [
+        "(max-width:440px)"
+      ],
+      "property": "gap",
+      "value": "7px",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 3,
+      "selector": ".semantic-refine",
+      "media": [],
+      "property": "display",
+      "value": "flex",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 3,
+      "selector": ".semantic-refine",
+      "media": [],
+      "property": "flex-wrap",
+      "value": "wrap",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 3,
+      "selector": ".semantic-refine",
+      "media": [],
+      "property": "gap",
+      "value": "8px",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 5,
+      "selector": ".semantic-refine label",
+      "media": [],
+      "property": "display",
+      "value": "flex",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 5,
+      "selector": ".semantic-refine label",
+      "media": [],
+      "property": "flex-direction",
+      "value": "column",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 5,
+      "selector": ".semantic-refine label",
+      "media": [],
+      "property": "min-width",
+      "value": "0",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 5,
+      "selector": ".semantic-refine label",
+      "media": [],
+      "property": "max-width",
+      "value": "100%",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 6,
+      "selector": ".semantic-refine input",
+      "media": [],
+      "property": "width",
+      "value": "92px",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 7,
+      "selector": ".semantic-refine select",
+      "media": [],
+      "property": "max-width",
+      "value": "230px",
+      "important": false
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 9,
+      "selector": ".semantic-refine .semantic-note",
+      "media": [],
+      "property": "flex-basis",
+      "value": "100%",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 41,
+      "selector": ".research-workspace .semantic-refine input",
+      "media": [],
+      "property": "max-width",
+      "value": "100%",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 41,
+      "selector": ".research-workspace .semantic-refine input",
+      "media": [],
+      "property": "box-sizing",
+      "value": "border-box",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 41,
+      "selector": ".research-workspace .semantic-refine select",
+      "media": [],
+      "property": "max-width",
+      "value": "100%",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 41,
+      "selector": ".research-workspace .semantic-refine select",
+      "media": [],
+      "property": "box-sizing",
+      "value": "border-box",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 9,
+      "selector": ".research-examples",
+      "media": [],
+      "property": "flex-wrap",
+      "value": "wrap",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".research-examples",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "gap",
+      "value": "6px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 26,
+      "selector": ".chronicle-glass .research-examples button",
+      "media": [
+        "(max-width:760px)"
+      ],
+      "property": "min-width",
+      "value": "110px",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 32,
+      "selector": ".research-map-actions",
+      "media": [],
+      "property": "flex-wrap",
+      "value": "wrap",
+      "important": false
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 28,
+      "selector": ".research-workspace *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "animation",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 28,
+      "selector": ".research-workspace *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "transition",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 28,
+      "selector": ".research-workspace *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "scroll-behavior",
+      "value": "auto",
+      "important": true
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 28,
+      "selector": ".research-map-overlay *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "animation",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 28,
+      "selector": ".research-map-overlay *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "transition",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/research.css",
+      "line": 28,
+      "selector": ".research-map-overlay *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "scroll-behavior",
+      "value": "auto",
+      "important": true
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "animation",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "transition",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "scroll-behavior",
+      "value": "auto",
+      "important": true
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "animation",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "transition",
+      "value": "none",
+      "important": true
+    },
+    {
+      "file": "src/research/semantic-view.css",
+      "line": 1,
+      "selector": ".semantic-catalogue *",
+      "media": [
+        "(prefers-reduced-motion:reduce)"
+      ],
+      "property": "scroll-behavior",
+      "value": "auto",
+      "important": true
+    }
+  ],
+  "calculations": {
+    "panelMaximum": {
+      "x": 10,
+      "y": 172,
+      "width": 355,
+      "maxHeight": 414,
+      "padding": 15,
+      "border": 1,
+      "right": 365,
+      "bottom": 586,
+      "innerWidth": 323
+    },
+    "timeline": {
+      "top": 600,
+      "height": 212,
+      "gapFromPanelMaximum": 14
+    },
+    "table": {
+      "minimumWidth": 410,
+      "availableWidth": 323,
+      "declaredHorizontalOverflow": "auto",
+      "excessAtMinimum": 87
+    },
+    "evidenceColumns": {
+      "first": 92,
+      "gap": 8,
+      "remainingNominalWidth": 223
+    },
+    "catalogueColumns": {
+      "first": 88,
+      "gap": 7,
+      "remainingNominalWidth": 228
+    },
+    "refinement": {
+      "layout": "wrapping flex row with column labels",
+      "labelMaximumWidth": 323,
+      "inputDeclaredWidth": 92
+    }
+  },
+  "limitations": [
+    "A passing declaration policy does not certify a browser-rendered layout or accessibility.",
+    "Actual timeline expansion, text shaping, native controls, clipping, and overflow require browser or device review.",
+    "No screenshot, GPU behavior, or physical mobile measurement is produced by this verifier."
+  ]
+}

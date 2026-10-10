@@ -1,0 +1,44 @@
+# Contributing
+
+![world 1880 DRAFT](img/world_1880_dymaxion_rough.png)
+
+If you use these maps, think about giving back by contributing. This can be done by:
+
+- Making your [git forks](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) and filing [git pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+- Reporting [issues](https://github.com/aourednik/historical-basemaps/issues)
+- Sending me an updated geojson file. ([my contact information](https://ourednik.info/contact.php)).
+
+## Unwanted edits
+
+Please **edit only the geojson files** with regard to their historical correctness. The svg files are produced by a [script](https://github.com/aourednik/historical-basemaps/tree/master/geojson2svg.Rmd) from the goejson data: it is thus not worthwhile editing them manually.
+
+Please **do not add any esthetic variables inside the geojson files**! Line-width, color, etc. are not geographical informations, they are to be treated in a separate style sheet.
+
+If you wish to create an app around this dataset, please consider creating a dedicated repository. Historical-basemaps is a geodata collection, not an app. Mini-apps are admissible and can be stored in the [examples](https://github.com/aourednik/historical-basemaps/tree/master/examples) folder.
+
+If you have translations to propose, please include them as a new variable in the original GeoJSON files under NAME_\[LanguageCode\]. Having a separate set of GeoJSON files for each language would make this dataset utterly unmanagable.
+
+## Tools and technicalities
+
+### Suggested editor: QGIS
+
+[QGIS](https://qgis.org) 3.0 and above can natively edit gejson. This is especially helpful for making quick fixes. For heavier editing, geojson support remains suboptimal: slow and bug-prone. In this case, I suggest converting geojson to geopackage, make edits and to reexport them to geojson. **Do not use ESRI shape files as an intermediary editing format, as this would kill UTF-8 Unicode data !** (all ë à è and ø would become ÂÃƒâ€šÃ)
+
+A good introduction to advanced editing in QGIS can be found in [this video by Klas Karlsson](https://www.youtube.com/watch?v=jZYKGrIyVCA).
+
+### Projection
+
+Maps are in WGS 84 geographic projection EPSG:4326. Coordinates are recorded in LatLon. Some show a 20 km shift. This must yet be corrected.
+
+Precision: please keep in mind that these files are intended for maps at the scale of a continent or the whole world. They should remain generalized enough to achieve file size below 3 MB.
+
+### Deontology
+
+When editing, please consider that the primary purpose of this repository is to facilitate mapping historical regions. There are, today, many examples of disputed territories. Contemporary India, for instance, has [territorial disputes with China, Pakistan and Nepal](https://en.wikipedia.org/wiki/List_of_disputed_territories_of_India). A solution could be to draw the borders of the India polygon as perceived / recognized by the Indian government, leaving the polygons of the surrounding countries intact (i.e., as perceived by the governments of those countries). In this manner, overlaps could help to identify disputed regions. I hope such issues can be solved in a diplomatic manner, like they have been between India and Bangladesh in 2015 or India and Sri Lanka in 1974.
+
+### Other practical aspects
+
+When correcting the geometries of individual geojson files, please make sure that:
+
+1. You don't introduce topological errors (gaps and overlaps unless overlaps signify disputed borders). The QGIS plugin called _Digitizing Tools_ is particularly helpful to carve out a region out of an existing polygon with the tool "Cut with selected polygons"...
+2. Boundaries that have not moved between two or more successive files remain aligned. This will allow others to make animations. The multilayer topological editing tool in QGIS 3 might help you with that.

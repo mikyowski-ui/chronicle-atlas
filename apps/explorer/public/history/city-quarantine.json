@@ -1,0 +1,375 @@
+[
+  {
+    "row": {
+      "": "315",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "-900",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "317",
+      "City": "Teotihuacan",
+      "OtherName": "",
+      "Country": "Mexico",
+      "Latitude": "19.69291001",
+      "Longitude": "-98.84606",
+      "Certainty": "1",
+      "year": "-900",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "teotihuacan-unesco"
+  },
+  {
+    "row": {
+      "": "319",
+      "City": "Tikal",
+      "OtherName": "Tical",
+      "Country": "Guatemala",
+      "Latitude": "17.222094",
+      "Longitude": "-89.623614",
+      "Certainty": "1",
+      "year": "-900",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "tikal-smithsonian"
+  },
+  {
+    "row": {
+      "": "321",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "-800",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "329",
+      "City": "Teotihuacan",
+      "OtherName": "",
+      "Country": "Mexico",
+      "Latitude": "19.69291001",
+      "Longitude": "-98.84606",
+      "Certainty": "1",
+      "year": "-800",
+      "pop": "150000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "teotihuacan-unesco"
+  },
+  {
+    "row": {
+      "": "331",
+      "City": "Tikal",
+      "OtherName": "Tical",
+      "Country": "Guatemala",
+      "Latitude": "17.222094",
+      "Longitude": "-89.623614",
+      "Certainty": "1",
+      "year": "-800",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "tikal-smithsonian"
+  },
+  {
+    "row": {
+      "": "334",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "-700",
+      "pop": "140000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "339",
+      "City": "Teotihuacan",
+      "OtherName": "",
+      "Country": "Mexico",
+      "Latitude": "19.69291001",
+      "Longitude": "-98.84606",
+      "Certainty": "1",
+      "year": "-700",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "teotihuacan-unesco"
+  },
+  {
+    "row": {
+      "": "352",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "-600",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "356",
+      "City": "Teotihuacan",
+      "OtherName": "",
+      "Country": "Mexico",
+      "Latitude": "19.69291001",
+      "Longitude": "-98.84606",
+      "Certainty": "1",
+      "year": "-600",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "teotihuacan-unesco"
+  },
+  {
+    "row": {
+      "": "357",
+      "City": "Tikal",
+      "OtherName": "Tical",
+      "Country": "Guatemala",
+      "Latitude": "17.222094",
+      "Longitude": "-89.623614",
+      "Certainty": "1",
+      "year": "-600",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "tikal-smithsonian"
+  },
+  {
+    "row": {
+      "": "360",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "-500",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "373",
+      "City": "Tiahuanaco",
+      "OtherName": "Tiwanaku",
+      "Country": "Bolivia",
+      "Latitude": "-16.55228",
+      "Longitude": "-68.67953",
+      "Certainty": "1",
+      "year": "-500",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "tiwanaku-unesco"
+  },
+  {
+    "row": {
+      "": "444",
+      "City": "Tollan",
+      "OtherName": "Tula",
+      "Country": "Mexico",
+      "Latitude": "20.064156",
+      "Longitude": "-99.340803",
+      "Certainty": "2",
+      "year": "-300",
+      "pop": "100000"
+    },
+    "reason": "BCE value duplicates an existing CE observation exactly 1,300 years later and conflicts with the documented major urban period. Suspected era-column error; CE original remains, BCE row held for review, not silently redated.",
+    "sourceId": "tula-inah"
+  },
+  {
+    "row": {
+      "": "507",
+      "City": "London",
+      "OtherName": "",
+      "Country": "United Kingdom",
+      "Latitude": "51.511214",
+      "Longitude": "-0.119825",
+      "Certainty": "1",
+      "year": "-100",
+      "pop": "30000"
+    },
+    "reason": "Londinium dates to c. AD 50; BC_100 record is inconsistent with archaeological chronology. No replacement date invented.",
+    "sourceId": "london-archaeology"
+  },
+  {
+    "row": {
+      "": "635",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "400",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "654",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "500",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "692",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "600",
+      "pop": "140000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "773",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "700",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "830",
+      "City": "Caracol",
+      "OtherName": "El Caracol",
+      "Country": "Mexico",
+      "Latitude": "20.6792",
+      "Longitude": "-88.5707",
+      "Certainty": "3",
+      "year": "800",
+      "pop": "100000"
+    },
+    "reason": "Large Maya Caracol is in Belize; this record geocodes El Caracol at Chichen Itza in Mexico. Both identity/coordinate and BCE date assignments need review; no replacement invented.",
+    "sourceId": "caracol-project"
+  },
+  {
+    "row": {
+      "": "1074",
+      "City": "Gelibolu",
+      "OtherName": "Gallipoli",
+      "Country": "Turkey",
+      "Latitude": "40.333333",
+      "Longitude": "26.499992",
+      "Certainty": "1",
+      "year": "1000",
+      "pop": "300000"
+    },
+    "reason": "Uncorroborated medieval outlier (150,000–300,000) followed by much smaller early-modern estimates. Held out pending original-source review; exclusion is not a corrected population claim.",
+    "sourceId": "reba-2016"
+  },
+  {
+    "row": {
+      "": "1289",
+      "City": "Tbilisi",
+      "OtherName": "Tiflis",
+      "Country": "Georgia",
+      "Latitude": "41.709975",
+      "Longitude": "44.792989",
+      "Certainty": "1",
+      "year": "1100",
+      "pop": "0"
+    },
+    "reason": "Invalid coordinate or nonpositive population"
+  },
+  {
+    "row": {
+      "": "1485",
+      "City": "Gelibolu",
+      "OtherName": "Gallipoli",
+      "Country": "Turkey",
+      "Latitude": "40.333333",
+      "Longitude": "26.499992",
+      "Certainty": "1",
+      "year": "1200",
+      "pop": "150000"
+    },
+    "reason": "Uncorroborated medieval outlier (150,000–300,000) followed by much smaller early-modern estimates. Held out pending original-source review; exclusion is not a corrected population claim.",
+    "sourceId": "reba-2016"
+  },
+  {
+    "row": {
+      "": "1751",
+      "City": "Aleppo",
+      "OtherName": "",
+      "Country": "Syria",
+      "Latitude": "36.216667",
+      "Longitude": "37.166667",
+      "Certainty": "1",
+      "year": "1300",
+      "pop": "0"
+    },
+    "reason": "Invalid coordinate or nonpositive population"
+  },
+  {
+    "row": {
+      "": "9892",
+      "City": "Memphis",
+      "OtherName": "",
+      "Country": "Egypt",
+      "Latitude": "29.844722",
+      "Longitude": "31.250833",
+      "Certainty": "2",
+      "year": "1975",
+      "pop": "846000"
+    },
+    "reason": "Modern large population assigned to Egyptian archaeological Memphis appears to be a homonym contamination. Held out; not reassigned to Tennessee without an original-source check.",
+    "sourceId": "memphis-unesco"
+  }
+]

@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "startedAt": "2026-10-08T23:52:15.284Z",
+  "command": [
+    "node",
+    "scripts/m3-headless-acceptance.mjs",
+    "--renderer",
+    "maplibre"
+  ],
+  "runner": {
+    "node": "v22.17.0",
+    "platform": "win32",
+    "arch": "x64",
+    "kernel": "10.0.26200",
+    "cpus": 16,
+    "cpuModel": "AMD Ryzen 7 5800X 8-Core Processor             ",
+    "memoryBytes": 17099636736,
+    "scriptSHA256": "52b113a6d951704503d9362fd51bad3ac0ea6a3f980ab6777d60dff0e79314e6",
+    "chromiumExecutable": "C:\\Users\\Juan\\AppData\\Local\\ms-playwright\\chromium-1243\\chrome-win64\\chrome.exe",
+    "chromiumSHA256": "9b07943f834485b43c9d54caea2951c78715f9f07070a80ab6658465ebd3e711"
+  },
+  "build": {
+    "schema_version": 1,
+    "build_id": "chronicle-33a15fb16c2a33203d32439e70d4c583d1fa03505ebd955619c1e4f5eabba61f",
+    "source_commit": "f2c78f9e6a4efed99dafc1ef5d3e28e47c96dabf",
+    "source_worktree_dirty": true,
+    "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+    "source_fingerprint": "a7720a218c039b389bc9d2ce339401f9e6e97bbed1ce7df89c84e5c7b8a0f260",
+    "source_file_count": 2379,
+    "source_scope": [
+      "apps/explorer/src/**",
+      "apps/explorer/research-semantic/** (excluding dependency/runtime caches)",
+      "apps/explorer/runtime-isolation/**",
+      "apps/explorer/verification-tools/** (excluding dependency/runtime caches)",
+      "packages/contracts/src/**",
+      "apps/explorer/public/**",
+      "apps/explorer/index.html",
+      "apps/explorer/production-review.html",
+      "apps/explorer/vite.config.ts",
+      "apps/explorer/package.json",
+      "apps/explorer/pnpm-lock.yaml"
+    ],
+    "bundle_fingerprint": "97e76b53cb4936ca0a1df740157ecd37a4e36ab32e826a7ffa74fb1bff546157",
+    "bundle_files": [
+      {
+        "path": "assets/index-CHrD1MwR.css",
+        "byte_length": 176498,
+        "sha256": "2db08ff78babd9174984f2b28ee6a310cfaa2e87bff02a6dec7a541644a572cd"
+      },
+      {
+        "path": "assets/index-CjMlilOG.js",
+        "byte_length": 4190686,
+        "sha256": "a61692172ca64d2ed5f9049738fb511072a38483db8696afe260f0c91aa66551"
+      },
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "byte_length": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "byte_length": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      },
+      {
+        "path": "assets/watt-1769-mechanism-Bn8Si0Sq.json",
+        "byte_length": 13234,
+        "sha256": "9838cf8fb53a034732a764d1433b3cf8c8e149b9e31323eeaea3e2b2825336db"
+      },
+      {
+        "path": "assets/watt-1769-specification-CmgIn0_F.json",
+        "byte_length": 4838,
+        "sha256": "6bbadef594a0b9d64bdb541717535a62f54365b891d8e64eb24e5a4cb197d86d"
+      },
+      {
+        "path": "index.html",
+        "byte_length": 525,
+        "sha256": "25848649b5873433e767a80b40fdb9797407628128073619efa9747ab7092bfa"
+      },
+      {
+        "path": "production-review.html",
+        "byte_length": 1667,
+        "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d"
+      }
+    ],
+    "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+  },
+  "requestedRenderer": "maplibre",
+  "browser": {
+    "version": "153.0.8010.12",
+    "engine": "Chromium",
+    "headless": true
+  },
+  "isolation": {
+    "servedFrom": "ephemeral 127.0.0.1 port",
+    "externalRequests": "abort all non-local page requests; service workers blocked",
+    "externalAttempts": []
+  },
+  "gates": {
+    "responsive375": {
+      "status": "PASS",
+      "explorer": {
+        "x": 35,
+        "y": 116,
+        "width": 330,
+        "height": 379.75,
+        "right": 365,
+        "bottom": 495.75,
+        "clientWidth": 328,
+        "scrollWidth": 328,
+        "documentWidth": 375,
+        "timelineTop": 605.8125,
+        "timelineBottom": 812
+      },
+      "inspector": {
+        "x": 25,
+        "y": 116,
+        "width": 340,
+        "height": 473,
+        "right": 365,
+        "bottom": 589,
+        "clientWidth": 338,
+        "scrollWidth": 338,
+        "documentWidth": 375,
+        "timelineTop": 605.8125,
+        "timelineBottom": 812
+      },
+      "modern": {
+        "viewport": [
+          375,
+          812
+        ],
+        "documentWidth": 375,
+        "panel": {
+          "x": 10,
+          "y": 116,
+          "width": 355,
+          "height": 475,
+          "right": 365,
+          "bottom": 591
+        },
+        "panelClientWidth": 353,
+        "panelScrollWidth": 353,
+        "timeline": {
+          "x": 0,
+          "y": 605.8125,
+          "width": 375,
+          "height": 206.1875,
+          "right": 375,
+          "bottom": 812
+        },
+        "table": {
+          "clientWidth": 323,
+          "scrollWidth": 410,
+          "overflowX": "auto"
+        },
+        "controlsOutsidePanel": [],
+        "title": "Four Mexican urban centres",
+        "renderer": "MapLibre · vector streaming",
+        "activeAnimations": 0
+      },
+      "qualitative": {
+        "viewport": [
+          375,
+          812
+        ],
+        "documentWidth": 375,
+        "panel": {
+          "x": 10,
+          "y": 116,
+          "width": 355,
+          "height": 475,
+          "right": 365,
+          "bottom": 591
+        },
+        "panelClientWidth": 353,
+        "panelScrollWidth": 353,
+        "timeline": {
+          "x": 0,
+          "y": 605.8125,
+          "width": 375,
+          "height": 206.1875,
+          "right": 375,
+          "bottom": 812
+        },
+        "table": {
+          "clientWidth": 323,
+          "scrollWidth": 410,
+          "overflowX": "auto"
+        },
+        "controlsOutsidePanel": [],
+        "title": "Premodern exchange accounts",
+        "renderer": "MapLibre · vector streaming",
+        "activeAnimations": 0
+      },
+      "mapModeToggle": "PASS",
+      "reducedMotion": "browser emulation only"
+    },
+    "interactiveSaveReopen": {
+      "status": "PASS",
+      "input": "real browser downloads, file uploads and controls for both pilots",
+      "cycles": [
+        {
+          "pilot": "modern",
+          "archiveEqual": true,
+          "originalHash": "24f34145a3e1f8bdb4ac7cae5b1d7a772b15c6dbf44d1c7f9cf21ede0d95cd2f",
+          "reopenedHash": "24f34145a3e1f8bdb4ac7cae5b1d7a772b15c6dbf44d1c7f9cf21ede0d95cd2f",
+          "selectedObservation": "hist-guadalajara-86f202e4:un-wup-2025:1975",
+          "archiveKind": "chronicle-workspace-replay",
+          "invalidJSONRetainsPreviousResult": true
+        },
+        {
+          "pilot": "premodern",
+          "archiveEqual": true,
+          "originalHash": "fa7dfb699e3a5273b95525897611abb9f33f97156b5247a135b471a7c9202623",
+          "reopenedHash": "fa7dfb699e3a5273b95525897611abb9f33f97156b5247a135b471a7c9202623",
+          "selectedObservation": "account-periplus-barygaza-first-century",
+          "archiveKind": "chronicle-workspace-replay",
+          "invalidJSONRetainsPreviousResult": true
+        }
+      ],
+      "modelRequests": 0
+    },
+    "original200Plus200": {
+      "status": "PASS",
+      "receipt": "original-200-plus-200.json",
+      "observations": 44,
+      "entities": 4,
+      "selectionP95Ms": 12.200000000186265,
+      "combinedP95Ms": 36.299999999813735,
+      "selectionTargetMs": 50,
+      "combinedTargetMs": 100,
+      "selectionSamples": 200,
+      "combinedSamples": 200,
+      "closeReopenCycles": 20,
+      "mountDisposeCycles": 20
+    }
+  },
+  "screenshots": [
+    {
+      "file": "responsive-375-explorer.png",
+      "sha256": "46ff694ff4f3a5c35ffc29be936dfa4ce4c5d20fa6d0fafc9ce26e21a45128a1",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "responsive-375-inspector.png",
+      "sha256": "9c8bbc86b6007fff8286a74b0f4453b4cf8a87823ce1e48939352d3519b90396",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "responsive-375-modern.png",
+      "sha256": "ab0e4a3df0dafa601e1c7665d14c1696a4a6432646a7de9bd714dde4c3eb12ac",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "responsive-375-premodern.png",
+      "sha256": "6a3abdf698c76d1b8199431fc772ce91977dff39d54ac493ee117bcee67ae9ca",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "responsive-375-map-mode.png",
+      "sha256": "f566b2658b7e0097ec084cb3701653607a357244f8434a0cd4c51ff5223e95a8",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "modern-interactive-file-reopen.png",
+      "sha256": "deb4a3b925de47b032e2445210cf22b8f394406da5cbc77815db1bdf939d5bd5",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "premodern-interactive-file-reopen.png",
+      "sha256": "ed8883c70ac456b50acc8a18ae0343117b855d1d3b40f3f13c68e46392b03d76",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "original-200-plus-200.png",
+      "sha256": "9872c8d98cfb72e85b3771df489f3e8be43c524801f44a425b1755acaa642951",
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "modern-saved-replay.json",
+      "sha256": "24f34145a3e1f8bdb4ac7cae5b1d7a772b15c6dbf44d1c7f9cf21ede0d95cd2f"
+    },
+    {
+      "file": "modern-reopened-replay.json",
+      "sha256": "24f34145a3e1f8bdb4ac7cae5b1d7a772b15c6dbf44d1c7f9cf21ede0d95cd2f"
+    },
+    {
+      "file": "premodern-saved-replay.json",
+      "sha256": "fa7dfb699e3a5273b95525897611abb9f33f97156b5247a135b471a7c9202623"
+    },
+    {
+      "file": "premodern-reopened-replay.json",
+      "sha256": "fa7dfb699e3a5273b95525897611abb9f33f97156b5247a135b471a7c9202623"
+    },
+    {
+      "file": "original-200-plus-200.json",
+      "sha256": "39d3396a1bfa99563274920c377d394310cd1d8a879010583fa4e679cecda07f"
+    },
+    {
+      "file": "headless-trace.zip",
+      "sha256": "fcf484c7c1d127e8784770201929ac295bf0b310e5544b60dbeeeadda5e393c3"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "interpretation": "Actual headless Chromium DOM and the requested Atlas renderer. No physical mobile, hardware GPU, scanout, or OS preference certification.",
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED",
+  "finishedAt": "2026-10-08T23:52:34.000Z"
+}

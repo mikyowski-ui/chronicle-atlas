@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "edition": "meridian-alpha-display-v1",
+      "url": "./meridian-lookup.json",
+      "sha256": "739e02c220ffedda5760a843679e9cbe5fc53b8c3a6de742f6f6360df3d80a81",
+      "byte_length": 12403,
+      "entries": 6
+    },
+    {
+      "edition": "isles-alpha-da7a4b7-display-v1",
+      "url": "./isles-lookup.json",
+      "sha256": "0e784c8cd988704707d5a6d121fbe8e498cf66e1f62825bd8ed393492559b06a",
+      "byte_length": 2720,
+      "entries": 1
+    }
+  ]
+}

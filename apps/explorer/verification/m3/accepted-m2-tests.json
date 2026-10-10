@@ -1,0 +1,203 @@
+{
+  "acceptedBuildId": "chronicle-8d0829ebd21b4bd21dda135ae9b0da09eb32d2df93f696f1fdd01de7484c4311",
+  "archiveSHA256": "d4f59451acebdca8088d48ec4b356dec72f08707f08e181068dd6094de6ba793",
+  "originalTestCount": 386,
+  "files": [
+    {
+      "path": "apps/explorer/tests/admission-boundaries.test.ts",
+      "sha256": "078b649d0ccd85bcd5f87eef49cbd8d6e86f166d4b3e0f88706e749d8bd91e76"
+    },
+    {
+      "path": "apps/explorer/tests/alpha.test.ts",
+      "sha256": "86900514ca4b88dee374fcb44fdcb2f8556f996c83a5f6f227a5437aa6532d0e"
+    },
+    {
+      "path": "apps/explorer/tests/canvas-geometry.test.ts",
+      "sha256": "a28927242a00a6427b8db8ddec91276905800d9ef380dae06f660b4774c49446"
+    },
+    {
+      "path": "apps/explorer/tests/canvas-navigation.test.ts",
+      "sha256": "c69187ff728f9e2fee569beacb9bbcd65173ba7b74f2f7cfe4e2e50f792f367e"
+    },
+    {
+      "path": "apps/explorer/tests/canvas-reconciliation.test.ts",
+      "sha256": "e54d3884bca7e37472ae38fbd6f5534cb7e250829bf9669e7198aa8e8125e6d9"
+    },
+    {
+      "path": "apps/explorer/tests/context-metrics.test.ts",
+      "sha256": "cb3b24560b264c035fafd4af654e5a8e10f93d783ec3743ea458004d9c4387e4"
+    },
+    {
+      "path": "apps/explorer/tests/detail-canvas.test.ts",
+      "sha256": "69fe040a758fb406249e09f9b287b380ba26c23bef7efc2fcb0d9f3f2c317741"
+    },
+    {
+      "path": "apps/explorer/tests/detail-context.test.ts",
+      "sha256": "d2fa31c4cfce1aba7c50b8bbce472f1ac9d84e7adedf0e8a56d04d828f484660"
+    },
+    {
+      "path": "apps/explorer/tests/detail-manager.test.ts",
+      "sha256": "c4fd63074976b1a085b4d7d074eb274a53da7434d632abd2e1aec3804011812b"
+    },
+    {
+      "path": "apps/explorer/tests/detail-places.test.ts",
+      "sha256": "6e594044e3737b267d0f075b9d810450f695d61188f647417089eeda8c324c56"
+    },
+    {
+      "path": "apps/explorer/tests/display-policy.test.ts",
+      "sha256": "839496abbfbb271e44d8b8290eb37221d10e73254aec3f5658e93ad4007a0497"
+    },
+    {
+      "path": "apps/explorer/tests/dossiers.test.ts",
+      "sha256": "d924bbb38aad7b6d761bfeae269a0e65cf56e8acb73fac06f746f0947483f5b9"
+    },
+    {
+      "path": "apps/explorer/tests/environment-lifecycle.test.ts",
+      "sha256": "7f15bd1ef9de188e4e54cfd3418560f3e5dd86bb94721c6ae7c6f61efc5d27e0"
+    },
+    {
+      "path": "apps/explorer/tests/fixture.test.ts",
+      "sha256": "1f78eda0285463f4b7d6d40e83a6a74e4ee1c971e94110799f1d7e2235ec7b33"
+    },
+    {
+      "path": "apps/explorer/tests/glass-context.test.ts",
+      "sha256": "5375fc39a8a115cdb5ef94e9a8585c25ec3114d4b1b7947009d033500be56d55"
+    },
+    {
+      "path": "apps/explorer/tests/global-catalog.test.ts",
+      "sha256": "0ade08d2041d99c101168565398ce83e09ad74bebb05f64c08bdf741acb20068"
+    },
+    {
+      "path": "apps/explorer/tests/global-history-products.test.ts",
+      "sha256": "de0ee41027eff71bea03da90035e532905ea4db32b6598221ba4d15c234470b6"
+    },
+    {
+      "path": "apps/explorer/tests/global-semantics.test.ts",
+      "sha256": "639a67974b5b68465d7b95f23603178d09edf47559c7d7d9f1548e6cfc9a9bba"
+    },
+    {
+      "path": "apps/explorer/tests/historical-cities.test.ts",
+      "sha256": "deb45e68f7269a66c7bdddec5af5c98e75e0758dd1ad0ce6baf64444bd04e9ec"
+    },
+    {
+      "path": "apps/explorer/tests/historical-city-product.test.ts",
+      "sha256": "93bfeb73484cbec8790972194d24648c88c11efdd5959fd03d8d1b9e28b0074e"
+    },
+    {
+      "path": "apps/explorer/tests/history-ruler.test.ts",
+      "sha256": "d02513fe269afd7a5d866e1000c85ca950423e840ecf8b31f0a4f3c66dd45d37"
+    },
+    {
+      "path": "apps/explorer/tests/integrated-world.test.ts",
+      "sha256": "3e6bff5ef936c6c14130603012e90f2d6fb716a82629edc620a1563a6c6f7f53"
+    },
+    {
+      "path": "apps/explorer/tests/labels.test.ts",
+      "sha256": "9cd1a6defd3952bca404d8cdcfbd5e163dbd34ecb8a745164424a45ae1702b03"
+    },
+    {
+      "path": "apps/explorer/tests/local-verification.test.ts",
+      "sha256": "24adc81837907459122e8230be2d30b4e678552628cf747911c45a4e5958d4a1"
+    },
+    {
+      "path": "apps/explorer/tests/picking.test.ts",
+      "sha256": "b27efea247ed59acdb0f7dcb665e5127d43d0353af1d2a1649c7606ba7b4d473"
+    },
+    {
+      "path": "apps/explorer/tests/planner-boundary.test.ts",
+      "sha256": "6819effeb26538032ae48735b32f6e44928f1ac776b1373e89cf6dabdb2856ba"
+    },
+    {
+      "path": "apps/explorer/tests/political-continuity.test.ts",
+      "sha256": "e3ac0bae2baa49805347fcb38847c1ee7793074978f80fdb86fb9333409ec93c"
+    },
+    {
+      "path": "apps/explorer/tests/population-lookup.test.ts",
+      "sha256": "4fc06219c1274a40cf298c9644f546ef74339f55bfae9dfb93a4d623bc796c0d"
+    },
+    {
+      "path": "apps/explorer/tests/population.test.ts",
+      "sha256": "2217102ed838c6450d6ed5e1f5b60821f78450048023549677a81d4c126dfac4"
+    },
+    {
+      "path": "apps/explorer/tests/research-workspace.test.ts",
+      "sha256": "e081135c0ff602197eddc27f412790ebfd73771dcc9b385d73af4fcf084d2a4e"
+    },
+    {
+      "path": "apps/explorer/tests/scene-signature.test.ts",
+      "sha256": "8defbe17b990b5c56749e33e2bcdf6ebf98603830a200d744f58bbfcd8c67cfc"
+    },
+    {
+      "path": "apps/explorer/tests/semantic-contracts.test.ts",
+      "sha256": "513110975bf27ff20d3b56a1f64b7e409e7e48f833d7342ccd424e62e7f5bc0b"
+    },
+    {
+      "path": "apps/explorer/tests/semantic-revisions.test.ts",
+      "sha256": "111ca558a439a2d7061c1f282195ce53621cdecdb1d8dd840e19b3656d930fe6"
+    },
+    {
+      "path": "apps/explorer/tests/server.test.ts",
+      "sha256": "6e942e77370b75ba0bdbda0a5f3b8d11ba1639c3f3f526f59b70707859cb078b"
+    },
+    {
+      "path": "apps/explorer/tests/state-coverage.test.ts",
+      "sha256": "69664c57b1eba7d85ffe4dbf01139716c16ed65196e6fc068b388aa4114a8b3e"
+    },
+    {
+      "path": "apps/explorer/tests/state-histories.test.ts",
+      "sha256": "28925e71264feb6eee405bc5fe35e464c85f090375ee7cdbae5bf901ef6ea828"
+    },
+    {
+      "path": "apps/explorer/tests/streaming-lifecycle.test.ts",
+      "sha256": "fd15332698176e6e0cdc2d46aa587e52a1c8e1bb719e16e9ebc9c701c6c632d3"
+    },
+    {
+      "path": "apps/explorer/tests/streaming-native.test.ts",
+      "sha256": "ddb06f7ad422ce3246675060e3de6b5c77e1ee7a64a5967c6283f0aeeebe1131"
+    },
+    {
+      "path": "apps/explorer/tests/streaming-range.test.ts",
+      "sha256": "f2fa7cc4f0ffef0f794122906cf14d9573e998efe17760d95bd03dc882aa883d"
+    },
+    {
+      "path": "apps/explorer/tests/stress.test.ts",
+      "sha256": "7aedd18e86f16d9cd5aebd1898afcbe70e1386cd6e7ab4451d8256908f267d2e"
+    },
+    {
+      "path": "apps/explorer/tests/teaching-data.test.ts",
+      "sha256": "c1e7b6547af9054a5ae78ecc5aad0f5e1e71a61acd0bcf7542b2d1182566df29"
+    },
+    {
+      "path": "apps/explorer/tests/teaching-overlay.test.ts",
+      "sha256": "5b90340fe58be2b4b1ead336d1c3fc0a6e80e8d4e551611bf833f946b713bf6c"
+    },
+    {
+      "path": "apps/explorer/tests/temporal.test.ts",
+      "sha256": "2037e319116ecbb829ee772817a0d23f5dd189713650c370af61d747316da011"
+    },
+    {
+      "path": "apps/explorer/tests/time-entry.test.ts",
+      "sha256": "4395917a63f5282ae970e7a00677ac0ab8c148e4e85b99b5fa59e7b027248994"
+    },
+    {
+      "path": "apps/explorer/tests/time-motion.test.ts",
+      "sha256": "78bdb12f769f79b08fb7f7dafd3bd7b0079709e7207ef01841bbb362c1fa5238"
+    },
+    {
+      "path": "apps/explorer/tests/unified-workspace.test.ts",
+      "sha256": "a5c9dff8d5bfe7d8f60da0c37d65e975537110e516217f03a9ccd3dbcec01b7b"
+    },
+    {
+      "path": "apps/explorer/tests/v2-shell.test.ts",
+      "sha256": "723498f76f3ad252371d004fcefa0ae10a9cc040e2b6c7bf121a6242adc73a32"
+    },
+    {
+      "path": "apps/explorer/tests/warm-archive-cache.test.ts",
+      "sha256": "409ecfd51157ab7d0cf7d1a3a1b9c01bea73d45cd2bdf692a60290ca6b6b51fe"
+    },
+    {
+      "path": "apps/explorer/tests/wave-b.test.ts",
+      "sha256": "3e8a4a033f82e0d6c8fb0362972e8135edece1db2bd67365064e9a53f19c3271"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-23",
+  "sources": [
+    {
+      "source_id": "ons-ew-mid1900",
+      "edition": "England and Wales population estimates 1838 to 2025; published 2026-07-29",
+      "input_file": "ons-ew-1838-2025.xlsx",
+      "input_sha256": "715635a653d6471de5e4fd6059cf552855c580ed7af856a3ee4cc1e8e1cbaf7f",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "rights_basis": "ONS workbook Cover sheet A10 permits reuse under OGL; retained official catalogue footer links OGL v3.0. No third-party restriction marks the admitted Table 7 cells.",
+      "attribution": "Source: Office for National Statistics. Contains public sector information licensed under the Open Government Licence v3.0.",
+      "catalog_sha256": "2b6512374ba4020fbd8666aec362e072b62b77629b8c0ea9fe9772342b329c4d",
+      "excluded": "No source-derived polygons, density surfaces or other years are admitted."
+    },
+    {
+      "source_id": "hansard-ireland-liverpool-1847",
+      "edition": "HL Deb 15 February 1847 vol 89 cc1323\u20134",
+      "input_file": "hansard-1847-02-15.html",
+      "input_sha256": "58fcec10b603ed7af4a321a1dadcbef232416f43fe5fdead32c0e68aff141bc5",
+      "license": "Open Parliament Licence v3.0",
+      "license_url": "https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/",
+      "rights_basis": "Official Hansard footer links Parliamentary copyright. Parliamentary copyright page states OPL applies to electronic material and pre-1989 Crown copyright. Official OPL terms permit copying/adaptation with attribution; verified through web retrieval. Direct HTML retrieval of licence was HTTP 403; this retained rights record is not a byte copy of that page.",
+      "rights_verification_urls": [
+        "https://www.parliament.uk/site-information/copyright/",
+        "https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/"
+      ],
+      "attribution": "Contains Parliamentary information licensed under the Open Parliament Licence v3.0.",
+      "excluded": "No historical photograph, Royal Arms, logo or third-party material is used."
+    }
+  ]
+}

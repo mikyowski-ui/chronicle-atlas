@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "command": "PORT=0 node serve.mjs",
+  "node": "v24.19.0",
+  "checks": [
+    "local loopback server starts",
+    "GET / returns Atlas shell",
+    "compiled application contains Research UI",
+    "pinned pilot asset returns 44 observations",
+    "feature-off entry serves same Atlas shell"
+  ],
+  "buildId": "chronicle-4580508b5ce3e5fc8c2f228471e71b1876e82bb8524a83049272a71700be31b1",
+  "scope": "HTTP launch smoke, not a second browser or GPU test"
+}

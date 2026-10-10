@@ -1,0 +1,41 @@
+{
+  "dataset": [
+    {
+      "id": "8070e430-d1a3-4679-b163-9fca2e962592",
+      "doi": "10.48364/ISIMIP.822480.4",
+      "doi_url": "https://doi.org/10.48364/ISIMIP.822480.4",
+      "title": "ISIMIP3a Population Input Data",
+      "title_with_version": "ISIMIP3a Population Input Data (v1.4)",
+      "citation": "Jan Volkholz, Stefan Lange, Inga Sauer, Christian Otto (2026): ISIMIP3a Population Input Data (v1.4). ISIMIP Repository. https://doi.org/10.48364/ISIMIP.822480.4",
+      "creators_str": "Jan Volkholz, Stefan Lange, Inga Sauer, Christian Otto",
+      "publication_year": "2026",
+      "publisher": "ISIMIP Repository",
+      "new_version": null
+    }
+  ],
+  "provider_version": "20260807",
+  "retrieved_utc": "2026-09-26",
+  "source_url": "https://files.isimip.org/ISIMIP3a/InputData/socioeconomic/pop/histsoc/population_histsoc_30arcmin_annual_1901_2021.nc",
+  "source_bytes": 61819211,
+  "expected_sha512": "64e76d9e190ae2c3b09eb29f467f5c2af87d961d334c420025ec150f6f3344ba8860b0ba743e9a70e3d9c9deb8bf6e04cdbfde4a1230e2faa706c59c8d224614",
+  "license": {
+    "rights": "CC0 1.0 Universal Public Domain Dedication",
+    "rights_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "short": "CC0 1.0",
+    "image": "images/cc/cc0.png",
+    "color": "primary"
+  },
+  "terms_of_use": {
+    "terms_of_use": "When using ISIMIP data for your research, please appropriately credit the data providers, e.g. either by citing the DOI for the dataset, or by appropriate acknowledgment. We strongly encourage to offer co-authorship to at least a representative of the data providers.",
+    "terms_of_use_url": "https://www.isimip.org/gettingstarted/terms-of-use/#general-terms-of-use-for-all-isimip-data-on-the-esg-server"
+  },
+  "meaning": "Model-derived gridded population counts; not a census at each cell, political ownership, or migration flow.",
+  "methodology_url": "https://www.isimip.org/gettingstarted/input-data-bias-adjustment/details/123/",
+  "changes": "Aggregate source count cells into 2-degree cells; compute people per complete geographic grid-cell square kilometre. No invented cell counts or timeline interpolation.",
+  "exclusions": [
+    "Dates before 1910 not admitted for this population layer.",
+    "No modern population is backcast into ancient years.",
+    "No population-derived migration routes."
+  ],
+  "source_methodology": "Provider version1.4 maps historic HYDE3.3 population onto a30arcsec land grid for country-level scaling, then aggregates to5/15/30arcmin. This product uses only the30arcmin historical-scenario total-population variable in1910/1950/2000/2010."
+}

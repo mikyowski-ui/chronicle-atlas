@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "fb2ca8cb12ed45078a3337d06888ce3d34b60d0da6471645ca5963a77d737532",
+      "exactBytes": true
+    },
+    {
+      "path": "build-info.json",
+      "status": 200,
+      "sha256": "2cd13d8563c4edfd027379d2673edf9dd4c8ce4f6262cd7298cf126285e773bd",
+      "exactBytes": true
+    },
+    {
+      "path": "production-review.html",
+      "status": 200,
+      "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-CD3F5LrB.js",
+      "status": 200,
+      "sha256": "24b97eabab03693cd95dca33a4c3ba951d9433d8917eaef5f73da26792d2a8b4",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/index-DBE3frqu.css",
+      "status": 200,
+      "sha256": "72c8db10a594ccfd2ebf02e2861537ccaa65182376ddea63cd94c4a9887df8b4",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/pilot-data-Jm_w9AQo.json",
+      "status": 200,
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e",
+      "exactBytes": true
+    },
+    {
+      "path": "assets/premodern-pilot-B7FC1mJx.json",
+      "status": 200,
+      "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0",
+      "exactBytes": true
+    }
+  ],
+  "range206": true,
+  "command": "PORT=4197 node serve.mjs",
+  "productionBrowser": "NOT RUN"
+}

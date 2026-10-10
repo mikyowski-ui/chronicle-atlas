@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "acceptanceProfile": "user-approved-virtual-dom-substitute-v1",
+  "build": {
+    "schema_version": 1,
+    "build_id": "chronicle-78185328c2969b9946da16c06d07f1115015e6330a188f51d99cf2b9c79b6ce0",
+    "source_commit": null,
+    "source_worktree_dirty": null,
+    "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+    "source_fingerprint": "0c28ea1cb251dd28a765e9730a78db4b19c6767fd1f58402dd6478f1d144f7c6",
+    "source_file_count": 2368,
+    "source_scope": [
+      "apps/explorer/src/**",
+      "apps/explorer/research-semantic/** (excluding dependency/runtime caches)",
+      "apps/explorer/runtime-isolation/**",
+      "apps/explorer/verification-tools/** (excluding dependency/runtime caches)",
+      "packages/contracts/src/**",
+      "apps/explorer/public/**",
+      "apps/explorer/index.html",
+      "apps/explorer/production-review.html",
+      "apps/explorer/vite.config.ts",
+      "apps/explorer/package.json",
+      "apps/explorer/pnpm-lock.yaml"
+    ],
+    "bundle_fingerprint": "99475d8a259b011a706fc2d65ba00748b2edca3d404884c3de16363c359428d9",
+    "bundle_files": [
+      {
+        "path": "assets/index-BiKCZD3Q.js",
+        "byte_length": 4168948,
+        "sha256": "66e4384bc49500877b6bd51078a8fc0cbd99109d8031ed8a7463440a22a40d60"
+      },
+      {
+        "path": "assets/index-DBE3frqu.css",
+        "byte_length": 174853,
+        "sha256": "72c8db10a594ccfd2ebf02e2861537ccaa65182376ddea63cd94c4a9887df8b4"
+      },
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "byte_length": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "byte_length": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      },
+      {
+        "path": "index.html",
+        "byte_length": 525,
+        "sha256": "674950089ddf91cb0930809c91a6b463bf32001ea3b3e7c63572ba86b683d12d"
+      },
+      {
+        "path": "production-review.html",
+        "byte_length": 1667,
+        "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d"
+      }
+    ],
+    "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+  },
+  "interpretation": "PASS means actual research view/controller DOM behavior and CSS policy pass under explicit geometry and timing mocks. No browser layout engine, rasterization, Atlas renderer execution, GPU, mobile hardware or real responsiveness is measured.",
+  "runtime": {
+    "node": "v24.19.0",
+    "happyDOM": "20.14.5",
+    "esbuild": "0.28.2",
+    "offlineBundle": false
+  },
+  "mocks": {
+    "geometry": "375×812 policy fixture; map and panel rectangles supplied by test adapter",
+    "renderer": "host Canvas element only; no rendering engine",
+    "clock": "deterministic virtual clock; requestAnimationFrame advances 1000/60 ms per callback",
+    "cursor": "host seek increments virtual clock by 2 ms and calls actual workspace.updateCursor",
+    "download": "capture actual view-created Blob via createObjectURL/anchor click",
+    "upload": "Happy DOM File/DataTransfer and actual change event",
+    "fetch": "only two pinned local fixture files; all other fetches throw; no network transport"
+  },
+  "gates": {
+    "responsive375": {
+      "status": "PASS",
+      "classification": "actual stylesheet policy plus mocked375geometry; not rendered layout",
+      "policyReceipt": "layout-policy.json",
+      "pilots": [
+        {
+          "pilot": "Four Mexican urban centres",
+          "rows": 44,
+          "suppliedPanelGeometry": {
+            "x": 10,
+            "y": 172,
+            "width": 355,
+            "height": 414
+          },
+          "suppliedTimelineGeometry": {
+            "x": 0,
+            "y": 600,
+            "width": 375,
+            "height": 212
+          }
+        },
+        {
+          "pilot": "Premodern exchange accounts",
+          "rows": 10,
+          "suppliedPanelGeometry": {
+            "x": 10,
+            "y": 172,
+            "width": 355,
+            "height": 414
+          },
+          "suppliedTimelineGeometry": {
+            "x": 0,
+            "y": 600,
+            "width": 375,
+            "height": 212
+          }
+        }
+      ]
+    },
+    "interactiveSaveReopen": {
+      "status": "PASS",
+      "classification": "actual DOM controls/controller; simulated browser download/upload APIs",
+      "cycles": [
+        {
+          "pilot": "modern",
+          "status": "PASS",
+          "archiveIdentical": true,
+          "revisions": 2,
+          "selectedObservation": "hist-guadalajara-86f202e4:un-wup-2025:1975",
+          "cursorYear": 2000,
+          "views": [
+            "table",
+            "evidence"
+          ]
+        },
+        {
+          "pilot": "premodern",
+          "status": "PASS",
+          "archiveIdentical": true,
+          "revisions": 1,
+          "selectedObservation": "account-periplus-barygaza-first-century",
+          "cursorYear": -650,
+          "views": [
+            "summary",
+            "map",
+            "interval",
+            "table",
+            "evidence"
+          ]
+        }
+      ],
+      "invalidJSONRetainsPreviousResult": true
+    },
+    "original200Plus200": {
+      "status": "PASS",
+      "classification": "actual productionmeasure function with simulatedRAF and mockedAtlas host; not performance evidence",
+      "rawReceipt": "original-200-plus-200-simulated.json",
+      "selectionInteractions": 200,
+      "combinedInteractions": 200,
+      "retainedTargetsMs": [
+        50,
+        100
+      ],
+      "syntheticP95Ms": [
+        33.33333333333394,
+        35.33333333333394
+      ],
+      "rafCallbacks": 806,
+      "hostSeeks": 203,
+      "closeReopenCycles": 20,
+      "mountDisposeCycles": 20,
+      "coordinatedSelectionFailures": 0
+    }
+  },
+  "checks": [
+    {
+      "name": "Actual production view loads 44 modern observations",
+      "status": "PASS"
+    },
+    {
+      "name": "Four Mexican urban centres: actual DOM and declared 375px geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "Four Mexican urban centres: actual map/panel toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "Premodern exchange accounts: actual DOM and declared 375px geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "Premodern exchange accounts: actual map/panel toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "modern: actual export, file upload, reopen, export round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "modern: invalid JSON reopen retains current result",
+      "status": "PASS"
+    },
+    {
+      "name": "premodern: actual export, file upload, reopen, export round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "premodern: invalid JSON reopen retains current result",
+      "status": "PASS"
+    },
+    {
+      "name": "Original production 200+200 contract and all coordinated selections",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual unsupported question remains unavailable with zero additional fetches",
+      "status": "PASS"
+    },
+    {
+      "name": "Final actual view/controller disposal releases owned resources",
+      "status": "PASS"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "layout-policy.json",
+      "sha256": "a4fa0b59679718709efcf3465012e39dc3982c0b237e505a2ecf38e4cea29ace"
+    },
+    {
+      "file": "modern-dom.html",
+      "sha256": "e986164df0ed9eaf09a8eac1fa3f3f3e6bebf7acb56d743fb7eba9d18d66287e"
+    },
+    {
+      "file": "premodern-dom.html",
+      "sha256": "38ca23a77144e15216ee0e5013f070ed50f23026fef1547c1b222d4f0b2ac3c7"
+    },
+    {
+      "file": "modern-saved-replay.json",
+      "sha256": "e63f9c20b21ba2b86ecb3ec3fcfacc08f55735fe20a47e74b1342d8aa8888f7a"
+    },
+    {
+      "file": "modern-reopened-replay.json",
+      "sha256": "e63f9c20b21ba2b86ecb3ec3fcfacc08f55735fe20a47e74b1342d8aa8888f7a"
+    },
+    {
+      "file": "premodern-saved-replay.json",
+      "sha256": "2907c5be00fe04cf5350b80fa535e28e6fbb902d5e94f7879752c3f698235c37"
+    },
+    {
+      "file": "premodern-reopened-replay.json",
+      "sha256": "2907c5be00fe04cf5350b80fa535e28e6fbb902d5e94f7879752c3f698235c37"
+    },
+    {
+      "file": "original-200-plus-200-simulated.json",
+      "sha256": "bab4fc71103a4a0bc65023fb2986f61a8865e06c2b05df7cda83310fbc012ed1"
+    }
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "path": "public/history/exchange-networks.json",
+      "sha256": "519c2d87f18e2ac158d4625e7b92f2a4233e150cceb34d2411a608e56c69e722"
+    },
+    {
+      "path": "public/history/historical-foundations.json",
+      "sha256": "70ba0a320dba84fca5ee7107dd1bd72dbbcf96b242342768cee33425c52ccb52"
+    },
+    {
+      "path": "public/history/primary-accounts.json",
+      "sha256": "5f122549fe654c433680ecd50f011527047a98371a2d6ac8c8d8267ddc5f5541"
+    },
+    {
+      "path": "research-semantic/catalogue.ts",
+      "sha256": "e1ded406ed517a8fee974b43f8578813faab8ee5bd366e906655bfc808d4b3ae"
+    },
+    {
+      "path": "research-semantic/contracts.ts",
+      "sha256": "bb5da4f7764b5b83e257968bfae8315e490e4992aa3178e8d00756b5607b76f3"
+    },
+    {
+      "path": "research-semantic/planner.ts",
+      "sha256": "213f50a9ae7c87ead804c272269ef65024c28bd4565fe9dd5b128bd8e1197064"
+    },
+    {
+      "path": "research-semantic/provider-transport.ts",
+      "sha256": "1aae18f9ddbe1a210d5a665fdfb027a309d8b5de1e325e88456282449f20096a"
+    },
+    {
+      "path": "research-semantic/revisions.ts",
+      "sha256": "812218b836cc49e3e90cf7671e4faee396f78d89c3c3037adcbfc14be5c2e1c1"
+    },
+    {
+      "path": "research-semantic/workspace-contract.ts",
+      "sha256": "ce75e5725fd3710f6d66dc4593557a6e2db6b8c441b1cceda2278cbb42f89b86"
+    },
+    {
+      "path": "src/research/contracts.ts",
+      "sha256": "c577099915b46f6e7239a6b39083145644ae42838e41a1c8ca8c0f3a7e9e6732"
+    },
+    {
+      "path": "src/research/engine.ts",
+      "sha256": "0ac2126575e8530e1d34a878f7b728cc7f8aff8fdbed4202dd544be692789774"
+    },
+    {
+      "path": "src/research/examples.ts",
+      "sha256": "55f0ce67f99d9f7601f8bd67a7c0fb88ded521748459859ac34a8ecfad2d188b"
+    },
+    {
+      "path": "src/research/registry.ts",
+      "sha256": "e2bd054a353696986059f717c39cd5ef5b21cf891d8a5e063bb711f818f17544"
+    },
+    {
+      "path": "src/research/research.css",
+      "sha256": "635e054eb8c239d45b4791dbb069c95dd535d12522c995c4c3aed8f4296ad977"
+    },
+    {
+      "path": "src/research/semantic-view.css",
+      "sha256": "30d5c6ba60bfda0977ce28767b9091e288cf880aa133bb81056011f9d22685ac"
+    },
+    {
+      "path": "src/research/view.ts",
+      "sha256": "3875843cf734a29517cd1e2f1605d874d0bdfa64ebcac39040b542b0717cfa19"
+    },
+    {
+      "path": "src/research/workspace-controller.ts",
+      "sha256": "998fa9cabe125d7aedc9f901caeebb8444c19e8e74754616cea11ef43409abf2"
+    },
+    {
+      "path": "src/research/workspace-engine.ts",
+      "sha256": "7b5a8c20eca2bea4c3ce07d59ca04c84f6835a511c9b404d2d424cbd90f48d19"
+    },
+    {
+      "path": "src/teaching-data.ts",
+      "sha256": "806255f5f7f48d836616d93282c2cc66ea8354ad7b3590821b61ce8bd87dfc5c"
+    },
+    {
+      "path": "scripts/m3-virtual-dom-acceptance.mjs",
+      "sha256": "99c4f12b5b8abb0e17e9102732c9e182a327711c6ff7b5f4f72c419f8ce26104"
+    },
+    {
+      "path": "scripts/m3-virtual-layout-policy.mjs",
+      "sha256": "112ee0b5a9b588b71a9219a5472fec7550eb10a9a8b17cc119cfd822d09c393d"
+    }
+  ],
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "nativeBrowser": "BLOCKED; retained separately in ../headless",
+  "realPerformance": "NOT MEASURED",
+  "sourceInputFingerprint": "66976d2912d8b5998d16dae20430397aea857c25be4d45cf1f58ed78a494af88",
+  "fetches": [
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "research-semantic/premodern-pilot.json",
+      "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    },
+    {
+      "file": "src/research/pilot-data.json",
+      "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+    }
+  ],
+  "networkCalls": 0,
+  "virtualClock": {
+    "elapsedMs": 14013.999999999858,
+    "rafCallbacks": 816,
+    "hostSeeks": 205
+  }
+}

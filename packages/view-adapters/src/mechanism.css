@@ -1,0 +1,16 @@
+.mechanism-workspace[hidden],.mechanism-workspace [hidden]{display:none!important}
+.mechanism-workspace .mechanism-note{font-size:12px;line-height:1.5;color:var(--muted);margin:6px 0}
+.mechanism-workspace .mechanism-gap{color:#805521}
+.mechanism-workspace .mechanism-table h4{font-size:13px;text-transform:uppercase;letter-spacing:1px;margin:18px 0 0;color:#3a626f}
+.mechanism-workspace .research-table-scroll{max-height:none}
+.mechanism-workspace .research-table-scroll table{min-width:470px}
+.mechanism-workspace .research-table-scroll td,.mechanism-workspace .research-table-scroll th{vertical-align:top}
+.mechanism-workspace .research-table-scroll td:nth-child(3){text-align:left;white-space:normal;font-variant-numeric:normal}
+.mechanism-workspace .research-table-scroll th[scope="row"]{text-transform:none;letter-spacing:0;font-size:12px;background:transparent;min-width:130px}
+.mechanism-workspace .mechanism-detail{display:block;font-size:11px;font-weight:400;line-height:1.45;color:var(--muted);margin-top:4px}
+.mechanism-workspace .mechanism-list{margin:0;padding-left:14px}
+.mechanism-workspace .research-table-scroll tr[data-related="true"]{background:#eef6f1}
+.mechanism-workspace .research-table-scroll tr[data-selected="true"]{background:#d8edf0}
+.mechanism-workspace .mechanism-claims{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.chronicle-glass .mechanism-workspace .mechanism-claims button[aria-pressed="true"]{background:#d8edf0;text-decoration:none;font-weight:700}
+.mechanism-workspace .mechanism-quote{margin:10px 0 12px;padding:10px 12px;border-left:3px solid #136c80;background:#f1f7f9;font:15px/1.55 Georgia,serif;color:#183b49}

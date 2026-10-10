@@ -1,0 +1,246 @@
+{
+  "source": {
+    "title": "Historical boundaries of world countries and cultural regions",
+    "edition": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "license": "GPL-3.0",
+    "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle"
+  },
+  "rights": {
+    "source_id": "ourednik-basemaps",
+    "title": "Historical boundaries of world countries and cultural regions",
+    "author_credit": "André Ourednik and contributors",
+    "pinned_revision": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "edition_url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "license": "GPL-3.0",
+    "license_record": {
+      "path": "LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "attribution_and_limitations_record": {
+      "path": "README.md",
+      "sha256": "cbd9b99a5969785c532b901293ad77391223ea3223e1eb042e78a6704f01f76e"
+    },
+    "retention": "Retain exact pinned GeoJSON and metadata bytes plus GPL-3.0 text. Preserve source identification and notices in derivative data packages.",
+    "modification_notice": "Chronicle applies classification, deterministic cell intersection and independent cultural/source-political-association views; these are Chronicle transformations of the pinned source. Original geometry bytes remain separate.",
+    "authorization": "User authorized bounded collection, normalization, classification, staged ingestion, compilation and local preview on this turn; historical/public publication remains unapproved.",
+    "scholarly_status": "Source-attributed overview reconstruction. Source author requests independent verification for academic use. Classification of label semantics is not historical certification.",
+    "prohibited_inferences": [
+      "No index country label alone establishes sovereignty.",
+      "No PARTOF cultural region becomes a political relationship.",
+      "No SUBJECTO self-label or colonial-power label silently becomes source-independent control.",
+      "No carry-forward between snapshot files.",
+      "No source input before200BCE.",
+      "No guessed corroborating evidence or source-feature historical precision."
+    ],
+    "spatial_precision": "Continental/global scale; preserve BORDERPRECISION ordinal1approximate,2moderate,3source-described legal boundary as source metadata, not Chronicle certification. Source acknowledges possible20km shifts.",
+    "temporal_precision": "Snapshot filename/index gives nominal historical year; convert BCE to internal astronomical numbering. Coarse and uncertain snapshot meaning must survive ingestion; calendar-year envelope is not exact dated events.",
+    "lineage_limitations": "README credits diverse compiled sources and anonymous ThinkQuest Team C006628 material. Individual feature source citations are generally absent; no independent source-original documentary authentication is claimed."
+  },
+  "recorded_at": "2026-09-20T02:00:00.000Z",
+  "mapping_sha256": "84f6766923cf7e1579a48f2d91c0dbf148106e18ae13ef082450c22e3e73739f",
+  "budget_sha256": "45c636b923a6512eeb1a9c6e1477c1d1aeba5969462a5c3db75e2a770823c7ad",
+  "compiler_sources": {
+    "scripts/history/rasterize.ts": "b85517d67183ebc548c56d4674ce41f92018a6964d2d2f13b93ddaaa8c418a1d",
+    "scripts/readiness/coverage.ts": "48e6eb1758c84fe88ef91208bc47a749044ae3e5a3ddb49ad16bb97055738a4a",
+    "scripts/history/canonical.ts": "fdfb2c7e8c0e2f2d7a570b5dd5c7aabe0e5e7f615a6371080e1c1a5b6a693b07",
+    "lib/readiness/chronology.ts": "994376ac12d451670221c286eb3074334357edc7e8187a90a234f4aa69cacaaf"
+  },
+  "temporal_interpretation": "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+  "mapping_rules": [
+    "Immutable 0.5° WGS84 cell membership from the unchanged Chronicle rasterizer; eligible intersection threshold 0.50. The cell geometry is authoritative.",
+    "Historical Basemaps nominal snapshot year is a possible observation window, not a dated onset or cessation. Unsupported intervening years remain gaps.",
+    "Political polygons mean source-attributed association. Cultural approximations are separately identified and do not imply ownership.",
+    "Regenerated bounded derivative from pinned inputs. The prior staged SQLite and compiled archive could not be retrieved; no ledger has been changed.",
+    "No population or migration observations are supplied for this candidate."
+  ],
+  "inputs": [
+    {
+      "file": "world_bc200.geojson",
+      "sha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80",
+      "source_year": -200,
+      "astronomical_year": -199
+    },
+    {
+      "file": "world_bc100.geojson",
+      "sha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874",
+      "source_year": -100,
+      "astronomical_year": -99
+    },
+    {
+      "file": "world_bc1.geojson",
+      "sha256": "830fac0104ebafff7b576333cd5ab4a9bf4b6f732ddf828cec47797cf65047cb",
+      "source_year": -1,
+      "astronomical_year": 0
+    },
+    {
+      "file": "world_100.geojson",
+      "sha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef",
+      "source_year": 100,
+      "astronomical_year": 100
+    },
+    {
+      "file": "world_200.geojson",
+      "sha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7",
+      "source_year": 200,
+      "astronomical_year": 200
+    },
+    {
+      "file": "world_300.geojson",
+      "sha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297",
+      "source_year": 300,
+      "astronomical_year": 300
+    },
+    {
+      "file": "world_400.geojson",
+      "sha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7",
+      "source_year": 400,
+      "astronomical_year": 400
+    },
+    {
+      "file": "world_500.geojson",
+      "sha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+      "source_year": 500,
+      "astronomical_year": 500
+    },
+    {
+      "file": "world_600.geojson",
+      "sha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a",
+      "source_year": 600,
+      "astronomical_year": 600
+    },
+    {
+      "file": "world_700.geojson",
+      "sha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38",
+      "source_year": 700,
+      "astronomical_year": 700
+    },
+    {
+      "file": "world_800.geojson",
+      "sha256": "9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c",
+      "source_year": 800,
+      "astronomical_year": 800
+    },
+    {
+      "file": "world_900.geojson",
+      "sha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+      "source_year": 900,
+      "astronomical_year": 900
+    },
+    {
+      "file": "world_1000.geojson",
+      "sha256": "2140776fd7888c1d4a30e8f6debdaf56192cdf49587f3b6bb67841930ca82d29",
+      "source_year": 1000,
+      "astronomical_year": 1000
+    },
+    {
+      "file": "world_1100.geojson",
+      "sha256": "8b038ee5ec8f032d01a67293e7cf08b7bd3ed58e00defc06af9144e67e708a86",
+      "source_year": 1100,
+      "astronomical_year": 1100
+    },
+    {
+      "file": "world_1200.geojson",
+      "sha256": "2d6913ecedb38e269e41d249c87874d81e3e8d7351754821f57e627442d91525",
+      "source_year": 1200,
+      "astronomical_year": 1200
+    },
+    {
+      "file": "world_1279.geojson",
+      "sha256": "839f48f61d984dd58f70f312dfe626c3988d4d4822e78d68a123fd0784e852e2",
+      "source_year": 1279,
+      "astronomical_year": 1279
+    },
+    {
+      "file": "world_1300.geojson",
+      "sha256": "a27985e60d936611d7933f0c30f1b52c36ef4a17225dfac25fb96abe40fa496f",
+      "source_year": 1300,
+      "astronomical_year": 1300
+    },
+    {
+      "file": "world_1400.geojson",
+      "sha256": "c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec",
+      "source_year": 1400,
+      "astronomical_year": 1400
+    },
+    {
+      "file": "world_1492.geojson",
+      "sha256": "b0e6b0f299fc7b191fd427547c83dec9808087d390304a37a32bc0357e97c1b8",
+      "source_year": 1492,
+      "astronomical_year": 1492
+    },
+    {
+      "file": "world_1500.geojson",
+      "sha256": "d01ffc9b80629787f13d2b1c2f881f005bc0164433548e30f5c058ddee0bfc7b",
+      "source_year": 1500,
+      "astronomical_year": 1500
+    },
+    {
+      "file": "world_1530.geojson",
+      "sha256": "984005809f085285a48318600e3a198274eb4679f5360ebfaead29da496e9f5b",
+      "source_year": 1530,
+      "astronomical_year": 1530
+    },
+    {
+      "file": "world_1600.geojson",
+      "sha256": "7285c07eeedfda9048de5354ea1744d327b07614085e9696c5802bb54c86849c",
+      "source_year": 1600,
+      "astronomical_year": 1600
+    },
+    {
+      "file": "world_1650.geojson",
+      "sha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+      "source_year": 1650,
+      "astronomical_year": 1650
+    },
+    {
+      "file": "world_1700.geojson",
+      "sha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+      "source_year": 1700,
+      "astronomical_year": 1700
+    },
+    {
+      "file": "world_1715.geojson",
+      "sha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+      "source_year": 1715,
+      "astronomical_year": 1715
+    },
+    {
+      "file": "world_1783.geojson",
+      "sha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+      "source_year": 1783,
+      "astronomical_year": 1783
+    },
+    {
+      "file": "world_1800.geojson",
+      "sha256": "51fcb6b1f1c361956a3fc24a9c646844ff88754842aa113780428fb4abcd5f2c",
+      "source_year": 1800,
+      "astronomical_year": 1800
+    },
+    {
+      "file": "world_1815.geojson",
+      "sha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+      "source_year": 1815,
+      "astronomical_year": 1815
+    },
+    {
+      "file": "world_1878.geojson",
+      "sha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+      "source_year": 1878,
+      "astronomical_year": 1878
+    },
+    {
+      "file": "world_1880.geojson",
+      "sha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+      "source_year": 1880,
+      "astronomical_year": 1880
+    },
+    {
+      "file": "world_1900.geojson",
+      "sha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+      "source_year": 1900,
+      "astronomical_year": 1900
+    }
+  ],
+  "publication": "STAGED — NOT PUBLISHED"
+}

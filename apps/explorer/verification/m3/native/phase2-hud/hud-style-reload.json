@@ -1,0 +1,929 @@
+{
+  "schema": "chronicle-local-style-reload-v1",
+  "status": "PASS",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "width": 1440,
+    "height": 1000,
+    "devicePixelRatio": 1,
+    "reducedMotion": true,
+    "visibility": "visible",
+    "physicalScanout": "NOT_RUN"
+  },
+  "before": {
+    "mapInstances": 1,
+    "mapInstanceCount": 1,
+    "sourceCount": 4,
+    "sourceLimit": 7,
+    "researchSourceLimit": 1,
+    "researchOverlay": {
+      "features": 44,
+      "visible": 4
+    },
+    "historicalSourceLimit": 5,
+    "contextRasterSourceLimit": 1,
+    "detailContext": {
+      "rasterCache": 0,
+      "rasterPending": 0,
+      "rasterTilesDrawn": 0,
+      "rasterErrors": 0,
+      "terrainZoom": null,
+      "waterPaths": 2596,
+      "visibleCityLabels": 80,
+      "selectedPointVisible": false,
+      "populationYear": null,
+      "reducedMotion": true,
+      "activeCityTweens": 0,
+      "trackedCityRadii": 107,
+      "candidateProjectionBuilds": 9,
+      "limits": {
+        "rasterTiles": 48,
+        "rasterRequests": 4,
+        "cityLabels": 80,
+        "populationCells": 20000,
+        "jsonBytes": 16777216
+      },
+      "nativeTerrainSource": true,
+      "terrainVisible": true,
+      "terrainError": null
+    },
+    "teaching": {
+      "activeFeatures": 0,
+      "drawnFeatures": 0,
+      "rejectedFeatures": 0,
+      "vertices": 0,
+      "selectedId": null,
+      "selectedLabelVisible": false,
+      "categories": {
+        "trade": 0,
+        "diffusion": 0,
+        "power": 0,
+        "ecology": 0,
+        "belief": 0,
+        "language": 0
+      },
+      "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+    },
+    "interpretiveBorders": true,
+    "styleReload": {
+      "listeners": 1,
+      "events": 1,
+      "restorations": 1,
+      "failures": 0,
+      "pending": false
+    },
+    "reducedMotion": true,
+    "mountedSourceIds": [
+      "chronicle-detail-terrain",
+      "chronicle-epoch-2",
+      "chronicle-land",
+      "chronicle-research-hud"
+    ],
+    "mountedLayerIds": [
+      "ocean",
+      "physical-land",
+      "detail-relief",
+      "physical-coastline",
+      "chronicle-epoch-2-fill-context",
+      "chronicle-epoch-2-border-context",
+      "chronicle-epoch-2-fill-cultural",
+      "chronicle-epoch-2-border-cultural",
+      "chronicle-epoch-2-fill-political",
+      "chronicle-epoch-2-border-political",
+      "chronicle-epoch-2-hover",
+      "chronicle-epoch-2-hover-outline",
+      "chronicle-epoch-2-selection",
+      "chronicle-research-hud-polygons",
+      "chronicle-research-hud-points"
+    ],
+    "styleLoaded": true,
+    "tilesLoaded": true,
+    "activeStyleState": {
+      "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+      "generation": 2,
+      "mainArchiveHash": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+      "supplementArchiveHash": null,
+      "selected": []
+    },
+    "readinessToken": null,
+    "webgl": {
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "classification": "native-renderer-reported",
+      "evidence": "Renderer string read from the actual MapLibre canvas.",
+      "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+    },
+    "epochSourceGroups": 1,
+    "committedGeneration": 2,
+    "pendingGeneration": null,
+    "cameraRevision": 7,
+    "rangeRequests": 16,
+    "rangeBytes": 262144,
+    "outstandingRanges": 0,
+    "cachedChunks": 16,
+    "warmCache": {
+      "budget": {
+        "compressedBytes": 1048576,
+        "idleArchives": 4,
+        "chunksPerArchive": 8,
+        "directoryEntriesPerArchive": 16,
+        "concurrentPrefetch": 2,
+        "headerRequestBytes": 16384,
+        "maxArchiveBytes": 1000000
+      },
+      "requests": 16,
+      "bytes": 262144,
+      "aborted": 0,
+      "outstanding": 0,
+      "peakOutstanding": 4,
+      "cacheHits": 1,
+      "cacheMisses": 29,
+      "sharedReads": 13,
+      "chunkEvictions": 0,
+      "archiveEvictions": 0,
+      "warmRetains": 0,
+      "coldRetains": 3,
+      "prefetchStarted": 3,
+      "prefetchCompleted": 3,
+      "prefetchAborted": 0,
+      "prefetchFailed": 0,
+      "activePrefetch": 0,
+      "peakPrefetch": 2,
+      "cachedBytes": 262144,
+      "peakCachedBytes": 262144,
+      "archives": 6,
+      "activeArchives": 2,
+      "idleArchives": 4,
+      "liveReferences": 2,
+      "cachedChunks": 16,
+      "entries": [
+        {
+          "url": "http://127.0.0.1:58094/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+          "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+          "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+          "refs": 1,
+          "prefetch": 0,
+          "cachedChunks": 5,
+          "cachedBytes": 81920
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+          "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+          "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 6,
+          "cachedBytes": 98304
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_600/geometry.419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7.pmtiles",
+          "edition": "global-history-world_600-da7a4b7-global-basemap-chronology-semantics-v5",
+          "sha256": "419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+          "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+          "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+          "refs": 1,
+          "prefetch": 0,
+          "cachedChunks": 2,
+          "cachedBytes": 32768
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        }
+      ]
+    },
+    "hoverQueries": 0,
+    "reusedScenes": 0,
+    "createdLabelNodes": 24,
+    "presentationUpdates": 0,
+    "renderCallbacks": 223,
+    "lastRenderCallback": {
+      "at": 4016.7000000011176,
+      "generation": 2,
+      "time": 14610
+    },
+    "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+    "view": {
+      "longitude": -104.09798007142511,
+      "latitude": 23.169076506728643,
+      "zoom": 5.80944625462196,
+      "moving": false
+    },
+    "labelNodeCount": 1,
+    "labelNodeLimit": 64,
+    "tileCacheLimitPerSource": 64
+  },
+  "after": {
+    "mapInstances": 1,
+    "mapInstanceCount": 1,
+    "sourceCount": 4,
+    "sourceLimit": 7,
+    "researchSourceLimit": 1,
+    "researchOverlay": {
+      "features": 44,
+      "visible": 4
+    },
+    "historicalSourceLimit": 5,
+    "contextRasterSourceLimit": 1,
+    "detailContext": {
+      "rasterCache": 0,
+      "rasterPending": 0,
+      "rasterTilesDrawn": 0,
+      "rasterErrors": 0,
+      "terrainZoom": null,
+      "waterPaths": 2596,
+      "visibleCityLabels": 80,
+      "selectedPointVisible": false,
+      "populationYear": null,
+      "reducedMotion": true,
+      "activeCityTweens": 0,
+      "trackedCityRadii": 107,
+      "candidateProjectionBuilds": 9,
+      "limits": {
+        "rasterTiles": 48,
+        "rasterRequests": 4,
+        "cityLabels": 80,
+        "populationCells": 20000,
+        "jsonBytes": 16777216
+      },
+      "nativeTerrainSource": true,
+      "terrainVisible": true,
+      "terrainError": null
+    },
+    "teaching": {
+      "activeFeatures": 0,
+      "drawnFeatures": 0,
+      "rejectedFeatures": 0,
+      "vertices": 0,
+      "selectedId": null,
+      "selectedLabelVisible": false,
+      "categories": {
+        "trade": 0,
+        "diffusion": 0,
+        "power": 0,
+        "ecology": 0,
+        "belief": 0,
+        "language": 0
+      },
+      "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+    },
+    "interpretiveBorders": true,
+    "styleReload": {
+      "listeners": 1,
+      "events": 3,
+      "restorations": 3,
+      "failures": 0,
+      "pending": false
+    },
+    "reducedMotion": true,
+    "mountedSourceIds": [
+      "chronicle-detail-terrain",
+      "chronicle-epoch-2",
+      "chronicle-land",
+      "chronicle-research-hud"
+    ],
+    "mountedLayerIds": [
+      "ocean",
+      "physical-land",
+      "detail-relief",
+      "physical-coastline",
+      "chronicle-epoch-2-fill-context",
+      "chronicle-epoch-2-border-context",
+      "chronicle-epoch-2-fill-cultural",
+      "chronicle-epoch-2-border-cultural",
+      "chronicle-epoch-2-fill-political",
+      "chronicle-epoch-2-border-political",
+      "chronicle-epoch-2-hover",
+      "chronicle-epoch-2-hover-outline",
+      "chronicle-epoch-2-selection",
+      "chronicle-research-hud-polygons",
+      "chronicle-research-hud-points"
+    ],
+    "styleLoaded": true,
+    "tilesLoaded": true,
+    "activeStyleState": {
+      "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+      "generation": 2,
+      "mainArchiveHash": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+      "supplementArchiveHash": null,
+      "selected": []
+    },
+    "readinessToken": null,
+    "webgl": {
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "classification": "native-renderer-reported",
+      "evidence": "Renderer string read from the actual MapLibre canvas.",
+      "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+    },
+    "epochSourceGroups": 1,
+    "committedGeneration": 2,
+    "pendingGeneration": null,
+    "cameraRevision": 7,
+    "rangeRequests": 16,
+    "rangeBytes": 262144,
+    "outstandingRanges": 0,
+    "cachedChunks": 16,
+    "warmCache": {
+      "budget": {
+        "compressedBytes": 1048576,
+        "idleArchives": 4,
+        "chunksPerArchive": 8,
+        "directoryEntriesPerArchive": 16,
+        "concurrentPrefetch": 2,
+        "headerRequestBytes": 16384,
+        "maxArchiveBytes": 1000000
+      },
+      "requests": 16,
+      "bytes": 262144,
+      "aborted": 0,
+      "outstanding": 0,
+      "peakOutstanding": 4,
+      "cacheHits": 13,
+      "cacheMisses": 29,
+      "sharedReads": 13,
+      "chunkEvictions": 0,
+      "archiveEvictions": 0,
+      "warmRetains": 0,
+      "coldRetains": 3,
+      "prefetchStarted": 3,
+      "prefetchCompleted": 3,
+      "prefetchAborted": 0,
+      "prefetchFailed": 0,
+      "activePrefetch": 0,
+      "peakPrefetch": 2,
+      "cachedBytes": 262144,
+      "peakCachedBytes": 262144,
+      "archives": 6,
+      "activeArchives": 2,
+      "idleArchives": 4,
+      "liveReferences": 2,
+      "cachedChunks": 16,
+      "entries": [
+        {
+          "url": "http://127.0.0.1:58094/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+          "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+          "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+          "refs": 1,
+          "prefetch": 0,
+          "cachedChunks": 5,
+          "cachedBytes": 81920
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+          "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+          "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 6,
+          "cachedBytes": 98304
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_600/geometry.419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7.pmtiles",
+          "edition": "global-history-world_600-da7a4b7-global-basemap-chronology-semantics-v5",
+          "sha256": "419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+          "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+          "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+          "refs": 1,
+          "prefetch": 0,
+          "cachedChunks": 2,
+          "cachedBytes": 32768
+        },
+        {
+          "url": "http://127.0.0.1:58094/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+          "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+          "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+          "refs": 0,
+          "prefetch": 0,
+          "cachedChunks": 1,
+          "cachedBytes": 16384
+        }
+      ]
+    },
+    "hoverQueries": 0,
+    "reusedScenes": 0,
+    "createdLabelNodes": 24,
+    "presentationUpdates": 0,
+    "renderCallbacks": 243,
+    "lastRenderCallback": {
+      "at": 4160.0999999996275,
+      "generation": 2,
+      "time": 14610
+    },
+    "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+    "view": {
+      "longitude": -104.09798007142511,
+      "latitude": 23.169076506728643,
+      "zoom": 5.80944625462196,
+      "moving": false
+    },
+    "labelNodeCount": 1,
+    "labelNodeLimit": 64,
+    "tileCacheLimitPerSource": 64
+  },
+  "steps": [
+    {
+      "appearance": "contrast",
+      "elapsedMs": 78.30000000074506,
+      "sameCanvas": true,
+      "diagnostics": {
+        "mapInstances": 1,
+        "mapInstanceCount": 1,
+        "sourceCount": 4,
+        "sourceLimit": 7,
+        "researchSourceLimit": 1,
+        "researchOverlay": {
+          "features": 44,
+          "visible": 4
+        },
+        "historicalSourceLimit": 5,
+        "contextRasterSourceLimit": 1,
+        "detailContext": {
+          "rasterCache": 0,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 0,
+          "rasterErrors": 0,
+          "terrainZoom": null,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": true,
+          "activeCityTweens": 0,
+          "trackedCityRadii": 107,
+          "candidateProjectionBuilds": 9,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          },
+          "nativeTerrainSource": true,
+          "terrainVisible": true,
+          "terrainError": null
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "styleReload": {
+          "listeners": 1,
+          "events": 2,
+          "restorations": 2,
+          "failures": 0,
+          "pending": false
+        },
+        "reducedMotion": true,
+        "mountedSourceIds": [
+          "chronicle-detail-terrain",
+          "chronicle-epoch-2",
+          "chronicle-land",
+          "chronicle-research-hud"
+        ],
+        "mountedLayerIds": [
+          "ocean",
+          "physical-land",
+          "detail-relief",
+          "physical-coastline",
+          "chronicle-epoch-2-fill-context",
+          "chronicle-epoch-2-border-context",
+          "chronicle-epoch-2-fill-cultural",
+          "chronicle-epoch-2-border-cultural",
+          "chronicle-epoch-2-fill-political",
+          "chronicle-epoch-2-border-political",
+          "chronicle-epoch-2-hover",
+          "chronicle-epoch-2-hover-outline",
+          "chronicle-epoch-2-selection",
+          "chronicle-research-hud-polygons",
+          "chronicle-research-hud-points"
+        ],
+        "styleLoaded": true,
+        "tilesLoaded": true,
+        "activeStyleState": {
+          "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+          "generation": 2,
+          "mainArchiveHash": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+          "supplementArchiveHash": null,
+          "selected": []
+        },
+        "readinessToken": null,
+        "webgl": {
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "vendor": "Google Inc. (NVIDIA)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "classification": "native-renderer-reported",
+          "evidence": "Renderer string read from the actual MapLibre canvas.",
+          "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+        },
+        "epochSourceGroups": 1,
+        "committedGeneration": 2,
+        "pendingGeneration": null,
+        "cameraRevision": 7,
+        "rangeRequests": 16,
+        "rangeBytes": 262144,
+        "outstandingRanges": 0,
+        "cachedChunks": 16,
+        "warmCache": {
+          "budget": {
+            "compressedBytes": 1048576,
+            "idleArchives": 4,
+            "chunksPerArchive": 8,
+            "directoryEntriesPerArchive": 16,
+            "concurrentPrefetch": 2,
+            "headerRequestBytes": 16384,
+            "maxArchiveBytes": 1000000
+          },
+          "requests": 16,
+          "bytes": 262144,
+          "aborted": 0,
+          "outstanding": 0,
+          "peakOutstanding": 4,
+          "cacheHits": 7,
+          "cacheMisses": 29,
+          "sharedReads": 13,
+          "chunkEvictions": 0,
+          "archiveEvictions": 0,
+          "warmRetains": 0,
+          "coldRetains": 3,
+          "prefetchStarted": 3,
+          "prefetchCompleted": 3,
+          "prefetchAborted": 0,
+          "prefetchFailed": 0,
+          "activePrefetch": 0,
+          "peakPrefetch": 2,
+          "cachedBytes": 262144,
+          "peakCachedBytes": 262144,
+          "archives": 6,
+          "activeArchives": 2,
+          "idleArchives": 4,
+          "liveReferences": 2,
+          "cachedChunks": 16,
+          "entries": [
+            {
+              "url": "http://127.0.0.1:58094/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+              "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 5,
+              "cachedBytes": 81920
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+              "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_600/geometry.419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7.pmtiles",
+              "edition": "global-history-world_600-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+              "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+              "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 2,
+              "cachedBytes": 32768
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+              "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            }
+          ]
+        },
+        "hoverQueries": 0,
+        "reusedScenes": 0,
+        "createdLabelNodes": 24,
+        "presentationUpdates": 0,
+        "renderCallbacks": 234,
+        "lastRenderCallback": {
+          "at": 4100,
+          "generation": 2,
+          "time": 14610
+        },
+        "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+        "view": {
+          "longitude": -104.09798007142511,
+          "latitude": 23.169076506728643,
+          "zoom": 5.80944625462196,
+          "moving": false
+        },
+        "labelNodeCount": 1,
+        "labelNodeLimit": 64,
+        "tileCacheLimitPerSource": 64
+      },
+      "failures": []
+    },
+    {
+      "appearance": "paper",
+      "elapsedMs": 60.09999999962747,
+      "sameCanvas": true,
+      "diagnostics": {
+        "mapInstances": 1,
+        "mapInstanceCount": 1,
+        "sourceCount": 4,
+        "sourceLimit": 7,
+        "researchSourceLimit": 1,
+        "researchOverlay": {
+          "features": 44,
+          "visible": 4
+        },
+        "historicalSourceLimit": 5,
+        "contextRasterSourceLimit": 1,
+        "detailContext": {
+          "rasterCache": 0,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 0,
+          "rasterErrors": 0,
+          "terrainZoom": null,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": true,
+          "activeCityTweens": 0,
+          "trackedCityRadii": 107,
+          "candidateProjectionBuilds": 9,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          },
+          "nativeTerrainSource": true,
+          "terrainVisible": true,
+          "terrainError": null
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "styleReload": {
+          "listeners": 1,
+          "events": 3,
+          "restorations": 3,
+          "failures": 0,
+          "pending": false
+        },
+        "reducedMotion": true,
+        "mountedSourceIds": [
+          "chronicle-detail-terrain",
+          "chronicle-epoch-2",
+          "chronicle-land",
+          "chronicle-research-hud"
+        ],
+        "mountedLayerIds": [
+          "ocean",
+          "physical-land",
+          "detail-relief",
+          "physical-coastline",
+          "chronicle-epoch-2-fill-context",
+          "chronicle-epoch-2-border-context",
+          "chronicle-epoch-2-fill-cultural",
+          "chronicle-epoch-2-border-cultural",
+          "chronicle-epoch-2-fill-political",
+          "chronicle-epoch-2-border-political",
+          "chronicle-epoch-2-hover",
+          "chronicle-epoch-2-hover-outline",
+          "chronicle-epoch-2-selection",
+          "chronicle-research-hud-polygons",
+          "chronicle-research-hud-points"
+        ],
+        "styleLoaded": true,
+        "tilesLoaded": true,
+        "activeStyleState": {
+          "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+          "generation": 2,
+          "mainArchiveHash": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+          "supplementArchiveHash": null,
+          "selected": []
+        },
+        "readinessToken": null,
+        "webgl": {
+          "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x00002484) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "vendor": "Google Inc. (NVIDIA)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "classification": "native-renderer-reported",
+          "evidence": "Renderer string read from the actual MapLibre canvas.",
+          "physicalPerformanceProfile": "Not established by a renderer string; OS, driver and measured interaction receipt remain separate."
+        },
+        "epochSourceGroups": 1,
+        "committedGeneration": 2,
+        "pendingGeneration": null,
+        "cameraRevision": 7,
+        "rangeRequests": 16,
+        "rangeBytes": 262144,
+        "outstandingRanges": 0,
+        "cachedChunks": 16,
+        "warmCache": {
+          "budget": {
+            "compressedBytes": 1048576,
+            "idleArchives": 4,
+            "chunksPerArchive": 8,
+            "directoryEntriesPerArchive": 16,
+            "concurrentPrefetch": 2,
+            "headerRequestBytes": 16384,
+            "maxArchiveBytes": 1000000
+          },
+          "requests": 16,
+          "bytes": 262144,
+          "aborted": 0,
+          "outstanding": 0,
+          "peakOutstanding": 4,
+          "cacheHits": 13,
+          "cacheMisses": 29,
+          "sharedReads": 13,
+          "chunkEvictions": 0,
+          "archiveEvictions": 0,
+          "warmRetains": 0,
+          "coldRetains": 3,
+          "prefetchStarted": 3,
+          "prefetchCompleted": 3,
+          "prefetchAborted": 0,
+          "prefetchFailed": 0,
+          "activePrefetch": 0,
+          "peakPrefetch": 2,
+          "cachedBytes": 262144,
+          "peakCachedBytes": 262144,
+          "archives": 6,
+          "activeArchives": 2,
+          "idleArchives": 4,
+          "liveReferences": 2,
+          "cachedChunks": 16,
+          "entries": [
+            {
+              "url": "http://127.0.0.1:58094/integrated/global-physical-land.867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c.pmtiles",
+              "edition": "physical-base:867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "sha256": "867b1b86b5eb359876214d1eecbe32c5bfbd36b3144f7f025c976415c6be638c",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 5,
+              "cachedBytes": 81920
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_700/geometry.c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123.pmtiles",
+              "edition": "global-history-world_700-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "c582f7c696f427e5fcb4169c02dafd7e03d1b5cf962e079ab347ea139d98d123",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 6,
+              "cachedBytes": 98304
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_600/geometry.419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7.pmtiles",
+              "edition": "global-history-world_600-da7a4b7-global-basemap-chronology-semantics-v5",
+              "sha256": "419a8022f3a621ee75217a7cf771f2d69537493b5f3d7a1d5808cf8a0b71bec7",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_800/geometry.2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f.pmtiles",
+              "edition": "global-history-world_800-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "2e22d009d82a6cdf8e782b93a1e9da4c82628c050ba7527031c7370c8046ec7f",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_2010/geometry.f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc.pmtiles",
+              "edition": "global-history-world_2010-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "f57e9044c4b49feda8d787fec04d5e34a4eda25fae742ffcf97a1e22e732d9fc",
+              "refs": 1,
+              "prefetch": 0,
+              "cachedChunks": 2,
+              "cachedBytes": 32768
+            },
+            {
+              "url": "http://127.0.0.1:58094/global-history/observations/world_2000/geometry.709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89.pmtiles",
+              "edition": "global-history-world_2000-da7a4b7-global-basemap-semantics-v3",
+              "sha256": "709c477ccf068797f2a8db45ec5c9c982d651447627fd041dfa8d23754cc0d89",
+              "refs": 0,
+              "prefetch": 0,
+              "cachedChunks": 1,
+              "cachedBytes": 16384
+            }
+          ]
+        },
+        "hoverQueries": 0,
+        "reusedScenes": 0,
+        "createdLabelNodes": 24,
+        "presentationUpdates": 0,
+        "renderCallbacks": 243,
+        "lastRenderCallback": {
+          "at": 4160.0999999996275,
+          "generation": 2,
+          "time": 14610
+        },
+        "frameEvidence": "MapLibre render callbacks; not proof of physical presentation.",
+        "view": {
+          "longitude": -104.09798007142511,
+          "latitude": 23.169076506728643,
+          "zoom": 5.80944625462196,
+          "moving": false
+        },
+        "labelNodeCount": 1,
+        "labelNodeLimit": 64,
+        "tileCacheLimitPerSource": 64
+      },
+      "failures": []
+    }
+  ],
+  "failures": [],
+  "meaning": "Actual MapLibre style reloads, visible-tile readiness and owned-resource counts. Heap/GPU memory leak certification and physical hardware remain NOT_RUN."
+}

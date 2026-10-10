@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "id": "un-wup-2025-mexico-four",
+  "edition": "chronicle-teaching-local-2026-09-27/un-wup-2025-f21-v1",
+  "definition": "Population residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.",
+  "coverageNote": "Four selected Mexican urban centres, 1975–2025, at five-year checkpoints already retained by Chronicle. Not all cities or annual values. Original values are estimates in thousands, converted to rounded persons; no uncertainty interval is supplied. Footprints are not established as constant. No interpolation, pooled totals, or growth rates. Other historical-source series and future projections are excluded.",
+  "source": {
+    "id": "un-wup-2025",
+    "title": "United Nations, Department of Economic and Social Affairs, Population Division (2025). World Urbanization Prospects: The 2025 Revision, Online Edition. File 21.",
+    "url": "https://population.un.org/wup/assets/Download/Cities/WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+    "edition": "POP/DB/WUP/Rev.2025/F21",
+    "sha256": "3a96030d87aec6c1c50f658d5321067d6345e1ab936c5d2854524f972caa75c0",
+    "license": "CC BY 3.0 IGO",
+    "rights": "authorized-local-preview",
+    "file": "WUP2025-F21-DEGURBA-Cities_Pop.xlsx",
+    "sheet": "Data",
+    "sourceUnit": "thousands of persons",
+    "conversion": "round(value * 1000)"
+  },
+  "canonical": {
+    "path": "public/history/cities.json",
+    "sha256": "ebc9a6ef20b1edfa3c957995b17e57c4b061a6ad89727ff1a2e0ac0983b53be5"
+  },
+  "entities": [
+    {
+      "id": "hist-mexicocity-faaf2abd",
+      "label": "Mexico City",
+      "coordinates": [
+        -99.1049386818456,
+        19.4448241307528
+      ],
+      "geographicDefinition": "Population residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.",
+      "definitionStatus": "explicit",
+      "spatialComparability": "definition-only"
+    },
+    {
+      "id": "hist-guadalajara-86f202e4",
+      "label": "Guadalajara",
+      "coordinates": [
+        -103.347430134243,
+        20.6567869138028
+      ],
+      "geographicDefinition": "Population residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.",
+      "definitionStatus": "explicit",
+      "spatialComparability": "definition-only"
+    },
+    {
+      "id": "hist-monterrey-f375b062",
+      "label": "Monterrey",
+      "coordinates": [
+        -100.288026130133,
+        25.7141114579572
+      ],
+      "geographicDefinition": "Population residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.",
+      "definitionStatus": "explicit",
+      "spatialComparability": "definition-only"
+    },
+    {
+      "id": "hist-puebla-d4160425",
+      "label": "Puebla",
+      "coordinates": [
+        -98.2035936090208,
+        19.0413348607655
+      ],
+      "geographicDefinition": "Population residing in DEGURBA urban centres at mid-year. Cities use population, density and contiguity criteria (at least 1,500 inhabitants/km² and 50,000 inhabitants). This is not a municipal administrative population; constant geographic footprints across years are not established by the retained metadata.",
+      "definitionStatus": "explicit",
+      "spatialComparability": "definition-only"
+    }
+  ],
+  "observations": [
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:1975",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 1975,
+      "value": 11119402,
+      "sourceValue": 11119.402,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "L",
+        "cell": "L11157",
+        "jsonPointer": "/cities/983/population/26"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:1980",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 1980,
+      "value": 13216145,
+      "sourceValue": 13216.145,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "Q",
+        "cell": "Q11157",
+        "jsonPointer": "/cities/983/population/27"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:1985",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 1985,
+      "value": 14354636,
+      "sourceValue": 14354.636,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "V",
+        "cell": "V11157",
+        "jsonPointer": "/cities/983/population/28"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:1990",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 1990,
+      "value": 15602020,
+      "sourceValue": 15602.02,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "AA",
+        "cell": "AA11157",
+        "jsonPointer": "/cities/983/population/29"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:1995",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 1995,
+      "value": 16617208,
+      "sourceValue": 16617.208,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "AF",
+        "cell": "AF11157",
+        "jsonPointer": "/cities/983/population/30"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:2000",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 2000,
+      "value": 17598162,
+      "sourceValue": 17598.162,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "AK",
+        "cell": "AK11157",
+        "jsonPointer": "/cities/983/population/31"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:2005",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 2005,
+      "value": 17873392,
+      "sourceValue": 17873.392,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "AP",
+        "cell": "AP11157",
+        "jsonPointer": "/cities/983/population/32"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:2010",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 2010,
+      "value": 18329145,
+      "sourceValue": 18329.145,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "AU",
+        "cell": "AU11157",
+        "jsonPointer": "/cities/983/population/33"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:2015",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 2015,
+      "value": 18955463,
+      "sourceValue": 18955.463,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "AZ",
+        "cell": "AZ11157",
+        "jsonPointer": "/cities/983/population/34"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:2020",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 2020,
+      "value": 17610488,
+      "sourceValue": 17610.488,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "BE",
+        "cell": "BE11157",
+        "jsonPointer": "/cities/983/population/35"
+      }
+    },
+    {
+      "id": "hist-mexicocity-faaf2abd:un-wup-2025:2025",
+      "entityId": "hist-mexicocity-faaf2abd",
+      "year": 2025,
+      "value": 17734212,
+      "sourceValue": 17734.212,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11157,
+        "column": "BJ",
+        "cell": "BJ11157",
+        "jsonPointer": "/cities/983/population/36"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:1975",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 1975,
+      "value": 2010388,
+      "sourceValue": 2010.388,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "L",
+        "cell": "L11185",
+        "jsonPointer": "/cities/547/population/9"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:1980",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 1980,
+      "value": 2400772,
+      "sourceValue": 2400.772,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "Q",
+        "cell": "Q11185",
+        "jsonPointer": "/cities/547/population/10"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:1985",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 1985,
+      "value": 2726458,
+      "sourceValue": 2726.458,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "V",
+        "cell": "V11185",
+        "jsonPointer": "/cities/547/population/11"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:1990",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 1990,
+      "value": 3119232,
+      "sourceValue": 3119.232,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "AA",
+        "cell": "AA11185",
+        "jsonPointer": "/cities/547/population/12"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:1995",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 1995,
+      "value": 3356717,
+      "sourceValue": 3356.717,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "AF",
+        "cell": "AF11185",
+        "jsonPointer": "/cities/547/population/13"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:2000",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 2000,
+      "value": 3592819,
+      "sourceValue": 3592.819,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "AK",
+        "cell": "AK11185",
+        "jsonPointer": "/cities/547/population/14"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:2005",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 2005,
+      "value": 3783116,
+      "sourceValue": 3783.116,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "AP",
+        "cell": "AP11185",
+        "jsonPointer": "/cities/547/population/15"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:2010",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 2010,
+      "value": 4006827,
+      "sourceValue": 4006.827,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "AU",
+        "cell": "AU11185",
+        "jsonPointer": "/cities/547/population/16"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:2015",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 2015,
+      "value": 4181791,
+      "sourceValue": 4181.791,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "AZ",
+        "cell": "AZ11185",
+        "jsonPointer": "/cities/547/population/17"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:2020",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 2020,
+      "value": 4060188,
+      "sourceValue": 4060.188,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "BE",
+        "cell": "BE11185",
+        "jsonPointer": "/cities/547/population/18"
+      }
+    },
+    {
+      "id": "hist-guadalajara-86f202e4:un-wup-2025:2025",
+      "entityId": "hist-guadalajara-86f202e4",
+      "year": 2025,
+      "value": 4135440,
+      "sourceValue": 4135.44,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11185,
+        "column": "BJ",
+        "cell": "BJ11185",
+        "jsonPointer": "/cities/547/population/19"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:1975",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 1975,
+      "value": 1536823,
+      "sourceValue": 1536.823,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "L",
+        "cell": "L11229",
+        "jsonPointer": "/cities/1005/population/2"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:1980",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 1980,
+      "value": 2001466,
+      "sourceValue": 2001.466,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "Q",
+        "cell": "Q11229",
+        "jsonPointer": "/cities/1005/population/3"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:1985",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 1985,
+      "value": 2320400,
+      "sourceValue": 2320.4,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "V",
+        "cell": "V11229",
+        "jsonPointer": "/cities/1005/population/4"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:1990",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 1990,
+      "value": 2660731,
+      "sourceValue": 2660.731,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "AA",
+        "cell": "AA11229",
+        "jsonPointer": "/cities/1005/population/5"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:1995",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 1995,
+      "value": 2951081,
+      "sourceValue": 2951.081,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "AF",
+        "cell": "AF11229",
+        "jsonPointer": "/cities/1005/population/6"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:2000",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 2000,
+      "value": 3286567,
+      "sourceValue": 3286.567,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "AK",
+        "cell": "AK11229",
+        "jsonPointer": "/cities/1005/population/7"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:2005",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 2005,
+      "value": 3495558,
+      "sourceValue": 3495.558,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "AP",
+        "cell": "AP11229",
+        "jsonPointer": "/cities/1005/population/8"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:2010",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 2010,
+      "value": 3726579,
+      "sourceValue": 3726.579,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "AU",
+        "cell": "AU11229",
+        "jsonPointer": "/cities/1005/population/9"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:2015",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 2015,
+      "value": 3881433,
+      "sourceValue": 3881.433,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "AZ",
+        "cell": "AZ11229",
+        "jsonPointer": "/cities/1005/population/10"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:2020",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 2020,
+      "value": 3839460,
+      "sourceValue": 3839.46,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "BE",
+        "cell": "BE11229",
+        "jsonPointer": "/cities/1005/population/11"
+      }
+    },
+    {
+      "id": "hist-monterrey-f375b062:un-wup-2025:2025",
+      "entityId": "hist-monterrey-f375b062",
+      "year": 2025,
+      "value": 3938015,
+      "sourceValue": 3938.015,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11229,
+        "column": "BJ",
+        "cell": "BJ11229",
+        "jsonPointer": "/cities/1005/population/12"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:1975",
+      "entityId": "hist-puebla-d4160425",
+      "year": 1975,
+      "value": 576518,
+      "sourceValue": 576.518,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "L",
+        "cell": "L11249",
+        "jsonPointer": "/cities/1225/population/16"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:1980",
+      "entityId": "hist-puebla-d4160425",
+      "year": 1980,
+      "value": 698218,
+      "sourceValue": 698.218,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "Q",
+        "cell": "Q11249",
+        "jsonPointer": "/cities/1225/population/17"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:1985",
+      "entityId": "hist-puebla-d4160425",
+      "year": 1985,
+      "value": 928274,
+      "sourceValue": 928.274,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "V",
+        "cell": "V11249",
+        "jsonPointer": "/cities/1225/population/18"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:1990",
+      "entityId": "hist-puebla-d4160425",
+      "year": 1990,
+      "value": 1378178,
+      "sourceValue": 1378.178,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "AA",
+        "cell": "AA11249",
+        "jsonPointer": "/cities/1225/population/19"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:1995",
+      "entityId": "hist-puebla-d4160425",
+      "year": 1995,
+      "value": 1529664,
+      "sourceValue": 1529.664,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "AF",
+        "cell": "AF11249",
+        "jsonPointer": "/cities/1225/population/20"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:2000",
+      "entityId": "hist-puebla-d4160425",
+      "year": 2000,
+      "value": 1671066,
+      "sourceValue": 1671.066,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "AK",
+        "cell": "AK11249",
+        "jsonPointer": "/cities/1225/population/21"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:2005",
+      "entityId": "hist-puebla-d4160425",
+      "year": 2005,
+      "value": 1777649,
+      "sourceValue": 1777.649,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "AP",
+        "cell": "AP11249",
+        "jsonPointer": "/cities/1225/population/22"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:2010",
+      "entityId": "hist-puebla-d4160425",
+      "year": 2010,
+      "value": 1887208,
+      "sourceValue": 1887.208,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "AU",
+        "cell": "AU11249",
+        "jsonPointer": "/cities/1225/population/23"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:2015",
+      "entityId": "hist-puebla-d4160425",
+      "year": 2015,
+      "value": 1969802,
+      "sourceValue": 1969.802,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "AZ",
+        "cell": "AZ11249",
+        "jsonPointer": "/cities/1225/population/24"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:2020",
+      "entityId": "hist-puebla-d4160425",
+      "year": 2020,
+      "value": 1920367,
+      "sourceValue": 1920.367,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "BE",
+        "cell": "BE11249",
+        "jsonPointer": "/cities/1225/population/25"
+      }
+    },
+    {
+      "id": "hist-puebla-d4160425:un-wup-2025:2025",
+      "entityId": "hist-puebla-d4160425",
+      "year": 2025,
+      "value": 1947971,
+      "sourceValue": 1947.971,
+      "unit": "persons",
+      "precision": "year",
+      "dateMeaning": "mid-year estimate",
+      "evidenceType": "estimate",
+      "reviewStatus": "source-attributed",
+      "uncertainty": null,
+      "locator": {
+        "row": 11249,
+        "column": "BJ",
+        "cell": "BJ11249",
+        "jsonPointer": "/cities/1225/population/26"
+      }
+    }
+  ]
+}

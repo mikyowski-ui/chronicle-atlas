@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "frozenBeforeExecution": true,
+  "task": "Wave B British Isles PMTiles derivative from the pinned regional mapping",
+  "sourceStatus": "Original compiled archives could not be materialized (three HTTP 502 responses); regenerate assignments with the unchanged original rasterizer, without database writes.",
+  "priorExactResult": "../../fixtures/wave-b-prior-exact-result.json",
+  "priorAggregateLimitsUnchanged": true,
+  "workers": 1,
+  "batchFeatures": 50,
+  "worker": {"inputBytes": 8388608, "vertices": 250000, "candidateCells": 65536, "outputBytes": 33554432, "deadlineMs": 60000, "oldHeapMiB": 256},
+  "caps": {"snapshots": 31, "sourceFeatures": 123, "featuresPerArchive": 1000, "archiveBytes": 1000000, "archiveTotalBytes": 31000000, "workingProcessRssBytes": 1073741824, "manifestBytes": 65536, "metadataBytes": 262144, "retainedDerivativeSourceBytes": 16777216},
+  "execution": "Read one snapshot at a time; one raster worker at a time. Reuse exact repeated geometry results. No simplification, snapping, buffering, interpolation, external collection, ledger mutation or historical publication.",
+  "accounting": "Prior cumulative usage from the archived exact-result report remains the baseline. Charge regenerated features and coverage memberships again conservatively; charge all new PMTiles and derivative source bytes; no new ledger assertions or database bytes. Stop if any existing aggregate or worker cap is exceeded."
+}

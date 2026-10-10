@@ -1,0 +1,2746 @@
+{
+  "status": "FAIL",
+  "workload": {
+    "observations": 44,
+    "entities": 4,
+    "interactions": 400,
+    "cursorChanges": 200,
+    "cursorYears": [
+      2000,
+      2001
+    ],
+    "replaceCloseCycles": 20,
+    "mountDisposeCycles": 20,
+    "lifecycleMeaning": "20 result close/reopen cycles plus 20 hidden complete view/controller mount/dispose cycles on the unchanged host map."
+  },
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "viewport": [
+      1363,
+      936
+    ],
+    "devicePixelRatio": 1,
+    "renderer": {
+      "detail": {
+        "rasterCache": 44,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 25,
+        "rasterErrors": 0,
+        "terrainZoom": 5,
+        "waterPaths": 2596,
+        "visibleCityLabels": 80,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "reducedMotion": false,
+        "activeCityTweens": 0,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        }
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "renderer": "Canvas 2D",
+      "mapInstances": 0,
+      "drawCount": 29,
+      "recentDraws": 29,
+      "drawP95Ms": 164.8000000002794,
+      "activeParts": 486,
+      "baseFeatures": 143,
+      "baseProjectionBuilds": 7,
+      "cachedBasePaths": 143,
+      "territoryProjectionBuilds": 7,
+      "cachedTerritoryPaths": 486,
+      "geometryProjectionBuilds": 1458,
+      "selectedParts": 0,
+      "hoveredParts": 0,
+      "width": 1363,
+      "height": 721,
+      "pixelRatio": 1,
+      "lastDrawAt": 50264.69999999972,
+      "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+      "view": {
+        "longitude": -110.66092514898509,
+        "latitude": 21.214264340819568,
+        "zoom": 4.2,
+        "moving": false
+      },
+      "hostWork": [
+        {
+          "stage": "card",
+          "calls": 3,
+          "totalMs": 0.5,
+          "retained": 3,
+          "p95Ms": 0.5,
+          "maximumMs": 0.5
+        },
+        {
+          "stage": "teaching",
+          "calls": 3,
+          "totalMs": 9.300000000279397,
+          "retained": 3,
+          "p95Ms": 9.300000000279397,
+          "maximumMs": 9.300000000279397
+        },
+        {
+          "stage": "cursor",
+          "calls": 2,
+          "totalMs": 191.70000000018626,
+          "retained": 2,
+          "p95Ms": 191.60000000009313,
+          "maximumMs": 191.60000000009313
+        },
+        {
+          "stage": "commit",
+          "calls": 1,
+          "totalMs": 12.300000000279397,
+          "retained": 1,
+          "p95Ms": 12.300000000279397,
+          "maximumMs": 12.300000000279397
+        }
+      ]
+    },
+    "reducedMotion": {
+      "mediaQueryMatches": false,
+      "computedStyles": [
+        {
+          "tag": "SECTION",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0.12s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0.12s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0.12s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0.12s",
+          "scrollBehavior": "auto"
+        },
+        {
+          "tag": "BUTTON",
+          "animationName": "none",
+          "animationDuration": "0s",
+          "transitionDuration": "0.12s",
+          "scrollBehavior": "auto"
+        }
+      ],
+      "runningAnimations": 0
+    }
+  },
+  "timing": {
+    "status": "FAIL",
+    "interactionCount": 200,
+    "cursorChanges": 200,
+    "endpoints": "Before normal selection plus host cursor action to two animation-frame opportunities after awaited host seek and coordinated DOM update",
+    "p95Ms": 281.29999999981374,
+    "minMs": 41.1999999997206,
+    "maxMs": 655.2999999998137,
+    "targetP95Ms": 100,
+    "targetMet": false,
+    "samplesMs": [
+      41.1999999997206,
+      141.8000000002794,
+      133.79999999981374,
+      136.8000000002794,
+      141.8000000002794,
+      146.1999999997206,
+      135,
+      322.1999999997206,
+      138,
+      128.79999999981374,
+      147.60000000009313,
+      127.89999999990687,
+      135.79999999981374,
+      152.10000000009313,
+      144.70000000018626,
+      178.70000000018626,
+      144.20000000018626,
+      130,
+      166.09999999962747,
+      137.90000000037253,
+      155,
+      143.10000000009313,
+      182.79999999981374,
+      133.5,
+      132.1999999997206,
+      144.5,
+      153.1999999997206,
+      169.89999999990687,
+      162.89999999990687,
+      124.89999999990687,
+      127.60000000009313,
+      214.79999999981374,
+      137,
+      161.89999999990687,
+      293.29999999981374,
+      376,
+      208.8000000002794,
+      458.40000000037253,
+      163.6999999997206,
+      201,
+      341.60000000009313,
+      655.2999999998137,
+      119.10000000009313,
+      119.3000000002794,
+      96.39999999990687,
+      116.29999999981374,
+      176.29999999981374,
+      139.5,
+      152.89999999990687,
+      116.89999999990687,
+      266.3000000002794,
+      149.09999999962747,
+      120.39999999990687,
+      93.20000000018626,
+      174.79999999981374,
+      176,
+      100.10000000009313,
+      130.5,
+      103.1999999997206,
+      133.40000000037253,
+      148.79999999981374,
+      132.79999999981374,
+      115.10000000009313,
+      118.5,
+      122.09999999962747,
+      132.70000000018626,
+      123.10000000009313,
+      120.20000000018626,
+      136.10000000009313,
+      133.10000000009313,
+      153,
+      131.09999999962747,
+      85.89999999990687,
+      124.10000000009313,
+      128.5,
+      122.60000000009313,
+      155.39999999990687,
+      117.6999999997206,
+      158.70000000018626,
+      122,
+      146.5,
+      118.8000000002794,
+      129.90000000037253,
+      124.10000000009313,
+      242.8000000002794,
+      239.6999999997206,
+      116.5,
+      106.6999999997206,
+      121.60000000009313,
+      130.29999999981374,
+      118.70000000018626,
+      145,
+      145.09999999962747,
+      195.89999999990687,
+      167.70000000018626,
+      124.39999999990687,
+      113.5,
+      172.79999999981374,
+      116.29999999981374,
+      144.20000000018626,
+      124.09999999962747,
+      124.3000000002794,
+      123.90000000037253,
+      136.39999999990687,
+      133.60000000009313,
+      100.40000000037253,
+      138,
+      156.89999999990687,
+      117.5,
+      118.60000000009313,
+      112.5,
+      101.6999999997206,
+      123.40000000037253,
+      100.10000000009313,
+      131.70000000018626,
+      127.10000000009313,
+      116.40000000037253,
+      115.40000000037253,
+      120.89999999990687,
+      117.89999999990687,
+      112.70000000018626,
+      111.59999999962747,
+      129.39999999990687,
+      141.3000000002794,
+      134.89999999990687,
+      130.6999999997206,
+      145.60000000009313,
+      107.79999999981374,
+      113.29999999981374,
+      88.3000000002794,
+      113.5,
+      138.3000000002794,
+      139.09999999962747,
+      108.10000000009313,
+      141.5,
+      127.89999999990687,
+      135.10000000009313,
+      123.60000000009313,
+      121.09999999962747,
+      129.39999999990687,
+      137.10000000009313,
+      148.60000000009313,
+      120.70000000018626,
+      144.89999999990687,
+      131.20000000018626,
+      119.3000000002794,
+      119.6999999997206,
+      127,
+      134.60000000009313,
+      136,
+      136.10000000009313,
+      112.20000000018626,
+      136.5,
+      138.29999999981374,
+      176.3000000002794,
+      165.5,
+      152.8000000002794,
+      166.6999999997206,
+      164.29999999981374,
+      139.10000000009313,
+      150.39999999990687,
+      121.79999999981374,
+      171.8000000002794,
+      175.20000000018626,
+      139.89999999990687,
+      138.29999999981374,
+      132.70000000018626,
+      142,
+      158.40000000037253,
+      111.70000000018626,
+      121.6999999997206,
+      93.20000000018626,
+      116.5,
+      220.39999999990687,
+      168.10000000009313,
+      281.29999999981374,
+      158.39999999990687,
+      163.6999999997206,
+      317.39999999990687,
+      294.60000000009313,
+      264.79999999981374,
+      180.89999999990687,
+      155.70000000018626,
+      216.8000000002794,
+      238.29999999981374,
+      218.60000000009313,
+      178.70000000018626,
+      106.79999999981374,
+      116.39999999990687,
+      153.89999999990687,
+      139.8000000002794,
+      112.5,
+      130,
+      147.8000000002794,
+      97.39999999990687,
+      124.10000000009313,
+      85.20000000018626,
+      152.8000000002794,
+      395,
+      315.70000000018626
+    ],
+    "resourceTimingCount": 0,
+    "rendererBefore": {
+      "detail": {
+        "rasterCache": 44,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 25,
+        "rasterErrors": 0,
+        "terrainZoom": 5,
+        "waterPaths": 2596,
+        "visibleCityLabels": 80,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "reducedMotion": false,
+        "activeCityTweens": 0,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        }
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "renderer": "Canvas 2D",
+      "mapInstances": 0,
+      "drawCount": 31,
+      "recentDraws": 31,
+      "drawP95Ms": 164.8000000002794,
+      "activeParts": 486,
+      "baseFeatures": 143,
+      "baseProjectionBuilds": 7,
+      "cachedBasePaths": 143,
+      "territoryProjectionBuilds": 7,
+      "cachedTerritoryPaths": 486,
+      "geometryProjectionBuilds": 1458,
+      "selectedParts": 0,
+      "hoveredParts": 0,
+      "width": 1363,
+      "height": 721,
+      "pixelRatio": 1,
+      "lastDrawAt": 51868.89999999991,
+      "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+      "view": {
+        "longitude": -110.66092514898509,
+        "latitude": 21.214264340819568,
+        "zoom": 4.2,
+        "moving": false
+      },
+      "hostWork": [
+        {
+          "stage": "card",
+          "calls": 9,
+          "totalMs": 0.6999999997206032,
+          "retained": 9,
+          "p95Ms": 0.5,
+          "maximumMs": 0.5
+        },
+        {
+          "stage": "teaching",
+          "calls": 9,
+          "totalMs": 9.900000000372529,
+          "retained": 9,
+          "p95Ms": 9.300000000279397,
+          "maximumMs": 9.300000000279397
+        },
+        {
+          "stage": "cursor",
+          "calls": 6,
+          "totalMs": 874.6000000005588,
+          "retained": 6,
+          "p95Ms": 606.8000000002794,
+          "maximumMs": 606.8000000002794
+        },
+        {
+          "stage": "commit",
+          "calls": 3,
+          "totalMs": 18.700000000186265,
+          "retained": 3,
+          "p95Ms": 12.300000000279397,
+          "maximumMs": 12.300000000279397
+        }
+      ]
+    },
+    "rendererAfter": {
+      "detail": {
+        "rasterCache": 44,
+        "rasterPending": 0,
+        "rasterTilesDrawn": 25,
+        "rasterErrors": 0,
+        "terrainZoom": 5,
+        "waterPaths": 2596,
+        "visibleCityLabels": 80,
+        "selectedPointVisible": false,
+        "populationYear": null,
+        "reducedMotion": false,
+        "activeCityTweens": 0,
+        "limits": {
+          "rasterTiles": 48,
+          "rasterRequests": 4,
+          "cityLabels": 80,
+          "populationCells": 20000,
+          "jsonBytes": 16777216
+        }
+      },
+      "teaching": {
+        "activeFeatures": 0,
+        "drawnFeatures": 0,
+        "rejectedFeatures": 0,
+        "vertices": 0,
+        "selectedId": null,
+        "selectedLabelVisible": false,
+        "categories": {
+          "trade": 0,
+          "diffusion": 0,
+          "power": 0,
+          "ecology": 0,
+          "belief": 0,
+          "language": 0
+        },
+        "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+      },
+      "interpretiveBorders": true,
+      "renderer": "Canvas 2D",
+      "mapInstances": 0,
+      "drawCount": 230,
+      "recentDraws": 60,
+      "drawP95Ms": 12.399999999906868,
+      "activeParts": 486,
+      "baseFeatures": 143,
+      "baseProjectionBuilds": 7,
+      "cachedBasePaths": 143,
+      "territoryProjectionBuilds": 7,
+      "cachedTerritoryPaths": 486,
+      "geometryProjectionBuilds": 1458,
+      "selectedParts": 0,
+      "hoveredParts": 0,
+      "width": 1363,
+      "height": 721,
+      "pixelRatio": 1,
+      "lastDrawAt": 90345.09999999963,
+      "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+      "view": {
+        "longitude": -110.66092514898509,
+        "latitude": 21.214264340819568,
+        "zoom": 4.2,
+        "moving": false
+      },
+      "hostWork": [
+        {
+          "stage": "card",
+          "calls": 607,
+          "totalMs": 3.7999999998137355,
+          "retained": 200,
+          "p95Ms": 0,
+          "maximumMs": 0.10000000009313226
+        },
+        {
+          "stage": "teaching",
+          "calls": 607,
+          "totalMs": 30.499999998137355,
+          "retained": 200,
+          "p95Ms": 0.10000000009313226,
+          "maximumMs": 0.2999999998137355
+        },
+        {
+          "stage": "cursor",
+          "calls": 405,
+          "totalMs": 10286.9000000027,
+          "retained": 200,
+          "p95Ms": 52.10000000009313,
+          "maximumMs": 89.60000000009313
+        },
+        {
+          "stage": "commit",
+          "calls": 202,
+          "totalMs": 338.6999999973923,
+          "retained": 200,
+          "p95Ms": 3.1000000000931323,
+          "maximumMs": 18.700000000186265
+        }
+      ]
+    },
+    "failures": []
+  },
+  "phases": {
+    "selectionOnly": {
+      "status": "FAIL",
+      "interactionCount": 200,
+      "cursorChanges": 0,
+      "endpoints": "Before normal selection to two animation-frame opportunities after chart, map callout and evidence DOM update; host cursor fixed",
+      "p95Ms": 69.60000000009313,
+      "minMs": 17.399999999906868,
+      "maxMs": 273.79999999981374,
+      "targetP95Ms": 50,
+      "targetMet": false,
+      "samplesMs": [
+        26.90000000037253,
+        27.59999999962747,
+        66.40000000037253,
+        60.5,
+        55.700000000186265,
+        45.89999999990687,
+        37.60000000009313,
+        59.5,
+        40.60000000009313,
+        41.8000000002794,
+        40.799999999813735,
+        37.200000000186265,
+        34,
+        38.299999999813735,
+        40.10000000009313,
+        42.90000000037253,
+        40.60000000009313,
+        52.700000000186265,
+        38.1999999997206,
+        32,
+        43.8000000002794,
+        33.60000000009313,
+        32.700000000186265,
+        33.39999999990687,
+        33.09999999962747,
+        34.200000000186265,
+        36.09999999962747,
+        29.200000000186265,
+        44.799999999813735,
+        22.899999999906868,
+        32.200000000186265,
+        33.59999999962747,
+        33,
+        33.60000000009313,
+        33,
+        33.5,
+        33.700000000186265,
+        33.10000000009313,
+        34.09999999962747,
+        32.60000000009313,
+        33.39999999990687,
+        33.60000000009313,
+        50.39999999990687,
+        49.40000000037253,
+        33.59999999962747,
+        33.10000000009313,
+        34,
+        65.39999999990687,
+        33.10000000009313,
+        33.299999999813735,
+        34.200000000186265,
+        32.3000000002794,
+        34,
+        33.60000000009313,
+        32.60000000009313,
+        33.8000000002794,
+        34,
+        32.40000000037253,
+        33.5,
+        32.6999999997206,
+        33.39999999990687,
+        33.10000000009313,
+        33.799999999813735,
+        32.39999999990687,
+        33.8000000002794,
+        33,
+        33.89999999990687,
+        32.40000000037253,
+        33.60000000009313,
+        33.200000000186265,
+        33.5,
+        33.6999999997206,
+        32.60000000009313,
+        34.10000000009313,
+        49.59999999962747,
+        32.89999999990687,
+        33.40000000037253,
+        33.3000000002794,
+        33.60000000009313,
+        32.8000000002794,
+        33,
+        50.89999999990687,
+        66.20000000018626,
+        33.10000000009313,
+        83.60000000009313,
+        32.5,
+        49.59999999962747,
+        50.200000000186265,
+        33.299999999813735,
+        33.3000000002794,
+        60,
+        37.299999999813735,
+        36.39999999990687,
+        48.60000000009313,
+        38.5,
+        70,
+        70.40000000037253,
+        69.60000000009313,
+        45.89999999990687,
+        44,
+        51.799999999813735,
+        73.3000000002794,
+        73.89999999990687,
+        30.59999999962747,
+        65.3000000002794,
+        93.20000000018626,
+        85.5,
+        70.39999999990687,
+        17.399999999906868,
+        50.3000000002794,
+        68.6999999997206,
+        49,
+        50.799999999813735,
+        34.700000000186265,
+        41.299999999813735,
+        37.5,
+        19.100000000093132,
+        38.299999999813735,
+        65.70000000018626,
+        273.79999999981374,
+        20.799999999813735,
+        188.5,
+        27.600000000093132,
+        33.5,
+        33,
+        36.10000000009313,
+        30.399999999906868,
+        33.799999999813735,
+        49.39999999990687,
+        50.200000000186265,
+        33.5,
+        34,
+        48.799999999813735,
+        33.799999999813735,
+        32.90000000037253,
+        50.10000000009313,
+        33.700000000186265,
+        32.5,
+        33.200000000186265,
+        39.60000000009313,
+        28.699999999720603,
+        31.5,
+        34,
+        33.700000000186265,
+        33.200000000186265,
+        35.09999999962747,
+        30.700000000186265,
+        34.10000000009313,
+        32.89999999990687,
+        33.09999999962747,
+        33.3000000002794,
+        33.39999999990687,
+        33.10000000009313,
+        33.6999999997206,
+        32.700000000186265,
+        35.39999999990687,
+        31.699999999720603,
+        33.40000000037253,
+        32.5,
+        33.40000000037253,
+        33.39999999990687,
+        33.5,
+        33.8000000002794,
+        32.5,
+        36.60000000009313,
+        30.100000000093132,
+        50.200000000186265,
+        33.5,
+        34,
+        32.09999999962747,
+        33.700000000186265,
+        33.89999999990687,
+        49.60000000009313,
+        32.3000000002794,
+        33.5,
+        33.200000000186265,
+        33.6999999997206,
+        32.700000000186265,
+        34,
+        49.60000000009313,
+        33,
+        37.3000000002794,
+        52.6999999997206,
+        37.10000000009313,
+        37.10000000009313,
+        37.10000000009313,
+        36.09999999962747,
+        38,
+        31.600000000093132,
+        34,
+        35.59999999962747,
+        35.200000000186265,
+        39.5,
+        39.1999999997206,
+        32.10000000009313,
+        31.299999999813735,
+        30.100000000093132,
+        34.200000000186265,
+        34.5,
+        47
+      ],
+      "resourceTimingCount": 0,
+      "rendererBefore": {
+        "detail": {
+          "rasterCache": 44,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 25,
+          "rasterErrors": 0,
+          "terrainZoom": 5,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": false,
+          "activeCityTweens": 0,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          }
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "renderer": "Canvas 2D",
+        "mapInstances": 0,
+        "drawCount": 31,
+        "recentDraws": 31,
+        "drawP95Ms": 164.8000000002794,
+        "activeParts": 486,
+        "baseFeatures": 143,
+        "baseProjectionBuilds": 7,
+        "cachedBasePaths": 143,
+        "territoryProjectionBuilds": 7,
+        "cachedTerritoryPaths": 486,
+        "geometryProjectionBuilds": 1458,
+        "selectedParts": 0,
+        "hoveredParts": 0,
+        "width": 1363,
+        "height": 721,
+        "pixelRatio": 1,
+        "lastDrawAt": 51868.89999999991,
+        "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+        "view": {
+          "longitude": -110.66092514898509,
+          "latitude": 21.214264340819568,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 9,
+            "totalMs": 0.6999999997206032,
+            "retained": 9,
+            "p95Ms": 0.5,
+            "maximumMs": 0.5
+          },
+          {
+            "stage": "teaching",
+            "calls": 9,
+            "totalMs": 9.900000000372529,
+            "retained": 9,
+            "p95Ms": 9.300000000279397,
+            "maximumMs": 9.300000000279397
+          },
+          {
+            "stage": "cursor",
+            "calls": 6,
+            "totalMs": 874.6000000005588,
+            "retained": 6,
+            "p95Ms": 606.8000000002794,
+            "maximumMs": 606.8000000002794
+          },
+          {
+            "stage": "commit",
+            "calls": 3,
+            "totalMs": 18.700000000186265,
+            "retained": 3,
+            "p95Ms": 12.300000000279397,
+            "maximumMs": 12.300000000279397
+          }
+        ]
+      },
+      "rendererAfter": {
+        "detail": {
+          "rasterCache": 44,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 25,
+          "rasterErrors": 0,
+          "terrainZoom": 5,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": false,
+          "activeCityTweens": 0,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          }
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "renderer": "Canvas 2D",
+        "mapInstances": 0,
+        "drawCount": 31,
+        "recentDraws": 31,
+        "drawP95Ms": 164.8000000002794,
+        "activeParts": 486,
+        "baseFeatures": 143,
+        "baseProjectionBuilds": 7,
+        "cachedBasePaths": 143,
+        "territoryProjectionBuilds": 7,
+        "cachedTerritoryPaths": 486,
+        "geometryProjectionBuilds": 1458,
+        "selectedParts": 0,
+        "hoveredParts": 0,
+        "width": 1363,
+        "height": 721,
+        "pixelRatio": 1,
+        "lastDrawAt": 51868.89999999991,
+        "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+        "view": {
+          "longitude": -110.66092514898509,
+          "latitude": 21.214264340819568,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 9,
+            "totalMs": 0.6999999997206032,
+            "retained": 9,
+            "p95Ms": 0.5,
+            "maximumMs": 0.5
+          },
+          {
+            "stage": "teaching",
+            "calls": 9,
+            "totalMs": 9.900000000372529,
+            "retained": 9,
+            "p95Ms": 9.300000000279397,
+            "maximumMs": 9.300000000279397
+          },
+          {
+            "stage": "cursor",
+            "calls": 6,
+            "totalMs": 874.6000000005588,
+            "retained": 6,
+            "p95Ms": 606.8000000002794,
+            "maximumMs": 606.8000000002794
+          },
+          {
+            "stage": "commit",
+            "calls": 3,
+            "totalMs": 18.700000000186265,
+            "retained": 3,
+            "p95Ms": 12.300000000279397,
+            "maximumMs": 12.300000000279397
+          }
+        ]
+      },
+      "failures": []
+    },
+    "selectionAndCursor": {
+      "status": "FAIL",
+      "interactionCount": 200,
+      "cursorChanges": 200,
+      "endpoints": "Before normal selection plus host cursor action to two animation-frame opportunities after awaited host seek and coordinated DOM update",
+      "p95Ms": 281.29999999981374,
+      "minMs": 41.1999999997206,
+      "maxMs": 655.2999999998137,
+      "targetP95Ms": 100,
+      "targetMet": false,
+      "samplesMs": [
+        41.1999999997206,
+        141.8000000002794,
+        133.79999999981374,
+        136.8000000002794,
+        141.8000000002794,
+        146.1999999997206,
+        135,
+        322.1999999997206,
+        138,
+        128.79999999981374,
+        147.60000000009313,
+        127.89999999990687,
+        135.79999999981374,
+        152.10000000009313,
+        144.70000000018626,
+        178.70000000018626,
+        144.20000000018626,
+        130,
+        166.09999999962747,
+        137.90000000037253,
+        155,
+        143.10000000009313,
+        182.79999999981374,
+        133.5,
+        132.1999999997206,
+        144.5,
+        153.1999999997206,
+        169.89999999990687,
+        162.89999999990687,
+        124.89999999990687,
+        127.60000000009313,
+        214.79999999981374,
+        137,
+        161.89999999990687,
+        293.29999999981374,
+        376,
+        208.8000000002794,
+        458.40000000037253,
+        163.6999999997206,
+        201,
+        341.60000000009313,
+        655.2999999998137,
+        119.10000000009313,
+        119.3000000002794,
+        96.39999999990687,
+        116.29999999981374,
+        176.29999999981374,
+        139.5,
+        152.89999999990687,
+        116.89999999990687,
+        266.3000000002794,
+        149.09999999962747,
+        120.39999999990687,
+        93.20000000018626,
+        174.79999999981374,
+        176,
+        100.10000000009313,
+        130.5,
+        103.1999999997206,
+        133.40000000037253,
+        148.79999999981374,
+        132.79999999981374,
+        115.10000000009313,
+        118.5,
+        122.09999999962747,
+        132.70000000018626,
+        123.10000000009313,
+        120.20000000018626,
+        136.10000000009313,
+        133.10000000009313,
+        153,
+        131.09999999962747,
+        85.89999999990687,
+        124.10000000009313,
+        128.5,
+        122.60000000009313,
+        155.39999999990687,
+        117.6999999997206,
+        158.70000000018626,
+        122,
+        146.5,
+        118.8000000002794,
+        129.90000000037253,
+        124.10000000009313,
+        242.8000000002794,
+        239.6999999997206,
+        116.5,
+        106.6999999997206,
+        121.60000000009313,
+        130.29999999981374,
+        118.70000000018626,
+        145,
+        145.09999999962747,
+        195.89999999990687,
+        167.70000000018626,
+        124.39999999990687,
+        113.5,
+        172.79999999981374,
+        116.29999999981374,
+        144.20000000018626,
+        124.09999999962747,
+        124.3000000002794,
+        123.90000000037253,
+        136.39999999990687,
+        133.60000000009313,
+        100.40000000037253,
+        138,
+        156.89999999990687,
+        117.5,
+        118.60000000009313,
+        112.5,
+        101.6999999997206,
+        123.40000000037253,
+        100.10000000009313,
+        131.70000000018626,
+        127.10000000009313,
+        116.40000000037253,
+        115.40000000037253,
+        120.89999999990687,
+        117.89999999990687,
+        112.70000000018626,
+        111.59999999962747,
+        129.39999999990687,
+        141.3000000002794,
+        134.89999999990687,
+        130.6999999997206,
+        145.60000000009313,
+        107.79999999981374,
+        113.29999999981374,
+        88.3000000002794,
+        113.5,
+        138.3000000002794,
+        139.09999999962747,
+        108.10000000009313,
+        141.5,
+        127.89999999990687,
+        135.10000000009313,
+        123.60000000009313,
+        121.09999999962747,
+        129.39999999990687,
+        137.10000000009313,
+        148.60000000009313,
+        120.70000000018626,
+        144.89999999990687,
+        131.20000000018626,
+        119.3000000002794,
+        119.6999999997206,
+        127,
+        134.60000000009313,
+        136,
+        136.10000000009313,
+        112.20000000018626,
+        136.5,
+        138.29999999981374,
+        176.3000000002794,
+        165.5,
+        152.8000000002794,
+        166.6999999997206,
+        164.29999999981374,
+        139.10000000009313,
+        150.39999999990687,
+        121.79999999981374,
+        171.8000000002794,
+        175.20000000018626,
+        139.89999999990687,
+        138.29999999981374,
+        132.70000000018626,
+        142,
+        158.40000000037253,
+        111.70000000018626,
+        121.6999999997206,
+        93.20000000018626,
+        116.5,
+        220.39999999990687,
+        168.10000000009313,
+        281.29999999981374,
+        158.39999999990687,
+        163.6999999997206,
+        317.39999999990687,
+        294.60000000009313,
+        264.79999999981374,
+        180.89999999990687,
+        155.70000000018626,
+        216.8000000002794,
+        238.29999999981374,
+        218.60000000009313,
+        178.70000000018626,
+        106.79999999981374,
+        116.39999999990687,
+        153.89999999990687,
+        139.8000000002794,
+        112.5,
+        130,
+        147.8000000002794,
+        97.39999999990687,
+        124.10000000009313,
+        85.20000000018626,
+        152.8000000002794,
+        395,
+        315.70000000018626
+      ],
+      "resourceTimingCount": 0,
+      "rendererBefore": {
+        "detail": {
+          "rasterCache": 44,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 25,
+          "rasterErrors": 0,
+          "terrainZoom": 5,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": false,
+          "activeCityTweens": 0,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          }
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "renderer": "Canvas 2D",
+        "mapInstances": 0,
+        "drawCount": 31,
+        "recentDraws": 31,
+        "drawP95Ms": 164.8000000002794,
+        "activeParts": 486,
+        "baseFeatures": 143,
+        "baseProjectionBuilds": 7,
+        "cachedBasePaths": 143,
+        "territoryProjectionBuilds": 7,
+        "cachedTerritoryPaths": 486,
+        "geometryProjectionBuilds": 1458,
+        "selectedParts": 0,
+        "hoveredParts": 0,
+        "width": 1363,
+        "height": 721,
+        "pixelRatio": 1,
+        "lastDrawAt": 51868.89999999991,
+        "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+        "view": {
+          "longitude": -110.66092514898509,
+          "latitude": 21.214264340819568,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 9,
+            "totalMs": 0.6999999997206032,
+            "retained": 9,
+            "p95Ms": 0.5,
+            "maximumMs": 0.5
+          },
+          {
+            "stage": "teaching",
+            "calls": 9,
+            "totalMs": 9.900000000372529,
+            "retained": 9,
+            "p95Ms": 9.300000000279397,
+            "maximumMs": 9.300000000279397
+          },
+          {
+            "stage": "cursor",
+            "calls": 6,
+            "totalMs": 874.6000000005588,
+            "retained": 6,
+            "p95Ms": 606.8000000002794,
+            "maximumMs": 606.8000000002794
+          },
+          {
+            "stage": "commit",
+            "calls": 3,
+            "totalMs": 18.700000000186265,
+            "retained": 3,
+            "p95Ms": 12.300000000279397,
+            "maximumMs": 12.300000000279397
+          }
+        ]
+      },
+      "rendererAfter": {
+        "detail": {
+          "rasterCache": 44,
+          "rasterPending": 0,
+          "rasterTilesDrawn": 25,
+          "rasterErrors": 0,
+          "terrainZoom": 5,
+          "waterPaths": 2596,
+          "visibleCityLabels": 80,
+          "selectedPointVisible": false,
+          "populationYear": null,
+          "reducedMotion": false,
+          "activeCityTweens": 0,
+          "limits": {
+            "rasterTiles": 48,
+            "rasterRequests": 4,
+            "cityLabels": 80,
+            "populationCells": 20000,
+            "jsonBytes": 16777216
+          }
+        },
+        "teaching": {
+          "activeFeatures": 0,
+          "drawnFeatures": 0,
+          "rejectedFeatures": 0,
+          "vertices": 0,
+          "selectedId": null,
+          "selectedLabelVisible": false,
+          "categories": {
+            "trade": 0,
+            "diffusion": 0,
+            "power": 0,
+            "ecology": 0,
+            "belief": 0,
+            "language": 0
+          },
+          "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+        },
+        "interpretiveBorders": true,
+        "renderer": "Canvas 2D",
+        "mapInstances": 0,
+        "drawCount": 230,
+        "recentDraws": 60,
+        "drawP95Ms": 12.399999999906868,
+        "activeParts": 486,
+        "baseFeatures": 143,
+        "baseProjectionBuilds": 7,
+        "cachedBasePaths": 143,
+        "territoryProjectionBuilds": 7,
+        "cachedTerritoryPaths": 486,
+        "geometryProjectionBuilds": 1458,
+        "selectedParts": 0,
+        "hoveredParts": 0,
+        "width": 1363,
+        "height": 721,
+        "pixelRatio": 1,
+        "lastDrawAt": 90345.09999999963,
+        "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+        "view": {
+          "longitude": -110.66092514898509,
+          "latitude": 21.214264340819568,
+          "zoom": 4.2,
+          "moving": false
+        },
+        "hostWork": [
+          {
+            "stage": "card",
+            "calls": 607,
+            "totalMs": 3.7999999998137355,
+            "retained": 200,
+            "p95Ms": 0,
+            "maximumMs": 0.10000000009313226
+          },
+          {
+            "stage": "teaching",
+            "calls": 607,
+            "totalMs": 30.499999998137355,
+            "retained": 200,
+            "p95Ms": 0.10000000009313226,
+            "maximumMs": 0.2999999998137355
+          },
+          {
+            "stage": "cursor",
+            "calls": 405,
+            "totalMs": 10286.9000000027,
+            "retained": 200,
+            "p95Ms": 52.10000000009313,
+            "maximumMs": 89.60000000009313
+          },
+          {
+            "stage": "commit",
+            "calls": 202,
+            "totalMs": 338.6999999973923,
+            "retained": 200,
+            "p95Ms": 3.1000000000931323,
+            "maximumMs": 18.700000000186265
+          }
+        ]
+      },
+      "failures": []
+    }
+  },
+  "performanceInterpretation": "The dual-track sprint requires selection <=50 ms and combined selection plus host-year <=100 ms. Endpoints and 200 samples per phase are unchanged from M1; either miss remains an aggregate FAIL.",
+  "preparedExecutions": [
+    {
+      "example": "mexico-four",
+      "path": "first prepared execution including local dataset load",
+      "elapsedMs": 232.60000000009313,
+      "success": true
+    }
+  ],
+  "warmNetworkResources": [],
+  "cycles": [
+    {
+      "cycle": 1,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 2,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 3,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 4,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 5,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 6,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 7,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 8,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 9,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 10,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 11,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 12,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 13,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 14,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 15,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 16,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 17,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 18,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 19,
+      "markersAfterClose": 0,
+      "markersAfterRun": 12,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    },
+    {
+      "cycle": 20,
+      "markersAfterClose": 0,
+      "markersAfterRun": 3,
+      "controllerListeners": 1,
+      "resources": {
+        "domListeners": 22,
+        "observers": 1,
+        "subscriptions": 1
+      }
+    }
+  ],
+  "mountDisposeCycles": [
+    {
+      "cycle": 1,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 2,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 3,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 4,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 5,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 6,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 7,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 8,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 9,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 10,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 11,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 12,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 13,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 14,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 15,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 16,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 17,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 18,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 19,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 12
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    },
+    {
+      "cycle": 20,
+      "loaded": true,
+      "before": {
+        "resources": {
+          "domListeners": 21,
+          "observers": 1,
+          "subscriptions": 1
+        },
+        "controller": {
+          "listeners": 1,
+          "commits": 1,
+          "revision": 1,
+          "pending": false,
+          "disposed": false,
+          "datasets": 1,
+          "results": 1
+        },
+        "nodes": {
+          "panel": true,
+          "overlay": true,
+          "toggle": true,
+          "markers": 3
+        }
+      },
+      "after": {
+        "resources": {
+          "domListeners": 0,
+          "observers": 0,
+          "subscriptions": 0
+        },
+        "controller": {
+          "listeners": 0,
+          "commits": 1,
+          "revision": 2,
+          "pending": false,
+          "disposed": true,
+          "datasets": 0,
+          "results": 0
+        },
+        "nodes": {
+          "panel": false,
+          "overlay": false,
+          "toggle": false,
+          "markers": 0
+        }
+      }
+    }
+  ],
+  "resources": {
+    "before": {
+      "domListeners": 22,
+      "observers": 1,
+      "subscriptions": 1
+    },
+    "after": {
+      "domListeners": 22,
+      "observers": 1,
+      "subscriptions": 1
+    },
+    "overlayNodes": 1,
+    "markerNodes": 12
+  },
+  "hostSurface": {
+    "sameCanvasObject": true,
+    "beforeCanvasCount": 1,
+    "afterCanvasCount": 1
+  },
+  "controllerBefore": {
+    "listeners": 1,
+    "commits": 1,
+    "revision": 1,
+    "pending": false,
+    "disposed": false,
+    "datasets": 1,
+    "results": 1
+  },
+  "controllerAfter": {
+    "listeners": 1,
+    "commits": 22,
+    "revision": 42,
+    "pending": false,
+    "disposed": false,
+    "datasets": 1,
+    "results": 2
+  },
+  "after": {
+    "detail": {
+      "rasterCache": 44,
+      "rasterPending": 0,
+      "rasterTilesDrawn": 25,
+      "rasterErrors": 0,
+      "terrainZoom": 5,
+      "waterPaths": 2596,
+      "visibleCityLabels": 80,
+      "selectedPointVisible": false,
+      "populationYear": null,
+      "reducedMotion": false,
+      "activeCityTweens": 0,
+      "limits": {
+        "rasterTiles": 48,
+        "rasterRequests": 4,
+        "cityLabels": 80,
+        "populationCells": 20000,
+        "jsonBytes": 16777216
+      }
+    },
+    "teaching": {
+      "activeFeatures": 0,
+      "drawnFeatures": 0,
+      "rejectedFeatures": 0,
+      "vertices": 0,
+      "selectedId": null,
+      "selectedLabelVisible": false,
+      "categories": {
+        "trade": 0,
+        "diffusion": 0,
+        "power": 0,
+        "ecology": 0,
+        "belief": 0,
+        "language": 0
+      },
+      "geometryMeaning": "Schematic evidence corridors, connections, broad ecological contexts and located attestations; not surveyed boundaries or demographic heatmaps."
+    },
+    "interpretiveBorders": true,
+    "renderer": "Canvas 2D",
+    "mapInstances": 0,
+    "drawCount": 231,
+    "recentDraws": 60,
+    "drawP95Ms": 12.399999999906868,
+    "activeParts": 486,
+    "baseFeatures": 143,
+    "baseProjectionBuilds": 7,
+    "cachedBasePaths": 143,
+    "territoryProjectionBuilds": 7,
+    "cachedTerritoryPaths": 486,
+    "geometryProjectionBuilds": 1458,
+    "selectedParts": 0,
+    "hoveredParts": 0,
+    "width": 1363,
+    "height": 721,
+    "pixelRatio": 1,
+    "lastDrawAt": 91388.59999999963,
+    "drawEvidence": "CPU Canvas draw completion; not physical presentation",
+    "view": {
+      "longitude": -110.66092514898509,
+      "latitude": 21.214264340819568,
+      "zoom": 4.2,
+      "moving": false
+    },
+    "hostWork": [
+      {
+        "stage": "card",
+        "calls": 610,
+        "totalMs": 3.7999999998137355,
+        "retained": 200,
+        "p95Ms": 0,
+        "maximumMs": 0.10000000009313226
+      },
+      {
+        "stage": "teaching",
+        "calls": 610,
+        "totalMs": 30.499999998137355,
+        "retained": 200,
+        "p95Ms": 0.10000000009313226,
+        "maximumMs": 0.2999999998137355
+      },
+      {
+        "stage": "cursor",
+        "calls": 407,
+        "totalMs": 10337.500000002328,
+        "retained": 200,
+        "p95Ms": 52.10000000009313,
+        "maximumMs": 89.60000000009313
+      },
+      {
+        "stage": "commit",
+        "calls": 203,
+        "totalMs": 340.1999999973923,
+        "retained": 200,
+        "p95Ms": 3.1000000000931323,
+        "maximumMs": 18.700000000186265
+      }
+    ]
+  },
+  "failures": [],
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED"
+}

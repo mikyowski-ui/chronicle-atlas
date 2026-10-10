@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "startedAt": "2026-10-09T21:27:02.704Z",
+  "command": [
+    "node",
+    "scripts/m3-headless-acceptance.mjs",
+    "--renderer",
+    "maplibre",
+    "--gates",
+    "ingestion"
+  ],
+  "runner": {
+    "node": "v22.17.0",
+    "platform": "win32",
+    "arch": "x64",
+    "kernel": "10.0.26200",
+    "cpus": 16,
+    "cpuModel": "AMD Ryzen 7 5800X 8-Core Processor             ",
+    "memoryBytes": 17099636736,
+    "scriptSHA256": "e4245b9cff2730a3a34374a1ac888f4e6f49e25f35f3ad0f679f7efa33ab4118",
+    "chromiumExecutable": "C:\\Users\\Juan\\AppData\\Local\\ms-playwright\\chromium-1243\\chrome-win64\\chrome.exe",
+    "chromiumSHA256": "9b07943f834485b43c9d54caea2951c78715f9f07070a80ab6658465ebd3e711"
+  },
+  "build": {
+    "schema_version": 1,
+    "build_id": "chronicle-da4cb9b91affa7a0bedccbd83d903705fb9c1e30f42f96cb7bcf46d5a1b597ea",
+    "source_commit": "5a40bc5e847b0ab25a4e7495b44f242df58ce5e3",
+    "source_worktree_dirty": true,
+    "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+    "source_fingerprint": "16cf2345ca1eb2a9b6838ef5d6955eba9fa0e4a5287c2613aa52590cb39175f8",
+    "source_file_count": 2431,
+    "source_scope": [
+      "apps/explorer/src/**",
+      "apps/explorer/research-semantic/** (excluding dependency/runtime caches)",
+      "apps/explorer/runtime-isolation/**",
+      "apps/explorer/verification-tools/** (excluding dependency/runtime caches)",
+      "packages/contracts/src/**",
+      "packages/runtime/src/**",
+      "packages/planner/src/**",
+      "packages/view-adapters/src/**",
+      "packages/contracts/package.json",
+      "packages/runtime/package.json",
+      "packages/planner/package.json",
+      "packages/view-adapters/package.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.json",
+      "apps/explorer/public/**",
+      "apps/explorer/index.html",
+      "apps/explorer/production-review.html",
+      "apps/explorer/vite.config.ts",
+      "apps/explorer/package.json",
+      "apps/explorer/pnpm-lock.yaml"
+    ],
+    "bundle_fingerprint": "42374aadd44f9462fd4dce0d6964768aa16dc4754b3f84a35a1640f04fdd7351",
+    "bundle_files": [
+      {
+        "path": "assets/emscripten-module-B1g2L2eS.wasm",
+        "byte_length": 1027523,
+        "sha256": "b790f3842eef48d154984cea48d35303b5c3c3696fedab4dc79f314bde005dba"
+      },
+      {
+        "path": "assets/emscripten-module-DHbYPfAp.wasm",
+        "byte_length": 1510753,
+        "sha256": "e346c792a99a6a3a5886a1b173015b3a7839d6800a7378695eb49db1a470160c"
+      },
+      {
+        "path": "assets/emscripten-module-uFzwHH0Y.wasm",
+        "byte_length": 503134,
+        "sha256": "105c3bed22d457e43e3d1c3c1c6959fda62a8fe06f0fc8a985303c3a2be72232"
+      },
+      {
+        "path": "assets/emscripten-module-ZrHFMo7O.wasm",
+        "byte_length": 1218626,
+        "sha256": "4d2f9f8adf28c48ed273515b815e05ae9a698b54955f7348e951faf43b1febc3"
+      },
+      {
+        "path": "assets/emscripten-module.browser-CTYWyATq.js",
+        "byte_length": 9201,
+        "sha256": "a355fa8135920c64a4ade81f8601c5bee36fb60659301ab3b9e63709978ea8b4"
+      },
+      {
+        "path": "assets/ffi-D-HTL89E.js",
+        "byte_length": 6322,
+        "sha256": "aed116d52affcbfed38ddfe8c6ffbba1f5d79ee5c8c4f2ffb105a242addecc4c"
+      },
+      {
+        "path": "assets/index-bf4cA9ld.js",
+        "byte_length": 4351306,
+        "sha256": "aee0abe37d8a4ff8a13e6c7e8729837ff4a57476032c401b70936ef69890d2d9"
+      },
+      {
+        "path": "assets/index-D7IKFBHX.css",
+        "byte_length": 182701,
+        "sha256": "22b2f645e38a080242c2b835cff5dcd8d2e0965c6e09e9a1d14181eef962bafb"
+      },
+      {
+        "path": "assets/module-ES6BEMUI-DSBxI-oH.js",
+        "byte_length": 199,
+        "sha256": "0c8ce4ef674358340f1e07bfeb5afedafe1db1219c6c5f2cd989389e996a1f4e"
+      },
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "byte_length": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "byte_length": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      },
+      {
+        "path": "assets/visualization-worker-BYmEadlC.js",
+        "byte_length": 234957,
+        "sha256": "6ea0e636ec5df6c2d2fe66f3845d03099e9bb0c18d3716c9b714925d4776ded3"
+      },
+      {
+        "path": "assets/watt-1769-mechanism-Bn8Si0Sq.json",
+        "byte_length": 13234,
+        "sha256": "9838cf8fb53a034732a764d1433b3cf8c8e149b9e31323eeaea3e2b2825336db"
+      },
+      {
+        "path": "assets/watt-1769-specification-CmgIn0_F.json",
+        "byte_length": 4838,
+        "sha256": "6bbadef594a0b9d64bdb541717535a62f54365b891d8e64eb24e5a4cb197d86d"
+      },
+      {
+        "path": "index.html",
+        "byte_length": 525,
+        "sha256": "c60a4d12f5fc3c8ab55c8e7a15187808cb7c06e201d6f0a85cedfb13c9161fd8"
+      },
+      {
+        "path": "production-review.html",
+        "byte_length": 1667,
+        "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d"
+      }
+    ],
+    "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+  },
+  "requestedRenderer": "maplibre",
+  "browser": {
+    "version": "153.0.8010.12",
+    "engine": "Chromium",
+    "headless": true
+  },
+  "isolation": {
+    "servedFrom": "ephemeral 127.0.0.1 port",
+    "externalRequests": "abort all non-local page requests; service workers blocked",
+    "externalAttempts": []
+  },
+  "gates": {
+    "evidenceIngestion": {
+      "status": "PASS",
+      "fixture": "Explicitly synthetic UI fixtures, not the real-evidence acceptance gate",
+      "csv": true,
+      "geojsonFileDrop": true,
+      "jsonld": true,
+      "keyboardSelection": true,
+      "literalMarkup": true,
+      "cursorFiltering": true,
+      "unknownSupportPreserved": true,
+      "narrow": {
+        "documentWidth": 375,
+        "x": 10,
+        "right": 365,
+        "bottom": 591,
+        "timelineTop": 605.8125,
+        "clientWidth": 353,
+        "scrollWidth": 353
+      },
+      "referenceReplaySHA256": "53346f958a50b434029d37c3e6eb3b7a4e9250794023f86ffe2916ceb6cb139a",
+      "failedImportRetainsEvidence": true,
+      "coldReplayFailsWithoutNetwork": true,
+      "remoteConsentRequired": true,
+      "featureDisabledAtlas": true,
+      "modelRequests": 0
+    }
+  },
+  "screenshots": [
+    {
+      "file": "ingestion-375-table.png",
+      "sha256": "54518a9e2d0ed72971ebce7cf900ceb3833f73bbb497218c666c9e0ffd2d08e3",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "ingestion-desktop-evidence.png",
+      "sha256": "b32748e5ce9896a413bccb5cd06bf34a81ff3e442a74405e70ca842428488efd",
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "ingestion-saved.json",
+      "sha256": "53346f958a50b434029d37c3e6eb3b7a4e9250794023f86ffe2916ceb6cb139a"
+    },
+    {
+      "file": "ingestion-reopened.json",
+      "sha256": "53346f958a50b434029d37c3e6eb3b7a4e9250794023f86ffe2916ceb6cb139a"
+    },
+    {
+      "file": "headless-trace.zip",
+      "sha256": "087f7f7f2b87668da9f09ca85c95fcee73da6b7cb7a964b47731a063687f2ebe"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "guestCanaryRequests": 0,
+  "interpretation": "Actual headless Chromium DOM and the requested Atlas renderer. No physical mobile, hardware GPU, scanout, or OS preference certification.",
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED",
+  "finishedAt": "2026-10-09T21:27:10.530Z"
+}

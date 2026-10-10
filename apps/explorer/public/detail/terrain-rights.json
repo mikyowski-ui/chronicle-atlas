@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "attribution": "Made with Natural Earth. Natural Earth contributors; SRTM Plus-derived relief.",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "license_evidence": "natural-earth-terms-retained.html",
+  "license_confirmation": {
+    "checked_at": "2026-09-26",
+    "method": "Official terms page retrieved in browser search tool; raw HTTP download rejected406. Retained earlier official HTML has same public-domain grant.",
+    "text": "All versions of Natural Earth raster + vector map data found on this website are in the public domain."
+  },
+  "sources": [
+    {
+      "id": "ne-sr-50m",
+      "archive": "SR_50M.zip",
+      "embedded_version": "2.0.0",
+      "page_advertised_version": "3.2.0",
+      "version_discrepancy": "Pinned exact ZIP/embedded version takes precedence; the download page currently advertises3.2.0. Not certified equivalent.",
+      "download_page": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-shaded-relief/",
+      "source_description": "Grayscale land relief derived from downsampled SRTM Plus; 10800x5400 global geographic raster."
+    },
+    {
+      "id": "ne-rivers-10m",
+      "archive": "ne_10m_rivers_lake_centerlines.zip",
+      "embedded_version": "5.0.0",
+      "download_page": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/"
+    },
+    {
+      "id": "ne-lakes-10m",
+      "archive": "ne_10m_lakes.zip",
+      "embedded_version": "5.0.0",
+      "download_page": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/"
+    }
+  ],
+  "temporal_interpretation": "Modern physical reference only, independent of historical validity. Lake shorelines, river courses and drainage can differ in the past. No settlement, political ownership or dated hydrology assertions.",
+  "mapping_rules": [
+    "Relief sampled from exact raster; Web Mercator reprojection and JPEG encoding are display products.",
+    "Natural Earth retained50m global land used only as tint mask; raw relief source retained.",
+    "Rivers retain source names/classes/min_zoom; named canals excluded.",
+    "Lakes retain natural Lake/Alkaline Lake only; Reservoir excluded.",
+    "Natural Earth names are modern reference labels, not historical names.",
+    "All admitted vector coordinates are retained; no geometry simplification or temporal inference."
+  ],
+  "inputs": [
+    {
+      "file": "SR_50M.README.html",
+      "bytes": 27579,
+      "sha256": "655d1aac19a02ab35d6378a242642789dc91aab3120503c139a86b9063478509",
+      "url": null
+    },
+    {
+      "file": "SR_50M.VERSION.txt",
+      "bytes": 5,
+      "sha256": "f22abd6773ab232869321ad4b1e47ac0c908febf4f3a2bd10c8066140f741261",
+      "url": null
+    },
+    {
+      "file": "SR_50M.prj",
+      "bytes": 147,
+      "sha256": "3259f0e55290a82b1350646f604e8a7ee1e2136c0320a40fad838ab40819fff8",
+      "url": null
+    },
+    {
+      "file": "SR_50M.tfw",
+      "bytes": 173,
+      "sha256": "7f1cc97126a52814c874ec326a8275c7ded3edc4d7bced417f76d71a995069bd",
+      "url": null
+    },
+    {
+      "file": "SR_50M.zip",
+      "bytes": 11380369,
+      "sha256": "ff810f5f2747463fd8ffa612b23e5f5e5d593a345218976872b6749610976ab7",
+      "url": "https://naciscdn.org/naturalearth/50m/raster/SR_50M.zip"
+    },
+    {
+      "file": "natural-earth-terms-retained.html",
+      "bytes": 38013,
+      "sha256": "e10124625597d07291e9ba9c82a61ea3f8244ee425656f4d71d1127bf1397155",
+      "url": null
+    },
+    {
+      "file": "ne_10m_lakes.README.html",
+      "bytes": 45753,
+      "sha256": "a5832c49127848fa7ecd16ef3a6b708464249f16d4689596a64fd3988f0731ce",
+      "url": null
+    },
+    {
+      "file": "ne_10m_lakes.VERSION.txt",
+      "bytes": 7,
+      "sha256": "30d0ad7c0f48ffeaaf390112b5b95823c7efa1da3ee5abc116eb481989340b58",
+      "url": null
+    },
+    {
+      "file": "ne_10m_lakes.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "url": null
+    },
+    {
+      "file": "ne_10m_lakes.zip",
+      "bytes": 2349685,
+      "sha256": "0803a06f9c3cb4671d89b68c48b142aad9366ba40f665245e12a913fbc61722a",
+      "url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip"
+    },
+    {
+      "file": "ne_10m_rivers_lake_centerlines.README.html",
+      "bytes": 48596,
+      "sha256": "611c5c993f7fa7495f4c78046df9d97db244533ccfd2f0f80746d27c97db9891",
+      "url": null
+    },
+    {
+      "file": "ne_10m_rivers_lake_centerlines.VERSION.txt",
+      "bytes": 7,
+      "sha256": "30d0ad7c0f48ffeaaf390112b5b95823c7efa1da3ee5abc116eb481989340b58",
+      "url": null
+    },
+    {
+      "file": "ne_10m_rivers_lake_centerlines.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "url": null
+    },
+    {
+      "file": "ne_10m_rivers_lake_centerlines.zip",
+      "bytes": 2079507,
+      "sha256": "ded71b01870855ccfe19b51f2ec14c9bb48fae23c0e9f3c11974d426433b5c38",
+      "url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip"
+    }
+  ],
+  "retained_land_mask_inputs": [
+    {
+      "path": "public/alpha/source/ne_50m_land.zip",
+      "bytes": 457183,
+      "sha256": "0b8e670cf80dce9cbebe2a193bc44ba5602758c22e1fa603980553646d7ff162"
+    },
+    {
+      "path": "public/integrated/global-land.geojson.json",
+      "bytes": 2267727,
+      "sha256": "ca5b2bd8d962a53483f7d48988bd25d0ef24e9a69bf39edbfa58a3bf4a50da8a"
+    },
+    {
+      "path": "public/integrated/source/natural-earth-rights.json",
+      "bytes": 1278,
+      "sha256": "2049d84e2d4b578a7439ab70c874527de312e527b567685ace49e32f740e41d9"
+    }
+  ]
+}

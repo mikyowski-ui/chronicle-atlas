@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "status": "RETAINED BEFORE COMPILATION",
+  "budget_sha256": "51b6a5fb31a191f20f29cc7fd8d30e739aba0a98d789431245610d1db5a4f409",
+  "historical_source": {
+    "filename": "world_1900.geojson",
+    "path": "input/world_1900.geojson",
+    "source_path": "geojson/world_1900.geojson",
+    "source_url": "https://raw.githubusercontent.com/aourednik/historical-basemaps/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1900.geojson",
+    "source_year": 1900,
+    "astronomical_year": 1900,
+    "bytes": 1296950,
+    "sha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "git_blob_sha1": "805712b9a5ad91b35362960b251a8a5707f02071",
+    "feature_count": 270,
+    "indexed_label_count": 165,
+    "collection_elapsed_ms": 4504.044
+  },
+  "historical_rights": {
+    "source_id": "ourednik-basemaps",
+    "title": "Historical boundaries of world countries and cultural regions",
+    "author_credit": "Andr\u00e9 Ourednik and contributors",
+    "pinned_revision": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "edition_url": "https://github.com/aourednik/historical-basemaps/tree/da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "license": "GPL-3.0",
+    "license_record": {
+      "path": "LICENSE",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "attribution_and_limitations_record": {
+      "path": "README.md",
+      "sha256": "cbd9b99a5969785c532b901293ad77391223ea3223e1eb042e78a6704f01f76e"
+    },
+    "retention": "Retain exact pinned GeoJSON and metadata bytes plus GPL-3.0 text. Preserve source identification and notices in derivative data packages.",
+    "modification_notice": "Chronicle applies classification, deterministic cell intersection and independent cultural/source-political-association views; these are Chronicle transformations of the pinned source. Original geometry bytes remain separate.",
+    "authorization": "User authorized bounded collection, normalization, classification, staged ingestion, compilation and local preview on this turn; historical/public publication remains unapproved.",
+    "scholarly_status": "Source-attributed overview reconstruction. Source author requests independent verification for academic use. Classification of label semantics is not historical certification.",
+    "prohibited_inferences": [
+      "No index country label alone establishes sovereignty.",
+      "No PARTOF cultural region becomes a political relationship.",
+      "No SUBJECTO self-label or colonial-power label silently becomes source-independent control.",
+      "No carry-forward between snapshot files.",
+      "No source input before200BCE.",
+      "No guessed corroborating evidence or source-feature historical precision."
+    ],
+    "spatial_precision": "Continental/global scale; preserve BORDERPRECISION ordinal1approximate,2moderate,3source-described legal boundary as source metadata, not Chronicle certification. Source acknowledges possible20km shifts.",
+    "temporal_precision": "Snapshot filename/index gives nominal historical year; convert BCE to internal astronomical numbering. Coarse and uncertain snapshot meaning must survive ingestion; calendar-year envelope is not exact dated events.",
+    "lineage_limitations": "README credits diverse compiled sources and anonymous ThinkQuest Team C006628 material. Individual feature source citations are generally absent; no independent source-original documentary authentication is claimed."
+  },
+  "retained_hashes": {
+    "LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "README.md": "cbd9b99a5969785c532b901293ad77391223ea3223e1eb042e78a6704f01f76e",
+    "rights-record.json": "b7cab313f0b5967e6a4d2523cba6d043cb86dff0228770894bf4bf3f46399444",
+    "world_1900-mappings.json": "f8824aaafa72096ff93d6922f29dc4bcede6f7586ad1702f10be02b4504e4f4d",
+    "world_1900.geojson": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+    "classify_sources.py": "cd76e54bf5ea15815b1181f4718d1b545b256e634d64a3a272034fabf4700f32"
+  },
+  "mapping_integrity_note": {
+    "source_sha256_and_pinned_git_blob": "MATCH",
+    "license_and_readme_registry_hashes": "MATCH",
+    "current_mapping_recomputed_from_retained_classifier": "270/270 decisions/rules/rationales MATCH",
+    "legacy_asset_checksum_for_mapping": "87bb020d756ee2582ac2e2da0438ab2f2c68e339a159fa71c833ac4cbff67f65",
+    "current_mapping_sha256": "f8824aaafa72096ff93d6922f29dc4bcede6f7586ad1702f10be02b4504e4f4d",
+    "legacy_mapping_checksum_status": "DIFFERS: registry was not refreshed for current v2 mappings; do not describe as a matched registry hash. Current exact v2 mapping and classifier are separately pinned in this inventory."
+  },
+  "physical_source": {
+    "title": "Natural Earth 1:50m physical land",
+    "edition": "4.1.0 (exact archive VERSION.txt)",
+    "source_url": "https://naturalearth.s3.amazonaws.com/50m_physical/ne_50m_land.zip",
+    "description_url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/",
+    "license": "Public domain",
+    "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "attribution": "Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.",
+    "verified_at": "2026-09-23",
+    "version_discrepancy": "The official landing page advertises 4.0.0; the exact downloaded archive declares 4.1.0. This intake pins the archive edition and SHA-256 before processing. The frozen resource limits are unchanged.",
+    "interpretation": "Complete modern physical land context; not historical shoreline evidence or political ownership. Full source coordinates retained, with display-only latitude clamp at Web Mercator limits and deterministic ten-component MultiPolygon grouping. No source component omitted.",
+    "bounds": [
+      -180,
+      -85.05112878,
+      180,
+      85.05112878
+    ],
+    "input_sha256": "0b8e670cf80dce9cbebe2a193bc44ba5602758c22e1fa603980553646d7ff162",
+    "input_bytes": 457183,
+    "input_path": "../../alpha/source/ne_50m_land.zip"
+  },
+  "mapping": "Reuse pinned basemap-classification-v2: political-association only; review/excluded rows remain explicit omissions. NAME does not independently establish sovereignty. Preserve SUBJECTO/PARTOF as raw source fields without inferring control. Shared UK, France and Belgium identities and colors copied from existing Isles1900 scene; other identities derive from exact source NAME.",
+  "temporal_interpretation": "Nominal1900 snapshot; calendar-year possible observation envelope [1900-01-01,1901-01-01), not exact onset/cessation or daily continuity. No carry-forward as historical validity.",
+  "geometry": "Original source polygons directly supply a separate display product. Validate topology; quarantine any invalid feature rather than silently repair. Cartographic MVT simplification by zoom only. Canvas political fallback retains original coordinates and holes. No interpolation or smoothing.",
+  "public_ledger": "UNCHANGED",
+  "quarantined_hawaii": "UNCHANGED; no Hawai\u02bbi/Hawaii/Hawaiian entity admitted or promoted."
+}

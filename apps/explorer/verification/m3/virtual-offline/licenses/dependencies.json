@@ -1,0 +1,90 @@
+[
+  {
+    "name": "@noble/hashes",
+    "version": "2.0.1",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/@noble__hashes-2.0.1-LICENSE"
+    ]
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.19",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/nanoid-3.3.19-LICENSE"
+    ]
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC",
+    "licenseFiles": [
+      "licenses/picocolors-1.1.1-LICENSE"
+    ]
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.28",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/postcss-8.5.28-LICENSE"
+    ]
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.1",
+    "license": "BSD-3-Clause",
+    "licenseFiles": [
+      "licenses/source-map-js-1.2.1-LICENSE"
+    ]
+  },
+  {
+    "name": "zod",
+    "version": "4.6.5",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/zod-4.6.5-LICENSE"
+    ]
+  },
+  {
+    "name": "buffer-image-size",
+    "version": "0.6.4",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/buffer-image-size-0.6.4-LICENSE"
+    ]
+  },
+  {
+    "name": "entities",
+    "version": "7.0.1",
+    "license": "BSD-2-Clause",
+    "licenseFiles": [
+      "licenses/entities-7.0.1-LICENSE"
+    ]
+  },
+  {
+    "name": "happy-dom",
+    "version": "20.14.5",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/happy-dom-20.14.5-LICENSE"
+    ]
+  },
+  {
+    "name": "whatwg-mimetype",
+    "version": "3.0.0",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/whatwg-mimetype-3.0.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "ws",
+    "version": "8.22.0",
+    "license": "MIT",
+    "licenseFiles": [
+      "licenses/ws-8.22.0-LICENSE"
+    ]
+  }
+]

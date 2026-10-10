@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "Existing 49 global and 31 Isles political/cultural/context observation display products only",
+  "new_download_bytes": 0,
+  "workers": 1,
+  "geometry_files_in_memory": 1,
+  "max_rss_bytes": 536870912,
+  "maximum_geometry_file_bytes": 4194304,
+  "maximum_lookup_bytes": 1048576,
+  "maximum_observations": 80,
+  "maximum_entries": 6000,
+  "public_ledger_mutations": false,
+  "frozen_before_execution": true
+}

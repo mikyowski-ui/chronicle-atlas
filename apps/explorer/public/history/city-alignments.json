@@ -1,0 +1,8024 @@
+[
+  {
+    "historicalId": "hist-ghazni-10429fdd",
+    "historicalName": "Ghazni",
+    "unCityCode": 4592,
+    "unName": "Ghazni",
+    "distanceKm": 1.491
+  },
+  {
+    "historicalId": "hist-herat-eec4410d",
+    "historicalName": "Herat",
+    "unCityCode": 742,
+    "unName": "Herat",
+    "distanceKm": 0.544
+  },
+  {
+    "historicalId": "hist-kandahar-8379e657",
+    "historicalName": "Kandahar",
+    "unCityCode": 3775,
+    "unName": "Kandahar",
+    "distanceKm": 1.392
+  },
+  {
+    "historicalId": "hist-kunduz-86207efc",
+    "historicalName": "Kunduz",
+    "unCityCode": 3958,
+    "unName": "Kunduz",
+    "distanceKm": 1.28
+  },
+  {
+    "historicalId": "hist-kabul-4aa46a1a",
+    "historicalName": "Kabul",
+    "unCityCode": 4703,
+    "unName": "Kābul (Kabul)",
+    "distanceKm": 1.578
+  },
+  {
+    "historicalId": "hist-bost-2ec20882",
+    "historicalName": "Bost",
+    "unCityCode": 2777,
+    "unName": "Lashkar Gah",
+    "distanceKm": 0.751
+  },
+  {
+    "historicalId": "hist-taluqan-377d17ad",
+    "historicalName": "Taluqan",
+    "unCityCode": 4331,
+    "unName": "Taloqan",
+    "distanceKm": 2.688
+  },
+  {
+    "historicalId": "hist-taluqan-377d17ad",
+    "historicalName": "Taluqan",
+    "unCityCode": 21574,
+    "unName": "Taloqan",
+    "distanceKm": 2.724
+  },
+  {
+    "historicalId": "hist-shkoder-9618fd56",
+    "historicalName": "Shkoder",
+    "unCityCode": 93,
+    "unName": "Shkoder",
+    "distanceKm": 1.351
+  },
+  {
+    "historicalId": "hist-bejaia-5167a407",
+    "historicalName": "Bejaia",
+    "unCityCode": 4538,
+    "unName": "Bejaia",
+    "distanceKm": 1.373
+  },
+  {
+    "historicalId": "hist-constantine-d9b1df74",
+    "historicalName": "Constantine",
+    "unCityCode": 5363,
+    "unName": "Constantine",
+    "distanceKm": 0.598
+  },
+  {
+    "historicalId": "hist-algiers-385ce0f3",
+    "historicalName": "Algiers",
+    "unCityCode": 3444,
+    "unName": "El Djazaïr (Algiers)",
+    "distanceKm": 4.32
+  },
+  {
+    "historicalId": "hist-oran-0d7cccf6",
+    "historicalName": "Oran",
+    "unCityCode": 922,
+    "unName": "Oran",
+    "distanceKm": 2.112
+  },
+  {
+    "historicalId": "hist-setif-7f99a220",
+    "historicalName": "Setif",
+    "unCityCode": 4723,
+    "unName": "Setif",
+    "distanceKm": 1.854
+  },
+  {
+    "historicalId": "hist-tlemcen-aac93afb",
+    "historicalName": "Tlemcen",
+    "unCityCode": 527,
+    "unName": "Tlemcen",
+    "distanceKm": 1.865
+  },
+  {
+    "historicalId": "hist-luanda-a51ebb31",
+    "historicalName": "Luanda",
+    "unCityCode": 939,
+    "unName": "Luanda",
+    "distanceKm": 8.243
+  },
+  {
+    "historicalId": "hist-mbanzacongo-019e14fa",
+    "historicalName": "M'banza-Congo",
+    "unCityCode": 2250,
+    "unName": "M'banza Congo",
+    "distanceKm": 1.812
+  },
+  {
+    "historicalId": "hist-buenosaires-96db338d",
+    "historicalName": "Buenos Aires",
+    "unCityCode": 4459,
+    "unName": "Buenos Aires",
+    "distanceKm": 13.092
+  },
+  {
+    "historicalId": "hist-cordoba-aff5add8",
+    "historicalName": "Cordoba",
+    "unCityCode": 2381,
+    "unName": "Cordoba",
+    "distanceKm": 2.358
+  },
+  {
+    "historicalId": "hist-laplata-47c2d317",
+    "historicalName": "La Plata",
+    "unCityCode": 4681,
+    "unName": "La Plata",
+    "distanceKm": 1.09
+  },
+  {
+    "historicalId": "hist-mendoza-0976b319",
+    "historicalName": "Mendoza",
+    "unCityCode": 198,
+    "unName": "Mendoza",
+    "distanceKm": 1.359
+  },
+  {
+    "historicalId": "hist-parana-e44c7093",
+    "historicalName": "Parana",
+    "unCityCode": 3383,
+    "unName": "Paraná",
+    "distanceKm": 1.462
+  },
+  {
+    "historicalId": "hist-rosario-e1eebb6d",
+    "historicalName": "Rosario",
+    "unCityCode": 3595,
+    "unName": "Rosario",
+    "distanceKm": 3.276
+  },
+  {
+    "historicalId": "hist-santafe-a938e6f1",
+    "historicalName": "Santa Fe",
+    "unCityCode": 3163,
+    "unName": "Santa Fe",
+    "distanceKm": 1.273
+  },
+  {
+    "historicalId": "hist-yerevan-62800e8e",
+    "historicalName": "Yerevan",
+    "unCityCode": 451,
+    "unName": "Yerevan",
+    "distanceKm": 0.958
+  },
+  {
+    "historicalId": "hist-adelaide-e4700a6d",
+    "historicalName": "Adelaide",
+    "unCityCode": 1003,
+    "unName": "Adelaide",
+    "distanceKm": 4.568
+  },
+  {
+    "historicalId": "hist-brisbane-c7a2eb30",
+    "historicalName": "Brisbane",
+    "unCityCode": 2591,
+    "unName": "Brisbane",
+    "distanceKm": 0.895
+  },
+  {
+    "historicalId": "hist-hobart-2e8de4ee",
+    "historicalName": "Hobart",
+    "unCityCode": 761,
+    "unName": "Hobart",
+    "distanceKm": 2.238
+  },
+  {
+    "historicalId": "hist-melbourne-089ac90b",
+    "historicalName": "Melbourne",
+    "unCityCode": 1634,
+    "unName": "Melbourne",
+    "distanceKm": 8.576
+  },
+  {
+    "historicalId": "hist-newcastle-fe35d205",
+    "historicalName": "Newcastle",
+    "unCityCode": 2217,
+    "unName": "Newcastle",
+    "distanceKm": 5.618
+  },
+  {
+    "historicalId": "hist-perth-408a974a",
+    "historicalName": "Perth",
+    "unCityCode": 330,
+    "unName": "Perth",
+    "distanceKm": 9.315
+  },
+  {
+    "historicalId": "hist-sydney-a09b0540",
+    "historicalName": "Sydney",
+    "unCityCode": 2139,
+    "unName": "Sydney",
+    "distanceKm": 11.892
+  },
+  {
+    "historicalId": "hist-graz-4f1bbd9b",
+    "historicalName": "Graz",
+    "unCityCode": 938,
+    "unName": "Graz",
+    "distanceKm": 1.26
+  },
+  {
+    "historicalId": "hist-linz-193cbe3e",
+    "historicalName": "Linz",
+    "unCityCode": 683,
+    "unName": "Linz",
+    "distanceKm": 2.761
+  },
+  {
+    "historicalId": "hist-salzburg-598d4120",
+    "historicalName": "Salzburg",
+    "unCityCode": 397,
+    "unName": "Salzburg",
+    "distanceKm": 0.599
+  },
+  {
+    "historicalId": "hist-vienna-04a427b0",
+    "historicalName": "Vienna",
+    "unCityCode": 1054,
+    "unName": "Wien (Vienna)",
+    "distanceKm": 1.153
+  },
+  {
+    "historicalId": "hist-baku-b9d1c587",
+    "historicalName": "Baku",
+    "unCityCode": 2348,
+    "unName": "Bakı (Baku)",
+    "distanceKm": 4.258
+  },
+  {
+    "historicalId": "hist-ganja-80519ef0",
+    "historicalName": "Ganja",
+    "unCityCode": 453,
+    "unName": "Ganja",
+    "distanceKm": 1.205
+  },
+  {
+    "historicalId": "hist-dhaka-c19e3fd5",
+    "historicalName": "Dhaka",
+    "unCityCode": 6249,
+    "unName": "Dhaka",
+    "distanceKm": 18.121
+  },
+  {
+    "historicalId": "hist-dinajpur-c9cf74b3",
+    "historicalName": "Dinajpur",
+    "unCityCode": 1430,
+    "unName": "Dinajpur",
+    "distanceKm": 0.205
+  },
+  {
+    "historicalId": "hist-rangpur-ae558b38",
+    "historicalName": "Rangpur",
+    "unCityCode": 2716,
+    "unName": "Rangpur",
+    "distanceKm": 0.386
+  },
+  {
+    "historicalId": "hist-brest-d8ae1c06",
+    "historicalName": "Brest",
+    "unCityCode": 264,
+    "unName": "Brest",
+    "distanceKm": 4.642
+  },
+  {
+    "historicalId": "hist-grodno-71a00843",
+    "historicalName": "Grodno",
+    "unCityCode": 96,
+    "unName": "Hrodna",
+    "distanceKm": 1.422
+  },
+  {
+    "historicalId": "hist-minsk-c1991e46",
+    "historicalName": "Minsk",
+    "unCityCode": 704,
+    "unName": "Minsk",
+    "distanceKm": 1.282
+  },
+  {
+    "historicalId": "hist-alost-217640c4",
+    "historicalName": "Alost",
+    "unCityCode": 804,
+    "unName": "Aalst",
+    "distanceKm": 0.649
+  },
+  {
+    "historicalId": "hist-antwerp-a5aacac5",
+    "historicalName": "Antwerp",
+    "unCityCode": 1266,
+    "unName": "Antwerp",
+    "distanceKm": 1.422
+  },
+  {
+    "historicalId": "hist-brugge-78116f7e",
+    "historicalName": "Brugge",
+    "unCityCode": 226,
+    "unName": "Bruges",
+    "distanceKm": 0.759
+  },
+  {
+    "historicalId": "hist-brussel-542c1dd4",
+    "historicalName": "Brussel",
+    "unCityCode": 1157,
+    "unName": "Bruxelles (Brussels)",
+    "distanceKm": 0.924
+  },
+  {
+    "historicalId": "hist-gent-2523d55e",
+    "historicalName": "Gent",
+    "unCityCode": 531,
+    "unName": "Ghent",
+    "distanceKm": 0.115
+  },
+  {
+    "historicalId": "hist-kortrijk-361ae25e",
+    "historicalName": "Kortrijk",
+    "unCityCode": 385,
+    "unName": "Kortrijk",
+    "distanceKm": 1.396
+  },
+  {
+    "historicalId": "hist-liege-70fdaa09",
+    "historicalName": "Liege",
+    "unCityCode": 1755,
+    "unName": "Liège",
+    "distanceKm": 0.42
+  },
+  {
+    "historicalId": "hist-mechelen-1686781c",
+    "historicalName": "Mechelen",
+    "unCityCode": 1474,
+    "unName": "Mechelen",
+    "distanceKm": 0.254
+  },
+  {
+    "historicalId": "hist-namur-54949061",
+    "historicalName": "Namur",
+    "unCityCode": 1665,
+    "unName": "Namur",
+    "distanceKm": 0.711
+  },
+  {
+    "historicalId": "hist-ostend-79406f19",
+    "historicalName": "Ostend",
+    "unCityCode": 55,
+    "unName": "Ostend",
+    "distanceKm": 1.875
+  },
+  {
+    "historicalId": "hist-verviers-6c8beb3e",
+    "historicalName": "Verviers",
+    "unCityCode": 1844,
+    "unName": "Verviers",
+    "distanceKm": 0.134
+  },
+  {
+    "historicalId": "hist-allada-06c2ef15",
+    "historicalName": "Allada",
+    "unCityCode": 1569,
+    "unName": "Allada",
+    "distanceKm": 0.265
+  },
+  {
+    "historicalId": "hist-cochabamba-d9c9a667",
+    "historicalName": "Cochabamba",
+    "unCityCode": 648,
+    "unName": "Cochabamba",
+    "distanceKm": 1.914
+  },
+  {
+    "historicalId": "hist-lapaz-758f1188",
+    "historicalName": "La Paz",
+    "unCityCode": 197,
+    "unName": "La Paz",
+    "distanceKm": 1.896
+  },
+  {
+    "historicalId": "hist-oruro-a7f04229",
+    "historicalName": "Oruro",
+    "unCityCode": 505,
+    "unName": "Oruro",
+    "distanceKm": 4.788
+  },
+  {
+    "historicalId": "hist-potosi-e1732943",
+    "historicalName": "Potosi",
+    "unCityCode": 904,
+    "unName": "Potosí",
+    "distanceKm": 0.598
+  },
+  {
+    "historicalId": "hist-sarajevo-30ff3788",
+    "historicalName": "Sarajevo",
+    "unCityCode": 409,
+    "unName": "Sarajevo",
+    "distanceKm": 1.286
+  },
+  {
+    "historicalId": "hist-bauru-deab50f5",
+    "historicalName": "Bauru",
+    "unCityCode": 6033,
+    "unName": "Bauru",
+    "distanceKm": 1.526
+  },
+  {
+    "historicalId": "hist-belohorizonte-a875bd32",
+    "historicalName": "Belo Horizonte",
+    "unCityCode": 7802,
+    "unName": "Belo Horizonte",
+    "distanceKm": 6.066
+  },
+  {
+    "historicalId": "hist-belem-ac3a76a1",
+    "historicalName": "Belem",
+    "unCityCode": 4497,
+    "unName": "Belém",
+    "distanceKm": 9.944
+  },
+  {
+    "historicalId": "hist-brasilia-78140ba7",
+    "historicalName": "Brasilia",
+    "unCityCode": 5833,
+    "unName": "Brasília",
+    "distanceKm": 17.035
+  },
+  {
+    "historicalId": "hist-cuiaba-66511eb8",
+    "historicalName": "Cuiaba",
+    "unCityCode": 2152,
+    "unName": "Cuiabá",
+    "distanceKm": 1.74
+  },
+  {
+    "historicalId": "hist-curitiba-c9dfc70f",
+    "historicalName": "Curitiba",
+    "unCityCode": 6446,
+    "unName": "Curitiba",
+    "distanceKm": 3.816
+  },
+  {
+    "historicalId": "hist-florianopolis-a4cab4e2",
+    "historicalName": "Florianopolis",
+    "unCityCode": 7010,
+    "unName": "Florianópolis",
+    "distanceKm": 5.28
+  },
+  {
+    "historicalId": "hist-fortaleza-f26f5328",
+    "historicalName": "Fortaleza",
+    "unCityCode": 8285,
+    "unName": "Fortaleza",
+    "distanceKm": 6.91
+  },
+  {
+    "historicalId": "hist-goiania-18612e42",
+    "historicalName": "Goiania",
+    "unCityCode": 4862,
+    "unName": "Goiânia",
+    "distanceKm": 4.209
+  },
+  {
+    "historicalId": "hist-maceio-a2ab3a7c",
+    "historicalName": "Maceio",
+    "unCityCode": 8494,
+    "unName": "Maceió",
+    "distanceKm": 6.392
+  },
+  {
+    "historicalId": "hist-manaus-e26345df",
+    "historicalName": "Manaus",
+    "unCityCode": 1356,
+    "unName": "Manaus",
+    "distanceKm": 5.526
+  },
+  {
+    "historicalId": "hist-portoalegre-0c5ba7b7",
+    "historicalName": "Porto Alegre",
+    "unCityCode": 5995,
+    "unName": "Porto Alegre",
+    "distanceKm": 7.724
+  },
+  {
+    "historicalId": "hist-recife-7c67c2cf",
+    "historicalName": "Recife",
+    "unCityCode": 8535,
+    "unName": "Recife",
+    "distanceKm": 4.45
+  },
+  {
+    "historicalId": "hist-riodejaneiro-b0d49b2e",
+    "historicalName": "Rio de Janeiro",
+    "unCityCode": 7935,
+    "unName": "Rio de Janeiro",
+    "distanceKm": 17.491
+  },
+  {
+    "historicalId": "hist-salvador-49b09fba",
+    "historicalName": "Salvador",
+    "unCityCode": 8374,
+    "unName": "Salvador",
+    "distanceKm": 7.495
+  },
+  {
+    "historicalId": "hist-santos-be6354ed",
+    "historicalName": "Santos",
+    "unCityCode": 7505,
+    "unName": "Santos",
+    "distanceKm": 0.103
+  },
+  {
+    "historicalId": "hist-saoluis-e46de54e",
+    "historicalName": "Sao Luis",
+    "unCityCode": 7420,
+    "unName": "São Luís",
+    "distanceKm": 7.639
+  },
+  {
+    "historicalId": "hist-saopaolo-258c55a2",
+    "historicalName": "Sao Paolo",
+    "unCityCode": 7303,
+    "unName": "São Paulo",
+    "distanceKm": 4.922
+  },
+  {
+    "historicalId": "hist-teresina-6e5a3a3e",
+    "historicalName": "Teresina",
+    "unCityCode": 7775,
+    "unName": "Teresina",
+    "distanceKm": 1.099
+  },
+  {
+    "historicalId": "hist-bandarseribegawan-1f8d4453",
+    "historicalName": "Bandar Seri Begawan",
+    "unCityCode": 169,
+    "unName": "Bandar Seri Begawan",
+    "distanceKm": 3.129
+  },
+  {
+    "historicalId": "hist-plovdiv-493eb205",
+    "historicalName": "Plovdiv",
+    "unCityCode": 424,
+    "unName": "Plovdiv",
+    "distanceKm": 1.177
+  },
+  {
+    "historicalId": "hist-ruse-7e2fd715",
+    "historicalName": "Ruse",
+    "unCityCode": 569,
+    "unName": "Ruse",
+    "distanceKm": 0.902
+  },
+  {
+    "historicalId": "hist-shumen-8b7b4df0",
+    "historicalName": "Shumen",
+    "unCityCode": 20955,
+    "unName": "Shumen",
+    "distanceKm": 0.674
+  },
+  {
+    "historicalId": "hist-sofia-e621362e",
+    "historicalName": "Sofia",
+    "unCityCode": 100,
+    "unName": "Sofia",
+    "distanceKm": 1.365
+  },
+  {
+    "historicalId": "hist-varna-37c630c3",
+    "historicalName": "Varna",
+    "unCityCode": 1180,
+    "unName": "Varna",
+    "distanceKm": 0.794
+  },
+  {
+    "historicalId": "hist-vidin-efba6bec",
+    "historicalName": "Vidin",
+    "unCityCode": 21384,
+    "unName": "Vidin",
+    "distanceKm": 0.201
+  },
+  {
+    "historicalId": "hist-phnompenh-3eb5c0ef",
+    "historicalName": "Phnom Penh",
+    "unCityCode": 1225,
+    "unName": "Phnum Pénh (Phnom Penh)",
+    "distanceKm": 1.572
+  },
+  {
+    "historicalId": "hist-edmonton-605f3d20",
+    "historicalName": "Edmonton",
+    "unCityCode": 1546,
+    "unName": "Edmonton",
+    "distanceKm": 3.935
+  },
+  {
+    "historicalId": "hist-halifax-6e2c086e",
+    "historicalName": "Halifax",
+    "unCityCode": 4146,
+    "unName": "Halifax",
+    "distanceKm": 1.986
+  },
+  {
+    "historicalId": "hist-london-58182d58",
+    "historicalName": "London",
+    "unCityCode": 2303,
+    "unName": "London",
+    "distanceKm": 1.292
+  },
+  {
+    "historicalId": "hist-montreal-02eb71a8",
+    "historicalName": "Montreal",
+    "unCityCode": 3645,
+    "unName": "Montreal",
+    "distanceKm": 6.818
+  },
+  {
+    "historicalId": "hist-ottawa-992170aa",
+    "historicalName": "Ottawa",
+    "unCityCode": 3488,
+    "unName": "Ottawa",
+    "distanceKm": 1.892
+  },
+  {
+    "historicalId": "hist-quebec-fdf84125",
+    "historicalName": "Quebec",
+    "unCityCode": 4103,
+    "unName": "Quebec",
+    "distanceKm": 4.121
+  },
+  {
+    "historicalId": "hist-stjohns-4814b5a2",
+    "historicalName": "St. John's",
+    "unCityCode": 4189,
+    "unName": "St. John's",
+    "distanceKm": 1.54
+  },
+  {
+    "historicalId": "hist-toronto-e54f0c25",
+    "historicalName": "Toronto",
+    "unCityCode": 2925,
+    "unName": "Toronto",
+    "distanceKm": 5.084
+  },
+  {
+    "historicalId": "hist-vancouver-01d0050f",
+    "historicalName": "Vancouver",
+    "unCityCode": 341,
+    "unName": "Vancouver",
+    "distanceKm": 5.699
+  },
+  {
+    "historicalId": "hist-winnipeg-56c1db91",
+    "historicalName": "Winnipeg",
+    "unCityCode": 2067,
+    "unName": "Winnipeg",
+    "distanceKm": 0.828
+  },
+  {
+    "historicalId": "hist-chillan-7fa9e82a",
+    "historicalName": "Chillan",
+    "unCityCode": 2669,
+    "unName": "Chillán",
+    "distanceKm": 0.702
+  },
+  {
+    "historicalId": "hist-concepcion-f78be6e4",
+    "historicalName": "Concepcion",
+    "unCityCode": 1554,
+    "unName": "Concepción",
+    "distanceKm": 4.469
+  },
+  {
+    "historicalId": "hist-iquique-b9b2fbf9",
+    "historicalName": "Iquique",
+    "unCityCode": 195,
+    "unName": "Iquique",
+    "distanceKm": 2.165
+  },
+  {
+    "historicalId": "hist-santiago-02ba2b60",
+    "historicalName": "Santiago",
+    "unCityCode": 2380,
+    "unName": "Santiago",
+    "distanceKm": 4.78
+  },
+  {
+    "historicalId": "hist-talca-ba31c5b6",
+    "historicalName": "Talca",
+    "unCityCode": 2455,
+    "unName": "Talca",
+    "distanceKm": 0.491
+  },
+  {
+    "historicalId": "hist-valparaiso-5868f605",
+    "historicalName": "Valparaiso",
+    "unCityCode": 1020,
+    "unName": "Valparaíso",
+    "distanceKm": 9.246
+  },
+  {
+    "historicalId": "hist-aksu-f3c7dba1",
+    "historicalName": "Aksu",
+    "unCityCode": 1427,
+    "unName": "Aksu",
+    "distanceKm": 5.393
+  },
+  {
+    "historicalId": "hist-anqing-46885d5f",
+    "historicalName": "Anqing",
+    "unCityCode": 11168,
+    "unName": "Anqing",
+    "distanceKm": 2.006
+  },
+  {
+    "historicalId": "hist-anshan-85800e78",
+    "historicalName": "Anshan",
+    "unCityCode": 10224,
+    "unName": "Anshan",
+    "distanceKm": 1.047
+  },
+  {
+    "historicalId": "hist-anyang-eb5bf01f",
+    "historicalName": "Anyang",
+    "unCityCode": 9476,
+    "unName": "Anyang",
+    "distanceKm": 1.118
+  },
+  {
+    "historicalId": "hist-anyi-3a85284e",
+    "historicalName": "Anyi",
+    "unCityCode": 11124,
+    "unName": "Anyi",
+    "distanceKm": 4.613
+  },
+  {
+    "historicalId": "hist-baoding-7d387322",
+    "historicalName": "Baoding",
+    "unCityCode": 9124,
+    "unName": "Baoding",
+    "distanceKm": 1.518
+  },
+  {
+    "historicalId": "hist-baotou-bd4da32f",
+    "historicalName": "Baotou",
+    "unCityCode": 5486,
+    "unName": "Baotou",
+    "distanceKm": 0.454
+  },
+  {
+    "historicalId": "hist-beijing-c398fb58",
+    "historicalName": "Beijing",
+    "unCityCode": 9020,
+    "unName": "Beijing",
+    "distanceKm": 3.08
+  },
+  {
+    "historicalId": "hist-benxi-b0f96b69",
+    "historicalName": "Benxi",
+    "unCityCode": 10360,
+    "unName": "Benxi",
+    "distanceKm": 0.346
+  },
+  {
+    "historicalId": "hist-changchun-af1fe69b",
+    "historicalName": "Changchun",
+    "unCityCode": 9948,
+    "unName": "Changchun",
+    "distanceKm": 8.567
+  },
+  {
+    "historicalId": "hist-changde-a5467e5b",
+    "historicalName": "Changde",
+    "unCityCode": 10112,
+    "unName": "Changde",
+    "distanceKm": 1.163
+  },
+  {
+    "historicalId": "hist-changsha-f54567e1",
+    "historicalName": "Changsha",
+    "unCityCode": 10588,
+    "unName": "Changsha",
+    "distanceKm": 1.701
+  },
+  {
+    "historicalId": "hist-changshu-21f87b58",
+    "historicalName": "Changshu",
+    "unCityCode": 11652,
+    "unName": "Changshu",
+    "distanceKm": 6.029
+  },
+  {
+    "historicalId": "hist-changzhou-3b46719a",
+    "historicalName": "Changzhou",
+    "unCityCode": 11514,
+    "unName": "Changzhou",
+    "distanceKm": 0.765
+  },
+  {
+    "historicalId": "hist-chaozhou-fe01b240",
+    "historicalName": "Chaozhou",
+    "unCityCode": 11800,
+    "unName": "Chaozhou",
+    "distanceKm": 31.62
+  },
+  {
+    "historicalId": "hist-chengde-12c04108",
+    "historicalName": "Chengde",
+    "unCityCode": 9176,
+    "unName": "Chengde",
+    "distanceKm": 0.922
+  },
+  {
+    "historicalId": "hist-chengde-12c04108",
+    "historicalName": "Chengde",
+    "unCityCode": 9292,
+    "unName": "Chengde",
+    "distanceKm": 29.512
+  },
+  {
+    "historicalId": "hist-chengdu-4dfbb8af",
+    "historicalName": "Chengdu",
+    "unCityCode": 6602,
+    "unName": "Chengdu",
+    "distanceKm": 2.071
+  },
+  {
+    "historicalId": "hist-chongqing-0f0f594f",
+    "historicalName": "Chongqing",
+    "unCityCode": 8833,
+    "unName": "Chongqing",
+    "distanceKm": 3.96
+  },
+  {
+    "historicalId": "hist-dali-90574ce6",
+    "historicalName": "Dali",
+    "unCityCode": 6159,
+    "unName": "Dali",
+    "distanceKm": 14.384
+  },
+  {
+    "historicalId": "hist-dali-90574ce6",
+    "historicalName": "Dali",
+    "unCityCode": 6214,
+    "unName": "Dali",
+    "distanceKm": 4.029
+  },
+  {
+    "historicalId": "hist-dalian-68afe578",
+    "historicalName": "Dalian",
+    "unCityCode": 10452,
+    "unName": "Dalian",
+    "distanceKm": 7.163
+  },
+  {
+    "historicalId": "hist-dandong-de686e3f",
+    "historicalName": "Dandong",
+    "unCityCode": 10802,
+    "unName": "Dandong",
+    "distanceKm": 3.554
+  },
+  {
+    "historicalId": "hist-daqing-093f57db",
+    "historicalName": "Daqing",
+    "unCityCode": 9184,
+    "unName": "Daqing",
+    "distanceKm": 9.21
+  },
+  {
+    "historicalId": "hist-datong-90bb09fc",
+    "historicalName": "Datong",
+    "unCityCode": 7709,
+    "unName": "Datong",
+    "distanceKm": 5.413
+  },
+  {
+    "historicalId": "hist-dingzhou-17afce63",
+    "historicalName": "Dingzhou",
+    "unCityCode": 9104,
+    "unName": "Dingzhou",
+    "distanceKm": 1.121
+  },
+  {
+    "historicalId": "hist-dongtai-015b690b",
+    "historicalName": "Dongtai",
+    "unCityCode": 11448,
+    "unName": "Dongtai",
+    "distanceKm": 19.983
+  },
+  {
+    "historicalId": "hist-fushun-ec77354b",
+    "historicalName": "Fushun",
+    "unCityCode": 10228,
+    "unName": "Fushun",
+    "distanceKm": 3.212
+  },
+  {
+    "historicalId": "hist-fuzhou-38e19dc6",
+    "historicalName": "Fuzhou",
+    "unCityCode": 12022,
+    "unName": "Fuzhou",
+    "distanceKm": 0.894
+  },
+  {
+    "historicalId": "hist-guangzhou-a3f64f00",
+    "historicalName": "Guangzhou",
+    "unCityCode": 11306,
+    "unName": "Guangzhou",
+    "distanceKm": 4.648
+  },
+  {
+    "historicalId": "hist-guilin-d4ff8d84",
+    "historicalName": "Guilin",
+    "unCityCode": 10358,
+    "unName": "Guilin",
+    "distanceKm": 2.159
+  },
+  {
+    "historicalId": "hist-guiyang-8773da0f",
+    "historicalName": "Guiyang",
+    "unCityCode": 9300,
+    "unName": "Guiyang",
+    "distanceKm": 9.773
+  },
+  {
+    "historicalId": "hist-haicheng-bb40cca2",
+    "historicalName": "Haicheng",
+    "unCityCode": 10238,
+    "unName": "Haicheng",
+    "distanceKm": 5.706
+  },
+  {
+    "historicalId": "hist-haining-b0057ea2",
+    "historicalName": "Haining",
+    "unCityCode": 11788,
+    "unName": "Haining",
+    "distanceKm": 0.756
+  },
+  {
+    "historicalId": "hist-handan-2a918810",
+    "historicalName": "Handan",
+    "unCityCode": 9410,
+    "unName": "Handan",
+    "distanceKm": 0.394
+  },
+  {
+    "historicalId": "hist-hangzhou-09637644",
+    "historicalName": "Hangzhou",
+    "unCityCode": 11700,
+    "unName": "Hangzhou",
+    "distanceKm": 8.833
+  },
+  {
+    "historicalId": "hist-harbin-93c1baae",
+    "historicalName": "Harbin",
+    "unCityCode": 9738,
+    "unName": "Harbin",
+    "distanceKm": 0.942
+  },
+  {
+    "historicalId": "hist-hefei-5d7fa7a8",
+    "historicalName": "Hefei",
+    "unCityCode": 10990,
+    "unName": "Hefei",
+    "distanceKm": 2.652
+  },
+  {
+    "historicalId": "hist-heze-c75461c9",
+    "historicalName": "Heze",
+    "unCityCode": 9882,
+    "unName": "Heze",
+    "distanceKm": 2.183
+  },
+  {
+    "historicalId": "hist-hohhot-b1401622",
+    "historicalName": "Hohhot",
+    "unCityCode": 6045,
+    "unName": "Hohhot",
+    "distanceKm": 1.341
+  },
+  {
+    "historicalId": "hist-huadian-0fdd4706",
+    "historicalName": "Huadian",
+    "unCityCode": 10578,
+    "unName": "Huadian",
+    "distanceKm": 2.585
+  },
+  {
+    "historicalId": "hist-huizhou-09baf4f5",
+    "historicalName": "Huizhou",
+    "unCityCode": 11552,
+    "unName": "Huizhou",
+    "distanceKm": 3.58
+  },
+  {
+    "historicalId": "hist-huzhou-955fe600",
+    "historicalName": "Huzhou",
+    "unCityCode": 11644,
+    "unName": "Huzhou",
+    "distanceKm": 0.497
+  },
+  {
+    "historicalId": "hist-jiangyin-84f48c11",
+    "historicalName": "Jiangyin",
+    "unCityCode": 11538,
+    "unName": "Jiangyin",
+    "distanceKm": 10.345
+  },
+  {
+    "historicalId": "hist-jinan-eae0c94a",
+    "historicalName": "Jinan",
+    "unCityCode": 9912,
+    "unName": "Jinan",
+    "distanceKm": 9.175
+  },
+  {
+    "historicalId": "hist-jingdezhen-acb50b2e",
+    "historicalName": "Jingdezhen",
+    "unCityCode": 11384,
+    "unName": "Jingdezhen",
+    "distanceKm": 3.631
+  },
+  {
+    "historicalId": "hist-jingmen-5432484f",
+    "historicalName": "Jingmen",
+    "unCityCode": 9922,
+    "unName": "Jingmen",
+    "distanceKm": 1.106
+  },
+  {
+    "historicalId": "hist-jinzhou-217174d5",
+    "historicalName": "Jinzhou",
+    "unCityCode": 9830,
+    "unName": "Jinzhou",
+    "distanceKm": 1.499
+  },
+  {
+    "historicalId": "hist-jiujiang-586971a1",
+    "historicalName": "Jiujiang",
+    "unCityCode": 11076,
+    "unName": "Jiujiang",
+    "distanceKm": 0.682
+  },
+  {
+    "historicalId": "hist-kaifeng-c305cf5c",
+    "historicalName": "Kaifeng",
+    "unCityCode": 9726,
+    "unName": "Kaifeng",
+    "distanceKm": 3.32
+  },
+  {
+    "historicalId": "hist-kashi-9bd436b1",
+    "historicalName": "Kashi",
+    "unCityCode": 150,
+    "unName": "Kashgar",
+    "distanceKm": 0.051
+  },
+  {
+    "historicalId": "hist-kunming-094c9b1e",
+    "historicalName": "Kunming",
+    "unCityCode": 8296,
+    "unName": "Kunming",
+    "distanceKm": 0.433
+  },
+  {
+    "historicalId": "hist-laiwu-f0b1c682",
+    "historicalName": "Laiwu",
+    "unCityCode": 10178,
+    "unName": "Laiwu",
+    "distanceKm": 3.823
+  },
+  {
+    "historicalId": "hist-lanzhou-39750fc2",
+    "historicalName": "Lanzhou",
+    "unCityCode": 4559,
+    "unName": "Lanzhou",
+    "distanceKm": 2.703
+  },
+  {
+    "historicalId": "hist-leiyang-1d2c661c",
+    "historicalName": "Leiyang",
+    "unCityCode": 10866,
+    "unName": "Leiyang",
+    "distanceKm": 9.579
+  },
+  {
+    "historicalId": "hist-leshan-93c1c6dc",
+    "historicalName": "Leshan",
+    "unCityCode": 7196,
+    "unName": "Leshan",
+    "distanceKm": 4.675
+  },
+  {
+    "historicalId": "hist-lhasa-1ae803a5",
+    "historicalName": "Lhasa",
+    "unCityCode": 3366,
+    "unName": "Lhasa",
+    "distanceKm": 2.344
+  },
+  {
+    "historicalId": "hist-lianyuan-c4b64c80",
+    "historicalName": "Lianyuan",
+    "unCityCode": 10356,
+    "unName": "Lianyuan",
+    "distanceKm": 0.3
+  },
+  {
+    "historicalId": "hist-liaoyang-1bc924d8",
+    "historicalName": "Liaoyang",
+    "unCityCode": 10214,
+    "unName": "Liaoyang",
+    "distanceKm": 11.479
+  },
+  {
+    "historicalId": "hist-liaoyang-1bc924d8",
+    "historicalName": "Liaoyang",
+    "unCityCode": 10232,
+    "unName": "Liaoyang",
+    "distanceKm": 2.165
+  },
+  {
+    "historicalId": "hist-linqing-68bc34e9",
+    "historicalName": "Linqing",
+    "unCityCode": 9650,
+    "unName": "Linqing",
+    "distanceKm": 0.459
+  },
+  {
+    "historicalId": "hist-linyi-638c83a5",
+    "historicalName": "Linyi",
+    "unCityCode": 10600,
+    "unName": "Linyi",
+    "distanceKm": 1.95
+  },
+  {
+    "historicalId": "hist-linzi-40a8021e",
+    "historicalName": "Linzi",
+    "unCityCode": 10202,
+    "unName": "Linzi",
+    "distanceKm": 0.965
+  },
+  {
+    "historicalId": "hist-lucheng-a59fcc9b",
+    "historicalName": "Lucheng",
+    "unCityCode": 9186,
+    "unName": "Lucheng",
+    "distanceKm": 2.512
+  },
+  {
+    "historicalId": "hist-luoyang-a255740a",
+    "historicalName": "Luoyang",
+    "unCityCode": 9308,
+    "unName": "Luoyang",
+    "distanceKm": 2.545
+  },
+  {
+    "historicalId": "hist-macheng-d2a3ebd2",
+    "historicalName": "Macheng",
+    "unCityCode": 10598,
+    "unName": "Macheng",
+    "distanceKm": 17.335
+  },
+  {
+    "historicalId": "hist-nanchang-7c3ce287",
+    "historicalName": "Nanchang",
+    "unCityCode": 11188,
+    "unName": "Nanchang",
+    "distanceKm": 1.342
+  },
+  {
+    "historicalId": "hist-nanchang-7c3ce287",
+    "historicalName": "Nanchang",
+    "unCityCode": 11226,
+    "unName": "Nanchang",
+    "distanceKm": 16.928
+  },
+  {
+    "historicalId": "hist-nanjing-712f7873",
+    "historicalName": "Nanjing",
+    "unCityCode": 11254,
+    "unName": "Nanjing",
+    "distanceKm": 1.919
+  },
+  {
+    "historicalId": "hist-nanning-635270d0",
+    "historicalName": "Nanning",
+    "unCityCode": 10166,
+    "unName": "Nanning",
+    "distanceKm": 1.082
+  },
+  {
+    "historicalId": "hist-nantong-0a7ced11",
+    "historicalName": "Nantong",
+    "unCityCode": 11606,
+    "unName": "Nantong",
+    "distanceKm": 5.656
+  },
+  {
+    "historicalId": "hist-neijiang-a2f5425e",
+    "historicalName": "Neijiang",
+    "unCityCode": 8107,
+    "unName": "Neijiang",
+    "distanceKm": 1.477
+  },
+  {
+    "historicalId": "hist-ningbo-f3d67019",
+    "historicalName": "Ningbo",
+    "unCityCode": 11956,
+    "unName": "Ningbo",
+    "distanceKm": 5.326
+  },
+  {
+    "historicalId": "hist-pingdu-2099b695",
+    "historicalName": "Pingdu",
+    "unCityCode": 10610,
+    "unName": "Pingdu",
+    "distanceKm": 0.571
+  },
+  {
+    "historicalId": "hist-pingxiang-eef0f7db",
+    "historicalName": "Pingxiang",
+    "unCityCode": 10898,
+    "unName": "Pingxiang",
+    "distanceKm": 3.305
+  },
+  {
+    "historicalId": "hist-qidong-fc8eb893",
+    "historicalName": "Qidong",
+    "unCityCode": 11772,
+    "unName": "Qidong",
+    "distanceKm": 6.956
+  },
+  {
+    "historicalId": "hist-qingdao-159ca38e",
+    "historicalName": "Qingdao",
+    "unCityCode": 10816,
+    "unName": "Qingdao",
+    "distanceKm": 11.185
+  },
+  {
+    "historicalId": "hist-qinzhou-f41d488e",
+    "historicalName": "Qinzhou",
+    "unCityCode": 10396,
+    "unName": "Qinzhou",
+    "distanceKm": 1.426
+  },
+  {
+    "historicalId": "hist-qiqihar-6a1cf668",
+    "historicalName": "Qiqihar",
+    "unCityCode": 8695,
+    "unName": "Qiqihar",
+    "distanceKm": 3.967
+  },
+  {
+    "historicalId": "hist-qufu-a346a72e",
+    "historicalName": "Qufu",
+    "unCityCode": 10150,
+    "unName": "Qufu",
+    "distanceKm": 4.772
+  },
+  {
+    "historicalId": "hist-rizhao-e4b82b30",
+    "historicalName": "Rizhao",
+    "unCityCode": 10804,
+    "unName": "Rizhao",
+    "distanceKm": 0.858
+  },
+  {
+    "historicalId": "hist-shanghai-8cd78974",
+    "historicalName": "Shanghai",
+    "unCityCode": 11738,
+    "unName": "Shanghai",
+    "distanceKm": 2.174
+  },
+  {
+    "historicalId": "hist-shangrao-8ddca486",
+    "historicalName": "Shangrao",
+    "unCityCode": 11594,
+    "unName": "Shangrao",
+    "distanceKm": 2.158
+  },
+  {
+    "historicalId": "hist-shenyang-2897aa3b",
+    "historicalName": "Shenyang",
+    "unCityCode": 10098,
+    "unName": "Shenyang",
+    "distanceKm": 3.666
+  },
+  {
+    "historicalId": "hist-shijiazhuang-c1105f1c",
+    "historicalName": "Shijiazhuang",
+    "unCityCode": 9058,
+    "unName": "Shijiazhuang",
+    "distanceKm": 2.468
+  },
+  {
+    "historicalId": "hist-shuangcheng-20f60782",
+    "historicalName": "Shuangcheng",
+    "unCityCode": 9792,
+    "unName": "Shuangcheng",
+    "distanceKm": 3.621
+  },
+  {
+    "historicalId": "hist-suining-5466588c",
+    "historicalName": "Suining",
+    "unCityCode": 7988,
+    "unName": "Suining",
+    "distanceKm": 2.841
+  },
+  {
+    "historicalId": "hist-suizhou-01dbaf34",
+    "historicalName": "Suizhou",
+    "unCityCode": 10056,
+    "unName": "Suizhou",
+    "distanceKm": 3.335
+  },
+  {
+    "historicalId": "hist-suqian-694a030c",
+    "historicalName": "Suqian",
+    "unCityCode": 10822,
+    "unName": "Suqian",
+    "distanceKm": 2.857
+  },
+  {
+    "historicalId": "hist-suzhou-3b25631c",
+    "historicalName": "Suzhou",
+    "unCityCode": 11632,
+    "unName": "Suzhou",
+    "distanceKm": 9.328
+  },
+  {
+    "historicalId": "hist-taian-6ed73495",
+    "historicalName": "Taian",
+    "unCityCode": 10044,
+    "unName": "Tai'an",
+    "distanceKm": 5.515
+  },
+  {
+    "historicalId": "hist-taiyuan-e8eed0dd",
+    "historicalName": "Taiyuan",
+    "unCityCode": 8609,
+    "unName": "Taiyuan",
+    "distanceKm": 1.946
+  },
+  {
+    "historicalId": "hist-tangshan-1b01d436",
+    "historicalName": "Tangshan",
+    "unCityCode": 9540,
+    "unName": "Tangshan",
+    "distanceKm": 0.475
+  },
+  {
+    "historicalId": "hist-tianjin-947b8d78",
+    "historicalName": "Tianjin",
+    "unCityCode": 9414,
+    "unName": "Tianjin",
+    "distanceKm": 1.846
+  },
+  {
+    "historicalId": "hist-tianmen-5c4118f3",
+    "historicalName": "Tianmen",
+    "unCityCode": 10196,
+    "unName": "Tianmen",
+    "distanceKm": 1.559
+  },
+  {
+    "historicalId": "hist-tianshui-7337ba65",
+    "historicalName": "Tianshui",
+    "unCityCode": 6007,
+    "unName": "Tianshui",
+    "distanceKm": 0.898
+  },
+  {
+    "historicalId": "hist-wafangdian-4e88ec9e",
+    "historicalName": "Wafangdian",
+    "unCityCode": 10402,
+    "unName": "Wafangdian",
+    "distanceKm": 2.391
+  },
+  {
+    "historicalId": "hist-weifang-b639a6f0",
+    "historicalName": "Weifang",
+    "unCityCode": 10412,
+    "unName": "Weifang",
+    "distanceKm": 2.724
+  },
+  {
+    "historicalId": "hist-weihai-d0156b7f",
+    "historicalName": "Weihai",
+    "unCityCode": 10948,
+    "unName": "Weihai",
+    "distanceKm": 2.645
+  },
+  {
+    "historicalId": "hist-wenzhou-5e73f45e",
+    "historicalName": "Wenzhou",
+    "unCityCode": 12032,
+    "unName": "Wenzhou",
+    "distanceKm": 3.993
+  },
+  {
+    "historicalId": "hist-wuhan-4f73450a",
+    "historicalName": "Wuhan",
+    "unCityCode": 10474,
+    "unName": "Wuhan",
+    "distanceKm": 3.466
+  },
+  {
+    "historicalId": "hist-wuhu-b47ba76e",
+    "historicalName": "Wuhu",
+    "unCityCode": 11312,
+    "unName": "Wuhu",
+    "distanceKm": 0.49
+  },
+  {
+    "historicalId": "hist-wuxi-5edb1dae",
+    "historicalName": "Wuxi",
+    "unCityCode": 11580,
+    "unName": "Wuxi",
+    "distanceKm": 10.309
+  },
+  {
+    "historicalId": "hist-wuzhou-7df4229a",
+    "historicalName": "Wuzhou",
+    "unCityCode": 10882,
+    "unName": "Wuzhou",
+    "distanceKm": 1.69
+  },
+  {
+    "historicalId": "hist-xian-b5131b30",
+    "historicalName": "Xian",
+    "unCityCode": 8371,
+    "unName": "Xi'an",
+    "distanceKm": 9.649
+  },
+  {
+    "historicalId": "hist-xiangtan-e79f1330",
+    "historicalName": "Xiangtan",
+    "unCityCode": 10646,
+    "unName": "Xiangtan",
+    "distanceKm": 3.937
+  },
+  {
+    "historicalId": "hist-xiangtan-e79f1330",
+    "historicalName": "Xiangtan",
+    "unCityCode": 10668,
+    "unName": "Xiangtan",
+    "distanceKm": 8.939
+  },
+  {
+    "historicalId": "hist-xiangyang-b67d7063",
+    "historicalName": "Xiangyang",
+    "unCityCode": 9746,
+    "unName": "Xiangyang",
+    "distanceKm": 5.866
+  },
+  {
+    "historicalId": "hist-xiantao-bc769b6e",
+    "historicalName": "Xiantao",
+    "unCityCode": 10336,
+    "unName": "Xiantao",
+    "distanceKm": 0.812
+  },
+  {
+    "historicalId": "hist-xianyang-107f2356",
+    "historicalName": "Xianyang",
+    "unCityCode": 8191,
+    "unName": "Xianyang",
+    "distanceKm": 2.601
+  },
+  {
+    "historicalId": "hist-xiaogan-eacb9522",
+    "historicalName": "Xiaogan",
+    "unCityCode": 10364,
+    "unName": "Xiaogan",
+    "distanceKm": 2.317
+  },
+  {
+    "historicalId": "hist-xinghua-8176f381",
+    "historicalName": "Xinghua",
+    "unCityCode": 11352,
+    "unName": "Xinghua",
+    "distanceKm": 0.377
+  },
+  {
+    "historicalId": "hist-xingtai-728d3e3d",
+    "historicalName": "Xingtai",
+    "unCityCode": 9306,
+    "unName": "Xingtai",
+    "distanceKm": 1.172
+  },
+  {
+    "historicalId": "hist-xining-a4f3ed5d",
+    "historicalName": "Xining",
+    "unCityCode": 3826,
+    "unName": "Xining",
+    "distanceKm": 0.872
+  },
+  {
+    "historicalId": "hist-xinzheng-db821069",
+    "historicalName": "Xinzheng",
+    "unCityCode": 9694,
+    "unName": "Xinzheng",
+    "distanceKm": 33.424
+  },
+  {
+    "historicalId": "hist-xuzhou-125659c8",
+    "historicalName": "Xuzhou",
+    "unCityCode": 10490,
+    "unName": "Xuzhou",
+    "distanceKm": 4.237
+  },
+  {
+    "historicalId": "hist-yangzhou-0977878d",
+    "historicalName": "Yangzhou",
+    "unCityCode": 11354,
+    "unName": "Yangzhou",
+    "distanceKm": 1.14
+  },
+  {
+    "historicalId": "hist-yarkand-699c98ef",
+    "historicalName": "Yarkand",
+    "unCityCode": 1104,
+    "unName": "Yarkand",
+    "distanceKm": 0.784
+  },
+  {
+    "historicalId": "hist-yichang-6d672241",
+    "historicalName": "Yichang",
+    "unCityCode": 9790,
+    "unName": "Yichang",
+    "distanceKm": 2.771
+  },
+  {
+    "historicalId": "hist-yinchuan-46eac77c",
+    "historicalName": "Yinchuan",
+    "unCityCode": 4779,
+    "unName": "Yinchuan",
+    "distanceKm": 2.334
+  },
+  {
+    "historicalId": "hist-yiyang-291f6dd4",
+    "historicalName": "Yiyang",
+    "unCityCode": 10362,
+    "unName": "Yiyang",
+    "distanceKm": 1.254
+  },
+  {
+    "historicalId": "hist-yulin-5bd7d6cd",
+    "historicalName": "Yulin",
+    "unCityCode": 10684,
+    "unName": "Yulin",
+    "distanceKm": 0.444
+  },
+  {
+    "historicalId": "hist-yuzhou-a77e6d9f",
+    "historicalName": "Yuzhou",
+    "unCityCode": 9680,
+    "unName": "Yuzhou",
+    "distanceKm": 0.878
+  },
+  {
+    "historicalId": "hist-zaozhuang-1708aa61",
+    "historicalName": "Zaozhuang",
+    "unCityCode": 10414,
+    "unName": "Zaozhuang",
+    "distanceKm": 27.474
+  },
+  {
+    "historicalId": "hist-zhangjiakou-8ea6f86a",
+    "historicalName": "Zhangjiakou",
+    "unCityCode": 8268,
+    "unName": "Zhangjiakou",
+    "distanceKm": 2.676
+  },
+  {
+    "historicalId": "hist-zhangye-5028cdaa",
+    "historicalName": "Zhangye",
+    "unCityCode": 3473,
+    "unName": "Zhangye",
+    "distanceKm": 0.79
+  },
+  {
+    "historicalId": "hist-zhanjiang-9cd3be84",
+    "historicalName": "Zhanjiang",
+    "unCityCode": 10924,
+    "unName": "Zhanjiang",
+    "distanceKm": 9.93
+  },
+  {
+    "historicalId": "hist-ao-4d2537b5",
+    "historicalName": "Ao",
+    "unCityCode": 9574,
+    "unName": "Zhengzhou",
+    "distanceKm": 0.286
+  },
+  {
+    "historicalId": "hist-chinkiang-a63136a8",
+    "historicalName": "Chinkiang",
+    "unCityCode": 11392,
+    "unName": "Zhenjiang",
+    "distanceKm": 2.729
+  },
+  {
+    "historicalId": "hist-zhongshan-fab16e74",
+    "historicalName": "Zhongshan",
+    "unCityCode": 11420,
+    "unName": "Zhongshan",
+    "distanceKm": 2.321
+  },
+  {
+    "historicalId": "hist-zibo-f11df481",
+    "historicalName": "Zibo",
+    "unCityCode": 10120,
+    "unName": "Zibo",
+    "distanceKm": 8.248
+  },
+  {
+    "historicalId": "hist-zigong-f6c09116",
+    "historicalName": "Zigong",
+    "unCityCode": 7953,
+    "unName": "Zigong",
+    "distanceKm": 2.325
+  },
+  {
+    "historicalId": "hist-urumqi-a52905de",
+    "historicalName": "Urumqi",
+    "unCityCode": 2715,
+    "unName": "Ürümqi",
+    "distanceKm": 1.987
+  },
+  {
+    "historicalId": "hist-hongkong-04b42dd9",
+    "historicalName": "Hong Kong",
+    "unCityCode": 11566,
+    "unName": "Tamar (Hong Kong)",
+    "distanceKm": 4.305
+  },
+  {
+    "historicalId": "hist-kaohsiung-e1c6f78f",
+    "historicalName": "Kaohsiung",
+    "unCityCode": 12135,
+    "unName": "Kaohsiung",
+    "distanceKm": 2.856
+  },
+  {
+    "historicalId": "hist-taichung-6da8f7a2",
+    "historicalName": "Taichung",
+    "unCityCode": 12126,
+    "unName": "Taichung",
+    "distanceKm": 1.267
+  },
+  {
+    "historicalId": "hist-taipei-88e4c804",
+    "historicalName": "Taipei",
+    "unCityCode": 12128,
+    "unName": "Taipei",
+    "distanceKm": 5.75
+  },
+  {
+    "historicalId": "hist-barranquilla-3fb5dc6c",
+    "historicalName": "Barranquilla",
+    "unCityCode": 3928,
+    "unName": "Barranquilla",
+    "distanceKm": 2.652
+  },
+  {
+    "historicalId": "hist-bogota-c0fcda9e",
+    "historicalName": "Bogota",
+    "unCityCode": 3883,
+    "unName": "Bogotá",
+    "distanceKm": 6.497
+  },
+  {
+    "historicalId": "hist-cali-4f83707b",
+    "historicalName": "Cali",
+    "unCityCode": 899,
+    "unName": "Cali",
+    "distanceKm": 0.523
+  },
+  {
+    "historicalId": "hist-medellin-2988bbfe",
+    "historicalName": "Medellin",
+    "unCityCode": 2525,
+    "unName": "Medellín",
+    "distanceKm": 1.781
+  },
+  {
+    "historicalId": "hist-zagreb-c6ce5f1a",
+    "historicalName": "Zagreb",
+    "unCityCode": 402,
+    "unName": "Zagreb",
+    "distanceKm": 0.733
+  },
+  {
+    "historicalId": "hist-havana-c270da2c",
+    "historicalName": "Havana",
+    "unCityCode": 350,
+    "unName": "La Habana (Havana)",
+    "distanceKm": 5.532
+  },
+  {
+    "historicalId": "hist-matanzas-4bd8caac",
+    "historicalName": "Matanzas",
+    "unCityCode": 898,
+    "unName": "Matanzas",
+    "distanceKm": 0.878
+  },
+  {
+    "historicalId": "hist-santiagodecuba-8fa54c79",
+    "historicalName": "Santiago de Cuba",
+    "unCityCode": 2377,
+    "unName": "Santiago de Cuba",
+    "distanceKm": 1.307
+  },
+  {
+    "historicalId": "hist-nicosia-1f3cc357",
+    "historicalName": "Nicosia",
+    "unCityCode": 434,
+    "unName": "Lefkosia (Nicosia)",
+    "distanceKm": 2.001
+  },
+  {
+    "historicalId": "hist-brunn-e50f80e5",
+    "historicalName": "Brunn",
+    "unCityCode": 1168,
+    "unName": "Brno",
+    "distanceKm": 0.583
+  },
+  {
+    "historicalId": "hist-liberec-ce992421",
+    "historicalName": "Liberec",
+    "unCityCode": 814,
+    "unName": "Liberec",
+    "distanceKm": 5.516
+  },
+  {
+    "historicalId": "hist-ostrava-0d39fa4e",
+    "historicalName": "Ostrava",
+    "unCityCode": 1383,
+    "unName": "Ostrava",
+    "distanceKm": 2.736
+  },
+  {
+    "historicalId": "hist-plzen-d55a5230",
+    "historicalName": "Plzen",
+    "unCityCode": 70,
+    "unName": "Pilsen",
+    "distanceKm": 0.812
+  },
+  {
+    "historicalId": "hist-prague-09e7b372",
+    "historicalName": "Prague",
+    "unCityCode": 542,
+    "unName": "Praha (Prague)",
+    "distanceKm": 2.515
+  },
+  {
+    "historicalId": "hist-ustinadlabem-07f52781",
+    "historicalName": "Usti nad Labem",
+    "unCityCode": 240,
+    "unName": "Ústí nad Labem",
+    "distanceKm": 1.73
+  },
+  {
+    "historicalId": "hist-ceskebudejovice-190efddf",
+    "historicalName": "Ceske Budejovice",
+    "unCityCode": 684,
+    "unName": "České Budějovice",
+    "distanceKm": 0.472
+  },
+  {
+    "historicalId": "hist-abidjan-535c22a5",
+    "historicalName": "Abidjan",
+    "unCityCode": 3439,
+    "unName": "Abidjan",
+    "distanceKm": 5.216
+  },
+  {
+    "historicalId": "hist-kaesong-9d5f980b",
+    "historicalName": "Kaesong",
+    "unCityCode": 5739,
+    "unName": "Kaesong",
+    "distanceKm": 0.479
+  },
+  {
+    "historicalId": "hist-pyongyang-7c83fdac",
+    "historicalName": "Pyongyang",
+    "unCityCode": 3737,
+    "unName": "P'yŏngyang (Pyongyang)",
+    "distanceKm": 1.254
+  },
+  {
+    "historicalId": "hist-kinshasa-acef480d",
+    "historicalName": "Kinshasa",
+    "unCityCode": 1854,
+    "unName": "Kinshasa",
+    "distanceKm": 6.507
+  },
+  {
+    "historicalId": "hist-musumba-6549921f",
+    "historicalName": "Musumba",
+    "unCityCode": 4763,
+    "unName": "Musumba",
+    "distanceKm": 22.646
+  },
+  {
+    "historicalId": "hist-aalborg-42c21c96",
+    "historicalName": "Aalborg",
+    "unCityCode": 63,
+    "unName": "Aalborg",
+    "distanceKm": 0.523
+  },
+  {
+    "historicalId": "hist-aarhus-eadae513",
+    "historicalName": "Aarhus",
+    "unCityCode": 233,
+    "unName": "Aarhus",
+    "distanceKm": 1.297
+  },
+  {
+    "historicalId": "hist-copenhagen-5eb2ef89",
+    "historicalName": "Copenhagen",
+    "unCityCode": 680,
+    "unName": "København (Copenhagen)",
+    "distanceKm": 3.56
+  },
+  {
+    "historicalId": "hist-odense-a60845c9",
+    "historicalName": "Odense",
+    "unCityCode": 392,
+    "unName": "Odense",
+    "distanceKm": 0.204
+  },
+  {
+    "historicalId": "hist-santodomingo-671e2ce8",
+    "historicalName": "Santo Domingo",
+    "unCityCode": 1455,
+    "unName": "Santo Domingo",
+    "distanceKm": 3.672
+  },
+  {
+    "historicalId": "hist-cuenca-4e3ee91b",
+    "historicalName": "Cuenca",
+    "unCityCode": 2221,
+    "unName": "Cuenca",
+    "distanceKm": 0.944
+  },
+  {
+    "historicalId": "hist-guayaquil-17e5cf21",
+    "historicalName": "Guayaquil",
+    "unCityCode": 772,
+    "unName": "Guayaquil",
+    "distanceKm": 2.692
+  },
+  {
+    "historicalId": "hist-quito-241cc2b0",
+    "historicalName": "Quito",
+    "unCityCode": 2524,
+    "unName": "Quito",
+    "distanceKm": 4.125
+  },
+  {
+    "historicalId": "hist-riobamba-625f8e28",
+    "historicalName": "Riobamba",
+    "unCityCode": 2298,
+    "unName": "Riobamba",
+    "distanceKm": 0.449
+  },
+  {
+    "historicalId": "hist-cairo-d3f3cc24",
+    "historicalName": "Cairo",
+    "unCityCode": 4435,
+    "unName": "Al-Qahirah (Cairo)",
+    "distanceKm": 1.085
+  },
+  {
+    "historicalId": "hist-alexandria-21409b9c",
+    "historicalName": "Alexandria",
+    "unCityCode": 275,
+    "unName": "Alexandria",
+    "distanceKm": 3.229
+  },
+  {
+    "historicalId": "hist-asyut-1aa58cab",
+    "historicalName": "Asyut",
+    "unCityCode": 6909,
+    "unName": "Asyut",
+    "distanceKm": 2.176
+  },
+  {
+    "historicalId": "hist-dumyat-f10015e1",
+    "historicalName": "Dumyat",
+    "unCityCode": 6774,
+    "unName": "Damietta",
+    "distanceKm": 2.927
+  },
+  {
+    "historicalId": "hist-faiyum-36495749",
+    "historicalName": "Faiyum",
+    "unCityCode": 3668,
+    "unName": "Faiyum",
+    "distanceKm": 1.111
+  },
+  {
+    "historicalId": "hist-portsaid-281997ae",
+    "historicalName": "Port Said",
+    "unCityCode": 7111,
+    "unName": "Port Said",
+    "distanceKm": 0.079
+  },
+  {
+    "historicalId": "hist-tanta-7514d08f",
+    "historicalName": "Tanta",
+    "unCityCode": 3298,
+    "unName": "Tanta",
+    "distanceKm": 0.679
+  },
+  {
+    "historicalId": "hist-sansalvador-57c2c10b",
+    "historicalName": "San Salvador",
+    "unCityCode": 893,
+    "unName": "San Salvador",
+    "distanceKm": 2.671
+  },
+  {
+    "historicalId": "hist-tallinn-ce80733f",
+    "historicalName": "Tallinn",
+    "unCityCode": 91,
+    "unName": "Tallinn",
+    "distanceKm": 1.71
+  },
+  {
+    "historicalId": "hist-tartu-800785e9",
+    "historicalName": "Tartu",
+    "unCityCode": 267,
+    "unName": "Tartu",
+    "distanceKm": 1.126
+  },
+  {
+    "historicalId": "hist-axum-82f726ff",
+    "historicalName": "Axum",
+    "unCityCode": 5883,
+    "unName": "Axum",
+    "distanceKm": 2.122
+  },
+  {
+    "historicalId": "hist-harar-89867d4e",
+    "historicalName": "Harar",
+    "unCityCode": 7667,
+    "unName": "Harar",
+    "distanceKm": 1.578
+  },
+  {
+    "historicalId": "hist-addisababa-b0f14c34",
+    "historicalName": "Addis Ababa",
+    "unCityCode": 6353,
+    "unName": "Ādīs Ᾱbeba (Addis Ababa)",
+    "distanceKm": 1.996
+  },
+  {
+    "historicalId": "hist-helsinki-6743bf6f",
+    "historicalName": "Helsinki",
+    "unCityCode": 555,
+    "unName": "Helsinki (Helsingfors)",
+    "distanceKm": 4.401
+  },
+  {
+    "historicalId": "hist-tammerfors-697c1950",
+    "historicalName": "Tammerfors",
+    "unCityCode": 408,
+    "unName": "Tampere",
+    "distanceKm": 1.673
+  },
+  {
+    "historicalId": "hist-amiens-067f13bf",
+    "historicalName": "Amiens",
+    "unCityCode": 3112,
+    "unName": "Amiens",
+    "distanceKm": 0.167
+  },
+  {
+    "historicalId": "hist-angers-37437e15",
+    "historicalName": "Angers",
+    "unCityCode": 1659,
+    "unName": "Angers",
+    "distanceKm": 0.313
+  },
+  {
+    "historicalId": "hist-angouleme-2b7e69cf",
+    "historicalName": "Angouleme",
+    "unCityCode": 21101,
+    "unName": "Angoulême",
+    "distanceKm": 0.945
+  },
+  {
+    "historicalId": "hist-arras-5bd4d546",
+    "historicalName": "Arras",
+    "unCityCode": 3282,
+    "unName": "Arras",
+    "distanceKm": 0.505
+  },
+  {
+    "historicalId": "hist-avignon-4d7dda45",
+    "historicalName": "Avignon",
+    "unCityCode": 4111,
+    "unName": "Avignon",
+    "distanceKm": 1.147
+  },
+  {
+    "historicalId": "hist-besancon-df879856",
+    "historicalName": "Besancon",
+    "unCityCode": 4391,
+    "unName": "Besançon",
+    "distanceKm": 0.946
+  },
+  {
+    "historicalId": "hist-bordeaux-2b1b5032",
+    "historicalName": "Bordeaux",
+    "unCityCode": 1566,
+    "unName": "Bordeaux",
+    "distanceKm": 0.969
+  },
+  {
+    "historicalId": "hist-boulogne-0c774f02",
+    "historicalName": "Boulogne",
+    "unCityCode": 2541,
+    "unName": "Boulogne-sur-Mer",
+    "distanceKm": 0.934
+  },
+  {
+    "historicalId": "hist-bourges-acdc1fdc",
+    "historicalName": "Bourges",
+    "unCityCode": 20821,
+    "unName": "Bourges",
+    "distanceKm": 0.078
+  },
+  {
+    "historicalId": "hist-brest-088fec0c",
+    "historicalName": "Brest",
+    "unCityCode": 524,
+    "unName": "Brest",
+    "distanceKm": 0.716
+  },
+  {
+    "historicalId": "hist-beziers-4504e1ac",
+    "historicalName": "Beziers",
+    "unCityCode": 3800,
+    "unName": "Béziers",
+    "distanceKm": 0.956
+  },
+  {
+    "historicalId": "hist-caen-28dc3412",
+    "historicalName": "Caen",
+    "unCityCode": 1838,
+    "unName": "Caen",
+    "distanceKm": 0.364
+  },
+  {
+    "historicalId": "hist-calais-16c6fb1f",
+    "historicalName": "Calais",
+    "unCityCode": 2678,
+    "unName": "Calais",
+    "distanceKm": 1.362
+  },
+  {
+    "historicalId": "hist-colmar-7e9742c6",
+    "historicalName": "Colmar",
+    "unCityCode": 4724,
+    "unName": "Colmar",
+    "distanceKm": 1.223
+  },
+  {
+    "historicalId": "hist-dijon-a9c6110b",
+    "historicalName": "Dijon",
+    "unCityCode": 4153,
+    "unName": "Dijon",
+    "distanceKm": 1.366
+  },
+  {
+    "historicalId": "hist-dunkerque-c03e47b5",
+    "historicalName": "Dunkerque",
+    "unCityCode": 3053,
+    "unName": "Dunkirk",
+    "distanceKm": 1.24
+  },
+  {
+    "historicalId": "hist-grenoble-eb32eede",
+    "historicalName": "Grenoble",
+    "unCityCode": 4353,
+    "unName": "Grenoble",
+    "distanceKm": 1.625
+  },
+  {
+    "historicalId": "hist-larochelle-08951bed",
+    "historicalName": "La Rochelle",
+    "unCityCode": 1469,
+    "unName": "La Rochelle",
+    "distanceKm": 1.139
+  },
+  {
+    "historicalId": "hist-lehavre-22aaf11d",
+    "historicalName": "Le Havre",
+    "unCityCode": 1922,
+    "unName": "Le Havre",
+    "distanceKm": 2.043
+  },
+  {
+    "historicalId": "hist-lemans-e82c5cdf",
+    "historicalName": "Le Mans",
+    "unCityCode": 2005,
+    "unName": "Le Mans",
+    "distanceKm": 1.545
+  },
+  {
+    "historicalId": "hist-lille-6c83cef9",
+    "historicalName": "Lille",
+    "unCityCode": 3549,
+    "unName": "Lille",
+    "distanceKm": 5.122
+  },
+  {
+    "historicalId": "hist-limoges-99f9bc12",
+    "historicalName": "Limoges",
+    "unCityCode": 2316,
+    "unName": "Limoges",
+    "distanceKm": 0.144
+  },
+  {
+    "historicalId": "hist-lorient-c306e104",
+    "historicalName": "Lorient",
+    "unCityCode": 666,
+    "unName": "Lorient",
+    "distanceKm": 0.132
+  },
+  {
+    "historicalId": "hist-lyon-3d40d773",
+    "historicalName": "Lyon",
+    "unCityCode": 4068,
+    "unName": "Lyon",
+    "distanceKm": 1.063
+  },
+  {
+    "historicalId": "hist-marseille-72e5c2f0",
+    "historicalName": "Marseille",
+    "unCityCode": 4276,
+    "unName": "Marseille",
+    "distanceKm": 1.959
+  },
+  {
+    "historicalId": "hist-metz-34df88af",
+    "historicalName": "Metz",
+    "unCityCode": 4429,
+    "unName": "Metz",
+    "distanceKm": 0.573
+  },
+  {
+    "historicalId": "hist-montpellier-6414621a",
+    "historicalName": "Montpellier",
+    "unCityCode": 3893,
+    "unName": "Montpellier",
+    "distanceKm": 0.97
+  },
+  {
+    "historicalId": "hist-nancy-67a89dfb",
+    "historicalName": "Nancy",
+    "unCityCode": 4503,
+    "unName": "Nancy",
+    "distanceKm": 0.633
+  },
+  {
+    "historicalId": "hist-nantes-ee1961c4",
+    "historicalName": "Nantes",
+    "unCityCode": 1152,
+    "unName": "Nantes",
+    "distanceKm": 0.58
+  },
+  {
+    "historicalId": "hist-nice-b46702ee",
+    "historicalName": "Nice",
+    "unCityCode": 4796,
+    "unName": "Nice",
+    "distanceKm": 2.385
+  },
+  {
+    "historicalId": "hist-nimes-8be65ceb",
+    "historicalName": "Nimes",
+    "unCityCode": 4025,
+    "unName": "Nimes",
+    "distanceKm": 0.538
+  },
+  {
+    "historicalId": "hist-orleans-5d6ce867",
+    "historicalName": "Orleans",
+    "unCityCode": 2745,
+    "unName": "Orléans",
+    "distanceKm": 0.385
+  },
+  {
+    "historicalId": "hist-paris-03f8575f",
+    "historicalName": "Paris",
+    "unCityCode": 2994,
+    "unName": "Paris",
+    "distanceKm": 0.869
+  },
+  {
+    "historicalId": "hist-poitiers-6f9fa3a8",
+    "historicalName": "Poitiers",
+    "unCityCode": 2083,
+    "unName": "Poitiers",
+    "distanceKm": 0.95
+  },
+  {
+    "historicalId": "hist-reims-36bd1bd2",
+    "historicalName": "Reims",
+    "unCityCode": 3847,
+    "unName": "Reims",
+    "distanceKm": 0.327
+  },
+  {
+    "historicalId": "hist-rennes-f4f0dc43",
+    "historicalName": "Rennes",
+    "unCityCode": 1037,
+    "unName": "Rennes",
+    "distanceKm": 0.588
+  },
+  {
+    "historicalId": "hist-roanne-65d31181",
+    "historicalName": "Roanne",
+    "unCityCode": 21508,
+    "unName": "Roanne",
+    "distanceKm": 0.814
+  },
+  {
+    "historicalId": "hist-rouen-5176bedf",
+    "historicalName": "Rouen",
+    "unCityCode": 2239,
+    "unName": "Rouen",
+    "distanceKm": 1.538
+  },
+  {
+    "historicalId": "hist-saintquentin-8bdd144b",
+    "historicalName": "Saint-Quentin",
+    "unCityCode": 20832,
+    "unName": "Saint-Quentin",
+    "distanceKm": 0.224
+  },
+  {
+    "historicalId": "hist-strasbourg-ba542095",
+    "historicalName": "Strasbourg",
+    "unCityCode": 4832,
+    "unName": "Strasbourg",
+    "distanceKm": 0.595
+  },
+  {
+    "historicalId": "hist-toulon-ad74daa1",
+    "historicalName": "Toulon",
+    "unCityCode": 4540,
+    "unName": "Toulon",
+    "distanceKm": 1.617
+  },
+  {
+    "historicalId": "hist-toulouse-ab7d8299",
+    "historicalName": "Toulouse",
+    "unCityCode": 2391,
+    "unName": "Toulouse",
+    "distanceKm": 1.081
+  },
+  {
+    "historicalId": "hist-tours-82ad2ae0",
+    "historicalName": "Tours",
+    "unCityCode": 2162,
+    "unName": "Tours",
+    "distanceKm": 0.375
+  },
+  {
+    "historicalId": "hist-troyes-550f8b6a",
+    "historicalName": "Troyes",
+    "unCityCode": 3938,
+    "unName": "Troyes",
+    "distanceKm": 1.311
+  },
+  {
+    "historicalId": "hist-valenciennes-32b077b1",
+    "historicalName": "Valenciennes",
+    "unCityCode": 3753,
+    "unName": "Valenciennes",
+    "distanceKm": 1.678
+  },
+  {
+    "historicalId": "hist-kutaisi-acc3aba6",
+    "historicalName": "Kutaisi",
+    "unCityCode": 293,
+    "unName": "Kutaisi",
+    "distanceKm": 1.21
+  },
+  {
+    "historicalId": "hist-tbilisi-b78c8a85",
+    "historicalName": "Tbilisi",
+    "unCityCode": 450,
+    "unName": "Tbilisi",
+    "distanceKm": 2.03
+  },
+  {
+    "historicalId": "hist-aachen-9bc94c7e",
+    "historicalName": "Aachen",
+    "unCityCode": 58,
+    "unName": "Aachen",
+    "distanceKm": 1.65
+  },
+  {
+    "historicalId": "hist-bamberg-b12b798d",
+    "historicalName": "Bamberg",
+    "unCityCode": 5038,
+    "unName": "Bamberg",
+    "distanceKm": 0.54
+  },
+  {
+    "historicalId": "hist-berlin-caec244c",
+    "historicalName": "Berlin",
+    "unCityCode": 5576,
+    "unName": "Berlin",
+    "distanceKm": 2.608
+  },
+  {
+    "historicalId": "hist-bielefeld-229bb606",
+    "historicalName": "Bielefeld",
+    "unCityCode": 3174,
+    "unName": "Bielefeld",
+    "distanceKm": 1.757
+  },
+  {
+    "historicalId": "hist-bonn-7f8e35b6",
+    "historicalName": "Bonn",
+    "unCityCode": 1477,
+    "unName": "Bonn",
+    "distanceKm": 5.003
+  },
+  {
+    "historicalId": "hist-bremen-8ef50bd7",
+    "historicalName": "Bremen",
+    "unCityCode": 3231,
+    "unName": "Bremen",
+    "distanceKm": 1.611
+  },
+  {
+    "historicalId": "hist-bremerhaven-44901ab7",
+    "historicalName": "Bremerhaven",
+    "unCityCode": 2877,
+    "unName": "Bremerhaven",
+    "distanceKm": 1.02
+  },
+  {
+    "historicalId": "hist-braunschweig-af97d314",
+    "historicalName": "Braunschweig",
+    "unCityCode": 4868,
+    "unName": "Brunswick",
+    "distanceKm": 0.485
+  },
+  {
+    "historicalId": "hist-chemnitz-2d440e04",
+    "historicalName": "Chemnitz",
+    "unCityCode": 5551,
+    "unName": "Chemnitz",
+    "distanceKm": 0.656
+  },
+  {
+    "historicalId": "hist-cologne-d080aae2",
+    "historicalName": "Cologne",
+    "unCityCode": 1160,
+    "unName": "Cologne",
+    "distanceKm": 3.312
+  },
+  {
+    "historicalId": "hist-darmstadt-15b7ff27",
+    "historicalName": "Darmstadt",
+    "unCityCode": 3708,
+    "unName": "Darmstadt",
+    "distanceKm": 0.622
+  },
+  {
+    "historicalId": "hist-dortmund-a042c2b8",
+    "historicalName": "Dortmund",
+    "unCityCode": 1845,
+    "unName": "Dortmund",
+    "distanceKm": 2.101
+  },
+  {
+    "historicalId": "hist-dresden-87b9c8dc",
+    "historicalName": "Dresden",
+    "unCityCode": 5626,
+    "unName": "Dresden",
+    "distanceKm": 1.356
+  },
+  {
+    "historicalId": "hist-dusseldorf-54273c7a",
+    "historicalName": "Dusseldorf",
+    "unCityCode": 807,
+    "unName": "Dusseldorf",
+    "distanceKm": 0.732
+  },
+  {
+    "historicalId": "hist-erfurt-64d4c9ea",
+    "historicalName": "Erfurt",
+    "unCityCode": 5005,
+    "unName": "Erfurt",
+    "distanceKm": 0.504
+  },
+  {
+    "historicalId": "hist-flensburg-1c31e90e",
+    "historicalName": "Flensburg",
+    "unCityCode": 3803,
+    "unName": "Flensburg",
+    "distanceKm": 0.972
+  },
+  {
+    "historicalId": "hist-frankfurtoder-c901de29",
+    "historicalName": "Frankfurt/Oder",
+    "unCityCode": 21275,
+    "unName": "Frankfurt (Oder)",
+    "distanceKm": 0.447
+  },
+  {
+    "historicalId": "hist-freiburgimbreisgau-454f2d34",
+    "historicalName": "Freiburg im Breisgau",
+    "unCityCode": 2814,
+    "unName": "Freiburg im Breisgau",
+    "distanceKm": 1.173
+  },
+  {
+    "historicalId": "hist-gera-12940aad",
+    "historicalName": "Gera",
+    "unCityCode": 5364,
+    "unName": "Gera",
+    "distanceKm": 1.191
+  },
+  {
+    "historicalId": "hist-gorlitz-1a2ab7bc",
+    "historicalName": "Gorlitz",
+    "unCityCode": 21277,
+    "unName": "Görlitz",
+    "distanceKm": 0.422
+  },
+  {
+    "historicalId": "hist-gottingen-bcded9af",
+    "historicalName": "Gottingen",
+    "unCityCode": 4615,
+    "unName": "Göttingen",
+    "distanceKm": 0.322
+  },
+  {
+    "historicalId": "hist-halle-e419cdbb",
+    "historicalName": "Halle",
+    "unCityCode": 5309,
+    "unName": "Halle (Saale)",
+    "distanceKm": 0.811
+  },
+  {
+    "historicalId": "hist-hamburg-5f74b845",
+    "historicalName": "Hamburg",
+    "unCityCode": 4278,
+    "unName": "Hamburg",
+    "distanceKm": 1.415
+  },
+  {
+    "historicalId": "hist-hamm-4ad9b26f",
+    "historicalName": "Hamm",
+    "unCityCode": 2471,
+    "unName": "Hamm",
+    "distanceKm": 1.937
+  },
+  {
+    "historicalId": "hist-heidelberg-7aa3cad1",
+    "historicalName": "Heidelberg",
+    "unCityCode": 3756,
+    "unName": "Heidelberg",
+    "distanceKm": 2.315
+  },
+  {
+    "historicalId": "hist-heilbronn-e2cfb317",
+    "historicalName": "Heilbronn",
+    "unCityCode": 4238,
+    "unName": "Heilbronn",
+    "distanceKm": 1.313
+  },
+  {
+    "historicalId": "hist-hildesheim-017d60ff",
+    "historicalName": "Hildesheim",
+    "unCityCode": 4541,
+    "unName": "Hildesheim",
+    "distanceKm": 0.463
+  },
+  {
+    "historicalId": "hist-kaiserslautern-56cb42e5",
+    "historicalName": "Kaiserslautern",
+    "unCityCode": 2616,
+    "unName": "Kaiserslautern",
+    "distanceKm": 0.708
+  },
+  {
+    "historicalId": "hist-karlsruhe-a14ab0f0",
+    "historicalName": "Karlsruhe",
+    "unCityCode": 3394,
+    "unName": "Karlsruhe",
+    "distanceKm": 1.079
+  },
+  {
+    "historicalId": "hist-kiel-0940135a",
+    "historicalName": "Kiel",
+    "unCityCode": 4467,
+    "unName": "Kiel",
+    "distanceKm": 0.329
+  },
+  {
+    "historicalId": "hist-krefeld-827fb191",
+    "historicalName": "Krefeld",
+    "unCityCode": 389,
+    "unName": "Krefeld",
+    "distanceKm": 0.73
+  },
+  {
+    "historicalId": "hist-leipzig-60dba170",
+    "historicalName": "Leipzig",
+    "unCityCode": 5391,
+    "unName": "Leipzig",
+    "distanceKm": 0.091
+  },
+  {
+    "historicalId": "hist-lubeck-ec9ed6c3",
+    "historicalName": "Lubeck",
+    "unCityCode": 4797,
+    "unName": "Lübeck",
+    "distanceKm": 0.838
+  },
+  {
+    "historicalId": "hist-magdeburg-3c0154ad",
+    "historicalName": "Magdeburg",
+    "unCityCode": 5164,
+    "unName": "Magdeburg",
+    "distanceKm": 0.624
+  },
+  {
+    "historicalId": "hist-mannheim-ad746a8b",
+    "historicalName": "Mannheim",
+    "unCityCode": 3447,
+    "unName": "Mannheim",
+    "distanceKm": 1.385
+  },
+  {
+    "historicalId": "hist-munich-e9f7d30e",
+    "historicalName": "Munich",
+    "unCityCode": 5337,
+    "unName": "Munich",
+    "distanceKm": 1.456
+  },
+  {
+    "historicalId": "hist-munster-e0bd8927",
+    "historicalName": "Munster",
+    "unCityCode": 2088,
+    "unName": "Münster",
+    "distanceKm": 1.45
+  },
+  {
+    "historicalId": "hist-nurnberg-2f28a98b",
+    "historicalName": "Nurnberg",
+    "unCityCode": 5071,
+    "unName": "Nuremberg",
+    "distanceKm": 1.79
+  },
+  {
+    "historicalId": "hist-osnabruck-d83c55d6",
+    "historicalName": "Osnabruck",
+    "unCityCode": 2545,
+    "unName": "Osnabrück",
+    "distanceKm": 0.77
+  },
+  {
+    "historicalId": "hist-pforzheim-61cf764c",
+    "historicalName": "Pforzheim",
+    "unCityCode": 3849,
+    "unName": "Pforzheim",
+    "distanceKm": 0.648
+  },
+  {
+    "historicalId": "hist-potsdam-526e8698",
+    "historicalName": "Potsdam",
+    "unCityCode": 5526,
+    "unName": "Potsdam",
+    "distanceKm": 1.776
+  },
+  {
+    "historicalId": "hist-regensburg-19b42771",
+    "historicalName": "Regensburg",
+    "unCityCode": 5418,
+    "unName": "Regensburg",
+    "distanceKm": 0.358
+  },
+  {
+    "historicalId": "hist-remscheid-b426fbd8",
+    "historicalName": "Remscheid",
+    "unCityCode": 1756,
+    "unName": "Remscheid",
+    "distanceKm": 0.457
+  },
+  {
+    "historicalId": "hist-rostock-00170632",
+    "historicalName": "Rostock",
+    "unCityCode": 5194,
+    "unName": "Rostock",
+    "distanceKm": 4.053
+  },
+  {
+    "historicalId": "hist-meckenbeuren-9c645a43",
+    "historicalName": "Meckenbeuren",
+    "unCityCode": 4972,
+    "unName": "Schwerin",
+    "distanceKm": 1.177
+  },
+  {
+    "historicalId": "hist-meckenbeuren-9c645a43",
+    "historicalName": "Meckenbeuren",
+    "unCityCode": 20998,
+    "unName": "Schwerin",
+    "distanceKm": 1.004
+  },
+  {
+    "historicalId": "hist-stralsund-b1fe6a8d",
+    "historicalName": "Stralsund",
+    "unCityCode": 21271,
+    "unName": "Stralsund",
+    "distanceKm": 0.52
+  },
+  {
+    "historicalId": "hist-stuttgart-08d22418",
+    "historicalName": "Stuttgart",
+    "unCityCode": 4113,
+    "unName": "Stuttgart",
+    "distanceKm": 2.147
+  },
+  {
+    "historicalId": "hist-trier-3fcd470c",
+    "historicalName": "Trier",
+    "unCityCode": 929,
+    "unName": "Trier",
+    "distanceKm": 1.17
+  },
+  {
+    "historicalId": "hist-ulm-ff8a0dba",
+    "historicalName": "Ulm",
+    "unCityCode": 4833,
+    "unName": "Ulm",
+    "distanceKm": 0.309
+  },
+  {
+    "historicalId": "hist-wuppertal-0d097a3e",
+    "historicalName": "Wuppertal",
+    "unCityCode": 1269,
+    "unName": "Wuppertal",
+    "distanceKm": 7.802
+  },
+  {
+    "historicalId": "hist-wurzburg-cfdfc4b0",
+    "historicalName": "Wurzburg",
+    "unCityCode": 4725,
+    "unName": "Würzburg",
+    "distanceKm": 1.112
+  },
+  {
+    "historicalId": "hist-zwickau-35acc2ab",
+    "historicalName": "Zwickau",
+    "unCityCode": 5472,
+    "unName": "Zwickau",
+    "distanceKm": 1.594
+  },
+  {
+    "historicalId": "hist-accra-48edd4d7",
+    "historicalName": "Accra",
+    "unCityCode": 3336,
+    "unName": "Accra",
+    "distanceKm": 5.51
+  },
+  {
+    "historicalId": "hist-kumasi-9a2faa09",
+    "historicalName": "Kumasi",
+    "unCityCode": 1468,
+    "unName": "Kumasi",
+    "distanceKm": 1.399
+  },
+  {
+    "historicalId": "hist-gibraltar-2cfd8611",
+    "historicalName": "Gibraltar",
+    "unCityCode": 2607,
+    "unName": "Gibraltar",
+    "distanceKm": 1.567
+  },
+  {
+    "historicalId": "hist-athens-70bbbb59",
+    "historicalName": "Athens",
+    "unCityCode": 833,
+    "unName": "Athína (Athens)",
+    "distanceKm": 1.658
+  },
+  {
+    "historicalId": "hist-ioannina-2d46f52b",
+    "historicalName": "Ioannina",
+    "unCityCode": 99,
+    "unName": "Ioannina",
+    "distanceKm": 0.506
+  },
+  {
+    "historicalId": "hist-patras-0fd95e65",
+    "historicalName": "Patras",
+    "unCityCode": 268,
+    "unName": "Patras",
+    "distanceKm": 0.981
+  },
+  {
+    "historicalId": "hist-thessaloniki-6bd41254",
+    "historicalName": "Thessaloniki",
+    "unCityCode": 567,
+    "unName": "Thessaloniki",
+    "distanceKm": 0.57
+  },
+  {
+    "historicalId": "hist-guatemalacity-e4962abc",
+    "historicalName": "Guatemala City",
+    "unCityCode": 2063,
+    "unName": "Ciudad de Guatemala (Guatemala City)",
+    "distanceKm": 5.793
+  },
+  {
+    "historicalId": "hist-georgetown-f7598ca3",
+    "historicalName": "Georgetown",
+    "unCityCode": 28,
+    "unName": "Georgetown",
+    "distanceKm": 2.272
+  },
+  {
+    "historicalId": "hist-caphaitien-ef3a286c",
+    "historicalName": "Cap-Haitien",
+    "unCityCode": 2069,
+    "unName": "Cap-Haitien",
+    "distanceKm": 1.771
+  },
+  {
+    "historicalId": "hist-portauprince-7dcf969e",
+    "historicalName": "Port-au-Prince",
+    "unCityCode": 1351,
+    "unName": "Port-au-Prince",
+    "distanceKm": 1.53
+  },
+  {
+    "historicalId": "hist-budapest-95789865",
+    "historicalName": "Budapest",
+    "unCityCode": 942,
+    "unName": "Budapest",
+    "distanceKm": 3.287
+  },
+  {
+    "historicalId": "hist-debrecen-1906ae6e",
+    "historicalName": "Debrecen",
+    "unCityCode": 1584,
+    "unName": "Debrecen",
+    "distanceKm": 0.429
+  },
+  {
+    "historicalId": "hist-kecskemet-581e9c60",
+    "historicalName": "Kecskemet",
+    "unCityCode": 1171,
+    "unName": "Kecskemét",
+    "distanceKm": 0.216
+  },
+  {
+    "historicalId": "hist-miskolc-9d3b501f",
+    "historicalName": "Miskolc",
+    "unCityCode": 1386,
+    "unName": "Miskolc",
+    "distanceKm": 2.172
+  },
+  {
+    "historicalId": "hist-nyiregyhaza-0c53b97b",
+    "historicalName": "Nyiregyhaza",
+    "unCityCode": 1488,
+    "unName": "Nyíregyháza",
+    "distanceKm": 0.702
+  },
+  {
+    "historicalId": "hist-pecs-67c2cfc6",
+    "historicalName": "Pecs",
+    "unCityCode": 690,
+    "unName": "Pécs",
+    "distanceKm": 1.34
+  },
+  {
+    "historicalId": "hist-sopron-c961a257",
+    "historicalName": "Sopron",
+    "unCityCode": 79,
+    "unName": "Sopron",
+    "distanceKm": 0.576
+  },
+  {
+    "historicalId": "hist-szeged-8fe39d53",
+    "historicalName": "Szeged",
+    "unCityCode": 1280,
+    "unName": "Szeged",
+    "distanceKm": 0.671
+  },
+  {
+    "historicalId": "hist-szekesfehervar-b4d3bf65",
+    "historicalName": "Szekesfehervar",
+    "unCityCode": 551,
+    "unName": "Székesfehérvár",
+    "distanceKm": 1.328
+  },
+  {
+    "historicalId": "hist-agra-21d6d15b",
+    "historicalName": "Agra",
+    "unCityCode": 8971,
+    "unName": "Agra",
+    "distanceKm": 1.611
+  },
+  {
+    "historicalId": "hist-ahmedabad-c5a89d94",
+    "historicalName": "Ahmedabad",
+    "unCityCode": 6408,
+    "unName": "Ahmedabad",
+    "distanceKm": 3.809
+  },
+  {
+    "historicalId": "hist-ahmednagar-c6a71486",
+    "historicalName": "Ahmednagar",
+    "unCityCode": 8893,
+    "unName": "Ahmednagar",
+    "distanceKm": 2.91
+  },
+  {
+    "historicalId": "hist-ajmer-08ca16f9",
+    "historicalName": "Ajmer",
+    "unCityCode": 7350,
+    "unName": "Ajmer",
+    "distanceKm": 0.505
+  },
+  {
+    "historicalId": "hist-aligarh-7509528b",
+    "historicalName": "Aligarh",
+    "unCityCode": 8935,
+    "unName": "Aligarh",
+    "distanceKm": 1.077
+  },
+  {
+    "historicalId": "hist-alwar-4b0078ff",
+    "historicalName": "Alwar",
+    "unCityCode": 8490,
+    "unName": "Alwar",
+    "distanceKm": 0.817
+  },
+  {
+    "historicalId": "hist-amber-5a418ffa",
+    "historicalName": "Amber",
+    "unCityCode": 8176,
+    "unName": "Amber",
+    "distanceKm": 2.083
+  },
+  {
+    "historicalId": "hist-amravati-c90211ad",
+    "historicalName": "Amravati",
+    "unCityCode": 9509,
+    "unName": "Amravati",
+    "distanceKm": 0.721
+  },
+  {
+    "historicalId": "hist-amritsar-031b920f",
+    "historicalName": "Amritsar",
+    "unCityCode": 4483,
+    "unName": "Amritsar",
+    "distanceKm": 1.856
+  },
+  {
+    "historicalId": "hist-amroha-9bb01f3d",
+    "historicalName": "Amroha",
+    "unCityCode": 8927,
+    "unName": "Amroha",
+    "distanceKm": 0.066
+  },
+  {
+    "historicalId": "hist-arrah-c0dc5040",
+    "historicalName": "Arrah",
+    "unCityCode": 10929,
+    "unName": "Arrah",
+    "distanceKm": 35.674
+  },
+  {
+    "historicalId": "hist-banda-d65663f2",
+    "historicalName": "Banda",
+    "unCityCode": 9743,
+    "unName": "Banda",
+    "distanceKm": 0.644
+  },
+  {
+    "historicalId": "hist-bareilly-09d3e5c6",
+    "historicalName": "Bareilly",
+    "unCityCode": 9183,
+    "unName": "Bareilly",
+    "distanceKm": 2.265
+  },
+  {
+    "historicalId": "hist-bhagalpur-bca3f02e",
+    "historicalName": "Bhagalpur",
+    "unCityCode": 11457,
+    "unName": "Bhagalpur",
+    "distanceKm": 0.186
+  },
+  {
+    "historicalId": "hist-bharatpur-2062fae1",
+    "historicalName": "Bharatpur",
+    "unCityCode": 8865,
+    "unName": "Bharatpur",
+    "distanceKm": 0.442
+  },
+  {
+    "historicalId": "hist-bhavnagar-63e57e11",
+    "historicalName": "Bhavnagar",
+    "unCityCode": 6440,
+    "unName": "Bhavnagar",
+    "distanceKm": 2.065
+  },
+  {
+    "historicalId": "hist-bhimavaram-6768eea4",
+    "historicalName": "Bhimavaram",
+    "unCityCode": 10925,
+    "unName": "Bhimavaram",
+    "distanceKm": 0.559
+  },
+  {
+    "historicalId": "hist-bhiwani-599f5daa",
+    "historicalName": "Bhiwani",
+    "unCityCode": 7878,
+    "unName": "Bhiwani",
+    "distanceKm": 0.637
+  },
+  {
+    "historicalId": "hist-bhopal-5629b009",
+    "historicalName": "Bhopal",
+    "unCityCode": 9213,
+    "unName": "Bhopal",
+    "distanceKm": 1.342
+  },
+  {
+    "historicalId": "hist-bhuj-d1704b2f",
+    "historicalName": "Bhuj",
+    "unCityCode": 1103,
+    "unName": "Bhuj",
+    "distanceKm": 1.184
+  },
+  {
+    "historicalId": "hist-bidar-0bcea455",
+    "historicalName": "Bidar",
+    "unCityCode": 9677,
+    "unName": "Bidar",
+    "distanceKm": 1.594
+  },
+  {
+    "historicalId": "hist-bikaner-ff03d40f",
+    "historicalName": "Bikaner",
+    "unCityCode": 4741,
+    "unName": "Bikaner",
+    "distanceKm": 1.105
+  },
+  {
+    "historicalId": "hist-burhanpur-5214f7a5",
+    "historicalName": "Burhanpur",
+    "unCityCode": 9095,
+    "unName": "Burhanpur",
+    "distanceKm": 0.663
+  },
+  {
+    "historicalId": "hist-chanderi-599846ff",
+    "historicalName": "Chanderi",
+    "unCityCode": 9275,
+    "unName": "Chanderi",
+    "distanceKm": 0.187
+  },
+  {
+    "historicalId": "hist-madras-03ea6e28",
+    "historicalName": "Madras",
+    "unCityCode": 10747,
+    "unName": "Chennai",
+    "distanceKm": 9.457
+  },
+  {
+    "historicalId": "hist-chhapra-31fddbe1",
+    "historicalName": "Chhapra",
+    "unCityCode": 10917,
+    "unName": "Chhapra",
+    "distanceKm": 1.561
+  },
+  {
+    "historicalId": "hist-chittoor-64da6768",
+    "historicalName": "Chittoor",
+    "unCityCode": 10423,
+    "unName": "Chittoor",
+    "distanceKm": 0.43
+  },
+  {
+    "historicalId": "hist-chunar-0ab253e5",
+    "historicalName": "Chunar",
+    "unCityCode": 10471,
+    "unName": "Chunar",
+    "distanceKm": 1.199
+  },
+  {
+    "historicalId": "hist-coimbatore-8ef6a61a",
+    "historicalName": "Coimbatore",
+    "unCityCode": 9895,
+    "unName": "Coimbatore",
+    "distanceKm": 2.627
+  },
+  {
+    "historicalId": "hist-cuddalore-40162402",
+    "historicalName": "Cuddalore",
+    "unCityCode": 10743,
+    "unName": "Cuddalore",
+    "distanceKm": 0.998
+  },
+  {
+    "historicalId": "hist-darbhanga-cbc3d87a",
+    "historicalName": "Darbhanga",
+    "unCityCode": 11153,
+    "unName": "Darbhanga",
+    "distanceKm": 0.297
+  },
+  {
+    "historicalId": "hist-dhanbad-bb524123",
+    "historicalName": "Dhanbad",
+    "unCityCode": 11445,
+    "unName": "Dhanbad",
+    "distanceKm": 4.689
+  },
+  {
+    "historicalId": "hist-dhar-6aa5613f",
+    "historicalName": "Dhar",
+    "unCityCode": 8733,
+    "unName": "Dhar",
+    "distanceKm": 1.208
+  },
+  {
+    "historicalId": "hist-dharwad-70924b0c",
+    "historicalName": "Dharwad",
+    "unCityCode": 9189,
+    "unName": "Dharwad",
+    "distanceKm": 15.827
+  },
+  {
+    "historicalId": "hist-etawah-2612610b",
+    "historicalName": "Etawah",
+    "unCityCode": 9279,
+    "unName": "Etawah",
+    "distanceKm": 0.364
+  },
+  {
+    "historicalId": "hist-faizabad-b223db40",
+    "historicalName": "Faizabad",
+    "unCityCode": 10065,
+    "unName": "Faizabad",
+    "distanceKm": 1.257
+  },
+  {
+    "historicalId": "hist-farrukhabad-8600502d",
+    "historicalName": "Farrukhabad",
+    "unCityCode": 9349,
+    "unName": "Farrukhabad",
+    "distanceKm": 1.998
+  },
+  {
+    "historicalId": "hist-fatehpursikri-cb29696e",
+    "historicalName": "Fatehpur Sikri",
+    "unCityCode": 8933,
+    "unName": "Fatehpur Sikri",
+    "distanceKm": 0.704
+  },
+  {
+    "historicalId": "hist-firozpur-02fde037",
+    "historicalName": "Firozpur",
+    "unCityCode": 4705,
+    "unName": "Firozpur",
+    "distanceKm": 2.693
+  },
+  {
+    "historicalId": "hist-gaya-913e8727",
+    "historicalName": "Gaya",
+    "unCityCode": 11089,
+    "unName": "Gaya",
+    "distanceKm": 1.648
+  },
+  {
+    "historicalId": "hist-ghazipur-ea7fe867",
+    "historicalName": "Ghazipur",
+    "unCityCode": 10619,
+    "unName": "Ghazipur",
+    "distanceKm": 1.072
+  },
+  {
+    "historicalId": "hist-gorakhpur-94577668",
+    "historicalName": "Gorakhpur",
+    "unCityCode": 10399,
+    "unName": "Gorakhpur",
+    "distanceKm": 0.682
+  },
+  {
+    "historicalId": "hist-guntur-2a67b82d",
+    "historicalName": "Guntur",
+    "unCityCode": 10627,
+    "unName": "Guntur",
+    "distanceKm": 2.673
+  },
+  {
+    "historicalId": "hist-gwalior-1672d56e",
+    "historicalName": "Gwalior",
+    "unCityCode": 9121,
+    "unName": "Gwalior",
+    "distanceKm": 1.585
+  },
+  {
+    "historicalId": "hist-hathras-5f1391ac",
+    "historicalName": "Hathras",
+    "unCityCode": 8963,
+    "unName": "Hathras",
+    "distanceKm": 0.077
+  },
+  {
+    "historicalId": "hist-hubli-2fd0859c",
+    "historicalName": "Hubli",
+    "unCityCode": 9227,
+    "unName": "Hubli",
+    "distanceKm": 0.46
+  },
+  {
+    "historicalId": "hist-hyderabad-266c0868",
+    "historicalName": "Hyderabad",
+    "unCityCode": 9913,
+    "unName": "Hyderabad",
+    "distanceKm": 3.901
+  },
+  {
+    "historicalId": "hist-imphal-bb4285f2",
+    "historicalName": "Imphal",
+    "unCityCode": 12063,
+    "unName": "Imphal",
+    "distanceKm": 4.077
+  },
+  {
+    "historicalId": "hist-indore-6d460e44",
+    "historicalName": "Indore",
+    "unCityCode": 8886,
+    "unName": "Indore",
+    "distanceKm": 3.1
+  },
+  {
+    "historicalId": "hist-jabalpur-97e264ff",
+    "historicalName": "Jabalpur",
+    "unCityCode": 9851,
+    "unName": "Jabalpur",
+    "distanceKm": 1.526
+  },
+  {
+    "historicalId": "hist-jaipur-45ef1a4d",
+    "historicalName": "Jaipur",
+    "unCityCode": 8064,
+    "unName": "Jaipur",
+    "distanceKm": 0.76
+  },
+  {
+    "historicalId": "hist-jalandhar-8a945925",
+    "historicalName": "Jalandhar",
+    "unCityCode": 5907,
+    "unName": "Jalandhar",
+    "distanceKm": 0.679
+  },
+  {
+    "historicalId": "hist-jammu-95832c85",
+    "historicalName": "Jammu",
+    "unCityCode": 3577,
+    "unName": "Jammu",
+    "distanceKm": 2.989
+  },
+  {
+    "historicalId": "hist-jamnagar-4cd891f5",
+    "historicalName": "Jamnagar",
+    "unCityCode": 2647,
+    "unName": "Jamnagar",
+    "distanceKm": 0.839
+  },
+  {
+    "historicalId": "hist-jamshedpur-477c1b51",
+    "historicalName": "Jamshedpur",
+    "unCityCode": 11483,
+    "unName": "Jamshedpur",
+    "distanceKm": 1.872
+  },
+  {
+    "historicalId": "hist-jaunpur-a7e2b280",
+    "historicalName": "Jaunpur",
+    "unCityCode": 10337,
+    "unName": "Jaunpur",
+    "distanceKm": 0.804
+  },
+  {
+    "historicalId": "hist-jhansi-b474a504",
+    "historicalName": "Jhansi",
+    "unCityCode": 9295,
+    "unName": "Jhansi",
+    "distanceKm": 1.519
+  },
+  {
+    "historicalId": "hist-jodhpur-754fb6af",
+    "historicalName": "Jodhpur",
+    "unCityCode": 5536,
+    "unName": "Jodhpur",
+    "distanceKm": 0.949
+  },
+  {
+    "historicalId": "hist-kakinada-746e1285",
+    "historicalName": "Kakinada",
+    "unCityCode": 11081,
+    "unName": "Kakinada",
+    "distanceKm": 10.715
+  },
+  {
+    "historicalId": "hist-kanchipuram-358a6426",
+    "historicalName": "Kanchipuram",
+    "unCityCode": 10657,
+    "unName": "Kanchipuram",
+    "distanceKm": 0.597
+  },
+  {
+    "historicalId": "hist-kanaujikanauj-ffaff8b0",
+    "historicalName": "Kanauji, Kanauj",
+    "unCityCode": 9467,
+    "unName": "Kannauj",
+    "distanceKm": 0.688
+  },
+  {
+    "historicalId": "hist-kanpur-8f870bc9",
+    "historicalName": "Kanpur",
+    "unCityCode": 9603,
+    "unName": "Kanpur",
+    "distanceKm": 1.567
+  },
+  {
+    "historicalId": "hist-kolar-a505e3cb",
+    "historicalName": "Kolar",
+    "unCityCode": 10179,
+    "unName": "Kolar",
+    "distanceKm": 0.264
+  },
+  {
+    "historicalId": "hist-kolhapur-3ac9b034",
+    "historicalName": "Kolhapur",
+    "unCityCode": 8925,
+    "unName": "Kolhapur",
+    "distanceKm": 0.697
+  },
+  {
+    "historicalId": "hist-calcutta-c8c0d5a3",
+    "historicalName": "Calcutta",
+    "unCityCode": 11821,
+    "unName": "Kolkata",
+    "distanceKm": 2.768
+  },
+  {
+    "historicalId": "hist-kota-6fa6db28",
+    "historicalName": "Kota",
+    "unCityCode": 8604,
+    "unName": "Kota",
+    "distanceKm": 3.051
+  },
+  {
+    "historicalId": "hist-kumbakonam-463eca59",
+    "historicalName": "Kumbakonam",
+    "unCityCode": 10653,
+    "unName": "Kumbakonam",
+    "distanceKm": 0.618
+  },
+  {
+    "historicalId": "hist-lucknow-2c5a3ff2",
+    "historicalName": "Lucknow",
+    "unCityCode": 9717,
+    "unName": "Lucknow",
+    "distanceKm": 4.872
+  },
+  {
+    "historicalId": "hist-ludhiana-9eec6815",
+    "historicalName": "Ludhiana",
+    "unCityCode": 6504,
+    "unName": "Ludhiana",
+    "distanceKm": 2.3
+  },
+  {
+    "historicalId": "hist-madurai-17122b8e",
+    "historicalName": "Madurai",
+    "unCityCode": 10301,
+    "unName": "Madurai",
+    "distanceKm": 0.905
+  },
+  {
+    "historicalId": "hist-mahoba-42bc6509",
+    "historicalName": "Mahoba",
+    "unCityCode": 9647,
+    "unName": "Mahoba",
+    "distanceKm": 0.469
+  },
+  {
+    "historicalId": "hist-mandvi-35465f74",
+    "historicalName": "Mandvi",
+    "unCityCode": 613,
+    "unName": "Mandvi",
+    "distanceKm": 0.114
+  },
+  {
+    "historicalId": "hist-mathura-7c6f4d56",
+    "historicalName": "Mathura",
+    "unCityCode": 8877,
+    "unName": "Mathura",
+    "distanceKm": 1.342
+  },
+  {
+    "historicalId": "hist-meerut-55d6295c",
+    "historicalName": "Meerut",
+    "unCityCode": 8652,
+    "unName": "Meerut",
+    "distanceKm": 2.039
+  },
+  {
+    "historicalId": "hist-moradabad-e9e2f866",
+    "historicalName": "Moradabad",
+    "unCityCode": 8979,
+    "unName": "Moradabad",
+    "distanceKm": 1.51
+  },
+  {
+    "historicalId": "hist-mumbai-a18c21a4",
+    "historicalName": "Mumbai",
+    "unCityCode": 7945,
+    "unName": "Mumbai",
+    "distanceKm": 5.521
+  },
+  {
+    "historicalId": "hist-munger-47f4ffea",
+    "historicalName": "Munger",
+    "unCityCode": 11363,
+    "unName": "Munger",
+    "distanceKm": 3.74
+  },
+  {
+    "historicalId": "hist-nagapattinam-4cbca7ea",
+    "historicalName": "Nagapattinam",
+    "unCityCode": 10813,
+    "unName": "Nagapattinam",
+    "distanceKm": 0.953
+  },
+  {
+    "historicalId": "hist-nagpur-70a46e3a",
+    "historicalName": "Nagpur",
+    "unCityCode": 9793,
+    "unName": "Nagpur",
+    "distanceKm": 2.351
+  },
+  {
+    "historicalId": "hist-nellore-efb7f951",
+    "historicalName": "Nellore",
+    "unCityCode": 10629,
+    "unName": "Nellore",
+    "distanceKm": 1.084
+  },
+  {
+    "historicalId": "hist-delhi-c57b1832",
+    "historicalName": "Delhi",
+    "unCityCode": 8364,
+    "unName": "New Delhi",
+    "distanceKm": 3.743
+  },
+  {
+    "historicalId": "hist-paithan-c87aa87f",
+    "historicalName": "Paithan",
+    "unCityCode": 9037,
+    "unName": "Paithan",
+    "distanceKm": 0.188
+  },
+  {
+    "historicalId": "hist-palghat-073a67ec",
+    "historicalName": "Palghat",
+    "unCityCode": 9835,
+    "unName": "Palakkad",
+    "distanceKm": 0.906
+  },
+  {
+    "historicalId": "hist-pandua-30170128",
+    "historicalName": "Pandua",
+    "unCityCode": 11827,
+    "unName": "Pandua",
+    "distanceKm": 0.997
+  },
+  {
+    "historicalId": "hist-patan-571aa5eb",
+    "historicalName": "Patan",
+    "unCityCode": 5611,
+    "unName": "Patan",
+    "distanceKm": 0.31
+  },
+  {
+    "historicalId": "hist-patiala-0ed91bab",
+    "historicalName": "Patiala",
+    "unCityCode": 7376,
+    "unName": "Patiala",
+    "distanceKm": 1.9
+  },
+  {
+    "historicalId": "hist-patna-14f7f8c1",
+    "historicalName": "Patna",
+    "unCityCode": 11039,
+    "unName": "Patna",
+    "distanceKm": 1.513
+  },
+  {
+    "historicalId": "hist-pilibhit-461a9798",
+    "historicalName": "Pilibhit",
+    "unCityCode": 9267,
+    "unName": "Pilibhit",
+    "distanceKm": 0.762
+  },
+  {
+    "historicalId": "hist-porbandar-5955f6de",
+    "historicalName": "Porbandar",
+    "unCityCode": 2046,
+    "unName": "Porbandar",
+    "distanceKm": 1.307
+  },
+  {
+    "historicalId": "hist-pune-fea9ad47",
+    "historicalName": "Pune",
+    "unCityCode": 8616,
+    "unName": "Pune",
+    "distanceKm": 1.667
+  },
+  {
+    "historicalId": "hist-puri-937cf206",
+    "historicalName": "Puri",
+    "unCityCode": 11599,
+    "unName": "Puri",
+    "distanceKm": 0.511
+  },
+  {
+    "historicalId": "hist-purnia-f6c2adda",
+    "historicalName": "Purnia",
+    "unCityCode": 11495,
+    "unName": "Purnia",
+    "distanceKm": 1.588
+  },
+  {
+    "historicalId": "hist-raichur-148fe3af",
+    "historicalName": "Raichur",
+    "unCityCode": 9753,
+    "unName": "Raichur",
+    "distanceKm": 0.046
+  },
+  {
+    "historicalId": "hist-raipur-402ea1e9",
+    "historicalName": "Raipur",
+    "unCityCode": 10523,
+    "unName": "Raipur",
+    "distanceKm": 29.089
+  },
+  {
+    "historicalId": "hist-rajagriha-588eebdc",
+    "historicalName": "Rajagriha",
+    "unCityCode": 11177,
+    "unName": "Rajgir",
+    "distanceKm": 0.227
+  },
+  {
+    "historicalId": "hist-rajkot-6a081c90",
+    "historicalName": "Rajkot",
+    "unCityCode": 4003,
+    "unName": "Rajkot",
+    "distanceKm": 0.569
+  },
+  {
+    "historicalId": "hist-rajmahal-9e5cf82b",
+    "historicalName": "Rajmahal",
+    "unCityCode": 11595,
+    "unName": "Rajmahal",
+    "distanceKm": 10.872
+  },
+  {
+    "historicalId": "hist-rampur-eb63914a",
+    "historicalName": "Rampur",
+    "unCityCode": 9071,
+    "unName": "Rampur",
+    "distanceKm": 1.105
+  },
+  {
+    "historicalId": "hist-ratlam-6c9ee385",
+    "historicalName": "Ratlam",
+    "unCityCode": 8537,
+    "unName": "Ratlam",
+    "distanceKm": 0.354
+  },
+  {
+    "historicalId": "hist-sagar-401c792d",
+    "historicalName": "Sagar",
+    "unCityCode": 9499,
+    "unName": "Sagar",
+    "distanceKm": 4.493
+  },
+  {
+    "historicalId": "hist-saharanpur-79516dd8",
+    "historicalName": "Saharanpur",
+    "unCityCode": 8376,
+    "unName": "Saharanpur",
+    "distanceKm": 0.466
+  },
+  {
+    "historicalId": "hist-salem-ff681563",
+    "historicalName": "Salem",
+    "unCityCode": 10215,
+    "unName": "Salem",
+    "distanceKm": 0.491
+  },
+  {
+    "historicalId": "hist-sambhal-a947a8e6",
+    "historicalName": "Sambhal",
+    "unCityCode": 8987,
+    "unName": "Sambhal",
+    "distanceKm": 0.767
+  },
+  {
+    "historicalId": "hist-satara-fafb88a7",
+    "historicalName": "Satara",
+    "unCityCode": 8784,
+    "unName": "Satara",
+    "distanceKm": 1.734
+  },
+  {
+    "historicalId": "hist-shahjahanpur-e6c59798",
+    "historicalName": "Shahjahanpur",
+    "unCityCode": 9365,
+    "unName": "Shahjahanpur",
+    "distanceKm": 1.177
+  },
+  {
+    "historicalId": "hist-sira-723d0dc3",
+    "historicalName": "Sira",
+    "unCityCode": 9779,
+    "unName": "Sira",
+    "distanceKm": 0.185
+  },
+  {
+    "historicalId": "hist-solapur-819f8aa4",
+    "historicalName": "Solapur",
+    "unCityCode": 9287,
+    "unName": "Solapur",
+    "distanceKm": 1.05
+  },
+  {
+    "historicalId": "hist-srinagar-4cfac0c9",
+    "historicalName": "Srinagar",
+    "unCityCode": 1967,
+    "unName": "Srinagar",
+    "distanceKm": 6.112
+  },
+  {
+    "historicalId": "hist-surat-7ab8f9e7",
+    "historicalName": "Surat",
+    "unCityCode": 7233,
+    "unName": "Surat",
+    "distanceKm": 5.697
+  },
+  {
+    "historicalId": "hist-thanjavur-4490f5c5",
+    "historicalName": "Thanjavur",
+    "unCityCode": 10581,
+    "unName": "Thanjavur",
+    "distanceKm": 1.707
+  },
+  {
+    "historicalId": "hist-thiruvananthapuram-3a3d6c4f",
+    "historicalName": "Thiruvananthapuram",
+    "unCityCode": 10013,
+    "unName": "Thiruvananthapuram",
+    "distanceKm": 3.247
+  },
+  {
+    "historicalId": "hist-tiruchirappalli-76a258a3",
+    "historicalName": "Tiruchirappalli",
+    "unCityCode": 10415,
+    "unName": "Tiruchirappalli",
+    "distanceKm": 2.326
+  },
+  {
+    "historicalId": "hist-tonk-9efa5bb8",
+    "historicalName": "Tonk",
+    "unCityCode": 8351,
+    "unName": "Tonk",
+    "distanceKm": 0.356
+  },
+  {
+    "historicalId": "hist-udaipur-a4b31cba",
+    "historicalName": "Udaipur",
+    "unCityCode": 6990,
+    "unName": "Udaipur",
+    "distanceKm": 2.124
+  },
+  {
+    "historicalId": "hist-ujjain-6d64d22d",
+    "historicalName": "Ujjain",
+    "unCityCode": 8820,
+    "unName": "Ujjain",
+    "distanceKm": 1.445
+  },
+  {
+    "historicalId": "hist-vadodara-e815dcff",
+    "historicalName": "Vadodara",
+    "unCityCode": 7337,
+    "unName": "Vadodara",
+    "distanceKm": 0.365
+  },
+  {
+    "historicalId": "hist-varanasi-6eb96538",
+    "historicalName": "Varanasi",
+    "unCityCode": 10447,
+    "unName": "Varanasi",
+    "distanceKm": 3.169
+  },
+  {
+    "historicalId": "hist-vijayawada-3b93ea70",
+    "historicalName": "Vijayawada",
+    "unCityCode": 10677,
+    "unName": "Vijayawada",
+    "distanceKm": 1.348
+  },
+  {
+    "historicalId": "hist-visakhapatnam-4b78ae36",
+    "historicalName": "Visakhapatnam",
+    "unCityCode": 11255,
+    "unName": "Visakhapatnam",
+    "distanceKm": 2.064
+  },
+  {
+    "historicalId": "hist-vizianagaram-e4129103",
+    "historicalName": "Vizianagaram",
+    "unCityCode": 11293,
+    "unName": "Vizianagaram",
+    "distanceKm": 1.258
+  },
+  {
+    "historicalId": "hist-warangal-0e9b88ab",
+    "historicalName": "Warangal",
+    "unCityCode": 10231,
+    "unName": "Warangal",
+    "distanceKm": 2.749
+  },
+  {
+    "historicalId": "hist-bandung-8e800b46",
+    "historicalName": "Bandung",
+    "unCityCode": 5991,
+    "unName": "Bandung",
+    "distanceKm": 2.241
+  },
+  {
+    "historicalId": "hist-cirebon-b5a92188",
+    "historicalName": "Cirebon",
+    "unCityCode": 6427,
+    "unName": "Cirebon",
+    "distanceKm": 5.185
+  },
+  {
+    "historicalId": "hist-demak-bd5f8505",
+    "historicalName": "Demak",
+    "unCityCode": 7184,
+    "unName": "Demak",
+    "distanceKm": 0.364
+  },
+  {
+    "historicalId": "hist-gresik-120bb138",
+    "historicalName": "Gresik",
+    "unCityCode": 7782,
+    "unName": "Gresik",
+    "distanceKm": 2.545
+  },
+  {
+    "historicalId": "hist-jakarta-3ae31e55",
+    "historicalName": "Jakarta",
+    "unCityCode": 5590,
+    "unName": "Jakarta",
+    "distanceKm": 12.756
+  },
+  {
+    "historicalId": "hist-kediri-795b3c1e",
+    "historicalName": "Kediri",
+    "unCityCode": 7561,
+    "unName": "Kediri",
+    "distanceKm": 1.633
+  },
+  {
+    "historicalId": "hist-kudus-7a063da7",
+    "historicalName": "Kudus",
+    "unCityCode": 7262,
+    "unName": "Kudus",
+    "distanceKm": 1.316
+  },
+  {
+    "historicalId": "hist-magelang-e5a3c5a4",
+    "historicalName": "Magelang",
+    "unCityCode": 7021,
+    "unName": "Magelang",
+    "distanceKm": 2.121
+  },
+  {
+    "historicalId": "hist-makassar-ab19cf62",
+    "historicalName": "Makassar",
+    "unCityCode": 8297,
+    "unName": "Makassar",
+    "distanceKm": 4.375
+  },
+  {
+    "historicalId": "hist-malang-98e6a6b2",
+    "historicalName": "Malang",
+    "unCityCode": 7737,
+    "unName": "Malang",
+    "distanceKm": 3.648
+  },
+  {
+    "historicalId": "hist-manado-2d57b0ab",
+    "historicalName": "Manado",
+    "unCityCode": 8558,
+    "unName": "Manado",
+    "distanceKm": 2.182
+  },
+  {
+    "historicalId": "hist-medan-6ffcc5a4",
+    "historicalName": "Medan",
+    "unCityCode": 1806,
+    "unName": "Medan",
+    "distanceKm": 1.558
+  },
+  {
+    "historicalId": "hist-padang-1feaa037",
+    "historicalName": "Padang",
+    "unCityCode": 3262,
+    "unName": "Padang",
+    "distanceKm": 4.532
+  },
+  {
+    "historicalId": "hist-palembang-c2de5e02",
+    "historicalName": "Palembang",
+    "unCityCode": 5182,
+    "unName": "Palembang",
+    "distanceKm": 6.359
+  },
+  {
+    "historicalId": "hist-pekalongan-d3a9909f",
+    "historicalName": "Pekalongan",
+    "unCityCode": 6858,
+    "unName": "Pekalongan",
+    "distanceKm": 3.292
+  },
+  {
+    "historicalId": "hist-probolinggo-603b069d",
+    "historicalName": "Probolinggo",
+    "unCityCode": 7854,
+    "unName": "Probolinggo",
+    "distanceKm": 3.039
+  },
+  {
+    "historicalId": "hist-semarang-9a8abdc6",
+    "historicalName": "Semarang",
+    "unCityCode": 7063,
+    "unName": "Semarang",
+    "distanceKm": 4.594
+  },
+  {
+    "historicalId": "hist-surabaya-71900e60",
+    "historicalName": "Surabaya",
+    "unCityCode": 7728,
+    "unName": "Surabaya",
+    "distanceKm": 16.192
+  },
+  {
+    "historicalId": "hist-surakarta-a118be21",
+    "historicalName": "Surakarta",
+    "unCityCode": 7158,
+    "unName": "Surakarta",
+    "distanceKm": 5.083
+  },
+  {
+    "historicalId": "hist-yogyakarta-57578b64",
+    "historicalName": "Yogyakarta",
+    "unCityCode": 7035,
+    "unName": "Yogyakarta",
+    "distanceKm": 7.695
+  },
+  {
+    "historicalId": "hist-esfahan-4a539dfb",
+    "historicalName": "Esfahan",
+    "unCityCode": 5884,
+    "unName": "Isfahan",
+    "distanceKm": 3.068
+  },
+  {
+    "historicalId": "hist-kashan-4e68f29b",
+    "historicalName": "Kashan",
+    "unCityCode": 5609,
+    "unName": "Kashan",
+    "distanceKm": 0.485
+  },
+  {
+    "historicalId": "hist-kerman-5c703fa4",
+    "historicalName": "Kerman",
+    "unCityCode": 7086,
+    "unName": "Kerman",
+    "distanceKm": 1.844
+  },
+  {
+    "historicalId": "hist-kermanshah-e52f69f8",
+    "historicalName": "Kermanshah",
+    "unCityCode": 3078,
+    "unName": "Kermanshah",
+    "distanceKm": 3.478
+  },
+  {
+    "historicalId": "hist-khvoy-87b8a249",
+    "historicalName": "Khvoy",
+    "unCityCode": 731,
+    "unName": "Khoy",
+    "distanceKm": 0.121
+  },
+  {
+    "historicalId": "hist-maragheh-b8ecfdd7",
+    "historicalName": "Maragheh",
+    "unCityCode": 1788,
+    "unName": "Maragheh",
+    "distanceKm": 1.133
+  },
+  {
+    "historicalId": "hist-mashhad-a3c69080",
+    "historicalName": "Mashhad",
+    "unCityCode": 7072,
+    "unName": "Mashhad",
+    "distanceKm": 11.018
+  },
+  {
+    "historicalId": "hist-qazvin-f48b87ba",
+    "historicalName": "Qazvin",
+    "unCityCode": 4367,
+    "unName": "Qazvin",
+    "distanceKm": 1.795
+  },
+  {
+    "historicalId": "hist-qom-5400f7c2",
+    "historicalName": "Qom",
+    "unCityCode": 5374,
+    "unName": "Qom",
+    "distanceKm": 0.285
+  },
+  {
+    "historicalId": "hist-shiraz-c6fd85a5",
+    "historicalName": "Shiraz",
+    "unCityCode": 6300,
+    "unName": "Shiraz",
+    "distanceKm": 0.951
+  },
+  {
+    "historicalId": "hist-tabriz-9018e970",
+    "historicalName": "Tabriz",
+    "unCityCode": 1412,
+    "unName": "Tabriz",
+    "distanceKm": 1.606
+  },
+  {
+    "historicalId": "hist-tehran-ec719cd5",
+    "historicalName": "Tehran",
+    "unCityCode": 5264,
+    "unName": "Tehrān (Tehran)",
+    "distanceKm": 6.609
+  },
+  {
+    "historicalId": "hist-urmieh-ff5aa5d4",
+    "historicalName": "Urmieh",
+    "unCityCode": 857,
+    "unName": "Urmia",
+    "distanceKm": 1.373
+  },
+  {
+    "historicalId": "hist-baghdad-85f048a6",
+    "historicalName": "Baghdad",
+    "unCityCode": 3303,
+    "unName": "Baghdād (Baghdad)",
+    "distanceKm": 1.201
+  },
+  {
+    "historicalId": "hist-basra-f0c092f3",
+    "historicalName": "Basra",
+    "unCityCode": 5262,
+    "unName": "Basra",
+    "distanceKm": 2.501
+  },
+  {
+    "historicalId": "hist-karbala-f6a17dcd",
+    "historicalName": "Karbala",
+    "unCityCode": 3462,
+    "unName": "Karbala",
+    "distanceKm": 1.296
+  },
+  {
+    "historicalId": "hist-mosul-c9c1441c",
+    "historicalName": "Mosul",
+    "unCityCode": 1410,
+    "unName": "Mosul",
+    "distanceKm": 1.383
+  },
+  {
+    "historicalId": "hist-samarra-95c68804",
+    "historicalName": "Samarra",
+    "unCityCode": 2771,
+    "unName": "Samarra",
+    "distanceKm": 0.81
+  },
+  {
+    "historicalId": "hist-cork-03d8904b",
+    "historicalName": "Cork",
+    "unCityCode": 218,
+    "unName": "Cork",
+    "distanceKm": 0.691
+  },
+  {
+    "historicalId": "hist-dublin-f96f71d3",
+    "historicalName": "Dublin",
+    "unCityCode": 377,
+    "unName": "Dublin",
+    "distanceKm": 1.544
+  },
+  {
+    "historicalId": "hist-limerick-e86d3d81",
+    "historicalName": "Limerick",
+    "unCityCode": 20788,
+    "unName": "Limerick",
+    "distanceKm": 0.569
+  },
+  {
+    "historicalId": "hist-jerusalem-7216ef0a",
+    "historicalName": "Jerusalem",
+    "unCityCode": 2488,
+    "unName": "Jerusalem",
+    "distanceKm": 2.63
+  },
+  {
+    "historicalId": "hist-telaviv-48b70734",
+    "historicalName": "Tel Aviv",
+    "unCityCode": 439,
+    "unName": "Tel Aviv",
+    "distanceKm": 4.185
+  },
+  {
+    "historicalId": "hist-alessandria-0d90db73",
+    "historicalName": "Alessandria",
+    "unCityCode": 678,
+    "unName": "Alessandria",
+    "distanceKm": 0.795
+  },
+  {
+    "historicalId": "hist-ancona-b8ee8af3",
+    "historicalName": "Ancona",
+    "unCityCode": 4579,
+    "unName": "Ancona",
+    "distanceKm": 0.505
+  },
+  {
+    "historicalId": "hist-andria-b1d99865",
+    "historicalName": "Andria",
+    "unCityCode": 5254,
+    "unName": "Andria",
+    "distanceKm": 0.628
+  },
+  {
+    "historicalId": "hist-bari-86f1ee86",
+    "historicalName": "Bari",
+    "unCityCode": 5419,
+    "unName": "Bari",
+    "distanceKm": 1.011
+  },
+  {
+    "historicalId": "hist-barletta-6757412f",
+    "historicalName": "Barletta",
+    "unCityCode": 5225,
+    "unName": "Barletta",
+    "distanceKm": 1.375
+  },
+  {
+    "historicalId": "hist-bergamo-26d6b533",
+    "historicalName": "Bergamo",
+    "unCityCode": 2169,
+    "unName": "Bergamo",
+    "distanceKm": 0.88
+  },
+  {
+    "historicalId": "hist-bologna-95990857",
+    "historicalName": "Bologna",
+    "unCityCode": 3342,
+    "unName": "Bologna",
+    "distanceKm": 0.148
+  },
+  {
+    "historicalId": "hist-brescia-cc7ae079",
+    "historicalName": "Brescia",
+    "unCityCode": 2547,
+    "unName": "Brescia",
+    "distanceKm": 2.419
+  },
+  {
+    "historicalId": "hist-cagliari-64e99b9e",
+    "historicalName": "Cagliari",
+    "unCityCode": 2246,
+    "unName": "Cagliari",
+    "distanceKm": 3.312
+  },
+  {
+    "historicalId": "hist-caltanissetta-d14c2fd2",
+    "historicalName": "Caltanissetta",
+    "unCityCode": 21511,
+    "unName": "Caltanissetta",
+    "distanceKm": 0.702
+  },
+  {
+    "historicalId": "hist-catania-32c9d716",
+    "historicalName": "Catania",
+    "unCityCode": 5072,
+    "unName": "Catania",
+    "distanceKm": 3.075
+  },
+  {
+    "historicalId": "hist-cerignola-5b17085d",
+    "historicalName": "Cerignola",
+    "unCityCode": 20849,
+    "unName": "Cerignola",
+    "distanceKm": 0.198
+  },
+  {
+    "historicalId": "hist-cremona-7f174ec4",
+    "historicalName": "Cremona",
+    "unCityCode": 2473,
+    "unName": "Cremona",
+    "distanceKm": 0.303
+  },
+  {
+    "historicalId": "hist-ferrara-7cb84f2c",
+    "historicalName": "Ferrara",
+    "unCityCode": 3554,
+    "unName": "Ferrara",
+    "distanceKm": 1.466
+  },
+  {
+    "historicalId": "hist-florence-3ba0ae7d",
+    "historicalName": "Florence",
+    "unCityCode": 3287,
+    "unName": "Florence",
+    "distanceKm": 1.603
+  },
+  {
+    "historicalId": "hist-foggia-d485bc2f",
+    "historicalName": "Foggia",
+    "unCityCode": 5039,
+    "unName": "Foggia",
+    "distanceKm": 0.527
+  },
+  {
+    "historicalId": "hist-gela-ce16762d",
+    "historicalName": "Gela",
+    "unCityCode": 4904,
+    "unName": "Gela",
+    "distanceKm": 1.232
+  },
+  {
+    "historicalId": "hist-genova-22bee5bb",
+    "historicalName": "Genova",
+    "unCityCode": 1162,
+    "unName": "Genoa",
+    "distanceKm": 2.391
+  },
+  {
+    "historicalId": "hist-laspezia-a6141024",
+    "historicalName": "La Spezia",
+    "unCityCode": 2398,
+    "unName": "La Spezia",
+    "distanceKm": 1.282
+  },
+  {
+    "historicalId": "hist-lecce-71b8137a",
+    "historicalName": "Lecce",
+    "unCityCode": 5500,
+    "unName": "Lecce",
+    "distanceKm": 0.563
+  },
+  {
+    "historicalId": "hist-leghorn-0d89bcca",
+    "historicalName": "Leghorn",
+    "unCityCode": 2685,
+    "unName": "Livorno",
+    "distanceKm": 1.252
+  },
+  {
+    "historicalId": "hist-lucca-e402ad29",
+    "historicalName": "Lucca",
+    "unCityCode": 2815,
+    "unName": "Lucca",
+    "distanceKm": 0.41
+  },
+  {
+    "historicalId": "hist-messina-6aae0888",
+    "historicalName": "Messina",
+    "unCityCode": 5165,
+    "unName": "Messina",
+    "distanceKm": 0.825
+  },
+  {
+    "historicalId": "hist-milan-0a109537",
+    "historicalName": "Milan",
+    "unCityCode": 1848,
+    "unName": "Milan",
+    "distanceKm": 5.88
+  },
+  {
+    "historicalId": "hist-naples-ce3d588e",
+    "historicalName": "Naples",
+    "unCityCode": 4726,
+    "unName": "Naples",
+    "distanceKm": 3.619
+  },
+  {
+    "historicalId": "hist-padua-c8b945c0",
+    "historicalName": "Padua",
+    "unCityCode": 3607,
+    "unName": "Padua",
+    "distanceKm": 0.685
+  },
+  {
+    "historicalId": "hist-palermo-dfe6fe0d",
+    "historicalName": "Palermo",
+    "unCityCode": 4616,
+    "unName": "Palermo",
+    "distanceKm": 1.453
+  },
+  {
+    "historicalId": "hist-parma-209f5691",
+    "historicalName": "Parma",
+    "unCityCode": 2618,
+    "unName": "Parma",
+    "distanceKm": 0.631
+  },
+  {
+    "historicalId": "hist-pavia-2d3186d2",
+    "historicalName": "Pavia",
+    "unCityCode": 1931,
+    "unName": "Pavia",
+    "distanceKm": 0.644
+  },
+  {
+    "historicalId": "hist-piacenza-647bf988",
+    "historicalName": "Piacenza",
+    "unCityCode": 2322,
+    "unName": "Piacenza",
+    "distanceKm": 0.732
+  },
+  {
+    "historicalId": "hist-pisa-679e6966",
+    "historicalName": "Pisa",
+    "unCityCode": 2752,
+    "unName": "Pisa",
+    "distanceKm": 0.908
+  },
+  {
+    "historicalId": "hist-ravenna-97d4167b",
+    "historicalName": "Ravenna",
+    "unCityCode": 3896,
+    "unName": "Ravenna",
+    "distanceKm": 0.376
+  },
+  {
+    "historicalId": "hist-rome-a8d587b3",
+    "historicalName": "Rome",
+    "unCityCode": 4156,
+    "unName": "Roma (Rome)",
+    "distanceKm": 2.582
+  },
+  {
+    "historicalId": "hist-salerno-1f5b7efa",
+    "historicalName": "Salerno",
+    "unCityCode": 4973,
+    "unName": "Salerno",
+    "distanceKm": 1.541
+  },
+  {
+    "historicalId": "hist-sassari-6bfbb310",
+    "historicalName": "Sassari",
+    "unCityCode": 1377,
+    "unName": "Sassari",
+    "distanceKm": 0.352
+  },
+  {
+    "historicalId": "hist-syracuse-ae6cc153",
+    "historicalName": "Syracuse",
+    "unCityCode": 5135,
+    "unName": "Syracuse",
+    "distanceKm": 3.032
+  },
+  {
+    "historicalId": "hist-taranto-35b16cd0",
+    "historicalName": "Taranto",
+    "unCityCode": 5446,
+    "unName": "Taranto",
+    "distanceKm": 1.087
+  },
+  {
+    "historicalId": "hist-trapani-98e5c1c5",
+    "historicalName": "Trapani",
+    "unCityCode": 4505,
+    "unName": "Trapani",
+    "distanceKm": 2.483
+  },
+  {
+    "historicalId": "hist-trieste-b8f0292a",
+    "historicalName": "Trieste",
+    "unCityCode": 4542,
+    "unName": "Trieste",
+    "distanceKm": 1.55
+  },
+  {
+    "historicalId": "hist-turin-32608087",
+    "historicalName": "Turin",
+    "unCityCode": 61,
+    "unName": "Turin",
+    "distanceKm": 3.147
+  },
+  {
+    "historicalId": "hist-venice-1a22f790",
+    "historicalName": "Venice",
+    "unCityCode": 3850,
+    "unName": "Venice",
+    "distanceKm": 1.494
+  },
+  {
+    "historicalId": "hist-verona-072275c9",
+    "historicalName": "Verona",
+    "unCityCode": 2939,
+    "unName": "Verona",
+    "distanceKm": 0.758
+  },
+  {
+    "historicalId": "hist-vicenza-b11a62f0",
+    "historicalName": "Vicenza",
+    "unCityCode": 3448,
+    "unName": "Vicenza",
+    "distanceKm": 0.975
+  },
+  {
+    "historicalId": "hist-kingston-baf8afac",
+    "historicalName": "Kingston",
+    "unCityCode": 776,
+    "unName": "Kingston",
+    "distanceKm": 2.067
+  },
+  {
+    "historicalId": "hist-akita-91a9db53",
+    "historicalName": "Akita",
+    "unCityCode": 4302,
+    "unName": "Akita",
+    "distanceKm": 1.255
+  },
+  {
+    "historicalId": "hist-fukui-9daf942c",
+    "historicalName": "Fukui",
+    "unCityCode": 4564,
+    "unName": "Fukui",
+    "distanceKm": 0.534
+  },
+  {
+    "historicalId": "hist-fukuoka-f03af52f",
+    "historicalName": "Fukuoka",
+    "unCityCode": 884,
+    "unName": "Fukuoka",
+    "distanceKm": 1.168
+  },
+  {
+    "historicalId": "hist-hakodate-04f94e13",
+    "historicalName": "Hakodate",
+    "unCityCode": 2724,
+    "unName": "Hakodate",
+    "distanceKm": 2.618
+  },
+  {
+    "historicalId": "hist-himeji-3113a50f",
+    "historicalName": "Himeji",
+    "unCityCode": 4378,
+    "unName": "Himeji",
+    "distanceKm": 3.921
+  },
+  {
+    "historicalId": "hist-hirosaki-4f6a49e9",
+    "historicalName": "Hirosaki",
+    "unCityCode": 3924,
+    "unName": "Hirosaki",
+    "distanceKm": 0.901
+  },
+  {
+    "historicalId": "hist-hiroshima-6e562d82",
+    "historicalName": "Hiroshima",
+    "unCityCode": 3037,
+    "unName": "Hiroshima",
+    "distanceKm": 1.308
+  },
+  {
+    "historicalId": "hist-kagoshima-d844313a",
+    "historicalName": "Kagoshima",
+    "unCityCode": 3481,
+    "unName": "Kagoshima",
+    "distanceKm": 3.489
+  },
+  {
+    "historicalId": "hist-kanazawa-4fd971e6",
+    "historicalName": "Kanazawa",
+    "unCityCode": 4416,
+    "unName": "Kanazawa",
+    "distanceKm": 2.244
+  },
+  {
+    "historicalId": "hist-kitakyushu-e861bd7b",
+    "historicalName": "Kitakyushu",
+    "unCityCode": 1001,
+    "unName": "Kitakyushu",
+    "distanceKm": 5.867
+  },
+  {
+    "historicalId": "hist-kochi-f36ce138",
+    "historicalName": "Kochi",
+    "unCityCode": 4453,
+    "unName": "Kochi",
+    "distanceKm": 1.108
+  },
+  {
+    "historicalId": "hist-kofu-54e3c575",
+    "historicalName": "Kofu",
+    "unCityCode": 5893,
+    "unName": "Kofu",
+    "distanceKm": 0.733
+  },
+  {
+    "historicalId": "hist-kumamoto-e9bde025",
+    "historicalName": "Kumamoto",
+    "unCityCode": 2854,
+    "unName": "Kumamoto",
+    "distanceKm": 2.091
+  },
+  {
+    "historicalId": "hist-kure-ea95dddd",
+    "historicalName": "Kure",
+    "unCityCode": 3267,
+    "unName": "Kure",
+    "distanceKm": 1.085
+  },
+  {
+    "historicalId": "hist-matsue-67f92658",
+    "historicalName": "Matsue",
+    "unCityCode": 2657,
+    "unName": "Matsue",
+    "distanceKm": 1.578
+  },
+  {
+    "historicalId": "hist-matsuyama-f1883143",
+    "historicalName": "Matsuyama",
+    "unCityCode": 3739,
+    "unName": "Matsuyama",
+    "distanceKm": 1.6
+  },
+  {
+    "historicalId": "hist-morioka-6857aec0",
+    "historicalName": "Morioka",
+    "unCityCode": 4926,
+    "unName": "Morioka",
+    "distanceKm": 1.538
+  },
+  {
+    "historicalId": "hist-nagano-4d0736e1",
+    "historicalName": "Nagano",
+    "unCityCode": 5273,
+    "unName": "Nagano",
+    "distanceKm": 2.002
+  },
+  {
+    "historicalId": "hist-nagasaki-f297ee4a",
+    "historicalName": "Nagasaki",
+    "unCityCode": 1334,
+    "unName": "Nagasaki",
+    "distanceKm": 2.895
+  },
+  {
+    "historicalId": "hist-nagoya-f634b7d1",
+    "historicalName": "Nagoya",
+    "unCityCode": 5245,
+    "unName": "Nagoya",
+    "distanceKm": 2.571
+  },
+  {
+    "historicalId": "hist-niigata-35175151",
+    "historicalName": "Niigata",
+    "unCityCode": 4995,
+    "unName": "Niigata",
+    "distanceKm": 2.246
+  },
+  {
+    "historicalId": "hist-okayama-45391eb5",
+    "historicalName": "Okayama",
+    "unCityCode": 4011,
+    "unName": "Okayama",
+    "distanceKm": 5.851
+  },
+  {
+    "historicalId": "hist-osaka-9e5284e7",
+    "historicalName": "Osaka",
+    "unCityCode": 4490,
+    "unName": "Osaka",
+    "distanceKm": 3.851
+  },
+  {
+    "historicalId": "hist-otaru-b0487535",
+    "historicalName": "Otaru",
+    "unCityCode": 170,
+    "unName": "Otaru",
+    "distanceKm": 0.451
+  },
+  {
+    "historicalId": "hist-otsu-fa3be4f7",
+    "historicalName": "Otsu",
+    "unCityCode": 4961,
+    "unName": "Otsu",
+    "distanceKm": 7.255
+  },
+  {
+    "historicalId": "hist-sapporo-fed036a4",
+    "historicalName": "Sapporo",
+    "unCityCode": 334,
+    "unName": "Sapporo",
+    "distanceKm": 1.924
+  },
+  {
+    "historicalId": "hist-sasebo-e9dee62b",
+    "historicalName": "Sasebo",
+    "unCityCode": 626,
+    "unName": "Sasebo",
+    "distanceKm": 1.599
+  },
+  {
+    "historicalId": "hist-sendai-be1f418d",
+    "historicalName": "Sendai",
+    "unCityCode": 5593,
+    "unName": "Sendai",
+    "distanceKm": 3.644
+  },
+  {
+    "historicalId": "hist-shizuoka-e9285a84",
+    "historicalName": "Shizuoka",
+    "unCityCode": 6144,
+    "unName": "Shizuoka",
+    "distanceKm": 4.516
+  },
+  {
+    "historicalId": "hist-takamatsu-6a6c33b9",
+    "historicalName": "Takamatsu",
+    "unCityCode": 4340,
+    "unName": "Takamatsu",
+    "distanceKm": 3.053
+  },
+  {
+    "historicalId": "hist-takaoka-0371d6b9",
+    "historicalName": "Takaoka",
+    "unCityCode": 4638,
+    "unName": "Takaoka",
+    "distanceKm": 2.361
+  },
+  {
+    "historicalId": "hist-tokushima-7ea7e541",
+    "historicalName": "Tokushima",
+    "unCityCode": 4820,
+    "unName": "Tokushima",
+    "distanceKm": 0.713
+  },
+  {
+    "historicalId": "hist-toyama-12070c0c",
+    "historicalName": "Toyama",
+    "unCityCode": 4712,
+    "unName": "Toyama",
+    "distanceKm": 1.142
+  },
+  {
+    "historicalId": "hist-tsu-f72228f4",
+    "historicalName": "Tsu",
+    "unCityCode": 5491,
+    "unName": "Tsu",
+    "distanceKm": 1.142
+  },
+  {
+    "historicalId": "hist-tokyo-3ca4546d",
+    "historicalName": "Tokyo",
+    "unCityCode": 6030,
+    "unName": "Tōkyō (Tokyo)",
+    "distanceKm": 4.154
+  },
+  {
+    "historicalId": "hist-utsunomiya-bafa5ea5",
+    "historicalName": "Utsunomiya",
+    "unCityCode": 5992,
+    "unName": "Utsunomiya",
+    "distanceKm": 0.529
+  },
+  {
+    "historicalId": "hist-uwajima-e8d6d4da",
+    "historicalName": "Uwajima",
+    "unCityCode": 21414,
+    "unName": "Uwajima",
+    "distanceKm": 0.395
+  },
+  {
+    "historicalId": "hist-wakayama-701910b0",
+    "historicalName": "Wakayama",
+    "unCityCode": 5028,
+    "unName": "Wakayama",
+    "distanceKm": 0.574
+  },
+  {
+    "historicalId": "hist-yamagata-f2035db8",
+    "historicalName": "Yamagata",
+    "unCityCode": 5383,
+    "unName": "Yamagata",
+    "distanceKm": 1.068
+  },
+  {
+    "historicalId": "hist-yamaguchi-56ffe03b",
+    "historicalName": "Yamaguchi",
+    "unCityCode": 2292,
+    "unName": "Yamaguchi",
+    "distanceKm": 2.018
+  },
+  {
+    "historicalId": "hist-yonezawa-cfb0b550",
+    "historicalName": "Yonezawa",
+    "unCityCode": 20378,
+    "unName": "Yonezawa",
+    "distanceKm": 0.758
+  },
+  {
+    "historicalId": "hist-amman-d76bc0f4",
+    "historicalName": "Amman",
+    "unCityCode": 850,
+    "unName": "Ammān (Amman)",
+    "distanceKm": 3.468
+  },
+  {
+    "historicalId": "hist-almaty-83a1ea33",
+    "historicalName": "Almaty",
+    "unCityCode": 2965,
+    "unName": "Almaty",
+    "distanceKm": 1.967
+  },
+  {
+    "historicalId": "hist-karaganda-a419e7be",
+    "historicalName": "Karaganda",
+    "unCityCode": 1880,
+    "unName": "Karaganda",
+    "distanceKm": 6.071
+  },
+  {
+    "historicalId": "hist-uralsk-e270f917",
+    "historicalName": "Uralsk",
+    "unCityCode": 131,
+    "unName": "Oral",
+    "distanceKm": 2.452
+  },
+  {
+    "historicalId": "hist-nairobi-e4ebb5bd",
+    "historicalName": "Nairobi",
+    "unCityCode": 2033,
+    "unName": "Nairobi",
+    "distanceKm": 3.712
+  },
+  {
+    "historicalId": "hist-prizren-8075690c",
+    "historicalName": "Prizren",
+    "unCityCode": 560,
+    "unName": "Prizren",
+    "distanceKm": 0.634
+  },
+  {
+    "historicalId": "hist-osh-93d306fd",
+    "historicalName": "Osh",
+    "unCityCode": 870,
+    "unName": "Osh",
+    "distanceKm": 1.38
+  },
+  {
+    "historicalId": "hist-luangprabang-ac0310e6",
+    "historicalName": "Luang Prabang",
+    "unCityCode": 161,
+    "unName": "Luang Prabang",
+    "distanceKm": 0.372
+  },
+  {
+    "historicalId": "hist-daugavpils-06624b91",
+    "historicalName": "Daugavpils",
+    "unCityCode": 420,
+    "unName": "Daugavpils",
+    "distanceKm": 0.44
+  },
+  {
+    "historicalId": "hist-liepaja-fc174ab4",
+    "historicalName": "Liepaja",
+    "unCityCode": 85,
+    "unName": "Liepaja",
+    "distanceKm": 0.749
+  },
+  {
+    "historicalId": "hist-riga-fe14f43e",
+    "historicalName": "Riga",
+    "unCityCode": 260,
+    "unName": "Riga",
+    "distanceKm": 1.369
+  },
+  {
+    "historicalId": "hist-beirut-6bb870b2",
+    "historicalName": "Beirut",
+    "unCityCode": 441,
+    "unName": "Bayrūt (Beirut)",
+    "distanceKm": 3.702
+  },
+  {
+    "historicalId": "hist-sidon-a4ab3356",
+    "historicalName": "Sidon",
+    "unCityCode": 286,
+    "unName": "Sidon",
+    "distanceKm": 1.013
+  },
+  {
+    "historicalId": "hist-tyre-5233a289",
+    "historicalName": "Tyre",
+    "unCityCode": 120,
+    "unName": "Tyre",
+    "distanceKm": 2.177
+  },
+  {
+    "historicalId": "hist-tripoli-f9284012",
+    "historicalName": "Tripoli",
+    "unCityCode": 400,
+    "unName": "Ţarābulus (Tripoli)",
+    "distanceKm": 3.582
+  },
+  {
+    "historicalId": "hist-kaunas-3f2cbf8e",
+    "historicalName": "Kaunas",
+    "unCityCode": 415,
+    "unName": "Kaunas",
+    "distanceKm": 1.543
+  },
+  {
+    "historicalId": "hist-vilnius-23a4d29e",
+    "historicalName": "Vilnius",
+    "unCityCode": 699,
+    "unName": "Vilnius",
+    "distanceKm": 1.492
+  },
+  {
+    "historicalId": "hist-antananarivo-5764bc59",
+    "historicalName": "Antananarivo",
+    "unCityCode": 1961,
+    "unName": "Antananarivo",
+    "distanceKm": 5.565
+  },
+  {
+    "historicalId": "hist-kualalumpur-54962249",
+    "historicalName": "Kuala Lumpur",
+    "unCityCode": 1629,
+    "unName": "Kuala Lumpur",
+    "distanceKm": 7.447
+  },
+  {
+    "historicalId": "hist-gao-e16697de",
+    "historicalName": "Gao",
+    "unCityCode": 2082,
+    "unName": "Gao",
+    "distanceKm": 0.671
+  },
+  {
+    "historicalId": "hist-segou-5fdabf88",
+    "historicalName": "Segou",
+    "unCityCode": 1033,
+    "unName": "Ségou",
+    "distanceKm": 1.635
+  },
+  {
+    "historicalId": "hist-tombouctou-23ea3956",
+    "historicalName": "Tombouctou",
+    "unCityCode": 2000,
+    "unName": "Timbuktu",
+    "distanceKm": 0.299
+  },
+  {
+    "historicalId": "hist-valletta-b1b84cd9",
+    "historicalName": "Valletta",
+    "unCityCode": 78,
+    "unName": "Valletta",
+    "distanceKm": 2.669
+  },
+  {
+    "historicalId": "hist-portlouis-7a3cbaa1",
+    "historicalName": "Port Louis",
+    "unCityCode": 146,
+    "unName": "Port Louis",
+    "distanceKm": 9.59
+  },
+  {
+    "historicalId": "hist-aguascalientes-0ef315f3",
+    "historicalName": "Aguascalientes",
+    "unCityCode": 4184,
+    "unName": "Aguascalientes",
+    "distanceKm": 0.48
+  },
+  {
+    "historicalId": "hist-chihuahua-82d96201",
+    "historicalName": "Chihuahua",
+    "unCityCode": 4142,
+    "unName": "Chihuahua",
+    "distanceKm": 3.415
+  },
+  {
+    "historicalId": "hist-mexicocity-faaf2abd",
+    "historicalName": "Mexico City",
+    "unCityCode": 5439,
+    "unName": "Ciudad de México (Mexico City)",
+    "distanceKm": 2.997
+  },
+  {
+    "historicalId": "hist-durango-4f25ca50",
+    "historicalName": "Durango",
+    "unCityCode": 3270,
+    "unName": "Durango",
+    "distanceKm": 2.133
+  },
+  {
+    "historicalId": "hist-guadalajara-86f202e4",
+    "historicalName": "Guadalajara",
+    "unCityCode": 3099,
+    "unName": "Guadalajara",
+    "distanceKm": 1.938
+  },
+  {
+    "historicalId": "hist-guanajuato-0050c38a",
+    "historicalName": "Guanajuato",
+    "unCityCode": 4751,
+    "unName": "Guanajuato",
+    "distanceKm": 5.48
+  },
+  {
+    "historicalId": "hist-leon-8e05e12a",
+    "historicalName": "Leon",
+    "unCityCode": 4456,
+    "unName": "León",
+    "distanceKm": 0.757
+  },
+  {
+    "historicalId": "hist-monterrey-f375b062",
+    "historicalName": "Monterrey",
+    "unCityCode": 6218,
+    "unName": "Monterrey",
+    "distanceKm": 5.407
+  },
+  {
+    "historicalId": "hist-morelia-f337b78a",
+    "historicalName": "Morelia",
+    "unCityCode": 4343,
+    "unName": "Morelia",
+    "distanceKm": 7.115
+  },
+  {
+    "historicalId": "hist-merida-1376a40c",
+    "historicalName": "Merida",
+    "unCityCode": 7008,
+    "unName": "Mérida",
+    "distanceKm": 1.077
+  },
+  {
+    "historicalId": "hist-pachuca-b6ca42b1",
+    "historicalName": "Pachuca",
+    "unCityCode": 5874,
+    "unName": "Pachuca",
+    "distanceKm": 3.678
+  },
+  {
+    "historicalId": "hist-puebla-d4160425",
+    "historicalName": "Puebla",
+    "unCityCode": 5915,
+    "unName": "Puebla",
+    "distanceKm": 1.866
+  },
+  {
+    "historicalId": "hist-patzcuaro-f1af12b4",
+    "historicalName": "Patzcuaro",
+    "unCityCode": 4100,
+    "unName": "Pátzcuaro",
+    "distanceKm": 0.875
+  },
+  {
+    "historicalId": "hist-santiagodequeretaro-c9a82f2c",
+    "historicalName": "Santiago de Queretaro",
+    "unCityCode": 5096,
+    "unName": "Querétaro",
+    "distanceKm": 3.499
+  },
+  {
+    "historicalId": "hist-sanluispotosi-98a8f0b7",
+    "historicalName": "San Luis Potosi",
+    "unCityCode": 5218,
+    "unName": "San Luis Potosí",
+    "distanceKm": 2.29
+  },
+  {
+    "historicalId": "hist-tlaxcala-024e2051",
+    "historicalName": "Tlaxcala",
+    "unCityCode": 6012,
+    "unName": "Tlaxcala",
+    "distanceKm": 0.311
+  },
+  {
+    "historicalId": "hist-tollan-72b02001",
+    "historicalName": "Tollan",
+    "unCityCode": 5545,
+    "unName": "Tula",
+    "distanceKm": 1.593
+  },
+  {
+    "historicalId": "hist-zacatecas-ecc631cf",
+    "historicalName": "Zacatecas",
+    "unCityCode": 4305,
+    "unName": "Zacatecas",
+    "distanceKm": 3.477
+  },
+  {
+    "historicalId": "hist-ulaanbaatar-f63ae693",
+    "historicalName": "Ulaanbaatar",
+    "unCityCode": 320,
+    "unName": "Ulaanbaatar",
+    "distanceKm": 3.454
+  },
+  {
+    "historicalId": "hist-azemmour-3dfdf3ba",
+    "historicalName": "Azemmour",
+    "unCityCode": 1652,
+    "unName": "Azemmour",
+    "distanceKm": 0.325
+  },
+  {
+    "historicalId": "hist-casablanca-227edea7",
+    "historicalName": "Casablanca",
+    "unCityCode": 2076,
+    "unName": "Casablanca",
+    "distanceKm": 6.411
+  },
+  {
+    "historicalId": "hist-fez-9dca825c",
+    "historicalName": "Fez",
+    "unCityCode": 4424,
+    "unName": "Fez",
+    "distanceKm": 0.945
+  },
+  {
+    "historicalId": "hist-marrakech-60bd12df",
+    "historicalName": "Marrakech",
+    "unCityCode": 1742,
+    "unName": "Marrakesh",
+    "distanceKm": 1.434
+  },
+  {
+    "historicalId": "hist-meknes-66a6bc8f",
+    "historicalName": "Meknes",
+    "unCityCode": 4020,
+    "unName": "Meknes",
+    "distanceKm": 1.119
+  },
+  {
+    "historicalId": "hist-rabat-045bf39d",
+    "historicalName": "Rabat",
+    "unCityCode": 2739,
+    "unName": "Rabat",
+    "distanceKm": 2.156
+  },
+  {
+    "historicalId": "hist-tangier-86f862a2",
+    "historicalName": "Tangier",
+    "unCityCode": 3888,
+    "unName": "Tangier",
+    "distanceKm": 2.003
+  },
+  {
+    "historicalId": "hist-taza-ca35f624",
+    "historicalName": "Taza",
+    "unCityCode": 4572,
+    "unName": "Taza",
+    "distanceKm": 1.284
+  },
+  {
+    "historicalId": "hist-maputo-9d42cb27",
+    "historicalName": "Maputo",
+    "unCityCode": 116,
+    "unName": "Maputo",
+    "distanceKm": 8.916
+  },
+  {
+    "historicalId": "hist-mandalay-61a5689d",
+    "historicalName": "Mandalay",
+    "unCityCode": 3089,
+    "unName": "Mandalay",
+    "distanceKm": 3.205
+  },
+  {
+    "historicalId": "hist-mandalay-61a5689d",
+    "historicalName": "Mandalay",
+    "unCityCode": 3204,
+    "unName": "Mandalay",
+    "distanceKm": 15.469
+  },
+  {
+    "historicalId": "hist-mawlamyine-a862feb9",
+    "historicalName": "Mawlamyine",
+    "unCityCode": 5930,
+    "unName": "Mawlamyine",
+    "distanceKm": 1.43
+  },
+  {
+    "historicalId": "hist-bassein-4b634a06",
+    "historicalName": "Bassein",
+    "unCityCode": 3733,
+    "unName": "Pathein",
+    "distanceKm": 1.096
+  },
+  {
+    "historicalId": "hist-pegu-512f33b5",
+    "historicalName": "Pegu",
+    "unCityCode": 5688,
+    "unName": "Pegu",
+    "distanceKm": 0.359
+  },
+  {
+    "historicalId": "hist-pyay-89748f1a",
+    "historicalName": "Pyay",
+    "unCityCode": 3633,
+    "unName": "Pyay",
+    "distanceKm": 1.639
+  },
+  {
+    "historicalId": "hist-akyab-be830f84",
+    "historicalName": "Akyab",
+    "unCityCode": 617,
+    "unName": "Sittwe",
+    "distanceKm": 0.623
+  },
+  {
+    "historicalId": "hist-toungoo-829b30ea",
+    "historicalName": "Toungoo",
+    "unCityCode": 5181,
+    "unName": "Taungoo",
+    "distanceKm": 0.718
+  },
+  {
+    "historicalId": "hist-yangon-9147b461",
+    "historicalName": "Yangon",
+    "unCityCode": 5433,
+    "unName": "Yangon",
+    "distanceKm": 6.38
+  },
+  {
+    "historicalId": "hist-yangon-9147b461",
+    "historicalName": "Yangon",
+    "unCityCode": 5664,
+    "unName": "Yangon",
+    "distanceKm": 13.303
+  },
+  {
+    "historicalId": "hist-kathmandu-83c62854",
+    "historicalName": "Kathmandu",
+    "unCityCode": 1712,
+    "unName": "Kathmandu",
+    "distanceKm": 0.114
+  },
+  {
+    "historicalId": "hist-shertogenbosch-bbecdeec",
+    "historicalName": "s'Hertogenbosch",
+    "unCityCode": 2615,
+    "unName": "'s-Hertogenbosch",
+    "distanceKm": 0.872
+  },
+  {
+    "historicalId": "hist-amsterdam-00702a35",
+    "historicalName": "Amsterdam",
+    "unCityCode": 1754,
+    "unName": "Amsterdam",
+    "distanceKm": 1.6
+  },
+  {
+    "historicalId": "hist-arnhem-84b4531c",
+    "historicalName": "Arnhem",
+    "unCityCode": 3285,
+    "unName": "Arnhem",
+    "distanceKm": 0.734
+  },
+  {
+    "historicalId": "hist-dordrecht-0a0474c8",
+    "historicalName": "Dordrecht",
+    "unCityCode": 1373,
+    "unName": "Dordrecht",
+    "distanceKm": 0.589
+  },
+  {
+    "historicalId": "hist-groningen-7174e6d1",
+    "historicalName": "Groningen",
+    "unCityCode": 3552,
+    "unName": "Groningen",
+    "distanceKm": 0.193
+  },
+  {
+    "historicalId": "hist-haarlem-0be86bfa",
+    "historicalName": "Haarlem",
+    "unCityCode": 1158,
+    "unName": "Haarlem",
+    "distanceKm": 0.266
+  },
+  {
+    "historicalId": "hist-leiden-63376cab",
+    "historicalName": "Leiden",
+    "unCityCode": 674,
+    "unName": "Leiden",
+    "distanceKm": 1.666
+  },
+  {
+    "historicalId": "hist-maastricht-f928960a",
+    "historicalName": "Maastricht",
+    "unCityCode": 3230,
+    "unName": "Maastricht",
+    "distanceKm": 0.597
+  },
+  {
+    "historicalId": "hist-nijmegen-1cc2220c",
+    "historicalName": "Nijmegen",
+    "unCityCode": 3173,
+    "unName": "Nijmegen",
+    "distanceKm": 1.981
+  },
+  {
+    "historicalId": "hist-rotterdam-247ade2f",
+    "historicalName": "Rotterdam",
+    "unCityCode": 387,
+    "unName": "Rotterdam",
+    "distanceKm": 3.307
+  },
+  {
+    "historicalId": "hist-thehague-2ac713ba",
+    "historicalName": "The Hague",
+    "unCityCode": 228,
+    "unName": "The Hague",
+    "distanceKm": 1.884
+  },
+  {
+    "historicalId": "hist-tilburg-aedd99f1",
+    "historicalName": "Tilburg",
+    "unCityCode": 2166,
+    "unName": "Tilburg",
+    "distanceKm": 2.134
+  },
+  {
+    "historicalId": "hist-utrecht-d0f3efe2",
+    "historicalName": "Utrecht",
+    "unCityCode": 2087,
+    "unName": "Utrecht",
+    "distanceKm": 2.727
+  },
+  {
+    "historicalId": "hist-auckland-0d16e851",
+    "historicalName": "Auckland",
+    "unCityCode": 1005,
+    "unName": "Auckland",
+    "distanceKm": 4.152
+  },
+  {
+    "historicalId": "hist-christchurch-9733713b",
+    "historicalName": "Christchurch",
+    "unCityCode": 336,
+    "unName": "Christchurch",
+    "distanceKm": 1.609
+  },
+  {
+    "historicalId": "hist-dunedin-4d250ef6",
+    "historicalName": "Dunedin",
+    "unCityCode": 173,
+    "unName": "Dunedin",
+    "distanceKm": 0.82
+  },
+  {
+    "historicalId": "hist-wellington-6d7688c8",
+    "historicalName": "Wellington",
+    "unCityCode": 486,
+    "unName": "Wellington",
+    "distanceKm": 1.997
+  },
+  {
+    "historicalId": "hist-managua-8ed3a452",
+    "historicalName": "Managua",
+    "unCityCode": 345,
+    "unName": "Managua",
+    "distanceKm": 0.657
+  },
+  {
+    "historicalId": "hist-abeokuta-40dbadd7",
+    "historicalName": "Abeokuta",
+    "unCityCode": 1570,
+    "unName": "Abeokuta",
+    "distanceKm": 1.517
+  },
+  {
+    "historicalId": "hist-bauchi-9f4e3fb7",
+    "historicalName": "Bauchi",
+    "unCityCode": 8679,
+    "unName": "Bauchi",
+    "distanceKm": 1.167
+  },
+  {
+    "historicalId": "hist-bida-ef2f963a",
+    "historicalName": "Bida",
+    "unCityCode": 6528,
+    "unName": "Bida",
+    "distanceKm": 1.193
+  },
+  {
+    "historicalId": "hist-dikwa-a3a50f37",
+    "historicalName": "Dikwa",
+    "unCityCode": 8882,
+    "unName": "Dikwa",
+    "distanceKm": 1.435
+  },
+  {
+    "historicalId": "hist-ibadan-e8b32ede",
+    "historicalName": "Ibadan",
+    "unCityCode": 2996,
+    "unName": "Ibadan",
+    "distanceKm": 3.051
+  },
+  {
+    "historicalId": "hist-ife-c9668e42",
+    "historicalName": "Ife",
+    "unCityCode": 4465,
+    "unName": "Ife",
+    "distanceKm": 1.276
+  },
+  {
+    "historicalId": "hist-ilorin-e3b65367",
+    "historicalName": "Ilorin",
+    "unCityCode": 4352,
+    "unName": "Ilorin",
+    "distanceKm": 3.182
+  },
+  {
+    "historicalId": "hist-iseyin-599a7acb",
+    "historicalName": "Iseyin",
+    "unCityCode": 2394,
+    "unName": "Iseyin",
+    "distanceKm": 1.104
+  },
+  {
+    "historicalId": "hist-iwo-5e51dfe9",
+    "historicalName": "Iwo",
+    "unCityCode": 3706,
+    "unName": "Iwo",
+    "distanceKm": 0.348
+  },
+  {
+    "historicalId": "hist-kano-e170a02a",
+    "historicalName": "Kano",
+    "unCityCode": 8435,
+    "unName": "Kano",
+    "distanceKm": 1.846
+  },
+  {
+    "historicalId": "hist-katsina-696ea872",
+    "historicalName": "Katsina",
+    "unCityCode": 7964,
+    "unName": "Katsina",
+    "distanceKm": 1.626
+  },
+  {
+    "historicalId": "hist-lagos-4248ed4e",
+    "historicalName": "Lagos",
+    "unCityCode": 1265,
+    "unName": "Lagos",
+    "distanceKm": 9.055
+  },
+  {
+    "historicalId": "hist-ogbomosho-0a0dd21e",
+    "historicalName": "Ogbomosho",
+    "unCityCode": 3848,
+    "unName": "Ogbomosho",
+    "distanceKm": 1.691
+  },
+  {
+    "historicalId": "hist-oshogbo-90706e53",
+    "historicalName": "Oshogbo",
+    "unCityCode": 4390,
+    "unName": "Oshogbo",
+    "distanceKm": 0.768
+  },
+  {
+    "historicalId": "hist-oyo-f22a2d38",
+    "historicalName": "Oyo",
+    "unCityCode": 3114,
+    "unName": "Oyo",
+    "distanceKm": 0.766
+  },
+  {
+    "historicalId": "hist-sokoto-938b30f6",
+    "historicalName": "Sokoto",
+    "unCityCode": 5746,
+    "unName": "Sokoto",
+    "distanceKm": 2.69
+  },
+  {
+    "historicalId": "hist-zaria-5e18ee1b",
+    "historicalName": "Zaria",
+    "unCityCode": 8055,
+    "unName": "Zaria",
+    "distanceKm": 3.686
+  },
+  {
+    "historicalId": "hist-skopje-10a65923",
+    "historicalName": "Skopje",
+    "unCityCode": 266,
+    "unName": "Skopje",
+    "distanceKm": 0.223
+  },
+  {
+    "historicalId": "hist-bergen-e5fb82db",
+    "historicalName": "Bergen",
+    "unCityCode": 57,
+    "unName": "Bergen",
+    "distanceKm": 0.675
+  },
+  {
+    "historicalId": "hist-oslo-69958da3",
+    "historicalName": "Oslo",
+    "unCityCode": 931,
+    "unName": "Oslo",
+    "distanceKm": 1.319
+  },
+  {
+    "historicalId": "hist-stavanger-def1db68",
+    "historicalName": "Stavanger",
+    "unCityCode": 388,
+    "unName": "Stavanger",
+    "distanceKm": 3.266
+  },
+  {
+    "historicalId": "hist-trondheim-bbe88188",
+    "historicalName": "Trondheim",
+    "unCityCode": 677,
+    "unName": "Trondheim",
+    "distanceKm": 1.63
+  },
+  {
+    "historicalId": "hist-muscat-8f74051a",
+    "historicalName": "Muscat",
+    "unCityCode": 1421,
+    "unName": "Masqąt (Muscat)",
+    "distanceKm": 15.812
+  },
+  {
+    "historicalId": "hist-bahawalpur-2e886c7a",
+    "historicalName": "Bahawalpur",
+    "unCityCode": 7568,
+    "unName": "Bahawalpur",
+    "distanceKm": 0.406
+  },
+  {
+    "historicalId": "hist-deraismailkhan-2615f62a",
+    "historicalName": "Dera Ismail Khan",
+    "unCityCode": 5660,
+    "unName": "Dera Ismail Khan",
+    "distanceKm": 0.835
+  },
+  {
+    "historicalId": "hist-faisalabad-e96d831f",
+    "historicalName": "Faisalabad",
+    "unCityCode": 7724,
+    "unName": "Faisalabad",
+    "distanceKm": 0.818
+  },
+  {
+    "historicalId": "hist-gujranwala-c870f00d",
+    "historicalName": "Gujranwala",
+    "unCityCode": 8042,
+    "unName": "Gujranwala",
+    "distanceKm": 1.094
+  },
+  {
+    "historicalId": "hist-hyderabad-f86d9561",
+    "historicalName": "Hyderabad",
+    "unCityCode": 5822,
+    "unName": "Hyderabad",
+    "distanceKm": 1.421
+  },
+  {
+    "historicalId": "hist-karachi-23402a0a",
+    "historicalName": "Karachi",
+    "unCityCode": 2578,
+    "unName": "Karachi",
+    "distanceKm": 1.977
+  },
+  {
+    "historicalId": "hist-kohat-66336b73",
+    "historicalName": "Kohat",
+    "unCityCode": 5147,
+    "unName": "Kohat",
+    "distanceKm": 0.385
+  },
+  {
+    "historicalId": "hist-lahore-83f68973",
+    "historicalName": "Lahore",
+    "unCityCode": 8021,
+    "unName": "Lahore",
+    "distanceKm": 5.211
+  },
+  {
+    "historicalId": "hist-multan-2a58a546",
+    "historicalName": "Multan",
+    "unCityCode": 7167,
+    "unName": "Multan",
+    "distanceKm": 0.566
+  },
+  {
+    "historicalId": "hist-peshawar-af8217b1",
+    "historicalName": "Peshawar",
+    "unCityCode": 4408,
+    "unName": "Peshawar",
+    "distanceKm": 5.963
+  },
+  {
+    "historicalId": "hist-shikarpur-43ead8e8",
+    "historicalName": "Shikarpur",
+    "unCityCode": 4445,
+    "unName": "Shikarpur",
+    "distanceKm": 1.265
+  },
+  {
+    "historicalId": "hist-sialkot-06450120",
+    "historicalName": "Sialkot",
+    "unCityCode": 8126,
+    "unName": "Sialkot",
+    "distanceKm": 2.204
+  },
+  {
+    "historicalId": "hist-taxilla-50cd3985",
+    "historicalName": "Taxilla",
+    "unCityCode": 6824,
+    "unName": "Taxila",
+    "distanceKm": 7.142
+  },
+  {
+    "historicalId": "hist-thatta-51b6cbd3",
+    "historicalName": "Thatta",
+    "unCityCode": 5535,
+    "unName": "Thatta",
+    "distanceKm": 1.659
+  },
+  {
+    "historicalId": "hist-panamacity-a66bdc05",
+    "historicalName": "Panama City",
+    "unCityCode": 640,
+    "unName": "Ciudad de Panamá (Panama City)",
+    "distanceKm": 7.236
+  },
+  {
+    "historicalId": "hist-asuncion-06b9581c",
+    "historicalName": "Asuncion",
+    "unCityCode": 202,
+    "unName": "Asunción",
+    "distanceKm": 8.826
+  },
+  {
+    "historicalId": "hist-arequipa-d47de53c",
+    "historicalName": "Arequipa",
+    "unCityCode": 3272,
+    "unName": "Arequipa",
+    "distanceKm": 0.778
+  },
+  {
+    "historicalId": "hist-ayacucho-626e7c61",
+    "historicalName": "Ayacucho",
+    "unCityCode": 3042,
+    "unName": "Ayacucho",
+    "distanceKm": 0.176
+  },
+  {
+    "historicalId": "hist-lima-3a5aa999",
+    "historicalName": "Lima",
+    "unCityCode": 1987,
+    "unName": "Lima",
+    "distanceKm": 1.881
+  },
+  {
+    "historicalId": "hist-manila-e94f86fa",
+    "historicalName": "Manila",
+    "unCityCode": 2369,
+    "unName": "Manila",
+    "distanceKm": 2.209
+  },
+  {
+    "historicalId": "hist-bialystok-5d17414d",
+    "historicalName": "Bialystok",
+    "unCityCode": 4240,
+    "unName": "Białystok",
+    "distanceKm": 0.975
+  },
+  {
+    "historicalId": "hist-bydgoszcz-0b317705",
+    "historicalName": "Bydgoszcz",
+    "unCityCode": 1852,
+    "unName": "Bydgoszcz",
+    "distanceKm": 1.055
+  },
+  {
+    "historicalId": "hist-czestochowa-4799d264",
+    "historicalName": "Czestochowa",
+    "unCityCode": 3002,
+    "unName": "Częstochowa",
+    "distanceKm": 1.328
+  },
+  {
+    "historicalId": "hist-elblag-0242b2a3",
+    "historicalName": "Elblag",
+    "unCityCode": 2620,
+    "unName": "Elbląg",
+    "distanceKm": 0.637
+  },
+  {
+    "historicalId": "hist-gdansk-41dd43c5",
+    "historicalName": "Gdansk",
+    "unCityCode": 2093,
+    "unName": "Gdansk",
+    "distanceKm": 3.395
+  },
+  {
+    "historicalId": "hist-gliwice-8d6ed9da",
+    "historicalName": "Gliwice",
+    "unCityCode": 2881,
+    "unName": "Gliwice",
+    "distanceKm": 0.249
+  },
+  {
+    "historicalId": "hist-grudziadz-f5587cf3",
+    "historicalName": "Grudziadz",
+    "unCityCode": 2549,
+    "unName": "Grudziądz",
+    "distanceKm": 0.43
+  },
+  {
+    "historicalId": "hist-katowice-fc28652f",
+    "historicalName": "Katowice",
+    "unCityCode": 2942,
+    "unName": "Katowice",
+    "distanceKm": 8.017
+  },
+  {
+    "historicalId": "hist-krakow-5b976f0d",
+    "historicalName": "Krakow",
+    "unCityCode": 3608,
+    "unName": "Krakow",
+    "distanceKm": 2.229
+  },
+  {
+    "historicalId": "hist-legnica-c1efb0b8",
+    "historicalName": "Legnica",
+    "unCityCode": 937,
+    "unName": "Legnica",
+    "distanceKm": 0.894
+  },
+  {
+    "historicalId": "hist-lodz-3d9d5da5",
+    "historicalName": "Lodz",
+    "unCityCode": 3120,
+    "unName": "Lodz",
+    "distanceKm": 1.959
+  },
+  {
+    "historicalId": "hist-lublin-14a33563",
+    "historicalName": "Lublin",
+    "unCityCode": 4280,
+    "unName": "Lublin",
+    "distanceKm": 1.325
+  },
+  {
+    "historicalId": "hist-opole-140ce471",
+    "historicalName": "Opole",
+    "unCityCode": 2401,
+    "unName": "Opole",
+    "distanceKm": 1.352
+  },
+  {
+    "historicalId": "hist-poznan-9aacace5",
+    "historicalName": "Poznan",
+    "unCityCode": 1381,
+    "unName": "Poznan",
+    "distanceKm": 1.101
+  },
+  {
+    "historicalId": "hist-przemysl-b506971f",
+    "historicalName": "Przemysl",
+    "unCityCode": 4318,
+    "unName": "Przemyśl",
+    "distanceKm": 0.387
+  },
+  {
+    "historicalId": "hist-radom-182c4c32",
+    "historicalName": "Radom",
+    "unCityCode": 3851,
+    "unName": "Radom",
+    "distanceKm": 0.801
+  },
+  {
+    "historicalId": "hist-szczecin-dbeec771",
+    "historicalName": "Szczecin",
+    "unCityCode": 71,
+    "unName": "Szczecin",
+    "distanceKm": 3.678
+  },
+  {
+    "historicalId": "hist-tarnow-6d0268ad",
+    "historicalName": "Tarnow",
+    "unCityCode": 3942,
+    "unName": "Tarnów",
+    "distanceKm": 0.419
+  },
+  {
+    "historicalId": "hist-warsaw-9b3f24f0",
+    "historicalName": "Warsaw",
+    "unCityCode": 3660,
+    "unName": "Warszawa (Warsaw)",
+    "distanceKm": 1.022
+  },
+  {
+    "historicalId": "hist-wroclaw-ea3c4c85",
+    "historicalName": "Wroclaw",
+    "unCityCode": 1580,
+    "unName": "Wrocław",
+    "distanceKm": 1.427
+  },
+  {
+    "historicalId": "hist-coimbra-dd9cdb9b",
+    "historicalName": "Coimbra",
+    "unCityCode": 20428,
+    "unName": "Coimbra",
+    "distanceKm": 0.747
+  },
+  {
+    "historicalId": "hist-lisbon-d70f7407",
+    "historicalName": "Lisbon",
+    "unCityCode": 217,
+    "unName": "Lisboa (Lisbon)",
+    "distanceKm": 8.33
+  },
+  {
+    "historicalId": "hist-oporto-abbb3550",
+    "historicalName": "Oporto",
+    "unCityCode": 1030,
+    "unName": "Porto",
+    "distanceKm": 2.302
+  },
+  {
+    "historicalId": "hist-sanjuan-6b38ebeb",
+    "historicalName": "San Juan",
+    "unCityCode": 8242,
+    "unName": "San Juan",
+    "distanceKm": 6.385
+  },
+  {
+    "historicalId": "hist-busan-78a8dd27",
+    "historicalName": "Busan",
+    "unCityCode": 3878,
+    "unName": "Busan",
+    "distanceKm": 2.672
+  },
+  {
+    "historicalId": "hist-daegu-622ffdda",
+    "historicalName": "Daegu",
+    "unCityCode": 2915,
+    "unName": "Daegu",
+    "distanceKm": 1.653
+  },
+  {
+    "historicalId": "hist-daejeon-6b1e30be",
+    "historicalName": "Daejeon",
+    "unCityCode": 2214,
+    "unName": "Daejeon",
+    "distanceKm": 1.277
+  },
+  {
+    "historicalId": "hist-gwangju-ba7016bb",
+    "historicalName": "Gwangju",
+    "unCityCode": 2656,
+    "unName": "Gwangju",
+    "distanceKm": 3.675
+  },
+  {
+    "historicalId": "hist-seoul-1b4a0678",
+    "historicalName": "Seoul",
+    "unCityCode": 332,
+    "unName": "Seoul",
+    "distanceKm": 8.284
+  },
+  {
+    "historicalId": "hist-bendery-f98ece57",
+    "historicalName": "Bendery",
+    "unCityCode": 572,
+    "unName": "Bender",
+    "distanceKm": 0.447
+  },
+  {
+    "historicalId": "hist-chisinau-d947833c",
+    "historicalName": "Chisinau",
+    "unCityCode": 426,
+    "unName": "Chișinău",
+    "distanceKm": 1.091
+  },
+  {
+    "historicalId": "hist-arad-ca1d1275",
+    "historicalName": "Arad",
+    "unCityCode": 95,
+    "unName": "Arad",
+    "distanceKm": 0.468
+  },
+  {
+    "historicalId": "hist-brasov-a8b8d9bc",
+    "historicalName": "Brasov",
+    "unCityCode": 1856,
+    "unName": "Brasov",
+    "distanceKm": 1.786
+  },
+  {
+    "historicalId": "hist-braila-957e73c8",
+    "historicalName": "Braila",
+    "unCityCode": 2758,
+    "unName": "Brăila",
+    "distanceKm": 2.008
+  },
+  {
+    "historicalId": "hist-bucharest-83978760",
+    "historicalName": "Bucharest",
+    "unCityCode": 2329,
+    "unName": "București (Bucharest)",
+    "distanceKm": 0.657
+  },
+  {
+    "historicalId": "hist-clujnapoca-1cde38ad",
+    "historicalName": "Cluj-Napoca",
+    "unCityCode": 948,
+    "unName": "Cluj-Napoca",
+    "distanceKm": 0.802
+  },
+  {
+    "historicalId": "hist-craiova-e949576a",
+    "historicalName": "Craiova",
+    "unCityCode": 1390,
+    "unName": "Craiova",
+    "distanceKm": 1.994
+  },
+  {
+    "historicalId": "hist-galati-a61696ec",
+    "historicalName": "Galati",
+    "unCityCode": 2691,
+    "unName": "Galați",
+    "distanceKm": 1.363
+  },
+  {
+    "historicalId": "hist-iasi-c06ccda3",
+    "historicalName": "Iasi",
+    "unCityCode": 2553,
+    "unName": "Iași",
+    "distanceKm": 1.604
+  },
+  {
+    "historicalId": "hist-oradea-c7d7a1b6",
+    "historicalName": "Oradea",
+    "unCityCode": 417,
+    "unName": "Oradea",
+    "distanceKm": 1.517
+  },
+  {
+    "historicalId": "hist-ploiesti-deffc179",
+    "historicalName": "Ploiesti",
+    "unCityCode": 2253,
+    "unName": "Ploiești",
+    "distanceKm": 0.468
+  },
+  {
+    "historicalId": "hist-suceava-5f4393d0",
+    "historicalName": "Suceava",
+    "unCityCode": 1939,
+    "unName": "Suceava",
+    "distanceKm": 2.521
+  },
+  {
+    "historicalId": "hist-timisoara-53301297",
+    "historicalName": "Timisoara",
+    "unCityCode": 262,
+    "unName": "Timișoara",
+    "distanceKm": 0.625
+  },
+  {
+    "historicalId": "hist-targoviste-0490d896",
+    "historicalName": "Targoviste",
+    "unCityCode": 2018,
+    "unName": "Târgoviște",
+    "distanceKm": 0.28
+  },
+  {
+    "historicalId": "hist-arkhangelsk-c2f02f17",
+    "historicalName": "Arkhangelsk",
+    "unCityCode": 1593,
+    "unName": "Arkhangelsk",
+    "distanceKm": 2.478
+  },
+  {
+    "historicalId": "hist-astrakhan-f37e10ca",
+    "historicalName": "Astrakhan",
+    "unCityCode": 6791,
+    "unName": "Astrakhan",
+    "distanceKm": 3.811
+  },
+  {
+    "historicalId": "hist-barnaul-1ebc9deb",
+    "historicalName": "Barnaul",
+    "unCityCode": 7556,
+    "unName": "Barnaul",
+    "distanceKm": 3.256
+  },
+  {
+    "historicalId": "hist-blagoveshchensk-a12caa1b",
+    "historicalName": "Blagoveshchensk",
+    "unCityCode": 7781,
+    "unName": "Blagoveshchensk",
+    "distanceKm": 0.447
+  },
+  {
+    "historicalId": "hist-chelyabinsk-dca9422e",
+    "historicalName": "Chelyabinsk",
+    "unCityCode": 7269,
+    "unName": "Chelyabinsk",
+    "distanceKm": 2.003
+  },
+  {
+    "historicalId": "hist-groznyj-06600cf6",
+    "historicalName": "Groznyj",
+    "unCityCode": 6671,
+    "unName": "Grozny",
+    "distanceKm": 3.252
+  },
+  {
+    "historicalId": "hist-irkutsk-d7ad169a",
+    "historicalName": "Irkutsk",
+    "unCityCode": 7744,
+    "unName": "Irkutsk",
+    "distanceKm": 2.768
+  },
+  {
+    "historicalId": "hist-ivanovo-4d3f66fb",
+    "historicalName": "Ivanovo",
+    "unCityCode": 4035,
+    "unName": "Ivanovo",
+    "distanceKm": 0.256
+  },
+  {
+    "historicalId": "hist-izhevsk-51dfe38e",
+    "historicalName": "Izhevsk",
+    "unCityCode": 6484,
+    "unName": "Izhevsk",
+    "distanceKm": 0.883
+  },
+  {
+    "historicalId": "hist-konigsberg-0e67c1be",
+    "historicalName": "Konigsberg",
+    "unCityCode": 86,
+    "unName": "Kaliningrad",
+    "distanceKm": 0.791
+  },
+  {
+    "historicalId": "hist-kaluga-fbcfe3f6",
+    "historicalName": "Kaluga",
+    "unCityCode": 2181,
+    "unName": "Kaluga",
+    "distanceKm": 0.209
+  },
+  {
+    "historicalId": "hist-kazan-f4d7cbd5",
+    "historicalName": "Kazan",
+    "unCityCode": 5923,
+    "unName": "Kazan",
+    "distanceKm": 1.4
+  },
+  {
+    "historicalId": "hist-kemerovo-8fb2f935",
+    "historicalName": "Kemerovo",
+    "unCityCode": 7534,
+    "unName": "Kemerovo",
+    "distanceKm": 2.106
+  },
+  {
+    "historicalId": "hist-khabarovsk-66c6743b",
+    "historicalName": "Khabarovsk",
+    "unCityCode": 7808,
+    "unName": "Khabarovsk",
+    "distanceKm": 2.215
+  },
+  {
+    "historicalId": "hist-kostroma-23b281d9",
+    "historicalName": "Kostroma",
+    "unCityCode": 3948,
+    "unName": "Kostroma",
+    "distanceKm": 1.251
+  },
+  {
+    "historicalId": "hist-krasnodar-468c0320",
+    "historicalName": "Krasnodar",
+    "unCityCode": 5109,
+    "unName": "Krasnodar",
+    "distanceKm": 5.757
+  },
+  {
+    "historicalId": "hist-krasnoyarsk-b3f29798",
+    "historicalName": "Krasnoyarsk",
+    "unCityCode": 7648,
+    "unName": "Krasnoyarsk",
+    "distanceKm": 1.744
+  },
+  {
+    "historicalId": "hist-kursk-aa50e420",
+    "historicalName": "Kursk",
+    "unCityCode": 3457,
+    "unName": "Kursk",
+    "distanceKm": 0.214
+  },
+  {
+    "historicalId": "hist-magnitogorsk-1f43745b",
+    "historicalName": "Magnitogorsk",
+    "unCityCode": 7217,
+    "unName": "Magnitogorsk",
+    "distanceKm": 3.228
+  },
+  {
+    "historicalId": "hist-maykop-20e6f9aa",
+    "historicalName": "Maykop",
+    "unCityCode": 5424,
+    "unName": "Maykop",
+    "distanceKm": 1.72
+  },
+  {
+    "historicalId": "hist-michurinsk-5409f70e",
+    "historicalName": "Michurinsk",
+    "unCityCode": 4437,
+    "unName": "Michurinsk",
+    "distanceKm": 1.385
+  },
+  {
+    "historicalId": "hist-moscow-dcc429e5",
+    "historicalName": "Moscow",
+    "unCityCode": 2485,
+    "unName": "Moskva (Moscow)",
+    "distanceKm": 1.441
+  },
+  {
+    "historicalId": "hist-nizhniytagil-9752f25e",
+    "historicalName": "Nizhniy Tagil",
+    "unCityCode": 7057,
+    "unName": "Nizhny Tagil",
+    "distanceKm": 0.811
+  },
+  {
+    "historicalId": "hist-novocherkassk-c0a4b77c",
+    "historicalName": "Novocherkassk",
+    "unCityCode": 5200,
+    "unName": "Novocherkassk",
+    "distanceKm": 0.485
+  },
+  {
+    "historicalId": "hist-novokuznetsk-9b934a8b",
+    "historicalName": "Novokuznetsk",
+    "unCityCode": 7618,
+    "unName": "Novokuznetsk",
+    "distanceKm": 1.602
+  },
+  {
+    "historicalId": "hist-novosibirsk-cbe517c5",
+    "historicalName": "Novosibirsk",
+    "unCityCode": 7486,
+    "unName": "Novosibirsk",
+    "distanceKm": 2.73
+  },
+  {
+    "historicalId": "hist-omsk-2eec956a",
+    "historicalName": "Omsk",
+    "unCityCode": 7462,
+    "unName": "Omsk",
+    "distanceKm": 1.108
+  },
+  {
+    "historicalId": "hist-orenburg-aef7996e",
+    "historicalName": "Orenburg",
+    "unCityCode": 7113,
+    "unName": "Orenburg",
+    "distanceKm": 2.573
+  },
+  {
+    "historicalId": "hist-penza-12d963f5",
+    "historicalName": "Penza",
+    "unCityCode": 5505,
+    "unName": "Penza",
+    "distanceKm": 0.898
+  },
+  {
+    "historicalId": "hist-pskov-49e9879b",
+    "historicalName": "Pskov",
+    "unCityCode": 423,
+    "unName": "Pskov",
+    "distanceKm": 1.207
+  },
+  {
+    "historicalId": "hist-rostovondon-34422fa9",
+    "historicalName": "Rostov-on-Don",
+    "unCityCode": 5012,
+    "unName": "Rostov-on-Don",
+    "distanceKm": 22.183
+  },
+  {
+    "historicalId": "hist-ryazan-ae74e515",
+    "historicalName": "Ryazan",
+    "unCityCode": 4121,
+    "unName": "Ryazan",
+    "distanceKm": 1.655
+  },
+  {
+    "historicalId": "hist-saintpetersburg-d4c02ba0",
+    "historicalName": "Saint Petersburg",
+    "unCityCode": 568,
+    "unName": "Saint Petersburg",
+    "distanceKm": 6.02
+  },
+  {
+    "historicalId": "hist-samara-26141984",
+    "historicalName": "Samara",
+    "unCityCode": 6468,
+    "unName": "Samara",
+    "distanceKm": 4.529
+  },
+  {
+    "historicalId": "hist-saratov-8e6fffaf",
+    "historicalName": "Saratov",
+    "unCityCode": 5903,
+    "unName": "Saratov",
+    "distanceKm": 1.845
+  },
+  {
+    "historicalId": "hist-smolensk-85b5d023",
+    "historicalName": "Smolensk",
+    "unCityCode": 1393,
+    "unName": "Smolensk",
+    "distanceKm": 0.765
+  },
+  {
+    "historicalId": "hist-stavropol-f207fe78",
+    "historicalName": "Stavropol",
+    "unCityCode": 5796,
+    "unName": "Stavropol",
+    "distanceKm": 1.529
+  },
+  {
+    "historicalId": "hist-syzran-33010250",
+    "historicalName": "Syzran",
+    "unCityCode": 6208,
+    "unName": "Syzran",
+    "distanceKm": 0.219
+  },
+  {
+    "historicalId": "hist-taganrog-93f0e6bf",
+    "historicalName": "Taganrog",
+    "unCityCode": 4804,
+    "unName": "Taganrog",
+    "distanceKm": 0.573
+  },
+  {
+    "historicalId": "hist-tambov-2d4fc0f6",
+    "historicalName": "Tambov",
+    "unCityCode": 4659,
+    "unName": "Tambov",
+    "distanceKm": 0.644
+  },
+  {
+    "historicalId": "hist-tomsk-b72393b1",
+    "historicalName": "Tomsk",
+    "unCityCode": 7498,
+    "unName": "Tomsk",
+    "distanceKm": 0.68
+  },
+  {
+    "historicalId": "hist-tula-2a1e09d2",
+    "historicalName": "Tula",
+    "unCityCode": 3563,
+    "unName": "Tula",
+    "distanceKm": 10.114
+  },
+  {
+    "historicalId": "hist-tver-c8083c49",
+    "historicalName": "Tver",
+    "unCityCode": 1684,
+    "unName": "Tver",
+    "distanceKm": 1.558
+  },
+  {
+    "historicalId": "hist-ufa-747e4f2e",
+    "historicalName": "Ufa",
+    "unCityCode": 7015,
+    "unName": "Ufa",
+    "distanceKm": 3.641
+  },
+  {
+    "historicalId": "hist-ulyanovsk-6c399082",
+    "historicalName": "Ulyanovsk",
+    "unCityCode": 6058,
+    "unName": "Ulyanovsk",
+    "distanceKm": 3.437
+  },
+  {
+    "historicalId": "hist-vladimir-1b928625",
+    "historicalName": "Vladimir",
+    "unCityCode": 4078,
+    "unName": "Vladimir",
+    "distanceKm": 0.347
+  },
+  {
+    "historicalId": "hist-vladivostok-969b0e71",
+    "historicalName": "Vladivostok",
+    "unCityCode": 7835,
+    "unName": "Vladivostok",
+    "distanceKm": 4.314
+  },
+  {
+    "historicalId": "hist-volgograd-05960358",
+    "historicalName": "Volgograd",
+    "unCityCode": 5982,
+    "unName": "Volgograd",
+    "distanceKm": 2.541
+  },
+  {
+    "historicalId": "hist-voronezh-a73245ae",
+    "historicalName": "Voronezh",
+    "unCityCode": 4362,
+    "unName": "Voronezh",
+    "distanceKm": 1.074
+  },
+  {
+    "historicalId": "hist-yaroslavl-54348cc5",
+    "historicalName": "Yaroslavl",
+    "unCityCode": 3615,
+    "unName": "Yaroslavl",
+    "distanceKm": 1.521
+  },
+  {
+    "historicalId": "hist-yekaterinburg-76fb6981",
+    "historicalName": "Yekaterinburg",
+    "unCityCode": 7152,
+    "unName": "Yekaterinburg",
+    "distanceKm": 0.648
+  },
+  {
+    "historicalId": "hist-yelets-955555cd",
+    "historicalName": "Yelets",
+    "unCityCode": 4163,
+    "unName": "Yelets",
+    "distanceKm": 2.525
+  },
+  {
+    "historicalId": "hist-alahsa-cf3908c4",
+    "historicalName": "Al Ahsa",
+    "unCityCode": 3414,
+    "unName": "Al Ahsa",
+    "distanceKm": 5.726
+  },
+  {
+    "historicalId": "hist-riyadh-8920a37a",
+    "historicalName": "Riyadh",
+    "unCityCode": 2961,
+    "unName": "Ar-Riyāḑ (Riyadh)",
+    "distanceKm": 6.16
+  },
+  {
+    "historicalId": "hist-jeddah-c5e184f7",
+    "historicalName": "Jeddah",
+    "unCityCode": 1086,
+    "unName": "Jeddah",
+    "distanceKm": 4.057
+  },
+  {
+    "historicalId": "hist-mecca-e7d73ce4",
+    "historicalName": "Mecca",
+    "unCityCode": 1513,
+    "unName": "Mecca",
+    "distanceKm": 1.107
+  },
+  {
+    "historicalId": "hist-medina-560dd8c4",
+    "historicalName": "Medina",
+    "unCityCode": 728,
+    "unName": "Medina",
+    "distanceKm": 1.573
+  },
+  {
+    "historicalId": "hist-dakar-db28b371",
+    "historicalName": "Dakar",
+    "unCityCode": 33,
+    "unName": "Dakar",
+    "distanceKm": 8.11
+  },
+  {
+    "historicalId": "hist-belgrade-85d48677",
+    "historicalName": "Belgrade",
+    "unCityCode": 556,
+    "unName": "Beograd (Belgrade)",
+    "distanceKm": 1.808
+  },
+  {
+    "historicalId": "hist-nis-c6fe3be4",
+    "historicalName": "Nis",
+    "unCityCode": 1489,
+    "unName": "Niš",
+    "distanceKm": 1.173
+  },
+  {
+    "historicalId": "hist-subotica-a98fc07c",
+    "historicalName": "Subotica",
+    "unCityCode": 89,
+    "unName": "Subotica",
+    "distanceKm": 0.196
+  },
+  {
+    "historicalId": "hist-freetown-50d156e9",
+    "historicalName": "Freetown",
+    "unCityCode": 41,
+    "unName": "Freetown",
+    "distanceKm": 7.493
+  },
+  {
+    "historicalId": "hist-singapore-4b950868",
+    "historicalName": "Singapore",
+    "unCityCode": 165,
+    "unName": "Singapore",
+    "distanceKm": 6.144
+  },
+  {
+    "historicalId": "hist-bratislava-aa98c9ee",
+    "historicalName": "Bratislava",
+    "unCityCode": 80,
+    "unName": "Bratislava",
+    "distanceKm": 1.387
+  },
+  {
+    "historicalId": "hist-kosice-d35561cc",
+    "historicalName": "Kosice",
+    "unCityCode": 944,
+    "unName": "Košice",
+    "distanceKm": 0.317
+  },
+  {
+    "historicalId": "hist-ljubljana-6be10c25",
+    "historicalName": "Ljubljana",
+    "unCityCode": 73,
+    "unName": "Ljubljana",
+    "distanceKm": 0.443
+  },
+  {
+    "historicalId": "hist-capetown-25a22509",
+    "historicalName": "Cape Town",
+    "unCityCode": 413,
+    "unName": "Cape Town",
+    "distanceKm": 17.399
+  },
+  {
+    "historicalId": "hist-durban-c0104506",
+    "historicalName": "Durban",
+    "unCityCode": 5227,
+    "unName": "Durban",
+    "distanceKm": 36.979
+  },
+  {
+    "historicalId": "hist-johannesburg-1aebedb4",
+    "historicalName": "Johannesburg",
+    "unCityCode": 3664,
+    "unName": "Johannesburg",
+    "distanceKm": 20.453
+  },
+  {
+    "historicalId": "hist-pretoria-a387cc5a",
+    "historicalName": "Pretoria",
+    "unCityCode": 4244,
+    "unName": "Pretoria",
+    "distanceKm": 2.208
+  },
+  {
+    "historicalId": "hist-acoruna-a691168c",
+    "historicalName": "A Coruna",
+    "unCityCode": 1146,
+    "unName": "A Coruña",
+    "distanceKm": 0.986
+  },
+  {
+    "historicalId": "hist-alicante-fd4b8cf0",
+    "historicalName": "Alicante",
+    "unCityCode": 4537,
+    "unName": "Alicante",
+    "distanceKm": 2.002
+  },
+  {
+    "historicalId": "hist-almeria-93878451",
+    "historicalName": "Almeria",
+    "unCityCode": 4107,
+    "unName": "Almeria",
+    "distanceKm": 2.217
+  },
+  {
+    "historicalId": "hist-badajoz-41d99357",
+    "historicalName": "Badajoz",
+    "unCityCode": 1561,
+    "unName": "Badajoz",
+    "distanceKm": 0.429
+  },
+  {
+    "historicalId": "hist-barcelona-78c7d46c",
+    "historicalName": "Barcelona",
+    "unCityCode": 5068,
+    "unName": "Barcelona",
+    "distanceKm": 4.058
+  },
+  {
+    "historicalId": "hist-bilbao-11741024",
+    "historicalName": "Bilbao",
+    "unCityCode": 4021,
+    "unName": "Bilbao",
+    "distanceKm": 3.649
+  },
+  {
+    "historicalId": "hist-burgos-9fda0f89",
+    "historicalName": "Burgos",
+    "unCityCode": 3701,
+    "unName": "Burgos",
+    "distanceKm": 1.169
+  },
+  {
+    "historicalId": "hist-cartagena-f2351f88",
+    "historicalName": "Cartagena",
+    "unCityCode": 4350,
+    "unName": "Cartagena",
+    "distanceKm": 0.952
+  },
+  {
+    "historicalId": "hist-ceuta-629b2d46",
+    "historicalName": "Ceuta",
+    "unCityCode": 2741,
+    "unName": "Ceuta",
+    "distanceKm": 0.754
+  },
+  {
+    "historicalId": "hist-cadiz-c8be1d38",
+    "historicalName": "Cadiz",
+    "unCityCode": 1654,
+    "unName": "Cádiz",
+    "distanceKm": 1.719
+  },
+  {
+    "historicalId": "hist-cordoba-5d309e42",
+    "historicalName": "Cordoba",
+    "unCityCode": 2931,
+    "unName": "Córdoba",
+    "distanceKm": 20.255
+  },
+  {
+    "historicalId": "hist-granada-8e682da6",
+    "historicalName": "Granada",
+    "unCityCode": 3546,
+    "unName": "Granada",
+    "distanceKm": 0.894
+  },
+  {
+    "historicalId": "hist-jaen-1cb5e19a",
+    "historicalName": "Jaen",
+    "unCityCode": 3493,
+    "unName": "Jaén",
+    "distanceKm": 0.712
+  },
+  {
+    "historicalId": "hist-leon-ac04cb0a",
+    "historicalName": "Leon",
+    "unCityCode": 2806,
+    "unName": "León",
+    "distanceKm": 0.75
+  },
+  {
+    "historicalId": "hist-madrid-f46d6dd4",
+    "historicalName": "Madrid",
+    "unCityCode": 3440,
+    "unName": "Madrid",
+    "distanceKm": 1.328
+  },
+  {
+    "historicalId": "hist-murcia-0409015a",
+    "historicalName": "Murcia",
+    "unCityCode": 4312,
+    "unName": "Murcia",
+    "distanceKm": 0.376
+  },
+  {
+    "historicalId": "hist-malaga-1cc354ba",
+    "historicalName": "Malaga",
+    "unCityCode": 3224,
+    "unName": "Málaga",
+    "distanceKm": 1.411
+  },
+  {
+    "historicalId": "hist-salamanca-b313b733",
+    "historicalName": "Salamanca",
+    "unCityCode": 2536,
+    "unName": "Salamanca",
+    "distanceKm": 0.463
+  },
+  {
+    "historicalId": "hist-santander-75a2fdc3",
+    "historicalName": "Santander",
+    "unCityCode": 3599,
+    "unName": "Santander",
+    "distanceKm": 1.836
+  },
+  {
+    "historicalId": "hist-seville-b3128234",
+    "historicalName": "Seville",
+    "unCityCode": 2157,
+    "unName": "Seville",
+    "distanceKm": 1.253
+  },
+  {
+    "historicalId": "hist-valencia-60f1954f",
+    "historicalName": "Valencia",
+    "unCityCode": 4574,
+    "unName": "Valencia",
+    "distanceKm": 1.248
+  },
+  {
+    "historicalId": "hist-valladolid-15e70930",
+    "historicalName": "Valladolid",
+    "unCityCode": 3109,
+    "unName": "Valladolid",
+    "distanceKm": 1.668
+  },
+  {
+    "historicalId": "hist-zaragoza-3b47f74e",
+    "historicalName": "Zaragoza",
+    "unCityCode": 4388,
+    "unName": "Zaragoza",
+    "distanceKm": 0.208
+  },
+  {
+    "historicalId": "hist-anuradhapura-7cd7067d",
+    "historicalName": "Anuradhapura",
+    "unCityCode": 991,
+    "unName": "Anuradhapura",
+    "distanceKm": 0.648
+  },
+  {
+    "historicalId": "hist-galle-a0d0677f",
+    "historicalName": "Galle",
+    "unCityCode": 874,
+    "unName": "Galle",
+    "distanceKm": 2.795
+  },
+  {
+    "historicalId": "hist-jaffna-ac3bafa0",
+    "historicalName": "Jaffna",
+    "unCityCode": 154,
+    "unName": "Jaffna",
+    "distanceKm": 3.241
+  },
+  {
+    "historicalId": "hist-khartoum-b3fe8c86",
+    "historicalName": "Khartoum",
+    "unCityCode": 4325,
+    "unName": "Al-Kharṭūm (Khartoum)",
+    "distanceKm": 9.925
+  },
+  {
+    "historicalId": "hist-dongola-e4175966",
+    "historicalName": "Dongola",
+    "unCityCode": 3994,
+    "unName": "Dongola",
+    "distanceKm": 2.112
+  },
+  {
+    "historicalId": "hist-sennar-e724fd96",
+    "historicalName": "Sennar",
+    "unCityCode": 4980,
+    "unName": "Sennar",
+    "distanceKm": 5.596
+  },
+  {
+    "historicalId": "hist-paramaribo-cafac564",
+    "historicalName": "Paramaribo",
+    "unCityCode": 29,
+    "unName": "Paramaribo",
+    "distanceKm": 5.551
+  },
+  {
+    "historicalId": "hist-malmo-c87e24d1",
+    "historicalName": "Malmo",
+    "unCityCode": 540,
+    "unName": "Malmo",
+    "distanceKm": 1.905
+  },
+  {
+    "historicalId": "hist-norrkoping-4ab3cf7e",
+    "historicalName": "Norrkoping",
+    "unCityCode": 1166,
+    "unName": "Norrköping",
+    "distanceKm": 0.911
+  },
+  {
+    "historicalId": "hist-stockholm-35633edd",
+    "historicalName": "Stockholm",
+    "unCityCode": 1672,
+    "unName": "Stockholm",
+    "distanceKm": 3.385
+  },
+  {
+    "historicalId": "hist-basel-6d300b96",
+    "historicalName": "Basel",
+    "unCityCode": 1046,
+    "unName": "Basel",
+    "distanceKm": 1.962
+  },
+  {
+    "historicalId": "hist-bern-2661c4bf",
+    "historicalName": "Bern",
+    "unCityCode": 930,
+    "unName": "Berne (Bern)",
+    "distanceKm": 0.105
+  },
+  {
+    "historicalId": "hist-geneva-bfd9b009",
+    "historicalName": "Geneva",
+    "unCityCode": 60,
+    "unName": "Geneva",
+    "distanceKm": 0.51
+  },
+  {
+    "historicalId": "hist-lausanne-9ceb1e30",
+    "historicalName": "Lausanne",
+    "unCityCode": 231,
+    "unName": "Lausanne",
+    "distanceKm": 1.542
+  },
+  {
+    "historicalId": "hist-zurich-8ef5b21b",
+    "historicalName": "Zurich",
+    "unCityCode": 1668,
+    "unName": "Zurich",
+    "distanceKm": 1.932
+  },
+  {
+    "historicalId": "hist-aleppo-97d378bb",
+    "historicalName": "Aleppo",
+    "unCityCode": 1601,
+    "unName": "Aleppo",
+    "distanceKm": 2.524
+  },
+  {
+    "historicalId": "hist-damascus-12579a6b",
+    "historicalName": "Damascus",
+    "unCityCode": 1404,
+    "unName": "Dimashq (Damascus)",
+    "distanceKm": 1.578
+  },
+  {
+    "historicalId": "hist-hama-620a063a",
+    "historicalName": "Hama",
+    "unCityCode": 1690,
+    "unName": "Hama",
+    "distanceKm": 0.739
+  },
+  {
+    "historicalId": "hist-homs-b474a051",
+    "historicalName": "Homs",
+    "unCityCode": 2106,
+    "unName": "Homs",
+    "distanceKm": 0.447
+  },
+  {
+    "historicalId": "hist-khujand-49a50549",
+    "historicalName": "Khujand",
+    "unCityCode": 868,
+    "unName": "Khujand",
+    "distanceKm": 0.358
+  },
+  {
+    "historicalId": "hist-chiangmai-5b6b6fcf",
+    "historicalName": "Chiang Mai",
+    "unCityCode": 160,
+    "unName": "Chiang Mai",
+    "distanceKm": 4.033
+  },
+  {
+    "historicalId": "hist-bangkok-7bfd29bc",
+    "historicalName": "Bangkok",
+    "unCityCode": 2286,
+    "unName": "Krung Thep Maha Nakhon (Bangkok)",
+    "distanceKm": 5.433
+  },
+  {
+    "historicalId": "hist-portofspain-86316f35",
+    "historicalName": "Port-of-Spain",
+    "unCityCode": 26,
+    "unName": "Port of Spain",
+    "distanceKm": 8.374
+  },
+  {
+    "historicalId": "hist-kairouan-6c0c9c53",
+    "historicalName": "Kairouan",
+    "unCityCode": 1577,
+    "unName": "Kairouan",
+    "distanceKm": 0.795
+  },
+  {
+    "historicalId": "hist-tunis-c1e004d3",
+    "historicalName": "Tunis",
+    "unCityCode": 1378,
+    "unName": "Tunis",
+    "distanceKm": 1.33
+  },
+  {
+    "historicalId": "hist-konyeurgench-6b8fed2b",
+    "historicalName": "Konye-Urgench",
+    "unCityCode": 604,
+    "unName": "Konye-Urgench",
+    "distanceKm": 0.859
+  },
+  {
+    "historicalId": "hist-adana-d25c33f3",
+    "historicalName": "Adana",
+    "unCityCode": 5750,
+    "unName": "Adana",
+    "distanceKm": 4.485
+  },
+  {
+    "historicalId": "hist-ankara-b2b63a05",
+    "historicalName": "Ankara",
+    "unCityCode": 4941,
+    "unName": "Ankara",
+    "distanceKm": 3.977
+  },
+  {
+    "historicalId": "hist-aydin-0570f833",
+    "historicalName": "Aydin",
+    "unCityCode": 2692,
+    "unName": "Aydin",
+    "distanceKm": 0.251
+  },
+  {
+    "historicalId": "hist-bursa-506903c3",
+    "historicalName": "Bursa",
+    "unCityCode": 3124,
+    "unName": "Bursa",
+    "distanceKm": 3.349
+  },
+  {
+    "historicalId": "hist-diyarbakir-c19ab255",
+    "historicalName": "Diyarbakir",
+    "unCityCode": 6625,
+    "unName": "Diyarbakir",
+    "distanceKm": 3.027
+  },
+  {
+    "historicalId": "hist-edirne-f818b167",
+    "historicalName": "Edirne",
+    "unCityCode": 103,
+    "unName": "Edirne",
+    "distanceKm": 1.634
+  },
+  {
+    "historicalId": "hist-erzurum-d7fe1ea6",
+    "historicalName": "Erzurum",
+    "unCityCode": 6655,
+    "unName": "Erzurum",
+    "distanceKm": 1.02
+  },
+  {
+    "historicalId": "hist-istanbul-7a24f6cc",
+    "historicalName": "Istanbul",
+    "unCityCode": 2626,
+    "unName": "Istanbul",
+    "distanceKm": 1.245
+  },
+  {
+    "historicalId": "hist-smyrna-96cdecc4",
+    "historicalName": "Smyrna",
+    "unCityCode": 1069,
+    "unName": "Izmir",
+    "distanceKm": 0.525
+  },
+  {
+    "historicalId": "hist-kahramanmaras-9fc699ae",
+    "historicalName": "Kahramanmaras",
+    "unCityCode": 6189,
+    "unName": "Kahramanmaraş",
+    "distanceKm": 1.42
+  },
+  {
+    "historicalId": "hist-karaman-b371f983",
+    "historicalName": "Karaman",
+    "unCityCode": 5229,
+    "unName": "Karaman",
+    "distanceKm": 0.848
+  },
+  {
+    "historicalId": "hist-kayseri-55da80e3",
+    "historicalName": "Kayseri",
+    "unCityCode": 5654,
+    "unName": "Kayseri",
+    "distanceKm": 3.559
+  },
+  {
+    "historicalId": "hist-konya-443fd4ed",
+    "historicalName": "Konya",
+    "unCityCode": 5107,
+    "unName": "Konya",
+    "distanceKm": 0.231
+  },
+  {
+    "historicalId": "hist-kutahya-3accdffb",
+    "historicalName": "Kutahya",
+    "unCityCode": 3989,
+    "unName": "Kütahya",
+    "distanceKm": 0.568
+  },
+  {
+    "historicalId": "hist-malatya-fa615dfd",
+    "historicalName": "Malatya",
+    "unCityCode": 6351,
+    "unName": "Malatya",
+    "distanceKm": 1.072
+  },
+  {
+    "historicalId": "hist-manisa-337a5432",
+    "historicalName": "Manisa",
+    "unCityCode": 1496,
+    "unName": "Manisa",
+    "distanceKm": 1.962
+  },
+  {
+    "historicalId": "hist-sivas-104c9d49",
+    "historicalName": "Sivas",
+    "unCityCode": 5962,
+    "unName": "Sivas",
+    "distanceKm": 0.441
+  },
+  {
+    "historicalId": "hist-tarsus-79419ae2",
+    "historicalName": "Tarsus",
+    "unCityCode": 5629,
+    "unName": "Tarsus",
+    "distanceKm": 0.813
+  },
+  {
+    "historicalId": "hist-tokat-805c3f19",
+    "historicalName": "Tokat",
+    "unCityCode": 5817,
+    "unName": "Tokat",
+    "distanceKm": 1.511
+  },
+  {
+    "historicalId": "hist-trabzon-989c7657",
+    "historicalName": "Trabzon",
+    "unCityCode": 6419,
+    "unName": "Trabzon",
+    "distanceKm": 1.323
+  },
+  {
+    "historicalId": "hist-van-301a7435",
+    "historicalName": "Van",
+    "unCityCode": 6925,
+    "unName": "Van",
+    "distanceKm": 1.601
+  },
+  {
+    "historicalId": "hist-berdychiv-6444bba3",
+    "historicalName": "Berdychiv",
+    "unCityCode": 2019,
+    "unName": "Berdychiv",
+    "distanceKm": 1.157
+  },
+  {
+    "historicalId": "hist-belgoroddnestrovskiy-672b7c1b",
+    "historicalName": "Belgorod-Dnestrovskiy",
+    "unCityCode": 20369,
+    "unName": "Bilhorod-Dnistrovskyi",
+    "distanceKm": 0.289
+  },
+  {
+    "historicalId": "hist-chernivtsi-549bcf91",
+    "historicalName": "Chernivtsi",
+    "unCityCode": 1679,
+    "unName": "Chernivtsi",
+    "distanceKm": 1.057
+  },
+  {
+    "historicalId": "hist-donetsk-289891dc",
+    "historicalName": "Donetsk",
+    "unCityCode": 4547,
+    "unName": "Donetsk",
+    "distanceKm": 2.181
+  },
+  {
+    "historicalId": "hist-feodosia-44801c3f",
+    "historicalName": "Feodosia",
+    "unCityCode": 4246,
+    "unName": "Feodosia",
+    "distanceKm": 0.579
+  },
+  {
+    "historicalId": "hist-horlivka-d9177017",
+    "historicalName": "Horlivka",
+    "unCityCode": 4584,
+    "unName": "Horlivka",
+    "distanceKm": 0.452
+  },
+  {
+    "historicalId": "hist-ivanofrankivsk-2a98db3d",
+    "historicalName": "Ivano-Frankivs'k",
+    "unCityCode": 1284,
+    "unName": "Ivano-Frankivsk",
+    "distanceKm": 0.577
+  },
+  {
+    "historicalId": "hist-izmail-44e65ff6",
+    "historicalName": "Izmail",
+    "unCityCode": 20367,
+    "unName": "Izmail",
+    "distanceKm": 0.19
+  },
+  {
+    "historicalId": "hist-kamianetspodilskyi-97dc39ee",
+    "historicalName": "Kamianets-Podilskyi",
+    "unCityCode": 1769,
+    "unName": "Kamianets-Podilskyi",
+    "distanceKm": 0.084
+  },
+  {
+    "historicalId": "hist-kharkov-3e2a3c4f",
+    "historicalName": "Kharkov",
+    "unCityCode": 3991,
+    "unName": "Kharkiv",
+    "distanceKm": 2.564
+  },
+  {
+    "historicalId": "hist-kherson-b86abc6f",
+    "historicalName": "Kherson",
+    "unCityCode": 3402,
+    "unName": "Kherson",
+    "distanceKm": 1.903
+  },
+  {
+    "historicalId": "hist-kolomyia-ed197b89",
+    "historicalName": "Kolomyia",
+    "unCityCode": 1391,
+    "unName": "Kolomyia",
+    "distanceKm": 0.611
+  },
+  {
+    "historicalId": "hist-kremenchuk-ad985ec8",
+    "historicalName": "Kremenchuk",
+    "unCityCode": 3295,
+    "unName": "Kremenchuk",
+    "distanceKm": 1.845
+  },
+  {
+    "historicalId": "hist-krivoirog-c6fc6719",
+    "historicalName": "Krivoi Rog",
+    "unCityCode": 3455,
+    "unName": "Kryvyi Rih",
+    "distanceKm": 1.293
+  },
+  {
+    "historicalId": "hist-kiev-d79a3044",
+    "historicalName": "Kiev",
+    "unCityCode": 2178,
+    "unName": "Kyiv (Kiev)",
+    "distanceKm": 0.677
+  },
+  {
+    "historicalId": "hist-lugansk-cb81c167",
+    "historicalName": "Lugansk",
+    "unCityCode": 4943,
+    "unName": "Luhansk",
+    "distanceKm": 1.515
+  },
+  {
+    "historicalId": "hist-mariupol-02df40c0",
+    "historicalName": "Mariupol",
+    "unCityCode": 4658,
+    "unName": "Mariupol",
+    "distanceKm": 3.082
+  },
+  {
+    "historicalId": "hist-odessa-4c1f194d",
+    "historicalName": "Odessa",
+    "unCityCode": 2693,
+    "unName": "Odesa",
+    "distanceKm": 3.108
+  },
+  {
+    "historicalId": "hist-poltava-203ff53b",
+    "historicalName": "Poltava",
+    "unCityCode": 3561,
+    "unName": "Poltava",
+    "distanceKm": 1.18
+  },
+  {
+    "historicalId": "hist-sevastopol-4eb45f8a",
+    "historicalName": "Sevastopol",
+    "unCityCode": 3810,
+    "unName": "Sevastopol",
+    "distanceKm": 1.242
+  },
+  {
+    "historicalId": "hist-simferopol-010d04e7",
+    "historicalName": "Simferopol",
+    "unCityCode": 4034,
+    "unName": "Simferopol",
+    "distanceKm": 0.265
+  },
+  {
+    "historicalId": "hist-sverdlovsk-5b1923b2",
+    "historicalName": "Sverdlovs'k",
+    "unCityCode": 5044,
+    "unName": "Sverdlovsk",
+    "distanceKm": 1.018
+  },
+  {
+    "historicalId": "hist-aberdeen-c7bf86e3",
+    "historicalName": "Aberdeen",
+    "unCityCode": 4150,
+    "unName": "Aberdeen",
+    "distanceKm": 1.969
+  },
+  {
+    "historicalId": "hist-barnsley-a16cd30a",
+    "historicalName": "Barnsley",
+    "unCityCode": 4933,
+    "unName": "Barnsley",
+    "distanceKm": 1.307
+  },
+  {
+    "historicalId": "hist-bath-e754a75f",
+    "historicalName": "Bath",
+    "unCityCode": 3600,
+    "unName": "Bath",
+    "distanceKm": 1.037
+  },
+  {
+    "historicalId": "hist-belfast-48a8f78c",
+    "historicalName": "Belfast",
+    "unCityCode": 220,
+    "unName": "Belfast",
+    "distanceKm": 0.625
+  },
+  {
+    "historicalId": "hist-birmingham-8c72c0e1",
+    "historicalName": "Birmingham",
+    "unCityCode": 3979,
+    "unName": "Birmingham",
+    "distanceKm": 4.844
+  },
+  {
+    "historicalId": "hist-blackburn-233f811d",
+    "historicalName": "Blackburn",
+    "unCityCode": 3494,
+    "unName": "Blackburn",
+    "distanceKm": 1.412
+  },
+  {
+    "historicalId": "hist-blackpool-14be0005",
+    "historicalName": "Blackpool",
+    "unCityCode": 2537,
+    "unName": "Blackpool",
+    "distanceKm": 2.422
+  },
+  {
+    "historicalId": "hist-bournemouth-fdcb9f38",
+    "historicalName": "Bournemouth",
+    "unCityCode": 4108,
+    "unName": "Bournemouth",
+    "distanceKm": 2.66
+  },
+  {
+    "historicalId": "hist-brighton-d778d79e",
+    "historicalName": "Brighton",
+    "unCityCode": 6034,
+    "unName": "Brighton",
+    "distanceKm": 6.751
+  },
+  {
+    "historicalId": "hist-bristol-c6bcca7b",
+    "historicalName": "Bristol",
+    "unCityCode": 3110,
+    "unName": "Bristol",
+    "distanceKm": 2.152
+  },
+  {
+    "historicalId": "hist-burnley-7b9451c8",
+    "historicalName": "Burnley",
+    "unCityCode": 3798,
+    "unName": "Burnley",
+    "distanceKm": 1.454
+  },
+  {
+    "historicalId": "hist-cambridge-6f0fae58",
+    "historicalName": "Cambridge",
+    "unCityCode": 6221,
+    "unName": "Cambridge",
+    "distanceKm": 1.279
+  },
+  {
+    "historicalId": "hist-cardiff-c05a43fe",
+    "historicalName": "Cardiff",
+    "unCityCode": 2001,
+    "unName": "Cardiff",
+    "distanceKm": 1.376
+  },
+  {
+    "historicalId": "hist-cheltenham-8c7a305d",
+    "historicalName": "Cheltenham",
+    "unCityCode": 4022,
+    "unName": "Cheltenham",
+    "distanceKm": 2.049
+  },
+  {
+    "historicalId": "hist-chester-8da59fc5",
+    "historicalName": "Chester",
+    "unCityCode": 2742,
+    "unName": "Chester",
+    "distanceKm": 0.581
+  },
+  {
+    "historicalId": "hist-coatbridge-bffc0567",
+    "historicalName": "Coatbridge",
+    "unCityCode": 1258,
+    "unName": "Coatbridge",
+    "distanceKm": 1.418
+  },
+  {
+    "historicalId": "hist-colchester-e6615fda",
+    "historicalName": "Colchester",
+    "unCityCode": 6447,
+    "unName": "Colchester",
+    "distanceKm": 0.281
+  },
+  {
+    "historicalId": "hist-coventry-aa546e9f",
+    "historicalName": "Coventry",
+    "unCityCode": 4647,
+    "unName": "Coventry",
+    "distanceKm": 1.536
+  },
+  {
+    "historicalId": "hist-crewe-e00df38b",
+    "historicalName": "Crewe",
+    "unCityCode": 3547,
+    "unName": "Crewe",
+    "distanceKm": 0.7
+  },
+  {
+    "historicalId": "hist-darlington-37215b1e",
+    "historicalName": "Darlington",
+    "unCityCode": 4756,
+    "unName": "Darlington",
+    "distanceKm": 0.538
+  },
+  {
+    "historicalId": "hist-derby-7c87ac2a",
+    "historicalName": "Derby",
+    "unCityCode": 4828,
+    "unName": "Derby",
+    "distanceKm": 1.258
+  },
+  {
+    "historicalId": "hist-dundee-a08ef8e6",
+    "historicalName": "Dundee",
+    "unCityCode": 2871,
+    "unName": "Dundee",
+    "distanceKm": 2.808
+  },
+  {
+    "historicalId": "hist-edinburgh-ba4949a0",
+    "historicalName": "Edinburgh",
+    "unCityCode": 2312,
+    "unName": "Edinburgh",
+    "distanceKm": 0.933
+  },
+  {
+    "historicalId": "hist-exeter-4ea7a33a",
+    "historicalName": "Exeter",
+    "unCityCode": 1656,
+    "unName": "Exeter",
+    "distanceKm": 0.704
+  },
+  {
+    "historicalId": "hist-folkestone-65ae3cd1",
+    "historicalName": "Folkestone",
+    "unCityCode": 6527,
+    "unName": "Folkestone",
+    "distanceKm": 1.319
+  },
+  {
+    "historicalId": "hist-glasgow-e22a1de7",
+    "historicalName": "Glasgow",
+    "unCityCode": 797,
+    "unName": "Glasgow",
+    "distanceKm": 2.24
+  },
+  {
+    "historicalId": "hist-gloucester-8caf4d02",
+    "historicalName": "Gloucester",
+    "unCityCode": 3702,
+    "unName": "Gloucester",
+    "distanceKm": 2.088
+  },
+  {
+    "historicalId": "hist-greatyarmouth-0792c80c",
+    "historicalName": "Great Yarmouth",
+    "unCityCode": 6575,
+    "unName": "Great Yarmouth",
+    "distanceKm": 2.129
+  },
+  {
+    "historicalId": "hist-greenock-36a1e318",
+    "historicalName": "Greenock",
+    "unCityCode": 21554,
+    "unName": "Greenock",
+    "distanceKm": 0.646
+  },
+  {
+    "historicalId": "hist-grimsby-bb863c7d",
+    "historicalName": "Grimsby",
+    "unCityCode": 6185,
+    "unName": "Grimsby",
+    "distanceKm": 0.943
+  },
+  {
+    "historicalId": "hist-hartlepool-d2ffe1a9",
+    "historicalName": "Hartlepool",
+    "unCityCode": 5415,
+    "unName": "Hartlepool",
+    "distanceKm": 1.049
+  },
+  {
+    "historicalId": "hist-hastings-3cabc484",
+    "historicalName": "Hastings",
+    "unCityCode": 6415,
+    "unName": "Hastings",
+    "distanceKm": 1.338
+  },
+  {
+    "historicalId": "hist-huddersfield-cddcffd4",
+    "historicalName": "Huddersfield",
+    "unCityCode": 4387,
+    "unName": "Huddersfield",
+    "distanceKm": 0.606
+  },
+  {
+    "historicalId": "hist-hull-b7fe4cf8",
+    "historicalName": "Hull",
+    "unCityCode": 6053,
+    "unName": "Hull",
+    "distanceKm": 2.375
+  },
+  {
+    "historicalId": "hist-ipswich-e05c75a1",
+    "historicalName": "Ipswich",
+    "unCityCode": 6495,
+    "unName": "Ipswich",
+    "distanceKm": 0.659
+  },
+  {
+    "historicalId": "hist-leeds-924b8df9",
+    "historicalName": "Leeds",
+    "unCityCode": 4425,
+    "unName": "Leeds",
+    "distanceKm": 6.124
+  },
+  {
+    "historicalId": "hist-leicester-c4fc0580",
+    "historicalName": "Leicester",
+    "unCityCode": 5469,
+    "unName": "Leicester",
+    "distanceKm": 0.978
+  },
+  {
+    "historicalId": "hist-lincoln-e6dba0eb",
+    "historicalName": "Lincoln",
+    "unCityCode": 5918,
+    "unName": "Lincoln",
+    "distanceKm": 1.768
+  },
+  {
+    "historicalId": "hist-liverpool-dd3e437f",
+    "historicalName": "Liverpool",
+    "unCityCode": 2236,
+    "unName": "Liverpool",
+    "distanceKm": 4.535
+  },
+  {
+    "historicalId": "hist-london-523e03de",
+    "historicalName": "London",
+    "unCityCode": 5938,
+    "unName": "London",
+    "distanceKm": 0.557
+  },
+  {
+    "historicalId": "hist-luton-40cea651",
+    "historicalName": "Luton",
+    "unCityCode": 5977,
+    "unName": "Luton",
+    "distanceKm": 2.806
+  },
+  {
+    "historicalId": "hist-maidstone-82ba2d53",
+    "historicalName": "Maidstone",
+    "unCityCode": 6383,
+    "unName": "Maidstone",
+    "distanceKm": 0.73
+  },
+  {
+    "historicalId": "hist-manchester-296cda36",
+    "historicalName": "Manchester",
+    "unCityCode": 3388,
+    "unName": "Manchester",
+    "distanceKm": 1.86
+  },
+  {
+    "historicalId": "hist-middlesbrough-70039986",
+    "historicalName": "Middlesbrough",
+    "unCityCode": 5250,
+    "unName": "Middlesbrough",
+    "distanceKm": 2.549
+  },
+  {
+    "historicalId": "hist-newcastleupontyne-3b139d05",
+    "historicalName": "Newcastle upon Tyne",
+    "unCityCode": 4536,
+    "unName": "Newcastle upon Tyne",
+    "distanceKm": 4.341
+  },
+  {
+    "historicalId": "hist-newport-1c75f2d7",
+    "historicalName": "Newport",
+    "unCityCode": 2388,
+    "unName": "Newport",
+    "distanceKm": 1.575
+  },
+  {
+    "historicalId": "hist-northampton-2c02486a",
+    "historicalName": "Northampton",
+    "unCityCode": 5598,
+    "unName": "Northampton",
+    "distanceKm": 10.793
+  },
+  {
+    "historicalId": "hist-norwich-421625e3",
+    "historicalName": "Norwich",
+    "unCityCode": 6543,
+    "unName": "Norwich",
+    "distanceKm": 1.436
+  },
+  {
+    "historicalId": "hist-nottingham-9e03f669",
+    "historicalName": "Nottingham",
+    "unCityCode": 5220,
+    "unName": "Nottingham",
+    "distanceKm": 2.069
+  },
+  {
+    "historicalId": "hist-oxford-1be862e3",
+    "historicalName": "Oxford",
+    "unCityCode": 5278,
+    "unName": "Oxford",
+    "distanceKm": 1.718
+  },
+  {
+    "historicalId": "hist-peterborough-c863f745",
+    "historicalName": "Peterborough",
+    "unCityCode": 6110,
+    "unName": "Peterborough",
+    "distanceKm": 0.628
+  },
+  {
+    "historicalId": "hist-plymouth-da388a27",
+    "historicalName": "Plymouth",
+    "unCityCode": 665,
+    "unName": "Plymouth",
+    "distanceKm": 1.938
+  },
+  {
+    "historicalId": "hist-portsmouth-3669239f",
+    "historicalName": "Portsmouth",
+    "unCityCode": 5388,
+    "unName": "Portsmouth",
+    "distanceKm": 1.535
+  },
+  {
+    "historicalId": "hist-preston-112c3005",
+    "historicalName": "Preston",
+    "unCityCode": 3168,
+    "unName": "Preston",
+    "distanceKm": 1.032
+  },
+  {
+    "historicalId": "hist-reading-77d2b4ed",
+    "historicalName": "Reading",
+    "unCityCode": 5573,
+    "unName": "Reading",
+    "distanceKm": 0.707
+  },
+  {
+    "historicalId": "hist-rotherham-54e0bd69",
+    "historicalName": "Rotherham",
+    "unCityCode": 5099,
+    "unName": "Rotherham",
+    "distanceKm": 0.134
+  },
+  {
+    "historicalId": "hist-sheffield-a7cbdea2",
+    "historicalName": "Sheffield",
+    "unCityCode": 4792,
+    "unName": "Sheffield",
+    "distanceKm": 1.37
+  },
+  {
+    "historicalId": "hist-southampton-fe34efd7",
+    "historicalName": "Southampton",
+    "unCityCode": 4684,
+    "unName": "Southampton",
+    "distanceKm": 1.629
+  },
+  {
+    "historicalId": "hist-sunderland-aaef1d3f",
+    "historicalName": "Sunderland",
+    "unCityCode": 5067,
+    "unName": "Sunderland",
+    "distanceKm": 1.524
+  },
+  {
+    "historicalId": "hist-swansea-31c0ea95",
+    "historicalName": "Swansea",
+    "unCityCode": 919,
+    "unName": "Swansea",
+    "distanceKm": 2.057
+  },
+  {
+    "historicalId": "hist-swindon-3c1f9cdc",
+    "historicalName": "Swindon",
+    "unCityCode": 4349,
+    "unName": "Swindon",
+    "distanceKm": 1.547
+  },
+  {
+    "historicalId": "hist-torquay-7dfa63b0",
+    "historicalName": "Torquay",
+    "unCityCode": 1466,
+    "unName": "Torquay",
+    "distanceKm": 2.691
+  },
+  {
+    "historicalId": "hist-wakefield-2d7f15c5",
+    "historicalName": "Wakefield",
+    "unCityCode": 4499,
+    "unName": "Wakefield",
+    "distanceKm": 7.608
+  },
+  {
+    "historicalId": "hist-warrington-b1770591",
+    "historicalName": "Warrington",
+    "unCityCode": 3335,
+    "unName": "Warrington",
+    "distanceKm": 0.818
+  },
+  {
+    "historicalId": "hist-wigan-76b2b26a",
+    "historicalName": "Wigan",
+    "unCityCode": 3280,
+    "unName": "Wigan",
+    "distanceKm": 2.491
+  },
+  {
+    "historicalId": "hist-worcester-4bc631a8",
+    "historicalName": "Worcester",
+    "unCityCode": 3844,
+    "unName": "Worcester",
+    "distanceKm": 0.887
+  },
+  {
+    "historicalId": "hist-york-781dd711",
+    "historicalName": "York",
+    "unCityCode": 5548,
+    "unName": "York",
+    "distanceKm": 0.502
+  },
+  {
+    "historicalId": "hist-daressalaam-30538718",
+    "historicalName": "Dar-es-Salaam",
+    "unCityCode": 3566,
+    "unName": "Dar es Salaam",
+    "distanceKm": 5.162
+  },
+  {
+    "historicalId": "hist-albany-74aa71f9",
+    "historicalName": "Albany",
+    "unCityCode": 8439,
+    "unName": "Albany",
+    "distanceKm": 2.454
+  },
+  {
+    "historicalId": "hist-atlanta-88b48b66",
+    "historicalName": "Atlanta",
+    "unCityCode": 7328,
+    "unName": "Atlanta",
+    "distanceKm": 5.045
+  },
+  {
+    "historicalId": "hist-baltimore-cb149b74",
+    "historicalName": "Baltimore",
+    "unCityCode": 8172,
+    "unName": "Baltimore",
+    "distanceKm": 3.721
+  },
+  {
+    "historicalId": "hist-binghamton-0c032395",
+    "historicalName": "Binghamton",
+    "unCityCode": 8340,
+    "unName": "Binghamton",
+    "distanceKm": 0.735
+  },
+  {
+    "historicalId": "hist-binghamton-0c032395",
+    "historicalName": "Binghamton",
+    "unCityCode": 20604,
+    "unName": "Binghamton",
+    "distanceKm": 0.74
+  },
+  {
+    "historicalId": "hist-binghamton-0c032395",
+    "historicalName": "Binghamton",
+    "unCityCode": 21286,
+    "unName": "Binghamton",
+    "distanceKm": 0.728
+  },
+  {
+    "historicalId": "hist-boston-1ee671af",
+    "historicalName": "Boston",
+    "unCityCode": 8493,
+    "unName": "Boston",
+    "distanceKm": 2.937
+  },
+  {
+    "historicalId": "hist-bridgeport-302619a6",
+    "historicalName": "Bridgeport",
+    "unCityCode": 8415,
+    "unName": "Bridgeport",
+    "distanceKm": 0.493
+  },
+  {
+    "historicalId": "hist-brockton-fe6a334a",
+    "historicalName": "Brockton",
+    "unCityCode": 8499,
+    "unName": "Brockton",
+    "distanceKm": 0.117
+  },
+  {
+    "historicalId": "hist-buffalo-3021b025",
+    "historicalName": "Buffalo",
+    "unCityCode": 8207,
+    "unName": "Buffalo",
+    "distanceKm": 3.52
+  },
+  {
+    "historicalId": "hist-chicago-e21b433a",
+    "historicalName": "Chicago",
+    "unCityCode": 7747,
+    "unName": "Chicago",
+    "distanceKm": 5.376
+  },
+  {
+    "historicalId": "hist-cincinnati-26741ac9",
+    "historicalName": "Cincinnati",
+    "unCityCode": 7864,
+    "unName": "Cincinnati",
+    "distanceKm": 4.927
+  },
+  {
+    "historicalId": "hist-columbus-1ab6b2ec",
+    "historicalName": "Columbus",
+    "unCityCode": 7962,
+    "unName": "Columbus",
+    "distanceKm": 6.697
+  },
+  {
+    "historicalId": "hist-dallas-a38849d7",
+    "historicalName": "Dallas",
+    "unCityCode": 6620,
+    "unName": "Dallas",
+    "distanceKm": 14.582
+  },
+  {
+    "historicalId": "hist-denver-b8289eca",
+    "historicalName": "Denver",
+    "unCityCode": 6032,
+    "unName": "Denver",
+    "distanceKm": 2.155
+  },
+  {
+    "historicalId": "hist-detroit-6b6ad1dd",
+    "historicalName": "Detroit",
+    "unCityCode": 8032,
+    "unName": "Detroit",
+    "distanceKm": 12.935
+  },
+  {
+    "historicalId": "hist-elpaso-f32df4f5",
+    "historicalName": "El Paso",
+    "unCityCode": 5303,
+    "unName": "El Paso",
+    "distanceKm": 5.243
+  },
+  {
+    "historicalId": "hist-fallriver-529025f0",
+    "historicalName": "Fall River",
+    "unCityCode": 8481,
+    "unName": "Fall River",
+    "distanceKm": 0.655
+  },
+  {
+    "historicalId": "hist-fortwayne-7da85c2e",
+    "historicalName": "Fort Wayne",
+    "unCityCode": 7913,
+    "unName": "Fort Wayne",
+    "distanceKm": 6.886
+  },
+  {
+    "historicalId": "hist-grandrapids-1098c704",
+    "historicalName": "Grand Rapids",
+    "unCityCode": 7948,
+    "unName": "Grand Rapids",
+    "distanceKm": 1.821
+  },
+  {
+    "historicalId": "hist-harrisburg-4fd0e948",
+    "historicalName": "Harrisburg",
+    "unCityCode": 8200,
+    "unName": "Harrisburg",
+    "distanceKm": 1.175
+  },
+  {
+    "historicalId": "hist-hartford-89e7db14",
+    "historicalName": "Hartford",
+    "unCityCode": 8457,
+    "unName": "Hartford",
+    "distanceKm": 2.117
+  },
+  {
+    "historicalId": "hist-honolulu-740f2972",
+    "historicalName": "Honolulu",
+    "unCityCode": 1,
+    "unName": "Honolulu",
+    "distanceKm": 4.151
+  },
+  {
+    "historicalId": "hist-houston-cbd859b0",
+    "historicalName": "Houston",
+    "unCityCode": 6237,
+    "unName": "Houston",
+    "distanceKm": 9.611
+  },
+  {
+    "historicalId": "hist-indianapolis-4d46692c",
+    "historicalName": "Indianapolis",
+    "unCityCode": 7765,
+    "unName": "Indianapolis",
+    "distanceKm": 3.366
+  },
+  {
+    "historicalId": "hist-kansascity-00686a21",
+    "historicalName": "Kansas City",
+    "unCityCode": 6935,
+    "unName": "Kansas City",
+    "distanceKm": 9.748
+  },
+  {
+    "historicalId": "hist-lancaster-8b711098",
+    "historicalName": "Lancaster",
+    "unCityCode": 8214,
+    "unName": "Lancaster",
+    "distanceKm": 0.59
+  },
+  {
+    "historicalId": "hist-lexington-d66f9a02",
+    "historicalName": "Lexington",
+    "unCityCode": 7810,
+    "unName": "Lexington",
+    "distanceKm": 1.086
+  },
+  {
+    "historicalId": "hist-lincoln-79996a8e",
+    "historicalName": "Lincoln",
+    "unCityCode": 6890,
+    "unName": "Lincoln",
+    "distanceKm": 3.574
+  },
+  {
+    "historicalId": "hist-losangeles-ad61af16",
+    "historicalName": "Los Angeles",
+    "unCityCode": 1725,
+    "unName": "Los Angeles",
+    "distanceKm": 13.932
+  },
+  {
+    "historicalId": "hist-louisville-8b494a9a",
+    "historicalName": "Louisville",
+    "unCityCode": 7594,
+    "unName": "Louisville",
+    "distanceKm": 3.399
+  },
+  {
+    "historicalId": "hist-lowell-ea5b2157",
+    "historicalName": "Lowell",
+    "unCityCode": 8505,
+    "unName": "Lowell",
+    "distanceKm": 0.932
+  },
+  {
+    "historicalId": "hist-memphis-bde32aa0",
+    "historicalName": "Memphis",
+    "unCityCode": 6980,
+    "unName": "Memphis",
+    "distanceKm": 12.277
+  },
+  {
+    "historicalId": "hist-miami-87938724",
+    "historicalName": "Miami",
+    "unCityCode": 7289,
+    "unName": "Miami",
+    "distanceKm": 13.009
+  },
+  {
+    "historicalId": "hist-milwaukee-2c0e5f54",
+    "historicalName": "Milwaukee",
+    "unCityCode": 7846,
+    "unName": "Milwaukee",
+    "distanceKm": 4.154
+  },
+  {
+    "historicalId": "hist-newbedford-b4f5726c",
+    "historicalName": "New Bedford",
+    "unCityCode": 8487,
+    "unName": "New Bedford",
+    "distanceKm": 0.95
+  },
+  {
+    "historicalId": "hist-newhaven-da589823",
+    "historicalName": "New Haven",
+    "unCityCode": 8421,
+    "unName": "New Haven",
+    "distanceKm": 0.838
+  },
+  {
+    "historicalId": "hist-neworleans-09c815c3",
+    "historicalName": "New Orleans",
+    "unCityCode": 6845,
+    "unName": "New Orleans",
+    "distanceKm": 0.514
+  },
+  {
+    "historicalId": "hist-newyork-45bcf3ff",
+    "historicalName": "New York",
+    "unCityCode": 8354,
+    "unName": "New York City",
+    "distanceKm": 6.706
+  },
+  {
+    "historicalId": "hist-norfolk-cabdec97",
+    "historicalName": "Norfolk",
+    "unCityCode": 8102,
+    "unName": "Norfolk",
+    "distanceKm": 7.296
+  },
+  {
+    "historicalId": "hist-omaha-c7cc3631",
+    "historicalName": "Omaha",
+    "unCityCode": 6965,
+    "unName": "Omaha",
+    "distanceKm": 1.758
+  },
+  {
+    "historicalId": "hist-orlando-a31316c2",
+    "historicalName": "Orlando",
+    "unCityCode": 7432,
+    "unName": "Orlando",
+    "distanceKm": 7.2
+  },
+  {
+    "historicalId": "hist-philadelphia-d5342707",
+    "historicalName": "Philadelphia",
+    "unCityCode": 8270,
+    "unName": "Philadelphia",
+    "distanceKm": 3.604
+  },
+  {
+    "historicalId": "hist-phoenix-1f401205",
+    "historicalName": "Phoenix",
+    "unCityCode": 4858,
+    "unName": "Phoenix",
+    "distanceKm": 11.262
+  },
+  {
+    "historicalId": "hist-pittsburgh-77fba596",
+    "historicalName": "Pittsburgh",
+    "unCityCode": 8067,
+    "unName": "Pittsburgh",
+    "distanceKm": 2.829
+  },
+  {
+    "historicalId": "hist-portland-6c9a5e07",
+    "historicalName": "Portland",
+    "unCityCode": 5157,
+    "unName": "Portland",
+    "distanceKm": 1.195
+  },
+  {
+    "historicalId": "hist-providence-91164f74",
+    "historicalName": "Providence",
+    "unCityCode": 8475,
+    "unName": "Providence",
+    "distanceKm": 1.098
+  },
+  {
+    "historicalId": "hist-reading-8455599f",
+    "historicalName": "Reading",
+    "unCityCode": 8235,
+    "unName": "Reading",
+    "distanceKm": 0.505
+  },
+  {
+    "historicalId": "hist-rochester-6e569280",
+    "historicalName": "Rochester",
+    "unCityCode": 8277,
+    "unName": "Rochester",
+    "distanceKm": 0.567
+  },
+  {
+    "historicalId": "hist-rockford-88109e59",
+    "historicalName": "Rockford",
+    "unCityCode": 7604,
+    "unName": "Rockford",
+    "distanceKm": 2.06
+  },
+  {
+    "historicalId": "hist-sacramento-9b13b272",
+    "historicalName": "Sacramento",
+    "unCityCode": 4225,
+    "unName": "Sacramento",
+    "distanceKm": 3.458
+  },
+  {
+    "historicalId": "hist-saltlakecity-92b86a2e",
+    "historicalName": "Salt Lake City",
+    "unCityCode": 5671,
+    "unName": "Salt Lake City",
+    "distanceKm": 9.029
+  },
+  {
+    "historicalId": "hist-sanantonio-f8757937",
+    "historicalName": "San Antonio",
+    "unCityCode": 5956,
+    "unName": "San Antonio",
+    "distanceKm": 6.048
+  },
+  {
+    "historicalId": "hist-sandiego-8e0c7b21",
+    "historicalName": "San Diego",
+    "unCityCode": 2295,
+    "unName": "San Diego",
+    "distanceKm": 6.727
+  },
+  {
+    "historicalId": "hist-sanfrancisco-555da123",
+    "historicalName": "San Francisco",
+    "unCityCode": 1233,
+    "unName": "San Francisco",
+    "distanceKm": 18.174
+  },
+  {
+    "historicalId": "hist-savannah-292bc29d",
+    "historicalName": "Savannah",
+    "unCityCode": 7756,
+    "unName": "Savannah",
+    "distanceKm": 3.565
+  },
+  {
+    "historicalId": "hist-schenectady-de247498",
+    "historicalName": "Schenectady",
+    "unCityCode": 8427,
+    "unName": "Schenectady",
+    "distanceKm": 1.401
+  },
+  {
+    "historicalId": "hist-scranton-6d07288b",
+    "historicalName": "Scranton",
+    "unCityCode": 8326,
+    "unName": "Scranton",
+    "distanceKm": 0.541
+  },
+  {
+    "historicalId": "hist-seattle-d60dcb9f",
+    "historicalName": "Seattle",
+    "unCityCode": 5386,
+    "unName": "Seattle",
+    "distanceKm": 7.642
+  },
+  {
+    "historicalId": "hist-southbend-de2dcecd",
+    "historicalName": "South Bend",
+    "unCityCode": 7889,
+    "unName": "South Bend",
+    "distanceKm": 2.667
+  },
+  {
+    "historicalId": "hist-spokane-c484af28",
+    "historicalName": "Spokane",
+    "unCityCode": 5875,
+    "unName": "Spokane",
+    "distanceKm": 2.52
+  },
+  {
+    "historicalId": "hist-springfield-04bc1fe8",
+    "historicalName": "Springfield",
+    "unCityCode": 8463,
+    "unName": "Springfield",
+    "distanceKm": 2.61
+  },
+  {
+    "historicalId": "hist-stlouis-61ed7e0b",
+    "historicalName": "St. Louis",
+    "unCityCode": 7051,
+    "unName": "St. Louis",
+    "distanceKm": 7.835
+  },
+  {
+    "historicalId": "hist-syracuse-6ebb7266",
+    "historicalName": "Syracuse",
+    "unCityCode": 8361,
+    "unName": "Syracuse",
+    "distanceKm": 0.542
+  },
+  {
+    "historicalId": "hist-tacoma-eea87cb5",
+    "historicalName": "Tacoma",
+    "unCityCode": 5275,
+    "unName": "Tacoma",
+    "distanceKm": 4.648
+  },
+  {
+    "historicalId": "hist-tampa-4d5af1b5",
+    "historicalName": "Tampa",
+    "unCityCode": 7159,
+    "unName": "Tampa",
+    "distanceKm": 7.219
+  },
+  {
+    "historicalId": "hist-toledo-53b53145",
+    "historicalName": "Toledo",
+    "unCityCode": 7983,
+    "unName": "Toledo",
+    "distanceKm": 34.666
+  },
+  {
+    "historicalId": "hist-trenton-183dc939",
+    "historicalName": "Trenton",
+    "unCityCode": 8333,
+    "unName": "Trenton",
+    "distanceKm": 0.913
+  },
+  {
+    "historicalId": "hist-washingtondc-cce78b54",
+    "historicalName": "Washington D.C.",
+    "unCityCode": 8123,
+    "unName": "Washington, D.C.",
+    "distanceKm": 4.476
+  },
+  {
+    "historicalId": "hist-waterbury-761bbfe5",
+    "historicalName": "Waterbury",
+    "unCityCode": 8433,
+    "unName": "Waterbury",
+    "distanceKm": 1.386
+  },
+  {
+    "historicalId": "hist-wilkesbarre-d0d02b18",
+    "historicalName": "Wilkes-Barre",
+    "unCityCode": 8291,
+    "unName": "Wilkes-Barre",
+    "distanceKm": 1.129
+  },
+  {
+    "historicalId": "hist-worcester-4c879095",
+    "historicalName": "Worcester",
+    "unCityCode": 8469,
+    "unName": "Worcester",
+    "distanceKm": 0.945
+  },
+  {
+    "historicalId": "hist-montevideo-b73ab469",
+    "historicalName": "Montevideo",
+    "unCityCode": 652,
+    "unName": "Montevideo",
+    "distanceKm": 5.585
+  },
+  {
+    "historicalId": "hist-bukhara-8b33bf5b",
+    "historicalName": "Bukhara",
+    "unCityCode": 1616,
+    "unName": "Bukhara",
+    "distanceKm": 0.58
+  },
+  {
+    "historicalId": "hist-khiva-800e334b",
+    "historicalName": "Khiva",
+    "unCityCode": 864,
+    "unName": "Khiva",
+    "distanceKm": 1.744
+  },
+  {
+    "historicalId": "hist-namangan-4b73b179",
+    "historicalName": "Namangan",
+    "unCityCode": 4368,
+    "unName": "Namangan",
+    "distanceKm": 0.698
+  },
+  {
+    "historicalId": "hist-tashkent-6db75afe",
+    "historicalName": "Tashkent",
+    "unCityCode": 3082,
+    "unName": "Toshkent (Tashkent)",
+    "distanceKm": 4.541
+  },
+  {
+    "historicalId": "hist-barquisimeto-94832a9a",
+    "historicalName": "Barquisimeto",
+    "unCityCode": 2528,
+    "unName": "Barquisimeto",
+    "distanceKm": 3.592
+  },
+  {
+    "historicalId": "hist-caracas-f488ba61",
+    "historicalName": "Caracas",
+    "unCityCode": 3791,
+    "unName": "Caracas",
+    "distanceKm": 1.42
+  },
+  {
+    "historicalId": "hist-maracaibo-0d74d4f7",
+    "historicalName": "Maracaibo",
+    "unCityCode": 1132,
+    "unName": "Maracaibo",
+    "distanceKm": 1.734
+  },
+  {
+    "historicalId": "hist-valencia-2b759169",
+    "historicalName": "Valencia",
+    "unCityCode": 3043,
+    "unName": "Valencia",
+    "distanceKm": 4.799
+  },
+  {
+    "historicalId": "hist-hochiminh-76538b2c",
+    "historicalName": "Ho Chi Minh",
+    "unCityCode": 5435,
+    "unName": "Ho Chi Minh City",
+    "distanceKm": 7.061
+  },
+  {
+    "historicalId": "hist-hue-c765e406",
+    "historicalName": "Hue",
+    "unCityCode": 5059,
+    "unName": "Huế",
+    "distanceKm": 1.565
+  },
+  {
+    "historicalId": "hist-hanoi-2ba02480",
+    "historicalName": "Hanoi",
+    "unCityCode": 1975,
+    "unName": "Hà Nội (Hanoi)",
+    "distanceKm": 2.752
+  },
+  {
+    "historicalId": "hist-haiphong-c0b03d09",
+    "historicalName": "Haiphong",
+    "unCityCode": 3966,
+    "unName": "Hải Phòng",
+    "distanceKm": 0.899
+  },
+  {
+    "historicalId": "hist-namdinh-a9b3312e",
+    "historicalName": "Nam Dinh",
+    "unCityCode": 3207,
+    "unName": "Nam Định",
+    "distanceKm": 1.604
+  },
+  {
+    "historicalId": "hist-danang-0c2f3d76",
+    "historicalName": "Da Nang",
+    "unCityCode": 5489,
+    "unName": "Đà Nẵng",
+    "distanceKm": 0.805
+  },
+  {
+    "historicalId": "hist-aden-354b2c0a",
+    "historicalName": "Aden",
+    "unCityCode": 5508,
+    "unName": "Aden ('Adan)",
+    "distanceKm": 2.893
+  },
+  {
+    "historicalId": "hist-hodeidah-d965bfd7",
+    "historicalName": "Hodeidah",
+    "unCityCode": 456,
+    "unName": "Hodeidah",
+    "distanceKm": 0.804
+  },
+  {
+    "historicalId": "hist-mareb-38951760",
+    "historicalName": "Mareb",
+    "unCityCode": 5481,
+    "unName": "Marib",
+    "distanceKm": 8.265
+  },
+  {
+    "historicalId": "hist-sanaa-c805ab91",
+    "historicalName": "Sana'a",
+    "unCityCode": 4328,
+    "unName": "Şan'ā' (Sana'a)",
+    "distanceKm": 0.44
+  },
+  {
+    "historicalId": "hist-lusaka-3225156c",
+    "historicalName": "Lusaka",
+    "unCityCode": 1498,
+    "unName": "Lusaka",
+    "distanceKm": 1.165
+  },
+  {
+    "historicalId": "hist-harare-cb978add",
+    "historicalName": "Harare",
+    "unCityCode": 1398,
+    "unName": "Harare",
+    "distanceKm": 0.755
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "acceptedBuildId": "chronicle-8d0829ebd21b4bd21dda135ae9b0da09eb32d2df93f696f1fdd01de7484c4311",
+  "retainedM2Tests": 386,
+  "originalTestFiles": 49,
+  "byteIdenticalFiles": 47,
+  "portabilityChanges": [
+    {
+      "path": "apps/explorer/tests/global-semantics.test.ts",
+      "originalSHA256": "639a67974b5b68465d7b95f23603178d09edf47559c7d7d9f1548e6cfc9a9bba",
+      "nativeSHA256": "8645064bc75f9f62fe81150dc4b7c430c7eb8799be5d7507ad54009546c100ea",
+      "assertionsChanged": false
+    },
+    {
+      "path": "apps/explorer/tests/research-workspace.test.ts",
+      "originalSHA256": "e081135c0ff602197eddc27f412790ebfd73771dcc9b385d73af4fcf084d2a4e",
+      "nativeSHA256": "d17a7fa73460b735351b811359d2ae7f0551081f9b84c7e8c195ba3936322780",
+      "assertionsChanged": false
+    }
+  ],
+  "interpretation": "The archived byte-identity verifier and checksum manifest are unchanged. This separate native test proves only the two explicit path/encoding substitutions; it does not relabel changed files as byte-identical."
+}

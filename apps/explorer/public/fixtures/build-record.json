@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "edition": "meridian-v2",
+  "synthetic": true,
+  "input_sha256": "a278cd69ff8aed5cc8bf41edff81b88eb4f353dd4dd1447b62ebdab85253f168",
+  "pinned_tools": {
+    "pmtiles_python": "3.8.1",
+    "geojson_vt": "4.0.3",
+    "maplibre_vt_pbf": "4.3.2",
+    "pmtiles_js": "4.5.0",
+    "mapbox_vector_tile": "2.0.5",
+    "pbf": "4.0.2"
+  },
+  "budget": {
+    "archives": 2,
+    "tilesPerArchive": 1,
+    "featuresPerArchive": 12,
+    "bytesPerArchive": 1000000
+  },
+  "actual_total_bytes": 3781,
+  "encoding": {
+    "tiles": [
+      0,
+      0,
+      0
+    ],
+    "extent": 65536,
+    "tolerance": 0,
+    "buffer": 0,
+    "interpolation": false
+  },
+  "verification": "Decoded with official PMTiles JS and @mapbox/vector-tile; all identities, properties, geometry types, layer counts, and intervals preserved.",
+  "archives": [
+    {
+      "epoch_id": "meridian-950",
+      "bytes": 1886,
+      "sha256": "bca192007cb964d9f58808e29cf390510b749ecc25f86047d21147d87d065339",
+      "counts": {
+        "territories": 5,
+        "population": 6,
+        "migration": 1
+      }
+    },
+    {
+      "epoch_id": "meridian-1050",
+      "bytes": 1895,
+      "sha256": "41db52ef966284c6e4ed08fde1b096d13fade440b355db698e0b4d92a155f804",
+      "counts": {
+        "territories": 5,
+        "population": 6,
+        "migration": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "egypt-3000:organization",
+    "profile": "egypt-3000",
+    "observation_years_astronomical": [
+      -2999
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "early-egypt",
+      "old-egypt"
+    ],
+    "claim": "A unified Egyptian monarchy stood along the Nile. Royal authority connected Upper and Lower Egypt; this early state should not be read as the modern country. Kingship linked Upper and Lower Egypt. Memphis, between the two regions, became an important royal center; Abydos remained a royal burial place."
+  },
+  {
+    "id": "egypt-3000:transition",
+    "profile": "egypt-3000",
+    "observation_years_astronomical": [
+      -2999
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "old-egypt"
+    ],
+    "claim": "The Old Kingdom followed the Early Dynastic period around 2649 BCE. This is a change of historical period within Egyptian kingship, not a new modern country. No map observation is available at that transition."
+  },
+  {
+    "id": "egypt-2000:organization",
+    "profile": "egypt-2000",
+    "observation_years_astronomical": [
+      -1999
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "middle-egypt",
+      "second-intermediate"
+    ],
+    "claim": "Egypt was reunited under the Theban royal house after an era of regional rule. Kingship again connected the Nile valley, with royal and regional centers participating in government and religious life. Mentuhotep II’s reunification began the Middle Kingdom around 2030 BCE. The king combined political and religious authority; regional elites and temples were part of the kingdom’s organization."
+  },
+  {
+    "id": "egypt-2000:transition",
+    "profile": "egypt-2000",
+    "observation_years_astronomical": [
+      -1999
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "second-intermediate"
+    ],
+    "claim": "Around 1650 BCE, power was divided among Hyksos rulers in the north, Theban kings and other authorities. There is no single successor country and no admitted map at that transition."
+  },
+  {
+    "id": "egypt-1500:organization",
+    "profile": "egypt-1500",
+    "observation_years_astronomical": [
+      -1499
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "new-egypt",
+      "third-intermediate"
+    ],
+    "claim": "The Eighteenth Dynasty ruled a reunited Egyptian kingdom. The royal court and the cult of Amun at Thebes supported an expanding state with military interests beyond the Nile valley. Pharaonic kingship combined government, military leadership and patronage of the gods. Thebes was a major religious center; royal patronage expanded the temple of Amun at Karnak."
+  },
+  {
+    "id": "egypt-1500:transition",
+    "profile": "egypt-1500",
+    "observation_years_astronomical": [
+      -1499
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "third-intermediate"
+    ],
+    "claim": "After the New Kingdom, kings in the northern Delta and the high priests of Amun in Upper Egypt held distinct centers of power. This decentralization is not a one-to-one country replacement."
+  },
+  {
+    "id": "ptolemaic-egypt:organization",
+    "profile": "ptolemaic-egypt",
+    "observation_years_astronomical": [
+      -199,
+      -99
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "ptolemaic",
+      "roman-egypt"
+    ],
+    "claim": "A dynasty of Macedonian origin ruled Egypt from Alexandria. The court sustained Egyptian kingship and religious institutions while Greek communities and cultural institutions became prominent. The Ptolemies ruled as a royal dynasty; Alexandria served as their capital. Egyptian and Greek religious traditions and communities coexisted within the kingdom."
+  },
+  {
+    "id": "ptolemaic-egypt:transition",
+    "profile": "ptolemaic-egypt",
+    "observation_years_astronomical": [
+      -199,
+      -99
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "roman-egypt"
+    ],
+    "claim": "Octavian annexed Egypt in 30 BCE, ending Ptolemaic monarchy. Egypt became a Roman province governed by an appointed prefect. The button opens a later supported observation, not a map dated to the annexation."
+  },
+  {
+    "id": "roman-republic:organization",
+    "profile": "roman-republic",
+    "observation_years_astronomical": [
+      -199,
+      -99
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "republic",
+      "roman-educator",
+      "empire"
+    ],
+    "claim": "Rome governed a growing Mediterranean domain through republican institutions. Its ruling elite included patrician and wealthy plebeian families; territorial expansion brought resources and mounting political pressures. Magistracies, the Senate and citizen assemblies formed the republican system. Territories outside Italy were administered as provinces as conquest and diplomacy extended Roman authority."
+  },
+  {
+    "id": "roman-republic:transition",
+    "profile": "roman-republic",
+    "observation_years_astronomical": [
+      -199,
+      -99
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "republic",
+      "empire"
+    ],
+    "claim": "After civil wars, Octavian received the title Augustus in 27 BCE. Imperial rule emerged while republican institutions continued in altered roles. The navigation target is the supported 1 BCE observation."
+  },
+  {
+    "id": "roman-empire:organization",
+    "profile": "roman-empire",
+    "observation_years_astronomical": [
+      0,
+      100,
+      200
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "empire"
+    ],
+    "claim": "Imperial government linked Rome and its provinces across the Mediterranean. Emperors held dominant power alongside a continuing Senate, officials, provincial administrations and local urban elites. The emperor’s authority rested on civil, religious and military roles. Government operated through provinces and cities; arrangements changed across reigns rather than remaining a single fixed constitution."
+  },
+  {
+    "id": "roman-empire:transition",
+    "profile": "roman-empire",
+    "observation_years_astronomical": [
+      0,
+      100,
+      200
+    ],
+    "meaning": "independently researched editorial context, not independent border review",
+    "source_ids": [
+      "empire"
+    ],
+    "claim": "After Theodosius I died in 395 CE, his sons ruled the eastern and western halves. Both maintained Roman imperial identities; this is a division of imperial rule, not a simple change to one successor country."
+  },
+  {
+    "id": "event:old-kingdom",
+    "year_astronomical": -2648,
+    "precision": "circa-year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "old-egypt"
+    ],
+    "claim": "Conventional beginning of Egypt’s Old Kingdom; approximate period boundary, not a newly observed border.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:middle-kingdom",
+    "year_astronomical": -2029,
+    "precision": "circa-year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "middle-egypt"
+    ],
+    "claim": "Mentuhotep II’s reunification marks the Middle Kingdom in this museum chronology.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:new-kingdom",
+    "year_astronomical": -1549,
+    "precision": "circa-year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "new-egypt"
+    ],
+    "claim": "Ahmose I’s reunification opens a new phase of Egyptian monarchy.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:alexander-egypt",
+    "year_astronomical": -331,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "ptolemaic"
+    ],
+    "claim": "Egypt entered Alexander’s empire; the Ptolemaic kingdom developed after his death.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:roman-egypt",
+    "year_astronomical": -29,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "roman-egypt"
+    ],
+    "claim": "Octavian annexed Egypt, ending the Ptolemaic monarchy.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:principate",
+    "year_astronomical": -26,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "republic"
+    ],
+    "claim": "Octavian received the title Augustus; the Principate emerged.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:tetrarchy",
+    "year_astronomical": 293,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "empire"
+    ],
+    "claim": "Diocletian shared rule with imperial colleagues; the source describes two Augusti and two Caesars.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:rome-divided",
+    "year_astronomical": 395,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "empire"
+    ],
+    "claim": "After Theodosius I’s death, Honorius and Arcadius ruled the western and eastern halves.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:tang-begins",
+    "year_astronomical": 618,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "tang"
+    ],
+    "claim": "The Tang succeeded the Sui dynasty. This event does not certify political polygons at 618.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:crowns-united",
+    "year_astronomical": 1603,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "union-dates"
+    ],
+    "claim": "England and Scotland shared a monarch while remaining separate kingdoms.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:commonwealth",
+    "year_astronomical": 1649,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "civil-war"
+    ],
+    "claim": "Monarchy and the House of Lords were abolished; England became a Commonwealth.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:restoration",
+    "year_astronomical": 1660,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "civil-war"
+    ],
+    "claim": "Charles II returned as king by resolution of the Convention.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:great-britain",
+    "year_astronomical": 1707,
+    "precision": "day",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "union-articles"
+    ],
+    "claim": "The kingdoms of England and Scotland united with one parliament on 1 May.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:bastille",
+    "year_astronomical": 1789,
+    "precision": "day",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "bastille"
+    ],
+    "claim": "The Bastille was stormed on 14 July during the French Revolution.",
+    "meaning": "historical event context; does not create a border observation"
+  },
+  {
+    "id": "event:british-irish-union",
+    "year_astronomical": 1801,
+    "precision": "year",
+    "date_anchor": "Jan 1 for year/circa precision; navigation anchor is not an exact event date",
+    "source_ids": [
+      "union-articles"
+    ],
+    "claim": "The union created the United Kingdom of Great Britain and Ireland.",
+    "meaning": "historical event context; does not create a border observation"
+  }
+]

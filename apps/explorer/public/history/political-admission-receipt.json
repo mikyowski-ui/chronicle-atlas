@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "review_id": "chronicle-political-chronology-2026-09-27",
+  "source_originals_modified": false,
+  "public_ledger_modified": false,
+  "observations": [
+    "world_100",
+    "world_1878",
+    "world_1880",
+    "world_1900",
+    "world_200",
+    "world_300",
+    "world_400",
+    "world_500",
+    "world_600",
+    "world_700"
+  ],
+  "changes": [
+    {
+      "observation_id": "world_1878",
+      "label": "Chile",
+      "feature_index": 234,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+      "review_source": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1811-1823"
+    },
+    {
+      "observation_id": "world_1880",
+      "label": "Chile",
+      "feature_index": 41,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+      "review_source": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1811-1823"
+    },
+    {
+      "observation_id": "world_1900",
+      "label": "Chile",
+      "feature_index": 41,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+      "review_source": "https://www.bcn.cl/historiapolitica/hitos_periodo/detalle_periodo.html?per=1811-1823"
+    },
+    {
+      "observation_id": "world_100",
+      "label": "Teotihuacan",
+      "feature_index": 142,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef",
+      "review_source": "https://lugares.inah.gob.mx/es/node/4528"
+    },
+    {
+      "observation_id": "world_200",
+      "label": "Teotihuacan",
+      "feature_index": 185,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7",
+      "review_source": "https://lugares.inah.gob.mx/es/node/4528"
+    },
+    {
+      "observation_id": "world_300",
+      "label": "Teotihuacan",
+      "feature_index": 183,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297",
+      "review_source": "https://lugares.inah.gob.mx/es/node/4528"
+    },
+    {
+      "observation_id": "world_400",
+      "label": "Teotihuacan",
+      "feature_index": 190,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7",
+      "review_source": "https://lugares.inah.gob.mx/es/node/4528"
+    },
+    {
+      "observation_id": "world_500",
+      "label": "Teotihuacan",
+      "feature_index": 8,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+      "review_source": "https://lugares.inah.gob.mx/es/node/4528"
+    },
+    {
+      "observation_id": "world_600",
+      "label": "Teotihuacan",
+      "feature_index": 10,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a",
+      "review_source": "https://lugares.inah.gob.mx/es/node/4528"
+    },
+    {
+      "observation_id": "world_100",
+      "label": "Monte Albán",
+      "feature_index": 125,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    },
+    {
+      "observation_id": "world_200",
+      "label": "Monte Albán",
+      "feature_index": 184,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    },
+    {
+      "observation_id": "world_300",
+      "label": "Monte Albán",
+      "feature_index": 182,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    },
+    {
+      "observation_id": "world_400",
+      "label": "Monte Albán",
+      "feature_index": 189,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    },
+    {
+      "observation_id": "world_500",
+      "label": "Monte Albán",
+      "feature_index": 9,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    },
+    {
+      "observation_id": "world_600",
+      "label": "Monte Albán",
+      "feature_index": 11,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    },
+    {
+      "observation_id": "world_700",
+      "label": "Monte Albán",
+      "feature_index": 13,
+      "old_decision": "review-queue",
+      "new_decision": "political-association",
+      "source_sha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38",
+      "review_source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban"
+    }
+  ],
+  "meaning": "Political semantics reviewed; source polygon accuracy and effective control remain uncertain. Only preexisting source shapes admitted.",
+  "revisions": [
+    {
+      "observation_id": "world_100",
+      "mapping_filename": "world_100-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_100-mappings.json",
+      "previous_mapping_sha256": "cda3e6366dc6df7803ce7657de2495e59da688fbe4863ece7ddb3112686805d7",
+      "mapping_sha256": "981035060b5324c41b4107a3ea596f3f9c9dc03adc262df497fc3a730322cfe8",
+      "previous_manifest_sha256": "9755f768797f5c82542684acdbb04809b4c7ea9020b8b4c620dc8aebcc9bd78e",
+      "manifest_sha256": "17f72a933c889e8b4e972f717d71e2ead076c1c13e4771e3ecdfa89e66125a39",
+      "source_sha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef",
+      "reviewed_feature_indices": [
+        125,
+        142
+      ]
+    },
+    {
+      "observation_id": "world_1878",
+      "mapping_filename": "world_1878-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_1878-mappings.json",
+      "previous_mapping_sha256": "79bf65e9df753c81bdbf3ba676e7cc442eac55a4e036e9eb8c60bce05a73c113",
+      "mapping_sha256": "a2001c0c07444daf56bcaf2e1829b014dcdafabd18411fd2b626517c8d666c69",
+      "previous_manifest_sha256": "6518f52d6e026dcf76ff21428e2d5429ed811041a4c9b7b33a6133f2e3e69710",
+      "manifest_sha256": "c6d04ce228ce88a9913da34e57e1a804eff091b212778706f58f157efaac6242",
+      "source_sha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+      "reviewed_feature_indices": [
+        234
+      ]
+    },
+    {
+      "observation_id": "world_1880",
+      "mapping_filename": "world_1880-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_1880-mappings.json",
+      "previous_mapping_sha256": "5404647540f451ca986a0b4c11b284830292747bb6931aa36d27f2fcaa6d37ec",
+      "mapping_sha256": "3b8fc50a91faf1b2bb3d935be1744e4dfc8e9965ec4bb6033aa6a7a549b7bf70",
+      "previous_manifest_sha256": "2a9c77c49c7e735e77b23f142675caa3c44df8aa380c50f787a695ec20e1df8b",
+      "manifest_sha256": "dfd251148dad93419202a09954aad544533823ad3ab13bc335a22cbf28f44550",
+      "source_sha256": "4751e30d881d60d31479f5d016ff4d9c1df47e9bb18efaa3a5086601f68f76dc",
+      "reviewed_feature_indices": [
+        41
+      ]
+    },
+    {
+      "observation_id": "world_1900",
+      "mapping_filename": "world_1900-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_1900-mappings.json",
+      "previous_mapping_sha256": "17e15159f4166d31717dbc61c8ed0c1ab126e52afb07b911d4fc190ac7256767",
+      "mapping_sha256": "4791c5a9f0659e52abf376dbd1eee215a557c00376c8d5f839e4982a942f526f",
+      "previous_manifest_sha256": "4aee992097e303fd11b875648f01f60e727ed2435dbe55bedba3be4fd0c65c02",
+      "manifest_sha256": "4fc1f9536e7479090bbeb0f28440882f4faecf639ccc24f4b5412b9353897f90",
+      "source_sha256": "9c9221c851eaba4948e11b2a0b078e89239231f8c74df0dc321750ae234f10b5",
+      "reviewed_feature_indices": [
+        41
+      ]
+    },
+    {
+      "observation_id": "world_200",
+      "mapping_filename": "world_200-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_200-mappings.json",
+      "previous_mapping_sha256": "d500e3ac06518dd46de287873d1c614e0d0f1e8342211f8366f821b00e60d2a9",
+      "mapping_sha256": "7e0579720158825a57024d7aa3daab6e427deacde4fb6eb35c70104aabc00cc7",
+      "previous_manifest_sha256": "7bcc14d663b821c633852040ac242222aacef00e6e9d6e0a36ba48416060ffeb",
+      "manifest_sha256": "6453b431780eb84faa62558aba8183342ad1e3c1bb3010a2b6dc87f31bd9163f",
+      "source_sha256": "ef811868efee04b5ae7cfe23538091f1cfa75534ecfad14d754d9cc690b2d2c7",
+      "reviewed_feature_indices": [
+        184,
+        185
+      ]
+    },
+    {
+      "observation_id": "world_300",
+      "mapping_filename": "world_300-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_300-mappings.json",
+      "previous_mapping_sha256": "25ce947973f9393af79290f24da19074d589b3bd2434ec02361b2b25884b01de",
+      "mapping_sha256": "04d3440ff7e0d194465552c9557f05f3e26eaed43f55be6d48c33e46d237867e",
+      "previous_manifest_sha256": "a3135f6613ae215b8ca87091abc86e47300385cece3f8ba722da8e9e885dbdb9",
+      "manifest_sha256": "3c4f052ce250f17c93bbcfefa5dd368061bcb9ce27ae4497fd1fabe14f21748f",
+      "source_sha256": "86e6a21cd7a26230184abc57ed042bd9264b569b76406f79ace8618d625b3297",
+      "reviewed_feature_indices": [
+        182,
+        183
+      ]
+    },
+    {
+      "observation_id": "world_400",
+      "mapping_filename": "world_400-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_400-mappings.json",
+      "previous_mapping_sha256": "2cdceb1db8ff3079bf5c510b3bdd6bde69830429800ca17b49911cbee0ef6fe6",
+      "mapping_sha256": "784414165c56c1141e1e2dc88e57288467d88cdeceda7ef3202eeabf3aad9dec",
+      "previous_manifest_sha256": "bedfe9925237df587aee65d3d5e1a08e5f570e72288e0ec486bd7f1fa5360ada",
+      "manifest_sha256": "4e03a07f53e94cb437a3e2320165b35179d81f3852b6a3163ac737d0687af799",
+      "source_sha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7",
+      "reviewed_feature_indices": [
+        189,
+        190
+      ]
+    },
+    {
+      "observation_id": "world_500",
+      "mapping_filename": "world_500-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_500-mappings.json",
+      "previous_mapping_sha256": "09a366a64ad1604ebb794a3750c8e0c9a2608360649772cc5584ce8b0f868fb4",
+      "mapping_sha256": "65f14d31c618ed2b29885b875442081cc4bbfe7e96c4f75806e24956b3cbe895",
+      "previous_manifest_sha256": "132828619bf17be4c51bb63d98fb7c160734471b903b7dff1dc6317a07f79bb2",
+      "manifest_sha256": "2d2a5233c71133f10c556d6feea9b860e5412c7942a4cf0df6314d865fb1422b",
+      "source_sha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+      "reviewed_feature_indices": [
+        8,
+        9
+      ]
+    },
+    {
+      "observation_id": "world_600",
+      "mapping_filename": "world_600-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_600-mappings.json",
+      "previous_mapping_sha256": "7d3d5d261350d2cab8d150cf555b6b475150e23a635201f62351a33df51fe6a4",
+      "mapping_sha256": "7139185269c133525a106aca5b51f4014e42a49806b59ffcbbc36f1be4880445",
+      "previous_manifest_sha256": "851a3f5a3d2a5e5ab9dc3ffe53058327bed51f40879a6bd2de4113f702f9cf68",
+      "manifest_sha256": "d75fc42af62f66f5bf398f8ff80f487c25fb49eb62641b2163e56ee5155403fa",
+      "source_sha256": "e8d285de5d4257c55158979e866191d13464abc74e3082fb5f2065b357beec7a",
+      "reviewed_feature_indices": [
+        10,
+        11
+      ]
+    },
+    {
+      "observation_id": "world_700",
+      "mapping_filename": "world_700-mappings.json",
+      "previous_mapping_path": "verification/history-continuity/previous-mappings/world_700-mappings.json",
+      "previous_mapping_sha256": "843db44c494eaa20b6fd2204e47ac41a7d41de366b8f18770e49b616a449b1b7",
+      "mapping_sha256": "1720c8e75eed570a8ca62f52be618c6743d0ace86223e158c43d782ef6d69c2c",
+      "previous_manifest_sha256": "ec6d0951b2663be1fab938bb09b43fd2e7bb466fa9d3c03b07b51adfe716a313",
+      "manifest_sha256": "9a8bad55dd7306bbaea3c2ed62a7818cbbd9389bce819e7cf2898381290425fd",
+      "source_sha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38",
+      "reviewed_feature_indices": [
+        13
+      ]
+    }
+  ]
+}

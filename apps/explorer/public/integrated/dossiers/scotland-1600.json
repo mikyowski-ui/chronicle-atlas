@@ -1,0 +1,144 @@
+{
+  "id": "scotland-1600",
+  "entity_id": "isles:political:6ab95cec6f8b741caa8d",
+  "title": "Kingdom of Scotland",
+  "lead": {
+    "label": "Overview",
+    "text": "In 1600, James VI ruled a Scottish kingdom with its own crown, council and parliament. English and Scottish crowns were still separate.",
+    "source_ids": [
+      "spcr",
+      "crowns"
+    ],
+    "scope": "1600"
+  },
+  "organization": [
+    {
+      "label": "Entity type",
+      "text": "Kingdom with a separate crown.",
+      "source_ids": [
+        "crowns"
+      ],
+      "scope": "1600"
+    },
+    {
+      "label": "Government",
+      "text": "James VI worked with the Privy Council in the conduct of central government.",
+      "source_ids": [
+        "spcr"
+      ],
+      "scope": "1600; institutional context before 1603"
+    },
+    {
+      "label": "Institutions",
+      "text": "Parliament’s estates sat together in one chamber. The Lords of the Articles prepared legislation; conventions of estates also dealt with taxation.",
+      "source_ids": [
+        "rps"
+      ],
+      "scope": "Late sixteenth century"
+    },
+    {
+      "label": "Seat / capital",
+      "text": "No independently verified seat entry is admitted in this pilot.",
+      "source_ids": [],
+      "scope": "Unknown in this record"
+    },
+    {
+      "label": "Administrative relationships",
+      "text": "Shire commissioners represented qualified lesser landholders. Royal burgh commissioners also coordinated through their own convention.",
+      "source_ids": [
+        "rps"
+      ],
+      "scope": "Arrangements established in 1587 and in operation by 1600"
+    }
+  ],
+  "changes": [
+    {
+      "label": "1587",
+      "text": "Provision for shire commissioners broadened the mechanism of representation for lesser barons, though participation was uneven.",
+      "source_ids": [
+        "rps"
+      ],
+      "scope": "1587 reform; context preceding 1600"
+    },
+    {
+      "label": "1600",
+      "text": "James began restoring bishops to the Church of Scotland. This was a developing policy, not an assertion that the later system already existed.",
+      "source_ids": [
+        "spcr"
+      ],
+      "scope": "1600; year precision"
+    }
+  ],
+  "population": {
+    "label": "Population",
+    "text": "No population observation is admitted for this entity and date.",
+    "source_ids": [],
+    "scope": "1600; missing"
+  },
+  "overview": [
+    {
+      "label": "Royal and representative government",
+      "text": "The king and Privy Council handled the daily work of central government. Parliament met intermittently rather than as a permanent legislature. Royal authority and the estates operated together, but their relationship was not a modern separation of powers.",
+      "source_ids": [
+        "spcr",
+        "rps"
+      ],
+      "scope": "1600, with late-sixteenth-century institutional context"
+    },
+    {
+      "label": "Who represented the kingdom?",
+      "text": "Nobles, church interests, royal burghs and an emerging body of shire commissioners participated in parliamentary politics. The 1587 arrangements did not create universal suffrage. The royal burghs maintained a collective voice through a separate convention.",
+      "source_ids": [
+        "rps"
+      ],
+      "scope": "Late sixteenth century"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rps",
+      "title": "The Scottish Parliament: The Early Modern Parliament",
+      "publisher": "University of St Andrews, Records of the Parliaments of Scotland",
+      "url": "https://www.rps.ac.uk/static/historicalintro5.html",
+      "verified_at": "2026-09-23",
+      "scope": "Scholarly overview across the early modern period; only pre-1601 institutional discussion used.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "spcr",
+      "title": "The Scottish Privy Council: Historical Introduction",
+      "publisher": "Scottish Privy Council Project",
+      "url": "https://spcr.ac.uk/about/historical-introduction/",
+      "verified_at": "2026-09-23",
+      "scope": "Scholarly institutional history; pre-1603 organization and 1600 episcopal policy used.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    },
+    {
+      "id": "crowns",
+      "title": "United Kingdom Monarchs (1603–present)",
+      "publisher": "The Royal Household",
+      "url": "https://www.royal.uk/united-kingdom-monarchs-1603-present",
+      "verified_at": "2026-09-23",
+      "scope": "Broader chronology; only separation of English and Scottish crowns before 1603 used.",
+      "rights": "Linked editorial source; original Chronicle paraphrase only. No article text or images reproduced."
+    }
+  ],
+  "article_source_id": "rps",
+  "schema_version": 1,
+  "edition": "chronicle-dossiers-20260923-v1",
+  "recorded_at": "2026-09-23T00:00:00Z",
+  "t_start": -135140,
+  "t_end": -134774,
+  "observation_time": -135140,
+  "date_label": "1600 CE",
+  "date_precision": "year",
+  "historical_scope": "Organization selected for the nominal observation year; articles may discuss broader periods. This dossier does not extend geometry validity.",
+  "representation": "Source-attributed map association; dossier organization researched separately.",
+  "map_binding": {
+    "edition": "isles-alpha-da7a4b7-display-v1",
+    "epoch_id": "isles-1600",
+    "assertion_ids": [
+      "claim:1e0d33e746d17e1325ad366876ab6c3bd1a2d1724171997d08eb75e4df466806"
+    ]
+  }
+}

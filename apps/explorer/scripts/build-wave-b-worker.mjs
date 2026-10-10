@@ -1,0 +1,25 @@
+// Runs the unchanged, hash-checked historical rasterizer in a bounded process.
+import { readFileSync, writeFileSync } from 'node:fs';
+import { pathToFileURL, fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+const app = fileURLToPath(new URL('../', import.meta.url));
+const build = join(app, '.sites-runtime/wave-b-build');
+const { rasterize } = await import(pathToFileURL(join(build, 'rasterize.ts')).href);
+const [input, output] = process.argv.slice(2);
+const budget = JSON.parse(readFileSync(join(app, 'public/wave-b/resource-budget.json')));
+const bytes = readFileSync(input);
+if (bytes.length > budget.worker.inputBytes) throw Error('Worker input byte cap exceeded');
+const feature = JSON.parse(bytes);
+let vertices = 0;
+const visit = value => { if (Array.isArray(value) && typeof value[0] === 'number') vertices++; else if (Array.isArray(value)) value.forEach(visit); };
+visit(feature.geometry.coordinates);
+if (vertices > budget.worker.vertices) throw Error('Worker vertex cap exceeded');
+const began = performance.now();
+const result = rasterize(feature.geometry, .5, 'EPSG:4326');
+if (result.report.candidateCells > budget.worker.candidateCells) throw Error('Worker candidate cell cap exceeded');
+const resultBytes = JSON.stringify(result);
+if (Buffer.byteLength(resultBytes) > budget.worker.outputBytes) throw Error('Worker output byte cap exceeded');
+const peakRssBytes = process.resourceUsage().maxRSS * 1024;
+if (peakRssBytes > budget.caps.workingProcessRssBytes) throw Error('Worker RSS cap exceeded');
+writeFileSync(output, resultBytes);
+console.log(JSON.stringify({elapsedMs: performance.now() - began, peakRssBytes, vertices, bytes: Buffer.byteLength(resultBytes)}));

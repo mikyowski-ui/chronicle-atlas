@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "scope": "Source critiques attached to exact atlas labels. These explain interpretive problems without asserting a new border or state lifespan.",
+  "sources": [
+    {
+      "id": "nagamine-jochids-2013",
+      "title": "Rethinking the History of Ulus-i Juci/Joci",
+      "publisher": "Takushi Kawaguchi and Hiroyuki Nagamine · Inner Asian Studies 28 (2013), pp. 27–51",
+      "url": "https://www.jstage.jst.go.jp/article/innerasianstudies/28/0/28_KJ00009311662/_article/-char/en/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle synthesis; no source prose reproduced."
+    },
+    {
+      "id": "tishin-horde-2019",
+      "title": "Once again on the Meaning of the Term ‘Horde’ and the Categories ‘Golden Horde’, ‘White Horde’, ‘Blue Horde’",
+      "publisher": "V. V. Tishin · Golden Horde Review 7(2), 2019",
+      "url": "https://goldhorde.ru/en/stati2019-2-7/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle synthesis; no source prose reproduced."
+    },
+    {
+      "id": "iranica-horde",
+      "title": "Golden Horde",
+      "publisher": "Peter Jackson · Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/golden-horde/",
+      "verifiedAt": "2026-09-27",
+      "rights": "Original Chronicle synthesis; no source prose reproduced."
+    }
+  ],
+  "notes": [
+    {
+      "name": "White Horde",
+      "kind": "political",
+      "summary": "The name ‘White Horde’ has conflicting meanings in historical sources and modern scholarship. Iranica associates it with Orda’s northeastern Jochid realm; Kawaguchi and Nagamine’s study argues that late-fourteenth-century Russian usage could denote the western wing or the whole Jochid ulus. A map label therefore cannot settle identity or an exact boundary. Consult the competing interpretations before comparing this area with the Blue or Golden Horde.",
+      "sourceIds": [
+        "nagamine-jochids-2013",
+        "tishin-horde-2019",
+        "iranica-horde"
+      ]
+    },
+    {
+      "name": "Blue Horde",
+      "kind": "political",
+      "summary": "The color names of the Jochid wings are not consistent across source traditions. Kawaguchi and Nagamine identify late-fourteenth-century ‘Blue Horde’ usage with the eastern or left wing, while other historical conventions reverse the colors. This atlas’s label is retained for traceability, not accepted as a uniquely defined, settled-border nation. Compare the political organization, date and source vocabulary rather than matching color names alone.",
+      "sourceIds": [
+        "nagamine-jochids-2013",
+        "tishin-horde-2019"
+      ]
+    }
+  ]
+}

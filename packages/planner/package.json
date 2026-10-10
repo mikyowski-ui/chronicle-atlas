@@ -1,0 +1,26 @@
+{
+  "name": "@chronicle/planner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./boundary": "./src/planner.ts",
+    "./transport": "./src/provider-transport.ts",
+    "./evidence": "./src/evidence-planner.ts",
+    "./sources": "./src/evidence-source.ts",
+    "./files": "./src/file-drop.ts",
+    "./wikidata": "./src/wikidata.ts",
+    "./gemini-evidence": {
+      "types": "./src/gemini-evidence.ts",
+      "node": "./src/gemini-evidence.ts",
+      "default": "./src/node-only.ts"
+    },
+    "./gemini": {
+      "types": "./src/gemini-provider.ts",
+      "node": "./src/gemini-provider.ts",
+      "default": "./src/node-only.ts"
+    }
+  },
+  "dependencies": { "@chronicle/contracts": "workspace:0.1.0" }
+}

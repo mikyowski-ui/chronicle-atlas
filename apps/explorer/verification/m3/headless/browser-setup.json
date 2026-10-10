@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED",
+  "dependency": "Playwright Chromium 1234 / Chrome for Testing 151.0.7922.34",
+  "module": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright",
+  "expectedExecutable": "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+  "executableExists": false,
+  "installCommand": "node /opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/cli.js install chromium",
+  "downloadURL": "https://cdn.playwright.dev/builds/cft/151.0.7922.34/linux64/chrome-linux64.zip",
+  "observedResponse": {
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "contentLength": 195,
+    "pageTitle": "Site Unavailable",
+    "message": "Unable to access this site."
+  },
+  "installExitCode": 1,
+  "policy": "No escalation or alternate route used; browser is not bundled. Headless runner itself performs no install or download.",
+  "conclusion": "Actual browser acceptance cannot run here until a Chromium executable is supplied. This does not establish application failure or passing UI gates."
+}

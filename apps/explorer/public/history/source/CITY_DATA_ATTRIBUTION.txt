@@ -1,0 +1,16 @@
+Historical city population data
+------------------------------
+Reba, Meredith; Reitsma, Femke; Seto, Karen C. (2016). Spatializing 6,000 years of global urbanization from 3700 BC to AD 2000. Scientific Data 3, 160034. https://doi.org/10.1038/sdata.2016.34
+Digitized Chandler and Modelski datasets by Meredith Reba:
+https://doi.org/10.6084/m9.figshare.2059494
+https://doi.org/10.6084/m9.figshare.2059497
+https://doi.org/10.6084/m9.figshare.2059500
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Modern urban population data
+---------------------------
+United Nations, Department of Economic and Social Affairs, Population Division (2025). World Urbanization Prospects: The 2025 Revision, Online Edition. File 21 (POP/DB/WUP/Rev.2025/F21).
+Copyright © 2025 United Nations. Made available under Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO): https://creativecommons.org/licenses/by/3.0/igo/
+https://population.un.org/wup/assets/Download/Cities/WUP2025-F21-DEGURBA-Cities_Pop.xlsx
+
+Changes in this product: filtering, numerical unit conversion, astronomical year conversion, checkpoint sampling, conservative identity alignment, dated-name curation, and quarantine of identified suspect records. Historical estimates have different spatial definitions from the UN DEGURBA urban-centre series. Estimates through 2025 only; UN future projections excluded. No endorsement by the source authors or the United Nations is implied. Full source files, metadata, source hashes, and change receipts accompany the source distribution.

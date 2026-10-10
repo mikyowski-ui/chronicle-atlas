@@ -1,0 +1,107 @@
+{
+  "scope": "Dual-track semantic contracts and integrated catalogue component; no live planner or generated code",
+  "commands": [
+    {
+      "command": "node --import tsx --test tests/semantic-contracts.test.ts",
+      "status": "PASS",
+      "tests": 24,
+      "failed": 0,
+      "log": "verification/research-semantic/semantic-tests.log"
+    },
+    {
+      "command": "corepack pnpm exec tsc --noEmit --pretty false",
+      "status": "PASS",
+      "log": "verification/research-semantic/semantic-typecheck.log"
+    }
+  ],
+  "checks": [
+    {
+      "id": "S-01",
+      "requirement": "Strict Zod QueryIntent, QueryPlan and DashboardSpecification, inferred types",
+      "status": "PASS",
+      "evidence": "Schema rejection, executable/nested loader, unknown property and reference tests."
+    },
+    {
+      "id": "S-02",
+      "requirement": "No runtime string-to-code validation",
+      "status": "PASS",
+      "evidence": "Fresh child process denies Function constructor before contracts import; Zod jitless configured before schema construction."
+    },
+    {
+      "id": "S-03",
+      "requirement": "Verified bounding boxes, epochs and indicator allowlist",
+      "status": "PASS",
+      "evidence": "Unregistered dataset/entity/indicator and out-of-bounds/reversed scope tests; inclusive interval and BCE tests."
+    },
+    {
+      "id": "S-04",
+      "requirement": "Contrasting source-backed modern/premodern fixtures",
+      "status": "PASS",
+      "evidence": "44 modern observations/4 places; 10 premodern descriptions/9 places. All ten premodern original records hashed and values/dates matched."
+    },
+    {
+      "id": "S-05",
+      "requirement": "Explicit evidence type, temporal and uncertainty semantics",
+      "status": "PASS",
+      "evidence": "attested/interpolated/modeled discrimination; unknown confidence; separate composition/event windows; source-position uncertainty does not become measurement confidence."
+    },
+    {
+      "id": "S-06",
+      "requirement": "No incompatible automated joins",
+      "status": "PASS",
+      "evidence": "Query joins vocabulary is empty; both fixture descriptors register zero normalizers. Guard requires explicit rule, units, fixed geography, matching time and allowed evidence classes."
+    },
+    {
+      "id": "S-07",
+      "requirement": "Deterministic reference-only replay",
+      "status": "PASS",
+      "evidence": "Fixture/source/descriptor/result pins, immutable byte-verified registrations, forged entry rejection, missing/changed edition rejection. Export excludes question, passages and measurements."
+    },
+    {
+      "id": "S-08",
+      "requirement": "Safe read-only integrated catalogue rendering",
+      "status": "IMPLEMENTED",
+      "evidence": "DOM textContent only, native details, bounded fixed URLs, cached registration, staged DOM commit, cancellation/revision handling. Browser inspection owned by lead session."
+    },
+    {
+      "id": "S-09",
+      "requirement": "Production asset delivery",
+      "status": "PASS",
+      "evidence": "Vite write:false production-entry probe emitted both exact JSON assets and fixed relative URLs. Full integrated build and browser fetch are separate lead checks."
+    },
+    {
+      "id": "S-10",
+      "requirement": "Live LLM planner/provider integration",
+      "status": "NOT RUN",
+      "evidence": "Explicitly excluded by active sprint; no provider enabled."
+    },
+    {
+      "id": "S-11",
+      "requirement": "Historical claim certification or new publication",
+      "status": "NOT RUN",
+      "evidence": "Not authorized by work order. Primary summaries remain source-attributed, not newly scholarly reviewed. Model processing and republication disabled."
+    }
+  ],
+  "productionAssetProbe": {
+    "mode": "Vite build write:false, no config file, base ./, semantic-view.ts entry, preserveEntrySignatures strict",
+    "assets": [
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "bytes": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "bytes": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      }
+    ]
+  },
+  "limits": [
+    "UN retained observations have no confidence intervals or cell-specific method; modeled is an explicit estimate classification, not an asserted verified algorithm.",
+    "Premodern spatial uncertainty radius is unknown/null; no numeric uncertainty radius was invented.",
+    "Replay verifies pinned in-memory fixture and source references; it does not fetch or re-read original workbooks/account register on each interaction.",
+    "Both pilots are finite, source-linked observations. No continuous population interpolation or trade routes inferred.",
+    "This report does not establish browser/GPU performance, physical hardware, accessibility preference execution or full Milestone 2 completion."
+  ]
+}

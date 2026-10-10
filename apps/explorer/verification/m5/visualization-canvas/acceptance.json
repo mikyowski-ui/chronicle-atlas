@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "startedAt": "2026-10-09T21:05:37.106Z",
+  "command": [
+    "node",
+    "scripts/m3-headless-acceptance.mjs",
+    "--renderer",
+    "canvas",
+    "--gates",
+    "visualization"
+  ],
+  "runner": {
+    "node": "v22.17.0",
+    "platform": "win32",
+    "arch": "x64",
+    "kernel": "10.0.26200",
+    "cpus": 16,
+    "cpuModel": "AMD Ryzen 7 5800X 8-Core Processor             ",
+    "memoryBytes": 17099636736,
+    "scriptSHA256": "32bd648e057adfb862dd1d2a5cb02f1238c44eca4d0715768d6c721e16964e46",
+    "chromiumExecutable": "C:\\Users\\Juan\\AppData\\Local\\ms-playwright\\chromium-1243\\chrome-win64\\chrome.exe",
+    "chromiumSHA256": "9b07943f834485b43c9d54caea2951c78715f9f07070a80ab6658465ebd3e711"
+  },
+  "build": {
+    "schema_version": 1,
+    "build_id": "chronicle-404f045d5d25f50d52ef91a5004ebdbf4104d6a8db88dabd713a4621c02b9d73",
+    "source_commit": "5a40bc5e847b0ab25a4e7495b44f242df58ce5e3",
+    "source_worktree_dirty": true,
+    "source_commit_meaning": "Git HEAD at build time; source_fingerprint binds actual source bytes, including uncommitted changes. Later report-only commits may differ.",
+    "source_fingerprint": "4c0a8974704f0ae8ebd3ffc3eb7cfc9f998b7aec5c6d5de418fd3137d23e396d",
+    "source_file_count": 2431,
+    "source_scope": [
+      "apps/explorer/src/**",
+      "apps/explorer/research-semantic/** (excluding dependency/runtime caches)",
+      "apps/explorer/runtime-isolation/**",
+      "apps/explorer/verification-tools/** (excluding dependency/runtime caches)",
+      "packages/contracts/src/**",
+      "packages/runtime/src/**",
+      "packages/planner/src/**",
+      "packages/view-adapters/src/**",
+      "packages/contracts/package.json",
+      "packages/runtime/package.json",
+      "packages/planner/package.json",
+      "packages/view-adapters/package.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.json",
+      "apps/explorer/public/**",
+      "apps/explorer/index.html",
+      "apps/explorer/production-review.html",
+      "apps/explorer/vite.config.ts",
+      "apps/explorer/package.json",
+      "apps/explorer/pnpm-lock.yaml"
+    ],
+    "bundle_fingerprint": "f78385573a23e5107f6f5b3cc337d6c83db23674c5c84d2dfae2187a947266ad",
+    "bundle_files": [
+      {
+        "path": "assets/emscripten-module-B1g2L2eS.wasm",
+        "byte_length": 1027523,
+        "sha256": "b790f3842eef48d154984cea48d35303b5c3c3696fedab4dc79f314bde005dba"
+      },
+      {
+        "path": "assets/emscripten-module-DHbYPfAp.wasm",
+        "byte_length": 1510753,
+        "sha256": "e346c792a99a6a3a5886a1b173015b3a7839d6800a7378695eb49db1a470160c"
+      },
+      {
+        "path": "assets/emscripten-module-uFzwHH0Y.wasm",
+        "byte_length": 503134,
+        "sha256": "105c3bed22d457e43e3d1c3c1c6959fda62a8fe06f0fc8a985303c3a2be72232"
+      },
+      {
+        "path": "assets/emscripten-module-ZrHFMo7O.wasm",
+        "byte_length": 1218626,
+        "sha256": "4d2f9f8adf28c48ed273515b815e05ae9a698b54955f7348e951faf43b1febc3"
+      },
+      {
+        "path": "assets/emscripten-module.browser-CTYWyATq.js",
+        "byte_length": 9201,
+        "sha256": "a355fa8135920c64a4ade81f8601c5bee36fb60659301ab3b9e63709978ea8b4"
+      },
+      {
+        "path": "assets/ffi-D-HTL89E.js",
+        "byte_length": 6322,
+        "sha256": "aed116d52affcbfed38ddfe8c6ffbba1f5d79ee5c8c4f2ffb105a242addecc4c"
+      },
+      {
+        "path": "assets/index-CYa7-y7j.js",
+        "byte_length": 4351368,
+        "sha256": "d9e8a92e609231a48a3cec108ca0e1d5138f980376a55e4963759b4d09c363ba"
+      },
+      {
+        "path": "assets/index-D7IKFBHX.css",
+        "byte_length": 182701,
+        "sha256": "22b2f645e38a080242c2b835cff5dcd8d2e0965c6e09e9a1d14181eef962bafb"
+      },
+      {
+        "path": "assets/module-ES6BEMUI-3NGgPzMw.js",
+        "byte_length": 199,
+        "sha256": "d1d4ecac79bf9a732b5461c37e63f8e71e67f192f133e6779562574c850d22d7"
+      },
+      {
+        "path": "assets/pilot-data-Jm_w9AQo.json",
+        "byte_length": 27813,
+        "sha256": "7eafe05c859949e6220e41702234cba722b0b807c97654bcd1f3180eab69e62e"
+      },
+      {
+        "path": "assets/premodern-pilot-B7FC1mJx.json",
+        "byte_length": 27528,
+        "sha256": "8f2bf0e7672dac8fb7136fd5fe81147884c3faa31d441247ab823e01367d14d0"
+      },
+      {
+        "path": "assets/visualization-worker-BQzUy2hQ.js",
+        "byte_length": 235013,
+        "sha256": "9d5985448057a53b1f67db0973a2cbb8dd78fbb39666856ae3265cf45a0b61bd"
+      },
+      {
+        "path": "assets/watt-1769-mechanism-Bn8Si0Sq.json",
+        "byte_length": 13234,
+        "sha256": "9838cf8fb53a034732a764d1433b3cf8c8e149b9e31323eeaea3e2b2825336db"
+      },
+      {
+        "path": "assets/watt-1769-specification-CmgIn0_F.json",
+        "byte_length": 4838,
+        "sha256": "6bbadef594a0b9d64bdb541717535a62f54365b891d8e64eb24e5a4cb197d86d"
+      },
+      {
+        "path": "index.html",
+        "byte_length": 525,
+        "sha256": "32c41634e703cdf160423ba83e6997cfc9c4d4e1a6b502022da4a43073f1ea0c"
+      },
+      {
+        "path": "production-review.html",
+        "byte_length": 1667,
+        "sha256": "cafaaff337dc1fc9dd0f1ad67a74ec548418d7bc2b6834a34cf2771e70e54f5d"
+      }
+    ],
+    "deterministic_identity": "No timestamps, absolute paths or Git metadata enter build_id; identical source and emitted bundle bytes produce the same identity."
+  },
+  "requestedRenderer": "canvas",
+  "browser": {
+    "version": "153.0.8010.12",
+    "engine": "Chromium",
+    "headless": true
+  },
+  "isolation": {
+    "servedFrom": "ephemeral 127.0.0.1 port",
+    "externalRequests": "abort all non-local page requests; service workers blocked",
+    "externalAttempts": []
+  },
+  "gates": {
+    "boundedVisualization": {
+      "status": "PASS",
+      "profile": "Real QuickJS/WASM in actual browser workers; synthetic data only",
+      "limits": {
+        "executionMs": 50,
+        "guestHeapBytes": 8388608
+      },
+      "prepared": {
+        "status": "rendered",
+        "elapsedMs": 21.5,
+        "activeWorkers": 0,
+        "launches": 1,
+        "terminations": 1,
+        "message": "Validated local SVG layout. No model call was made by this preview.",
+        "svgCount": 1,
+        "recordIds": [
+          "local:020594dfa626ce9d5ec7686b:11ae3038c1fe627502b6596d",
+          "local:020594dfa626ce9d5ec7686b:3b0a7ca3a01569f4af073680"
+        ]
+      },
+      "denied": [
+        {
+          "name": "loop",
+          "message": "Static fallback: TIMEOUT. No guest output was activated.",
+          "elapsedMs": 50.5
+        },
+        {
+          "name": "heap",
+          "message": "Static fallback: GUEST_ERROR. No guest output was activated.",
+          "elapsedMs": 16.199999999254942
+        },
+        {
+          "name": "network",
+          "message": "Static fallback: GUEST_ERROR. No guest output was activated.",
+          "elapsedMs": 15.399999998509884
+        },
+        {
+          "name": "cookies",
+          "message": "Static fallback: GUEST_ERROR. No guest output was activated.",
+          "elapsedMs": 13.299999997019768
+        },
+        {
+          "name": "node-host",
+          "message": "Static fallback: GUEST_ERROR. No guest output was activated.",
+          "elapsedMs": 14
+        },
+        {
+          "name": "module-loader",
+          "message": "Static fallback: INVALID_OUTPUT. No guest output was activated.",
+          "elapsedMs": 13.599999997764826
+        },
+        {
+          "name": "output-flood",
+          "message": "Static fallback: OUTPUT_LIMIT. No guest output was activated.",
+          "elapsedMs": 15.699999999254942
+        },
+        {
+          "name": "event-handler",
+          "message": "Static fallback: INVALID_OUTPUT. No guest output was activated.",
+          "elapsedMs": 17.099999997764826
+        },
+        {
+          "name": "external-svg",
+          "message": "Static fallback: INVALID_OUTPUT. No guest output was activated.",
+          "elapsedMs": 17.199999999254942
+        },
+        {
+          "name": "forged-record",
+          "message": "Static fallback: INVALID_OUTPUT. No guest output was activated.",
+          "elapsedMs": 18.199999999254942
+        },
+        {
+          "name": "invented-text",
+          "message": "Static fallback: INVALID_OUTPUT. No guest output was activated.",
+          "elapsedMs": 18
+        }
+      ],
+      "guestNetworkCanaryRequests": 0,
+      "selectionAndCursorWithoutGuestOrModel": true,
+      "codeRequiresExplicitRun": true,
+      "budgetOverridesRejectedBeforeLaunch": true,
+      "sameTaskControlCancellation": true,
+      "cycleElapsedMs": [
+        20.600000001490116,
+        20.600000001490116,
+        20,
+        20,
+        20.199999999254942,
+        19.800000000745058,
+        21.599999997764826,
+        21.5,
+        20.399999998509884,
+        20.400000002235174,
+        21.699999999254942,
+        20.400000002235174,
+        20.5,
+        20.399999998509884,
+        21.199999999254942,
+        20,
+        19.900000002235174,
+        20.399999998509884,
+        20.100000001490116,
+        20.600000001490116
+      ],
+      "cycles": 20,
+      "physicalGPU": "NOT RUN"
+    }
+  },
+  "screenshots": [
+    {
+      "file": "visualization-375.png",
+      "sha256": "a5eb9cd784b90a0460493d5f1f92f3104f9187af588594120deb289961d0c75d",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "file": "visualization-desktop.png",
+      "sha256": "9aa39b7aef41f0f6369f3c2f15d16ff3d6a0395b76afec4b5052e101d8f529cd",
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "headless-trace.zip",
+      "sha256": "01241397ea3a27b0a0c3cf6e4cfdffebe45cb9ebfb8c02b4025078ea13126666"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "guestCanaryRequests": 0,
+  "interpretation": "Actual headless Chromium DOM and the requested Atlas renderer. No physical mobile, hardware GPU, scanout, or OS preference certification.",
+  "physicalGPU": "NOT RUN",
+  "physicalMobile": "NOT RUN",
+  "scanout": "NOT MEASURED",
+  "finishedAt": "2026-10-09T21:05:48.060Z"
+}

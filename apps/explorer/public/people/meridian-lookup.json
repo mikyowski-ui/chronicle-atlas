@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "edition": "meridian-alpha-display-v1",
+  "entries": [
+    {
+      "key": [
+        "meridian-alpha-display-v1",
+        "synthetic:aster",
+        "aster:state:01",
+        "1b86094a0146b0d5d51ec699db46fb09cd7c79feaf9d60f96092288404fcb510",
+        "meridian-v2-density",
+        "-372547",
+        "spherical-equal-area-rectangles-v1"
+      ],
+      "t_start": -372547,
+      "t_end": -336023,
+      "historical": {
+        "population": 25188688.624685645,
+        "areaKm2": 1531468.7315291176,
+        "coveredAreaKm2": 293793.20103080117,
+        "coverageFraction": 0.1918375445625057,
+        "status": "partial",
+        "reason": null
+      },
+      "fixed": {
+        "population": 25188688.624685645,
+        "areaKm2": 1531468.7315291176,
+        "coveredAreaKm2": 293793.20103080117,
+        "coverageFraction": 0.1918375445625057,
+        "status": "partial",
+        "reason": null
+      },
+      "referenceLabel": "950 CE footprint",
+      "methodology": "Approximate population = density × intersected area. Independent rectangular density cells are clipped to the footprint in spherical cylindrical equal-area coordinates (longitude, sin latitude; radius 6,371.0088 km). Edges are straight in that calculation plane; this is a numerical fixture model, not a historical measurement. Holes are subtracted and disjoint territory parts are added. Values are subtotals for covered areas; unobserved areas are not extrapolated. The fixed reference retains the authored 950 CE footprint while using the selected epoch’s density.",
+      "observationDateLabel": "950–1050 CE synthetic epoch",
+      "notes": [
+        "Precomputed from the complete display geometry before tiling.",
+        "Invented fixture data; covered-area subtotals, not historical measurements."
+      ],
+      "source": {
+        "source_title": "The Meridian Isles synthetic density fixture",
+        "source_edition": "meridian-v2",
+        "source_url": "./fixtures/meridian-v2.json",
+        "license": "Original synthetic demonstration data",
+        "attribution": "Chronicle Atlas fixture authors"
+      }
+    },
+    {
+      "key": [
+        "meridian-alpha-display-v1",
+        "synthetic:boreal",
+        "boreal:state:01",
+        "7a09045345b6148bcf7071b0cc3785988ac85b2308920559a32df0776b929221",
+        "meridian-v2-density",
+        "-372547",
+        "spherical-equal-area-rectangles-v1"
+      ],
+      "t_start": -372547,
+      "t_end": -336023,
+      "historical": {
+        "population": 36139924.9215021,
+        "areaKm2": 1256399.5605534778,
+        "coveredAreaKm2": 259364.89844824,
+        "coverageFraction": 0.20643504390751521,
+        "status": "partial",
+        "reason": null
+      },
+      "fixed": {
+        "population": 36139924.9215021,
+        "areaKm2": 1256399.5605534778,
+        "coveredAreaKm2": 259364.89844824,
+        "coverageFraction": 0.20643504390751521,
+        "status": "partial",
+        "reason": null
+      },
+      "referenceLabel": "950 CE footprint",
+      "methodology": "Approximate population = density × intersected area. Independent rectangular density cells are clipped to the footprint in spherical cylindrical equal-area coordinates (longitude, sin latitude; radius 6,371.0088 km). Edges are straight in that calculation plane; this is a numerical fixture model, not a historical measurement. Holes are subtracted and disjoint territory parts are added. Values are subtotals for covered areas; unobserved areas are not extrapolated. The fixed reference retains the authored 950 CE footprint while using the selected epoch’s density.",
+      "observationDateLabel": "950–1050 CE synthetic epoch",
+      "notes": [
+        "Precomputed from the complete display geometry before tiling.",
+        "Invented fixture data; covered-area subtotals, not historical measurements."
+      ],
+      "source": {
+        "source_title": "The Meridian Isles synthetic density fixture",
+        "source_edition": "meridian-v2",
+        "source_url": "./fixtures/meridian-v2.json",
+        "license": "Original synthetic demonstration data",
+        "attribution": "Chronicle Atlas fixture authors"
+      }
+    },
+    {
+      "key": [
+        "meridian-alpha-display-v1",
+        "synthetic:cedar",
+        "cedar:state:01",
+        "7cb14e21736674acd5d767a6a206a6c827a0c53fb1152f4c1c75f84b335467b8",
+        "meridian-v2-density",
+        "-372547",
+        "spherical-equal-area-rectangles-v1"
+      ],
+      "t_start": -372547,
+      "t_end": -336023,
+      "historical": {
+        "population": 21096519.2987746,
+        "areaKm2": 1022119.4699951927,
+        "coveredAreaKm2": 299867.2369176737,
+        "coverageFraction": 0.29337787384001607,
+        "status": "partial",
+        "reason": null
+      },
+      "fixed": {
+        "population": 21096519.2987746,
+        "areaKm2": 1022119.4699951927,
+        "coveredAreaKm2": 299867.2369176737,
+        "coverageFraction": 0.29337787384001607,
+        "status": "partial",
+        "reason": null
+      },
+      "referenceLabel": "950 CE footprint",
+      "methodology": "Approximate population = density × intersected area. Independent rectangular density cells are clipped to the footprint in spherical cylindrical equal-area coordinates (longitude, sin latitude; radius 6,371.0088 km). Edges are straight in that calculation plane; this is a numerical fixture model, not a historical measurement. Holes are subtracted and disjoint territory parts are added. Values are subtotals for covered areas; unobserved areas are not extrapolated. The fixed reference retains the authored 950 CE footprint while using the selected epoch’s density.",
+      "observationDateLabel": "950–1050 CE synthetic epoch",
+      "notes": [
+        "Precomputed from the complete display geometry before tiling.",
+        "Invented fixture data; covered-area subtotals, not historical measurements."
+      ],
+      "source": {
+        "source_title": "The Meridian Isles synthetic density fixture",
+        "source_edition": "meridian-v2",
+        "source_url": "./fixtures/meridian-v2.json",
+        "license": "Original synthetic demonstration data",
+        "attribution": "Chronicle Atlas fixture authors"
+      }
+    },
+    {
+      "key": [
+        "meridian-alpha-display-v1",
+        "synthetic:aster",
+        "aster:state:02",
+        "5758a5abdbda36eef2ddb9e18b9784eaee227d7fc9065e718b82d0c37c2a5980",
+        "meridian-v2-density",
+        "-336023",
+        "spherical-equal-area-rectangles-v1"
+      ],
+      "t_start": -336023,
+      "t_end": -299499,
+      "historical": {
+        "population": 38237579.26078352,
+        "areaKm2": 2105267.360730827,
+        "coveredAreaKm2": 293793.20103080117,
+        "coverageFraction": 0.13955149189640845,
+        "status": "partial",
+        "reason": null
+      },
+      "fixed": {
+        "population": 38237579.26078352,
+        "areaKm2": 1531468.7315291176,
+        "coveredAreaKm2": 293793.20103080117,
+        "coverageFraction": 0.1918375445625057,
+        "status": "partial",
+        "reason": null
+      },
+      "referenceLabel": "950 CE footprint",
+      "methodology": "Approximate population = density × intersected area. Independent rectangular density cells are clipped to the footprint in spherical cylindrical equal-area coordinates (longitude, sin latitude; radius 6,371.0088 km). Edges are straight in that calculation plane; this is a numerical fixture model, not a historical measurement. Holes are subtracted and disjoint territory parts are added. Values are subtotals for covered areas; unobserved areas are not extrapolated. The fixed reference retains the authored 950 CE footprint while using the selected epoch’s density.",
+      "observationDateLabel": "1050–1150 CE synthetic epoch",
+      "notes": [
+        "Precomputed from the complete display geometry before tiling.",
+        "Invented fixture data; covered-area subtotals, not historical measurements."
+      ],
+      "source": {
+        "source_title": "The Meridian Isles synthetic density fixture",
+        "source_edition": "meridian-v2",
+        "source_url": "./fixtures/meridian-v2.json",
+        "license": "Original synthetic demonstration data",
+        "attribution": "Chronicle Atlas fixture authors"
+      }
+    },
+    {
+      "key": [
+        "meridian-alpha-display-v1",
+        "synthetic:boreal",
+        "boreal:state:02",
+        "8b934da979b3df877f3a1180141b095e09c225a112c76de896e98774641462f9",
+        "meridian-v2-density",
+        "-336023",
+        "spherical-equal-area-rectangles-v1"
+      ],
+      "t_start": -336023,
+      "t_end": -299499,
+      "historical": {
+        "population": 50495784.91310874,
+        "areaKm2": 1306574.8316201011,
+        "coveredAreaKm2": 253689.89479982277,
+        "coverageFraction": 0.19416407591845108,
+        "status": "partial",
+        "reason": null
+      },
+      "fixed": {
+        "population": 50745485.073639095,
+        "areaKm2": 1256399.5605534778,
+        "coveredAreaKm2": 259364.89844824,
+        "coverageFraction": 0.20643504390751521,
+        "status": "partial",
+        "reason": null
+      },
+      "referenceLabel": "950 CE footprint",
+      "methodology": "Approximate population = density × intersected area. Independent rectangular density cells are clipped to the footprint in spherical cylindrical equal-area coordinates (longitude, sin latitude; radius 6,371.0088 km). Edges are straight in that calculation plane; this is a numerical fixture model, not a historical measurement. Holes are subtracted and disjoint territory parts are added. Values are subtotals for covered areas; unobserved areas are not extrapolated. The fixed reference retains the authored 950 CE footprint while using the selected epoch’s density.",
+      "observationDateLabel": "1050–1150 CE synthetic epoch",
+      "notes": [
+        "Precomputed from the complete display geometry before tiling.",
+        "Invented fixture data; covered-area subtotals, not historical measurements."
+      ],
+      "source": {
+        "source_title": "The Meridian Isles synthetic density fixture",
+        "source_edition": "meridian-v2",
+        "source_url": "./fixtures/meridian-v2.json",
+        "license": "Original synthetic demonstration data",
+        "attribution": "Chronicle Atlas fixture authors"
+      }
+    },
+    {
+      "key": [
+        "meridian-alpha-display-v1",
+        "synthetic:cedar",
+        "cedar:state:02",
+        "616243dda2583c0b5d5753bac1690b61c0b54803113754df68482021a0388185",
+        "meridian-v2-density",
+        "-336023",
+        "spherical-equal-area-rectangles-v1"
+      ],
+      "t_start": -336023,
+      "t_end": -299499,
+      "historical": {
+        "population": 48491506.01445047,
+        "areaKm2": 1484490.980654969,
+        "coveredAreaKm2": 297933.876179422,
+        "coverageFraction": 0.2006976667840523,
+        "status": "partial",
+        "reason": null
+      },
+      "fixed": {
+        "population": 48535973.31143026,
+        "areaKm2": 1022119.4699951927,
+        "coveredAreaKm2": 299867.2369176737,
+        "coverageFraction": 0.29337787384001607,
+        "status": "partial",
+        "reason": null
+      },
+      "referenceLabel": "950 CE footprint",
+      "methodology": "Approximate population = density × intersected area. Independent rectangular density cells are clipped to the footprint in spherical cylindrical equal-area coordinates (longitude, sin latitude; radius 6,371.0088 km). Edges are straight in that calculation plane; this is a numerical fixture model, not a historical measurement. Holes are subtracted and disjoint territory parts are added. Values are subtotals for covered areas; unobserved areas are not extrapolated. The fixed reference retains the authored 950 CE footprint while using the selected epoch’s density.",
+      "observationDateLabel": "1050–1150 CE synthetic epoch",
+      "notes": [
+        "Precomputed from the complete display geometry before tiling.",
+        "Invented fixture data; covered-area subtotals, not historical measurements."
+      ],
+      "source": {
+        "source_title": "The Meridian Isles synthetic density fixture",
+        "source_edition": "meridian-v2",
+        "source_url": "./fixtures/meridian-v2.json",
+        "license": "Original synthetic demonstration data",
+        "attribution": "Chronicle Atlas fixture authors"
+      }
+    }
+  ]
+}

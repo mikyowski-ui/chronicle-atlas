@@ -1,0 +1,2964 @@
+TAP version 13
+# Subtest: historical sparse layers accept declared absence but reject a missing declared layer before scene admission
+ok 1 - historical sparse layers accept declared absence but reject a missing declared layer before scene admission
+  ---
+  duration_ms: 16.6782
+  type: 'test'
+  ...
+# Subtest: historical scene admission rejects incomplete linkage and invalid valid-time or recorded-time evidence
+ok 2 - historical scene admission rejects incomplete linkage and invalid valid-time or recorded-time evidence
+  ---
+  duration_ms: 28.8771
+  type: 'test'
+  ...
+# Subtest: historical evidence must be active at the manifest recorded edition, including the exclusive recorded end
+ok 3 - historical evidence must be active at the manifest recorded edition, including the exclusive recorded end
+  ---
+  duration_ms: 11.3574
+  type: 'test'
+  ...
+# Subtest: the uncertainty envelope retains source precision and must be finite, ordered and agree with valid-time bounds
+ok 4 - the uncertainty envelope retains source precision and must be finite, ordered and agree with valid-time bounds
+  ---
+  duration_ms: 13.4306
+  type: 'test'
+  ...
+# Subtest: a cached archive cannot bypass a different manifest recorded-time boundary
+ok 5 - a cached archive cannot bypass a different manifest recorded-time boundary
+  ---
+  duration_ms: 32.9338
+  type: 'test'
+  ...
+# Subtest: all compiled Alpha observations load original vectors and independent geography within their declared hashes
+ok 6 - all compiled Alpha observations load original vectors and independent geography within their declared hashes
+  ---
+  duration_ms: 301.4128
+  type: 'test'
+  ...
+# Subtest: native delivery reads only canonical metadata, never a whole archive or Canvas geometry
+ok 7 - native delivery reads only canonical metadata, never a whole archive or Canvas geometry
+  ---
+  duration_ms: 10.411
+  type: 'test'
+  ...
+# Subtest: the canonical area and priority index resolves native overlap without trusting tile properties
+ok 8 - the canonical area and priority index resolves native overlap without trusting tile properties
+  ---
+  duration_ms: 6.3792
+  type: 'test'
+  ...
+# Subtest: tampered sidecars and recorded-edition mismatch fail before producing a scene
+ok 9 - tampered sidecars and recorded-edition mismatch fail before producing a scene
+  ---
+  duration_ms: 8.1035
+  type: 'test'
+  ...
+# Subtest: manifest rejects overlapping epochs and malformed range-integrity descriptors
+ok 10 - manifest rejects overlapping epochs and malformed range-integrity descriptors
+  ---
+  duration_ms: 2.1565
+  type: 'test'
+  ...
+# Subtest: canonical metadata enforces unique parts and bitemporal evidence for independent migration
+ok 11 - canonical metadata enforces unique parts and bitemporal evidence for independent migration
+  ---
+  duration_ms: 12.4163
+  type: 'test'
+  ...
+# Subtest: Alpha cache is bounded to two successful generations and aborted cache reads are rejected
+ok 12 - Alpha cache is bounded to two successful generations and aborted cache reads are rejected
+  ---
+  duration_ms: 16.0192
+  type: 'test'
+  ...
+# Subtest: temporal commits filter canonical parts at the requested half-open date
+ok 13 - temporal commits filter canonical parts at the requested half-open date
+  ---
+  duration_ms: 8.0435
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed network capability probe
+ok 14 - M3 application VM denies reviewed network capability probe
+  ---
+  duration_ms: 75.2104
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed dom capability probe
+ok 15 - M3 application VM denies reviewed dom capability probe
+  ---
+  duration_ms: 64.6145
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed environment capability probe
+ok 16 - M3 application VM denies reviewed environment capability probe
+  ---
+  duration_ms: 55.168
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed filesystem capability probe
+ok 17 - M3 application VM denies reviewed filesystem capability probe
+  ---
+  duration_ms: 60.725
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed processes capability probe
+ok 18 - M3 application VM denies reviewed processes capability probe
+  ---
+  duration_ms: 69.8855
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed constructor-escape capability probe
+ok 19 - M3 application VM denies reviewed constructor-escape capability probe
+  ---
+  duration_ms: 54.8709
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed prototype-pollution capability probe
+ok 20 - M3 application VM denies reviewed prototype-pollution capability probe
+  ---
+  duration_ms: 57.7347
+  type: 'test'
+  ...
+# Subtest: M3 application VM denies reviewed unauthorized-call capability probe
+ok 21 - M3 application VM denies reviewed unauthorized-call capability probe
+  ---
+  duration_ms: 60.2827
+  type: 'test'
+  ...
+# Subtest: M3 application infinite-loop terminates or rejects with EXECUTION_TIMEOUT
+ok 22 - M3 application infinite-loop terminates or rejects with EXECUTION_TIMEOUT
+  ---
+  duration_ms: 189.3288
+  type: 'test'
+  ...
+# Subtest: M3 application memory-flood terminates or rejects with heap or execution guard
+ok 23 - M3 application memory-flood terminates or rejects with heap or execution guard
+  ---
+  duration_ms: 109.1562
+  type: 'test'
+  ...
+# Subtest: M3 application output-flood terminates or rejects with OUTPUT_LIMIT
+ok 24 - M3 application output-flood terminates or rejects with OUTPUT_LIMIT
+  ---
+  duration_ms: 56.554
+  type: 'test'
+  ...
+# Subtest: M3 application diagnostic-flood terminates or rejects with DIAGNOSTIC_LIMIT
+ok 25 - M3 application diagnostic-flood terminates or rejects with DIAGNOSTIC_LIMIT
+  ---
+  duration_ms: 69.5661
+  type: 'test'
+  ...
+# Subtest: M3 application malformed-output terminates or rejects with DUPLICATE_KEY
+ok 26 - M3 application malformed-output terminates or rejects with DUPLICATE_KEY
+  ---
+  duration_ms: 82.1863
+  type: 'test'
+  ...
+# Subtest: M3 application markup-output terminates or rejects with INVALID_SCHEMA
+ok 27 - M3 application markup-output terminates or rejects with INVALID_SCHEMA
+  ---
+  duration_ms: 114.8941
+  type: 'test'
+  ...
+# Subtest: M3 application forged-output terminates or rejects with INVALID_SCHEMA
+ok 28 - M3 application forged-output terminates or rejects with INVALID_SCHEMA
+  ---
+  duration_ms: 95.5109
+  type: 'test'
+  ...
+# Subtest: M3 application crash terminates or rejects with BOUNDARY_CRASH
+ok 29 - M3 application crash terminates or rejects with BOUNDARY_CRASH
+  ---
+  duration_ms: 114.4983
+  type: 'test'
+  ...
+# Subtest: M3 application partial-output terminates or rejects with INVALID_JSON
+ok 30 - M3 application partial-output terminates or rejects with INVALID_JSON
+  ---
+  duration_ms: 70.4356
+  type: 'test'
+  ...
+# Subtest: M3 application validates synthetic transform and retains reference-only receipt
+ok 31 - M3 application validates synthetic transform and retains reference-only receipt
+  ---
+  duration_ms: 83.9603
+  type: 'test'
+  ...
+# Subtest: M3 application cannot accept code, unknown fixture or caller budgets
+ok 32 - M3 application cannot accept code, unknown fixture or caller budgets
+  ---
+  duration_ms: 0.4143
+  type: 'test'
+  ...
+# Subtest: M3 application rechecks rights and source binding after worker teardown
+ok 33 - M3 application rechecks rights and source binding after worker teardown
+  ---
+  duration_ms: 140.4656
+  type: 'test'
+  ...
+# Subtest: M3 application stale parent cannot activate a completed result
+ok 34 - M3 application stale parent cannot activate a completed result
+  ---
+  duration_ms: 62.971
+  type: 'test'
+  ...
+# Subtest: M3 application A-B-A latest input wins with one pending job
+ok 35 - M3 application A-B-A latest input wins with one pending job
+  ---
+  duration_ms: 134.7261
+  type: 'test'
+  ...
+# Subtest: M3 application executes/cancels/disposes 20 times without residual worker capability
+ok 36 - M3 application executes/cancels/disposes 20 times without residual worker capability
+  ---
+  duration_ms: 1918.5666
+  type: 'test'
+  ...
+# Subtest: Canvas Mercator clamps both poles to finite map limits
+ok 37 - Canvas Mercator clamps both poles to finite map limits
+  ---
+  duration_ms: 4.3991
+  type: 'test'
+  ...
+# Subtest: Canvas seam polygon remains narrow in either visible world copy
+ok 38 - Canvas seam polygon remains narrow in either visible world copy
+  ---
+  duration_ms: 0.7424
+  type: 'test'
+  ...
+# Subtest: Canvas keeps a seam-crossing hole inside the same projected shell
+ok 39 - Canvas keeps a seam-crossing hole inside the same projected shell
+  ---
+  duration_ms: 0.2999
+  type: 'test'
+  ...
+# Subtest: Canvas retains every original vertex and does not interpolate regional geometry
+ok 40 - Canvas retains every original vertex and does not interpolate regional geometry
+  ---
+  duration_ms: 2.9901
+  type: 'test'
+  ...
+# Subtest: Canvas preserves explicit full-world polar edges instead of collapsing Antarctica
+ok 41 - Canvas preserves explicit full-world polar edges instead of collapsing Antarctica
+  ---
+  duration_ms: 0.3667
+  type: 'test'
+  ...
+# Subtest: projection reuse follows immutable geometry identity and camera, never a render ID or source year
+ok 42 - projection reuse follows immutable geometry identity and camera, never a render ID or source year
+  ---
+  duration_ms: 0.6866
+  type: 'test'
+  ...
+# Subtest: viewport culling retains crossings, full-world polygons and stroke margins without dropping vertices
+ok 43 - viewport culling retains crossings, full-world polygons and stroke margins without dropping vertices
+  ---
+  duration_ms: 0.2167
+  type: 'test'
+  ...
+# Subtest: Geographic inspection inverts actual Mercator coordinates across continents
+ok 44 - Geographic inspection inverts actual Mercator coordinates across continents
+  ---
+  duration_ms: 1.4682
+  type: 'test'
+  ...
+# Subtest: Two pointer locations retain distinct geographic positions under the same camera
+ok 45 - Two pointer locations retain distinct geographic positions under the same camera
+  ---
+  duration_ms: 1.0793
+  type: 'test'
+  ...
+# Subtest: Inspection normalizes world copies and clamps to the visible polar limit
+ok 46 - Inspection normalizes world copies and clamps to the visible polar limit
+  ---
+  duration_ms: 0.2917
+  type: 'test'
+  ...
+# Subtest: World fit preserves its full span while seam-crossing bounds stay narrow
+ok 47 - World fit preserves its full span while seam-crossing bounds stay narrow
+  ---
+  duration_ms: 0.3732
+  type: 'test'
+  ...
+# Subtest: World fit rejects zero-width or invalid geographic extents
+ok 48 - World fit rejects zero-width or invalid geographic extents
+  ---
+  duration_ms: 0.6586
+  type: 'test'
+  ...
+# Subtest: Geographic territory containment excludes holes and empty ground independently of labels
+ok 49 - Geographic territory containment excludes holes and empty ground independently of labels
+  ---
+  duration_ms: 1.1334
+  type: 'test'
+  ...
+# Subtest: Geographic territory containment retains seam islands and separate parts
+ok 50 - Geographic territory containment retains seam islands and separate parts
+  ---
+  duration_ms: 0.501
+  type: 'test'
+  ...
+# Subtest: Full-width polar context remains pickable at every longitude without covering temperate land
+ok 51 - Full-width polar context remains pickable at every longitude without covering temperate land
+  ---
+  duration_ms: 0.3841
+  type: 'test'
+  ...
+# Subtest: Canvas exact/reference commits stamp current generation without repainting identical source geometry
+ok 52 - Canvas exact/reference commits stamp current generation without repainting identical source geometry
+  ---
+  duration_ms: 1.9975
+  type: 'test'
+  ...
+# Subtest: Canvas keeps changed source geometry, colors, labels and edition visible despite stable identities
+ok 53 - Canvas keeps changed source geometry, colors, labels and edition visible despite stable identities
+  ---
+  duration_ms: 0.5326
+  type: 'test'
+  ...
+# Subtest: duplicate status-only detail emissions and empty teaching filters do not redraw the world
+ok 54 - duplicate status-only detail emissions and empty teaching filters do not redraw the world
+  ---
+  duration_ms: 0.4381
+  type: 'test'
+  ...
+# Subtest: display footprint handles seam-crossing islands, holes and duplicate/overlapping parts
+ok 55 - display footprint handles seam-crossing islands, holes and duplicate/overlapping parts
+  ---
+  duration_ms: 24.1458
+  type: 'test'
+  ...
+# Subtest: ambiguous pole-winding cannot silently become a footprint
+ok 56 - ambiguous pole-winding cannot silently become a footprint
+  ---
+  duration_ms: 0.5267
+  type: 'test'
+  ...
+# Subtest: retained sidecar covers all 80 scenes and keys reference metrics by committed source identity
+ok 57 - retained sidecar covers all 80 scenes and keys reference metrics by committed source identity
+  ---
+  duration_ms: 43.8713
+  type: 'test'
+  ...
+# Subtest: duplicate scene identities and unsupported unknown areas fail validation
+ok 58 - duplicate scene identities and unsupported unknown areas fail validation
+  ---
+  duration_ms: 7.866
+  type: 'test'
+  ...
+# Subtest: all reviewed state admissions have source-matched area metrics
+ok 59 - all reviewed state admissions have source-matched area metrics
+  ---
+  duration_ms: 80.3789
+  type: 'test'
+  ...
+# Subtest: terrain base is painted before all fine tiles and never overpaints them
+ok 60 - terrain base is painted before all fine tiles and never overpaints them
+  ---
+  duration_ms: 10.4957
+  type: 'test'
+  ...
+# Subtest: terrain replacement ignores stale image events and clears handlers before cancellation
+ok 61 - terrain replacement ignores stale image events and clears handlers before cancellation
+  ---
+  duration_ms: 1.3355
+  type: 'test'
+  ...
+# Subtest: large viewport requests a tile footprint that fits its fixed cache
+ok 62 - large viewport requests a tile footprint that fits its fixed cache
+  ---
+  duration_ms: 1.2985
+  type: 'test'
+  ...
+# Subtest: dated place labels respect an explicit source minZoom
+ok 63 - dated place labels respect an explicit source minZoom
+  ---
+  duration_ms: 1.9383
+  type: 'test'
+  ...
+# Subtest: offscreen ancient anchors cannot exhaust the visible label budget at high zoom
+ok 64 - offscreen ancient anchors cannot exhaust the visible label budget at high zoom
+  ---
+  duration_ms: 1.1923
+  type: 'test'
+  ...
+# Subtest: major dated cities are intrinsic and visible at world zoom; stale references wait for detailed zoom
+ok 65 - major dated cities are intrinsic and visible at world zoom; stale references wait for detailed zoom
+  ---
+  duration_ms: 0.8056
+  type: 'test'
+  ...
+# Subtest: capital stars render and nearby labels find non-overlapping alternate positions
+ok 66 - capital stars render and nearby labels find non-overlapping alternate positions
+  ---
+  duration_ms: 18.1918
+  type: 'test'
+  ...
+# Subtest: an inactive retained city is a hollow selected location, never an active city or capital marker
+ok 67 - an inactive retained city is a hollow selected location, never an active city or capital marker
+  ---
+  duration_ms: 1.3351
+  type: 'test'
+  ...
+# Subtest: shared label collision reserves city text and marker bounds and clears them on the next frame
+ok 68 - shared label collision reserves city text and marker bounds and clears them on the next frame
+  ---
+  duration_ms: 0.9446
+  type: 'test'
+  ...
+# Subtest: dated city view projection is reused across warm reversals while camera and evidence changes invalidate it
+ok 69 - dated city view projection is reused across warm reversals while camera and evidence changes invalidate it
+  ---
+  duration_ms: 2.593
+  type: 'test'
+  ...
+# Subtest: offscreen dated cities do not allocate tween state before they are painted
+ok 70 - offscreen dated cities do not allocate tween state before they are painted
+  ---
+  duration_ms: 2.9696
+  type: 'test'
+  ...
+# Subtest: exact visible appearance permits metadata-only year changes while every drawn city attribute invalidates paint
+ok 71 - exact visible appearance permits metadata-only year changes while every drawn city attribute invalidates paint
+  ---
+  duration_ms: 0.9327
+  type: 'test'
+  ...
+# Subtest: settlement relevance uses requested astronomical years and preserves inclusive source envelopes
+ok 72 - settlement relevance uses requested astronomical years and preserves inclusive source envelopes
+  ---
+  duration_ms: 1.9731
+  type: 'test'
+  ...
+# Subtest: modern orientation requires its explicit switch at every date and never receives historical validity
+ok 73 - modern orientation requires its explicit switch at every date and never receives historical validity
+  ---
+  duration_ms: 0.4196
+  type: 'test'
+  ...
+# Subtest: population selects only an exact or preceding observation without interpolation or source reordering
+ok 74 - population selects only an exact or preceding observation without interpolation or source reordering
+  ---
+  duration_ms: 0.3645
+  type: 'test'
+  ...
+# Subtest: density colors preserve one absolute scale rather than rescaling each date or viewport
+ok 75 - density colors preserve one absolute scale rather than rescaling each date or viewport
+  ---
+  duration_ms: 0.4328
+  type: 'test'
+  ...
+# Subtest: place picking crosses the date line and retains its bounded screen-space tolerance
+ok 76 - place picking crosses the date line and retains its bounded screen-space tolerance
+  ---
+  duration_ms: 0.3181
+  type: 'test'
+  ...
+# Subtest: population index arrival resolves an early user choice; same-target scrubs do not starve delivery
+ok 77 - population index arrival resolves an early user choice; same-target scrubs do not starve delivery
+  ---
+  duration_ms: 79.7466
+  type: 'test'
+  ...
+# Subtest: late 2000 delivery cannot replace 2010 and disabled/lifetime-aborted requests cannot commit
+ok 78 - late 2000 delivery cannot replace 2010 and disabled/lifetime-aborted requests cannot commit
+  ---
+  duration_ms: 29.1654
+  type: 'test'
+  ...
+# Subtest: population cache retains at most two complete observations and evicts older data
+ok 79 - population cache retains at most two complete observations and evicts older data
+  ---
+  duration_ms: 30.9979
+  type: 'test'
+  ...
+# Subtest: hash verification accepts raw gzip hydrography without Web Crypto
+ok 80 - hash verification accepts raw gzip hydrography without Web Crypto
+  ---
+  duration_ms: 20.0453
+  type: 'test'
+  ...
+# Subtest: hash verification rejects corrupted raw gzip hydrography, places and population
+ok 81 - hash verification rejects corrupted raw gzip hydrography, places and population
+  ---
+  duration_ms: 11.7426
+  type: 'test'
+  ...
+# Subtest: hash verification accepts transport-decoded hydrography without Web Crypto
+ok 82 - hash verification accepts transport-decoded hydrography without Web Crypto
+  ---
+  duration_ms: 17.416
+  type: 'test'
+  ...
+# Subtest: hash verification rejects corrupted transport-decoded hydrography, places and population
+ok 83 - hash verification rejects corrupted transport-decoded hydrography, places and population
+  ---
+  duration_ms: 9.6031
+  type: 'test'
+  ...
+# Subtest: dated cities follow the requested year, remain intrinsic, and load independently of border history
+ok 84 - dated cities follow the requested year, remain intrinsic, and load independently of border history
+  ---
+  duration_ms: 18.8976
+  type: 'test'
+  ...
+# Subtest: warm year reversals reuse two exact city views while source arrivals and modern context invalidate correctly
+ok 85 - warm year reversals reuse two exact city views while source arrivals and modern context invalidate correctly
+  ---
+  duration_ms: 13.0457
+  type: 'test'
+  ...
+# Subtest: settlement detail and retained source archives match their bounded exact receipt
+ok 86 - settlement detail and retained source archives match their bounded exact receipt
+  ---
+  duration_ms: 30.4624
+  type: 'test'
+  ...
+# Subtest: ancient relevance retains source chronology and modern context never acquires historical validity
+ok 87 - ancient relevance retains source chronology and modern context never acquires historical validity
+  ---
+  duration_ms: 130.7645
+  type: 'test'
+  ...
+# Subtest: every source place and location row has an admitted or explicit omitted outcome
+ok 88 - every source place and location row has an admitted or explicit omitted outcome
+  ---
+  duration_ms: 21.789
+  type: 'test'
+  ...
+# Subtest: reference policy uses only earlier political observations; exact gaps and pre-coverage dates stay empty
+ok 89 - reference policy uses only earlier political observations; exact gaps and pre-coverage dates stay empty
+  ---
+  duration_ms: 13.8218
+  type: 'test'
+  ...
+# Subtest: reference materialization preserves original geometry validity and cheap advancement keeps immutable arrays
+ok 90 - reference materialization preserves original geometry validity and cheap advancement keeps immutable arrays
+  ---
+  duration_ms: 65.4799
+  type: 'test'
+  ...
+# Subtest: indexed semantic keys remain stable through an unchanged political window and change at true eligibility boundaries
+ok 91 - indexed semantic keys remain stable through an unchanged political window and change at true eligibility boundaries
+  ---
+  duration_ms: 32.9537
+  type: 'test'
+  ...
+# Subtest: independent real migration is eligible at its own dates without turning its corridor into political coverage
+ok 92 - independent real migration is eligible at its own dates without turning its corridor into political coverage
+  ---
+  duration_ms: 19.1971
+  type: 'test'
+  ...
+# Subtest: intra-epoch population and migration changes participate in scene identity while unchanged indexed overlays reuse
+ok 93 - intra-epoch population and migration changes participate in scene identity while unchanged indexed overlays reuse
+  ---
+  duration_ms: 6.2069
+  type: 'test'
+  ...
+# Subtest: routing chooses one display track and aborted materialization cannot produce a new scene
+ok 94 - routing chooses one display track and aborted materialization cannot produce a new scene
+  ---
+  duration_ms: 4.264
+  type: 'test'
+  ...
+# Subtest: hidden overlay interval changes do not rebuild an unchanged political scene or another visible layer
+ok 95 - hidden overlay interval changes do not rebuild an unchanged political scene or another visible layer
+  ---
+  duration_ms: 5.6529
+  type: 'test'
+  ...
+# Subtest: separate migration observation and metadata survive composition without replacing political labels or conflicting identities
+ok 96 - separate migration observation and metadata survive composition without replacing political labels or conflicting identities
+  ---
+  duration_ms: 11.6802
+  type: 'test'
+  ...
+# Subtest: world reference geometry composes the independent regional migration archive with its own edition and dated evidence
+ok 97 - world reference geometry composes the independent regional migration archive with its own edition and dated evidence
+  ---
+  duration_ms: 154.8265
+  type: 'test'
+  ...
+# Subtest: cross-track migration vanishes outside its actual 1847 interval while the 1815 world reference remains reusable
+ok 98 - cross-track migration vanishes outside its actual 1847 interval while the 1815 world reference remains reusable
+  ---
+  duration_ms: 165.6159
+  type: 'test'
+  ...
+# Subtest: held reference loses an expired polity at its reviewed boundary and reverse scrubbing restores raw source geometry
+ok 99 - held reference loses an expired polity at its reviewed boundary and reverse scrubbing restores raw source geometry
+  ---
+  duration_ms: 228.7549
+  type: 'test'
+  ...
+# Subtest: three bounded dated dossiers bind their static bytes and real source assertions
+ok 100 - three bounded dated dossiers bind their static bytes and real source assertions
+  ---
+  duration_ms: 35.6561
+  type: 'test'
+  ...
+# Subtest: dated dossiers do not bleed into unsupported dates or substitute different entity identities
+ok 101 - dated dossiers do not bleed into unsupported dates or substitute different entity identities
+  ---
+  duration_ms: 0.3181
+  type: 'test'
+  ...
+# Subtest: dossier loader rejects unsafe links, mismatched identity, missing references and enlarged budgets
+ok 102 - dossier loader rejects unsafe links, mismatched identity, missing references and enlarged budgets
+  ---
+  duration_ms: 4.5104
+  type: 'test'
+  ...
+# Subtest: UK population is explicitly regional and absent point facts remain absent
+ok 103 - UK population is explicitly regional and absent point facts remain absent
+  ---
+  duration_ms: 1.3742
+  type: 'test'
+  ...
+# Subtest: a retained selection cannot lend its dossier to a missing or unrelated scene
+ok 104 - a retained selection cannot lend its dossier to a missing or unrelated scene
+  ---
+  duration_ms: 0.3413
+  type: 'test'
+  ...
+# Subtest: all global basic-card types retain meaning without claiming sovereignty or corroboration
+ok 105 - all global basic-card types retain meaning without claiming sovereignty or corroboration
+  ---
+  duration_ms: 0.662
+  type: 'test'
+  ...
+# Subtest: basic-card source links admit pinned HTTPS and local assets but reject active content and credentials
+ok 106 - basic-card source links admit pinned HTTPS and local assets but reject active content and credentials
+  ---
+  duration_ms: 0.4583
+  type: 'test'
+  ...
+# Subtest: reduced-motion source changes complete animations without listener growth
+ok 107 - reduced-motion source changes complete animations without listener growth
+  ---
+  duration_ms: 2.315
+  type: 'test'
+  ...
+# Subtest: existing city tween snaps its rendered radius to target on preference change and schedules no further tween
+ok 108 - existing city tween snaps its rendered radius to target on preference change and schedules no further tween
+  ---
+  duration_ms: 7.1861
+  type: 'test'
+  ...
+# Subtest: twenty style reloads restore through one owned listener and disposal removes it
+ok 109 - twenty style reloads restore through one owned listener and disposal removes it
+  ---
+  duration_ms: 2.1361
+  type: 'test'
+  ...
+# Subtest: new style intent supersedes pending old request and a late event after disposal cannot restore
+ok 110 - new style intent supersedes pending old request and a late event after disposal cannot restore
+  ---
+  duration_ms: 0.8527
+  type: 'test'
+  ...
+# Subtest: style restore and replacement failures reject without leaking pending state
+ok 111 - style restore and replacement failures reject without leaking pending state
+  ---
+  duration_ms: 0.4834
+  type: 'test'
+  ...
+# Subtest: style reload timeout is bounded and clears the pending request
+ok 112 - style reload timeout is bounded and clears the pending request
+  ---
+  duration_ms: 8.0958
+  type: 'test'
+  ...
+# Subtest: three immutable, nonoverlapping polygons are initially active; dates match the retained adapter
+ok 113 - three immutable, nonoverlapping polygons are initially active; dates match the retained adapter
+  ---
+  duration_ms: 1.8945
+  type: 'test'
+  ...
+# Subtest: half-open eligibility includes the start and excludes the end, without interpolation
+ok 114 - half-open eligibility includes the start and excludes the end, without interpolation
+  ---
+  duration_ms: 0.2408
+  type: 'test'
+  ...
+# Subtest: pending requests and playback never mutate committed geometry, card time, or requested time
+ok 115 - pending requests and playback never mutate committed geometry, card time, or requested time
+  ---
+  duration_ms: 0.3749
+  type: 'test'
+  ...
+# Subtest: cards use committed feature identity and reject unknown picks
+ok 116 - cards use committed feature identity and reject unknown picks
+  ---
+  duration_ms: 0.204
+  type: 'test'
+  ...
+# Subtest: malformed identity, time bounds and rings are rejected
+ok 117 - malformed identity, time bounds and rings are rejected
+  ---
+  duration_ms: 0.7364
+  type: 'test'
+  ...
+# Subtest: Space handles one unmodified press and ignores repeat/editable targets
+ok 118 - Space handles one unmodified press and ignores repeat/editable targets
+  ---
+  duration_ms: 0.2022
+  type: 'test'
+  ...
+# Subtest: global playback yields Space to focused controls while map navigation keeps its shortcut
+ok 119 - global playback yields Space to focused controls while map navigation keeps its shortcut
+  ---
+  duration_ms: 0.2372
+  type: 'test'
+  ...
+# Subtest: Gemini requires explicit configuration, credentials, budgets, consent and a host validator before transport
+ok 120 - Gemini requires explicit configuration, credentials, budgets, consent and a host validator before transport
+  ---
+  duration_ms: 27.1549
+  type: 'test'
+  ...
+# Subtest: Gemini extended smoke deadline requires an explicit synthetic profile and cannot exceed 30 seconds
+ok 121 - Gemini extended smoke deadline requires an explicit synthetic profile and cannot exceed 30 seconds
+  ---
+  duration_ms: 58.0559
+  type: 'test'
+  ...
+# Subtest: Gemini keeps historical processing defaults immutable and rejects real-data permission overrides
+ok 122 - Gemini keeps historical processing defaults immutable and rejects real-data permission overrides
+  ---
+  duration_ms: 7.5662
+  type: 'test'
+  ...
+# Subtest: Gemini checks all six distinct field decisions and rejects partial, duplicate and extra consent
+ok 123 - Gemini checks all six distinct field decisions and rejects partial, duplicate and extra consent
+  ---
+  duration_ms: 5.139
+  type: 'test'
+  ...
+# Subtest: Gemini only uses the official HTTPS endpoint, safe model IDs and named credential references
+ok 124 - Gemini only uses the official HTTPS endpoint, safe model IDs and named credential references
+  ---
+  duration_ms: 4.4289
+  type: 'test'
+  ...
+# Subtest: Gemini wire schema uses only bounded OpenAPI types, homogeneous tuples and string enums
+ok 125 - Gemini wire schema uses only bounded OpenAPI types, homogeneous tuples and string enums
+  ---
+  duration_ms: 1.5255
+  type: 'test'
+  ...
+# Subtest: Gemini sends JSON schemas and minimized data with header authentication, no tools, redirects or credential-bearing URLs
+ok 126 - Gemini sends JSON schemas and minimized data with header authentication, no tools, redirects or credential-bearing URLs
+  ---
+  duration_ms: 6.2275
+  type: 'test'
+  ...
+# Subtest: Gemini treats standard and authorization credentials as opaque header-safe tokens
+ok 127 - Gemini treats standard and authorization credentials as opaque header-safe tokens
+  ---
+  duration_ms: 5.0144
+  type: 'test'
+  ...
+# Subtest: Gemini model selection is explicit and never silently falls back to another model
+ok 128 - Gemini model selection is explicit and never silently falls back to another model
+  ---
+  duration_ms: 5.4461
+  type: 'test'
+  ...
+# Subtest: Gemini 3 requests omit deprecated sampling and candidate-count parameters
+ok 129 - Gemini 3 requests omit deprecated sampling and candidate-count parameters
+  ---
+  duration_ms: 4.9873
+  type: 'test'
+  ...
+# Subtest: Gemini proposal output enforces both QueryPlan and DashboardSpecification contracts, including v1 compatibility
+ok 130 - Gemini proposal output enforces both QueryPlan and DashboardSpecification contracts, including v1 compatibility
+  ---
+  duration_ms: 4.2071
+  type: 'test'
+  ...
+# Subtest: Gemini planner integration requires an explicit synthetic live opt-in and preserves production rejection
+ok 131 - Gemini planner integration requires an explicit synthetic live opt-in and preserves production rejection
+  ---
+  duration_ms: 15.5675
+  type: 'test'
+  ...
+# Subtest: Gemini unsupported responses remain explicit and require no workspace activation
+ok 132 - Gemini unsupported responses remain explicit and require no workspace activation
+  ---
+  duration_ms: 5.0415
+  type: 'test'
+  ...
+# Subtest: Gemini rejects forged pins, unsupported operations, duplicate views and mismatched questions before returning a proposal
+ok 133 - Gemini rejects forged pins, unsupported operations, duplicate views and mismatched questions before returning a proposal
+  ---
+  duration_ms: 34.637
+  type: 'test'
+  ...
+# Subtest: Gemini rejects undeclared datasets, historical contexts, raw values and input getters before HTTP
+ok 134 - Gemini rejects undeclared datasets, historical contexts, raw values and input getters before HTTP
+  ---
+  duration_ms: 2.98
+  type: 'test'
+  ...
+# Subtest: Gemini strict JSON decoding rejects duplicate/unsafe keys, malformed encoding and deep output
+ok 135 - Gemini strict JSON decoding rejects duplicate/unsafe keys, malformed encoding and deep output
+  ---
+  duration_ms: 6.0302
+  type: 'test'
+  ...
+# Subtest: Gemini rejects truncated, blocked, multiple-candidate and tool-call responses
+ok 136 - Gemini rejects truncated, blocked, multiple-candidate and tool-call responses
+  ---
+  duration_ms: 17.892
+  type: 'test'
+  ...
+# Subtest: Gemini credential/quota/model HTTP errors fail closed and raw response bodies are never exposed
+ok 137 - Gemini credential/quota/model HTTP errors fail closed and raw response bodies are never exposed
+  ---
+  duration_ms: 6.0796
+  type: 'test'
+  ...
+# Subtest: Gemini reduces structured upstream errors to fixed categories without echoing their bodies
+ok 138 - Gemini reduces structured upstream errors to fixed categories without echoing their bodies
+  ---
+  duration_ms: 5.4039
+  type: 'test'
+  ...
+# Subtest: Gemini field diagnostics retain only fixed schema names, never upstream field contents
+ok 139 - Gemini field diagnostics retain only fixed schema names, never upstream field contents
+  ---
+  duration_ms: 3.0885
+  type: 'test'
+  ...
+# Subtest: Gemini sanitizes transport exceptions, redirects and wrong content types
+ok 140 - Gemini sanitizes transport exceptions, redirects and wrong content types
+  ---
+  duration_ms: 3.4531
+  type: 'test'
+  ...
+# Subtest: Gemini input and exhausted session budgets return PROVIDER_UNAVAILABLE without additional HTTP calls
+ok 141 - Gemini input and exhausted session budgets return PROVIDER_UNAVAILABLE without additional HTTP calls
+  ---
+  duration_ms: 4.7013
+  type: 'test'
+  ...
+# Subtest: Gemini reservations retain unknown completion costs and refund only validated conservative charges
+ok 142 - Gemini reservations retain unknown completion costs and refund only validated conservative charges
+  ---
+  duration_ms: 10.5274
+  type: 'test'
+  ...
+# Subtest: Gemini accounts for thinking and total usage and rejects missing, malformed or excessive usage
+ok 143 - Gemini accounts for thinking and total usage and rejects missing, malformed or excessive usage
+  ---
+  duration_ms: 9.2326
+  type: 'test'
+  ...
+# Subtest: Gemini bounds response streams, cancels overflow and enforces output bytes before schema validation
+ok 144 - Gemini bounds response streams, cancels overflow and enforces output bytes before schema validation
+  ---
+  duration_ms: 4.9324
+  type: 'test'
+  ...
+# Subtest: Gemini times out stalled headers and stalled response bodies without returning raw errors
+ok 145 - Gemini times out stalled headers and stalled response bodies without returning raw errors
+  ---
+  duration_ms: 60.3286
+  type: 'test'
+  ...
+# Subtest: Gemini cancellation settles independently, suppresses late completion and refuses concurrent calls
+ok 146 - Gemini cancellation settles independently, suppresses late completion and refuses concurrent calls
+  ---
+  duration_ms: 4.8937
+  type: 'test'
+  ...
+# Subtest: Gemini disposal revokes active work and prevents subsequent credential use
+ok 147 - Gemini disposal revokes active work and prevents subsequent credential use
+  ---
+  duration_ms: 1.8931
+  type: 'test'
+  ...
+# Subtest: Gemini configuration and consent are copied so later mutation cannot relax request limits
+ok 148 - Gemini configuration and consent are copied so later mutation cannot relax request limits
+  ---
+  duration_ms: 2.1486
+  type: 'test'
+  ...
+# Subtest: Gemini rejects credential-bearing provider output and never serializes credential values
+ok 149 - Gemini rejects credential-bearing provider output and never serializes credential values
+  ---
+  duration_ms: 3.0193
+  type: 'test'
+  ...
+# Subtest: Gemini can read a user-designated raw-key file without exposing it in diagnostics or requests other than authentication
+ok 150 - Gemini can read a user-designated raw-key file without exposing it in diagnostics or requests other than authentication
+  ---
+  duration_ms: 27.2429
+  type: 'test'
+  ...
+# Subtest: Gemini planner preserves unavailable errors without retrying credential or quota failures
+ok 151 - Gemini planner preserves unavailable errors without retrying credential or quota failures
+  ---
+  duration_ms: 10.3161
+  type: 'test'
+  ...
+# Subtest: Gemini default connection code and browser controller do not import the Node-only live credential adapter
+ok 152 - Gemini default connection code and browser controller do not import the Node-only live credential adapter
+  ---
+  duration_ms: 5.8011
+  type: 'test'
+  ...
+# Subtest: dated context cannot promote cultural meaning or leak across researched observation dates
+ok 153 - dated context cannot promote cultural meaning or leak across researched observation dates
+  ---
+  duration_ms: 0.9763
+  type: 'test'
+  ...
+# Subtest: events retain year/circa precision while supported successor maps retain independent dates
+ok 154 - events retain year/circa precision while supported successor maps retain independent dates
+  ---
+  duration_ms: 0.6082
+  type: 'test'
+  ...
+# Subtest: enrichment source and image closure respects the frozen resource budget
+ok 155 - enrichment source and image closure respects the frozen resource budget
+  ---
+  duration_ms: 9.2385
+  type: 'test'
+  ...
+# Subtest: successor navigation targets are admitted political observations, never fabricated intermediate maps
+ok 156 - successor navigation targets are admitted political observations, never fabricated intermediate maps
+  ---
+  duration_ms: 12.5335
+  type: 'test'
+  ...
+# Subtest: real root catalog accounts for all forty primary observations and bounded optional earlier dates
+ok 157 - real root catalog accounts for all forty primary observations and bounded optional earlier dates
+  ---
+  duration_ms: 7.3685
+  type: 'test'
+  ...
+# Subtest: catalog rejects excess observations, failed accounting, duplicate identity and overlapping dates
+ok 158 - catalog rejects excess observations, failed accounting, duplicate identity and overlapping dates
+  ---
+  duration_ms: 3.9119
+  type: 'test'
+  ...
+# Subtest: BCE source years have no year zero and exact observations never become reference validity
+ok 159 - BCE source years have no year zero and exact observations never become reference validity
+  ---
+  duration_ms: 3.7103
+  type: 'test'
+  ...
+# Subtest: catalog URLs reject cross-origin, credentials and non-HTTP schemes
+ok 160 - catalog URLs reject cross-origin, credentials and non-HTTP schemes
+  ---
+  duration_ms: 2.147
+  type: 'test'
+  ...
+# Subtest: root fetch enforces its 96 KiB budget on streamed bytes as well as declared length
+ok 161 - root fetch enforces its 96 KiB budget on streamed bytes as well as declared length
+  ---
+  duration_ms: 64.3
+  type: 'test'
+  ...
+# Subtest: manifests hydrate lazily and the four-entry cache uses recent access for eviction
+ok 162 - manifests hydrate lazily and the four-entry cache uses recent access for eviction
+  ---
+  duration_ms: 54.3302
+  type: 'test'
+  ...
+# Subtest: all shard loaders share two scene slots across dates and retain no full native archive
+ok 163 - all shard loaders share two scene slots across dates and retain no full native archive
+  ---
+  duration_ms: 96.4755
+  type: 'test'
+  ...
+# Subtest: a manifest hash or length mismatch cannot enter the cache and is retryable
+ok 164 - a manifest hash or length mismatch cannot enter the cache and is retryable
+  ---
+  duration_ms: 9.1073
+  type: 'test'
+  ...
+# Subtest: even a correctly hashed shard must match the selected source date and edition
+ok 165 - even a correctly hashed shard must match the selected source date and edition
+  ---
+  duration_ms: 17.3839
+  type: 'test'
+  ...
+# Subtest: aborted manifest delivery completing late cannot cache or replace the newer observation
+ok 166 - aborted manifest delivery completing late cannot cache or replace the newer observation
+  ---
+  duration_ms: 77.6304
+  type: 'test'
+  ...
+# Subtest: aborted scene hydration does not consume a shared payload slot or poison a warm scene
+ok 167 - aborted scene hydration does not consume a shared payload slot or poison a warm scene
+  ---
+  duration_ms: 42.9778
+  type: 'test'
+  ...
+# Subtest: neighbor manifests are bounded to previous and next observations and never fetch their scenes
+ok 168 - neighbor manifests are bounded to previous and next observations and never fetch their scenes
+  ---
+  duration_ms: 27.2399
+  type: 'test'
+  ...
+# Subtest: reversing neighbor prefetch waits for slow aborted transports and skips superseded queued batches
+ok 169 - reversing neighbor prefetch waits for slow aborted transports and skips superseded queued batches
+  ---
+  duration_ms: 21.3976
+  type: 'test'
+  ...
+# Subtest: all49 original source observations reconcile to typed admission or explicit omission under frozen budgets
+ok 170 - all49 original source observations reconcile to typed admission or explicit omission under frozen budgets
+  ---
+  duration_ms: 2888.9577
+  type: 'test'
+  ...
+# Subtest: every catalog entry loads full validated Canvas geometry and a native PMTiles tile with the same temporal identity
+ok 171 - every catalog entry loads full validated Canvas geometry and a native PMTiles tile with the same temporal identity
+  ---
+  duration_ms: 1959.1857
+  type: 'test'
+  ...
+# Subtest: source-context and cultural presence never use a political relation, and protected Hawaiian components stay omitted
+ok 172 - source-context and cultural presence never use a political relation, and protected Hawaiian components stay omitted
+  ---
+  duration_ms: 644.1819
+  type: 'test'
+  ...
+# Subtest: BCE, modern and reference chronology remain nominal observations with real intervening gaps
+ok 173 - BCE, modern and reference chronology remain nominal observations with real intervening gaps
+  ---
+  duration_ms: 3.8351
+  type: 'test'
+  ...
+# Subtest: deliberate dated States mappings precede aggregate lexical rules
+ok 174 - deliberate dated States mappings precede aggregate lexical rules
+  ---
+  duration_ms: 1.2576
+  type: 'test'
+  ...
+# Subtest: culture and subsistence aggregates never acquire political ownership
+ok 175 - culture and subsistence aggregates never acquire political ownership
+  ---
+  duration_ms: 0.1853
+  type: 'test'
+  ...
+# Subtest: date scopes and known anomalies precede exact mappings
+ok 176 - date scopes and known anomalies precede exact mappings
+  ---
+  duration_ms: 0.229
+  type: 'test'
+  ...
+# Subtest: France anomaly reassessment permits Restoration observation without fabricating daily continuity
+ok 177 - France anomaly reassessment permits Restoration observation without fabricating daily continuity
+  ---
+  duration_ms: 0.156
+  type: 'test'
+  ...
+# Subtest: protected Hawaiʻi names and relationships remain quarantined before generic political wording
+ok 178 - protected Hawaiʻi names and relationships remain quarantined before generic political wording
+  ---
+  duration_ms: 0.1706
+  type: 'test'
+  ...
+# Subtest: all40 primary and admitted optional sources reconcile once with exact raw hashes and properties
+ok 179 - all40 primary and admitted optional sources reconcile once with exact raw hashes and properties
+  ---
+  duration_ms: 1332.9965
+  type: 'test'
+  ...
+# Subtest: primary mapping bytes remain preserved; later dated review changes only its sealed feature rows
+ok 180 - primary mapping bytes remain preserved; later dated review changes only its sealed feature rows
+  ---
+  duration_ms: 98.3232
+  type: 'test'
+  ...
+# Subtest: known Isles identity joins matching dated fragments while unknown continuity stays scoped
+ok 181 - known Isles identity joins matching dated fragments while unknown continuity stays scoped
+  ---
+  duration_ms: 40.7613
+  type: 'test'
+  ...
+# Subtest: nine earlier observations have explicitly amended typed semantics, never prehistoric ownership by default
+ok 182 - nine earlier observations have explicitly amended typed semantics, never prehistoric ownership by default
+  ---
+  duration_ms: 26.2842
+  type: 'test'
+  ...
+# Subtest: city population never looks ahead, interpolates a future estimate, or invents foundation
+ok 183 - city population never looks ahead, interpolates a future estimate, or invents foundation
+  ---
+  duration_ms: 3.6387
+  type: 'test'
+  ...
+# Subtest: historical BCE inputs become astronomical years and a historical year zero is rejected
+ok 184 - historical BCE inputs become astronomical years and a historical year zero is rejected
+  ---
+  duration_ms: 1.0847
+  type: 'test'
+  ...
+# Subtest: old population peaks lose world rank and remain only an explicitly dated location reference
+ok 185 - old population peaks lose world rank and remain only an explicitly dated location reference
+  ---
+  duration_ms: 1.2302
+  type: 'test'
+  ...
+# Subtest: only an explicit settlement end removes an attested location and retained selection states its absence
+ok 186 - only an explicit settlement end removes an attested location and retained selection states its absence
+  ---
+  duration_ms: 0.684
+  type: 'test'
+  ...
+# Subtest: dated names and capital stars change only inside the source period; no future capital leaks
+ok 187 - dated names and capital stars change only inside the source period; no future capital leaks
+  ---
+  duration_ms: 1.5126
+  type: 'test'
+  ...
+# Subtest: a capital without population appears during its documented period without inventing an estimate
+ok 188 - a capital without population appears during its documented period without inventing an estimate
+  ---
+  duration_ms: 0.5707
+  type: 'test'
+  ...
+# Subtest: world population order responds to the requested year and only uses admitted evidence
+ok 189 - world population order responds to the requested year and only uses admitted evidence
+  ---
+  duration_ms: 0.4587
+  type: 'test'
+  ...
+# Subtest: city product validates provenance, finite coordinates, names, and bounded observations
+ok 190 - city product validates provenance, finite coordinates, names, and bounded observations
+  ---
+  duration_ms: 0.7042
+  type: 'test'
+  ...
+# Subtest: explicit city aliases merge the same gazetteer location after a dated rename, without merging neighbors
+ok 191 - explicit city aliases merge the same gazetteer location after a dated rename, without merging neighbors
+  ---
+  duration_ms: 0.9541
+  type: 'test'
+  ...
+# Subtest: capital identity aliases carry the period name without creating a duplicate modern reference
+ok 192 - capital identity aliases carry the period name without creating a duplicate modern reference
+  ---
+  duration_ms: 0.795
+  type: 'test'
+  ...
+# Subtest: modern urban-centre coordinates and definition appear only after the UN observation is admitted
+ok 193 - modern urban-centre coordinates and definition appear only after the UN observation is admitted
+  ---
+  duration_ms: 0.6124
+  type: 'test'
+  ...
+# Subtest: bundled city sources cover ancient records and contemporary urban centres without future population leakage
+ok 194 - bundled city sources cover ancient records and contemporary urban centres without future population leakage
+  ---
+  duration_ms: 302.4264
+  type: 'test'
+  ...
+# Subtest: bundled settlement histories avoid known early-city anomalies and keep abandoned peaks out of modern ranking
+ok 195 - bundled settlement histories avoid known early-city anomalies and keep abandoned peaks out of modern ranking
+  ---
+  duration_ms: 147.3134
+  type: 'test'
+  ...
+# Subtest: bundled aliases remove Byzantium after Constantinople rename and known capital identities join exactly once
+ok 196 - bundled aliases remove Byzantium after Constantinople rename and known capital identities join exactly once
+  ---
+  duration_ms: 116.5536
+  type: 'test'
+  ...
+# Subtest: ruler scrubbing preserves fractional and negative canonical input, with no observation snapping
+ok 197 - ruler scrubbing preserves fractional and negative canonical input, with no observation snapping
+  ---
+  duration_ms: 1.5457
+  type: 'test'
+  ...
+# Subtest: bounded zoom preserves the pointed day and reverses without date drift
+ok 198 - bounded zoom preserves the pointed day and reverses without date drift
+  ---
+  duration_ms: 1.1826
+  type: 'test'
+  ...
+# Subtest: calendar ruler labels cross BCE and CE without inventing a year zero
+ok 199 - calendar ruler labels cross BCE and CE without inventing a year zero
+  ---
+  duration_ms: 0.7684
+  type: 'test'
+  ...
+# Subtest: timeline rejects unbounded input and enforces a useful minimum navigation window
+ok 200 - timeline rejects unbounded input and enforces a useful minimum navigation window
+  ---
+  duration_ms: 1.6559
+  type: 'test'
+  ...
+# Subtest: every continent remains selectable without treating source observations as researched events
+ok 201 - every continent remains selectable without treating source observations as researched events
+  ---
+  duration_ms: 0.4409
+  type: 'test'
+  ...
+# Subtest: event nodes retain every exact date and expose nearby events as a group
+ok 202 - event nodes retain every exact date and expose nearby events as a group
+  ---
+  duration_ms: 0.9611
+  type: 'test'
+  ...
+# Subtest: a dense full-history ruler bounds nodes without truncating research entries
+ok 203 - a dense full-history ruler bounds nodes without truncating research entries
+  ---
+  duration_ms: 19.5786
+  type: 'test'
+  ...
+# Subtest: world1900 retains admissible source polygons and explicitly accounts for every source feature
+ok 204 - world1900 retains admissible source polygons and explicitly accounts for every source feature
+  ---
+  duration_ms: 81.517
+  type: 'test'
+  ...
+# Subtest: world archive contains spatially addressable land and political tiles on three continents
+ok 205 - world archive contains spatially addressable land and political tiles on three continents
+  ---
+  duration_ms: 86.4764
+  type: 'test'
+  ...
+# Subtest: global neutral land loads under unchanged caps and retains every physical component
+ok 206 - global neutral land loads under unchanged caps and retains every physical component
+  ---
+  duration_ms: 141.3875
+  type: 'test'
+  ...
+# Subtest: world route preserves UK entity intent across regional detail without aliasing display states
+ok 207 - world route preserves UK entity intent across regional detail without aliasing display states
+  ---
+  duration_ms: 148.8461
+  type: 'test'
+  ...
+# Subtest: world observation retains year precision and does not produce earlier political coverage
+ok 208 - world observation retains year precision and does not produce earlier political coverage
+  ---
+  duration_ms: 71.6661
+  type: 'test'
+  ...
+# Subtest: archipelago parts and clipped tile duplicates produce one independent entity label
+ok 209 - archipelago parts and clipped tile duplicates produce one independent entity label
+  ---
+  duration_ms: 2.7148
+  type: 'test'
+  ...
+# Subtest: committed half-open validity removes dissolved labels and does not synthesize geometry centroids
+ok 210 - committed half-open validity removes dissolved labels and does not synthesize geometry centroids
+  ---
+  duration_ms: 0.2567
+  type: 'test'
+  ...
+# Subtest: collision priority and stable identity ties are independent of input or tile order
+ok 211 - collision priority and stable identity ties are independent of input or tile order
+  ---
+  duration_ms: 0.7916
+  type: 'test'
+  ...
+# Subtest: fully offscreen, clipped, colliding and invalid anchors are filtered with measured text bounds
+ok 212 - fully offscreen, clipped, colliding and invalid anchors are filtered with measured text bounds
+  ---
+  duration_ms: 0.4525
+  type: 'test'
+  ...
+# Subtest: a seam-aware projection chooses one world copy, while repeated seam anchors remain deduplicated
+ok 213 - a seam-aware projection chooses one world copy, while repeated seam anchors remain deduplicated
+  ---
+  duration_ms: 0.3699
+  type: 'test'
+  ...
+# Subtest: label selection and placement do not mutate source anchors or polygons
+ok 214 - label selection and placement do not mutate source anchors or polygons
+  ---
+  duration_ms: 0.3254
+  type: 'test'
+  ...
+# Subtest: global labels have bounded visible density even without collisions
+ok 215 - global labels have bounded visible density even without collisions
+  ---
+  duration_ms: 11.6883
+  type: 'test'
+  ...
+# Subtest: cultural and context labels retain meaning and do not crowd out political labels
+ok 216 - cultural and context labels retain meaning and do not crowd out political labels
+  ---
+  duration_ms: 0.2924
+  type: 'test'
+  ...
+# Subtest: continuous scrub verification uses canonical days within one year and four actual year crossings
+ok 217 - continuous scrub verification uses canonical days within one year and four actual year crossings
+  ---
+  duration_ms: 3.2638
+  type: 'test'
+  ...
+# Subtest: production controller uses the prepared transport and degrades without credentials or budgets
+ok 218 - production controller uses the prepared transport and degrades without credentials or budgets
+  ---
+  duration_ms: 3.4658
+  type: 'test'
+  ...
+# Subtest: explicit controller configuration cannot activate model processing
+ok 219 - explicit controller configuration cannot activate model processing
+  ---
+  duration_ms: 6.5328
+  type: 'test'
+  ...
+# Subtest: native browser range delivery never uses a cache object as the fetch receiver
+ok 220 - native browser range delivery never uses a cache object as the fetch receiver
+  ---
+  duration_ms: 43.7403
+  type: 'test'
+  ...
+# Subtest: native continuation preserves every protected historical input and the main dependency policy
+ok 221 - native continuation preserves every protected historical input and the main dependency policy
+  ---
+  duration_ms: 3869.0108
+  type: 'test'
+  ...
+# Subtest: native build matches actual source bytes and excludes the Node-only Gemini credential transport from browser assets
+ok 222 - native build matches actual source bytes and excludes the Node-only Gemini credential transport from browser assets
+  ---
+  duration_ms: 1746.4724
+  type: 'test'
+  ...
+# Subtest: native portability edits retain the exact original M2 test assertions without changing archived checksum policy
+ok 223 - native portability edits retain the exact original M2 test assertions without changing archived checksum policy
+  ---
+  duration_ms: 24.8524
+  type: 'test'
+  ...
+# Subtest: overlapping hits resolve identically across tile duplicates, input order and untrusted metadata
+ok 224 - overlapping hits resolve identically across tile duplicates, input order and untrusted metadata
+  ---
+  duration_ms: 2.5933
+  type: 'test'
+  ...
+# Subtest: priority comes only from finite canonical values before area and stable identity ties
+ok 225 - priority comes only from finite canonical values before area and stable identity ties
+  ---
+  duration_ms: 0.7224
+  type: 'test'
+  ...
+# Subtest: equal priority uses polygon area with holes removed, independent of hole winding
+ok 226 - equal priority uses polygon area with holes removed, independent of hole winding
+  ---
+  duration_ms: 0.3457
+  type: 'test'
+  ...
+# Subtest: area ranking handles a polygon crossing the longitude seam
+ok 227 - area ranking handles a polygon crossing the longitude seam
+  ---
+  duration_ms: 0.2142
+  type: 'test'
+  ...
+# Subtest: exact area ties use code points for entity, state and render identifiers
+ok 228 - exact area ties use code points for entity, state and render identifiers
+  ---
+  duration_ms: 0.5154
+  type: 'test'
+  ...
+# Subtest: stale, unknown and half-open inactive hits cannot become a selection
+ok 229 - stale, unknown and half-open inactive hits cannot become a selection
+  ---
+  duration_ms: 0.1992
+  type: 'test'
+  ...
+# Subtest: one island hit selects all active parts of its entity and excludes other or inactive parts
+ok 230 - one island hit selects all active parts of its entity and excludes other or inactive parts
+  ---
+  duration_ms: 0.2413
+  type: 'test'
+  ...
+# Subtest: commits preserve the entity and active representative, or choose a new deterministic part
+ok 231 - commits preserve the entity and active representative, or choose a new deterministic part
+  ---
+  duration_ms: 0.4472
+  type: 'test'
+  ...
+# Subtest: accessible entity selection also uses all committed parts and rejects absent entities
+ok 232 - accessible entity selection also uses all committed parts and rejects absent entities
+  ---
+  duration_ms: 0.3368
+  type: 'test'
+  ...
+# Subtest: political hits precede cultural and source context regardless of smaller context area or priority
+ok 233 - political hits precede cultural and source context regardless of smaller context area or priority
+  ---
+  duration_ms: 0.5594
+  type: 'test'
+  ...
+# Subtest: unavailable and live adapters are never invoked or replaced with prepared answers
+ok 234 - unavailable and live adapters are never invoked or replaced with prepared answers
+  ---
+  duration_ms: 2.3917
+  type: 'test'
+  ...
+# Subtest: proposal uses trusted specification validation and produces source-identical numerical rows
+ok 235 - proposal uses trusted specification validation and produces source-identical numerical rows
+  ---
+  duration_ms: 44.8287
+  type: 'test'
+  ...
+# Subtest: explicit unsupported handling never returns an example as its answer
+ok 236 - explicit unsupported handling never returns an example as its answer
+  ---
+  duration_ms: 1.4894
+  type: 'test'
+  ...
+# Subtest: question, parent and permitted catalogue constrain validated output
+ok 237 - question, parent and permitted catalogue constrain validated output
+  ---
+  duration_ms: 12.255
+  type: 'test'
+  ...
+# Subtest: default repair ceiling is exactly one proposal plus two repairs; repair payload contains no rejected content
+ok 238 - default repair ceiling is exactly one proposal plus two repairs; repair payload contains no rejected content
+  ---
+  duration_ms: 2.4881
+  type: 'test'
+  ...
+# Subtest: a bounded repair can recover, but cannot add a tool or exceed configured repairs
+ok 239 - a bounded repair can recover, but cannot add a tool or exceed configured repairs
+  ---
+  duration_ms: 1.8104
+  type: 'test'
+  ...
+# Subtest: malicious nested resources, operations, claims and oversized output fail closed
+ok 240 - malicious nested resources, operations, claims and oversized output fail closed
+  ---
+  duration_ms: 2.7527
+  type: 'test'
+  ...
+# Subtest: source descriptors, values, paths, duplicate IDs and extra context fields are never forwarded
+ok 241 - source descriptors, values, paths, duplicate IDs and extra context fields are never forwarded
+  ---
+  duration_ms: 0.5069
+  type: 'test'
+  ...
+# Subtest: token/tool/output budgets are explicit and cannot enable tools or silently repair usage overruns
+ok 242 - token/tool/output budgets are explicit and cannot enable tools or silently repair usage overruns
+  ---
+  duration_ms: 0.9336
+  type: 'test'
+  ...
+# Subtest: malformed usage fails rather than removing accounting
+ok 243 - malformed usage fails rather than removing accounting
+  ---
+  duration_ms: 0.667
+  type: 'test'
+  ...
+# OFFLINE_PLANNER_EVALUATION {"mode":"offline-fixtures","liveGenerationEvaluated":false,"cases":[{"id":"held-out-paraphrase","category":"held-out-paraphrase","status":"proposed","scores":{"planValidity":true,"answerabilityHandling":true,"numericalCorrectness":true,"evidenceClaimSupport":true,"followupFidelity":null}},{"id":"unfamiliar-supported-combination","category":"unfamiliar-supported-combination","status":"proposed","scores":{"planValidity":true,"answerabilityHandling":true,"numericalCorrectness":true,"evidenceClaimSupport":true,"followupFidelity":null}},{"id":"selection-date-revision","category":"selection-date-revision","status":"proposed","scores":{"planValidity":true,"answerabilityHandling":true,"numericalCorrectness":true,"evidenceClaimSupport":true,"followupFidelity":true}},{"id":"sparse-qualitative-evidence","category":"sparse-qualitative-evidence","status":"proposed","scores":{"planValidity":true,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":true,"followupFidelity":null}},{"id":"unsupported-quantities","category":"unsupported-quantities","status":"unsupported","scores":{"planValidity":null,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":null,"followupFidelity":null}},{"id":"conflicting-definitions","category":"conflicting-definitions","status":"unsupported","scores":{"planValidity":null,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":null,"followupFidelity":null}},{"id":"prompt-injection","category":"prompt-injection","status":"unsupported","scores":{"planValidity":null,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":null,"followupFidelity":null}},{"id":"malformed-output","category":"malformed-output","status":"error","scores":{"planValidity":null,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":null,"followupFidelity":null}},{"id":"provider-failure","category":"provider-failure","status":"error","scores":{"planValidity":null,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":null,"followupFidelity":null}},{"id":"stale-completion","category":"stale-completion","status":"error","scores":{"planValidity":null,"answerabilityHandling":true,"numericalCorrectness":null,"evidenceClaimSupport":null,"followupFidelity":true}}],"metrics":{"planValidity":{"passed":4,"failed":0,"notApplicable":6},"answerabilityHandling":{"passed":10,"failed":0,"notApplicable":0},"numericalCorrectness":{"passed":3,"failed":0,"notApplicable":7},"evidenceClaimSupport":{"passed":4,"failed":0,"notApplicable":6},"followupFidelity":{"passed":2,"failed":0,"notApplicable":8}}}
+# Subtest: whole-request timeout stops a provider that ignores AbortSignal
+ok 244 - whole-request timeout stops a provider that ignores AbortSignal
+  ---
+  duration_ms: 31.3396
+  type: 'test'
+  ...
+# Subtest: external cancellation and explicit cancel preserve no completion
+ok 245 - external cancellation and explicit cancel preserve no completion
+  ---
+  duration_ms: 0.9444
+  type: 'test'
+  ...
+# Subtest: newer request wins even when the stale provider resolves afterward
+ok 246 - newer request wins even when the stale provider resolves afterward
+  ---
+  duration_ms: 1.3874
+  type: 'test'
+  ...
+# Subtest: redacted logs omit question/context/output/provider error and do not let logging break validation
+ok 247 - redacted logs omit question/context/output/provider error and do not let logging break validation
+  ---
+  duration_ms: 0.7782
+  type: 'test'
+  ...
+# Subtest: offline evaluation separates validity, answerability, numerical, evidence and follow-up metrics
+ok 248 - offline evaluation separates validity, answerability, numerical, evidence and follow-up metrics
+  ---
+  duration_ms: 17.7853
+  type: 'test'
+  ...
+# Subtest: BCE chronology has no year zero and does not shift cessation by one year
+ok 249 - BCE chronology has no year zero and does not shift cessation by one year
+  ---
+  duration_ms: 1.5435
+  type: 'test'
+  ...
+# Subtest: known extinct polities are not held to a future observation or revived by backwards navigation
+ok 250 - known extinct polities are not held to a future observation or revived by backwards navigation
+  ---
+  duration_ms: 0.3733
+  type: 'test'
+  ...
+# Subtest: Han interregnum is a gap; familiar names and modern Benin are not merged
+ok 251 - Han interregnum is a gap; familiar names and modern Benin are not merged
+  ---
+  duration_ms: 0.4299
+  type: 'test'
+  ...
+# Subtest: guards change materialization keys only at documented date boundaries
+ok 252 - guards change materialization keys only at documented date boundaries
+  ---
+  duration_ms: 0.2283
+  type: 'test'
+  ...
+# Subtest: scene filter preserves originals, evidence, cultural presence and unrelated states, and provides native blocked IDs
+ok 253 - scene filter preserves originals, evidence, cultural presence and unrelated states, and provides native blocked IDs
+  ---
+  duration_ms: 1.2451
+  type: 'test'
+  ...
+# Subtest: every negative chronology constraint includes supporting sources and a clear scope
+ok 254 - every negative chronology constraint includes supporting sources and a clear scope
+  ---
+  duration_ms: 0.306
+  type: 'test'
+  ...
+# Subtest: targeted missing-state admissions use retained source shapes and scoped source years
+ok 255 - targeted missing-state admissions use retained source shapes and scoped source years
+  ---
+  duration_ms: 55.5457
+  type: 'test'
+  ...
+# Subtest: modern Sudan continues but a pre-partition map cannot masquerade as its current border
+ok 256 - modern Sudan continues but a pre-partition map cannot masquerade as its current border
+  ---
+  duration_ms: 0.3587
+  type: 'test'
+  ...
+# Subtest: retained source contradictions are suppressed without rewriting their evidence
+ok 257 - retained source contradictions are suppressed without rewriting their evidence
+  ---
+  duration_ms: 46.9322
+  type: 'test'
+  ...
+# Subtest: adding reviewed states preserves every pre-existing polygon shape
+ok 258 - adding reviewed states preserves every pre-existing polygon shape
+  ---
+  duration_ms: 70.9785
+  type: 'test'
+  ...
+# Subtest: teaching-era chronology suppresses anachronistic source appearances and ends held regimes without inventing successors
+ok 259 - teaching-era chronology suppresses anachronistic source appearances and ends held regimes without inventing successors
+  ---
+  duration_ms: 0.4065
+  type: 'test'
+  ...
+# Subtest: population lookup refuses stale edition, state, geometry and dates
+ok 260 - population lookup refuses stale edition, state, geometry and dates
+  ---
+  duration_ms: 3.2644
+  type: 'test'
+  ...
+# Subtest: population lookup copies records and rejects overlapping observations
+ok 261 - population lookup copies records and rejects overlapping observations
+  ---
+  duration_ms: 0.7831
+  type: 'test'
+  ...
+# Subtest: seven-part population key and bounded numeric values are required
+ok 262 - seven-part population key and bounded numeric values are required
+  ---
+  duration_ms: 0.5497
+  type: 'test'
+  ...
+# Subtest: lookup sidecar verifies length and hash before returning a record
+ok 263 - lookup sidecar verifies length and hash before returning a record
+  ---
+  duration_ms: 40.9821
+  type: 'test'
+  ...
+# Subtest: runtime population module contains no geometry or clipping imports
+ok 264 - runtime population module contains no geometry or clipping imports
+  ---
+  duration_ms: 10.18
+  type: 'test'
+  ...
+# Subtest: real observation retains source scope and exact migration interval
+ok 265 - real observation retains source scope and exact migration interval
+  ---
+  duration_ms: 5.1723
+  type: 'test'
+  ...
+# Subtest: delivered sidecars match hashes and keep synthetic and regional observations separate
+ok 266 - delivered sidecars match hashes and keep synthetic and regional observations separate
+  ---
+  duration_ms: 4.2055
+  type: 'test'
+  ...
+# Subtest: expanding a border changes historical population without changing the fixed-area measure
+ok 267 - expanding a border changes historical population without changing the fixed-area measure
+  ---
+  duration_ms: 3.2047
+  type: 'test'
+  ...
+# Subtest: growth in density changes both population estimates while the fixed area stays constant
+ok 268 - growth in density changes both population estimates while the fixed area stays constant
+  ---
+  duration_ms: 0.7167
+  type: 'test'
+  ...
+# Subtest: partial density coverage is a subtotal and never extrapolates to the full footprint
+ok 269 - partial density coverage is a subtotal and never extrapolates to the full footprint
+  ---
+  duration_ms: 0.4356
+  type: 'test'
+  ...
+# Subtest: holes are subtracted regardless of winding, and all disjoint islands contribute
+ok 270 - holes are subtracted regardless of winding, and all disjoint islands contribute
+  ---
+  duration_ms: 0.7441
+  type: 'test'
+  ...
+# Subtest: concave polygon clipping retains separated intersections without filling the gap
+ok 271 - concave polygon clipping retains separated intersections without filling the gap
+  ---
+  duration_ms: 0.3774
+  type: 'test'
+  ...
+# Subtest: missing density or an uncovered region is unavailable, but measured zero remains zero
+ok 272 - missing density or an uncovered region is unavailable, but measured zero remains zero
+  ---
+  duration_ms: 0.365
+  type: 'test'
+  ...
+# Subtest: overlapping cells fail closed instead of double-counting people
+ok 273 - overlapping cells fail closed instead of double-counting people
+  ---
+  duration_ms: 0.4127
+  type: 'test'
+  ...
+# Subtest: population weights spherical area rather than treating degrees as equal areas
+ok 274 - population weights spherical area rather than treating degrees as equal areas
+  ---
+  duration_ms: 0.3019
+  type: 'test'
+  ...
+# Subtest: longitude-seam rectangles use their narrow footprint
+ok 275 - longitude-seam rectangles use their narrow footprint
+  ---
+  duration_ms: 0.4601
+  type: 'test'
+  ...
+# Subtest: the authored fixture reference is stable after its historical interval ends
+ok 276 - the authored fixture reference is stable after its historical interval ends
+  ---
+  duration_ms: 0.8218
+  type: 'test'
+  ...
+# Subtest: real-data identifiers do not inherit the synthetic fixed area or density
+ok 277 - real-data identifiers do not inherit the synthetic fixed area or density
+  ---
+  duration_ms: 1.0123
+  type: 'test'
+  ...
+# Subtest: missing configuration, key and token budgets degrade to PROVIDER_UNAVAILABLE before invocation
+ok 278 - missing configuration, key and token budgets degrade to PROVIDER_UNAVAILABLE before invocation
+  ---
+  duration_ms: 12.3202
+  type: 'test'
+  ...
+# Subtest: production connection never reads a key value and consent cannot enable model processing
+ok 279 - production connection never reads a key value and consent cannot enable model processing
+  ---
+  duration_ms: 2.9752
+  type: 'test'
+  ...
+# Subtest: every transmitted field needs a distinct explicit consent decision
+ok 280 - every transmitted field needs a distinct explicit consent decision
+  ---
+  duration_ms: 8.0027
+  type: 'test'
+  ...
+# Subtest: source or global modelProcessing:true cannot be supplied as a consent override
+ok 281 - source or global modelProcessing:true cannot be supplied as a consent override
+  ---
+  duration_ms: 2.6163
+  type: 'test'
+  ...
+# Subtest: configuration rejects secrets, URL credentials, query parameters, insecure endpoints and unknown controls
+ok 282 - configuration rejects secrets, URL credentials, query parameters, insecure endpoints and unknown controls
+  ---
+  duration_ms: 1.1709
+  type: 'test'
+  ...
+# Subtest: production readiness diagnostics retain neither destinations, credential references nor error messages
+ok 283 - production readiness diagnostics retain neither destinations, credential references nor error messages
+  ---
+  duration_ms: 0.5843
+  type: 'test'
+  ...
+# Subtest: input duplicate keys, prototype pollution and accessors are rejected without executing getters
+ok 284 - input duplicate keys, prototype pollution and accessors are rejected without executing getters
+  ---
+  duration_ms: 0.7658
+  type: 'test'
+  ...
+# Subtest: offline transport receives frozen minimized request and explicit caps, never credentials or source values
+ok 285 - offline transport receives frozen minimized request and explicit caps, never credentials or source values
+  ---
+  duration_ms: 2.4813
+  type: 'test'
+  ...
+# Subtest: offline transport cannot be constructed for live destinations, review consent or non-synthetic providers
+ok 286 - offline transport cannot be constructed for live destinations, review consent or non-synthetic providers
+  ---
+  duration_ms: 1.1433
+  type: 'test'
+  ...
+# Subtest: configuration and consent are copied at construction; later host mutation cannot raise caps
+ok 287 - configuration and consent are copied at construction; later host mutation cannot raise caps
+  ---
+  duration_ms: 1.1556
+  type: 'test'
+  ...
+# Subtest: unreviewed dataset IDs, values, paths and getters never reach the offline transport
+ok 288 - unreviewed dataset IDs, values, paths and getters never reach the offline transport
+  ---
+  duration_ms: 1.2737
+  type: 'test'
+  ...
+# Subtest: session reservation, input byte accounting and attempt limits bound fixture calls
+ok 289 - session reservation, input byte accounting and attempt limits bound fixture calls
+  ---
+  duration_ms: 2.5841
+  type: 'test'
+  ...
+# Subtest: reported tool calls, token overrun, malformed usage and oversized output fail closed
+ok 290 - reported tool calls, token overrun, malformed usage and oversized output fail closed
+  ---
+  duration_ms: 6.1934
+  type: 'test'
+  ...
+# Subtest: duplicate and unsafe JSON keys, non-finite numbers, invalid UTF-8 and deep output are rejected
+ok 291 - duplicate and unsafe JSON keys, non-finite numbers, invalid UTF-8 and deep output are rejected
+  ---
+  duration_ms: 3.7891
+  type: 'test'
+  ...
+# PROVIDER_TRANSPORT_VERIFICATION {"policy":{"version":"m3-provider-closed-1","modelProcessing":false,"liveServices":false,"tools":0},"liveRequests":0,"fixtures":"synthetic-only","sourceProcessingConsentOverride":"rejected","networkImplementation":"absent"}
+# Subtest: timeout settles an uncooperative fixture and retains its reservation
+ok 292 - timeout settles an uncooperative fixture and retains its reservation
+  ---
+  duration_ms: 10.1428
+  type: 'test'
+  ...
+# Subtest: cancellation and one active exchange suppress late completion without claiming remote termination
+ok 293 - cancellation and one active exchange suppress late completion without claiming remote termination
+  ---
+  duration_ms: 1.3132
+  type: 'test'
+  ...
+# Subtest: provider failures and unsupported content types are sanitized without repair or raw output
+ok 294 - provider failures and unsupported content types are sanitized without repair or raw output
+  ---
+  duration_ms: 1.8564
+  type: 'test'
+  ...
+# Subtest: offline wire adapter works behind unchanged planner validation and production has no network path
+ok 295 - offline wire adapter works behind unchanged planner validation and production has no network path
+  ---
+  duration_ms: 3.0659
+  type: 'test'
+  ...
+# Subtest: W1-03/12: all 44 pilot observations independently resolve to canonical pointers and original workbook cells
+ok 296 - W1-03/12: all 44 pilot observations independently resolve to canonical pointers and original workbook cells
+  ---
+  duration_ms: 4965.055
+  type: 'test'
+  ...
+# Subtest: W1-04/12: both prepared specifications use the same executor, with 44 and 8 actual rows and complete lineage
+ok 297 - W1-04/12: both prepared specifications use the same executor, with 44 and 8 actual rows and complete lineage
+  ---
+  duration_ms: 28.9202
+  type: 'test'
+  ...
+# Subtest: W1-06: inclusive windows retain actual endpoints while cursor references never borrow future observations
+ok 298 - W1-06: inclusive windows retain actual endpoints while cursor references never borrow future observations
+  ---
+  duration_ms: 0.5203
+  type: 'test'
+  ...
+# Subtest: W1-06: astronomical BCE years match the existing navigation adapter; uncertain ranges overlap inclusively
+ok 299 - W1-06: astronomical BCE years match the existing navigation adapter; uncertain ranges overlap inclusively
+  ---
+  duration_ms: 0.73
+  type: 'test'
+  ...
+# Subtest: W1-06/11: inverted, mismatched, fractional and nonfinite query windows fail closed
+ok 300 - W1-06/11: inverted, mismatched, fractional and nonfinite query windows fail closed
+  ---
+  duration_ms: 0.9734
+  type: 'test'
+  ...
+# Subtest: W1-07: explicit missing population remains null, zero remains a real zero, inconsistent conversions fail
+ok 301 - W1-07: explicit missing population remains null, zero remains a real zero, inconsistent conversions fail
+  ---
+  duration_ms: 5.8764
+  type: 'test'
+  ...
+# Subtest: W1-07: unknown units cannot enter a shared population chart
+ok 302 - W1-07: unknown units cannot enter a shared population chart
+  ---
+  duration_ms: 1.8841
+  type: 'test'
+  ...
+# Subtest: W1-07: ratios require observed compatible units, positive denominator and documented fixed geography
+ok 303 - W1-07: ratios require observed compatible units, positive denominator and documented fixed geography
+  ---
+  duration_ms: 0.8754
+  type: 'test'
+  ...
+# Subtest: W1-07/11: duplicate entities, observation IDs, source pointers and joins cannot multiply output
+ok 304 - W1-07/11: duplicate entities, observation IDs, source pointers and joins cannot multiply output
+  ---
+  duration_ms: 6.3116
+  type: 'test'
+  ...
+# Subtest: W1-03/09: mismatched cells, missing entities, unsafe citations and source editions are rejected
+ok 305 - W1-03/09: mismatched cells, missing entities, unsafe citations and source editions are rejected
+  ---
+  duration_ms: 6.5329
+  type: 'test'
+  ...
+# Subtest: W1-11: nested external loaders, executable fields, markup, unknown bindings and operations fail validation
+ok 306 - W1-11: nested external loaders, executable fields, markup, unknown bindings and operations fail validation
+  ---
+  duration_ms: 2.6074
+  type: 'test'
+  ...
+# Subtest: W1-11: oversized and deeply nested inputs, cycles and excessive views are bounded before activation
+ok 307 - W1-11: oversized and deeply nested inputs, cycles and excessive views are bounded before activation
+  ---
+  duration_ms: 1.1
+  type: 'test'
+  ...
+# Subtest: W1-11: instruction-like data is inert and cannot alter the plan or permissions
+ok 308 - W1-11: instruction-like data is inert and cannot alter the plan or permissions
+  ---
+  duration_ms: 4.8551
+  type: 'test'
+  ...
+# Subtest: W1-08: deliberately out-of-order cold completions install only the latest result
+ok 309 - W1-08: deliberately out-of-order cold completions install only the latest result
+  ---
+  duration_ms: 5.6497
+  type: 'test'
+  ...
+# Subtest: W1-08: A-B-A rapid reversal rejects both earlier completions even when A has the same specification
+ok 310 - W1-08: A-B-A rapid reversal rejects both earlier completions even when A has the same specification
+  ---
+  duration_ms: 5.2643
+  type: 'test'
+  ...
+# Subtest: W1-09: malformed, empty, missing and over-budget inquiries preserve the complete last valid revision
+ok 311 - W1-09: malformed, empty, missing and over-budget inquiries preserve the complete last valid revision
+  ---
+  duration_ms: 6.4129
+  type: 'test'
+  ...
+# Subtest: W1-09: bounded cold timeout and late completion retain usable evidence and do not commit
+ok 312 - W1-09: bounded cold timeout and late completion retain usable evidence and do not commit
+  ---
+  duration_ms: 15.9613
+  type: 'test'
+  ...
+# Subtest: W1-05/06/10: chart/map actions share stable evidence; filtering retains hidden selection and rejects stale actions
+ok 313 - W1-05/06/10: chart/map actions share stable evidence; filtering retains hidden selection and rejects stale actions
+  ---
+  duration_ms: 5.0622
+  type: 'test'
+  ...
+# Subtest: W1-10/14: warm cursor/selection does not load; 24 replace-close cycles release subscriptions and cached records on disposal
+ok 314 - W1-10/14: warm cursor/selection does not load; 24 replace-close cycles release subscriptions and cached records on disposal
+  ---
+  duration_ms: 35.5603
+  type: 'test'
+  ...
+# Subtest: W1-10: disposal while a loader ignores cancellation prevents late notifications and commits
+ok 315 - W1-10: disposal while a loader ignores cancellation prevents late notifications and commits
+  ---
+  duration_ms: 0.5536
+  type: 'test'
+  ...
+# Subtest: W1-03/10: active bundles, observations, locators and evidence are recursively immutable
+ok 316 - W1-03/10: active bundles, observations, locators and evidence are recursively immutable
+  ---
+  duration_ms: 2.7687
+  type: 'test'
+  ...
+# Subtest: W1-13: replay is deterministic, references-only, cached and requires no model/network dependency
+ok 317 - W1-13: replay is deterministic, references-only, cached and requires no model/network dependency
+  ---
+  duration_ms: 6.1525
+  type: 'test'
+  ...
+# Subtest: W1-13: missing or changed pinned data and forged dependencies cannot silently replay a newer edition
+ok 318 - W1-13: missing or changed pinned data and forged dependencies cannot silently replay a newer edition
+  ---
+  duration_ms: 16.2041
+  type: 'test'
+  ...
+# Subtest: W1-13/09: failed replay does not replace active evidence, and unapproved export fields fail strict validation
+ok 319 - W1-13/09: failed replay does not replace active evidence, and unapproved export fields fail strict validation
+  ---
+  duration_ms: 3.2846
+  type: 'test'
+  ...
+# Subtest: W1-13: replay exports normalized host text without retaining user-supplied secrets or instructions
+ok 320 - W1-13: replay exports normalized host text without retaining user-supplied secrets or instructions
+  ---
+  duration_ms: 5.1743
+  type: 'test'
+  ...
+# Subtest: W1-03/06/07: the pinned UN estimate descriptor cannot launder synthetic modeled or uncertain dates
+ok 321 - W1-03/06/07: the pinned UN estimate descriptor cannot launder synthetic modeled or uncertain dates
+  ---
+  duration_ms: 4.1443
+  type: 'test'
+  ...
+# Subtest: W1-08/09/13: changed registry metadata cannot reuse warm data or corrupt the prior pinned evidence
+ok 322 - W1-08/09/13: changed registry metadata cannot reuse warm data or corrupt the prior pinned evidence
+  ---
+  duration_ms: 5.2238
+  type: 'test'
+  ...
+# Subtest: M3 retains disabled generated execution, models and immutable stricter policy
+ok 323 - M3 retains disabled generated execution, models and immutable stricter policy
+  ---
+  duration_ms: 1.7546
+  type: 'test'
+  ...
+# Subtest: M3 parser rejects duplicate and escaped duplicate keys before construction
+ok 324 - M3 parser rejects duplicate and escaped duplicate keys before construction
+  ---
+  duration_ms: 1.2453
+  type: 'test'
+  ...
+# Subtest: M3 parser rejects prototype pollution at every depth
+ok 325 - M3 parser rejects prototype pollution at every depth
+  ---
+  duration_ms: 0.3137
+  type: 'test'
+  ...
+# Subtest: M3 parser bounds bytes, depth, node count and finite values
+ok 326 - M3 parser bounds bytes, depth, node count and finite values
+  ---
+  duration_ms: 18.6956
+  type: 'test'
+  ...
+# Subtest: M3 parser rejects malformed encoding, JSON and control characters
+ok 327 - M3 parser rejects malformed encoding, JSON and control characters
+  ---
+  duration_ms: 1.3764
+  type: 'test'
+  ...
+# Subtest: M3 rejects unauthorized calls, code, DOM and budget overrides
+ok 328 - M3 rejects unauthorized calls, code, DOM and budget overrides
+  ---
+  duration_ms: 1.1773
+  type: 'test'
+  ...
+# Subtest: M3 requires current explicit per-field local transform grant
+ok 329 - M3 requires current explicit per-field local transform grant
+  ---
+  duration_ms: 0.997
+  type: 'test'
+  ...
+# Subtest: M3 rejects forged source rows even with an approved hash
+ok 330 - M3 rejects forged source rows even with an approved hash
+  ---
+  duration_ms: 1.178
+  type: 'test'
+  ...
+# Subtest: M3 rejects stale parents and changed permissions at revalidation
+ok 331 - M3 rejects stale parents and changed permissions at revalidation
+  ---
+  duration_ms: 0.7338
+  type: 'test'
+  ...
+# Subtest: M3 validates independently recomputed count, values and strict output schema
+ok 332 - M3 validates independently recomputed count, values and strict output schema
+  ---
+  duration_ms: 1.6199
+  type: 'test'
+  ...
+# Subtest: M3 rejects unit changes, duplicated records, injected source text and overlong identifiers
+ok 333 - M3 rejects unit changes, duplicated records, injected source text and overlong identifiers
+  ---
+  duration_ms: 1.4124
+  type: 'test'
+  ...
+# Subtest: M3 native bootstrap either establishes every control or returns explicit unavailable
+ok 334 - M3 native bootstrap either establishes every control or returns explicit unavailable
+  ---
+  duration_ms: 1.371
+  type: 'test'
+  ...
+# Subtest: M3 missing runtime fails closed without substituting another engine
+ok 335 - M3 missing runtime fails closed without substituting another engine
+  ---
+  duration_ms: 0.2353
+  type: 'test'
+  ...
+# Subtest: M3 latest-wins retains at most one pending job
+ok 336 - M3 latest-wins retains at most one pending job
+  ---
+  duration_ms: 0.3533
+  type: 'test'
+  ...
+# Subtest: M3 cancellation and disposal prevent launch or activation
+ok 337 - M3 cancellation and disposal prevent launch or activation
+  ---
+  duration_ms: 0.495
+  type: 'test'
+  ...
+# Subtest: M3 20 fail-closed/reclaim cycles leave no engine resources
+ok 338 - M3 20 fail-closed/reclaim cycles leave no engine resources
+  ---
+  duration_ms: 2.0715
+  type: 'test'
+  ...
+# Subtest: fully indexed unchanged political days reuse their source despite a new date/generation
+ok 339 - fully indexed unchanged political days reuse their source despite a new date/generation
+  ---
+  duration_ms: 2.3315
+  type: 'test'
+  ...
+# Subtest: identity, display geometry, edition and paint changes invalidate source reuse
+ok 340 - identity, display geometry, edition and paint changes invalidate source reuse
+  ---
+  duration_ms: 3.4259
+  type: 'test'
+  ...
+# Subtest: population and migration changes within an epoch cannot reuse political-only readiness
+ok 341 - population and migration changes within an epoch cannot reuse political-only readiness
+  ---
+  duration_ms: 1.2563
+  type: 'test'
+  ...
+# Subtest: unindexed native overlays conservatively retain time in the signature
+ok 342 - unindexed native overlays conservatively retain time in the signature
+  ---
+  duration_ms: 0.5025
+  type: 'test'
+  ...
+# Subtest: independent overlay validity uses requested time while reference politics stay exactly dated
+ok 343 - independent overlay validity uses requested time while reference politics stay exactly dated
+  ---
+  duration_ms: 1.4623
+  type: 'test'
+  ...
+# Subtest: hidden native overlays do not force per-day source rebuilds, but enabling them restores eligibility checks
+ok 344 - hidden native overlays do not force per-day source rebuilds, but enabling them restores eligibility checks
+  ---
+  duration_ms: 0.3773
+  type: 'test'
+  ...
+# Subtest: semantic contracts parse source-backed 44-record modern pilot with unknown confidence
+ok 345 - semantic contracts parse source-backed 44-record modern pilot with unknown confidence
+  ---
+  duration_ms: 27.7552
+  type: 'test'
+  ...
+# Subtest: modern adapter rejects altered source bytes before semantic conversion
+ok 346 - modern adapter rejects altered source bytes before semantic conversion
+  ---
+  duration_ms: 1.1659
+  type: 'test'
+  ...
+# Subtest: strict Zod declarations reject executable fields and nested loaders
+ok 347 - strict Zod declarations reject executable fields and nested loaders
+  ---
+  duration_ms: 3.1191
+  type: 'test'
+  ...
+# Subtest: bounded input rejects huge, cyclic, unsafe and deeply nested data before validation
+ok 348 - bounded input rejects huge, cyclic, unsafe and deeply nested data before validation
+  ---
+  duration_ms: 0.8188
+  type: 'test'
+  ...
+# Subtest: Zod import and object construction run with dynamic Function disabled
+ok 349 - Zod import and object construction run with dynamic Function disabled
+  ---
+  duration_ms: 1055.6807
+  type: 'test'
+  ...
+# Subtest: query compiler refuses unregistered indicators/entities/datasets and unverified geography
+ok 350 - query compiler refuses unregistered indicators/entities/datasets and unverified geography
+  ---
+  duration_ms: 2.5871
+  type: 'test'
+  ...
+# Subtest: compiler normalizes entity order while preserving exact requested bounds
+ok 351 - compiler normalizes entity order while preserving exact requested bounds
+  ---
+  duration_ms: 1.6292
+  type: 'test'
+  ...
+# Subtest: query execution honors temporal/bounding-box filtering without interpolation
+ok 352 - query execution honors temporal/bounding-box filtering without interpolation
+  ---
+  duration_ms: 3.108
+  type: 'test'
+  ...
+# Subtest: specification rejects mismatched plan, duplicate views and unsupported independent queries
+ok 353 - specification rejects mismatched plan, duplicate views and unsupported independent queries
+  ---
+  duration_ms: 3.2389
+  type: 'test'
+  ...
+# Subtest: fixture references, indicator classes, source pins and bounds must agree
+ok 354 - fixture references, indicator classes, source pins and bounds must agree
+  ---
+  duration_ms: 6.3138
+  type: 'test'
+  ...
+# Subtest: missing remains null, real zero remains zero, and neither acquires an uncertainty interval
+ok 355 - missing remains null, real zero remains zero, and neither acquires an uncertainty interval
+  ---
+  duration_ms: 6.5464
+  type: 'test'
+  ...
+# Subtest: attested/interpolated/modeled remain distinct and unsupported interpolation has no silent defaults
+ok 356 - attested/interpolated/modeled remain distinct and unsupported interpolation has no silent defaults
+  ---
+  duration_ms: 7.8756
+  type: 'test'
+  ...
+# Subtest: source confidence is separate from spatial uncertainty and never inferred from it
+ok 357 - source confidence is separate from spatial uncertainty and never inferred from it
+  ---
+  duration_ms: 6.3875
+  type: 'test'
+  ...
+# Subtest: replay exports contain references/hashes only and deterministically reproduce results
+ok 358 - replay exports contain references/hashes only and deterministically reproduce results
+  ---
+  duration_ms: 29.0397
+  type: 'test'
+  ...
+# Subtest: replay fails closed on metadata-only changes and exact fixture-byte repins
+ok 359 - replay fails closed on metadata-only changes and exact fixture-byte repins
+  ---
+  duration_ms: 13.6591
+  type: 'test'
+  ...
+# Subtest: joins default deny even for same pilot and same indicator
+ok 360 - joins default deny even for same pilot and same indicator
+  ---
+  duration_ms: 0.381
+  type: 'test'
+  ...
+# Subtest: explicit normalizer also requires matching fixed geography, units, time and evidence
+ok 361 - explicit normalizer also requires matching fixed geography, units, time and evidence
+  ---
+  duration_ms: 0.7269
+  type: 'test'
+  ...
+# Subtest: the same compiler/executor validates the 10 sparse premodern observations and 44 modern observations
+ok 362 - the same compiler/executor validates the 10 sparse premodern observations and 44 modern observations
+  ---
+  duration_ms: 20.759
+  type: 'test'
+  ...
+# Subtest: premodern source lineage matches all ten original retained records, not a fabricated demonstration
+ok 363 - premodern source lineage matches all ten original retained records, not a fabricated demonstration
+  ---
+  duration_ms: 2.0446
+  type: 'test'
+  ...
+# Subtest: sparse intervals overlap query bounds inclusively, but do not fill centuries between Samarkand records
+ok 364 - sparse intervals overlap query bounds inclusively, but do not fill centuries between Samarkand records
+  ---
+  duration_ms: 2.8135
+  type: 'test'
+  ...
+# Subtest: event support and composition support remain separate and uncertainty does not become invented radii
+ok 365 - event support and composition support remain separate and uncertainty does not become invented radii
+  ---
+  duration_ms: 0.2757
+  type: 'test'
+  ...
+# Subtest: BCE and year-zero support uses the host astronomical-year convention without date fabrication
+ok 366 - BCE and year-zero support uses the host astronomical-year convention without date fabrication
+  ---
+  duration_ms: 1.6598
+  type: 'test'
+  ...
+# Subtest: population and account descriptions cannot join through a made-up normalizer
+ok 367 - population and account descriptions cannot join through a made-up normalizer
+  ---
+  duration_ms: 0.1874
+  type: 'test'
+  ...
+# Subtest: direct fabricated catalogue entries cannot bypass exact-byte registration
+ok 368 - direct fabricated catalogue entries cannot bypass exact-byte registration
+  ---
+  duration_ms: 0.4853
+  type: 'test'
+  ...
+# Subtest: both pilots support deterministic follow-up replay with exact source lineage
+ok 369 - both pilots support deterministic follow-up replay with exact source lineage
+  ---
+  duration_ms: 129.5389
+  type: 'test'
+  ...
+# Subtest: follow-ups reject widening, cross-dataset changes, stale parents and incompatible metrics
+ok 370 - follow-ups reject widening, cross-dataset changes, stale parents and incompatible metrics
+  ---
+  duration_ms: 72.0306
+  type: 'test'
+  ...
+# Subtest: empty gap years remain empty and do not manufacture interpolated estimates
+ok 371 - empty gap years remain empty and do not manufacture interpolated estimates
+  ---
+  duration_ms: 44.6568
+  type: 'test'
+  ...
+# Subtest: archive rejects tampered ancestors, source/result hashes, injected resources and secret fields
+ok 372 - archive rejects tampered ancestors, source/result hashes, injected resources and secret fields
+  ---
+  duration_ms: 35.0713
+  type: 'test'
+  ...
+# Subtest: replay export contains references, no passages, free-form questions or source values
+ok 373 - replay export contains references, no passages, free-form questions or source values
+  ---
+  duration_ms: 24.3099
+  type: 'test'
+  ...
+# Subtest: revision count is bounded and previous state stays immutable on rejection
+ok 374 - revision count is bounded and previous state stays immutable on rejection
+  ---
+  duration_ms: 1495.2108
+  type: 'test'
+  ...
+# Subtest: built fixture server supports complete PMTiles bytes, ranges, suffixes, HEAD and invalid ranges
+ok 375 - built fixture server supports complete PMTiles bytes, ranges, suffixes, HEAD and invalid ranges
+  ---
+  duration_ms: 387.4084
+  type: 'test'
+  ...
+# Subtest: every admitted entity observation has a classified description and resolvable source
+ok 376 - every admitted entity observation has a classified description and resolvable source
+  ---
+  duration_ms: 222.1099
+  type: 'test'
+  ...
+# Subtest: coverage dates cannot bridge an unobserved year or change cultural labels into states
+ok 377 - coverage dates cannot bridge an unobserved year or change cultural labels into states
+  ---
+  duration_ms: 3.2028
+  type: 'test'
+  ...
+# Subtest: same source label can resolve different researched phases at different dates
+ok 378 - same source label can resolve different researched phases at different dates
+  ---
+  duration_ms: 0.6322
+  type: 'test'
+  ...
+# Subtest: source disagreements are visible rather than converted into a tidy state lifespan
+ok 379 - source disagreements are visible rather than converted into a tidy state lifespan
+  ---
+  duration_ms: 0.3949
+  type: 'test'
+  ...
+# Subtest: the active observation list respects existing chronology exclusions while preserving raw source critique
+ok 380 - the active observation list respects existing chronology exclusions while preserving raw source critique
+  ---
+  duration_ms: 0.8589
+  type: 'test'
+  ...
+# Subtest: coverage includes the actual entities from every cataloged historical metadata file
+ok 381 - coverage includes the actual entities from every cataloged historical metadata file
+  ---
+  duration_ms: 598.1296
+  type: 'test'
+  ...
+# Subtest: BCE matching converts the app astronomical calendar without introducing year zero
+ok 382 - BCE matching converts the app astronomical calendar without introducing year zero
+  ---
+  duration_ms: 2.1131
+  type: 'test'
+  ...
+# Subtest: same modern label never attaches an unrelated ancient political identity
+ok 383 - same modern label never attaches an unrelated ancient political identity
+  ---
+  duration_ms: 1.2815
+  type: 'test'
+  ...
+# Subtest: out-of-lifetime source labels do not gain a researched narrative
+ok 384 - out-of-lifetime source labels do not gain a researched narrative
+  ---
+  duration_ms: 0.4051
+  type: 'test'
+  ...
+# Subtest: interregna and occupation do not inherit uninterrupted dynastic lookup
+ok 385 - interregna and occupation do not inherit uninterrupted dynastic lookup
+  ---
+  duration_ms: 0.5365
+  type: 'test'
+  ...
+# Subtest: Abbasid capital follows Baghdad, Samarra and return rather than one fixed point
+ok 386 - Abbasid capital follows Baghdad, Samarra and return rather than one fixed point
+  ---
+  duration_ms: 1.2031
+  type: 'test'
+  ...
+# Subtest: political capitals change without making the physical location disappear
+ok 387 - political capitals change without making the physical location disappear
+  ---
+  duration_ms: 0.4559
+  type: 'test'
+  ...
+# Subtest: source references, coordinates, and inter-profile transition targets resolve
+ok 388 - source references, coordinates, and inter-profile transition targets resolve
+  ---
+  duration_ms: 1.6073
+  type: 'test'
+  ...
+# Subtest: modern capitals use sourced start years and stop at the city-data coverage ceiling
+ok 389 - modern capitals use sourced start years and stop at the city-data coverage ceiling
+  ---
+  duration_ms: 1.0006
+  type: 'test'
+  ...
+# Subtest: every lifecycle has a period-begin navigation anchor without claiming a border observation
+ok 390 - every lifecycle has a period-begin navigation anchor without claiming a border observation
+  ---
+  duration_ms: 1.1843
+  type: 'test'
+  ...
+# Subtest: native staging requires two complete hydrated viewport frames
+ok 391 - native staging requires two complete hydrated viewport frames
+  ---
+  duration_ms: 2.5831
+  type: 'test'
+  ...
+# Subtest: a viewport move invalidates readiness even after source hydration resolved
+ok 392 - a viewport move invalidates readiness even after source hydration resolved
+  ---
+  duration_ms: 0.4986
+  type: 'test'
+  ...
+# Subtest: 950 → 1050 → 1049 reversals cannot commit late tile readiness
+ok 393 - 950 → 1050 → 1049 reversals cannot commit late tile readiness
+  ---
+  duration_ms: 0.4212
+  type: 'test'
+  ...
+# Subtest: hundreds of stale completions and cancellations preserve the latest generation
+ok 394 - hundreds of stale completions and cancellations preserve the latest generation
+  ---
+  duration_ms: 1.7623
+  type: 'test'
+  ...
+# Subtest: continuous camera pan can commit after two hydrated frames with unchanged tile coverage
+ok 395 - continuous camera pan can commit after two hydrated frames with unchanged tile coverage
+  ---
+  duration_ms: 0.2327
+  type: 'test'
+  ...
+# Subtest: changed viewport tile coverage and incomplete hydration restart consecutive covered frames
+ok 396 - changed viewport tile coverage and incomplete hydration restart consecutive covered frames
+  ---
+  duration_ms: 0.3151
+  type: 'test'
+  ...
+# Subtest: stale and cancelled covered frames cannot mutate or commit the current generation
+ok 397 - stale and cancelled covered frames cannot mutate or commit the current generation
+  ---
+  duration_ms: 0.764
+  type: 'test'
+  ...
+# Subtest: coverage mode never reuses a missing key or readiness interrupted by legacy hydration
+ok 398 - coverage mode never reuses a missing key or readiness interrupted by legacy hydration
+  ---
+  duration_ms: 0.1586
+  type: 'test'
+  ...
+# Subtest: two compiled epochs stream through native PMTiles protocol with stable identity across adjacent spatial tiles
+ok 399 - two compiled epochs stream through native PMTiles protocol with stable identity across adjacent spatial tiles
+  ---
+  duration_ms: 145.9338
+  type: 'test'
+  ...
+# Subtest: native PMTiles receives exact requested bytes from verified aligned HTTP ranges
+ok 400 - native PMTiles receives exact requested bytes from verified aligned HTTP ranges
+  ---
+  duration_ms: 112.9219
+  type: 'test'
+  ...
+# Subtest: streaming cache is bounded and the final partial chunk preserves exact length
+ok 401 - streaming cache is bounded and the final partial chunk preserves exact length
+  ---
+  duration_ms: 75.4603
+  type: 'test'
+  ...
+# Subtest: streaming rejects whole-archive fallback, incorrect product length, corruption and truncation
+ok 402 - streaming rejects whole-archive fallback, incorrect product length, corruption and truncation
+  ---
+  duration_ms: 60.6307
+  type: 'test'
+  ...
+# Subtest: removing a staged archive aborts in-flight ranges and releases transport listeners
+ok 403 - removing a staged archive aborts in-flight ranges and releases transport listeners
+  ---
+  duration_ms: 58.9105
+  type: 'test'
+  ...
+# Subtest: integrity index coverage and range allocation budgets fail closed
+ok 404 - integrity index coverage and range allocation budgets fail closed
+  ---
+  duration_ms: 59.8458
+  type: 'test'
+  ...
+# Subtest: VP06: a real 500 ms delivery completing after two reversals cannot replace the latest complete scene
+ok 405 - VP06: a real 500 ms delivery completing after two reversals cannot replace the latest complete scene
+  ---
+  duration_ms: 508.8611
+  type: 'test'
+  ...
+# Subtest: VP06: 128 alternating requests survive newest-first and interleaved stale completions without mixed layers
+ok 406 - VP06: 128 alternating requests survive newest-first and interleaved stale completions without mixed layers
+  ---
+  duration_ms: 10.9596
+  type: 'test'
+  ...
+# Subtest: VP06: 24 aborted offscreen preparations may finish late but none can execute a stale scene swap
+ok 407 - VP06: 24 aborted offscreen preparations may finish late but none can execute a stale scene swap
+  ---
+  duration_ms: 2.9412
+  type: 'test'
+  ...
+# Subtest: VP06: Aster selected at 950 CE survives 1050 with the new territory state and only current render IDs
+ok 408 - VP06: Aster selected at 950 CE survives 1050 with the new territory state and only current render IDs
+  ---
+  duration_ms: 1.0304
+  type: 'test'
+  ...
+# Subtest: VP06: a dissolved entity clears selection without inventing a successor or silently reselecting it later
+ok 409 - VP06: a dissolved entity clears selection without inventing a successor or silently reselecting it later
+  ---
+  duration_ms: 0.7919
+  type: 'test'
+  ...
+# Subtest: every teaching record has bounded geography, historical dates and resolvable evidence
+ok 410 - every teaching record has bounded geography, historical dates and resolvable evidence
+  ---
+  duration_ms: 2.9104
+  type: 'test'
+  ...
+# Subtest: layers respect their evidence windows, including BCE and Melaka before and after 1400
+ok 411 - layers respect their evidence windows, including BCE and Melaka before and after 1400
+  ---
+  duration_ms: 0.5637
+  type: 'test'
+  ...
+# Subtest: a generation filter separates described events from composition dates
+ok 412 - a generation filter separates described events from composition dates
+  ---
+  duration_ms: 1.1404
+  type: 'test'
+  ...
+# Subtest: place accounts are ordered by distance without silently removing other locations
+ok 413 - place accounts are ordered by distance without silently removing other locations
+  ---
+  duration_ms: 0.5066
+  type: 'test'
+  ...
+# Subtest: untrusted source URLs and orphan evidence fail authoring validation
+ok 414 - untrusted source URLs and orphan evidence fail authoring validation
+  ---
+  duration_ms: 1.2764
+  type: 'test'
+  ...
+# Subtest: an ancient kingdom biography is not attached to a modern namesake observation
+ok 415 - an ancient kingdom biography is not attached to a modern namesake observation
+  ---
+  duration_ms: 288.8134
+  type: 'test'
+  ...
+# Subtest: later recollections of Inca rule are not presented as contemporary writing at1415
+ok 416 - later recollections of Inca rule are not presented as contemporary writing at1415
+  ---
+  duration_ms: 0.4704
+  type: 'test'
+  ...
+# Subtest: teaching corridors unwrap the date line without a world-spanning false connection
+ok 417 - teaching corridors unwrap the date line without a world-spanning false connection
+  ---
+  duration_ms: 1.9763
+  type: 'test'
+  ...
+# Subtest: invalid and excessive geometry cannot enter the renderer budget
+ok 418 - invalid and excessive geometry cannot enter the renderer budget
+  ---
+  duration_ms: 2.3723
+  type: 'test'
+  ...
+# Subtest: power relationships have distinct line conventions and never receive a sovereignty fill
+ok 419 - power relationships have distinct line conventions and never receive a sovereignty fill
+  ---
+  duration_ms: 1.4158
+  type: 'test'
+  ...
+# Subtest: selected evidence label yields to city bounds and only visible geometry spends draw budget
+ok 420 - selected evidence label yields to city bounds and only visible geometry spends draw budget
+  ---
+  duration_ms: 0.7055
+  type: 'test'
+  ...
+# Subtest: diffusion arrows require explicit source-supported direction, not coordinate order
+ok 421 - diffusion arrows require explicit source-supported direction, not coordinate order
+  ---
+  duration_ms: 0.1679
+  type: 'test'
+  ...
+# Subtest: both pinned PMTiles archives decode complete immutable territory, density, and movement layers
+ok 422 - both pinned PMTiles archives decode complete immutable territory, density, and movement layers
+  ---
+  duration_ms: 1.8385
+  type: 'test'
+  ...
+# Subtest: manifest validates half-open intervals, uniqueness, resource bounds and relative archive URLs
+ok 423 - manifest validates half-open intervals, uniqueness, resource bounds and relative archive URLs
+  ---
+  duration_ms: 1.3021
+  type: 'test'
+  ...
+# Subtest: cross B then reverse to cached A: a late B response can never replace the committed generation
+ok 424 - cross B then reverse to cached A: a late B response can never replace the committed generation
+  ---
+  duration_ms: 2.0804
+  type: 'test'
+  ...
+# Subtest: stale work after render preparation cannot swap a complete scene or clear a newer pending indicator
+ok 425 - stale work after render preparation cannot swap a complete scene or clear a newer pending indicator
+  ---
+  duration_ms: 0.9521
+  type: 'test'
+  ...
+# Subtest: same-epoch seek also invalidates older work; presentation does not commit historical time
+ok 426 - same-epoch seek also invalidates older work; presentation does not commit historical time
+  ---
+  duration_ms: 0.6669
+  type: 'test'
+  ...
+# Subtest: failed epoch delivery retains previous complete scene; the exact boundary selects only B
+ok 427 - failed epoch delivery retains previous complete scene; the exact boundary selects only B
+  ---
+  duration_ms: 1.1401
+  type: 'test'
+  ...
+# Subtest: uncovered time explicitly commits empty layers rather than extending the last epoch
+ok 428 - uncovered time explicitly commits empty layers rather than extending the last epoch
+  ---
+  duration_ms: 0.741
+  type: 'test'
+  ...
+# Subtest: corrupt or truncated archives are rejected before decode and never populate the cache
+ok 429 - corrupt or truncated archives are rejected before decode and never populate the cache
+  ---
+  duration_ms: 19.7457
+  type: 'test'
+  ...
+# Subtest: an aborted in-flight fetch cannot poison a subsequent request for the same epoch
+ok 430 - an aborted in-flight fetch cannot poison a subsequent request for the same epoch
+  ---
+  duration_ms: 6.3974
+  type: 'test'
+  ...
+# Subtest: cache reuse is bounded to two successful archives and rejects a pre-aborted cache hit
+ok 431 - cache reuse is bounded to two successful archives and rejects a pre-aborted cache hit
+  ---
+  duration_ms: 20.5431
+  type: 'test'
+  ...
+# Subtest: missing required MVT layer prevents the entire scene from being admitted
+ok 432 - missing required MVT layer prevents the entire scene from being admitted
+  ---
+  duration_ms: 4.143
+  type: 'test'
+  ...
+# Subtest: duplicate promoted IDs across territory and population layers reject the complete scene
+ok 433 - duplicate promoted IDs across territory and population layers reject the complete scene
+  ---
+  duration_ms: 2.6826
+  type: 'test'
+  ...
+# Subtest: archive integrity verification works without Web Crypto on HTTP preview origins
+ok 434 - archive integrity verification works without Web Crypto on HTTP preview origins
+  ---
+  duration_ms: 12.5656
+  type: 'test'
+  ...
+# Subtest: metadata mismatch and failed preparation preserve the last committed generation
+ok 435 - metadata mismatch and failed preparation preserve the last committed generation
+  ---
+  duration_ms: 9.2115
+  type: 'test'
+  ...
+# Subtest: queued cursor input invalidates an older preparation before next-frame delivery
+ok 436 - queued cursor input invalidates an older preparation before next-frame delivery
+  ---
+  duration_ms: 0.9446
+  type: 'test'
+  ...
+# Subtest: exact navigation days preserve same-year changes and the BCE/CE boundary without year zero
+ok 437 - exact navigation days preserve same-year changes and the BCE/CE boundary without year zero
+  ---
+  duration_ms: 2.3209
+  type: 'test'
+  ...
+# Subtest: canonical seekTime keeps exact days, validates bounds, and floors negative presentation days
+ok 438 - canonical seekTime keeps exact days, validates bounds, and floors negative presentation days
+  ---
+  duration_ms: 4.6998
+  type: 'test'
+  ...
+# Subtest: free scrub replaces queued targets before a frame and settles superseded promises
+ok 439 - free scrub replaces queued targets before a frame and settles superseded promises
+  ---
+  duration_ms: 0.8563
+  type: 'test'
+  ...
+# Subtest: reverse input invalidates in-flight delivery immediately and late completion never drags the cursor back
+ok 440 - reverse input invalidates in-flight delivery immediately and late completion never drags the cursor back
+  ---
+  duration_ms: 0.4847
+  type: 'test'
+  ...
+# Subtest: reversing to the already committed day cancels pending work without redundant delivery
+ok 441 - reversing to the already committed day cancels pending work without redundant delivery
+  ---
+  duration_ms: 0.3286
+  type: 'test'
+  ...
+# Subtest: continuous playback commits every ordered same-year change and interval end without skipping during slow delivery
+ok 442 - continuous playback commits every ordered same-year change and interval end without skipping during slow delivery
+  ---
+  duration_ms: 0.9464
+  type: 'test'
+  ...
+# Subtest: continuous clock follows animation elapsed time while the observation tour is an explicit separate mode
+ok 443 - continuous clock follows animation elapsed time while the observation tour is an explicit separate mode
+  ---
+  duration_ms: 0.5829
+  type: 'test'
+  ...
+# Subtest: instant deliveries preserve the declared continuous rate at both 30 Hz and 60 Hz
+ok 444 - instant deliveries preserve the declared continuous rate at both 30 Hz and 60 Hz
+  ---
+  duration_ms: 1.7415
+  type: 'test'
+  ...
+# Subtest: actual TemporalController rejects an old completion after reverse input but before the next animation frame
+ok 445 - actual TemporalController rejects an old completion after reverse input but before the next animation frame
+  ---
+  duration_ms: 1.5339
+  type: 'test'
+  ...
+# Subtest: background resume and speed changes reset the timestamp origin instead of advancing across suspended time
+ok 446 - background resume and speed changes reset the timestamp origin instead of advancing across suspended time
+  ---
+  duration_ms: 0.7029
+  type: 'test'
+  ...
+# Subtest: delivery failure pauses playback and cannot relabel the last committed scene
+ok 447 - delivery failure pauses playback and cannot relabel the last committed scene
+  ---
+  duration_ms: 0.649
+  type: 'test'
+  ...
+# Subtest: resuming after a failed boundary retries that exact day before advancing, including the final day
+ok 448 - resuming after a failed boundary retries that exact day before advancing, including the final day
+  ---
+  duration_ms: 0.5663
+  type: 'test'
+  ...
+# Subtest: mismatched committed times fail closed, and disposal settles queued or pending callers
+ok 449 - mismatched committed times fail closed, and disposal settles queued or pending callers
+  ---
+  duration_ms: 0.4466
+  type: 'test'
+  ...
+# Subtest: semantic presentation acceptance advances canonical time without delivery or pending generation
+ok 450 - semantic presentation acceptance advances canonical time without delivery or pending generation
+  ---
+  duration_ms: 0.3064
+  type: 'test'
+  ...
+# Subtest: forced same-time refresh bypasses both committed-time and semantic fast paths
+ok 451 - forced same-time refresh bypasses both committed-time and semantic fast paths
+  ---
+  duration_ms: 0.3502
+  type: 'test'
+  ...
+# Subtest: a semantic fast-path exception settles the request and pauses without relabeling the scene
+ok 452 - a semantic fast-path exception settles the request and pauses without relabeling the scene
+  ---
+  duration_ms: 0.3553
+  type: 'test'
+  ...
+# Subtest: continuous presentation fast paths still stop and deliver each changed semantic boundary
+ok 453 - continuous presentation fast paths still stop and deliver each changed semantic boundary
+  ---
+  duration_ms: 0.3188
+  type: 'test'
+  ...
+# Subtest: same store stages real modern and qualitative pilots with one cursor and explicit selection
+ok 454 - same store stages real modern and qualitative pilots with one cursor and explicit selection
+  ---
+  duration_ms: 101.3718
+  type: 'test'
+  ...
+# Subtest: original v1 specs and exact v1 replays adapt only after original validation
+ok 455 - original v1 specs and exact v1 replays adapt only after original validation
+  ---
+  duration_ms: 67.7949
+  type: 'test'
+  ...
+# Subtest: single-pilot complete and narrowing-only replays do not load an unavailable unrelated pilot
+ok 456 - single-pilot complete and narrowing-only replays do not load an unavailable unrelated pilot
+  ---
+  duration_ms: 64.8054
+  type: 'test'
+  ...
+# Subtest: complete replay persists view choices, source versions, selection and cursor without values/passages
+ok 457 - complete replay persists view choices, source versions, selection and cursor without values/passages
+  ---
+  duration_ms: 11.4901
+  type: 'test'
+  ...
+# Subtest: unsupported renderer capabilities and qualitative scatter fail before activation
+ok 458 - unsupported renderer capabilities and qualitative scatter fail before activation
+  ---
+  duration_ms: 10.1003
+  type: 'test'
+  ...
+# Subtest: empty, invalid, broadening and changed-policy attempts retain prior active revision and evidence
+ok 459 - empty, invalid, broadening and changed-policy attempts retain prior active revision and evidence
+  ---
+  duration_ms: 66.7307
+  type: 'test'
+  ...
+# Subtest: no-op follow-ups do not consume ancestry or change committed revision
+ok 460 - no-op follow-ups do not consume ancestry or change committed revision
+  ---
+  duration_ms: 18.733
+  type: 'test'
+  ...
+# Subtest: out-of-window selection retains source identity and roundtrips complete replay
+ok 461 - out-of-window selection retains source identity and roundtrips complete replay
+  ---
+  duration_ms: 21.1757
+  type: 'test'
+  ...
+# Subtest: stale asynchronous completion cannot replace a later pilot or reset its selection
+ok 462 - stale asynchronous completion cannot replace a later pilot or reset its selection
+  ---
+  duration_ms: 6.567
+  type: 'test'
+  ...
+# Subtest: explicit cancellation and loading timeout preserve previous usable workspace
+ok 463 - explicit cancellation and loading timeout preserve previous usable workspace
+  ---
+  duration_ms: 48.5646
+  type: 'test'
+  ...
+# Subtest: malformed, unregistered, oversized and executable archives never invoke a loader
+ok 464 - malformed, unregistered, oversized and executable archives never invoke a loader
+  ---
+  duration_ms: 7.4081
+  type: 'test'
+  ...
+# Subtest: unavailable natural-language planner leaves existing workspace untouched
+ok 465 - unavailable natural-language planner leaves existing workspace untouched
+  ---
+  duration_ms: 17.6945
+  type: 'test'
+  ...
+# Subtest: dispose prevents future work and releases owned subscribers
+ok 466 - dispose prevents future work and releases owned subscribers
+  ---
+  duration_ms: 0.2737
+  type: 'test'
+  ...
+# Subtest: mixed v2 dependency ancestry rejects before loading even its valid first dataset
+ok 467 - mixed v2 dependency ancestry rejects before loading even its valid first dataset
+  ---
+  duration_ms: 30.7514
+  type: 'test'
+  ...
+# Subtest: failed render activation rolls back the complete snapshot and committed count
+ok 468 - failed render activation rolls back the complete snapshot and committed count
+  ---
+  duration_ms: 22.8521
+  type: 'test'
+  ...
+# Subtest: jog crosses its angle seam without a century-size jump and reverses symmetrically
+ok 469 - jog crosses its angle seam without a century-size jump and reverses symmetrically
+  ---
+  duration_ms: 1.3614
+  type: 'test'
+  ...
+# Subtest: jog bounds presentation time without rounding BCE days or extending source validity
+ok 470 - jog bounds presentation time without rounding BCE days or extending source validity
+  ---
+  duration_ms: 0.6676
+  type: 'test'
+  ...
+# Subtest: wheel input bounds pixel, line and page events without accumulating inertia
+ok 471 - wheel input bounds pixel, line and page events without accumulating inertia
+  ---
+  duration_ms: 0.2882
+  type: 'test'
+  ...
+# Subtest: real HTTP cold epoch → next epoch → warm reverse retains PMTiles directories and verified bytes
+ok 472 - real HTTP cold epoch → next epoch → warm reverse retains PMTiles directories and verified bytes
+  ---
+  duration_ms: 104.3663
+  type: 'test'
+  ...
+# Subtest: aggregate compressed bytes obey 1 MiB even for referenced sources and idle handles evict at four
+ok 473 - aggregate compressed bytes obey 1 MiB even for referenced sources and idle handles evict at four
+  ---
+  duration_ms: 337.5634
+  type: 'test'
+  ...
+# Subtest: a failed native header request is retryable after warm release and reacquisition
+ok 474 - a failed native header request is retryable after warm release and reacquisition
+  ---
+  duration_ms: 11.1693
+  type: 'test'
+  ...
+# Subtest: same URL cannot reuse bytes or directory promises across changed pinned editions
+ok 475 - same URL cannot reuse bytes or directory promises across changed pinned editions
+  ---
+  duration_ms: 52.095
+  type: 'test'
+  ...
+# Subtest: shared chunk delivery deduplicates reads and isolates a cancelled seeker
+ok 476 - shared chunk delivery deduplicates reads and isolates a cancelled seeker
+  ---
+  duration_ms: 49.0321
+  type: 'test'
+  ...
+# Subtest: cancelled prefetch cannot poison a shared live range and only adjacent headers are warmed
+ok 477 - cancelled prefetch cannot poison a shared live range and only adjacent headers are warmed
+  ---
+  duration_ms: 113.1594
+  type: 'test'
+  ...
+# Subtest: reversing prefetch waits for aborted transport settlement before using either budget slot
+ok 478 - reversing prefetch waits for aborted transport settlement before using either budget slot
+  ---
+  duration_ms: 124.2284
+  type: 'test'
+  ...
+# Subtest: one adjacent-header batch preserves both neighbors across different recorded editions
+ok 479 - one adjacent-header batch preserves both neighbors across different recorded editions
+  ---
+  duration_ms: 66.3761
+  type: 'test'
+  ...
+# Subtest: M4-W01: pinned Watt excerpt and records register; every quotation occurs verbatim in its hash-verified passage
+ok 480 - M4-W01: pinned Watt excerpt and records register; every quotation occurs verbatim in its hash-verified passage
+  ---
+  duration_ms: 143.7213
+  type: 'test'
+  ...
+# Subtest: M4-W02: edited quotations, passages, references and spatial fields fail closed even when re-pinned
+ok 481 - M4-W02: edited quotations, passages, references and spatial fields fail closed even when re-pinned
+  ---
+  duration_ms: 39.9569
+  type: 'test'
+  ...
+# Subtest: M4-W03: trusted recompilation rejects forged plans, map views, duplicate views, forged registrations and unbounded input
+ok 482 - M4-W03: trusted recompilation rejects forged plans, map views, duplicate views, forged registrations and unbounded input
+  ---
+  duration_ms: 6.1799
+  type: 'test'
+  ...
+# Subtest: M4-W04: selections must be declared row-claim pairs and undeclared pairs are never exported
+ok 483 - M4-W04: selections must be declared row-claim pairs and undeclared pairs are never exported
+  ---
+  duration_ms: 9.779
+  type: 'test'
+  ...
+# Subtest: M4-W05: the shared store opens the mechanism without map scope, accepts only current typed selections and keeps the cursor separate
+ok 484 - M4-W05: the shared store opens the mechanism without map scope, accepts only current typed selections and keeps the cursor separate
+  ---
+  duration_ms: 6.0717
+  type: 'test'
+  ...
+# Subtest: M4-W06: save/reopen is byte-identical, restores cursor and selection, and uses only the two pinned local records
+ok 485 - M4-W06: save/reopen is byte-identical, restores cursor and selection, and uses only the two pinned local records
+  ---
+  duration_ms: 8.9487
+  type: 'test'
+  ...
+# Subtest: M4-W07: tampered or mismatched mechanism replays are rejected and the previous result remains visible
+ok 486 - M4-W07: tampered or mismatched mechanism replays are rejected and the previous result remains visible
+  ---
+  duration_ms: 9.6804
+  type: 'test'
+  ...
+# Subtest: M4-W08: geographic and mechanism results share one latest-wins store; stale completions and domain switches cannot mix evidence
+ok 487 - M4-W08: geographic and mechanism results share one latest-wins store; stale completions and domain switches cannot mix evidence
+  ---
+  duration_ms: 57.0566
+  type: 'test'
+  ...
+# Subtest: M4-W10: replay validates inputs before routing and accepts serialized mechanism archives
+ok 488 - M4-W10: replay validates inputs before routing and accepts serialized mechanism archives
+  ---
+  duration_ms: 3.3942
+  type: 'test'
+  ...
+# Subtest: M4-W09: the Watt domain imports no MapLibre, canvas, spatial or geographic workspace modules
+ok 489 - M4-W09: the Watt domain imports no MapLibre, canvas, spatial or geographic workspace modules
+  ---
+  duration_ms: 7.3598
+  type: 'test'
+  ...
+# Subtest: all 31 real candidate archives retain recorded evidence and immutable cell IDs without synthetic demographics
+ok 490 - all 31 real candidate archives retain recorded evidence and immutable cell IDs without synthetic demographics
+  ---
+  duration_ms: 304.8924
+  type: 'test'
+  ...
+# Subtest: early cultural snapshots and the source-name Heptarchy remain distinct from ownership
+ok 491 - early cultural snapshots and the source-name Heptarchy remain distinct from ownership
+  ---
+  duration_ms: 11.8392
+  type: 'test'
+  ...
+# Subtest: the controller commits a visible empty generation in unsupported historical years
+ok 492 - the controller commits a visible empty generation in unsupported historical years
+  ---
+  duration_ms: 1.0073
+  type: 'test'
+  ...
+1..492
+# tests 492
+# suites 0
+# pass 492
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 8073.8033

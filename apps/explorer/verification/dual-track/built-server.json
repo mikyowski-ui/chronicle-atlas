@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "command": "PORT=4188 node serve.mjs",
+  "build": "chronicle-fe95cbbb0cb4f59790515c168b21d27fcb17ea837ee8fdcb8c1335c3ae94ab2a",
+  "assets": [
+    {
+      "path": "assets/index-lJTzWjlf.js",
+      "status": 200,
+      "bytes": 4001522,
+      "exactHash": true
+    },
+    {
+      "path": "assets/index-veHcMhI1.css",
+      "status": 200,
+      "bytes": 170805,
+      "exactHash": true
+    },
+    {
+      "path": "assets/pilot-data-Jm_w9AQo.json",
+      "status": 200,
+      "bytes": 27813,
+      "exactHash": true
+    },
+    {
+      "path": "assets/premodern-pilot-B7FC1mJx.json",
+      "status": 200,
+      "bytes": 27528,
+      "exactHash": true
+    },
+    {
+      "path": "assets/registry-CLoBPRzJ.js",
+      "status": 200,
+      "bytes": 21806,
+      "exactHash": true
+    },
+    {
+      "path": "assets/semantic-view-BkKqQqO8.css",
+      "status": 200,
+      "bytes": 2883,
+      "exactHash": true
+    },
+    {
+      "path": "assets/semantic-view-CiVdcgTd.js",
+      "status": 200,
+      "bytes": 111889,
+      "exactHash": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 605,
+      "exactHash": true
+    }
+  ],
+  "rangeRequest": {
+    "status": 206,
+    "bytes": 10
+  },
+  "browserProductionInteraction": "NOT_RUN; final UI inspected in dev preview",
+  "initialAttempt": "Separate ephemeral exec process on4187 could not be reached. Reran server and HTTP checks in one owned process lifecycle."
+}

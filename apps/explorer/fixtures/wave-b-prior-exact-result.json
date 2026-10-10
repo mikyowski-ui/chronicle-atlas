@@ -1,0 +1,381 @@
+{
+  "schema": "chronicle-isles-exact-result/1",
+  "status": "STAGED — NOT PUBLISHED",
+  "reviewDecision": "Exact-result review requested; no public activation performed or authorized",
+  "sourceCommit": "8c2e8f66e62c0308a58ac463d244f0473467fa03",
+  "sourceBranch": "british-isles-longitudinal",
+  "sourcePushed": true,
+  "automaticPublication": false,
+  "applicationBuildHash": "e95134b94d67389c0229201dd832745bac8487f87a0c8e4b5084ea7ad799a0e5",
+  "applicationAssets": [
+    [
+      "index-3dQatJiR.js",
+      "fb1518ddf7d646dd6cf0046b757b17684f3e2086c597315d5e5af088b93952ee"
+    ],
+    [
+      "index-CL5H4FY6.css",
+      "d35914978fe439628803d290f3eb022d351aca032bf7befd762bfc23bd9b2c92"
+    ],
+    [
+      "worker-BcTn6EWa.js",
+      "011804344ef79f489f104e95d7d5fa87f472f25a8c065a420b4deb6a8d73dfaa"
+    ]
+  ],
+  "atlasIndexSha256": "9cc8ec29f63ab68083a2990897e13a20ee9c1145a7018cb9bcc6b688f139fe7c",
+  "ledger": {
+    "logicalSha256": "fa68cbe62177e35bb6bdcf80360c8beccecca6026e5947947e837b5e71b46e2d",
+    "sqliteFileSha256": "2945ce51727cd88ec12c4e5c49dee2a8a1dfc17a8f0aac6dcad5baa494dd1565",
+    "bytes": 38785024,
+    "parentLogicalSha256": "20340541b20734850d0b37d21636f6ef4be66c6fa4a24790d34aea2ecc2ebda7",
+    "recordedAt": "2026-09-20T02:00:00.000Z",
+    "parentRowsUnchanged": true,
+    "recordedAssertions": 1930,
+    "currentAssertions": 1915
+  },
+  "regionalPack": {
+    "release": "484e29eb809d2e6c7a9067be88251971e5439b59f73dd2f06c8bc062e6e602eb",
+    "scope": {
+      "studyId": "british-isles"
+    },
+    "bbox": [
+      -12,
+      48,
+      3,
+      61.5
+    ],
+    "snapshots": 31,
+    "politicalAssertions": 103,
+    "culturalAssertions": 20,
+    "compressedBytes": 451774,
+    "chunks": 434,
+    "maximumDecodedChunkBytes": 36242,
+    "recompiledIdentically": true
+  },
+  "publicLedger": {
+    "logicalSha256": "377f04eaa1b48ddf1cc4b39031ab716160edf7543b6201aa660d1d38cd25de84",
+    "timelineManifestSha256": "abeb58ed95f9a741643fb38b3ebc243b99b1ec552261b56d9d72e30f7a4f5bf9",
+    "changed": false
+  },
+  "mesh": {
+    "cells": 259200,
+    "sha256": "474f589bbe6135a162d24b2a1fd894bec45cca0f5d3c3ae9dc677045f56dff6f",
+    "changed": false
+  },
+  "integratedPacks": [
+    {
+      "id": "british-isles",
+      "label": "British Isles · 200 BCE–1900 CE",
+      "release": "484e29eb809d2e6c7a9067be88251971e5439b59f73dd2f06c8bc062e6e602eb",
+      "publication": "STAGED · NOT PUBLISHED",
+      "review": "Regional source interpretation; cultural and political layers remain separate",
+      "start": -792211,
+      "end": -25202
+    },
+    {
+      "id": "historical-beta",
+      "label": "Historical overview · 200 BCE–1900 CE",
+      "release": "3126ad00d39333c1db5fa0de8b0e7ccb5a24dd194af17c0937bd2c42b5041735",
+      "publication": "STAGED · NOT PUBLISHED",
+      "review": "Source-attributed overview and interval corridor; independent historical review pending",
+      "start": -792211,
+      "end": -25202
+    },
+    {
+      "id": "retained-atlas",
+      "label": "Atlas · 200 BCE–2025 CE",
+      "release": "0a61e70f1ab4cbe91a431fae395af6f9771fd95c29ee9e8668920dcddaa2cb7c",
+      "publication": "Previously published edition",
+      "review": "Modern source intervals + experimental ancient corridors",
+      "start": -792211,
+      "end": 20454
+    },
+    {
+      "id": "mediterranean-alpha",
+      "label": "Mediterranean · staged BCE alpha",
+      "release": "75406e7ca5848eecd890515dbeaf072e921a889f00bd68bd898acb7bdcf93c8c",
+      "publication": "Staged — not published",
+      "review": "Source-attributed; independent historical review pending",
+      "start": -792211,
+      "end": -773584
+    },
+    {
+      "id": "hawaii-quarantine",
+      "label": "Hawaiʻi · 1898 review quarantine",
+      "release": "4d24dc99fb6a269463b2f6701ce70111a87813b2d58a388f3462eaee642f7d49",
+      "publication": "Staged — not published",
+      "review": "BLOCKED: documentary originals not authenticated",
+      "start": -26111,
+      "end": -26072
+    }
+  ],
+  "pleiades": {
+    "url": "/data/pleiades-places.json",
+    "sha256": "503e4e20206b064762eec9000f83ec290bfa5ec9c71cbd374a631ce1f3c985a7",
+    "release": "Pleiades4.1",
+    "count": 140,
+    "changed": false
+  },
+  "source": {
+    "edition": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+    "mappingSha256": "84f6766923cf7e1579a48f2d91c0dbf148106e18ae13ef082450c22e3e73739f",
+    "license": "GPL-3.0",
+    "licenseSha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "attribution": "André Ourednik and Historical Basemaps contributors; bounded interpretation and clipping by Chronicle",
+    "sameSourceNotCorroboration": true,
+    "sourceArchiveSha256": "410dbe39d9e76857309ef28079a279f25e60469c1a777795b1f719cfe31fb6b5",
+    "inventorySha256": "38f0c61e7e3461c625048e477d749151e0e0dc9834b45d75d666b120987ca9f8"
+  },
+  "exclusions": {
+    "namedReview": 13,
+    "unnamedRegionalGeometries": 663,
+    "geometryOrWorkerFailures": 0,
+    "repairsExecuted": 0,
+    "reviewQueueSha256": "3716da6439ae1ddaffa33467392ea8508bfc8dd6cf82deabf90e48541a8c0586",
+    "missingHistoricalTargets": [
+      "No separately named Britannia province geometry in the selected31snapshots.",
+      "Only five Heptarchy kingdom names have eligible source polygons; East Anglia and Sussex are absent as separate features.",
+      "Wales is represented by Welsh cultural approximation and broader later source composites; no Gwynedd/Powys/Wales polity polygons are invented.",
+      "200BCE and100BCE cultural coverage does not imply political ownership."
+    ],
+    "priorGlobalNewYearTarget": "PARTIAL: 29 additional overview years, target at least30"
+  },
+  "resources": {
+    "budgetSha256": "2e801c991c874c4cd1efd6714c4184f5aa5ab08a1eeaa2ccec016f2a096dac41",
+    "parentBudgetSha256": "4f3f49020d87affad22d402535d8a3ff0e319396db959c32137567ebf1bc58e6",
+    "limitsIncreased": false,
+    "incrementalChecks": {
+      "selectedSourceFeatures": {
+        "used": 136,
+        "limit": 250,
+        "status": "PASS"
+      },
+      "newAssertions": {
+        "used": 123,
+        "limit": 400,
+        "status": "PASS"
+      },
+      "coverageSets": {
+        "used": 56,
+        "limit": 400,
+        "status": "PASS"
+      },
+      "uniqueCoverageMemberships": {
+        "used": 3918,
+        "limit": 300000,
+        "status": "PASS"
+      },
+      "expandedClaimCellMemberships": {
+        "used": 7653,
+        "limit": 400000,
+        "status": "PASS"
+      },
+      "normalizedBytes": {
+        "used": 861942,
+        "limit": 16777216,
+        "status": "PASS"
+      },
+      "newCompiledCompressedBytes": {
+        "used": 1288809,
+        "limit": 67108864,
+        "status": "PASS"
+      },
+      "candidateDatabaseBytes": {
+        "used": 38785024,
+        "limit": 134217728,
+        "status": "PASS"
+      },
+      "workingProcessRssBytes": {
+        "used": 451141632,
+        "limit": 1073741824,
+        "status": "PASS"
+      }
+    },
+    "aggregateChecks": {
+      "historicalFeatures": {
+        "used": 3768,
+        "limit": 10000,
+        "status": "PASS"
+      },
+      "canonicalAssertions": {
+        "used": 3729,
+        "limit": 20000,
+        "status": "PASS"
+      },
+      "coverageSets": {
+        "used": 2240,
+        "limit": 10000,
+        "status": "PASS"
+      },
+      "uniqueCoverageMemberships": {
+        "used": 828511,
+        "limit": 8000000,
+        "status": "PASS"
+      },
+      "expandedClaimCellMemberships": {
+        "used": 1085536,
+        "limit": 12000000,
+        "status": "PASS"
+      },
+      "retainedInputBytes": {
+        "used": 82242223,
+        "limit": 134217728,
+        "status": "PASS"
+      },
+      "normalizedInputBytes": {
+        "used": 60122700,
+        "limit": 134217728,
+        "status": "PASS"
+      },
+      "stagingDatabaseIncludingIndexesBytes": {
+        "used": 116826112,
+        "limit": 805306368,
+        "status": "PASS"
+      },
+      "newCompressedArtifactBytes": {
+        "used": 28584001,
+        "limit": 134217728,
+        "status": "PASS"
+      },
+      "workingProcessRssBytes": {
+        "used": 613568512,
+        "limit": 1073741824,
+        "status": "PASS"
+      },
+      "pleiadesSelectedJsonBytes": {
+        "used": 6168793,
+        "limit": 20971520,
+        "status": "PASS"
+      }
+    },
+    "allCapsPass": true,
+    "candidateLedger": {
+      "recordedAssertions": 1930,
+      "currentAssertions": 1915,
+      "regionalAssertions": 123,
+      "political": 103,
+      "cultural": 20,
+      "regionalCoverageSets": 56,
+      "regionalMemberships": 3918,
+      "expandedRegionalMemberships": 7653
+    },
+    "execution": {
+      "batches": 31,
+      "workers": 2,
+      "admittedFeatures": 123,
+      "classifiedNamedIntersections": 136,
+      "unnamedExcluded": 663,
+      "namedReview": 13,
+      "repairsExecuted": 0,
+      "geometryOrWorkerExclusions": 0,
+      "normalizationWallMs": 1804.669,
+      "intakeWallMs": 53763.813952000004,
+      "firstCompileWallMs": 2992.415449,
+      "repeatCompileWallMs": 3190.885462,
+      "reproducibleRelease": "484e29eb809d2e6c7a9067be88251971e5439b59f73dd2f06c8bc062e6e602eb"
+    },
+    "accounting": "Parent cumulative accounting retained. New raster work is charged once for 123 features; all 136 named classifications are disclosed. All data/isles bytes, including metadata, count as normalized input. The complete copied candidate DB, all 56 regional sets and both successful compilations plus the rejected attempt are charged conservatively. Original raw source files are reused, not recollected. No unchanged retained pack is counted as new compilation.",
+    "measurementLimits": "Intake RSS is sampled at 100 ms and batch boundaries; compiler includes kernel high-water RSS. Browser CPU timing is recorded separately; compositor/GPU presentation and physical-device performance are NOT RUN."
+  },
+  "verification": {
+    "cumulativeTests": {
+      "passed": 124,
+      "failed": 0,
+      "logSha256": "e43a958c821846d91a77f1cf57317c9cc08778eb212f85ca2ddb37350b3898df"
+    },
+    "finalFocusedTests": {
+      "passed": 5,
+      "failed": 0,
+      "logSha256": "fac1f0a5dac03409c8ff1f201a7f1d98b037a976deb553e7c7108d7df6a82335"
+    },
+    "finalBuild": "PASS",
+    "typecheck": "PASS",
+    "http": {
+      "status": "PASS",
+      "binding": "127.0.0.1",
+      "checks": [
+        {
+          "path": "/",
+          "status": 200,
+          "sha256": "e9a7babafdedffb35832b04a66d49c90512765b4c24252c7485d833df2f4702d",
+          "exactFileMatch": true
+        },
+        {
+          "path": "/atlas.json",
+          "status": 200,
+          "sha256": "9cc8ec29f63ab68083a2990897e13a20ee9c1145a7018cb9bcc6b688f139fe7c",
+          "exactFileMatch": true
+        },
+        {
+          "path": "/data/pleiades-places.json",
+          "status": 200,
+          "sha256": "503e4e20206b064762eec9000f83ec290bfa5ec9c71cbd374a631ce1f3c985a7",
+          "exactFileMatch": true
+        },
+        {
+          "path": "/packs/484e29eb809d2e6c7a9067be88251971e5439b59f73dd2f06c8bc062e6e602eb/manifest.json",
+          "status": 200,
+          "sha256": "7a999d6f80fa109bf7c190700a6585154f8b698d8c231efa9679b4ec64907466",
+          "exactFileMatch": true
+        },
+        {
+          "path": "/packs/484e29eb809d2e6c7a9067be88251971e5439b59f73dd2f06c8bc062e6e602eb/prior-effective-control-0.json.gz",
+          "status": 200,
+          "sha256": "ebfa1c5a4e4c96b6efbdb7ec5aca03ad200cb2146315568c477e1134befc7087",
+          "exactFileMatch": true
+        },
+        {
+          "path": "/staging.sqlite",
+          "method": "GET",
+          "status": 404,
+          "expected": 404
+        },
+        {
+          "path": "/",
+          "method": "POST",
+          "status": 405,
+          "expected": 405
+        },
+        {
+          "path": "/",
+          "method": "GET",
+          "status": 403,
+          "expected": 403
+        }
+      ],
+      "physicalWindows": "NOT RUN",
+      "note": "Server and HTTP checks executed in one process lifetime; an earlier detached shell server was unavailable to a later tool command."
+    },
+    "browser": {
+      "samples": 120,
+      "buildHash": "e95134b94d67389c0229201dd832745bac8487f87a0c8e4b5084ea7ad799a0e5",
+      "mode": "Canvas 2D",
+      "medianRequestToAcceptedCpuDrawMs": 33.84999999962747,
+      "p95RequestToAcceptedCpuDrawMs": 44.899999998509884,
+      "maximumRequestToAcceptedCpuDrawMs": 103.39999999850988,
+      "maxCachedSerializedBytes": 102474,
+      "maxUsedJSHeapBytes": 165193845,
+      "scope": "Browser request through accepted CPU draw; excludes compositor presentation, physical GPU and OS RSS. Validation runs on immutable cache admission only.",
+      "physicalGpuVerified": false
+    },
+    "browserWalkSha256": "242504160250e43aba96582ef54e13d52ef55513805ebe5ab959aa1d1864c0cd",
+    "browserInteractionSha256": "e523c343406071dcc1d5f9576fb88f0db13b1152d65e49f6ed79dcfd7a6b3587",
+    "physicalGpu": "NOT RUN",
+    "physicalWindows": "NOT RUN",
+    "FirefoxSafariAndroidIOS": "NOT RUN",
+    "independentHistoricalCertification": "NOT PROVIDED"
+  },
+  "reportSha256": "70b87a435dfa85bf78c736f1350399c1e1352075f79fe6730ec2701044a2c8b5",
+  "screenshots": [
+    {
+      "file": "Chronicle-Isles-Comparison.jpg",
+      "sha256": "27a0577a4d71612288ff526aa2a87639f0955452c8ecb325a1e106442c64e2b5",
+      "actualApplication": true
+    },
+    {
+      "file": "Chronicle-Isles-Medieval-Comparison.jpg",
+      "sha256": "bbf37f47669eedaff7f9586a8fd09e8466cf1654dfc0618c3d9e04d063e4f7d7",
+      "actualApplication": true
+    }
+  ],
+  "archiveHashes": "Recorded separately in Chronicle-Isles-Delivery.json to avoid self-referential archive hashes."
+}

@@ -1,0 +1,104 @@
+{
+  "scope": "Milestone 1 prepared research workspace with minimum pilot metadata",
+  "functional_status": "IMPLEMENTED",
+  "acceptance_status": "OPEN GAPS",
+  "rows": [
+    {
+      "id": "W1-01",
+      "status": "PASS",
+      "evidence": "Recovered editable source, reproduced original build and 282-test baseline. Archive has no Git checkout; HEAD/dirty status unavailable and recorded. See BASELINE.md."
+    },
+    {
+      "id": "W1-02",
+      "status": "PASS",
+      "evidence": "2,282 protected files byte-identical, including canonical public data, contracts, lib, package and lockfile. See protection-check.json and protected-inputs.json."
+    },
+    {
+      "id": "W1-03",
+      "status": "PASS",
+      "evidence": "44 actual UN source cells and canonical pointers verified independently; source hash, edition, rights and conversion recorded. No synthetic normal-path rows."
+    },
+    {
+      "id": "W1-04",
+      "status": "PASS",
+      "evidence": "44-row/four-city primary and 8-row Guadalajara variation use identical contracts, executor and views. Prepared mode is explicit."
+    },
+    {
+      "id": "W1-05",
+      "status": "PASS",
+      "evidence": "Chart, map and inspector resolve identical stable entity/observation IDs; both directions exercised in browser and 400-action workload."
+    },
+    {
+      "id": "W1-06",
+      "status": "PASS",
+      "evidence": "Cursor/window separation, sparse dates, range/BCE/end-exclusive helpers and year conversion tested. Pilot preserves year precision and mid-year meaning; uncertain ranges are helper tests, not fabricated pilot records."
+    },
+    {
+      "id": "W1-07",
+      "status": "PASS",
+      "evidence": "Unknown units/denominators, null/zero, non-positive denominator, incompatible or mismatched entity geography and duplicate joins rejected. Pilot accepts observations only; no arithmetic query is enabled."
+    },
+    {
+      "id": "W1-08",
+      "status": "PASS",
+      "evidence": "Out-of-order requests, A-B-A, cancellation and timeouts tested. Revision barriers and immutable staged results prevent mixed evidence."
+    },
+    {
+      "id": "W1-09",
+      "status": "PASS",
+      "evidence": "Malformed/empty/missing/timed-out/bad-reference queries preserve last valid workspace. UI unsupported question and bad replay retain prior evidence with status."
+    },
+    {
+      "id": "W1-10",
+      "status": "PASS",
+      "evidence": "Actual Canvas object identity retained, canvas count 1\u21921. 20 replace/close cycles plus 20 full mount/dispose cycles; owned listeners/observers/subscriptions return to baseline or zero on disposal."
+    },
+    {
+      "id": "W1-11",
+      "status": "PASS",
+      "evidence": "Strict runtime boundary rejects nested loaders, executable/HTML/SVG fields, unknown references/operations and oversized inputs. Cell instructions remain inert text. This is scoped testing, not general security certification."
+    },
+    {
+      "id": "W1-12",
+      "status": "PASS",
+      "evidence": "All 44 source-thousands conversions match independently checked rows and displayed persons. Workbook cell, canonical pointer and transform lineage resolve every mark."
+    },
+    {
+      "id": "W1-13",
+      "status": "PASS",
+      "evidence": "Actual UI save/reopen plus missing/hash-changed tests. Exported manifests use normalized host text and registered references/hashes; no measurement rows, arbitrary question text, source passages or credentials."
+    },
+    {
+      "id": "W1-14",
+      "status": "PASS",
+      "evidence": "Both 200-interaction warm phases record zero resource requests; no model/provider integration exists. Ordinary base-map loading is outside this measured warm phase."
+    },
+    {
+      "id": "W1-15",
+      "status": "NOT RUN",
+      "evidence": "Keyboard, visible focus, typed Space, native button Space, table and narrow layout PASS. Reduced-motion preference=true runtime NOT RUN: browser preference=false, no emulation capability; CSS reviewed and no running research animations observed."
+    },
+    {
+      "id": "W1-16",
+      "status": "PASS",
+      "evidence": "Desktop and actual 390x844 CSS app screenshots inspected: chart labels/units, no overlapping research callouts, readable table/evidence, map mode and dock. Screenshots listed below."
+    },
+    {
+      "id": "W1-17",
+      "status": "PASS",
+      "evidence": "Research-off Atlas navigates dates, selects France, opens country context, Studies and source inspector in Canvas. Existing 310-test suite passes. WebGL/style-reload and physical-device checks NOT RUN."
+    },
+    {
+      "id": "W1-18",
+      "status": "FAIL",
+      "evidence": "Measurement complete: warm selection p95 37.0 ms PASS; combined selection+year p95 230.3 ms FAIL against same 100 ms target. Previous combined 216.1 ms miss retained. No 60 fps or physical-device claim."
+    }
+  ],
+  "tests": {
+    "passed": 310,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": "chronicle-4580508b5ce3e5fc8c2f228471e71b1876e82bb8524a83049272a71700be31b1",
+  "source_fingerprint": "604144d065512dbd3b7b39a7b5b6012eb9b018c8bbb33d97c6b1aec1876f2d67"
+}

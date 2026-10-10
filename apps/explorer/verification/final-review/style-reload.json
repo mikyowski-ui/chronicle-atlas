@@ -1,0 +1,20 @@
+{
+  "schema": "chronicle-local-style-reload-v1",
+  "status": "NOT_RUN",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "width": 1363,
+    "height": 936,
+    "devicePixelRatio": 1,
+    "reducedMotion": false,
+    "visibility": "visible",
+    "physicalScanout": "NOT_RUN"
+  },
+  "before": null,
+  "after": null,
+  "steps": [],
+  "failures": [
+    "Canvas fallback is active; no live MapLibre instance exists for a style-reload check."
+  ],
+  "meaning": "Actual MapLibre style reloads, visible-tile readiness and owned-resource counts. Heap/GPU memory leak certification and physical hardware remain NOT_RUN."
+}
